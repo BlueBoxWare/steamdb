@@ -5219,7 +5219,7 @@
     "steam_appid": 2648600,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A GameBoy-style arcade game, abduct cows to increase your score!",
+    "short_description": "An arcade style game, abduct cows to increase your score!",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2648600/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2648600/capsule_231x87.jpg",
@@ -5231,7 +5231,20 @@
     "publishers": [
       "Baobeld"
     ],
-    "package_groups": [],
+    "packages": [
+      949424
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cowpocalypse",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5246,9 +5259,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 15
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "25 Nov, 2023"
     },
     "support_info": {
       "url": "",
