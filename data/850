@@ -4969,8 +4969,7 @@
     "steam_appid": 2551740,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
-    "short_description": "A fun arcade racing game in a low poly style. Choose from 3 cars and 9 tracks to race against your friends and the AI or try your hand at setting the fastest laps times on the Steam leaderboards.",
+    "short_description": "A fun arcade racing game in a low poly style. Choose from 3 cars and 9 tracks to race against your friends or try your hand at setting the fastest laps times on the Steam leaderboards.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2551740/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2551740/capsule_231x87.jpg",
@@ -4982,7 +4981,20 @@
     "publishers": [
       "Speed Moose Games"
     ],
-    "package_groups": [],
+    "packages": [
+      916613
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Tiny Touring Cars",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4992,20 +5004,25 @@
       1,
       2,
       9,
+      18,
       24,
       25,
-      28,
+      37,
       39,
-      44
+      44,
+      49
     ],
     "genres": [
       4,
       9,
       23
     ],
+    "achievements": {
+      "total": 0
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "11 Dec, 2023"
     },
     "support_info": {
       "url": "",
@@ -6501,7 +6518,7 @@
       70
     ],
     "achievements": {
-      "total": 28
+      "total": 32
     },
     "release_date": {
       "coming_soon": false,
@@ -7104,6 +7121,12 @@
     ],
     "publishers": [
       "derrx_o Games"
+    ],
+    "demos": [
+      {
+        "appid": 2557350,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
