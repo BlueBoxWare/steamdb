@@ -2799,8 +2799,9 @@
     "steam_appid": 2597080,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Realm of Ink is an Ink-style action Roguelite game. The heroine, Red, unexpectedly discovers she is just a fictional character within the short story collection Realm of Ink when hunting the Fox. Only by unlocking the dark secrets will she defy her own destined path.",
-    "supported_languages": "English, Simplified Chinese, Traditional Chinese",
+    "supported_languages": "English, Simplified Chinese<strong>*</strong>, Traditional Chinese, Russian, Japanese, Swedish, Finnish<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2597080/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2597080/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2597080/capsule_184x69.jpg",
@@ -2820,7 +2821,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      28
     ],
     "genres": [
       1,
@@ -3652,7 +3654,20 @@
     "publishers": [
       "Onu Games"
     ],
-    "package_groups": [],
+    "packages": [
+      931774
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Lycans",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3671,8 +3686,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "4 Dec, 2023"
     },
     "support_info": {
       "url": "",
@@ -3962,8 +3977,14 @@
     "publishers": [
       "Reflection Frequency"
     ],
+    "demos": [
+      {
+        "appid": 2713240,
+        "description": ""
+      }
+    ],
     "packages": [
-      950942
+      931897
     ],
     "package_groups": [
       {
@@ -4632,6 +4653,9 @@
       "mac": false,
       "linux": false
     },
+    "categories": [
+      53
+    ],
     "release_date": {
       "coming_soon": false,
       "date": "13 Oct, 2023"
@@ -7445,7 +7469,8 @@
     },
     "categories": [
       2,
-      22
+      22,
+      29
     ],
     "genres": [
       4,
