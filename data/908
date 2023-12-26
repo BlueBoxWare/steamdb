@@ -1711,6 +1711,7 @@
     "steam_appid": 2726230,
     "required_age": 0,
     "is_free": true,
+    "controller_support": "full",
     "short_description": "Climb from the Earth to the Moon to try and solve an urban legend! Brave tough challenges as you float and grapple your way up to the tune of a great soundtrack! Be sure to bring a space suit, and get climbing!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2726230/header.jpg",
@@ -1729,17 +1730,20 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
       17,
-      18,
       22,
+      23,
+      28,
       30
     ],
     "genres": [
-      1
+      1,
+      4,
+      23
     ],
     "release_date": {
       "coming_soon": true,
@@ -2744,11 +2748,24 @@
     "publishers": [
       "AMGames TC"
     ],
-    "package_groups": [],
+    "packages": [
+      975427
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy XMas Toy Merge",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
@@ -2758,9 +2775,12 @@
     "genres": [
       4
     ],
+    "achievements": {
+      "total": 7
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "18 Dec, 2023"
+      "coming_soon": false,
+      "date": "24 Dec, 2023"
     },
     "support_info": {
       "url": "https://www.amgamestc.com/contact",
@@ -4910,7 +4930,9 @@
     },
     "categories": [
       2,
-      22
+      15,
+      22,
+      23
     ],
     "genres": [
       23,
@@ -4992,7 +5014,7 @@
     "steam_appid": 2726490,
     "required_age": 0,
     "is_free": false,
-    "short_description": "You come home for a annual family reunion, only to find your family missing with an eerie note left by your father. After you discover what has happened you SEEK REVENGE!",
+    "short_description": "You come home for an annual family reunion, only to find your family missing with an eerie note left by your father. After you discover what has happened you SEEK REVENGE!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2726490/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2726490/capsule_231x87.jpg",
@@ -5021,7 +5043,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "4 Jan, 2024"
+      "date": "31 Dec, 2023"
     },
     "support_info": {
       "url": "https://discord.gg/hamuno",
@@ -5031,7 +5053,6 @@
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2726490/page.bg.jpg",
     "content_descriptors": {
       "ids": [
-        1,
         2,
         5
       ],
@@ -5071,7 +5092,7 @@
       10
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "22 Dec, 2023"
     },
     "support_info": {

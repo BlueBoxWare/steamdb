@@ -759,7 +759,7 @@
     "type": "dlc",
     "name": "Warframe: Celestial Heirloom Collection",
     "steam_appid": 2557060,
-    "required_age": "18",
+    "required_age": "17",
     "is_free": false,
     "controller_support": "full",
     "short_description": "Honor these venerated Warframes who have fought alongside the Tenno since the dawn of their awakening. The Celestial Heirloom Collection includes the Frost Heirloom Skin, Mag Heirloom Skin, their matching Signas, as well as Regal Aya.",
@@ -1146,7 +1146,7 @@
       "date": "23 Oct, 2023"
     },
     "support_info": {
-      "url": "https://sfbgames.com",
+      "url": "",
       "email": "support@sfbgames.com"
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2556780/page_bg_generated_v6b.jpg",
@@ -1799,7 +1799,20 @@
     "publishers": [
       "Trident"
     ],
-    "package_groups": [],
+    "packages": [
+      918421
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy The Intruder",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1811,9 +1824,12 @@
     "genres": [
       25
     ],
+    "achievements": {
+      "total": 0
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "18 Nov, 2023"
     },
     "support_info": {
       "url": "",
@@ -4554,7 +4570,7 @@
     "type": "dlc",
     "name": "Warframe: Risen Heirloom Collection",
     "steam_appid": 2557050,
-    "required_age": "18",
+    "required_age": "17",
     "is_free": false,
     "controller_support": "full",
     "short_description": "Exalt in your first impression. The Risen Heirloom Collection includes a Sigil, Glyph, Emote, and Color Palette that celebrate ten years of Tenno valor.",
@@ -5983,7 +5999,7 @@
     "type": "dlc",
     "name": "Warframe: Zenith Heirloom Collection",
     "steam_appid": 2557070,
-    "required_age": "18",
+    "required_age": "17",
     "is_free": false,
     "controller_support": "full",
     "short_description": "Honor the ancient bond between Warframes and the Tenno. The Zenith Heirloom Collection combines the Risen and Celestial Heirloom Collections.",
@@ -7396,7 +7412,7 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
