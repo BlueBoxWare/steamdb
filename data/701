@@ -720,7 +720,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Battle your friends in zero gravity.",
+    "short_description": "Grab your friends and jump into an action pack arena battle in zero gravity! SpaceBoots is multi player twin stick action shooter. Use your boot magnets to stick to a wall, then push off and fly across the room, dodging incoming fire and unleashing destruction on your opponents.",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2104390/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2104390/capsule_231x87.jpg",
@@ -730,20 +730,36 @@
       "Bjorn Hansen"
     ],
     "publishers": [
-      "Bjorn Hansen"
+      "Papa Bear Games"
     ],
-    "package_groups": [],
+    "packages": [
+      752091
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy SpaceBoots",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
-      "linux": true
+      "linux": false
     },
     "categories": [
       1,
       2,
+      9,
       24,
       28,
       37,
+      39,
+      43,
       44,
       49
     ],
@@ -753,8 +769,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "3 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -6548,12 +6564,16 @@
   },
   "2105610": {
     "type": "game",
-    "name": "Lost in the Void",
+    "name": "Lost in the Void : Chapter One",
     "steam_appid": 2105610,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "controller_support": "full",
-    "short_description": "Rediscover the magic of your childhood dreams with Lost in the Void, an immersive isometric pixel art adventure infused with RPG elements inspired by the nostalgic era of the 80s. Coming soon.",
+    "dlc": [
+      2723780,
+      2733730
+    ],
+    "short_description": "Rediscover the magic of your childhood dreams with Lost in the Void, an immersive isometric pixel art adventure infused with RPG elements inspired by the nostalgic era of the 80s.",
     "supported_languages": "English, Slovak",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2105610/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2105610/capsule_231x87.jpg",
@@ -6565,7 +6585,20 @@
     "publishers": [
       "Nightcall"
     ],
-    "package_groups": [],
+    "packages": [
+      752658
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Lost in the Void : Chapter One",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6573,6 +6606,7 @@
     },
     "categories": [
       2,
+      22,
       28
     ],
     "genres": [
@@ -6581,9 +6615,12 @@
       25,
       37
     ],
+    "achievements": {
+      "total": 17
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "6 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -8219,7 +8256,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "A minimal skateboarding game about momentum, interconnected by many courses and rifts.",
+    "short_description": "A minimal skateboarding game about momentum, transition flow, and huge air time.",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2103940/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2103940/capsule_231x87.jpg",
@@ -8230,6 +8267,12 @@
     ],
     "publishers": [
       "Mt.Zero Software"
+    ],
+    "demos": [
+      {
+        "appid": 2720160,
+        "description": ""
+      }
     ],
     "packages": [
       751961
@@ -8251,16 +8294,18 @@
       "linux": true
     },
     "categories": [
+      1,
       2,
       22,
-      28
+      28,
+      30
     ],
     "genres": [
       18,
       23
     ],
     "achievements": {
-      "total": 15
+      "total": 18
     },
     "release_date": {
       "coming_soon": false,
