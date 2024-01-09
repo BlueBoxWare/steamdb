@@ -203,7 +203,7 @@
     "steam_appid": 2534020,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A fast-paced single player ARPG game with different classes, random dungeons and AI team members. Various game modes like Random Dungeon, Defend Enemy Tides and Boss Challenge make it replayable.",
+    "short_description": "Play different classes, explore dungeons with AI teammates, defeat enemies and bosses, collect a variety of gear, and build and upgrade your own Home City.",
     "supported_languages": "English<strong>*</strong>, French, Japanese, Simplified Chinese, Traditional Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2534020/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2534020/capsule_231x87.jpg",
@@ -1262,6 +1262,7 @@
     "steam_appid": 2534930,
     "required_age": 0,
     "is_free": true,
+    "controller_support": "full",
     "short_description": "A feel-good 2D platformer where you play as a councillor to a rural farming district in New Zealand! Solve problems, meet the public, and become MAYOR in this hilarious, story-rich adventure.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2534930/header.jpg",
@@ -1275,14 +1276,23 @@
     "publishers": [
       "Indever Games"
     ],
+    "demos": [
+      {
+        "appid": 2699700,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      15,
+      22,
+      28
     ],
     "genres": [
       3,
@@ -1292,7 +1302,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q1 2024"
+      "date": "Q2 2024"
     },
     "support_info": {
       "url": "",
@@ -1789,7 +1799,7 @@
       "appid": "2440650",
       "name": "Cosmic Carnage"
     },
-    "supported_languages": "English",
+    "supported_languages": "English, French, Italian, Spanish - Spain, Spanish - Latin America",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2534910/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2534910/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2534910/capsule_184x69.jpg",
@@ -1811,10 +1821,11 @@
       10,
       22,
       23,
+      25,
       28
     ],
     "achievements": {
-      "total": 8
+      "total": 12
     },
     "release_date": {
       "coming_soon": false,
@@ -4939,7 +4950,7 @@
   },
   "2534060": {
     "type": "game",
-    "name": "Qix: Xonix Casual Edition",
+    "name": "Xonix Casual Edition",
     "steam_appid": 2534060,
     "required_age": 0,
     "is_free": false,
@@ -4961,7 +4972,7 @@
     "package_groups": [
       {
         "name": "default",
-        "title": "Buy Qix: Xonix Casual Edition",
+        "title": "Buy Xonix Casual Edition",
         "description": "",
         "selection_text": "Select a purchase option",
         "save_text": "",
@@ -6903,29 +6914,7 @@
     "required_age": 0,
     "is_free": true,
     "dlc": [
-      2581800,
-      2581840,
-      2581870,
-      2647240,
-      2647250,
-      2647260,
-      2647270,
-      2647280,
-      2647290,
-      2647310,
-      2647320,
-      2647330,
-      2647340,
-      2647370,
-      2647380,
-      2647390,
-      2647400,
-      2647410,
-      2647420,
-      2647430,
-      2647440,
-      2647450,
-      2647460
+      2647290
     ],
     "short_description": "In a world not too dissimilar from ours, social media has rotted minds of the masses turning them into zombies driven by a primal urge to be the most insufferable versions of themselves whilst feasting on brains of the rest of humanity. Who will defeat these social stereotypes? It can only be Chad.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
