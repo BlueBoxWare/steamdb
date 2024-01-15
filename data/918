@@ -455,7 +455,7 @@
     "short_description": "",
     "fullgame": {
       "appid": "2755240",
-      "name": "Uninitialized"
+      "name": "DESCENT"
     },
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2756010/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2756010/capsule_231x87.jpg",
@@ -490,7 +490,7 @@
       "ids": [
         5
       ],
-      "notes": null
+      "notes": "The game features small amounts of blood, with references to death."
     }
   },
   "2755860": {
@@ -2412,15 +2412,28 @@
     "publishers": [
       "HOONDAHL Media Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      985409
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Beginning of the Rain Extra Soundtrack",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
       "linux": true
     },
     "release_date": {
-      "coming_soon": true,
-      "date": "7 Jan, 2024"
+      "coming_soon": false,
+      "date": "8 Jan, 2024"
     },
     "support_info": {
       "url": "https://www.youtube.com/@hoondahl",
@@ -2490,6 +2503,8 @@
     "required_age": 0,
     "is_free": true,
     "dlc": [
+      2774640,
+      2771950,
       2765550,
       2765560,
       2765570
@@ -2513,7 +2528,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      22
     ],
     "genres": [
       2,
@@ -2827,7 +2843,7 @@
     "short_description": "Demo for Coupling - a puzzle platformer game where you control 2 characters chained together in a link.",
     "fullgame": {
       "appid": "2753220",
-      "name": "Uninitialized"
+      "name": "Coupling"
     },
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2756140/header.jpg",
@@ -2852,8 +2868,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "18 Jan, 2024"
+      "coming_soon": false,
+      "date": "12 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -5049,6 +5065,60 @@
         5
       ],
       "notes": "Blood splatter and weapon damage effects are shown whenever survivor or enemy cards are attacked. "
+    }
+  },
+  "2755820": {
+    "type": "game",
+    "name": "How Old is James?",
+    "steam_appid": 2755820,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "How Old is James is a 2.5D puzzle platformer. Three characters with unique abilities traverse levels. The environment is in the shape of hollow polygonal cylinders full of memories. The story examines the psyche via artificial intelligence. It attempts to answer the question of what makes us human.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2755820/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2755820/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2755820/capsule_184x69.jpg",
+    "website": "http://turingstudio.eu/how-old-is-james",
+    "developers": [
+      "Turing Studio Ltd"
+    ],
+    "publishers": [
+      "Turing Studio Ltd"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      24,
+      28,
+      39,
+      44,
+      61
+    ],
+    "genres": [
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q4 2025"
+    },
+    "support_info": {
+      "url": "https://turingstudio.eu/contact",
+      "email": "contact@turingstudio.eu"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2755820/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2755820/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }
