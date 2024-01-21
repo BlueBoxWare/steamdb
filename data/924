@@ -1526,7 +1526,7 @@
     "steam_appid": 2774640,
     "required_age": 0,
     "is_free": false,
-    "short_description": "This DLC extends the game with Price History of the last 7 Days.",
+    "short_description": "Extend the base game with Price History of the last 7 days.",
     "fullgame": {
       "appid": "2754770",
       "name": "dont\ud83d\udd25red: SIM\ud83d\udcbeTrading"
@@ -1542,7 +1542,20 @@
     "publishers": [
       "DeltaSoft d.o.o."
     ],
-    "package_groups": [],
+    "packages": [
+      991735
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy dont\ud83d\udd25red: SIM\ud83d\udcbeHistory+",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1559,8 +1572,8 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "22 Jan, 2024"
+      "coming_soon": false,
+      "date": "21 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -3013,15 +3026,28 @@
     "publishers": [
       "SparkyTailGames"
     ],
-    "package_groups": [],
+    "packages": [
+      991451
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Undercat Soundtrack",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
       "linux": true
     },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "20 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -3536,8 +3562,8 @@
     "steam_appid": 2774380,
     "required_age": 0,
     "is_free": false,
-    "short_description": "An Endless Hospital. Can you reach the floor 666?",
-    "supported_languages": "English",
+    "short_description": "The Scariest Endless Hospital. Can you find the Weirdest Anomaly? What will you found on Floor 666?",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Russian, Japanese, Simplified Chinese, Traditional Chinese, Portuguese - Portugal<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2774380/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2774380/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2774380/capsule_184x69.jpg",
@@ -3558,6 +3584,7 @@
       1,
       2,
       9,
+      23,
       38
     ],
     "genres": [
@@ -3575,8 +3602,10 @@
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2774380/page_bg_generated_v6b.jpg",
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2774380/page.bg.jpg",
     "content_descriptors": {
-      "ids": [],
-      "notes": "This is a horror game with a certain level of mature content.\r\nThe elements included in this game are:\r\nBlood, Ghost."
+      "ids": [
+        5
+      ],
+      "notes": "This is a horror game with a certain level of mature content.\r\nThe elements included in this game are:\r\nBlood, Ghost, Jump scare."
     }
   },
   "2774050": {
@@ -4450,7 +4479,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      22
     ],
     "genres": [
       1,
