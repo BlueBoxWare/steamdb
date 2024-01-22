@@ -105,6 +105,7 @@
     "steam_appid": 2739620,
     "required_age": 0,
     "is_free": true,
+    "controller_support": "full",
     "short_description": "In this small visual novel, lay down and relax with Sakuya Izayoi. Talk to her, kiss her or just simply enjoy each other's presence! Chose between 3 different locations featuring stunning artwork in this Touhou Project Fangame.",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2739620/header.jpg",
@@ -124,14 +125,15 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      28
     ],
     "genres": [
       4
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "12 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -196,14 +198,14 @@
   },
   "2739010": {
     "type": "demo",
-    "name": "Endless Furry Tower Defense Demo",
+    "name": "Endless Furry TD - Tower Defense Demo",
     "steam_appid": 2739010,
     "required_age": 0,
     "is_free": true,
     "short_description": "Slaughter furries before they destroy your base! Get upgrades and climb leaderboards to be the best!",
     "fullgame": {
       "appid": "2656740",
-      "name": "Endless Furry Tower Defense"
+      "name": "Endless Furry TD - Tower Defense"
     },
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2739010/header.jpg",
@@ -278,7 +280,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "31 Jan, 2024"
     },
     "support_info": {
       "url": "www.necrocaticgames.com",
@@ -372,8 +374,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "17 Jan, 2024"
     },
     "support_info": {
       "url": "https://uradaybreak2.wixsite.com/akatsuki",
@@ -1768,7 +1770,20 @@
     "publishers": [
       "\u4e0d\u7720\u9e1f\u5236\u4f5c\u7ec4"
     ],
-    "package_groups": [],
+    "packages": [
+      980672
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u5438\u8840\u9b3c\u4e0e\u4e0b\u5348\u8336 Vampires and Afternoon Tea",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1782,8 +1797,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "11 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -2475,7 +2490,7 @@
     "required_age": 0,
     "is_free": true,
     "short_description": "Time to Morp: First Contact is an introductory colony sim game in which you take care of playful creatures - Morps. Use their help to gather resources, build and decorate a base, set up pipe networks, automate everything and clear corruption that is endangering local creatures.",
-    "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Simplified Chinese, Traditional Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2741290/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2741290/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2741290/capsule_184x69.jpg",
@@ -2497,9 +2512,7 @@
       2,
       9,
       22,
-      23,
-      38,
-      48
+      23
     ],
     "genres": [
       4,
