@@ -320,7 +320,12 @@
     "steam_appid": 2743080,
     "required_age": 0,
     "is_free": true,
-    "short_description": "Join the serious cats. The jokes are over, only money, cash, cat food, fish and other serious stuff is next. Cats in cylinders and other important tails are waiting for you! You'll need to find them all and not miss a single one. Keep an eye on the number of Capitalist cats if you want to win.",
+    "dlc": [
+      2779640,
+      2779650,
+      2779660
+    ],
+    "short_description": "\ud83d\udc31\ud83d\udcbc 100 Capitalist Cats - Join the cutest adventure in the Wall Street! \ud83d\ude3b\ud83d\udcb0\ud83d\udcb5 Explore the charming hand-drawn artwork of New York, heart of Capitalism, as you embark on a quest to find 100 adorable cats hidden throughout the game. \ud83d\udd75\ufe0f\u200d\u2642\ufe0f\u274c Can you find them all? \ud83d\udd75\ufe0f\u200d\u2642\ufe0f\ud83d\udc08\u2705",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Portuguese - Brazil, Hungarian, Vietnamese, Greek, Danish, Indonesian, Spanish - Latin America, Traditional Chinese, Simplified Chinese, Korean, Dutch, Norwegian, Polish, Portuguese - Portugal, Romanian, Russian, Thai, Turkish, Ukrainian, Finnish, Czech, Swedish, Japanese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2743080/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2743080/capsule_231x87.jpg",
@@ -339,15 +344,27 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      22,
+      35
     ],
     "genres": [
+      1,
+      2,
+      3,
       4,
-      23
+      18,
+      23,
+      25,
+      28,
+      37
     ],
+    "achievements": {
+      "total": 100
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q1 2024"
+      "coming_soon": false,
+      "date": "21 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -789,6 +806,9 @@
     "steam_appid": 2742480,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      2743010
+    ],
     "short_description": "Step into the world of Index-0, and experience a thrill-fueled mercenary life like no other! With fast-paced, chaotic scenarios, you'll need to keep your wits about you to stay in the game. Make use of the equipment and perks at your disposal, and create your own unique style to control the chaos.",
     "supported_languages": "English<strong>*</strong>, Russian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2742480/header.jpg",
@@ -1520,8 +1540,7 @@
       "linux": false
     },
     "categories": [
-      2,
-      22
+      2
     ],
     "genres": [
       1,
@@ -1530,7 +1549,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q1 2024"
+      "date": "13 Feb, 2024"
     },
     "support_info": {
       "url": "https://galactic-crows.com",
@@ -2231,7 +2250,7 @@
     "steam_appid": 2743380,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Enjoy a lovely book in a printable PDF file with activities to relax, featuring illustrations from New Year theme in Meow Moments: Celebrating Together. Let's remind New Year celebration! Plus: unlock an extra minigame in the main game.",
+    "short_description": "Enjoy a lovely book in a printable PDF file with activities to relax, featuring New Year illustrations from &quot;Meow Moments: Celebrating Together&quot;. Let's remember the New Year celebration! Plus: unlock an extra minigame in the main game.",
     "fullgame": {
       "appid": "2647300",
       "name": "Meow Moments: Celebrating Together"
@@ -2247,7 +2266,20 @@
     "publishers": [
       "Mens Sana Interactive"
     ],
-    "package_groups": [],
+    "packages": [
+      981429
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Meow Moments: New Year Activity Book",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -2262,8 +2294,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "January 2024"
+      "coming_soon": false,
+      "date": "22 Jan, 2024"
     },
     "support_info": {
       "url": "menssanainteractive.com",
@@ -2540,7 +2572,7 @@
       "ids": [
         5
       ],
-      "notes": "Blood Scene , Violence Off-Scene"
+      "notes": "Adult content includes a few illustrations of underwear on screen and mention about violence and killing off screen.\r\n\r\nCharacter expose skin on Main Menu background."
     }
   },
   "2742920": {
@@ -3491,8 +3523,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "15 Jan, 2024"
     },
     "support_info": {
       "url": "https://www.linkedin.com/in/yuze-wang-4a9393236/",
@@ -3636,7 +3668,7 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2
@@ -4578,7 +4610,20 @@
     "publishers": [
       "Husk"
     ],
-    "package_groups": [],
+    "packages": [
+      981143
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Shard Shuffle",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4591,9 +4636,12 @@
     "genres": [
       2
     ],
+    "achievements": {
+      "total": 25
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "January 2024"
+      "coming_soon": false,
+      "date": "23 Jan, 2024"
     },
     "support_info": {
       "url": "",
