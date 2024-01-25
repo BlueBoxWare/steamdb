@@ -2883,7 +2883,7 @@
     "name": "Law of Dispute",
     "steam_appid": 2744410,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "&quot;The Law of Dispute&quot; is a medieval realistic style auto chess + card type roguelike strategy game, building a deck of light strategy auto chess card battles on a 3 * 2 battlefield and achieving the final victory!",
     "supported_languages": "English, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2744410/header.jpg",
@@ -3890,8 +3890,9 @@
     "steam_appid": 2744170,
     "required_age": 0,
     "is_free": true,
-    "short_description": "On the continent of aurorium, which was invaded by the Demon King of the Void, the heroes obtained artifacts through various ways, defeated a large number of enemies, and continuously improved their power to finally defeat the Demon King and save the world.",
-    "supported_languages": "English, Simplified Chinese, German, Spanish - Spain, Russian, Japanese, Traditional Chinese, Portuguese - Brazil, Portuguese - Portugal, Spanish - Latin America, Korean",
+    "controller_support": "full",
+    "short_description": "Artifact Seeker is a 3D Roguelike Survivor RPG game. Aurorium continent is just a board of gods game. You can obtain artifacts by slaying enemies. How to use the power of artifacts, to play the game of gods? To end the game ? Or just be a god yourself. Artifact Seeker, Your choice.",
+    "supported_languages": "English, Simplified Chinese, French, German, Spanish - Spain, Russian, Japanese, Traditional Chinese, Portuguese - Brazil, Portuguese - Portugal, Spanish - Latin America, Korean",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2744170/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2744170/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2744170/capsule_184x69.jpg",
@@ -3912,14 +3913,19 @@
       2,
       15,
       22,
-      25
+      23,
+      25,
+      28
     ],
     "genres": [
       1
     ],
+    "achievements": {
+      "total": 31
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "15 Jan, 2024"
+      "coming_soon": false,
+      "date": "16 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -4844,7 +4850,7 @@
   },
   "2744310": {
     "type": "demo",
-    "name": "Potato Arena: Multiplayer Demo",
+    "name": "Potato Arena Demo",
     "steam_appid": 2744310,
     "required_age": 0,
     "is_free": true,
@@ -4884,9 +4890,12 @@
       44,
       49
     ],
+    "achievements": {
+      "total": 4
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "12 Jan, 2024"
     },
     "support_info": {
       "url": "https://www.erikgames.com/en/",
@@ -5036,7 +5045,20 @@
     "publishers": [
       "NOARON"
     ],
-    "package_groups": [],
+    "packages": [
+      981170
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Death Penalty Hero \u6b7b\u5211\u52c7\u8005",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5051,8 +5073,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "22 Jan, 2024"
+      "coming_soon": false,
+      "date": "23 Jan, 2024"
     },
     "support_info": {
       "url": "https://www.patreon.com/noahon",
@@ -7632,6 +7654,110 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "2742470": {
+    "type": "demo",
+    "name": "My Daily Pets Demo",
+    "steam_appid": 2742470,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "&quot;My Daily Pets&quot; is a game where you care for alien pets and uncover their secrets. Feed them, play, train, and dance. Investigate their origins, document findings, and bond with these adorable extraterrestrial companions!",
+    "fullgame": {
+      "appid": "2223760",
+      "name": "My Daily Pets"
+    },
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Catalan<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2742470/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2742470/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2742470/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Jellyworld Games"
+    ],
+    "publishers": [
+      "Jellyworld Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      10
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "2024"
+    },
+    "support_info": {
+      "url": "https://es.linkedin.com/company/jellyworld",
+      "email": "info@jellyworld.games"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2742470/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2742470/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "2742540": {
+    "type": "demo",
+    "name": "CYGNI Demo",
+    "steam_appid": 2742540,
+    "required_age": 0,
+    "is_free": true,
+    "controller_support": "full",
+    "short_description": "An unrelenting onslaught of eye-popping visuals, ear bursting soundscapes and mind-melting action makes CYGNI the vanguard for the next generation of Shoot-em Ups. Outgunned and outmanned, plunge into a sky teeming with danger in a last-ditch battle for survival.",
+    "fullgame": {
+      "appid": "1248080",
+      "name": "CYGNI: All Guns Blazing"
+    },
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Japanese<strong>*</strong>, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America<strong>*</strong>, Traditional Chinese<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2742540/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2742540/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2742540/capsule_184x69.jpg",
+    "website": "https://www.cygnigame.com",
+    "developers": [
+      "KeelWorks"
+    ],
+    "publishers": [
+      "KONAMI"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      10,
+      24,
+      28,
+      39,
+      44
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "25 Jan, 2024"
+    },
+    "support_info": {
+      "url": "https://www.konami.com/games/inquiry/",
+      "email": ""
+    },
+    "background": "",
+    "background_raw": "",
+    "content_descriptors": {
+      "ids": [
+        1,
+        5
+      ],
+      "notes": "Explosion and scenes that may be considered mature. Partial nudity "
     }
   }
 }
