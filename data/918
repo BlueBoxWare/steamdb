@@ -699,7 +699,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "February 2024"
+      "date": "16 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -1224,7 +1224,20 @@
     "publishers": [
       "rentaka"
     ],
-    "package_groups": [],
+    "packages": [
+      985920
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy The Glitch Prison",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1239,9 +1252,12 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 11
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "15 Jan, 2024"
+      "coming_soon": false,
+      "date": "16 Jan, 2024"
     },
     "support_info": {
       "url": "https://twitter.com/rerererereb",
@@ -1272,7 +1288,20 @@
     "publishers": [
       "RazDva Games"
     ],
-    "package_groups": [],
+    "packages": [
+      985892
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy What's Up There?",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1289,8 +1318,11 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 4
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "17 Jan, 2024"
     },
     "support_info": {
@@ -1364,12 +1396,12 @@
   },
   "2755330": {
     "type": "game",
-    "name": "\u0421\u043b\u043e\u0432\u043e \u0427\u0443\u0448\u043d\u0430\u043f\u0430",
+    "name": "Chushpan Simulator",
     "steam_appid": 2755330,
     "required_age": 0,
     "is_free": false,
     "short_description": "A game in which you have to go from an insignificant person to the king of the world",
-    "supported_languages": "English, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2755330/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2755330/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2755330/capsule_184x69.jpg",
@@ -5123,6 +5155,9 @@
     "steam_appid": 2755980,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      2761280
+    ],
     "short_description": "An otome visual novel about a librarian and a pop star without a head.",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2755980/header.jpg",
@@ -5143,7 +5178,8 @@
     },
     "categories": [
       2,
-      22
+      22,
+      23
     ],
     "genres": [
       25,
@@ -5191,7 +5227,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      22
     ],
     "genres": [
       23
@@ -6509,6 +6546,53 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "2755220": {
+    "type": "demo",
+    "name": "Slyders Demo",
+    "steam_appid": 2755220,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "",
+    "fullgame": {
+      "appid": "2607870",
+      "name": "Slyders"
+    },
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2755220/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2755220/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2755220/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Kato Games"
+    ],
+    "publishers": [
+      "Kato Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      10
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "30 Jan, 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": "kato@katogames.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2755220/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2755220/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "Sliders contains cartoon violence mainly against demons and fantasy creatures with blood from a first-person perspective."
     }
   }
 }
