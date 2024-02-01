@@ -1245,7 +1245,7 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -3889,7 +3889,20 @@
     "publishers": [
       "Schwan OG"
     ],
-    "package_groups": [],
+    "packages": [
+      980303
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy OG Memory: Winter 2K23",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3902,9 +3915,12 @@
     "genres": [
       4
     ],
+    "achievements": {
+      "total": 100
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "23 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -5944,6 +5960,53 @@
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2741600/page_bg_generated_v6b.jpg",
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2741600/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "2739950": {
+    "type": "demo",
+    "name": "Tales of Kenzera\u2122: ZAU Demo",
+    "steam_appid": 2739950,
+    "required_age": 0,
+    "is_free": true,
+    "controller_support": "full",
+    "short_description": "",
+    "fullgame": {
+      "appid": "2316580",
+      "name": "Tales of Kenzera\u2122: ZAU"
+    },
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2739950/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2739950/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2739950/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Surgent Studios"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      10,
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "1 Feb, 2024"
+    },
+    "support_info": {
+      "url": "https://help.ea.com/",
+      "email": ""
+    },
+    "background": "",
+    "background_raw": "",
     "content_descriptors": {
       "ids": [],
       "notes": null
