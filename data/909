@@ -700,7 +700,7 @@
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2727390/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Pocketpair"
+      "Frontside 180"
     ],
     "publishers": [
       "Pocketpair"
@@ -717,7 +717,7 @@
       18
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "25 Jan, 2024"
     },
     "support_info": {
@@ -1697,6 +1697,7 @@
     "steam_appid": 2727020,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "She was proposed to by the Orc Prince. A goverment fearful of war with the Orc Empire decided to hand her over and placed a hefty bounty on her. In this world, everyone is an enemy. Fight and keep on fighting.",
     "supported_languages": "English, Korean, Japanese, German, Russian, Spanish - Spain, Simplified Chinese, French, Traditional Chinese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2727020/header.jpg",
@@ -1725,12 +1726,13 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
-      22
+      22,
+      28
     ],
     "genres": [
       1,
@@ -2250,7 +2252,7 @@
     "steam_appid": 2727350,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Dodge, attack, face thousand of enemies and level-up to survive. 27 weapons with 11 different main attacks and more than 50 equipment. Customize your starter character and face hundreds of enemies rushing to you while you level-up and boost your stats or pick passive attacks.",
+    "short_description": "Skirt, attack, face thousands of enemies and level-up to survive. 27 weapons with 11 different main attacks and more than 70 equipment. Customize your starter character and dodge hundreds of enemies rushing to you while you level-up and boost your stats or pick passive attacks.",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2727350/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2727350/capsule_231x87.jpg",
@@ -2262,23 +2264,40 @@
     "publishers": [
       "Maekow"
     ],
-    "package_groups": [],
+    "packages": [
+      976048
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Arlo",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      22
     ],
     "genres": [
       1,
       4,
       23
     ],
+    "achievements": {
+      "total": 25
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "12 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -5373,7 +5392,7 @@
     "required_age": 0,
     "is_free": true,
     "short_description": "Manage a team of traveling gladiators in this turn-based fantasy roguelike. Find the best recruits, tinker with unique items and discover clever tactics on the battlefield. The tournament awaits those who desire MORTAL GLORY!",
-    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Finnish<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Simplified Chinese<strong>*</strong>, Turkish<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Finnish<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Simplified Chinese<strong>*</strong>, Turkish<strong>*</strong>, Portuguese - Brazil<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2728910/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2728910/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2728910/capsule_184x69.jpg",
@@ -5401,7 +5420,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "22 Jan, 2024"
     },
     "support_info": {
@@ -7376,6 +7395,59 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "2729480": {
+    "type": "game",
+    "name": "NightClub Simulator",
+    "steam_appid": 2729480,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "seduce girls or get into fights, you can do anythings in virtual night club that you can't do in real life.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2729480/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2729480/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2729480/capsule_184x69.jpg",
+    "website": "https://mandegames.com/",
+    "developers": [
+      "mandegames"
+    ],
+    "publishers": [
+      "mandegames"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      54
+    ],
+    "genres": [
+      1,
+      23,
+      28,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://mandegames.com/",
+      "email": "me@mandegames.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2729480/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2729480/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [
+        1,
+        2,
+        5
+      ],
+      "notes": "The game includes random killing, blood, dismemberment, striptease, kissing, and NPCS taking drugs."
     }
   }
 }

@@ -53,7 +53,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Minesweeper but the rules are changing, again.",
-    "supported_languages": "English, Simplified Chinese",
+    "supported_languages": "English, Simplified Chinese, Traditional Chinese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2631960/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2631960/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2631960/capsule_184x69.jpg",
@@ -65,6 +65,12 @@
     "publishers": [
       "Artless Games"
     ],
+    "demos": [
+      {
+        "appid": 2783430,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -73,7 +79,8 @@
     },
     "categories": [
       2,
-      22
+      22,
+      23
     ],
     "genres": [
       4
@@ -1049,23 +1056,36 @@
   },
   "2631220": {
     "type": "game",
-    "name": "Six Sides Of Obscurity",
+    "name": "Six Sides of Obscurity",
     "steam_appid": 2631220,
     "required_age": 0,
     "is_free": false,
     "short_description": "Six sides of obscurity is a story-based RPG that you can play solo or with a team of up to 4 players. You will have endless build possibilities. Creating a character, increasing passive and active abilities according to class, producing equipment, adding tactical bonuses and runes, etc.",
-    "supported_languages": "English<strong>*</strong>, Thai<strong>*</strong>, Turkish<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Traditional Chinese<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English, Thai, Turkish, French, German, Spanish - Spain, Russian, Simplified Chinese, Traditional Chinese, Japanese, Korean",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2631220/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2631220/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2631220/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://www.kosippy.com/",
     "developers": [
       "Kosippy"
     ],
     "publishers": [
       "Kosippy"
     ],
-    "package_groups": [],
+    "packages": [
+      943646
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Six Sides of Obscurity",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1076,7 +1096,7 @@
       2,
       9,
       22,
-      44,
+      23,
       47,
       48,
       49
@@ -1084,13 +1104,16 @@
     "genres": [
       1,
       2,
+      3,
       23,
-      25,
-      70
+      25
     ],
+    "achievements": {
+      "total": 59
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q1 2024"
+      "coming_soon": false,
+      "date": "11 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -5123,7 +5146,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Hack, slash and shoot your way to glory in this local multiplayer action game! Choose your loadout and take on monsters, other players or puzzling challenges to claim victory! Or, go it solo and take on waves of creeps and hand-crafted dungeons and go for the high score!",
+    "short_description": "Steelbreakers is a breakneck-fast top-down fighter for 1-4 players. Select your arsenal, hack, slash and shoot your way to victory in competitive, cooperative and solo modes. Fend off waves of monsters, defeat your rivals, or work together to explore dungeons and become the ultimate hero!",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2631150/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2631150/capsule_231x87.jpg",
@@ -5135,10 +5158,16 @@
     "publishers": [
       "Talberon Games"
     ],
+    "demos": [
+      {
+        "appid": 2634720,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": true
     },
     "categories": [
@@ -5165,7 +5194,7 @@
       "email": "bugs@talberon.com"
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2631150/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2631150/page.bg.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2631150/page_bg_generated.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
