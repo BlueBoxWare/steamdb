@@ -219,8 +219,8 @@
       44
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "31 Jan, 2024"
+      "coming_soon": false,
+      "date": "29 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -231,6 +231,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2764850": {
@@ -599,7 +617,8 @@
     "steam_appid": 2764070,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Step into the soothing world of Plantabi, a chill sandbox game where you get to pamper and sell adorable indoor plants.",
+    "controller_support": "full",
+    "short_description": "Plantabi is a chill sandbox game where you take care of adorable plants and design the cozy little garden of your dreams!",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2764070/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2764070/capsule_231x87.jpg",
@@ -620,7 +639,8 @@
     "categories": [
       2,
       22,
-      23
+      23,
+      28
     ],
     "genres": [
       2,
@@ -637,10 +657,28 @@
       "email": ""
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2764070/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2764070/page_bg_generated.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2764070/page.bg.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2764630": {
@@ -2266,7 +2304,7 @@
     "required_age": 0,
     "is_free": true,
     "controller_support": "full",
-    "short_description": "Action-roguelite survival in a post-apocalyptic wasteland. Battle mutated fauna, absorb their radioactive guts and mutate yourself to gain new powers. Stave off hunger and thirst by collecting the one critical resource for survival, which is obviously candy.",
+    "short_description": "Ground Zero Hero is an action-roguelite with light survival elements set in a post-apocalyptic wasteland. Battle mutated freaks, absorb their radioactive guts, mutate yourself to gain new powers... and eat a lot of candy.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2765030/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2765030/capsule_231x87.jpg",
@@ -2286,6 +2324,7 @@
     },
     "categories": [
       2,
+      22,
       28
     ],
     "genres": [
@@ -2293,7 +2332,7 @@
       37
     ],
     "achievements": {
-      "total": 1
+      "total": 6
     },
     "release_date": {
       "coming_soon": false,
@@ -2308,6 +2347,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2763320": {
@@ -2646,7 +2703,7 @@
       "appid": "383120",
       "name": "Empyrion - Galactic Survival"
     },
-    "supported_languages": "English, German, French, Russian, Italian, Portuguese - Brazil, Simplified Chinese, Greek",
+    "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2765930/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2765930/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2765930/capsule_184x69.jpg",
@@ -2657,23 +2714,30 @@
     "publishers": [
       "Eleon Game Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      988881
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Empyrion - Galactic Survival: Dark Faction",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      1,
       2,
-      9,
       18,
       21,
-      30,
-      36,
-      38,
-      48,
-      49
+      30
     ],
     "genres": [
       2,
@@ -2682,7 +2746,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "6 Feb, 2024"
     },
     "support_info": {
@@ -2694,6 +2758,22 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "14",
+        "descriptors": "Viol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "14"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2763460": {
@@ -5192,7 +5272,20 @@
     "publishers": [
       "AfoGames"
     ],
-    "package_groups": [],
+    "packages": [
+      988822
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Pyrocast",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5205,8 +5298,8 @@
       4
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "30 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -5217,6 +5310,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2765940": {
@@ -5786,7 +5897,7 @@
     "required_age": 0,
     "is_free": true,
     "short_description": "A multiplayer roguelike about teamwork, survival...and cute animals in space! Play with a few friends or join a streamer's crew of dozens as you work together to battle aliens across the vast Rogue Space.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2765860/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2765860/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2765860/capsule_184x69.jpg",
@@ -5819,8 +5930,8 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q1 2024"
+      "coming_soon": false,
+      "date": "12 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -5831,6 +5942,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2763580": {
@@ -6297,7 +6426,20 @@
     "publishers": [
       "onetake_studio"
     ],
-    "package_groups": [],
+    "packages": [
+      988652
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Surrounding By Ancient Beauties",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6313,9 +6455,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 19
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "February 2024"
+      "coming_soon": false,
+      "date": "14 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -6326,6 +6471,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drogas l\u00edcitas\nConte\u00fado sexual\nViol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Alkohol / Tabak"
+      }
     }
   },
   "2765450": {
@@ -7530,7 +7693,6 @@
     "steam_appid": 2764080,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "&quot;Runestone: Pathfinder&quot; is a 3D adventure platformer game set in the world of Runestone. Players will play as a rookie pathfinder and help the rookie get through his first trial.",
     "supported_languages": "English, Simplified Chinese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2764080/header.jpg",
@@ -7543,7 +7705,20 @@
     "publishers": [
       "DHR Games"
     ],
-    "package_groups": [],
+    "packages": [
+      988293
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Runestone:Pathfinders",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7551,19 +7726,21 @@
     },
     "categories": [
       2,
+      18,
       22,
-      25,
-      28
+      25
     ],
     "genres": [
       1,
-      4,
       23,
       25
     ],
+    "achievements": {
+      "total": 14
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "February 2024"
+      "coming_soon": false,
+      "date": "13 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -7574,6 +7751,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2765460": {
@@ -8248,6 +8443,77 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": ""
+      }
+    }
+  },
+  "2764510": {
+    "type": "game",
+    "name": "The Demon's Exorcism",
+    "steam_appid": 2764510,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "&quot;The Demon's Exorcism&quot; is a first-person psychological horror game that reveals the story of a family trapped in a haunting curse. Immerse yourself in the chilling narrative as you exorcise the demon and break the curse.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2764510/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2764510/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2764510/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Snow Star Games"
+    ],
+    "publishers": [
+      "Snow Star Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      28
+    ],
+    "genres": [
+      1,
+      2,
+      23,
+      25,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://www.snowstargames.com/",
+      "email": "support@snowstargames.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2764510/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2764510/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nMedo\nLinguagem impr\u00f3pria"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Horror"
       }
     }
   }
