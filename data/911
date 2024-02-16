@@ -48,6 +48,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2735830": {
@@ -857,7 +875,7 @@
     "steam_appid": 2733080,
     "required_age": 0,
     "is_free": false,
-    "short_description": "You ever wanted to play a game that try's and gaslights you into being gay? Well I tell you what buddy call me the FBI.",
+    "short_description": "You ever wanted to play a game that tries and gaslights you into being gay? Well I tell you what buddy call me the FBI.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2733080/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2733080/capsule_231x87.jpg",
@@ -869,7 +887,20 @@
     "publishers": [
       "nikkihaleyowo"
     ],
-    "package_groups": [],
+    "packages": [
+      978027
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Is This Gay?",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -882,8 +913,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "16 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -893,9 +924,29 @@
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2733080/page_bg_generated.jpg",
     "content_descriptors": {
       "ids": [
+        1,
+        4,
         5
       ],
       "notes": "I'm having to write this because asking if stuff \"is gay?\" constitutes mature content, based thanks. Here is a slight description of any \"sexual\" content in the game. Some of the questions imply sexual \"content\" without out right saying it. I think there's like 5 bad words in it too."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Linguagem impr\u00f3pria\nConte\u00fado sexual"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Sexuelle Inhalte"
+      }
     }
   },
   "2735260": {
