@@ -8073,6 +8073,7 @@
     "steam_appid": 2655240,
     "required_age": 0,
     "is_free": true,
+    "controller_support": "full",
     "short_description": "",
     "fullgame": {
       "appid": "2515470",
@@ -8097,11 +8098,16 @@
     },
     "categories": [
       2,
-      10
+      10,
+      22,
+      28
     ],
+    "achievements": {
+      "total": 5
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "7 Dec, 2023"
     },
     "support_info": {
       "url": "https://www.instagram.com/doubl2_pixel",
@@ -8112,6 +8118,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2655900": {
@@ -8184,6 +8208,22 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "10",
+        "descriptors": "Viol\u00eancia fantasiosa\r\nViol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "10"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2657820": {
@@ -8256,6 +8296,22 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "10",
+        "descriptors": "Viol\u00eancia fantasiosa\r\nViol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "10"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2655310": {
@@ -8332,11 +8388,73 @@
         5
       ],
       "notes": "Blood and Gore\r\nDrug Reference\r\nIntense Violence\r\nStrong Language\r\nSuggestive Themes\r\nUse of Alcohol"
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "m",
+        "descriptors": "Blood and Gore\r\nDrug Reference\r\nIntense Violence\r\nStrong Language\r\nSuggestive Themes\r\nUse of Alcohol",
+        "interactive_elements": "Users Interact\r\nIn-Game Purchases",
+        "display_online_notice": "true",
+        "required_age": "17",
+        "use_age_gate": "true"
+      },
+      "pegi": {
+        "rating": "18",
+        "descriptors": "Violence\r\nBad Language",
+        "required_age": "18",
+        "use_age_gate": "true"
+      },
+      "usk": {
+        "rating": "18",
+        "required_age": "18",
+        "use_age_gate": "true"
+      },
+      "oflc": {
+        "rating": "ma15",
+        "descriptors": "Strong Violence\r\nOnline interactivity",
+        "required_age": "15",
+        "use_age_gate": "true"
+      },
+      "nzoflc": {
+        "rating": "r16",
+        "descriptors": "Graphic violence &amp; content that may disturb",
+        "required_age": "16",
+        "use_age_gate": "true"
+      },
+      "kgrb": {
+        "rating": "18",
+        "required_age": "18",
+        "use_age_gate": "true"
+      },
+      "csrr": {
+        "rating": "R",
+        "required_age": "18",
+        "use_age_gate": "true"
+      },
+      "crl": {
+        "rating": "18",
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "dejus": {
+        "rating": "16",
+        "descriptors": "Conte\u00fado impactante, Viol\u00eancia Extrema",
+        "required_age": "16",
+        "use_age_gate": "true"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2655040": {
     "type": "game",
-    "name": "Separated worlds",
+    "name": "Separated Worlds",
     "steam_appid": 2655040,
     "required_age": 0,
     "is_free": false,
@@ -8347,16 +8465,29 @@
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2655040/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Saroc"
+      "Saros"
     ],
     "publishers": [
-      "Saroc"
+      "Saros"
     ],
-    "package_groups": [],
+    "packages": [
+      951508
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Separated Worlds",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2
@@ -8365,12 +8496,15 @@
       23,
       70
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "2023"
+      "coming_soon": false,
+      "date": "31 Jan, 2024"
     },
     "support_info": {
-      "url": "",
+      "url": "https://discord.gg/YMkHqNDM",
       "email": "chashchikhingamedev@gmail.com"
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2655040/page_bg_generated_v6b.jpg",
@@ -8378,6 +8512,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2657940": {
