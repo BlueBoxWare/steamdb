@@ -490,6 +490,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2736390": {
@@ -537,6 +555,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2736220": {
@@ -758,6 +794,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2738490": {
@@ -808,6 +862,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2738610": {
@@ -861,6 +933,27 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "e"
+      },
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2738770": {
@@ -1996,6 +2089,20 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2736760": {
@@ -2041,6 +2148,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2738420": {
@@ -2104,6 +2229,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2737100": {
@@ -2112,7 +2255,6 @@
     "steam_appid": 2737100,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "Room231 is a single player horror game, which is based on the famous creepy pasta called &quot;Backrooms&quot;. Player must find an exit to leave room231 and reach the truth of room231.",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2737100/header.jpg",
@@ -2125,15 +2267,27 @@
     "publishers": [
       "Genie Games"
     ],
-    "package_groups": [],
+    "packages": [
+      979342
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Room231",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2,
-      28
+      2
     ],
     "genres": [
       1,
@@ -2142,8 +2296,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "16 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -2154,6 +2308,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Medo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "\u00c4ngstigende Inhalte"
+      }
     }
   },
   "2736570": {
@@ -2212,6 +2384,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2736580": {
@@ -2270,6 +2460,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2738050": {
@@ -3893,8 +4101,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       1,
@@ -3910,8 +4118,8 @@
       49
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "1 Feb, 2024"
     },
     "support_info": {
       "url": "revulogames.com",
@@ -3922,6 +4130,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2738310": {
@@ -3957,7 +4183,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "2737690": {
     "type": "dlc",
@@ -4434,6 +4661,24 @@
         5
       ],
       "notes": "We do not glorify the gangster lifestyle, drugs etc..."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drogas il\u00edcitas\nLinguagem impr\u00f3pria\nViol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drogen"
+      }
     }
   },
   "2738920": {
@@ -4489,6 +4734,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2738900": {
@@ -4498,7 +4761,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Ready to forge your real estate empire? Begin as a small investor, craft strategies to ascend as a tycoon. Engage with diverse NPC clients, oversee properties spanning from affordable to luxurious, and tackle distinctive challenges. Ready to dominate the real estate world?",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Russian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2738900/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2738900/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2738900/capsule_184x69.jpg",
@@ -4525,7 +4788,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "22 Mar, 2024"
     },
     "support_info": {
       "url": "https://midnight.games/",
@@ -4536,6 +4799,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2738890": {
@@ -4545,7 +4826,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Uncover the ominous mysteries of an abandoned chocolate factory. Navigate eerie levels, solve sinister puzzles, and outwit malevolent entities. Collect precious candies, unveil the factory's secrets, and confront the darkness. Are you brave enough to explore Candyland's dark secrets?",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Russian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2738890/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2738890/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2738890/capsule_184x69.jpg",
@@ -4582,6 +4863,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2736430": {
@@ -5543,6 +5842,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2737310": {
@@ -5556,7 +5873,7 @@
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2737310/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2737310/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2737310/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://www.facebook.com/WartopVTT",
     "developers": [
       "2 Beards Games"
     ],
@@ -5591,6 +5908,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2736350": {
@@ -5611,23 +5946,36 @@
     "publishers": [
       "Lilith Guild"
     ],
-    "package_groups": [],
+    "packages": [
+      979091
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Home Path",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      18
     ],
     "genres": [
       1,
-      23,
-      70
+      23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "19 Feb, 2024"
+      "coming_soon": false,
+      "date": "4 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -5638,6 +5986,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2737730": {
@@ -5646,9 +6012,8 @@
     "steam_appid": 2737730,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "You are the block and now you have to connect the colourful blocks to defeat your enemy, the polyhedron.",
-    "supported_languages": "Japanese, English",
+    "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2737730/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2737730/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2737730/capsule_184x69.jpg",
@@ -5666,8 +6031,7 @@
       "linux": false
     },
     "categories": [
-      2,
-      28
+      2
     ],
     "genres": [
       4,
@@ -5686,6 +6050,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2736980": {
@@ -7837,6 +8219,233 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Horror"
+      }
+    }
+  },
+  "2737980": {
+    "type": "game",
+    "name": "Mashiroiro Symphony HD -Sana Edition-",
+    "steam_appid": 2737980,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A one-route standalone expansion for the fan-favorite visual novel Mashiroiro Symphony. The main character's classmate Sana finally takes the spotlight with a new story and new CGs by artist Tsubasu Izumi!",
+    "supported_languages": "English, Simplified Chinese, Traditional Chinese",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2737980/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2737980/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2737980/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Palette"
+    ],
+    "publishers": [
+      "Shiravune"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      23
+    ],
+    "genres": [
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q2 2024"
+    },
+    "support_info": {
+      "url": "https://forms.gle/PbRJdEVFCniSApET8",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2737980/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2737980/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Linguagem impr\u00f3pria"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Derbe Sprache"
+      }
+    }
+  },
+  "2737970": {
+    "type": "game",
+    "name": "Mashiroiro Symphony HD -Love is Pure White-",
+    "steam_appid": 2737970,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A winter-themed romcom visual novel with four main heroines and one mysterious cat-like creature! In a town where tradition and modernity meet, protagonist Shingo Uryu's whole life changes when he begins attending the prestigious Yuihime Girls Private Academy...",
+    "supported_languages": "English, Simplified Chinese, Traditional Chinese",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2737970/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2737970/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2737970/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Palette"
+    ],
+    "publishers": [
+      "Shiravune"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      23
+    ],
+    "genres": [
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q2 2024"
+    },
+    "support_info": {
+      "url": "https://forms.gle/PbRJdEVFCniSApET8",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2737970/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2737970/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Linguagem impr\u00f3pria"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Derbe Sprache"
+      }
+    }
+  },
+  "2737770": {
+    "type": "game",
+    "name": "As One We Survive Playtest",
+    "steam_appid": 2737770,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2737770/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2737770/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2737770/capsule_184x69.jpg",
+    "website": null,
+    "publishers": [
+      ""
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "release_date": {
+      "coming_soon": false,
+      "date": "21 Feb, 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": ""
+    },
+    "background": "",
+    "background_raw": "",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": null
+  },
+  "2736440": {
+    "type": "game",
+    "name": "Destination Paradise",
+    "steam_appid": 2736440,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Embark on a global adventure to uncover hidden objects in charming locations, solving puzzles across 20 captivating chapters.",
+    "supported_languages": "English",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2736440/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2736440/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2736440/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Seven Sails Games"
+    ],
+    "publishers": [
+      "Seven Sails Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2
+    ],
+    "genres": [
+      4
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q2 2024"
+    },
+    "support_info": {
+      "url": "https://sevensails.com.br/contact",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2736440/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2736440/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
       }
     }
   }
