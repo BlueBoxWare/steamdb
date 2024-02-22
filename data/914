@@ -471,6 +471,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2742760": {
@@ -682,7 +700,7 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": true
     },
     "categories": [
@@ -705,6 +723,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2743650": {
@@ -923,6 +959,24 @@
         5
       ],
       "notes": "Turn-based tactical shooter. Guns, deaths in space."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Atos criminosos\nViol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2744100": {
@@ -1445,7 +1499,7 @@
     "steam_appid": 2744720,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Weapon Devourer is a psychological horror with souls-like and 1930's cartoon vibes, blending subtle puzzles. Battle sentient weapons, consume life forces, dive into the Shield's belly to synthesize might combinations in an ancient world shaped by a mysterious cyberpunk disaster...",
+    "short_description": "Weapon Devourer is a psychological horror game with souls-like and 1930's cartoon vibes, blending subtle puzzles. Battle sentient weapons, dodge their attacks, metamorphose into a fearsome entity to overcome powerful challenges, and synthesize mighty combinations by diving into the Shield's belly.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2744720/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2744720/capsule_231x87.jpg",
@@ -1488,6 +1542,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Atos criminosos\nMedo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "\u00c4ngstigende Inhalte"
+      }
     }
   },
   "2742410": {
@@ -1767,6 +1839,20 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2744980": {
@@ -2019,6 +2105,24 @@
         5
       ],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2742100": {
@@ -2367,37 +2471,79 @@
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2744510/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "PregorGames"
+      "PraetorGames"
     ],
     "publishers": [
-      "PregorGames"
+      "PraetorGames"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 2823210,
+        "description": ""
+      }
+    ],
+    "packages": [
+      981791
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Abstracto",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      18,
+      22
     ],
     "genres": [
       1,
       25
     ],
+    "achievements": {
+      "total": 15
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "28 Jan, 2024"
     },
     "support_info": {
       "url": "",
-      "email": "PregorGames.Help@gmail.com"
+      "email": "PraetorGames.Help@gmail.com"
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2744510/page_bg_generated_v6b.jpg",
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2744510/page_bg_generated.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Medo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2744470": {
@@ -2825,6 +2971,22 @@
         5
       ],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "14",
+        "descriptors": "Viol\u00eancia\r\nAtos criminosos\r\nTemas sens\u00edveis\r\nDrogas il\u00edcitas",
+        "use_age_gate": "true",
+        "required_age": "14"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2742080": {
@@ -3382,6 +3544,22 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "12",
+        "descriptors": "Nudez\r\nViol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "12"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2744180": {
@@ -3475,6 +3653,9 @@
       "mac": false,
       "linux": false
     },
+    "achievements": {
+      "total": 5
+    },
     "release_date": {
       "coming_soon": false,
       "date": "27 Dec, 2023"
@@ -3488,7 +3669,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "2742250": {
     "type": "game",
@@ -4263,6 +4445,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2743130": {
@@ -4332,6 +4532,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2743170": {
@@ -4400,6 +4618,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2743140": {
@@ -4468,6 +4704,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2743110": {
@@ -4537,6 +4791,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2744550": {
@@ -4557,7 +4829,20 @@
     "publishers": [
       "Zulv"
     ],
-    "package_groups": [],
+    "packages": [
+      981803
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Estellina",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4572,9 +4857,12 @@
       9,
       23
     ],
+    "achievements": {
+      "total": 4
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "18 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -4585,6 +4873,30 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "pegi": {
+        "rating": "7"
+      },
+      "esrb": {
+        "rating": "e"
+      },
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2742890": {
@@ -4636,6 +4948,24 @@
         5
       ],
       "notes": "some scenes include: blood, gore"
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2744220": {
@@ -4671,7 +5001,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "January 2024"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "https://evtoolbox.ru/",
@@ -4682,6 +5012,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2743320": {
@@ -9622,6 +9970,98 @@
         "banned": "1",
         "use_age_gate": "0",
         "descriptors": "Sexuelle Inhalte"
+      }
+    }
+  },
+  "2742450": {
+    "type": "dlc",
+    "name": "DCS: F-15C Aggressors Air Combat Maneuvering Campaign by Maple Flag",
+    "steam_appid": 2742450,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "The F-15C Aggressors ACM campaign puts you in the cockpit of an F-15C Eagle, as a new Aggressor pilot with the 65th Aggressor Squadron at Nellis Air Force Base. Based on real world procedures you will fly as Red Air against Blue Air Forces.",
+    "fullgame": {
+      "appid": "223750",
+      "name": "DCS World Steam Edition"
+    },
+    "supported_languages": "English<strong>*</strong>, German, Spanish - Spain, Russian<strong>*</strong>, Czech, French, Simplified Chinese<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2742450/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2742450/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2742450/capsule_184x69.jpg",
+    "website": "https://steamcommunity.com/app/223750/discussions/",
+    "developers": [
+      "Eagle Dynamics SA",
+      "Maple Flag"
+    ],
+    "publishers": [
+      "Eagle Dynamics SA"
+    ],
+    "packages": [
+      981129
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy DCS: F-15C Aggressors Air Combat Maneuvering Campaign by Maple Flag",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      13,
+      17,
+      18,
+      21,
+      31,
+      36,
+      38,
+      47,
+      48,
+      49
+    ],
+    "genres": [
+      28,
+      37
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "22 Feb, 2024"
+    },
+    "support_info": {
+      "url": "https://steamcommunity.com/app/223750/discussions/",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2742450/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2742450/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "10",
+        "descriptors": "Viol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "10"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
       }
     }
   }
