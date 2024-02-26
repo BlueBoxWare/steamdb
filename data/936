@@ -3776,7 +3776,20 @@
     "publishers": [
       "OnePunchNetwork"
     ],
-    "package_groups": [],
+    "packages": [
+      1002893
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u6897\u8fc7100\u5173",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3793,9 +3806,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 59
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "14 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -3804,8 +3820,29 @@
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2808490/page_bg_generated_v6b.jpg",
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2808490/page.bg.jpg",
     "content_descriptors": {
-      "ids": [],
+      "ids": [
+        1,
+        5
+      ],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Conte\u00fado sexual\nViol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Sexuelle Andeutungen"
+      }
     }
   },
   "2809650": {
@@ -8964,6 +9001,69 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": ""
+      }
+    }
+  },
+  "2809100": {
+    "type": "demo",
+    "name": "Sacrifice For Sale Demo",
+    "steam_appid": 2809100,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "",
+    "fullgame": {
+      "appid": "2809090",
+      "name": "Sacrifice For Sale"
+    },
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2809100/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2809100/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2809100/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Daniel Klautsch"
+    ],
+    "publishers": [
+      "Daniel Klautsch"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      10
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "1 Mar, 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": "daniel@klautsch.lu"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2809100/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2809100/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nAtos criminosos"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
       }
     }
   }
