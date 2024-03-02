@@ -4776,6 +4776,9 @@
     "steam_appid": 2816750,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      2819310
+    ],
     "short_description": "\u30d2\u30ed\u30a4\u30f3\u702c\u6238\u53cc\u8449\u306f\u3001\u5927\u5b66\u751f\u306e\u771f\u7530\u5f70\u4eba\u3068\u540c\u68f2\u3057\u3066\u3044\u308b\u3002 \u6170\u52b4\u4f1a\u306e\u5019\u88dc\u3001\u4e0b\u898b\u306b\u51fa\u304b\u3051\u305f\u6642\u306b\u2025\u2025\u3064\u3044\u98f2\u307f\u904e\u304e\u3066\u6ce5\u9154\u3057\u3066\u3057\u307e\u3046\u3002 \u7537\u5973\u306e\u4ef2\u3078\u3068\u767a\u5c55\u3057\u3066\u3057\u307e\u3063\u305f\u53cc\u8449\u306f\u3001\u7dcf\u4e00\u90ce\u3068\u306e\u5feb\u697d\u306b\u60f9\u304b\u308c\u3066\u3044\u304f\u306e\u3060\u3063\u305f\u3002",
     "supported_languages": "Japanese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2816750/header.jpg",
@@ -4788,21 +4791,35 @@
     "publishers": [
       "MB Game Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1005613
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u5bdd\u53d6\u3089\u308c\u604b\u611b\u4e8b\u60c5\uff5e\u4e0a\u53f8\u306b\u7d61\u3081\u53d6\u3089\u308c\u305f\u4e59\u5973\u5fc3\uff5e",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       4
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "21 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -6626,7 +6643,7 @@
     "name": "In a Detective's Mind",
     "steam_appid": 2814270,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
     "short_description": "In a Detective's Mind is an investigation game that seeks to put you in the role of a detective, who needs to solve cases and deal with obscure problems from his past.",
     "supported_languages": "English, Portuguese - Brazil",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2814270/header.jpg",
@@ -6649,10 +6666,11 @@
       2
     ],
     "genres": [
-      23
+      23,
+      37
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "1 Mar, 2024"
     },
     "support_info": {
@@ -6692,7 +6710,7 @@
     "steam_appid": 2815560,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Siphonogore is a Turn-Based Combat Rougelike Dungeon Crawler with a hemothematic artstyle. You are The Homunculus - a creature of paltry origin and divine determination, one that will inherit the power of this waking god. Let nothing stop you.",
+    "short_description": "Siphonogore is a Turn-Based Combat Roguelike Dungeon Crawler with a hemothematic artstyle. The world is meat, a sleeping god stirs; you are The Homunculus - a creature of paltry origin, with a divine determination to inherit the power of this waking god. Let nothing stop you.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2815560/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2815560/capsule_231x87.jpg",
@@ -8927,6 +8945,73 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Horror"
+      }
+    }
+  },
+  "2815060": {
+    "type": "game",
+    "name": "Eclipse Breaker",
+    "steam_appid": 2815060,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Defeat the sun god and restore light to the world in this action roguelike. Face off against enemies and bosses in skill-based tactical battles that combine turn-based and real time combat. Progress through a godly realm as you get stronger by stealing the elemental power of your enemies.",
+    "supported_languages": "English",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2815060/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2815060/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2815060/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Lunar Workshop"
+    ],
+    "publishers": [
+      "Lunar Workshop"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      28
+    ],
+    "genres": [
+      1,
+      3,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support@lunarworkshop.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2815060/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2815060/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
       }
     }
   }

@@ -1104,8 +1104,8 @@
       10
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "February 2024"
+      "coming_soon": false,
+      "date": "25 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -1343,8 +1343,8 @@
     "steam_appid": 2844530,
     "required_age": 0,
     "is_free": false,
-    "short_description": "After 17 years, they are back! A remastered version of the popular point-and-click game that was released on the web in 2007. The legendary absurdity that has been played more than 10 million times around the world. Experience the strange and bizarre world view!",
-    "supported_languages": "English, Japanese",
+    "short_description": "After 17 years, they are back! A remastered version of the point-and-click game that was released on the web in 2007. Is it a game? Is it experimental interactive content? Even the creator doesn't know. Experience a strange and unique worldview that has been played over 10 million times worldwide!",
+    "supported_languages": "English<strong>*</strong>, Japanese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2844530/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2844530/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2844530/capsule_184x69.jpg",
@@ -1358,7 +1358,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -1371,7 +1371,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "10 Apr, 2024"
     },
     "support_info": {
       "url": "https://lidlocks.jp/inquiry/",
@@ -1421,6 +1421,12 @@
     "publishers": [
       "\u4e03\u8ee2\u3073\u516b\u8ee2\u304c\u308a",
       "SHANNON"
+    ],
+    "demos": [
+      {
+        "appid": 2854660,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -1776,8 +1782,12 @@
     "steam_appid": 2845260,
     "required_age": 0,
     "is_free": true,
+    "dlc": [
+      2867630,
+      2867640
+    ],
     "short_description": "100 March Cats - Join the cutest adventure in the Lovely themed locations full of cats! Explore the charming hand-drawn artwork of romantic 8 march places and Cats as you embark on a quest to find 100 adorable cats hidden throughout the game. Can you find them all?",
-    "supported_languages": "English",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Portuguese - Brazil, Hungarian, Vietnamese, Greek, Danish, Indonesian, Spanish - Latin America, Traditional Chinese, Simplified Chinese, Korean, Dutch, Norwegian, Polish, Portuguese - Portugal, Romanian, Russian, Thai, Turkish, Ukrainian, Finnish, Czech, Swedish, Japanese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2845260/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2845260/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2845260/capsule_184x69.jpg",
@@ -1795,7 +1805,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      22
     ],
     "genres": [
       4,
@@ -1804,7 +1815,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q3 2024"
+      "date": "6 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -1841,7 +1852,7 @@
     "steam_appid": 2844540,
     "required_age": 0,
     "is_free": false,
-    "short_description": "The Takasaki Line is a 101.4 km long line connecting Omiya Station in Saitama City, Saitama Prefecture to Takasaki Station in Takasaki City, Gunma Prefecture.",
+    "short_description": "The Takasaki Line is a 74.7 km long line connecting Omiya Station in Saitama City, Saitama Prefecture to Takasaki Station in Takasaki City, Gunma Prefecture. This DLC includes the Tohoku Main Line section between Ueno and Omiya stations, for a total length of 101.4 km.",
     "fullgame": {
       "appid": "2111630",
       "name": "JR EAST Train Simulator"
@@ -1855,9 +1866,22 @@
       "ONGAKUKAN Co.,Ltd."
     ],
     "publishers": [
-      ""
+      "East Japan Railway Company"
     ],
-    "package_groups": [],
+    "packages": [
+      1014924
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy JR EAST Train Simulator: Takasaki Line (Ueno to Takasaki) E233-3000 series",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1866,13 +1890,14 @@
     "categories": [
       2,
       18,
-      21
+      21,
+      62
     ],
     "genres": [
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "26 Feb, 2024"
     },
     "support_info": {
@@ -3883,7 +3908,7 @@
   },
   "2845320": {
     "type": "game",
-    "name": "Cats and Seek : Cats Hidden in Kyoto",
+    "name": "Cats and Seek : Kyoto",
     "steam_appid": 2845320,
     "required_age": 0,
     "is_free": true,
@@ -6153,6 +6178,289 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Gewalt"
+      }
+    }
+  },
+  "2846320": {
+    "type": "game",
+    "name": "Earthling of Gaia",
+    "steam_appid": 2846320,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Save your goddess Gaia from all incoming enemies by manipulating the earth around you!",
+    "supported_languages": "English",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2846320/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2846320/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2846320/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "imakumi-industries"
+    ],
+    "publishers": [
+      "imakumi-industries"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      54
+    ],
+    "genres": [
+      1,
+      23,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "imakumiindustries@gmail.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2846320/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2846320/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Medo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
+    }
+  },
+  "2845350": {
+    "type": "game",
+    "name": "Road Dinner SImulator-Renovate,Upgrade,Expand",
+    "steam_appid": 2845350,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Road Dinner SImulator is an exciting cafe management simulation game where you'll become the owner and head chef of a small but cozy cafe on the edge of a picturesque highway. This game allows you to immerse yourself in the atmosphere of culinary adventures and business.",
+    "supported_languages": "English",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2845350/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2845350/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2845350/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Play Games"
+    ],
+    "publishers": [
+      "Play Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      28
+    ],
+    "genres": [
+      1,
+      23,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "irina@play-games.dev"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2845350/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2845350/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "e10"
+      },
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Alkohol / Tabak"
+      }
+    }
+  },
+  "2845720": {
+    "type": "game",
+    "name": "NBB.EXE",
+    "steam_appid": 2845720,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "NBB.EXE is a challenging fast paced puzzle platformer. Bomb your way to victory through devious gauntlets and reveal the secrets of the mysterious NEON corp. in a modern reimagining of Bomberman with a metroidvania twist.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2845720/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2845720/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2845720/capsule_184x69.jpg",
+    "website": "http://www.raptusgames.com",
+    "developers": [
+      "Raptus Games"
+    ],
+    "publishers": [
+      "Raptus Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      22,
+      24,
+      28,
+      37,
+      39,
+      44,
+      49,
+      61
+    ],
+    "genres": [
+      1,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "http://www.raptusgames.com",
+      "email": "raptus@raptusgames.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2845720/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2845720/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Medo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "\u00c4ngstigende Inhalte"
+      }
+    }
+  },
+  "2846200": {
+    "type": "game",
+    "name": "Essence Bloom",
+    "steam_appid": 2846200,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "Essence Bloom is a linear, story-focused indie visual novel that allows the player to experience a world with beautiful cherry blossoms and fun times with friends....",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2846200/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2846200/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2846200/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Proxy Vision Projects"
+    ],
+    "publishers": [
+      "Proxy Vision Projects"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2
+    ],
+    "genres": [
+      4,
+      23,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "22 Mar, 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": "pxy.projects@gmail.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2846200/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2846200/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "Crude Language. Depictions of self harm, suicide, blood and violence. "
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nTemas sens\u00edveis\nLinguagem impr\u00f3pria"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Horror"
       }
     }
   }
