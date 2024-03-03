@@ -341,7 +341,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "This is a bullet screen shooting role-playing game, where players can freely match their decks and have a thrilling battle!",
-    "supported_languages": "English, Simplified Chinese",
+    "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2766830/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2766830/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2766830/capsule_184x69.jpg",
@@ -352,14 +352,34 @@
     "publishers": [
       "qimiaogame"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 2817350,
+        "description": ""
+      }
+    ],
+    "packages": [
+      989171
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Beast Park",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -367,7 +387,7 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "31 Jan, 2024"
     },
     "support_info": {
@@ -379,6 +399,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2766360": {
@@ -1374,7 +1412,20 @@
     "publishers": [
       "Pika2"
     ],
-    "package_groups": [],
+    "packages": [
+      989068
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Elements For Money",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1382,7 +1433,8 @@
     },
     "categories": [
       2,
-      23
+      23,
+      62
     ],
     "genres": [
       2,
@@ -1391,8 +1443,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "January 2024"
+      "coming_soon": false,
+      "date": "25 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -1403,6 +1455,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Alkohol / Tabak"
+      }
     }
   },
   "2768240": {
