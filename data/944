@@ -795,7 +795,20 @@
     "publishers": [
       "NaipSoft"
     ],
-    "package_groups": [],
+    "packages": [
+      1011692
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy 101 Cats Hidden in Dubai",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -804,15 +817,19 @@
     "categories": [
       2,
       22,
-      23
+      23,
+      62
     ],
     "genres": [
       4,
       23
     ],
+    "achievements": {
+      "total": 100
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "February 2024"
+      "coming_soon": false,
+      "date": "26 Feb, 2024"
     },
     "support_info": {
       "url": "https://www.naipsoft.com",
@@ -2341,7 +2358,30 @@
     "publishers": [
       "FussyLand"
     ],
-    "package_groups": [],
+    "packages": [
+      1011727,
+      1022741
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy DudeGo",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      },
+      {
+        "name": "subscriptions",
+        "title": "Buy DudeGo Subscription Plan",
+        "description": "To be billed on a recurring basis.",
+        "selection_text": "Starting at $9.99 / month",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "true"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2352,12 +2392,12 @@
       2,
       9,
       20,
-      27,
       36,
       38,
       47,
       48,
-      49
+      49,
+      62
     ],
     "genres": [
       1,
@@ -2367,7 +2407,7 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "28 Feb, 2024"
     },
     "support_info": {
@@ -3588,6 +3628,7 @@
     "steam_appid": 2834830,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "A sokoban-style puzzle game about finding a path through colors",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2834830/header.jpg",
@@ -3595,8 +3636,7 @@
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2834830/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Miriam",
-      "Lage"
+      "Miriam & Lage"
     ],
     "publishers": [
       "Miriam & Lage"
@@ -3609,7 +3649,7 @@
     },
     "categories": [
       2,
-      18
+      28
     ],
     "genres": [
       23
@@ -3680,7 +3720,8 @@
       2,
       10,
       22,
-      28
+      28,
+      62
     ],
     "release_date": {
       "coming_soon": false,
@@ -8252,5 +8293,183 @@
       "notes": null
     },
     "ratings": null
+  },
+  "2833940": {
+    "type": "dlc",
+    "name": "Event Race - Easter Tracks",
+    "steam_appid": 2833940,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "The DLC, &quot;Easter Table&quot; introduces three new egg-citing tracks, and unlocks the two exciting and thrilling game modes; Keep Up and Last One Out.",
+    "fullgame": {
+      "appid": "2441260",
+      "name": "Event Race"
+    },
+    "supported_languages": "English",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2833940/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2833940/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2833940/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Eventgames"
+    ],
+    "publishers": [
+      ""
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      1,
+      2,
+      21,
+      24,
+      28,
+      37,
+      44,
+      49
+    ],
+    "genres": [
+      9,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "March 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": "kbj@eventgames.dk"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2833940/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2833940/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
+    }
+  },
+  "2833990": {
+    "type": "game",
+    "name": "Wizard Combat Playtest",
+    "steam_appid": 2833990,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2833990/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2833990/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2833990/capsule_184x69.jpg",
+    "website": null,
+    "publishers": [
+      ""
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "release_date": {
+      "coming_soon": false,
+      "date": "5 Mar, 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2833990/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2833990/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": null
+  },
+  "2832450": {
+    "type": "game",
+    "name": "Ario",
+    "steam_appid": 2832450,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "A fantasy land plagued by nightmares, a common lad trying to rescue his missing mother and an evil forces conspiration to be unveiled. Join Ario in this thrilling adventure where your crossbow and skills will determine the fate of your people.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Traditional Chinese, Korean, Japanese, Persian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2832450/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2832450/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2832450/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Vata Games"
+    ],
+    "publishers": [
+      "Artax Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      28
+    ],
+    "genres": [
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support@artaxgames.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2832450/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2832450/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
+    }
   }
 }
