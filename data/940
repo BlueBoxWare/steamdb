@@ -3722,7 +3722,6 @@
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2822630/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2822630/capsule_184x69.jpg",
     "website": null,
-    "ext_user_account_notice": "Ready Player Me ",
     "developers": [
       "Parts Unknown Productions"
     ],
@@ -3752,7 +3751,7 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "1 Mar, 2024"
     },
     "support_info": {
@@ -3936,22 +3935,36 @@
     "publishers": [
       "Best Place Apps"
     ],
-    "package_groups": [],
+    "packages": [
+      1007487
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Mysteryville",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       4,
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "27 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -4000,22 +4013,36 @@
     "publishers": [
       "Best Place Apps"
     ],
-    "package_groups": [],
+    "packages": [
+      1007493
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Mysteryville 2",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       4,
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "28 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -4052,6 +4079,7 @@
     "steam_appid": 2822990,
     "required_age": 0,
     "is_free": true,
+    "controller_support": "full",
     "short_description": "",
     "fullgame": {
       "appid": "2655920",
@@ -4074,7 +4102,10 @@
       "linux": false
     },
     "categories": [
-      10
+      2,
+      10,
+      25,
+      28
     ],
     "release_date": {
       "coming_soon": false,
@@ -8107,6 +8138,76 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Fantasy-Gewalt"
+      }
+    }
+  },
+  "2821720": {
+    "type": "game",
+    "name": "Banished Stone",
+    "steam_appid": 2821720,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A casual fantasy action RPG. Wanted for a number of crimes your bounty has reached a level that can no longer be ignored. Work with the Company to earn your freedom and a one way pass to Paradise. Solve your fathers murder, collect bounties, solve quests, tame pets and learn to use your wings.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2821720/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2821720/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2821720/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Regal Computer Services"
+    ],
+    "publishers": [
+      "Regal Computer Services"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      18,
+      22
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support@regalcomputerservices.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2821720/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2821720/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
       }
     }
   }
