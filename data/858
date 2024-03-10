@@ -43,6 +43,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2575520": {
@@ -484,12 +502,13 @@
   },
   "2574030": {
     "type": "game",
-    "name": "Snake Crush Survivors",
+    "name": "Snake Crush",
     "steam_appid": 2574030,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "This is a Roguelite game that combines the gameplay of Snake with survivor mechanics. You will play as a large snake roaming above the city, clearing countless small monsters and spirits attracted by spiritual energy, as well as those frenzied large monsters.",
-    "supported_languages": "Simplified Chinese",
+    "supported_languages": "Simplified Chinese<strong>*</strong>, English, Japanese, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2574030/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2574030/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2574030/capsule_184x69.jpg",
@@ -500,24 +519,42 @@
     "publishers": [
       " Sugarcane Games"
     ],
-    "package_groups": [],
+    "packages": [
+      924322
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Snake Crush",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": false
     },
     "categories": [
       2,
-      22
+      22,
+      28,
+      62
     ],
     "genres": [
       1,
       4,
       23
     ],
+    "achievements": {
+      "total": 75
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2023"
+      "coming_soon": false,
+      "date": "19 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -528,6 +565,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2574260": {
@@ -2287,7 +2342,8 @@
     },
     "categories": [
       2,
-      18
+      18,
+      62
     ],
     "genres": [
       9,
@@ -2307,6 +2363,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2576830": {
@@ -2645,7 +2719,7 @@
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2575790/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2575790/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2575790/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://ramicstudio.kr/",
     "developers": [
       "RAMIC STUDIO"
     ],
@@ -2672,7 +2746,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       4,
@@ -2683,7 +2758,7 @@
       "date": "16 Oct, 2023"
     },
     "support_info": {
-      "url": "https://youtube.com/@RAMICSTUDIO?si=0SWCC7Cqn6gzcQqB",
+      "url": "https://ramicstudio.kr/",
       "email": "ramicstudio@gmail.com"
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2575790/page_bg_generated_v6b.jpg",
@@ -2691,6 +2766,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2574180": {
@@ -5745,17 +5838,20 @@
     "steam_appid": 2574840,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Four students find themselves trapped in the restroom of an abandoned school; the door is locked, and there's no way out except to cling to hope or face death.",
-    "supported_languages": "English<strong>*</strong>, Spanish - Spain<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Simplified Chinese<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Japanese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "dlc": [
+      2773580
+    ],
+    "short_description": "Four students find themselves trapped in the restroom of an abandoned school; the door is locked. Without a way of escaping, they can only cling to their remaining shreds of hope or come face to face with their inevitable ruin.",
+    "supported_languages": "English<strong>*</strong>, Spanish - Spain<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Simplified Chinese<strong>*</strong>, Japanese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2574840/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2574840/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2574840/capsule_184x69.jpg",
-    "website": "https://twitter.com/solsticend",
+    "website": "https://twitter.com/veratrumgames",
     "developers": [
-      "Solsticend"
+      "Veratrum"
     ],
     "publishers": [
-      "Solsticend"
+      "Veratrum"
     ],
     "packages": [
       924638
@@ -5777,7 +5873,8 @@
       "linux": true
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -5790,8 +5887,8 @@
       "date": "14 Sep, 2023"
     },
     "support_info": {
-      "url": "https://twitter.com/solsticend",
-      "email": "solsticend@gmail.com"
+      "url": "twitter.com/veratrumgames",
+      "email": "veratrumgames@gmail.com"
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2574840/page_bg_generated_v6b.jpg",
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2574840/page.bg.jpg",
@@ -5801,6 +5898,24 @@
         5
       ],
       "notes": "Warning: This game contains graphic depictions of death, as well as sounds of violence that may be unsettling for sensitive individuals. Additionally, it's important to note that it addresses sensitive topics such as the trivialization of suicide. The plot and images presented in the game explore these themes for narrative purposes and do not intend to trivialize or promote harmful behavior. Player discretion is advised, and it's suggested that those who might be adversely affected by such content carefully consider their decision to play."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia Extrema\nTemas sens\u00edveis\nLinguagem impr\u00f3pria"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2574750": {
@@ -6729,6 +6844,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2576500": {
@@ -7047,7 +7180,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "An open world TPS science fiction game",
-    "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Simplified Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2575850/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2575850/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2575850/capsule_184x69.jpg",
@@ -7058,14 +7191,28 @@
     "publishers": [
       "Bi Kun"
     ],
-    "package_groups": [],
+    "packages": [
+      924975
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy SUNSET OF ATE",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -7074,8 +7221,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "21 Dec, 2023"
+      "coming_soon": false,
+      "date": "22 Dec, 2023"
     },
     "support_info": {
       "url": "",
@@ -7086,6 +7233,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2575770": {
@@ -7265,7 +7430,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       4,
@@ -7289,6 +7455,24 @@
         5
       ],
       "notes": "WARNING: Contains sensitive content that may disturbing to some\r\n\r\nIncluding: sexual content, non consensual sex"
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Nudez\nViol\u00eancia\nTemas sens\u00edveis"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "BANNED",
+        "required_age": "2147483647",
+        "banned": "1",
+        "use_age_gate": "0",
+        "descriptors": "Sexualisierte Gewalt / Sexual violence"
+      }
     }
   },
   "2575140": {
@@ -7606,6 +7790,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2575800": {

@@ -853,7 +853,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "2773680": {
     "type": "game",
@@ -925,8 +926,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       1,
@@ -944,7 +945,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q2 2024"
+      "date": "20 May, 2024"
     },
     "support_info": {
       "url": "",
@@ -955,6 +956,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2772430": {
@@ -1869,6 +1888,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2772150": {
@@ -1919,6 +1956,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2774180": {
@@ -2453,6 +2508,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2773610": {
@@ -2549,7 +2622,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q1 2024"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -2560,6 +2633,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nMedo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Horror"
+      }
     }
   },
   "2773590": {
@@ -3962,7 +4053,7 @@
     "steam_appid": 2774380,
     "required_age": 0,
     "is_free": false,
-    "short_description": "The Scariest Endless Hospital. Can you find the Weirdest Anomaly? What will you found on Floor 666?",
+    "short_description": "Hospital 666 is a 1-4 player horror escape game. Traverse through eerie hospital levels while observing the occurrence of anomalies and choosing the correct elevator. Some abnormal bosses will chase you to death, and you must find the right way to escape them.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Russian, Japanese, Simplified Chinese, Traditional Chinese, Portuguese - Portugal, Thai, Korean<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2774380/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2774380/capsule_231x87.jpg",
@@ -3974,13 +4065,20 @@
     "publishers": [
       "Lokin"
     ],
-    "demos": [
+    "packages": [
+      991654
+    ],
+    "package_groups": [
       {
-        "appid": 2783910,
-        "description": ""
+        "name": "default",
+        "title": "Buy Hospital 666",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3990,16 +4088,21 @@
       1,
       2,
       9,
+      22,
       23,
-      38
+      38,
+      62
     ],
     "genres": [
       1,
       23,
       25
     ],
+    "achievements": {
+      "total": 16
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "5 Mar, 2024"
     },
     "support_info": {
@@ -4013,6 +4116,24 @@
         5
       ],
       "notes": "This is a horror game with a certain level of mature content.\r\nThe elements included in this game are:\r\nBlood, Ghost, Jump scare, Violence."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nMedo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Horror"
+      }
     }
   },
   "2774050": {
@@ -4391,19 +4512,19 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       2,
-      23,
-      70
+      23
     ],
     "achievements": {
       "total": 8
     },
     "release_date": {
       "coming_soon": false,
-      "date": "1 Feb, 2024"
+      "date": "9 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -4414,6 +4535,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2774740": {
@@ -4535,6 +4674,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2773460": {
@@ -4544,7 +4701,7 @@
     "required_age": 0,
     "is_free": true,
     "short_description": "&quot;Eye See Fun&quot; is a casual adventure and puzzle game with the main character being an eye. Players engage in the game by manipulating the eye and interacting with objects in the scenes to solve puzzles and unlock different environments. The goal is to help the eye find its companion.",
-    "supported_languages": "English, German, Simplified Chinese, Traditional Chinese",
+    "supported_languages": "English, German, Simplified Chinese, Traditional Chinese, French, Russian, Japanese, Korean",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2773460/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2773460/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2773460/capsule_184x69.jpg",
@@ -4584,6 +4741,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2773850": {
@@ -4748,6 +4923,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nMedo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Horror"
+      }
     }
   },
   "2774610": {
@@ -5968,7 +6161,7 @@
   },
   "2773520": {
     "type": "game",
-    "name": "\u5b8c\u7f8e\u604b\u4eba~fragile love",
+    "name": "\u5b8c\u7f8e\u604b\u4eba fragile love",
     "steam_appid": 2773520,
     "required_age": 0,
     "is_free": false,
@@ -5979,10 +6172,10 @@
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2773520/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "XuWuLe"
+      "XUWULE\u5236\u4f5c\u7ec4"
     ],
     "publishers": [
-      "XuWuLe"
+      "XUWULE\u5236\u4f5c\u7ec4"
     ],
     "package_groups": [],
     "platforms": {
@@ -6001,7 +6194,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2024"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -6012,6 +6205,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2774750": {
@@ -6078,6 +6289,22 @@
         5
       ],
       "notes": "Sexy Clothing, some exposed"
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "14",
+        "descriptors": "Nudez",
+        "use_age_gate": "true",
+        "required_age": "14"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Sexuelle Andeutungen"
+      }
     }
   },
   "2773510": {
