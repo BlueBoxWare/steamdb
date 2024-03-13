@@ -1749,7 +1749,7 @@
       "linux": false
     },
     "achievements": {
-      "total": 6
+      "total": 14
     },
     "release_date": {
       "coming_soon": false,
@@ -5047,7 +5047,8 @@
     "steam_appid": 2822570,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Play as a space soldier, abandoned by the command on an alien planet. Find allies, gather resources, train new troops, and escape from Sector Yama. Casual &quot;singe-stick shooter&quot; controls, fun tactical combat, rewarding exploration, and rich storytelling.",
+    "controller_support": "full",
+    "short_description": "Play as a space soldier, abandoned by the command on an alien planet. Find allies, gather resources, train new troops, and escape from Sector Yama. Casual &quot;single-stick shooter&quot; controls, fun tactical combat, rewarding exploration, and rich storytelling.",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2822570/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2822570/capsule_231x87.jpg",
@@ -5059,7 +5060,20 @@
     "publishers": [
       "Secret Shark Club"
     ],
-    "package_groups": [],
+    "packages": [
+      1007571
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Sector YAMA",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5067,7 +5081,8 @@
     },
     "categories": [
       2,
-      18
+      28,
+      62
     ],
     "genres": [
       1,
@@ -5079,11 +5094,11 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "5 Mar, 2024"
+      "coming_soon": false,
+      "date": "4 Mar, 2024"
     },
     "support_info": {
-      "url": "https://discord.gg/qB9nhaUEDB",
+      "url": "https://discord.gg/tssjUWkeyM",
       "email": ""
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2822570/page_bg_generated_v6b.jpg",
@@ -6619,7 +6634,7 @@
     "steam_appid": 2822590,
     "required_age": 0,
     "is_free": true,
-    "short_description": "",
+    "short_description": "Under 100 MB. Bite-sized demo preview of Dig Dig Boom, turn-based mining puzzle game. Features a few hand-made puzzles and procedurally generated caves. Use dynamite and grappling hooks to mine gold to construct the drill!",
     "fullgame": {
       "appid": "2026040",
       "name": "Dig Dig Boom"
@@ -6644,8 +6659,8 @@
       10
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "1 Mar, 2024"
     },
     "support_info": {
       "url": "DigDigBoom.com",
@@ -8279,6 +8294,73 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": ""
+      }
+    }
+  },
+  "2822310": {
+    "type": "game",
+    "name": "Sina",
+    "steam_appid": 2822310,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Made by Triunfo Game Studios, Sina is an action-adventure game with Souls Like elements. With a great focus on its story, scenario development and fluid combat, this game provides a memorable experience for anyone who dares to challenge their fate.",
+    "supported_languages": "English, Portuguese - Brazil",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2822310/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2822310/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2822310/capsule_184x69.jpg",
+    "website": "https://triunfogamestudios.com/",
+    "developers": [
+      "TRIUNFO GAME STUDIOS"
+    ],
+    "publishers": [
+      "TRIUNFO GAME STUDIOS"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      28
+    ],
+    "genres": [
+      1,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "https://triunfogamestudios.com/",
+      "email": "contato@triunfogamestudios.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2822310/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2822310/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
       }
     }
   }

@@ -160,7 +160,6 @@
     "steam_appid": 2695830,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "Vertical scrolling shooter with all 5 pages",
     "supported_languages": "English, Japanese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2695830/header.jpg",
@@ -173,7 +172,20 @@
     "publishers": [
       "zakichi"
     ],
-    "package_groups": [],
+    "packages": [
+      965360
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy ZAKESTA-Z",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -181,18 +193,22 @@
     },
     "categories": [
       2,
+      18,
       22,
       23,
       25,
-      28
+      62
     ],
     "genres": [
       1,
       23
     ],
+    "achievements": {
+      "total": 21
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q1 2024"
+      "coming_soon": false,
+      "date": "19 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -203,6 +219,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2694330": {
@@ -719,12 +753,6 @@
     "publishers": [
       "Cristian Gonzalez"
     ],
-    "demos": [
-      {
-        "appid": 2737640,
-        "description": ""
-      }
-    ],
     "packages": [
       965324
     ],
@@ -745,7 +773,8 @@
       "linux": true
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -772,6 +801,24 @@
         5
       ],
       "notes": "The game features an opening scene where we approach a person, and after a black screen, the protagonist appears without an arm and bleeding. Also, when the protagonist loses, she can fall, explode, or be lifted, and her bones break. In one of the final scenes, we see a pregnant woman on the floor convulsing, but it does not show anything terrifying or disturbing. At the end of the game, we see a man speaking sadly to the camera, and eventually, with a black screen without showing anything, we can hear the sound of a gunshot."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia Extrema\nMedo\nDrogas il\u00edcitas"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2695670": {
@@ -1616,6 +1663,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2695240": {
@@ -2454,6 +2519,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2696480": {
@@ -2787,7 +2870,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "PANICORE is a survival horror game that mixes permadeath, AI monsters and a co-op experience. Try to escape and don't get caught.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Arabic, Portuguese - Brazil, Bulgarian, Simplified Chinese, Danish, Finnish, Greek, Indonesian, Japanese, Korean, Dutch, Norwegian, Polish, Portuguese - Portugal, Romanian, Russian, Swedish, Thai, Czech, Turkish, Ukrainian, Hungarian, Vietnamese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2695940/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2695940/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2695940/capsule_184x69.jpg",
@@ -2797,6 +2880,12 @@
     ],
     "publishers": [
       "ZTEK Studio"
+    ],
+    "demos": [
+      {
+        "appid": 2809040,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2819,7 +2908,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "May 2024"
     },
     "support_info": {
       "url": "https://www.ztekstudio.com",
@@ -2830,6 +2919,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nMedo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Horror"
+      }
     }
   },
   "2696080": {
@@ -3376,7 +3483,8 @@
       2,
       15,
       22,
-      23
+      23,
+      62
     ],
     "genres": [
       2,
@@ -3399,6 +3507,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2695590": {
@@ -4347,6 +4473,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2694700": {
@@ -4839,7 +4983,8 @@
     "categories": [
       2,
       18,
-      21
+      21,
+      62
     ],
     "genres": [
       28
@@ -4857,6 +5002,19 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2695870": {
@@ -5106,7 +5264,7 @@
     },
     "release_date": {
       "coming_soon": false,
-      "date": "21 Nov, 2023"
+      "date": "24 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -5117,7 +5275,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "2695660": {
     "type": "music",
@@ -5707,7 +5866,8 @@
       27,
       38,
       39,
-      48
+      48,
+      62
     ],
     "genres": [
       2,
@@ -5727,6 +5887,22 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "10",
+        "descriptors": "Viol\u00eancia fantasiosa\r\nViol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "10"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2695650": {
@@ -5779,7 +5955,8 @@
       27,
       38,
       39,
-      48
+      48,
+      62
     ],
     "genres": [
       2,
@@ -5799,6 +5976,22 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "10",
+        "descriptors": "Viol\u00eancia fantasiosa\r\nViol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "10"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2694490": {
@@ -7238,7 +7431,7 @@
       "appid": "2111190",
       "name": "MULLET MAD JACK"
     },
-    "supported_languages": "English<strong>*</strong>, Japanese, Portuguese - Brazil, French, Italian, German, Spanish - Spain, Portuguese - Portugal, Russian<br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Japanese, Portuguese - Brazil, Spanish - Spain, Portuguese - Portugal, Russian, Korean, Spanish - Latin America<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2695350/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2695350/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2695350/capsule_184x69.jpg",
@@ -7263,9 +7456,12 @@
       22,
       28
     ],
+    "achievements": {
+      "total": 0
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "24 Jan, 2024"
     },
     "support_info": {
       "url": "https://www.facebook.com/hammer95studios",
@@ -7279,6 +7475,24 @@
         5
       ],
       "notes": "This game has strong language and gore"
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia Extrema"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2696260": {
@@ -11189,6 +11403,66 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Alkohol / Tabak"
+      }
+    }
+  },
+  "2694790": {
+    "type": "music",
+    "name": "Sunday Rivals Soundtrack",
+    "steam_appid": 2694790,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "The complete Sunday Rivals soundtrack",
+    "fullgame": {
+      "appid": "1297790",
+      "name": "Sunday Rivals"
+    },
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2694790/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2694790/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2694790/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "26k"
+    ],
+    "publishers": [
+      "26k"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://26k.org",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2694790/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2694790/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
       }
     }
   }
