@@ -117,7 +117,7 @@
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2718900/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2718900/capsule_184x69.jpg",
     "website": null,
-    "ext_user_account_notice": "\u6211\u4eec\u7684\u5e94\u7528\u9700\u8981\u4f7f\u7528\u4e2d\u56fd\u53f7\u7801\u6ce8\u518c\u767b\u5f55 ",
+    "ext_user_account_notice": "\u6211\u4eec\u7684\u5e94\u7528\u652f\u6301\u4f7f\u7528steam\u767b\u5f55\uff0c\u4e5f\u53ef\u4ee5\u4f7f\u7528\u90ae\u7bb1\u6216\u624b\u673a\u53f7\u7801\u6ce8\u518c\u767b\u5f55 (Supports Linking to Steam Account)",
     "developers": [
       "Hash Tynmo"
     ],
@@ -135,27 +135,41 @@
       2,
       9,
       10,
-      18,
       20,
-      38,
-      54
+      27,
+      38
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "14 Feb, 2024"
     },
     "support_info": {
-      "url": "https://www.tynmo.com/space",
+      "url": "",
       "email": "info@tynmo.com"
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2718900/page_bg_generated_v6b.jpg",
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2718900/page_bg_generated.jpg",
     "content_descriptors": {
-      "ids": [
-        1,
-        5
-      ],
-      "notes": "What adult content players should know about the game:\r\n\r\n1. There will be slightly adult content when the player is dressing up\r\n\r\n2. When the player sees other people in the scene, there will be slightly adult content"
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Conte\u00fado sexual"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Sexuelle Inhalte"
+      }
     }
   },
   "2719700": {
@@ -1791,22 +1805,39 @@
     "publishers": [
       "Tsukuyomi"
     ],
-    "package_groups": [],
+    "packages": [
+      973293
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Night Raider",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       23,
       25
     ],
+    "achievements": {
+      "total": 59
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "26 Jan, 2024"
     },
     "support_info": {
       "url": "",
@@ -1817,6 +1848,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2719330": {
@@ -2841,6 +2890,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2718440": {
@@ -3582,7 +3649,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "2024"
     },
     "support_info": {
       "url": "",
@@ -3593,6 +3660,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2719670": {
@@ -4431,8 +4516,8 @@
     "steam_appid": 2718030,
     "required_age": 0,
     "is_free": false,
-    "short_description": "The year is 2082. Most of the planet is covered with water, and the composition of marine fauna has changed dramatically. Humanity has about 500 million people, most living where mountains used to be.",
-    "supported_languages": "English, Ukrainian, Japanese, Simplified Chinese",
+    "short_description": "An underwater horror game about submarines and theophobia.",
+    "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2718030/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2718030/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2718030/capsule_184x69.jpg",
@@ -4443,21 +4528,39 @@
     "publishers": [
       "Marginalact"
     ],
-    "package_groups": [],
+    "packages": [
+      972863
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Sea under the sea under the sea",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      22,
+      62
     ],
     "genres": [
       1
     ],
+    "achievements": {
+      "total": 10
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q2 2024"
+      "coming_soon": false,
+      "date": "13 Mar, 2024"
     },
     "support_info": {
       "url": "https://twitter.com/marginalact",
@@ -4468,6 +4571,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nMedo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Horror"
+      }
     }
   },
   "2718830": {
@@ -5862,7 +5983,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "2718200": {
     "type": "game",
@@ -5919,7 +6041,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "2719710": {
     "type": "game",
