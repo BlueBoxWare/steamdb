@@ -866,6 +866,12 @@
     "steam_appid": 2857400,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      2886770,
+      2886780,
+      2886790,
+      2886800
+    ],
     "short_description": "Dice-Zee! brings back a classic and beloved game that is popular across the world! Can you rank as one of the best dice scoring players in the world?",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2857400/header.jpg",
@@ -878,7 +884,20 @@
     "publishers": [
       "ZaxtorGameS"
     ],
-    "package_groups": [],
+    "packages": [
+      1019210
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Dice-Zee!",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -887,14 +906,18 @@
     "categories": [
       2,
       22,
-      25
+      25,
+      62
     ],
     "genres": [
       4,
       23
     ],
+    "achievements": {
+      "total": 20
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "15 Mar, 2024"
     },
     "support_info": {
@@ -1004,21 +1027,23 @@
     "steam_appid": 2858720,
     "required_age": 0,
     "is_free": true,
-    "short_description": "\u6b64DLC\u53ef\u901a\u8fc7\u672c\u673a\u6216Steam\u8fdc\u7a0b\u540c\u4e50\u4e00\u540c\u6e38\u73a9\u300a\u5764\u53f7\u51fa\u53e3\u300b\u3002",
+    "short_description": "Experience the fun of Kunkun with your friends! You can play online through local or Steam remote play.",
     "fullgame": {
       "appid": "2781370",
       "name": "EXIT KUN"
     },
-    "supported_languages": "English, Simplified Chinese<strong>*</strong>, French, Spanish - Spain, Russian, Japanese, Traditional Chinese, Portuguese - Brazil, Portuguese - Portugal, Spanish - Latin America, Korean<br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English, Simplified Chinese<strong>*</strong>, French, Spanish - Spain, Russian, Japanese, Traditional Chinese, Portuguese - Brazil, Portuguese - Portugal, Spanish - Latin America, Korean, Italian, German, Hungarian, Turkish, Norwegian, Czech, Polish<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2858720/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2858720/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2858720/capsule_184x69.jpg",
     "website": "https://space.bilibili.com/518054215/dynamic",
     "developers": [
-      "IKUN&KUN"
+      "IKUN&KUN",
+      "AIKUN"
     ],
     "publishers": [
-      "IKUN&KUN"
+      "IKUN&KUN",
+      "AIKUN"
     ],
     "package_groups": [],
     "platforms": {
@@ -1212,7 +1237,7 @@
     "steam_appid": 2856810,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Find hidden objects from a peaceful post-apocalyptic world while relaxing in the company of a fun little boy and his robot friend!",
+    "short_description": "Find all hidden objects in a gorgeous post-apocalyptic world, to reveal colorful scenes, while relaxing in the company of a fun little boy and his robot friend!",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2856810/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2856810/capsule_231x87.jpg",
@@ -1466,7 +1491,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "18 Mar, 2024"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -1571,33 +1596,47 @@
     "steam_appid": 2857870,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A fun casual game.",
+    "short_description": "this is a casual puzzle game that is very simple and easy to understand",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2857870/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2857870/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2857870/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Lu"
+      "\u6325\u6325\u624b"
     ],
     "publishers": [
-      "Lu"
+      "\u6325\u6325\u624b"
     ],
-    "package_groups": [],
+    "packages": [
+      1019358
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Solitary mark",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       3,
       4
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "18 Mar, 2024"
+      "coming_soon": false,
+      "date": "17 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -1712,7 +1751,7 @@
       "linux": false
     },
     "achievements": {
-      "total": 22
+      "total": 24
     },
     "release_date": {
       "coming_soon": false,
@@ -2761,22 +2800,36 @@
     "publishers": [
       "Wicksley Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1018842
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy The Immemorial Order",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "18 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -3086,7 +3139,20 @@
     "publishers": [
       "Levich Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1019580
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Rhythm & Beats",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3094,7 +3160,8 @@
     },
     "categories": [
       2,
-      53
+      53,
+      62
     ],
     "genres": [
       4,
@@ -3102,8 +3169,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "15 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -4908,7 +4975,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "10 Mar, 2024"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -4947,7 +5014,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "A rabbit-shaped cleaning robot flies around collecting, shooting, and destroying to restore the beauty of the city. A sandbox shooter game!",
-    "supported_languages": "English, German, Spanish - Spain, Indonesian, Spanish - Latin America, Portuguese - Portugal, Russian, Simplified Chinese, Traditional Chinese, Japanese, Korean, French, Italian, Ukrainian, Dutch, Greek, Swedish, Czech, Danish, Turkish, Norwegian, Hungarian, Finnish, Bulgarian, Vietnamese, Portuguese - Brazil, Polish, Romanian",
+    "supported_languages": "English, German, Spanish - Spain, Indonesian, Portuguese - Portugal, Russian, Simplified Chinese, Traditional Chinese, Japanese, Korean, French, Italian, Ukrainian, Dutch, Greek, Swedish, Czech, Danish, Turkish, Norwegian, Hungarian, Finnish, Bulgarian, Vietnamese, Polish, Romanian",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2858820/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2858820/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2858820/capsule_184x69.jpg",
