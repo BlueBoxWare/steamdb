@@ -11848,21 +11848,32 @@
     "steam_appid": 2688180,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
-    "short_description": "Welcome to the exhilarating world of Hypefield, a groundbreaking sports sensation that fuses the intensity of rugby with mind-bending supernatural abilities! Step onto the futuristic pitch where speed, strategy, and superhuman powers collide in an electrifying display of athleticism.",
+    "short_description": "Welcome to the exhilarating world of Hyperfield, a groundbreaking sports sensation that fuses the intensity of rugby with mind-bending supernatural abilities! Step onto the futuristic pitch where speed, strategy, and superhuman powers collide in an electrifying display of athleticism.",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2688180/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2688180/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2688180/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Mohamed Saleh",
-      "Mamdouh Saleh"
+      "QuantumDuo Studio"
     ],
     "publishers": [
       "QuantumDuo Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      962828
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Hyperfield",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -11870,18 +11881,19 @@
     },
     "categories": [
       1,
-      28,
       36,
-      49
+      49,
+      62
     ],
     "genres": [
       1,
       18,
-      23
+      23,
+      70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "29 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -11892,6 +11904,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2688980": {
@@ -12714,5 +12744,106 @@
         "descriptors": ""
       }
     }
+  },
+  "2689740": {
+    "type": "demo",
+    "name": "Dark and Deep Demo",
+    "steam_appid": 2689740,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "",
+    "fullgame": {
+      "appid": "2493360",
+      "name": "Dark and Deep"
+    },
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2689740/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2689740/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2689740/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Walter Woods"
+    ],
+    "publishers": [
+      "Walter Woods"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      10,
+      13
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "20 Mar, 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": "walter@herebelow.net"
+    },
+    "background": "",
+    "background_raw": "",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Medo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
+    }
+  },
+  "2689730": {
+    "type": "game",
+    "name": "Dark and Deep Playtest",
+    "steam_appid": 2689730,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2689730/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2689730/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2689730/capsule_184x69.jpg",
+    "website": null,
+    "publishers": [
+      ""
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "release_date": {
+      "coming_soon": false,
+      "date": "20 Mar, 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": ""
+    },
+    "background": "",
+    "background_raw": "",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": null
   }
 }
