@@ -4899,7 +4899,7 @@
   },
   "2849860": {
     "type": "dlc",
-    "name": "Rental - Supporter Fanzine",
+    "name": "Rental - Supporter Zine",
     "steam_appid": 2849860,
     "required_age": 0,
     "is_free": false,
@@ -4919,7 +4919,20 @@
     "publishers": [
       "Animita Project"
     ],
-    "package_groups": [],
+    "packages": [
+      1016701
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Rental - Supporter Zine",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4935,11 +4948,11 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "March 2024"
+      "coming_soon": false,
+      "date": "7 Mar, 2024"
     },
     "support_info": {
-      "url": "https://smarto.club/",
+      "url": "https://www.animitaproject.com/",
       "email": "support@smarto.club"
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2849860/page_bg_generated_v6b.jpg",
@@ -4988,15 +5001,28 @@
     "publishers": [
       "Sekai Project"
     ],
-    "package_groups": [],
+    "packages": [
+      1016635
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Nie No Hakoniwa - Dollhouse of Offerings Soundtrack",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
       "linux": true
     },
     "release_date": {
-      "coming_soon": true,
-      "date": "8 Mar, 2024"
+      "coming_soon": false,
+      "date": "5 Mar, 2024"
     },
     "support_info": {
       "url": "https://support.sekaiproject.com/",
@@ -5141,7 +5167,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "Emilia's life turns into chaos as her family members disappear, one by one. Forced to put her trust in a wolf spirit, Emilia sets off to search the land while pressured into feeding a monstrous power. Will the enigmatic figure she encounters offer guidance, or is Emilia diving head-first into peril?",
-    "supported_languages": "English",
+    "supported_languages": "English, French, German, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Turkish, Ukrainian",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2849650/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2849650/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2849650/capsule_184x69.jpg",
@@ -6720,6 +6746,12 @@
     ],
     "publishers": [
       "Thirty55 Design"
+    ],
+    "demos": [
+      {
+        "appid": 2881010,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -9228,6 +9260,201 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Drastische Gewalt"
+      }
+    }
+  },
+  "2849900": {
+    "type": "demo",
+    "name": "Small Living World Demo",
+    "steam_appid": 2849900,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "",
+    "fullgame": {
+      "appid": "2781020",
+      "name": "Small Living World"
+    },
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2849900/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2849900/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2849900/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "777 Pixels"
+    ],
+    "publishers": [
+      "777 Pixels"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      10,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "June 2024"
+    },
+    "support_info": {
+      "url": "http://smalllivingworld.777pixels.ca/",
+      "email": "info@777pixels.ca"
+    },
+    "background": "",
+    "background_raw": "",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
+    }
+  },
+  "2849120": {
+    "type": "music",
+    "name": "Reverse Collapse: Code Name Bakery : Soundtrack",
+    "steam_appid": 2849120,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Embark on a journey of fate and choice. Follow Jefuty, bearer of relic powers, as she navigates the mission &quot;Operation Bakery&quot;, relentlessly exploring until she reaches her goal \u2013 finding the timeline that allows everyone to survive. In this arduous journey, music becomes her steadfast companion.",
+    "fullgame": {
+      "appid": "1127700",
+      "name": "Reverse Collapse: Code Name Bakery"
+    },
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2849120/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2849120/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2849120/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Shanghai Sunborn Network Technology Co., Ltd."
+    ],
+    "publishers": [
+      "XD"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "release_date": {
+      "coming_soon": true,
+      "date": "21 Mar, 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": "indie@xindong.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2849120/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2849120/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
+    }
+  },
+  "2849110": {
+    "type": "dlc",
+    "name": "Reverse Collapse: Code Name Bakery-Deluxe Edition Upgrade Pack",
+    "steam_appid": 2849110,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Players who purchase the base version can upgrade by purchasing the DLCs: &quot;Deluxe Edition Upgrade Pack&quot; and &quot;Reverse Collapse: Code Name Bakery OST&quot; separately (DLC not included in the launch discount).",
+    "fullgame": {
+      "appid": "1127700",
+      "name": "Reverse Collapse: Code Name Bakery"
+    },
+    "supported_languages": "English, Japanese<strong>*</strong>, Simplified Chinese, Traditional Chinese, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2849110/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2849110/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2849110/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Shanghai Sunborn Network Technology Co., Ltd."
+    ],
+    "publishers": [
+      ""
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21
+    ],
+    "genres": [
+      2,
+      3,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "21 Mar, 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": "indie@xindong.com; CodeBakery@xindong.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2849110/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2849110/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l"
+      },
+      "cadpa": {
+        "rating": "12",
+        "descriptors": "\u672c\u6e38\u620f\u9002\u7528\u4e8e12\u5468\u5c81\u53ca\u4ee5\u4e0a\u7684\u7528\u6237"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
       }
     }
   }

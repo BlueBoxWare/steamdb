@@ -9341,7 +9341,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Burning Dead Reloaded is a first person shooter on rails that immerses you in the thrilling saga of Mike Pacheco, a former security chief now branded a fugitive. Mike finds himself at the heart of a zombie bio-apocalypse caused by a genome altered using CRISPR technology",
-    "supported_languages": "English, Spanish - Spain",
+    "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2701110/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2701110/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2701110/capsule_184x69.jpg",
@@ -9352,22 +9352,36 @@
     "publishers": [
       "Vivid Unity Games"
     ],
-    "package_groups": [],
+    "packages": [
+      967226
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Burning Dead Reloaded",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "January 2024"
+      "coming_soon": false,
+      "date": "2 Feb, 2024"
     },
     "support_info": {
       "url": "https://vividunity.games/",
@@ -9381,6 +9395,24 @@
         5
       ],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2700370": {
@@ -11608,6 +11640,72 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Selbstmord"
+      }
+    }
+  },
+  "2701940": {
+    "type": "demo",
+    "name": "Glitch Daddy Demo",
+    "steam_appid": 2701940,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "You have a strange dream where you meet a creature named Glitch Daddy, telling you that the world is ending. Then, you wake up and go to unravel the truth through a wild, abstract psychedelic journey.",
+    "fullgame": {
+      "appid": "2676440",
+      "name": "Glitch Daddy"
+    },
+    "supported_languages": "English",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2701940/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2701940/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2701940/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Sad Mask Party"
+    ],
+    "publishers": [
+      "Sad Mask Party"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      10
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "sadmaskparty@hotmail.com"
+    },
+    "background": "",
+    "background_raw": "",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "A few mild jumpscares. Often an unsettling, surreal atmosphere and design."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Medo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "\u00c4ngstigende Inhalte"
       }
     }
   }
