@@ -9626,7 +9626,7 @@
     "steam_appid": 2796980,
     "required_age": 0,
     "is_free": false,
-    "short_description": "This is a 2D+3D fair play and very casual strategy card game, with 100% original gameplay! The game is very easy and simple, but it is a game that tests intelligence and luck. If you have some mental foundation, you may be more proficient in the game!",
+    "short_description": "This is a 2D+3D fair play and very casual strategy card game. The game is very easy and simple, but it is a game that tests intelligence and luck. The original intention of the game: Even if you get a bad hand, there is still hope for a comeback. The same goes for life! Never give up!",
     "supported_languages": "English, French, German, Russian, Japanese, Simplified Chinese, Traditional Chinese, Korean, Italian, Spanish - Spain",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2796980/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2796980/capsule_231x87.jpg",
@@ -9637,6 +9637,12 @@
     ],
     "publishers": [
       "Mars Game Studios"
+    ],
+    "demos": [
+      {
+        "appid": 2881690,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -9707,14 +9713,28 @@
     "publishers": [
       "Speedtrap Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      999603
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy County Courier",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       2,
@@ -9725,8 +9745,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "February 2024"
+      "coming_soon": false,
+      "date": "1 Mar, 2024"
     },
     "support_info": {
       "url": "http://speedtrapstudios.com",
