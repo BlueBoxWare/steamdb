@@ -2186,7 +2186,7 @@
       "email": ""
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2883280/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2883280/page_bg_generated.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2883280/page.bg.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -2249,7 +2249,7 @@
     },
     "support_info": {
       "url": "https://twitter.com/SamuereRS",
-      "email": "hadsamsil@gmail.com"
+      "email": "hadsamrsil@outlook.com"
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2883740/page_bg_generated_v6b.jpg",
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2883740/page.bg.jpg",
@@ -2730,14 +2730,27 @@
     "publishers": [
       "STUDIO 8LEGS Co., Ltd"
     ],
-    "package_groups": [],
+    "packages": [
+      1028069
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cabbage Crop OST Collection",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
       "linux": true
     },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "27 Mar, 2024"
     },
     "support_info": {
@@ -6573,7 +6586,20 @@
     "publishers": [
       "podval01"
     ],
-    "package_groups": [],
+    "packages": [
+      1028935
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Blood Midnight Blossom \u2013 Artbook",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -6582,15 +6608,16 @@
     "categories": [
       2,
       21,
-      22
+      22,
+      62
     ],
     "genres": [
       4,
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "25 Mar, 2024"
+      "coming_soon": false,
+      "date": "26 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -6718,7 +6745,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "24 Mar, 2024"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -8455,6 +8482,78 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": ""
+      }
+    }
+  },
+  "2883900": {
+    "type": "game",
+    "name": "Joe Maverick: Legend of the Savior",
+    "steam_appid": 2883900,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Venture into medieval times to fulfil an ancient prophecy! Featuring a well-crafted world, a zany cast of characters, and turn-based combat, gather your wits to uncover the truth behind the world you explore in this JRPG adventure.",
+    "supported_languages": "English",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2883900/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2883900/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2883900/capsule_184x69.jpg",
+    "website": "https://haxdev.xyz/",
+    "developers": [
+      "HaxDev"
+    ],
+    "publishers": [
+      "HaxDev"
+    ],
+    "demos": [
+      {
+        "appid": 2886070,
+        "description": ""
+      }
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2
+    ],
+    "genres": [
+      2,
+      3,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q2 2024"
+    },
+    "support_info": {
+      "url": "https://haxdev.xyz/",
+      "email": "1337haxman@gmail.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2883900/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2883900/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Linguagem impr\u00f3pria\nViol\u00eancia\nDrogas l\u00edcitas"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
       }
     }
   }

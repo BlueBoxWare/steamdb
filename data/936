@@ -2985,7 +2985,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "In 2015, three scientists at the Antarctic research station &quot;Zarya&quot; drilled into the ice to a depth of 2 kilometers and took samples for study... It seems that what they found was not at all what they were looking for...",
-    "supported_languages": "English, Russian",
+    "supported_languages": "English<strong>*</strong>, Russian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2810580/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2810580/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2810580/capsule_184x69.jpg",
@@ -2996,7 +2996,20 @@
     "publishers": [
       "JustTomcuk"
     ],
-    "package_groups": [],
+    "packages": [
+      1003601
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy There's Something In The Ice",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3004,16 +3017,20 @@
     },
     "categories": [
       2,
-      18
+      22,
+      62
     ],
     "genres": [
       23,
       25,
       28
     ],
+    "achievements": {
+      "total": 7
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "25 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -3136,10 +3153,16 @@
     "publishers": [
       "LightBear Software Inc."
     ],
+    "demos": [
+      {
+        "appid": 2822470,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": true
     },
     "categories": [
@@ -3197,7 +3220,7 @@
     "short_description": "",
     "fullgame": {
       "appid": "2575100",
-      "name": "VMonsters Digital Farm"
+      "name": "V-Monsters Digital Farm"
     },
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2809730/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2809730/capsule_231x87.jpg",
@@ -3254,11 +3277,11 @@
   },
   "2808940": {
     "type": "dlc",
-    "name": "Quantum Drive \u2014 Bonus Content",
+    "name": "Quantum Drive \u2014 Beta DLC",
     "steam_appid": 2808940,
     "required_age": 0,
     "is_free": true,
-    "short_description": "Elevate your digital space with our exclusive Wallpaper Pack featuring 16 stunning designs for both mobile and PC. Download in description!!",
+    "short_description": "Quantum Drive Beta version Access the first version of the game!",
     "fullgame": {
       "appid": "2707960",
       "name": "Quantum Drive"
@@ -3283,7 +3306,8 @@
     "categories": [
       2,
       21,
-      61
+      61,
+      62
     ],
     "genres": [
       9,
@@ -3436,7 +3460,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -3521,7 +3546,8 @@
       "linux": false
     },
     "categories": [
-      21
+      21,
+      62
     ],
     "genres": [
       2,
@@ -3596,7 +3622,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       3,
@@ -4075,7 +4102,8 @@
     },
     "categories": [
       2,
-      21
+      21,
+      62
     ],
     "genres": [
       1,
@@ -8087,14 +8115,28 @@
     "publishers": [
       "devX"
     ],
-    "package_groups": [],
+    "packages": [
+      1003338
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Eugenia's Pursuit: The Hidden Legacy",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -8104,7 +8146,7 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "23 Feb, 2024"
     },
     "support_info": {
@@ -8233,7 +8275,6 @@
       1,
       2,
       9,
-      22,
       38
     ],
     "genres": [
@@ -8244,7 +8285,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "February 2024"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "www.hurrycatstudios.com",
@@ -11925,6 +11966,71 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Fantasy-Gewalt"
+      }
+    }
+  },
+  "2809910": {
+    "type": "demo",
+    "name": "Red Guards: Rebels of the Revolution Demo",
+    "steam_appid": 2809910,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "",
+    "fullgame": {
+      "appid": "2809900",
+      "name": "Uninitialized"
+    },
+    "supported_languages": "English<strong>*</strong>, Japanese<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2809910/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2809910/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2809910/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Droctulft Games"
+    ],
+    "publishers": [
+      "Droctulft Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      10
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "29 Mar, 2024"
+    },
+    "support_info": {
+      "url": "https://twitter.com/droctulftgames",
+      "email": "droctulftgames@proton.me"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2809910/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2809910/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Linguagem impr\u00f3pria\nAtos criminosos\nViol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Verbrechen"
       }
     }
   }

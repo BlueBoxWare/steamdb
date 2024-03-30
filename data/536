@@ -2195,8 +2195,8 @@
     "steam_appid": 1608590,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Thyria is a RPG, with turn-based combat and isometric 2D exploration, playing on time management mechanics. Summon and train a team of Guardians, who will accompany Thyria into the minds of the cursed villagers. Help them vanquish their nightmares.",
-    "supported_languages": "English, French",
+    "short_description": "Thyria is an RPG, a unique combination of dynamic exploration, turn-based combat and crafting. Summon and train a team of Guardians, who will accompany Thyria into the minds of the cursed villagers. Help them vanquish their nightmares.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America, Thai, Turkish, Ukrainian, Vietnamese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1608590/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1608590/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1608590/capsule_184x69.jpg",
@@ -2207,23 +2207,46 @@
     "publishers": [
       "GrabTheGames"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 2819820,
+        "description": ""
+      }
+    ],
+    "packages": [
+      570506
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Thyria",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       3,
       23,
       70
     ],
+    "achievements": {
+      "total": 31
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "29 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -2234,6 +2257,14 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "10",
+        "descriptors": "Viol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "10"
+      }
     }
   },
   "1608220": {
@@ -4450,7 +4481,8 @@
       2,
       22,
       23,
-      28
+      28,
+      62
     ],
     "genres": [
       1,
@@ -4475,6 +4507,22 @@
         5
       ],
       "notes": "Gun Violence, Blood"
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "18",
+        "descriptors": "Viol\u00eancia Extrema\r\nDrogas l\u00edcitas",
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "1608010": {
@@ -5281,7 +5329,7 @@
     "name": "ENEMIES",
     "steam_appid": 1609300,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
     "short_description": "Venturing into the exciting work of Lollygag Labs, a game developing corporation looking to breach the barriers of what can be achieved with gaming, then things take a dark turn...get ready to jump into the crazy world of ENEMIES!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1609300/header_alt_assets_0.jpg",
@@ -5294,20 +5342,7 @@
     "publishers": [
       "Lollygag Labs"
     ],
-    "packages": [
-      570737
-    ],
-    "package_groups": [
-      {
-        "name": "default",
-        "title": "Buy ENEMIES",
-        "description": "",
-        "selection_text": "Select a purchase option",
-        "save_text": "",
-        "display_type": 0,
-        "is_recurring_subscription": "false"
-      }
-    ],
+    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -5320,7 +5355,8 @@
     "genres": [
       1,
       23,
-      25
+      25,
+      37
     ],
     "release_date": {
       "coming_soon": false,
@@ -5335,6 +5371,14 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "14",
+        "descriptors": "Viol\u00eancia\r\nLinguagem impr\u00f3pria",
+        "use_age_gate": "true",
+        "required_age": "14"
+      }
     }
   },
   "1610450": {
@@ -6183,7 +6227,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Horror Royale is a split-screen and online multiplayer psychological horror game that involves trying to escape a level as monsters try to hunt you down and kill you. With three different game modes and eight different monsters, scream and cheer with your friends as you try to survive.",
+    "short_description": "Horror Royale is an online and local multiplayer co-op/PvP survival horror game. Communicate with your friends using proximity chat (but not so loud that the monsters can hear) and use items and your environment to avoid the monsters and survive.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1610370/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1610370/capsule_231x87.jpg",
@@ -6196,8 +6240,8 @@
       "Ben Wade"
     ],
     "packages": [
-      643340,
-      571088
+      571088,
+      643340
     ],
     "package_groups": [
       {
@@ -6228,7 +6272,10 @@
       38,
       39,
       44,
-      49
+      47,
+      48,
+      49,
+      62
     ],
     "genres": [
       1,
@@ -6256,6 +6303,22 @@
         5
       ],
       "notes": "This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Frequent Violence or Gore, General Mature Content"
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "14",
+        "descriptors": "Viol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "14"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Horror"
+      }
     }
   },
   "1608210": {
@@ -6576,7 +6639,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -6595,6 +6659,12 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      }
     }
   },
   "1608620": {
@@ -7304,7 +7374,8 @@
       21,
       22,
       23,
-      38
+      38,
+      62
     ],
     "genres": [
       1,
@@ -7323,6 +7394,28 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "t",
+        "descriptors": "Violence\r\nLanguage",
+        "interactive_elements": "Users Interact"
+      },
+      "pegi": {
+        "rating": "12",
+        "descriptors": "Violence"
+      },
+      "usk": {
+        "rating": "16"
+      },
+      "oflc": {
+        "rating": "m",
+        "descriptors": "Violence \r\nOnline interactivity"
+      },
+      "dejus": {
+        "rating": "12",
+        "descriptors": "Viol\u00eancia"
+      }
     }
   },
   "1608470": {
@@ -9346,7 +9439,8 @@
     },
     "categories": [
       2,
-      18
+      18,
+      62
     ],
     "genres": [
       3,
@@ -9365,6 +9459,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "1610030": {
@@ -10690,7 +10802,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Dive into a thrilling survival adventure where an unknown liquid takes control of your life. Extract Serum to stay alive, battle dangerous creatures, solve puzzles, and uncover clues about past events. Find your way out alone or in a 4-player co-op mode.",
-    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Polish, Simplified Chinese<br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Polish<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1610520/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1610520/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1610520/capsule_184x69.jpg",
@@ -10700,6 +10812,12 @@
     ],
     "publishers": [
       "Toplitz Productions"
+    ],
+    "demos": [
+      {
+        "appid": 2780530,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -10723,7 +10841,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q1 2024"
+      "date": "Q2 2024"
     },
     "support_info": {
       "url": "https://www.toplitz-productions.com/tickets.html",
@@ -10733,9 +10851,26 @@
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1610520/page.bg.jpg",
     "content_descriptors": {
       "ids": [
+        2,
         5
       ],
-      "notes": null
+      "notes": "Killing mutated animals, zombies, and occasionally people. Breeding mutated animals. Injecting legal medicine into the body. "
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "14",
+        "descriptors": "Viol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "14"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Horror"
+      }
     }
   },
   "1608660": {
@@ -11043,12 +11178,17 @@
       "mac": false,
       "linux": false
     },
+    "metacritic": {
+      "score": 80,
+      "url": "https://www.metacritic.com/game/pc/planet-of-lana?ftag=MCD-06-10aaa1f"
+    },
     "categories": [
       2,
       22,
       23,
       28,
-      29
+      29,
+      62
     ],
     "genres": [
       1,
@@ -11071,6 +11211,22 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "10",
+        "descriptors": "Medo\r\nViol\u00eancia fantasiosa",
+        "use_age_gate": "true",
+        "required_age": "10"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "1610150": {
