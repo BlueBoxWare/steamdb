@@ -8437,7 +8437,6 @@
     "steam_appid": 2735150,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "A fast paced twin stick shooter with powerful spells and chaotic enemies.",
     "supported_languages": "English, Portuguese - Brazil",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2735150/header.jpg",
@@ -8450,7 +8449,20 @@
     "publishers": [
       "Plug & Boom"
     ],
-    "package_groups": [],
+    "packages": [
+      978706
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Tome Supreme",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8461,9 +8473,9 @@
       2,
       9,
       24,
-      28,
       39,
-      44
+      44,
+      62
     ],
     "genres": [
       1,
@@ -8471,8 +8483,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "1 Feb, 2024"
     },
     "support_info": {
       "url": "http://www.plugandboom.com",
@@ -8483,6 +8495,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2734510": {
