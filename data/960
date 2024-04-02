@@ -5117,7 +5117,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "A short psychological horror story about a girl, a murder, and a missing head.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Japanese, Russian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2880310/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2880310/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2880310/capsule_184x69.jpg",
@@ -5194,7 +5194,20 @@
     "publishers": [
       "AGN Entertainment"
     ],
-    "package_groups": [],
+    "packages": [
+      1027071
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Slime Climber",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5202,19 +5215,23 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       4,
       23,
       25
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "29 Mar, 2024"
     },
     "support_info": {
-      "url": "",
+      "url": "https://discord.gg/AFMzsD3vfg",
       "email": "AGNSupport@proton.me"
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2880480/page_bg_generated_v6b.jpg",
@@ -5332,7 +5349,20 @@
     "publishers": [
       "MindlessMatrix"
     ],
-    "package_groups": [],
+    "packages": [
+      1027190
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Fantasy Creature Jigsaws",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5341,15 +5371,19 @@
     "categories": [
       2,
       22,
-      23
+      23,
+      62
     ],
     "genres": [
       4,
       23
     ],
+    "achievements": {
+      "total": 30
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "25 Mar, 2024"
+      "coming_soon": false,
+      "date": "29 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -8838,6 +8872,70 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Gewalt"
+      }
+    }
+  },
+  "2882260": {
+    "type": "game",
+    "name": "Hydrogen Game",
+    "steam_appid": 2882260,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A falling puzzle game where you drop 118 different elements and aim for a high score. You don't have to know the elements! Can you see the 118th element?",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Russian, Simplified Chinese, Traditional Chinese, Japanese, Korean",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2882260/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2882260/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2882260/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "kakeia"
+    ],
+    "publishers": [
+      "kakeia"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2
+    ],
+    "genres": [
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://akihiroka.net/?page_id=124",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2882260/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2882260/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
       }
     }
   }
