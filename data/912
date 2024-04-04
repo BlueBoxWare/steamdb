@@ -7060,6 +7060,9 @@
     "steam_appid": 2738680,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      2891530
+    ],
     "short_description": "Infinite Rhythm Action. Join Ace and PZO-116 as they repel alien invaders whose only weakness is music. Battle using any song from local files or online video with automatic beatmap generation. Nail the perfect run and top the leaderboard on your favourite tracks. Your music will save the world.",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2738680/header.jpg",
@@ -7072,7 +7075,20 @@
     "publishers": [
       "Subtle Blend Software"
     ],
-    "package_groups": [],
+    "packages": [
+      979889
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Bass Invaders",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7087,15 +7103,19 @@
       23,
       24,
       39,
-      44
+      44,
+      62
     ],
     "genres": [
       1,
       23
     ],
+    "achievements": {
+      "total": 52
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "25 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -7106,6 +7126,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2738810": {
