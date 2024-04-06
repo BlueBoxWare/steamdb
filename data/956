@@ -3685,8 +3685,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "24 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -3722,9 +3722,9 @@
     "name": "Fading Echoes",
     "steam_appid": 2870560,
     "required_age": 0,
-    "is_free": true,
-    "short_description": "A group of guards are charged with defending the royal wedding. Unfortunately for them, this event attracts threats. An incredible adventure awaits them, where they will discover the secrets that lie in their lands, in their legends, and in the dark force that threatens to destroy them.",
-    "supported_languages": "English, Italian",
+    "is_free": false,
+    "short_description": "Forge your own story and explore a vast island at war. Explore winding caves, dense forests, and fight your way through filthy creatures, bizarre monsters, elite soldiers in turn-based tactical combat, and decide the fate of this kingdom, also influenced by side missions!",
+    "supported_languages": "English, Italian, German",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2870560/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2870560/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2870560/capsule_184x69.jpg",
@@ -3735,26 +3735,45 @@
     "publishers": [
       "Vyto Stuff"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 2871460,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1023730
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Fading Echoes",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
       3,
       23,
       25,
-      37,
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q3 2024"
+      "coming_soon": false,
+      "date": "28 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -8688,6 +8707,72 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Fantasy-Gewalt"
+      }
+    }
+  },
+  "2868270": {
+    "type": "game",
+    "name": "Labyrinth: The wizard's cat",
+    "steam_appid": 2868270,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Enter the dungeon and help the master wizard to find his cat in this oldschool dungeon crawler. Discover powerful magical items and weapons. Solve puzzles and traps and fight the enemies in this real time combat dungeon crawler game.",
+    "supported_languages": "English",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2868270/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2868270/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2868270/capsule_184x69.jpg",
+    "website": "http://angu.ddns.net/",
+    "developers": [
+      "Zombisoft"
+    ],
+    "publishers": [
+      "Zombisoft"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2
+    ],
+    "genres": [
+      1,
+      3,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q2 2024"
+    },
+    "support_info": {
+      "url": "http://angu.ddns.net/",
+      "email": "zombisoft@hotmail.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2868270/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2868270/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
       }
     }
   }
