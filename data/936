@@ -9636,7 +9636,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Click on bubballs to pop them. Get your pop-streak high to earn a medal. Clear stages to level up and get more bubballs. Alternatively, use the main bubball to pop the rest and clear stages to earn medals.",
-    "supported_languages": "English, German, Japanese, French, Italian, Dutch, Spanish - Spain, Spanish - Latin America, Simplified Chinese, Traditional Chinese, Korean, Russian, Ukrainian, Bulgarian, Czech, Danish, Finnish, Greek, Hungarian, Indonesian, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Swedish, Turkish, Vietnamese, Thai, Arabic, Afrikaans, Albanian, Amharic, Armenian, Assamese, Azerbaijani, Bangla, Basque, Belarusian, Bosnian, Catalan, Cherokee, Croatian, Dari, Estonian, Filipino, Galician, Georgian, Gujarati, Hausa, Hebrew, Hindi, Icelandic, Igbo, Irish, K'iche', Kannada, Kazakh, Khmer, Kinyarwanda, Konkani, Kyrgyz, Latvian, Lithuanian, Luxembourgish, Macedonian, Malay, Malayalam, Maltese, Maori, Marathi, Mongolian, Nepali, Odia, Persian, Punjabi (Gurmukhi), Punjabi (Shahmukhi), Quechua, Scots, Serbian, Sindhi, Sinhala, Slovak, Slovenian, Sorani, Sotho, Swahili, Tajik, Tamil, Tatar, Telugu, Tigrinya, Tswana, Turkmen, Urdu, Uyghur, Uzbek, Valencian, Welsh, Wolof, Xhosa, Yoruba, Zulu",
+    "supported_languages": "English, German, Japanese, French, Italian, Dutch, Spanish - Spain, Spanish - Latin America, Simplified Chinese, Traditional Chinese, Korean, Russian, Ukrainian, Bulgarian, Czech, Danish, Finnish, Greek, Hungarian, Indonesian, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Swedish, Turkish, Vietnamese, Thai",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2808610/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2808610/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2808610/capsule_184x69.jpg",
@@ -9647,22 +9647,42 @@
     "publishers": [
       "DeltaSoft d.o.o."
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 2883500,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1002925
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Bubballs",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       4,
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "March 2024"
+      "coming_soon": false,
+      "date": "8 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -12072,6 +12092,70 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Verbrechen"
+      }
+    }
+  },
+  "2808960": {
+    "type": "game",
+    "name": "Shui's Odyssey",
+    "steam_appid": 2808960,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This is a puzzle game that combines text and images. Players use visual illusions to piece together fragments of memories from Alzheimer's patients, in order to reconstruct the truth of the story and witness the passage of time for three generations.",
+    "supported_languages": "Simplified Chinese, Traditional Chinese",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2808960/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2808960/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2808960/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Intentional Studio"
+    ],
+    "publishers": [
+      "2P Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2
+    ],
+    "genres": [
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support@2pgames.net"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2808960/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2808960/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
       }
     }
   }

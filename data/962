@@ -4847,7 +4847,7 @@
     "required_age": 0,
     "is_free": true,
     "short_description": "Multiplayer movement shooter with foreboding vibes",
-    "supported_languages": "English<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2888740/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2888740/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2888740/capsule_184x69.jpg",
@@ -4872,7 +4872,9 @@
     },
     "categories": [
       1,
-      2
+      2,
+      36,
+      49
     ],
     "genres": [
       1,
@@ -6575,6 +6577,12 @@
     "publishers": [
       "Silent Code"
     ],
+    "demos": [
+      {
+        "appid": 2906110,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -6761,8 +6769,8 @@
     "steam_appid": 2888290,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Upon coming from work, excited to be healed by your pet rabbit Miyu, you're instead greeting by a naked busty Bunny Girl! The Bunny Girl says she *IS* Miyu and she is going to become your ideal Bunny Girlfriend!",
-    "supported_languages": "English, Spanish - Spain, Simplified Chinese, Spanish - Latin America, Traditional Chinese",
+    "short_description": "Nothing better than coming home after a long day to your soothing pet rabbit Miyu, WHAT?! Miyu's now a smokin' hot BUNNY GIRL in need of some HEAVY PETTING to be satisfied?!",
+    "supported_languages": "English, Simplified Chinese, Spanish - Latin America, Traditional Chinese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2888290/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2888290/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2888290/capsule_184x69.jpg",
@@ -6773,7 +6781,20 @@
     "publishers": [
       "Cherry Kiss Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1029747
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Bunny Girl Cumming for my Carrot",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6783,14 +6804,18 @@
       2,
       18,
       22,
-      23
+      23,
+      62
     ],
     "genres": [
       4
     ],
+    "achievements": {
+      "total": 9
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "1 Apr, 2024"
     },
     "support_info": {
       "url": "",
@@ -8151,6 +8176,71 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Fantasy-Gewalt"
+      }
+    }
+  },
+  "2886880": {
+    "type": "game",
+    "name": "Tiny Planet",
+    "steam_appid": 2886880,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Create your very own tiny planet and place it among the stars in the vast expanse of the universe !",
+    "supported_languages": "English",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2886880/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2886880/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2886880/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Philippe Quang-Nam Vo"
+    ],
+    "publishers": [
+      "Philippe Quang-Nam Vo"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      2
+    ],
+    "genres": [
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "philippe.vo.nn@gmail.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2886880/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2886880/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
       }
     }
   }
