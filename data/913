@@ -4588,7 +4588,7 @@
     "steam_appid": 2740280,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Tactic Boxing is a hardcore boxing simulator with ragdoll physics and a career mode.",
+    "short_description": "Tactic Boxing is a hardcore boxing simulator with ragdoll physics, local multiplayer and a career mode.",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2740280/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2740280/capsule_231x87.jpg",
@@ -4600,14 +4600,33 @@
     "publishers": [
       "Stately Eagle Games"
     ],
-    "package_groups": [],
+    "packages": [
+      980419
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Tactic Boxing",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      1,
+      2,
+      18,
+      24,
+      37,
+      49,
+      62
     ],
     "genres": [
       1,
@@ -4616,8 +4635,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "2024"
+      "coming_soon": false,
+      "date": "24 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -4628,6 +4647,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2741380": {
@@ -7122,11 +7159,14 @@
       2,
       18,
       21,
+      22,
+      23,
       24,
+      29,
       36,
       37,
-      44,
-      49
+      49,
+      62
     ],
     "genres": [
       1
@@ -7144,6 +7184,62 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "t",
+        "descriptors": "Violence\r\nSuggestive Themes\r\nLanguage",
+        "interactive_elements": "Users Interact"
+      },
+      "pegi": {
+        "rating": "16",
+        "descriptors": "Violence\r\nIn-Game Purchases"
+      },
+      "usk": {
+        "rating": "12",
+        "descriptors": "Fantasy-Gewalt\r\nHandlungsdruck\r\nChats"
+      },
+      "oflc": {
+        "rating": "m",
+        "descriptors": "Fantasy themes\r\nviolence\r\nonline interactivity \r\nchat"
+      },
+      "nzoflc": {
+        "rating": "m",
+        "descriptors": "Fantasy themes\r\nviolence\r\nonline interactivity \r\nchat"
+      },
+      "cero": {
+        "rating": "d",
+        "descriptors": "Sexual content"
+      },
+      "kgrb": {
+        "rating": "15",
+        "descriptors": "Violence"
+      },
+      "dejus": {
+        "rating": "12",
+        "descriptors": "Viol\u00eancia\r\nConte\u00fado Sexual"
+      },
+      "mda": {
+        "rating": "AA16"
+      },
+      "fpb": {
+        "rating": "13"
+      },
+      "csrr": {
+        "rating": "C15",
+        "descriptors": "Sex"
+      },
+      "crl": {
+        "rating": "16"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2741980": {
