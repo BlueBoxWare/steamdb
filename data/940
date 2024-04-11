@@ -1135,6 +1135,12 @@
     "publishers": [
       "GoatDragonStudio"
     ],
+    "demos": [
+      {
+        "appid": 2854410,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -7071,7 +7077,7 @@
   },
   "2820200": {
     "type": "game",
-    "name": "Ghost house",
+    "name": "Ghost room",
     "steam_appid": 2820200,
     "required_age": 0,
     "is_free": false,
@@ -7087,22 +7093,36 @@
     "publishers": [
       "YajinGameProject"
     ],
-    "package_groups": [],
+    "packages": [
+      1006722
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Ghost room",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       23,
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "11 Apr, 2024"
     },
     "support_info": {
       "url": "",
@@ -7117,11 +7137,11 @@
     "ratings": {
       "dejus": {
         "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
+        "rating": "14",
+        "required_age": "14",
         "banned": "0",
         "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia\nTemas sens\u00edveis\nMedo"
+        "descriptors": "Viol\u00eancia\nMedo"
       },
       "steam_germany": {
         "rating_generated": "1",
@@ -7155,7 +7175,7 @@
     },
     "release_date": {
       "coming_soon": false,
-      "date": "26 Feb, 2024"
+      "date": "15 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -7176,7 +7196,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Bartend and run a roadhouse in this AI-enhanced roguelike-sim! Patrons once impressed, will become permanent barflies that can be hired as staff, or sent on quests in the mysterious mist. Upgrade your roadhouse, hire a band, and build your Signature Cocktail with over 450 ingredients to choose from.",
+    "short_description": "Bartend and run a roadhouse in this AI-enhanced roguelite-sim! Patrons once impressed, will become permanent barflies that can be hired as staff, or sent on quests in the mysterious mist. Upgrade your roadhouse, hire a band, and build your Signature Cocktail, with 333 ingredients to choose from.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2822360/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2822360/capsule_231x87.jpg",
@@ -7201,7 +7221,7 @@
     ],
     "genres": [
       3,
-      23,
+      25,
       28
     ],
     "release_date": {
