@@ -5445,7 +5445,7 @@
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2895060/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "GDC 2023"
+      "seoulhs GDC"
     ],
     "publishers": [
       "Jeonghyeon Moon"
@@ -5468,8 +5468,8 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "April 2024"
+      "coming_soon": false,
+      "date": "15 Apr, 2024"
     },
     "support_info": {
       "url": "",
@@ -6192,7 +6192,20 @@
     "publishers": [
       "Frank Hampus Weslien"
     ],
-    "package_groups": [],
+    "packages": [
+      1032346
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy GLOW",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -6200,16 +6213,20 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       1,
       4,
       23
     ],
+    "achievements": {
+      "total": 9
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "April 2024"
+      "coming_soon": false,
+      "date": "17 Apr, 2024"
     },
     "support_info": {
       "url": "",
@@ -7594,6 +7611,75 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": ""
+      }
+    }
+  },
+  "2895560": {
+    "type": "game",
+    "name": "Harlot's Diary",
+    "steam_appid": 2895560,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "In a ruthless world where you've lost everything, only desperate measures remain. Fight to survive as a sex worker and reach the top, avoiding deceit, murderers, and abuse on your path to success.",
+    "supported_languages": "English<strong>*</strong>, Spanish - Spain<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2895560/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2895560/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2895560/capsule_184x69.jpg",
+    "website": "https://twitter.com/VeratrumGames",
+    "developers": [
+      "Veratrum"
+    ],
+    "publishers": [
+      "Veratrum"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      2
+    ],
+    "genres": [
+      2,
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "July 2024"
+    },
+    "support_info": {
+      "url": "https://twitter.com/VeratrumGames",
+      "email": "veratrumgames@gmail.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2895560/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2895560/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [
+        1,
+        5
+      ],
+      "notes": "Warning: This game features explicit dialogues addressing themes of sex, prostitution, violence, and drugs. However, it does not depict graphic nudity. Please take note of these features before proceeding to play."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drogas il\u00edcitas\nViol\u00eancia\nTemas sens\u00edveis"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Sexualisierte Gewalt / Sexual violence"
       }
     }
   }
