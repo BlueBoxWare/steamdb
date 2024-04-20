@@ -537,7 +537,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "2024"
     },
     "support_info": {
       "url": "https://noobzilla.games",
@@ -744,7 +744,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "April 2024"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "https://twitter.com/sowa_jp",
@@ -2855,8 +2855,8 @@
       10
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "April 2024"
+      "coming_soon": false,
+      "date": "19 Apr, 2024"
     },
     "support_info": {
       "url": "",
@@ -2953,8 +2953,8 @@
     "steam_appid": 2926680,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Tiny is a first person precision platformer, in this game you will control a ball but in first person perspective, The main goal of the game is to climb all the way to the top while facing difficult jumps.",
-    "supported_languages": "English",
+    "short_description": "Tiny is a precision platformer, The goal of the game is to climb all the way to the top while facing difficult jumps.",
+    "supported_languages": "English, French, Italian, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Simplified Chinese, Traditional Chinese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2926680/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2926680/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2926680/capsule_184x69.jpg",
@@ -2980,7 +2980,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2025"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "https://kanawati.webflow.io/",
@@ -3401,12 +3401,17 @@
     }
   },
   "2927990": {
-    "type": "game",
+    "type": "dlc",
     "name": "Sleeping With Sakuya Izayoi - ASMR DLC",
     "steam_appid": 2927990,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Enjoy this short fully voiced scene that brings the Sleeping With Sakuya Izayoi experience to life through the use of immersive ASMR!",
+    "fullgame": {
+      "appid": "2739620",
+      "name": "Sleeping With Sakuya Izayoi"
+    },
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2927990/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2927990/capsule_231x87.jpg",
@@ -3418,21 +3423,36 @@
     "publishers": [
       "Sigyaad Team"
     ],
-    "package_groups": [],
+    "packages": [
+      1042975
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Sleeping With Sakuya Izayoi - ASMR DLC",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      21,
+      28
     ],
     "genres": [
       4
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "15 Apr, 2024"
     },
     "support_info": {
       "url": "",
@@ -3834,7 +3854,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "29 Apr, 2024"
     },
     "support_info": {
       "url": "https://discord.gg/85AZ5J8473",
@@ -3953,14 +3973,27 @@
     "publishers": [
       "tinyBuild"
     ],
-    "package_groups": [],
+    "packages": [
+      1042545
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Kill It With Fire 2 Soundtrack",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
       "linux": true
     },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "16 Apr, 2024"
     },
     "support_info": {
@@ -5770,6 +5803,200 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": ""
+      }
+    }
+  },
+  "2927840": {
+    "type": "game",
+    "name": "Vedmaak",
+    "steam_appid": 2927840,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Vedmaak is an action RPG centered around battling foes and gathering valuable loot. Vedmaaks, elite warriors adept in melee combat, marksmanship, and practical magic, are sought for missions surpassing the abilities of ordinary warriors.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2927840/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2927840/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2927840/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Jerzy Bajer"
+    ],
+    "publishers": [
+      "Jerzy Bajer"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2
+    ],
+    "genres": [
+      1,
+      3
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "10 May, 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": "j.bajer@yahoo.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2927840/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2927840/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
+    }
+  },
+  "2927800": {
+    "type": "game",
+    "name": "Riser of Babel",
+    "steam_appid": 2927800,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Avoid all obstacles and get high as you can! Riser of Babel is endless 2d jump platform puzzle game. Stack different style blocks for your character and run for higher score! Master stacking tower and challenge for avoid falling debris and critical lighting!",
+    "supported_languages": "English",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2927800/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2927800/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2927800/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "KwangHyunHwa"
+    ],
+    "publishers": [
+      "KwangHyunHwa"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2
+    ],
+    "genres": [
+      4,
+      23,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q2 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": "Khwforart@gmail.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2927800/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2927800/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
+    }
+  },
+  "2926360": {
+    "type": "demo",
+    "name": "Cryptic Route Demo",
+    "steam_appid": 2926360,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "&quot;Cryptic Route&quot; begins with the protagonist driving through a rainy night forest. Relying on navigation, each choice influences the outcome of the journey. The multiple ending system offers various results, immersing players into a tale of mystery and horror.",
+    "fullgame": {
+      "appid": "2925010",
+      "name": "Uninitialized"
+    },
+    "supported_languages": "English<strong>*</strong>, Korean<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2926360/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2926360/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2926360/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Oh Hyeonkyeong"
+    ],
+    "publishers": [
+      "Callmerat Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      10
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://blog.naver.com/callmerat",
+      "email": "callmeratgames@gmail.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2926360/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2926360/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nMedo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Horror"
       }
     }
   }

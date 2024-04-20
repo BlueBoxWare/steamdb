@@ -450,7 +450,7 @@
     "steam_appid": 2753280,
     "required_age": 0,
     "is_free": false,
-    "short_description": "\u8be5DLC\u53ef\u4ee5\u4e3a\u60a8\u89e3\u9501\u8ffd\u52a0\u7ae0\u8282\uff1a\u5341\u56db\u5230\u4e8c\u5341\u7ae0\u3002",
+    "short_description": "\u8be5DLC\u53ef\u4ee5\u4e3a\u60a8\u89e3\u9501\u8ffd\u52a0\u7ae0\u8282\uff1a\u5341\u56db\u5230\u4e8c\u5341\u7ae0\u3002 \u4f60\u53ef\u4ee5\u5728\u8fd9\u4e9b\u7ae0\u8282\u91cc\u89c1\u5230\u5c0f\u591c\u7684\u66f4\u591a\u540e\u5bab\uff0c\u4eab\u53d7\u4e0e\u8001\u5a46\u4eec\u8d34\u8d34\u7684\u5feb\u4e50\u4f53\u9a8c\uff01",
     "fullgame": {
       "appid": "2619180",
       "name": "\u5c0f\u591c\u602a\u5947\u7269\u8bed"
@@ -466,7 +466,20 @@
     "publishers": [
       "\u6f20\u7136\u65c5\u8005"
     ],
-    "package_groups": [],
+    "packages": [
+      984786
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u5c0f\u591c\u602a\u5947\u7269\u8bed\u8ffd\u52a0\u7ae0\u8282\uff1a\u5341\u56db\u5230\u4e8c\u5341\u7ae0",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -474,15 +487,16 @@
     },
     "categories": [
       2,
-      21
+      21,
+      62
     ],
     "genres": [
       23,
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "April 2024"
+      "coming_soon": false,
+      "date": "23 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -493,6 +507,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2752050": {
@@ -552,6 +584,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2752560": {
@@ -819,7 +869,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Pure physics-based rocket-powered fun. Solve puzzles, fly fast, crash hard. Become a Starlight Scout...",
+    "short_description": "Pilot your rugged rocket through a captivating retro adventure as a Starlight Scout. Master the physics-based gameplay and discover the secrets of the Galaxy!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2753420/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2753420/capsule_231x87.jpg",
@@ -852,7 +902,8 @@
     },
     "categories": [
       2,
-      28
+      28,
+      62
     ],
     "genres": [
       4,
@@ -877,6 +928,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2753100": {
@@ -2756,56 +2825,86 @@
   },
   "2752250": {
     "type": "game",
-    "name": "\u672b\u4e16\u56f4\u57ce",
+    "name": "Survival Odyssey",
     "steam_appid": 2752250,
     "required_age": 0,
     "is_free": false,
-    "short_description": "\u6e38\u620f\u4e2d\u670940\u4e2a\u82f1\u96c4\u4f9b\u73a9\u5bb6\u968f\u673a\u9009\u62e9\uff0c\u6bcf\u4e2a\u82f1\u96c4\u90fd\u62e5\u6709\u72ec\u7279\u7684\u6280\u80fd\uff0c\u73a9\u5bb6\u53ef\u4ee5\u81ea\u7531\u642d\u914d\u6280\u80fd\u548c\u9009\u62e9\u88c5\u5907\uff0c\u521b\u9020\u51fa\u6570\u4e07\u79cd\u4e0d\u540c\u7684\u7b56\u7565\u642d\u914d\u65b9\u5f0f\u3002\u602a\u7269\u4f1a\u5728\u5168\u5730\u56fe\u5237\u65b0\uff0c\u6570\u91cf\u6781\u591a\uff0c\u73a9\u5bb6\u9700\u8981\u75af\u72c2\u5272\u8349\u6765\u7ef4\u6301\u751f\u5b58\u3002",
-    "supported_languages": "Simplified Chinese",
+    "short_description": "Immerse yourself in this epic survival game teeming with strategy and thrills! Confront relentless attacks, fighting tooth and nail to survive in a world overrun by chaos. Select from a diverse pool of 100 heroes, each boasting unique skills, allowing you to craft endless strategic combinations.",
+    "supported_languages": "Simplified Chinese<strong>*</strong>, English, German, Spanish - Spain, Russian, Japanese, Traditional Chinese, Portuguese - Brazil, Portuguese - Portugal, Spanish - Latin America, Arabic<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2752250/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2752250/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2752250/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "\u6b66\u6c49\u6570\u5373\u4e07\u7269\u79d1\u6280\u6709\u9650\u516c\u53f8"
+      "Phoenix Game"
     ],
     "publishers": [
-      " \u6b66\u6c49\u6570\u5373\u4e07\u7269\u79d1\u6280\u6709\u9650\u516c\u53f8"
+      "\u9ece\u7fbd\u79d1\u6280",
+      "MediBang Games"
     ],
-    "package_groups": [],
+    "packages": [
+      984459
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Survival Odyssey",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
-      1,
-      2,
       3,
-      4,
       23,
       25,
-      28
+      70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "5 Feb, 2024"
+      "coming_soon": false,
+      "date": "8 Mar, 2024"
     },
     "support_info": {
       "url": "",
-      "email": "1139140894@QQ.COM"
+      "email": "gamesupport@gklgame.email"
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2752250/page_bg_generated_v6b.jpg",
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2752250/page.bg.jpg",
     "content_descriptors": {
       "ids": [
-        2,
+        1,
         5
       ],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nAtos criminosos"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2751800": {
@@ -2849,7 +2948,8 @@
       1,
       2,
       47,
-      49
+      49,
+      62
     ],
     "genres": [
       2,
@@ -2869,6 +2969,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Conte\u00fado sexual"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Sexuelle Inhalte"
+      }
     }
   },
   "2751710": {
@@ -2916,6 +3034,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2753550": {
@@ -3020,7 +3156,20 @@
     "publishers": [
       "The WOW Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      984992
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy VR Houses: Glass Apartment",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3028,15 +3177,17 @@
     },
     "categories": [
       2,
-      54
+      52,
+      54,
+      62
     ],
     "genres": [
       4,
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "8 Mar, 2024"
     },
     "support_info": {
       "url": "http://thewowstudio.nl",
@@ -3047,6 +3198,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2752210": {
@@ -3562,13 +3731,14 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
       2,
       10,
-      28
+      28,
+      62
     ],
     "release_date": {
       "coming_soon": false,
@@ -3583,6 +3753,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2753910": {
@@ -3666,6 +3854,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2753250": {
@@ -3857,8 +4063,8 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Enhance your gaming with PlayStatus! Get real-time battery alerts for Dual Sense, Xbox &amp; Nintendo Switch Pro controllers, and music playback details, including album art. This sleek overlay keeps you informed without intrusion, ensuring your controller never dies unexpectedly.",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Traditional Chinese",
+    "short_description": "Enhance your gaming with PlayStatus! Get real-time battery alerts for DualSense, DualShock 4, Xbox &amp; Nintendo Switch Pro controllers, and music playback details, including album art. This sleek overlay keeps you informed without intrusion, ensuring your controller never dies unexpectedly.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Simplified Chinese, Russian",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2752040/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2752040/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2752040/capsule_184x69.jpg",
@@ -3869,7 +4075,20 @@
     "publishers": [
       "CKProductions"
     ],
-    "package_groups": [],
+    "packages": [
+      984387
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy PlayStatus - Game Controller Battery Overlay",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3884,8 +4103,8 @@
       57
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "2 Feb, 2024"
     },
     "support_info": {
       "url": "https://ckproductions.dev/",
@@ -3896,6 +4115,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2752740": {
@@ -6701,6 +6938,12 @@
     "publishers": [
       "Aldorlea Games"
     ],
+    "demos": [
+      {
+        "appid": 2905780,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -6717,7 +6960,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "25 Apr, 2024"
+      "date": "29 Aug, 2024"
     },
     "support_info": {
       "url": "",
@@ -6728,6 +6971,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Linguagem impr\u00f3pria\nViol\u00eancia\nAtos criminosos"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2752340": {
@@ -8590,14 +8851,28 @@
     "publishers": [
       "CyberStep, Inc."
     ],
-    "package_groups": [],
+    "packages": [
+      984968
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u3050\u3046\u305f\u3089\u5a18\u66f4\u751f\u8a08\u753b \uff5eNeet Girl Rehabilitation Plan\uff5e",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       4,
@@ -8605,8 +8880,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "7 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -8620,6 +8895,24 @@
         5
       ],
       "notes": "Some scenes in the game contain mild sexual content, strong language, criminal activity, and detailed text in which people die, and may not be suitable for minors or all ages."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Linguagem impr\u00f3pria\nConte\u00fado sexual\nViol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2751500": {
@@ -8657,7 +8950,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "March 2024"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -8668,6 +8961,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2751810": {
