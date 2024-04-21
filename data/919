@@ -3072,7 +3072,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "2759890": {
     "type": "demo",
@@ -3080,6 +3081,7 @@
     "steam_appid": 2759890,
     "required_age": 0,
     "is_free": true,
+    "controller_support": "full",
     "short_description": "",
     "fullgame": {
       "appid": "2710460",
@@ -3104,7 +3106,8 @@
     },
     "categories": [
       2,
-      10
+      10,
+      28
     ],
     "release_date": {
       "coming_soon": false,
@@ -3122,6 +3125,24 @@
         5
       ],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nTemas sens\u00edveis\nDrogas l\u00edcitas"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Selbstmord"
+      }
     }
   },
   "2757010": {
@@ -4572,8 +4593,8 @@
     "steam_appid": 2758350,
     "required_age": 0,
     "is_free": false,
-    "short_description": "This is a pixel style card building turn-based game, which includes card building and battle chess gameplay. The combination and reinforcement of skills make the combination of skills extremely rich. The proper use of relics and potions will make you stronger. Start your challenge.",
-    "supported_languages": "English, Simplified Chinese",
+    "short_description": "Every move you make counts! The Dark Cave is a turn-based card-building roguelike where you need to fight against foes on two 3x3 boards without withdrawing. Both remorse and triumph may come after your decision, pushing you into a deeper level in the dark cave every time.",
+    "supported_languages": "English, Simplified Chinese, Japanese, Traditional Chinese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2758350/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2758350/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2758350/capsule_184x69.jpg",
@@ -4602,21 +4623,40 @@
     "genres": [
       2,
       4,
-      23
+      23,
+      25
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "Q2 2024"
     },
     "support_info": {
       "url": "",
-      "email": "contact@2pgames.net"
+      "email": "support@2pgames.net"
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2758350/page_bg_generated_v6b.jpg",
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2758350/page_bg_generated.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2759530": {
@@ -4658,7 +4698,8 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       4,
@@ -4680,6 +4721,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2759170": {
@@ -5000,7 +5059,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       3,
@@ -5019,6 +5079,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drogas il\u00edcitas\nAtos criminosos\nViol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drogen"
+      }
     }
   },
   "2758950": {
@@ -5182,7 +5260,7 @@
   },
   "2758000": {
     "type": "game",
-    "name": "\u540d\u5229\u6e38\u620f",
+    "name": "Vanity Fair: The Pursuit",
     "steam_appid": 2758000,
     "required_age": 0,
     "is_free": false,
@@ -5198,14 +5276,35 @@
     "publishers": [
       "WaveGame"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 2767070,
+        "description": ""
+      }
+    ],
+    "packages": [
+      986347
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Vanity Fair: The Pursuit",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      23,
+      62
     ],
     "genres": [
       3,
@@ -5213,9 +5312,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 32
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "12 Feb, 2024"
+      "coming_soon": false,
+      "date": "19 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -5226,6 +5328,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2758210": {
@@ -6058,7 +6178,8 @@
     "categories": [
       2,
       18,
-      54
+      54,
+      62
     ],
     "genres": [
       3,
@@ -6079,6 +6200,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2758630": {
@@ -7500,6 +7639,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2758550": {
@@ -7719,7 +7876,8 @@
       21,
       36,
       38,
-      49
+      49,
+      62
     ],
     "genres": [
       2,
@@ -7739,6 +7897,22 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "12",
+        "descriptors": "Linguagem impr\u00f3pria\r\nViol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "12"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2757800": {
@@ -7786,6 +7960,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2759710": {
@@ -7806,23 +7998,40 @@
     "publishers": [
       "Triple E Games"
     ],
-    "package_groups": [],
+    "packages": [
+      986889
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Lover",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": true,
-      "linux": true
+      "mac": false,
+      "linux": false
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       23,
       25,
       28
     ],
+    "achievements": {
+      "total": 11
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "29 Feb, 2024"
     },
     "support_info": {
@@ -7834,6 +8043,28 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "csrr": {
+        "rating": "C15",
+        "descriptors": "\u6027\u3001\u66b4\u529b\u3001\u6050\u6016"
+      },
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nMedo\nConte\u00fado sexual"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Horror"
+      }
     }
   },
   "2758980": {
@@ -8006,7 +8237,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "2757850": {
     "type": "game",
@@ -8687,7 +8919,26 @@
     "publishers": [
       "Plitka Games"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 2802310,
+        "description": ""
+      }
+    ],
+    "packages": [
+      986285
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy The Jump Guys",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8706,7 +8957,8 @@
       38,
       39,
       44,
-      49
+      49,
+      62
     ],
     "genres": [
       18,
@@ -8715,7 +8967,7 @@
       29
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "23 Feb, 2024"
     },
     "support_info": {
@@ -8727,6 +8979,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2757950": {
@@ -9732,14 +10002,14 @@
   },
   "2758100": {
     "type": "demo",
-    "name": "NO.996 \u9b54\u5854 Demo",
+    "name": "NO.996 \u6076\u9b54\u4f1a\u793e Demo",
     "steam_appid": 2758100,
     "required_age": 0,
     "is_free": true,
     "short_description": "This game is a strategy RPG with the theme of anti-work from 9 am to 9 pm, six days a week. The gameplay inherits from the classic &quot;Magic Tower&quot; series, combining elements such as pigeons and BD combinations. Please play with caution under the age of 35 to avoid dissing and hurting the boss!",
     "fullgame": {
       "appid": "2607260",
-      "name": "NO.996 Magic Tower"
+      "name": "NO.996 Demon Corporation"
     },
     "supported_languages": "English, Simplified Chinese, Traditional Chinese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2758100/header.jpg",
@@ -9775,13 +10045,31 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2757690": {
     "type": "game",
-    "name": "Carb\u00f3n Heart",
+    "name": "Carb\u00f3n Hearts",
     "steam_appid": 2757690,
-    "required_age": 0,
+    "required_age": "16",
     "is_free": false,
     "controller_support": "full",
     "short_description": "Banished to another world, Alawn is absolutely alone in a new world that he does not know at the mercy of this one... or so it should have been if he had not stumbled upon her. Opening up this world and maybe something more.",
@@ -9799,8 +10087,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -9815,7 +10103,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "20 Feb, 2024"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -9829,6 +10117,30 @@
         5
       ],
       "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "m",
+        "descriptors": "Suggestive Themes\r\nLanguage\r\nAlcohol Reference",
+        "use_age_gate": "true",
+        "required_age": "16"
+      },
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Conte\u00fado sexual\nLinguagem impr\u00f3pria\nDrogas l\u00edcitas"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Sexuelle Inhalte"
+      }
     }
   },
   "2759560": {
