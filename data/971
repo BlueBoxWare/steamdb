@@ -511,7 +511,10 @@
     "name": "Press Any Key",
     "steam_appid": 2914320,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
+    "dlc": [
+      2921010
+    ],
     "short_description": "Just press any key.",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2914320/header.jpg",
@@ -536,10 +539,14 @@
     ],
     "genres": [
       4,
-      23
+      23,
+      37
     ],
+    "achievements": {
+      "total": 3
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "17 Apr, 2024"
     },
     "support_info": {
@@ -4694,8 +4701,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -4980,7 +4987,8 @@
       "linux": false
     },
     "categories": [
-      10
+      10,
+      18
     ],
     "release_date": {
       "coming_soon": true,
@@ -5888,6 +5896,87 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": ""
+      }
+    }
+  },
+  "2915290": {
+    "type": "game",
+    "name": "Last Mech Standing",
+    "steam_appid": 2915290,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A VR game that is a rogue-like, arcade-style shoot-them-up. You pilot the Crimson Slayer, the last giant mech and humanity\u2019s last hope. Slash waves of giant monsters with your sword &amp; blast them with your minigun. Upgrade your weapons and mech, find your fighting style, defeat bosses and level up.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2915290/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2915290/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2915290/capsule_184x69.jpg",
+    "website": "https://lastmechstanding.crimson-forge.com/",
+    "developers": [
+      "Crimson Forge"
+    ],
+    "publishers": [
+      "Crimson Forge"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      54
+    ],
+    "genres": [
+      1,
+      23,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://lastmechstanding.crimson-forge.com/",
+      "email": "support@crimson-forge.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2915290/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2915290/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "t"
+      },
+      "pegi": {
+        "rating": "12"
+      },
+      "usk": {
+        "rating": "16"
+      },
+      "oflc": {
+        "rating": "ma15"
+      },
+      "kgrb": {
+        "rating": "12"
+      },
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
       }
     }
   }
