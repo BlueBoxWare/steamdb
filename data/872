@@ -2356,7 +2356,8 @@
     "steam_appid": 2618850,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Dive into a whimsical journey with various levels in the cycle of explosions and rebirth. &quot;Exp10sion&quot;, a pixel-style 2D platformer born in Ludum Dare 51, will tickle your puzzle-solving fancy!",
+    "controller_support": "full",
+    "short_description": "&quot;Exp10sion&quot; is a pixel-art puzzle platformer. You'll play as a bomb that explodes within 10 seconds. Each explosion respawns the bomb, starts a new round, and generates a &quot;Time Shadow&quot; of your last round. Use your shadow wisely to solve the puzzles!",
     "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2618850/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2618850/capsule_231x87.jpg",
@@ -2374,22 +2375,42 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      939529
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Exp10sion",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      22,
+      28,
+      62
     ],
     "genres": [
       4,
-      23
+      23,
+      25
     ],
+    "achievements": {
+      "total": 9
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "December 2023"
+      "coming_soon": false,
+      "date": "7 Dec, 2023"
     },
     "support_info": {
       "url": "",
@@ -2400,6 +2421,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2618940": {
