@@ -839,7 +839,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "I thought it was just an ordinary day, but I accidentally entered this endless cycle of rooms. Among the countless terrifying and anomalous things, there is a girl who seems like she shouldn't exist here.",
-    "supported_languages": "Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "Simplified Chinese<strong>*</strong>, English<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2839430/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2839430/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2839430/capsule_184x69.jpg",
@@ -850,14 +850,28 @@
     "publishers": [
       " lamb of game"
     ],
-    "package_groups": [],
+    "packages": [
+      1013200
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Room",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       3,
@@ -866,12 +880,12 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "26 Mar, 2024"
     },
     "support_info": {
       "url": "n/a",
-      "email": "n/a"
+      "email": "lambofgame@sohu.com"
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2839430/page_bg_generated_v6b.jpg",
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2839430/page_bg_generated.jpg",
@@ -1188,10 +1202,10 @@
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2840050/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Atomic Games"
+      "Win or Crash"
     ],
     "publishers": [
-      "Atomic Games"
+      ""
     ],
     "packages": [
       1013401
@@ -1230,7 +1244,7 @@
     },
     "support_info": {
       "url": "",
-      "email": "business@atomicfabrik.com"
+      "email": ""
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2840050/page_bg_generated_v6b.jpg",
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2840050/page_bg_generated.jpg",
@@ -1270,10 +1284,10 @@
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2840040/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Atomic Games"
+      "Tunts Tuntz"
     ],
     "publishers": [
-      "Atomic Games"
+      ""
     ],
     "packages": [
       1013398
@@ -1312,7 +1326,7 @@
     },
     "support_info": {
       "url": "",
-      "email": "business@atomicfabrik.com"
+      "email": ""
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2840040/page_bg_generated_v6b.jpg",
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2840040/page_bg_generated.jpg",
@@ -1351,11 +1365,8 @@
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2840030/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2840030/capsule_184x69.jpg",
     "website": null,
-    "developers": [
-      "Atomic Games"
-    ],
     "publishers": [
-      "Atomic Games"
+      ""
     ],
     "packages": [
       1013395
@@ -1394,7 +1405,7 @@
     },
     "support_info": {
       "url": "",
-      "email": "business@atomicfabrik.com"
+      "email": ""
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2840030/page_bg_generated_v6b.jpg",
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2840030/page_bg_generated.jpg",
@@ -1428,8 +1439,8 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "1080p is a casual shooter with roguelike elements. Join new pixels, combine guns, and find upgrades.Destroy all bugs and restore the quality to original 1080p.",
-    "supported_languages": "English, Russian",
+    "short_description": "1080pis a casual shooter with rogue-lite elements. Join new pixels, combine guns and find improvements.Destroy all bugs and bring back the quality of1080p!",
+    "supported_languages": "English, Russian, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Simplified Chinese, Korean, Polish, Portuguese - Portugal, Turkish, Japanese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2839040/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2839040/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2839040/capsule_184x69.jpg",
@@ -1440,23 +1451,41 @@
     "publishers": [
       "RollCreators"
     ],
-    "package_groups": [],
+    "packages": [
+      1013085
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy 1080p",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
       2,
-      28
+      22,
+      28,
+      62
     ],
     "genres": [
       1,
       23
     ],
+    "achievements": {
+      "total": 25
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "April 2024"
+      "coming_soon": false,
+      "date": "5 Apr, 2024"
     },
     "support_info": {
       "url": "https://www.facebook.com/profile.php?id=61556633032580",
@@ -3101,7 +3130,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "Start a relaxing world-building adventure with Nekokami! Architect beautiful, peaceful worlds in a far-future where Cats rule the universe. Befriend wonderous yet whimsical spirits of nature. Manage Humans. With Cats in charge, what could POSSIBLY go wrong?",
-    "supported_languages": "English",
+    "supported_languages": "English, Japanese, Simplified Chinese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2840890/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2840890/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2840890/capsule_184x69.jpg",
@@ -3127,7 +3156,8 @@
       2,
       4,
       23,
-      28
+      28,
+      70
     ],
     "release_date": {
       "coming_soon": true,
@@ -8734,7 +8764,7 @@
     },
     "release_date": {
       "coming_soon": false,
-      "date": "7 Mar, 2024"
+      "date": "21 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -8849,7 +8879,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "2024"
     },
     "support_info": {
       "url": "",
@@ -8898,14 +8928,28 @@
     "publishers": [
       "lwz"
     ],
-    "package_groups": [],
+    "packages": [
+      1013059
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Soda scuffle",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -8914,8 +8958,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 14
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "21 Mar, 2024"
     },
     "support_info": {
