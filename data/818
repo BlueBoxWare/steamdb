@@ -1557,7 +1557,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "2455840": {
     "type": "game",
@@ -2350,7 +2351,8 @@
       "linux": true
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       23
@@ -2371,6 +2373,24 @@
         5
       ],
       "notes": "this game contains descriptions or mentions of violence, mental health issues and suicide"
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drogas l\u00edcitas\nMedo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Alkohol / Tabak"
+      }
     }
   },
   "2455340": {
@@ -3215,7 +3235,7 @@
   },
   "2454030": {
     "type": "game",
-    "name": "Winnie-the-Pooh: Realm of Torment",
+    "name": "Spook a Pooh!",
     "steam_appid": 2454030,
     "required_age": 0,
     "is_free": false,
@@ -3247,7 +3267,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q4 2023"
+      "date": "Q2 2024"
     },
     "support_info": {
       "url": "",
@@ -3258,6 +3278,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Medo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2454210": {
@@ -9757,8 +9795,11 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Athena Crisis is a modern retro turn-based strategy game that places you in command of distinct units including infantry, tanks, and air forces in your journey across multiple worlds. Embark on a challenging single-player quest or dive into the thrill of ranked or casual multiplayer modes.",
-    "supported_languages": "English<strong>*</strong>, German<strong>*</strong>, Japanese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "dlc": [
+      2821150
+    ],
+    "short_description": "Athena Crisis is a modern retro turn-based strategy game that places you in command of 40+ units in your journey across the multiverse. Embark on a challenging single-player quest or dive into the thrill of ranked or casual multiplayer modes to become the best Athena Crisis player!",
+    "supported_languages": "English<strong>*</strong>, German<strong>*</strong>, Japanese<strong>*</strong>, French<strong>*</strong>, Spanish - Spain<strong>*</strong>, Ukrainian<strong>*</strong>, Italian<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2456430/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2456430/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2456430/capsule_184x69.jpg",
@@ -9769,11 +9810,24 @@
     "publishers": [
       "Null Games"
     ],
-    "package_groups": [],
+    "packages": [
+      884089
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Athena Crisis",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
-      "linux": false
+      "linux": true
     },
     "categories": [
       1,
@@ -9783,24 +9837,44 @@
       28,
       36,
       38,
-      49
+      49,
+      62
     ],
     "genres": [
-      2
+      2,
+      70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q2 2024"
+      "coming_soon": false,
+      "date": "5 Mar, 2024"
     },
     "support_info": {
       "url": "https://athenacrisis.com",
       "email": "support@athenacrisis.com"
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2456430/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2456430/page_bg_generated.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2456430/page.bg.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2456140": {

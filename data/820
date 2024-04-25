@@ -1087,7 +1087,8 @@
     },
     "categories": [
       2,
-      28
+      28,
+      62
     ],
     "genres": [
       3,
@@ -1106,6 +1107,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Medo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2462820": {
@@ -2071,7 +2090,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Roboom is an arena shooter roguelite where you blast your way through hordes of evil Robocons. Are you ready to face the challenges of the Robocon War and ascend to become the best in the Multiverse?",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, German, Turkish<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2462000/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2462000/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2462000/capsule_184x69.jpg",
@@ -2096,6 +2115,7 @@
     },
     "categories": [
       2,
+      13,
       18,
       22,
       23
@@ -2107,7 +2127,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "19 May, 2024"
     },
     "support_info": {
       "url": "https://robogame.io",
@@ -2118,6 +2138,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2462170": {
@@ -5572,17 +5610,24 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Guide Manari the Anti-Demon Ninja in her journey to eliminate the demon terror she battles her own inner demons in this lewd rogue-lite deck-building adventure game!",
-    "supported_languages": "English, Simplified Chinese, Traditional Chinese, Japanese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2460070/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2460070/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2460070/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "\u8c9d\u5409\u7279\u5de5\u574a",
+      "\u6a39\u61f6\u53eb\u5de5\u4f5c\u5ba4",
       "Maker\u88fd\u9020\u6a5f"
     ],
     "publishers": [
-      "Mango Party"
+      "Mango Party",
+      "LewdLoco"
+    ],
+    "demos": [
+      {
+        "appid": 2868180,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -5599,7 +5644,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q2 2024"
+      "date": "Q4 2024"
     },
     "support_info": {
       "url": "",
@@ -5616,6 +5661,24 @@
         5
       ],
       "notes": "All character depicted are over the age of 20.\r\nContent Warning:\"Special Operations Unit - MANARI\" contains Anal, Blowjob and Rape."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Nudez\nViol\u00eancia\nTemas sens\u00edveis"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "BANNED",
+        "required_age": "2147483647",
+        "banned": "1",
+        "use_age_gate": "0",
+        "descriptors": "Sexualisierte Gewalt / Sexual violence"
+      }
     }
   },
   "2461580": {
@@ -6658,6 +6721,9 @@
     "steam_appid": 2461130,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      2726630
+    ],
     "short_description": "\u5c11\u5973\u9054\u306e\u300c\u6700\u671f\u306e\u4e00\u65e5\u300d\u3092\u8fbf\u308a\u3001\u771f\u76f8\u3092\u7d10\u89e3\u3044\u3066\u3044\u304f",
     "supported_languages": "Japanese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461130/header.jpg",
@@ -6676,22 +6742,36 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      885918
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u6c88\u3081\u308b\u697d\u5712",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       23,
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2023"
+      "coming_soon": false,
+      "date": "21 Jan, 2024"
     },
     "support_info": {
       "url": "https://www.wakuwakugames.com/",
@@ -6704,6 +6784,24 @@
         5
       ],
       "notes": "The themes of this story include \"suicide\" and \"self-harm\". The game also contains references to drug overdose and sexually violent. The protagonist's best friend tries to jump off a cliff as you progress through the story. There is no bloodshed or other cruelty."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nTemas sens\u00edveis\nDrogas il\u00edcitas"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Selbstmord"
+      }
     }
   },
   "2461500": {

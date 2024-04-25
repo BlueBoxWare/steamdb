@@ -831,7 +831,7 @@
     "steam_appid": 2842490,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Set out on a thrilling roguelike journey through the dangerous galaxy. Command your ship, battle enemies, and make strategic choices in the space station. How far can your skills take you?",
+    "short_description": "Dangerous Galaxy is a roguelike where you create your ultimate spaceship that goes into real-time physics-based combat while managing resources to repair and upgrade. Is your build strong enough to reach the end of the Dangerous Galaxy?",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2842490/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2842490/capsule_231x87.jpg",
@@ -842,6 +842,12 @@
     ],
     "publishers": [
       "Rogue Plankton"
+    ],
+    "demos": [
+      {
+        "appid": 2895800,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -855,7 +861,8 @@
     "genres": [
       1,
       3,
-      23
+      23,
+      25
     ],
     "release_date": {
       "coming_soon": true,
@@ -3671,8 +3678,8 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "March 2024"
+      "coming_soon": false,
+      "date": "30 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -4005,7 +4012,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Rockhopper is a single player asteroid mining rougelike featuring procedurally generated asteroids, robust upgrade paths and dark exploration with enemies and ancient secrets to uncover.",
+    "short_description": "Rockhopper is a chill single player space mining rouge-lite featuring procedurally generated asteroids, robust upgrade paths and dark exploration with ancient secrets to uncover.",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2842070/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2842070/capsule_231x87.jpg",
@@ -4029,11 +4036,12 @@
     ],
     "genres": [
       1,
-      3
+      4,
+      23
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "Q3 2024"
     },
     "support_info": {
       "url": "",
@@ -6413,7 +6421,20 @@
     "publishers": [
       "Gladiy Denis"
     ],
-    "package_groups": [],
+    "packages": [
+      1013772
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Real Life Soundtrack Main menu (Quran) Full",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -6423,8 +6444,8 @@
       50
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "15 Mar, 2024"
     },
     "support_info": {
       "url": "https://discord.gg/ybcysZ2UAb",
@@ -6614,10 +6635,10 @@
     "steam_appid": 2842350,
     "required_age": 0,
     "is_free": true,
-    "short_description": "",
+    "short_description": "A man becomes a ghost after a deadly accident. Full of regrets, he will stay alongside his wife, who cannot see him, and protect her all her life from an unknown evil, sharing her best and worst moments. So close yet so far. A story-driven experience full of mystery and poetry.",
     "fullgame": {
       "appid": "2834860",
-      "name": "Uninitialized"
+      "name": "Inspiring Dreams"
     },
     "supported_languages": "English, French",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2842350/header.jpg",
@@ -6625,10 +6646,10 @@
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2842350/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Otochiro"
+      "Oto"
     ],
     "publishers": [
-      "Otochiro"
+      "Oto"
     ],
     "package_groups": [],
     "platforms": {
@@ -6641,8 +6662,8 @@
       10
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "July 2024"
+      "coming_soon": false,
+      "date": "19 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -6679,6 +6700,9 @@
     "steam_appid": 2842870,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      2863410
+    ],
     "short_description": "There are Futa-girls with a twist here! Let's get weird.",
     "supported_languages": "English, French, Spanish - Spain, Portuguese - Brazil, Spanish - Latin America, Simplified Chinese, Korean, Portuguese - Portugal, Russian, Japanese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2842870/header.jpg",
@@ -6691,14 +6715,28 @@
     "publishers": [
       "Futanari Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1014383
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy My Futa Girlfriend \ud83d\udd1e",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       2,
@@ -6707,9 +6745,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 15
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "April 2024"
+      "coming_soon": false,
+      "date": "28 Mar, 2024"
     },
     "support_info": {
       "url": "nimosgames@gmail.com",
