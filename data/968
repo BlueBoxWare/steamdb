@@ -208,7 +208,8 @@
       22,
       23,
       28,
-      30
+      30,
+      62
     ],
     "release_date": {
       "coming_soon": false,
@@ -5034,7 +5035,7 @@
     "steam_appid": 2905370,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Sweet animated Characters for your livestream!",
+    "short_description": "Sweet animated Characters and overlays for your livestream!",
     "supported_languages": "English",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2905370/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2905370/capsule_231x87.jpg",
@@ -5046,7 +5047,20 @@
     "publishers": [
       "computer-knopf"
     ],
-    "package_groups": [],
+    "packages": [
+      1035419
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy StreamAnimations",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5060,7 +5074,7 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "17 Apr, 2024"
     },
     "support_info": {
@@ -6125,21 +6139,38 @@
     "publishers": [
       "Erouest Production"
     ],
-    "package_groups": [],
+    "packages": [
+      1035746
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Le monde d'orathos",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       3
     ],
+    "achievements": {
+      "total": 0
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "22 Apr, 2024"
     },
     "support_info": {
       "url": "https://steamcommunity.com/groups/Erouestproduction",
@@ -6153,7 +6184,7 @@
     },
     "ratings": {
       "pegi": {
-        "rating": "3"
+        "rating": "7"
       },
       "dejus": {
         "rating_generated": "1",
@@ -6179,7 +6210,7 @@
     "steam_appid": 2905040,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Control the spear and throw it, break all the blocks in the level to win, score points, complete the level, earn coins and go to the next level.",
+    "short_description": "Control the spear and throw it, destroy all the blocks in the level to win, score points, complete the level, earn coins and go to the next level.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2905040/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2905040/capsule_231x87.jpg",
@@ -6191,29 +6222,46 @@
     "publishers": [
       "Red Ray Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1035312
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Destroy Blocks",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
-      "linux": true
+      "linux": false
     },
     "categories": [
       2,
       22,
       23,
-      35
+      35,
+      62
     ],
     "genres": [
       4,
       70
     ],
+    "achievements": {
+      "total": 11
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "26 Apr, 2024"
     },
     "support_info": {
       "url": "",
-      "email": "redraygames@outlook.com"
+      "email": "destroyblocks@outlook.com"
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2905040/page_bg_generated_v6b.jpg",
     "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2905040/page.bg.jpg",
@@ -6358,19 +6406,19 @@
     "ratings": {
       "dejus": {
         "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
+        "rating": "14",
+        "required_age": "14",
         "banned": "0",
         "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia fantasiosa"
+        "descriptors": "Viol\u00eancia"
       },
       "steam_germany": {
         "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
+        "rating": "16",
+        "required_age": "16",
         "banned": "0",
         "use_age_gate": "0",
-        "descriptors": "Fantasy-Gewalt"
+        "descriptors": "Drastische Gewalt"
       }
     }
   },
@@ -9803,6 +9851,147 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Gewalt"
+      }
+    }
+  },
+  "2905680": {
+    "type": "game",
+    "name": "IKEV",
+    "steam_appid": 2905680,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "IKEV is a furniture assembling simulator in VR where the furniture store messed up your orders. Be creative and resourceful; find solutions to furnish your apartment despite the lack of furniture pieces and sanity!",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2905680/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2905680/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2905680/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Flat Pack"
+    ],
+    "publishers": [
+      "Kuusan Kino Ky"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      54
+    ],
+    "genres": [
+      4,
+      23,
+      28,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "ikev.contact@gmail.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2905680/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2905680/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
+    }
+  },
+  "2906370": {
+    "type": "game",
+    "name": "Bright Lord",
+    "steam_appid": 2906370,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Your mundane life is upended when an ancient demon possesses your body. Forced to work as its servant, you\u2019re thrust into a world of sexual desire and murderous wrath. When your loved ones fall prey to the demon\u2019s hunger, will you protect those you care for or succumb to lust of the Bright Lord?",
+    "supported_languages": "English, French, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Turkish",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2906370/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2906370/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2906370/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "KissKiss Studio"
+    ],
+    "publishers": [
+      "FooxiedGames"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      23
+    ],
+    "genres": [
+      1,
+      4,
+      23,
+      25,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q3 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": "dominykas.santaras123@gmail.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2906370/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2906370/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "notes": "Bright Lord is game intended for adults only includes explicit, sexual content that some viewers may find offensive. The characters, story, and actions are fictitious. All characters are depicted as 18 and over.\r\n\r\nContains nudity, non-consensual sex, implied violence, alternative lifestyles, usage of alcohol and drugs, graphic depictions of oral, vaginal, anal, and non-penetrative sexual acts, bodily fluids, mention of blackmail."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia Extrema\nNudez\nTemas sens\u00edveis"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "BANNED",
+        "required_age": "2147483647",
+        "banned": "1",
+        "use_age_gate": "0",
+        "descriptors": "Sexualisierte Gewalt / Sexual violence"
       }
     }
   }
