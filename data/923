@@ -1339,7 +1339,8 @@
       27,
       38,
       39,
-      48
+      48,
+      62
     ],
     "genres": [
       2,
@@ -1359,6 +1360,22 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "10",
+        "descriptors": "Viol\u00eancia fantasiosa\r\nViol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "10"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2770420": {
@@ -1428,16 +1445,16 @@
   },
   "2769090": {
     "type": "demo",
-    "name": "Harmonis: the hand-made kingdoms",
+    "name": "Harmonis: the hand-made kingdoms DEMO",
     "steam_appid": 2769090,
     "required_age": 0,
     "is_free": true,
-    "short_description": "A peaceful and cute city-building puzzle game where you have to make your own kingdom! Create beautiful worlds using a large set of hand-crafted scenes, tiles and biomes!",
+    "short_description": "Create a hexagonal world, explore and observe the creatures that inhabit it! You are the creator, and you can both make their lives easier... if you want to ;)",
     "fullgame": {
       "appid": "2429540",
       "name": "Harmonis: the hand-made kingdoms"
     },
-    "supported_languages": "English",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2769090/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2769090/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2769090/capsule_184x69.jpg",
@@ -1459,8 +1476,8 @@
       10
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "26 Apr, 2024"
     },
     "support_info": {
       "url": "",
@@ -1471,6 +1488,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2769780": {
@@ -1516,6 +1551,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2771310": {
@@ -1830,6 +1883,24 @@
         5
       ],
       "notes": "There are zombies in the game that you will need to fight. Shooting them will cause blood effects to play."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nMedo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Horror"
+      }
     }
   },
   "2771990": {
@@ -1847,7 +1918,7 @@
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2771990/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2771990/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2771990/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://galacticgames.site/image",
     "developers": [
       "Galactic Games"
     ],
@@ -1862,11 +1933,12 @@
     },
     "categories": [
       2,
-      10
+      10,
+      62
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "12 Feb, 2024"
+      "coming_soon": false,
+      "date": "25 Feb, 2024"
     },
     "support_info": {
       "url": "https://discord.gg/dAhEsF8sYR",
@@ -1877,6 +1949,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nMedo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Horror"
+      }
     }
   },
   "2769460": {
@@ -4360,21 +4450,35 @@
     "publishers": [
       "Majao Games"
     ],
-    "package_groups": [],
+    "packages": [
+      990206
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Beacon of Havoc",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "February 2024"
+      "coming_soon": false,
+      "date": "7 Feb, 2024"
     },
     "support_info": {
       "url": "",
@@ -4385,6 +4489,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2771550": {
@@ -4514,7 +4636,8 @@
       43,
       47,
       48,
-      49
+      49,
+      62
     ],
     "genres": [
       23,
@@ -4534,6 +4657,20 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2770250": {
@@ -4803,6 +4940,7 @@
     ],
     "genres": [
       1,
+      28,
       70
     ],
     "release_date": {
@@ -4820,6 +4958,24 @@
         5
       ],
       "notes": "Pirate ships shooting at each other with the intent of sinking the other"
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Atos criminosos\nViol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2769840": {
