@@ -94,8 +94,10 @@
     ],
     "genres": [
       1,
+      2,
       3,
-      23
+      23,
+      25
     ],
     "release_date": {
       "coming_soon": true,
@@ -551,7 +553,7 @@
     "steam_appid": 2849310,
     "required_age": 0,
     "is_free": true,
-    "short_description": "",
+    "short_description": "Try before buy or play for free!",
     "fullgame": {
       "appid": "1679010",
       "name": "BLOCKPOST MOBILE"
@@ -723,12 +725,13 @@
     "steam_appid": 2849240,
     "required_age": 0,
     "is_free": true,
+    "controller_support": "full",
     "short_description": "",
     "fullgame": {
       "appid": "2719920",
       "name": "Asylum Nightmares"
     },
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Traditional Chinese, Korean, Japanese, Portuguese - Portugal, Russian",
+    "supported_languages": "English<strong>*</strong>, French, Italian<strong>*</strong>, German, Spanish - Spain<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, Korean<strong>*</strong>, Japanese<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2849240/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2849240/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2849240/capsule_184x69.jpg",
@@ -747,18 +750,20 @@
     },
     "categories": [
       2,
-      10
+      10,
+      22,
+      28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "25 Mar, 2024"
     },
     "support_info": {
       "url": "",
       "email": "developneco@gmail.com"
     },
-    "background": "",
-    "background_raw": "",
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2849240/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2849240/page_bg_generated.jpg",
     "content_descriptors": {
       "ids": [
         2,
@@ -855,7 +860,7 @@
     "steam_appid": 2848150,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Where The Crows Roam is a survival horror game made by a 6th grader in his free time. In this game you will get to explore the now deserted Stunig City and its outer ruins. Watch your back because you never know what is watching you. Can you survive?",
+    "short_description": "Where The Crows Roam is a survival horror game made by a sixth grader in his free time. In this game you will get to explore the now deserted Stunig City and its outer ruins. Watch your back because you never know what is watching you. Can you survive?",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2848150/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2848150/capsule_231x87.jpg",
@@ -888,11 +893,15 @@
     },
     "categories": [
       2,
+      22,
       62
     ],
     "genres": [
       25
     ],
+    "achievements": {
+      "total": 6
+    },
     "release_date": {
       "coming_soon": false,
       "date": "6 Mar, 2024"
@@ -2267,6 +2276,12 @@
     "publishers": [
       "Edo Games"
     ],
+    "demos": [
+      {
+        "appid": 2930740,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -2287,7 +2302,7 @@
       "date": "Coming soon"
     },
     "support_info": {
-      "url": "https://discord.gg/Uxqu8mCF",
+      "url": "https://discord.gg/Z6PDnXtVW8",
       "email": ""
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2848080/page_bg_generated_v6b.jpg",
@@ -2343,7 +2358,8 @@
       "linux": false
     },
     "categories": [
-      10
+      10,
+      62
     ],
     "release_date": {
       "coming_soon": false,
@@ -2470,23 +2486,37 @@
     "publishers": [
       "Next Square Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1016196
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Secret Odyssey: Orb of Eternity",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
       2,
-      28
+      28,
+      62
     ],
     "genres": [
       23,
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "14 Mar, 2024"
     },
     "support_info": {
       "url": "",
@@ -3399,7 +3429,7 @@
   },
   "2849550": {
     "type": "dlc",
-    "name": "Monsters & Mortals - US Creator",
+    "name": "Monsters & Mortals - US Creators",
     "steam_appid": 2849550,
     "required_age": 0,
     "is_free": false,
@@ -3420,7 +3450,20 @@
     "publishers": [
       "Glowstick Entertainment"
     ],
-    "package_groups": [],
+    "packages": [
+      1016591
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Monsters & Mortals - US Creators",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3435,7 +3478,8 @@
       28,
       36,
       38,
-      49
+      49,
+      62
     ],
     "genres": [
       1,
@@ -3443,7 +3487,7 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "22 Mar, 2024"
     },
     "support_info": {
@@ -3697,7 +3741,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [

@@ -1915,7 +1915,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "420140": {
     "type": "game",
@@ -2077,7 +2078,8 @@
       25,
       28,
       29,
-      43
+      43,
+      62
     ],
     "genres": [
       23,
@@ -2099,6 +2101,14 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l"
+      },
+      "esrb": {
+        "rating": "e"
+      }
     }
   },
   "420740": {
@@ -2412,7 +2422,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       28
@@ -2430,7 +2441,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "421660": {
     "type": "game",
@@ -3284,7 +3296,8 @@
     "categories": [
       2,
       18,
-      29
+      29,
+      62
     ],
     "genres": [
       1,
@@ -3305,7 +3318,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "420030": {
     "type": "dlc",
@@ -3359,7 +3373,8 @@
       30,
       36,
       38,
-      49
+      49,
+      62
     ],
     "genres": [
       2,
@@ -3378,6 +3393,36 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "e10",
+        "descriptors": "Alcohol Reference\r\nFantasy Violence\r\nMild Suggestive Themes",
+        "display_online_notice": "true"
+      },
+      "pegi": {
+        "rating": "12",
+        "descriptors": "Violence"
+      },
+      "usk": {
+        "rating": "6"
+      },
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa\nDrogas l\u00edcitas"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "420130": {
@@ -3890,7 +3935,8 @@
       2,
       22,
       23,
-      29
+      29,
+      62
     ],
     "genres": [
       25
@@ -3911,6 +3957,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nMedo\nDrogas il\u00edcitas"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Horror"
+      }
     }
   },
   "421620": {
@@ -4724,6 +4788,14 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "14",
+        "descriptors": "Linguagem impr\u00f3pria\r\nDrogas l\u00edcitas",
+        "use_age_gate": "true",
+        "required_age": "14"
+      }
     }
   },
   "420731": {
@@ -4964,7 +5036,8 @@
       2,
       18,
       22,
-      23
+      23,
+      62
     ],
     "genres": [
       1,
@@ -4989,7 +5062,8 @@
         5
       ],
       "notes": "Heist contains some drug use references and gun violence"
-    }
+    },
+    "ratings": null
   },
   "422020": {
     "type": "game",
@@ -5054,7 +5128,7 @@
     "type": "dlc",
     "name": "Call of Duty\u00ae: Infinite Warfare - Season Pass",
     "steam_appid": 420490,
-    "required_age": "18",
+    "required_age": "17",
     "is_free": false,
     "controller_support": "full",
     "short_description": "The Call of Duty: Infinite Warfare Season Pass delivers 4 epic map packs in 2017 including all-new multiplayer maps and zombies content, all for one great price.",
@@ -5099,7 +5173,8 @@
       22,
       28,
       36,
-      38
+      38,
+      62
     ],
     "genres": [
       1,
@@ -5118,6 +5193,76 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "m",
+        "descriptors": "Blood and Gore\r\nDrug Reference\r\nIntense Violence\r\nStrong Language\r\nSuggestive Themes",
+        "display_online_notice": "true",
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "pegi": {
+        "rating": "18",
+        "descriptors": "Bad Language\r\nViolence",
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "bbfc": {
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "usk": {
+        "rating": "18",
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "oflc": {
+        "use_age_gate": "true",
+        "required_age": "18",
+        "rating": "ma15",
+        "descriptors": "Strong themes and violence\r\nVR and online interactivity"
+      },
+      "nzoflc": {
+        "rating": "r16",
+        "descriptors": "Violence",
+        "use_age_gate": "true",
+        "required_age": "16"
+      },
+      "cero": {
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "kgrb": {
+        "use_age_gate": "true",
+        "required_age": "18",
+        "rating": "18"
+      },
+      "dejus": {
+        "rating": "16",
+        "descriptors": "Viol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "16"
+      },
+      "mda": {
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "fpb": {
+        "rating": "18",
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "csrr": {
+        "rating": "R",
+        "descriptors": "Violence\r\nImproper Language",
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "crl": {
+        "use_age_gate": "true",
+        "required_age": "18"
+      }
     }
   },
   "421165": {
@@ -6209,7 +6354,8 @@
     },
     "categories": [
       2,
-      29
+      29,
+      62
     ],
     "genres": [
       1,
@@ -6230,7 +6376,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "420370": {
     "type": "game",
@@ -6274,7 +6421,8 @@
       2,
       18,
       22,
-      29
+      29,
+      62
     ],
     "genres": [
       4,
@@ -6297,6 +6445,24 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "421790": {
@@ -7104,7 +7270,8 @@
       22,
       23,
       25,
-      29
+      29,
+      62
     ],
     "genres": [
       1,
@@ -7125,7 +7292,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "422890": {
     "type": "game",
@@ -7916,7 +8084,8 @@
       18,
       21,
       22,
-      29
+      29,
+      62
     ],
     "genres": [
       4,
@@ -7935,6 +8104,12 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "e10",
+        "descriptors": "Mild Language"
+      }
     }
   },
   "420340": {
@@ -7970,7 +8145,8 @@
       2,
       17,
       18,
-      21
+      21,
+      62
     ],
     "genres": [
       23,
@@ -7989,7 +8165,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "421060": {
     "type": "game",
@@ -8207,7 +8384,8 @@
     "categories": [
       2,
       22,
-      29
+      29,
+      62
     ],
     "genres": [
       2,
@@ -8231,14 +8409,15 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "420290": {
     "type": "game",
     "name": "Blackwake",
     "steam_appid": 420290,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
     "dlc": [
       594184
     ],
@@ -8254,20 +8433,7 @@
     "publishers": [
       "Mastfire Studios Pty Ltd"
     ],
-    "packages": [
-      85458
-    ],
-    "package_groups": [
-      {
-        "name": "default",
-        "title": "Buy Blackwake",
-        "description": "",
-        "selection_text": "Select a purchase option",
-        "save_text": "",
-        "display_type": 0,
-        "is_recurring_subscription": "false"
-      }
-    ],
+    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -8287,7 +8453,8 @@
       1,
       2,
       4,
-      23
+      23,
+      37
     ],
     "achievements": {
       "total": 39
@@ -8308,6 +8475,26 @@
         5
       ],
       "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "required_age": "15"
+      },
+      "pegi": {
+        "required_age": "15"
+      },
+      "bbfc": {
+        "required_age": "15"
+      },
+      "usk": {
+        "required_age": "15"
+      },
+      "oflc": {
+        "required_age": "15"
+      },
+      "nzoflc": {
+        "required_age": "15"
+      }
     }
   },
   "422250": {
@@ -9181,7 +9368,8 @@
     },
     "categories": [
       2,
-      17
+      17,
+      62
     ],
     "genres": [
       2,
@@ -9200,7 +9388,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "421190": {
     "type": "game",
@@ -9821,7 +10010,8 @@
     "categories": [
       2,
       21,
-      29
+      29,
+      62
     ],
     "genres": [
       4,
@@ -9840,7 +10030,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "421170": {
     "type": "game",
