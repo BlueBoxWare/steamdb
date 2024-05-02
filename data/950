@@ -3767,7 +3767,7 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "20 Mar, 2024"
     },
     "support_info": {
@@ -3871,7 +3871,6 @@
     "steam_appid": 2850540,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "The new car is not electric, nor is it a flying car. The new car is a one-button driving car. Control the direction and speed of the car simultaneously with a single button. To turn you also accelerate and to accelerate you also turn, difficult to master but intuitive.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2850540/header.jpg",
@@ -3879,12 +3878,27 @@
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2850540/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "elcano"
+      "elcano",
+      "TIG games"
     ],
     "publishers": [
-      "elcano"
+      "elcano",
+      "TIG games"
     ],
-    "package_groups": [],
+    "packages": [
+      1016910
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Race Elcano",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3893,18 +3907,19 @@
     "categories": [
       1,
       2,
+      18,
       24,
-      28,
       37,
       44,
-      49
+      49,
+      62
     ],
     "genres": [
       9
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "21 Apr, 2024"
     },
     "support_info": {
       "url": "",
@@ -11414,6 +11429,91 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": ""
+      }
+    }
+  },
+  "2850450": {
+    "type": "dlc",
+    "name": "Undead Inc. Worky DLC",
+    "steam_appid": 2850450,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Unlock a Director: Weaponized Worky. A customized version of Worky's Office Rentals' Robot Receptionist by the same name, Weaponized Worky has come to work really hard and punch stuff sometimes.",
+    "fullgame": {
+      "appid": "2104880",
+      "name": "Undead Inc."
+    },
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Traditional Chinese",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2850450/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2850450/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2850450/capsule_184x69.jpg",
+    "website": "https://www.undead.inc/",
+    "developers": [
+      "Rightsized Games"
+    ],
+    "publishers": [
+      "Team17"
+    ],
+    "packages": [
+      1016888,
+      1027161
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Undead Inc. Worky DLC",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      62
+    ],
+    "genres": [
+      1,
+      2,
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "2 May, 2024"
+    },
+    "support_info": {
+      "url": "https://www.team17.com/support/",
+      "email": "help@team17support.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2850450/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2850450/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nAtos criminosos"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
       }
     }
   }

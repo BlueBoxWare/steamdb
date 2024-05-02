@@ -1674,7 +1674,10 @@
     "steam_appid": 2923130,
     "required_age": 0,
     "is_free": false,
-    "short_description": "You're trapped aboard the endless loop of the Kunkun Terror Express. observe your surroundings and search for items.it's your only hope of escape! But beware: Kunkun might be right behind you! A meme horror game by the creators of 'Exit Kun', inspired 'Exit 8'.",
+    "dlc": [
+      2930000
+    ],
+    "short_description": "You're trapped aboard the endless loop of the Kunkun Terror Express. observe your surroundings and search for items.it's your only hope of escape! But beware: Kunkun might be right behind you! A meme horror game by the creators of 'Exit Kun'.",
     "supported_languages": "English, Simplified Chinese<strong>*</strong>, French, Italian, German, Russian, Hungarian, Turkish, Czech, Japanese, Polish, Traditional Chinese, Portuguese - Brazil, Portuguese - Portugal, Spanish - Latin America, Korean<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2923130/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2923130/capsule_231x87.jpg",
@@ -1701,6 +1704,8 @@
       44
     ],
     "genres": [
+      1,
+      4,
       25
     ],
     "release_date": {
@@ -3622,9 +3627,11 @@
     "content_descriptors": {
       "ids": [
         1,
+        3,
+        4,
         5
       ],
-      "notes": "There are three explicit sex scenes (one fellatio, one handjob, and one penetration) in the 18+ story route. All scenes are between two consenting male adults. \r\n\r\nAs the game is set in Australia, where we have a big drinking culture, there are a couple of scenes where characters consume alcohol responsibly. \r\n\r\nThe characters also swear in casual conversation. "
+      "notes": "There are three explicit sex scenes (one fellatio, one handjob, and one penetration) in the 18+ story route. All scenes are between two consenting male adults. These scenes are not present in the SFW route.\r\n\r\nThere are a couple of scenes where characters consume alcohol responsibly. \r\n\r\nThe characters also swear in casual conversation. "
     },
     "ratings": {
       "dejus": {
@@ -3647,7 +3654,7 @@
   },
   "2922310": {
     "type": "dlc",
-    "name": "Rento Fortune: Dice Configurator",
+    "name": "Rento Dice Configurator",
     "steam_appid": 2922310,
     "required_age": 0,
     "is_free": false,
@@ -3674,7 +3681,7 @@
     "package_groups": [
       {
         "name": "default",
-        "title": "Buy Rento Fortune: Dice Configurator",
+        "title": "Buy Rento Dice Configurator",
         "description": "",
         "selection_text": "Select a purchase option",
         "save_text": "",
@@ -3730,17 +3737,16 @@
       "notes": null
     },
     "ratings": {
-      "dejus": {
-        "rating": "l"
-      },
-      "esrb": {
-        "rating": "e"
-      },
       "pegi": {
         "rating": "3"
       },
-      "cero": {
-        "rating": "a"
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
       },
       "steam_germany": {
         "rating_generated": "1",
@@ -3770,14 +3776,28 @@
     "publishers": [
       "\u634f\u5c14"
     ],
-    "package_groups": [],
+    "packages": [
+      1041231
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u634f\u9f20\u5999\u5999\u5c4b",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       2,
@@ -3785,8 +3805,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "22 Apr, 2024"
+      "coming_soon": false,
+      "date": "30 Apr, 2024"
     },
     "support_info": {
       "url": "",
