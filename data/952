@@ -4113,7 +4113,7 @@
       "email": ""
     },
     "background": "https://cdn.akamai.steamstatic.com/steam/apps/2857610/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2857610/page_bg_generated.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2857610/page.bg.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -7005,22 +7005,36 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1019485
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy The Silent Column",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       4,
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "10 Apr, 2024"
+      "coming_soon": false,
+      "date": "9 Apr, 2024"
     },
     "support_info": {
       "url": "https://overlooked-option-vns.itch.io/",
@@ -7071,6 +7085,12 @@
     ],
     "publishers": [
       "Escalera games"
+    ],
+    "demos": [
+      {
+        "appid": 2857340,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
