@@ -1449,7 +1449,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "&quot;Trauma&quot; is a walking simulator action-adventure game sprinkled with horror elements. The only action you can perform besides walking is stabbing with a knife. Enjoy your journey into the strange world of dreams.",
-    "supported_languages": "Japanese, English",
+    "supported_languages": "Japanese<strong>*</strong>, English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic<strong>*</strong>, Indonesian<strong>*</strong>, Ukrainian<strong>*</strong>, Dutch<strong>*</strong>, Greek<strong>*</strong>, Swedish<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Thai<strong>*</strong>, Czech<strong>*</strong>, Danish<strong>*</strong>, Turkish<strong>*</strong>, Norwegian<strong>*</strong>, Hungarian<strong>*</strong>, Finnish<strong>*</strong>, Bulgarian<strong>*</strong>, Vietnamese<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Polish<strong>*</strong>, Romanian<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, Korean<strong>*</strong>, Icelandic<strong>*</strong>, Irish<strong>*</strong>, Azerbaijani<strong>*</strong>, Assamese<strong>*</strong>, Afrikaans<strong>*</strong>, Amharic<strong>*</strong>, Albanian<strong>*</strong>, Armenian<strong>*</strong>, Igbo<strong>*</strong>, Uyghur<strong>*</strong>, Welsh<strong>*</strong>, Wolof<strong>*</strong>, Uzbek<strong>*</strong>, Urdu<strong>*</strong>, Estonian<strong>*</strong>, Odia<strong>*</strong>, Kazakh<strong>*</strong>, Catalan<strong>*</strong>, Kannada<strong>*</strong>, Galician<strong>*</strong>, K'iche'<strong>*</strong>, Kyrgyz<strong>*</strong>, Khmer<strong>*</strong>, Croatian<strong>*</strong>, Gujarati<strong>*</strong>, Quechua<strong>*</strong>, Xhosa<strong>*</strong>, Konkani<strong>*</strong>, Sindhi<strong>*</strong>, Sinhala<strong>*</strong>, Georgian<strong>*</strong>, Scots<strong>*</strong>, Slovak<strong>*</strong>, Slovenian<strong>*</strong>, Swahili<strong>*</strong>, Zulu<strong>*</strong>, Serbian<strong>*</strong>, Sotho<strong>*</strong>, Sorani<strong>*</strong>, Tajik<strong>*</strong>, Tatar<strong>*</strong>, Tamil<strong>*</strong>, Dari<strong>*</strong>, Cherokee<strong>*</strong>, Tswana<strong>*</strong>, Tigrinya<strong>*</strong>, Telugu<strong>*</strong>, Turkmen<strong>*</strong>, Nepali<strong>*</strong>, Hausa<strong>*</strong>, Basque<strong>*</strong>, Valencian<strong>*</strong>, Punjabi (Gurmukhi)<strong>*</strong>, Punjabi (Shahmukhi)<strong>*</strong>, Hindi<strong>*</strong>, Filipino<strong>*</strong>, Hebrew<strong>*</strong>, Belarusian<strong>*</strong>, Bangla<strong>*</strong>, Persian<strong>*</strong>, Bosnian<strong>*</strong>, Maori<strong>*</strong>, Macedonian<strong>*</strong>, Malayalam<strong>*</strong>, Marathi<strong>*</strong>, Maltese<strong>*</strong>, Malay<strong>*</strong>, Mongolian<strong>*</strong>, Yoruba<strong>*</strong>, Latvian<strong>*</strong>, Lithuanian<strong>*</strong>, Luxembourgish<strong>*</strong>, Kinyarwanda<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945340/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945340/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2945340/capsule_184x69.jpg",
@@ -1795,7 +1795,7 @@
       44
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "1 May, 2024"
     },
     "support_info": {
@@ -6210,7 +6210,9 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      22,
+      23
     ],
     "genres": [
       4,
@@ -6218,7 +6220,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "17 May, 2024"
     },
     "support_info": {
       "url": "",
@@ -6438,21 +6440,38 @@
       "notes": null
     },
     "ratings": {
+      "esrb": {
+        "rating": "e",
+        "descriptors": "Violent References"
+      },
+      "pegi": {
+        "rating": "3"
+      },
+      "oflc": {
+        "rating": "g",
+        "descriptors": "Very Mild Themes"
+      },
+      "kgrb": {
+        "rating": "all"
+      },
       "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
+        "rating": "l"
+      },
+      "csrr": {
+        "rating": "G",
+        "descriptors": "Violence"
+      },
+      "crl": {
+        "rating": "12",
+        "descriptors": "Violence"
       },
       "steam_germany": {
         "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
+        "rating": "6",
+        "required_age": "6",
         "banned": "0",
         "use_age_gate": "0",
-        "descriptors": ""
+        "descriptors": "Fantasy-Gewalt"
       }
     }
   },
@@ -8982,6 +9001,1056 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Gewalt"
+      }
+    }
+  },
+  "2945450": {
+    "type": "dlc",
+    "name": "RPG Maker MZ - SERIALGAMES Living Good City Tileset - Shrine and Temples SET",
+    "steam_appid": 2945450,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Inspired by the ambiance of Japanese shrines and Buddhist temple surroundings, this set is designed for the &quot;Living Good City.&quot; It's perfect for crafting horror and adventure games set in serene shrine and temple environments.",
+    "fullgame": {
+      "appid": "1096900",
+      "name": "RPG Maker MZ"
+    },
+    "supported_languages": "English, Japanese",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945450/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945450/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2945450/capsule_184x69.jpg",
+    "website": "https://rpgmakerofficial.com/product/makerofficialdlc/",
+    "developers": [
+      "SERIALGAMES",
+      "Gotcha Gotcha Games"
+    ],
+    "publishers": [
+      "Gotcha Gotcha Games"
+    ],
+    "packages": [
+      1048902
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RPG Maker MZ - SERIALGAMES Living Good City Tileset - Shrine and Temples SET",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      18,
+      21,
+      30
+    ],
+    "genres": [
+      3,
+      53,
+      54,
+      59,
+      60
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "8 May, 2024"
+    },
+    "support_info": {
+      "url": "https://rpgmakerofficial.com/en/contactform/",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2945450/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2945450/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
+    }
+  },
+  "2945490": {
+    "type": "dlc",
+    "name": "RPG Maker MZ - Gothic Castle Music DLC",
+    "steam_appid": 2945490,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This collection includes a variety of Castlevania inspired music to fill your games with catchy yet haunting gothic melodies. It features a total of 15 different tracks to cover the many different areas of your games.",
+    "fullgame": {
+      "appid": "1096900",
+      "name": "RPG Maker MZ"
+    },
+    "supported_languages": "English, Japanese",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945490/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945490/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2945490/capsule_184x69.jpg",
+    "website": "https://rpgmakerofficial.com/product/makerofficialdlc/",
+    "developers": [
+      "Famed Mimic Triptune",
+      "Gotcha Gotcha Games"
+    ],
+    "publishers": [
+      "Gotcha Gotcha Games"
+    ],
+    "packages": [
+      1048917
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RPG Maker MZ - Gothic Castle Music DLC",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      18,
+      21,
+      30
+    ],
+    "genres": [
+      3,
+      53,
+      54,
+      59,
+      60
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "8 May, 2024"
+    },
+    "support_info": {
+      "url": "https://rpgmakerofficial.com/en/contactform/",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2945490/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2945490/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
+    }
+  },
+  "2945530": {
+    "type": "dlc",
+    "name": "RPG Maker MZ - Retro RPG World BGM Pack",
+    "steam_appid": 2945530,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This is a collection of retro RPG-style BGM reminiscent of 8-bit pixel retro RPGs from the 1990s. With a total of 79 tracks (76 BGM and 3 ME), it can be used as a basic set of retro RPG-style BGM, or to supplement a wide range of tracks in game production.",
+    "fullgame": {
+      "appid": "1096900",
+      "name": "RPG Maker MZ"
+    },
+    "supported_languages": "English, Japanese",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945530/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945530/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2945530/capsule_184x69.jpg",
+    "website": "https://rpgmakerofficial.com/product/makerofficialdlc/",
+    "developers": [
+      "ittsu",
+      "Gotcha Gotcha Games"
+    ],
+    "publishers": [
+      "Gotcha Gotcha Games"
+    ],
+    "packages": [
+      1048929
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RPG Maker MZ - Retro RPG World BGM Pack",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      18,
+      21,
+      30
+    ],
+    "genres": [
+      3,
+      53,
+      54,
+      59,
+      60
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "8 May, 2024"
+    },
+    "support_info": {
+      "url": "https://rpgmakerofficial.com/en/contactform/",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2945530/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2945530/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
+    }
+  },
+  "2945550": {
+    "type": "dlc",
+    "name": "RPG Maker MV - SERIALGAMES Living Good City Tileset - Shrine and Temples SET",
+    "steam_appid": 2945550,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Inspired by the ambiance of Japanese shrines and Buddhist temple surroundings, this set is designed for the &quot;Living Good City.&quot; It's perfect for crafting horror and adventure games set in serene shrine and temple environments.",
+    "fullgame": {
+      "appid": "363890",
+      "name": "RPG Maker MV"
+    },
+    "supported_languages": "English, Japanese",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945550/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945550/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2945550/capsule_184x69.jpg",
+    "website": "https://rpgmakerofficial.com/product/makerofficialdlc/",
+    "developers": [
+      "SERIALGAMES",
+      "Gotcha Gotcha Games"
+    ],
+    "publishers": [
+      "Gotcha Gotcha Games"
+    ],
+    "packages": [
+      1048936
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RPG Maker MV - SERIALGAMES Living Good City Tileset - Shrine and Temples SET",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      18,
+      21,
+      29,
+      30
+    ],
+    "genres": [
+      3,
+      53,
+      54,
+      59,
+      60
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "8 May, 2024"
+    },
+    "support_info": {
+      "url": "https://rpgmakerofficial.com/en/contactform/",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2945550/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2945550/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
+    }
+  },
+  "2945570": {
+    "type": "dlc",
+    "name": "RPG Maker MV - SERIALGAMES Living Good City Tileset - 80's Scene SET",
+    "steam_appid": 2945570,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This tileset is inspired by the cityscape of the 1980s, reminiscent of the previous work &quot;SERIALGAMES Living Good City Tileset &quot;. It is ideal for creating adventure games with a nostalgic yet distinctive atmosphere set in the 1980s urban environment.",
+    "fullgame": {
+      "appid": "363890",
+      "name": "RPG Maker MV"
+    },
+    "supported_languages": "English, Japanese",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945570/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945570/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2945570/capsule_184x69.jpg",
+    "website": "https://rpgmakerofficial.com/product/makerofficialdlc/",
+    "developers": [
+      "SERIALGAMES",
+      "Gotcha Gotcha Games"
+    ],
+    "publishers": [
+      "Gotcha Gotcha Games"
+    ],
+    "packages": [
+      1048943
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RPG Maker MV - SERIALGAMES Living Good City Tileset - 80's Scene SET",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      18,
+      21,
+      29,
+      30
+    ],
+    "genres": [
+      3,
+      53,
+      54,
+      59,
+      60
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "8 May, 2024"
+    },
+    "support_info": {
+      "url": "https://rpgmakerofficial.com/en/contactform/",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2945570/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2945570/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
+    }
+  },
+  "2945600": {
+    "type": "dlc",
+    "name": "RPG Maker MV - Gothic Castle Music DLC",
+    "steam_appid": 2945600,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This collection includes a variety of Castlevania inspired music to fill your games with catchy yet haunting gothic melodies. It features a total of 15 different tracks to cover the many different areas of your games.",
+    "fullgame": {
+      "appid": "363890",
+      "name": "RPG Maker MV"
+    },
+    "supported_languages": "English, Japanese",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945600/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945600/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2945600/capsule_184x69.jpg",
+    "website": "https://rpgmakerofficial.com/product/makerofficialdlc/",
+    "developers": [
+      "Famed Mimic Triptune",
+      "Gotcha Gotcha Games"
+    ],
+    "publishers": [
+      "Gotcha Gotcha Games"
+    ],
+    "packages": [
+      1048952
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RPG Maker MV - Gothic Castle Music DLC",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      18,
+      21,
+      29,
+      30
+    ],
+    "genres": [
+      3,
+      53,
+      54,
+      59,
+      60
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "8 May, 2024"
+    },
+    "support_info": {
+      "url": "https://rpgmakerofficial.com/en/contactform/",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2945600/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2945600/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
+    }
+  },
+  "2945620": {
+    "type": "dlc",
+    "name": "RPG Maker MV - Demon Lord Army Set 1",
+    "steam_appid": 2945620,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This incredible package features a diverse array of enemy pictures, boasting over 100 unique designs. From menacing snakes and fierce scorpions to mischievous slimes, mythical chimeras, captivating harpies, majestic manticores, cunning goblins, formidable orcs, and majestic dragons!",
+    "fullgame": {
+      "appid": "363890",
+      "name": "RPG Maker MV"
+    },
+    "supported_languages": "English, Japanese",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945620/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945620/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2945620/capsule_184x69.jpg",
+    "website": "https://rpgmakerofficial.com/product/makerofficialdlc/",
+    "developers": [
+      "Kuma Work",
+      "Gotcha Gotcha Games"
+    ],
+    "publishers": [
+      "Gotcha Gotcha Games"
+    ],
+    "packages": [
+      1048958
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RPG Maker MV - Demon Lord Army Set 1",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      18,
+      21,
+      29,
+      30
+    ],
+    "genres": [
+      3,
+      53,
+      54,
+      59,
+      60
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "8 May, 2024"
+    },
+    "support_info": {
+      "url": "https://rpgmakerofficial.com/en/contactform/",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2945620/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2945620/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
+    }
+  },
+  "2945650": {
+    "type": "dlc",
+    "name": "RPG Maker MV - Weird and Creepy Monsters Pack",
+    "steam_appid": 2945650,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Weird and Creepy Monsters Pack is an RPG Maker official collection of battlers, which are particular for their weird and unsettling look. With this pack, you can bring to life a world full of strange monsters, helping yourself in the creation of a twisted and creepy world.",
+    "fullgame": {
+      "appid": "363890",
+      "name": "RPG Maker MV"
+    },
+    "supported_languages": "English, Japanese",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945650/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945650/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2945650/capsule_184x69.jpg",
+    "website": "https://rpgmakerofficial.com/product/makerofficialdlc/",
+    "developers": [
+      "enski.art",
+      "Gotcha Gotcha Games"
+    ],
+    "publishers": [
+      "Gotcha Gotcha Games"
+    ],
+    "packages": [
+      1048967
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RPG Maker MV - Weird and Creepy Monsters Pack",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      18,
+      21,
+      29,
+      30
+    ],
+    "genres": [
+      3,
+      53,
+      54,
+      59,
+      60
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "8 May, 2024"
+    },
+    "support_info": {
+      "url": "https://rpgmakerofficial.com/en/contactform/",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2945650/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2945650/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
+    }
+  },
+  "2945660": {
+    "type": "dlc",
+    "name": "RPG Maker MV - Retro RPG World BGM Pack",
+    "steam_appid": 2945660,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This is a collection of retro RPG-style BGM reminiscent of 8-bit pixel retro RPGs from the 1990s. With a total of 79 tracks (76 BGM and 3 ME), it can be used as a basic set of retro RPG-style BGM, or to supplement a wide range of tracks in game production.",
+    "fullgame": {
+      "appid": "363890",
+      "name": "RPG Maker MV"
+    },
+    "supported_languages": "English, Japanese",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945660/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945660/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2945660/capsule_184x69.jpg",
+    "website": "https://rpgmakerofficial.com/product/makerofficialdlc/",
+    "developers": [
+      "ittsu",
+      "Gotcha Gotcha Games"
+    ],
+    "publishers": [
+      "Gotcha Gotcha Games"
+    ],
+    "packages": [
+      1048970
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RPG Maker MV - Retro RPG World BGM Pack",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      18,
+      21,
+      29,
+      30
+    ],
+    "genres": [
+      3,
+      53,
+      54,
+      59,
+      60
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "8 May, 2024"
+    },
+    "support_info": {
+      "url": "https://rpgmakerofficial.com/en/contactform/",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2945660/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2945660/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
+    }
+  },
+  "2945480": {
+    "type": "dlc",
+    "name": "RPG Maker MZ - SERIALGAMES Living Good City Tileset - 80's Scene SET",
+    "steam_appid": 2945480,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This tileset is inspired by the cityscape of the 1980s, reminiscent of the previous work &quot;SERIALGAMES Living Good City Tileset &quot;. It is ideal for creating adventure games with a nostalgic yet distinctive atmosphere set in the 1980s urban environment.",
+    "fullgame": {
+      "appid": "1096900",
+      "name": "RPG Maker MZ"
+    },
+    "supported_languages": "English, Japanese",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945480/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945480/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2945480/capsule_184x69.jpg",
+    "website": "https://rpgmakerofficial.com/product/makerofficialdlc/",
+    "developers": [
+      "SERIALGAMES",
+      "Gotcha Gotcha Games"
+    ],
+    "publishers": [
+      "Gotcha Gotcha Games"
+    ],
+    "packages": [
+      1048914
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RPG Maker MZ - SERIALGAMES Living Good City Tileset - 80's Scene SET",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      18,
+      21,
+      30
+    ],
+    "genres": [
+      3,
+      53,
+      54,
+      59,
+      60
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "8 May, 2024"
+    },
+    "support_info": {
+      "url": "https://rpgmakerofficial.com/en/contactform/",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2945480/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2945480/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
+    }
+  },
+  "2945500": {
+    "type": "dlc",
+    "name": "RPG Maker MZ - Demon Lord Army Set 1",
+    "steam_appid": 2945500,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This incredible package features a diverse array of enemy pictures, boasting over 100 unique designs. From menacing snakes and fierce scorpions to mischievous slimes, mythical chimeras, captivating harpies, majestic manticores, cunning goblins, formidable orcs, and majestic dragons!",
+    "fullgame": {
+      "appid": "1096900",
+      "name": "RPG Maker MZ"
+    },
+    "supported_languages": "English, Japanese",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945500/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945500/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2945500/capsule_184x69.jpg",
+    "website": "https://rpgmakerofficial.com/product/makerofficialdlc/",
+    "developers": [
+      "Kuma Work",
+      "Gotcha Gotcha Games"
+    ],
+    "publishers": [
+      "Gotcha Gotcha Games"
+    ],
+    "packages": [
+      1048920
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RPG Maker MZ - Demon Lord Army Set 1",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      18,
+      21,
+      30
+    ],
+    "genres": [
+      3,
+      53,
+      54,
+      59,
+      60
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "8 May, 2024"
+    },
+    "support_info": {
+      "url": "https://rpgmakerofficial.com/en/contactform/",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2945500/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2945500/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
+    }
+  },
+  "2945520": {
+    "type": "dlc",
+    "name": "RPG Maker MZ - Weird and Creepy Monsters Pack",
+    "steam_appid": 2945520,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Weird and Creepy Monsters Pack is an RPG Maker official collection of battlers, which are particular for their weird and unsettling look. With this pack, you can bring to life a world full of strange monsters, helping yourself in the creation of a twisted and creepy world.",
+    "fullgame": {
+      "appid": "1096900",
+      "name": "RPG Maker MZ"
+    },
+    "supported_languages": "English, Japanese",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945520/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2945520/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2945520/capsule_184x69.jpg",
+    "website": "https://rpgmakerofficial.com/product/makerofficialdlc/",
+    "developers": [
+      "enski.art",
+      "Gotcha Gotcha Games"
+    ],
+    "publishers": [
+      "Gotcha Gotcha Games"
+    ],
+    "packages": [
+      1048926
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RPG Maker MZ - Weird and Creepy Monsters Pack",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      18,
+      21,
+      30
+    ],
+    "genres": [
+      3,
+      53,
+      54,
+      59,
+      60
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "8 May, 2024"
+    },
+    "support_info": {
+      "url": "https://rpgmakerofficial.com/en/contactform/",
+      "email": ""
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2945520/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2945520/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
       }
     }
   }
