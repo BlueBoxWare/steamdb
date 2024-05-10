@@ -5973,7 +5973,7 @@
   },
   "2930100": {
     "type": "demo",
-    "name": "https://discord.gg/jZpa5DZ2mB",
+    "name": "The Fallen Kingdoms Demo",
     "steam_appid": 2930100,
     "required_age": 0,
     "is_free": true,
@@ -8176,6 +8176,7 @@
     "categories": [
       2,
       10,
+      22,
       28
     ],
     "release_date": {
@@ -8231,7 +8232,20 @@
     "publishers": [
       "DotC Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1043234
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Shout Seven",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8241,7 +8255,8 @@
       1,
       27,
       36,
-      49
+      49,
+      62
     ],
     "genres": [
       2,
@@ -8249,8 +8264,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "10 May, 2024"
     },
     "support_info": {
       "url": "",
@@ -10051,6 +10066,81 @@
         "rating_generated": "1",
         "rating": "16",
         "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
+    }
+  },
+  "2930160": {
+    "type": "game",
+    "name": "Nightmare Kart",
+    "steam_appid": 2930160,
+    "required_age": 0,
+    "is_free": true,
+    "controller_support": "full",
+    "short_description": "Zoom through gothic streets in this horror themed vehicular combat racing game!",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2930160/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2930160/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2930160/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "LWMedia"
+    ],
+    "publishers": [
+      "LWMedia"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      22,
+      24,
+      28,
+      37,
+      44,
+      49
+    ],
+    "genres": [
+      9,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "31 May, 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": "lwmediamerch@gmail.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2930160/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2930160/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia Extrema\nTemas sens\u00edveis"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Drastische Gewalt"
