@@ -1332,20 +1332,34 @@
     "publishers": [
       "Creative Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1048273
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Night at the Cabin",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       23
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "2 May, 2024"
     },
     "support_info": {
@@ -2948,6 +2962,7 @@
     "steam_appid": 2943550,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Discover the mysteries of Forgotten Skies, a fun platforming adventure where ancient secrets and hidden dangers await in this captivating adventure game. Forgotten Skies invites you on an incredible journey into a world of mystery and adventure and fascinating unique creatures.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2943550/header.jpg",
@@ -2968,7 +2983,9 @@
     },
     "categories": [
       2,
-      18
+      22,
+      23,
+      28
     ],
     "genres": [
       1,
@@ -10264,6 +10281,69 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Gewalt"
+      }
+    }
+  },
+  "2943000": {
+    "type": "demo",
+    "name": "Dealer's Life Legend Demo",
+    "steam_appid": 2943000,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "",
+    "fullgame": {
+      "appid": "2185030",
+      "name": "Dealer's Life Legend"
+    },
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2943000/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2943000/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2943000/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Abyte Entertainment"
+    ],
+    "publishers": [
+      "Abyte Entertainment"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      10
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": "abyte.entertainment+steam@gmail.com"
+    },
+    "background": "",
+    "background_raw": "",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
       }
     }
   }
