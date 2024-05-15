@@ -9232,6 +9232,7 @@
     "steam_appid": 2879470,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "A Sokoban-like puzzle game, which can be solved using only the arrow keys.",
     "supported_languages": "English, Japanese, Simplified Chinese",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2879470/header.jpg",
@@ -9244,7 +9245,20 @@
     "publishers": [
       "Tong Yu"
     ],
-    "package_groups": [],
+    "packages": [
+      1026749
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Sticky Arrow",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -9252,7 +9266,9 @@
     },
     "categories": [
       2,
-      17
+      17,
+      28,
+      62
     ],
     "genres": [
       2,
@@ -9260,8 +9276,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "April 2024"
+      "coming_soon": false,
+      "date": "18 Apr, 2024"
     },
     "support_info": {
       "url": "",
