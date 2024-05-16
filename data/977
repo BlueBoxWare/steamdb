@@ -7236,7 +7236,6 @@
     "steam_appid": 2933530,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "FlowerRock is a 2D platformer for players who love intense boss fights and an mysterious story. Something happened to this world, powerful enemies and secrets litter the landscape. Unlock upgrades for your laser to blast stronger enemies and unravel the story of what happened to this forsaken world.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2933530/header.jpg",
@@ -7256,8 +7255,7 @@
       "linux": false
     },
     "categories": [
-      2,
-      28
+      2
     ],
     "genres": [
       1,
@@ -7371,36 +7369,49 @@
     "steam_appid": 2933490,
     "required_age": 0,
     "is_free": false,
-    "short_description": "In Nine Floors, you are a student who has finished the horror of high school classes. Move down and go home! The High school feel like a backroom, find the anomaly in each floor and reach the exit.",
-    "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Portuguese - Brazil, Russian<br><strong>*</strong>languages with full audio support",
+    "short_description": "In Nine Floors, you are a student who has finished the horror of high school classes. Move down and go home! The High school feel like a backroom, find the anomaly in each floor and reach the exit. Based on popular's game The Exit 8 and Shinkansen 0 | \u65b0\u5e79\u7dda 0\u53f7",
+    "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Portuguese - Brazil, Russian, Dutch<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2933490/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2933490/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2933490/capsule_184x69.jpg",
     "website": "https://indiefist.com",
     "developers": [
-      "IndieFist SRL"
+      "IndieFist"
     ],
     "publishers": [
-      "IndieFist SRL"
+      "IndieFist"
     ],
-    "package_groups": [],
+    "packages": [
+      1044871
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Nine Floors",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       4,
       23,
-      25,
-      70
+      25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "9 May, 2024"
+      "coming_soon": false,
+      "date": "15 May, 2024"
     },
     "support_info": {
       "url": "https://indiefist.com/contact",
@@ -9294,6 +9305,72 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Gewalt"
+      }
+    }
+  },
+  "2932680": {
+    "type": "game",
+    "name": "Nomori",
+    "steam_appid": 2932680,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Nomori is a mind-bending puzzle game where you need to control time and space to journey through a shattered spirit world. Take shortcuts through portals, rotate your perspective, and control the flow of time to move forward, whichever way that is.",
+    "supported_languages": "English",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2932680/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2932680/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2932680/capsule_184x69.jpg",
+    "website": "https://www.enchantedworks.nl/nomori/",
+    "developers": [
+      "Enchanted Works"
+    ],
+    "publishers": [
+      "Enchanted Works"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      28
+    ],
+    "genres": [
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q3 2025"
+    },
+    "support_info": {
+      "url": "https://www.enchantedworks.nl/nomori/",
+      "email": "support@enchantedworks.nl"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2932680/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2932680/page.bg.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
       }
     }
   }

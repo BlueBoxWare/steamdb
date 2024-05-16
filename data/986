@@ -2360,7 +2360,7 @@
       "appid": "1343340",
       "name": "HORROR TALES: The Beggar"
     },
-    "supported_languages": "English, Spanish - Spain, Japanese, Russian, Simplified Chinese",
+    "supported_languages": "English<strong>*</strong>, Spanish - Spain, Japanese, Russian, Simplified Chinese, German, Portuguese - Portugal, Dutch<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2960040/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2960040/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2960040/capsule_184x69.jpg",
@@ -2383,8 +2383,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "9 May, 2024"
     },
     "support_info": {
       "url": "https://twitter.com/CarlosGameDev",
@@ -2586,7 +2586,7 @@
       10
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 May, 2024"
     },
     "support_info": {
@@ -2637,7 +2637,20 @@
     "publishers": [
       "NextDoorDev Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1053712
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Crazy World of Caleb",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2647,16 +2660,20 @@
       2,
       22,
       23,
-      28
+      28,
+      62
     ],
     "genres": [
       1,
       23,
       25
     ],
+    "achievements": {
+      "total": 13
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "May 2024"
+      "coming_soon": false,
+      "date": "14 May, 2024"
     },
     "support_info": {
       "url": "",
@@ -6785,6 +6802,69 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": ""
+      }
+    }
+  },
+  "2960760": {
+    "type": "game",
+    "name": "Greed Forest",
+    "steam_appid": 2960760,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "strategic 3D tower defense where you shape the battlefield and economy. Choose from unique classes to harness distinct abilities and freely place towers to create evolving mazes. Invest in technology and extract gold to strengthen your defenses against increasing threats.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2960760/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2960760/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2960760/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Martin Grysb\u00e6k"
+    ],
+    "publishers": [
+      "Martin Grysb\u00e6k"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2
+    ],
+    "genres": [
+      2
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "8 Nov, 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": "martin_grysbaek@hotmail.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2960760/page_bg_generated_v6b.jpg",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2960760/page_bg_generated.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
       }
     }
   }
