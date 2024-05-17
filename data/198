@@ -1491,7 +1491,8 @@
       42,
       47,
       48,
-      49
+      49,
+      62
     ],
     "genres": [
       1,
@@ -1513,6 +1514,30 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "t",
+        "descriptors": "Alcohol Reference, Blood, Mild Language, Mild Suggestive Themes, Violence"
+      },
+      "pegi": {
+        "rating": "16",
+        "descriptors": "Violence"
+      },
+      "oflc": {
+        "rating": "m",
+        "descriptors": "Violence"
+      },
+      "nzoflc": {
+        "rating": "m",
+        "descriptors": "Violence"
+      },
+      "usk": {
+        "rating": "12"
+      },
+      "crl": {
+        "rating": "16"
+      }
     }
   },
   "596500": {
@@ -3964,64 +3989,69 @@
     "type": "game",
     "name": "Hunt: Showdown",
     "steam_appid": 594650,
-    "required_age": "18",
+    "required_age": "17",
     "is_free": false,
     "controller_support": "full",
     "dlc": [
+      2719560,
+      2430650,
+      2643050,
+      2643040,
+      2585200,
+      2581740,
+      2531020,
+      2407941,
+      2407940,
       2304380,
-      1906330,
-      1143840,
-      1610550,
-      1674580,
-      1397381,
-      2200640,
-      1166472,
-      1191490,
-      2081520,
-      2160020,
-      1887100,
-      1966460,
-      1852480,
-      1784870,
-      1576410,
-      1180490,
-      1228530,
-      1530430,
-      1166470,
-      1643020,
-      2272530,
-      2160330,
-      2014790,
-      1225140,
-      1166471,
-      1255001,
       2304500,
-      2133640,
-      1761570,
-      2100450,
-      1586080,
-      1784880,
-      1374340,
-      1852470,
-      1720670,
-      1180491,
+      2272530,
       2272500,
-      1255000,
+      2200640,
+      2160330,
+      2160020,
+      2133640,
+      2100450,
+      2081520,
+      2014790,
+      1966460,
+      1906330,
+      1887100,
+      1852480,
+      1852470,
+      1784880,
+      1784870,
+      1761570,
+      1720670,
       1674570,
+      1674580,
+      1643020,
+      1610550,
+      1586080,
+      1576410,
+      1530430,
+      1397381,
+      1397380,
+      1374340,
       1304601,
       1304600,
-      1397380,
+      1255000,
+      1255001,
+      1191490,
+      1228530,
       1234950,
-      2407940,
-      2407941,
-      2531020,
-      2581740
+      1225140,
+      1180490,
+      1180491,
+      1166470,
+      1166472,
+      1166471,
+      1143840
     ],
-    "short_description": "Hunt: Showdown ist ein spannender, anspruchsvoller PvPvE-First-Person-Shooter. Erledigt albtraumhafte Monster und schnappt euch wertvolle Beute, die euch in diesem unerbittlichen und unvergesslichen Online-Multiplayer-Erlebnis Ruhm, Ausr\u00fcstung und Gold beschert.",
-    "supported_languages": "Englisch<strong>*</strong>, Franz\u00f6sisch, Italienisch, Deutsch, Spanisch \u2013 Spanien, Russisch, Chinesisch (vereinfacht), Polnisch, T\u00fcrkisch, Japanisch, Brasilianisches Portugiesisch<br><strong>*</strong>Sprachen mit voller Audiounterst\u00fctzung",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/594650/header_alt_assets_17.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/594650/capsule_231x87_alt_assets_17.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/594650/capsule_184x69_alt_assets_17.jpg",
+    "short_description": "Hunt: Showdown is a high-stakes, tactical PvPvE first-person shooter. Hunt for bounties in the infested Bayou, kill nightmarish monsters and outwit competing hunters - alone or in a group - with your glory, gear, and gold on the line.",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Russian, Simplified Chinese, Polish, Turkish, Japanese, Portuguese - Brazil<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/594650/header.jpg",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/594650/capsule_231x87.jpg",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/594650/capsule_184x69.jpg",
     "website": "https://www.huntshowdown.com/",
     "developers": [
       "Crytek"
@@ -4037,9 +4067,9 @@
     "package_groups": [
       {
         "name": "default",
-        "title": "Hunt: Showdown kaufen",
+        "title": "Buy Hunt: Showdown",
         "description": "",
-        "selection_text": "Kaufoption ausw\u00e4hlen",
+        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -4076,7 +4106,7 @@
     },
     "release_date": {
       "coming_soon": false,
-      "date": "27. Aug. 2019"
+      "date": "27 Aug, 2019"
     },
     "support_info": {
       "url": "https://huntshowdown.com",
@@ -4090,6 +4120,45 @@
         5
       ],
       "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "m",
+        "descriptors": "Blood and Gore\r\nViolence",
+        "display_online_notice": "true",
+        "use_age_gate": "true",
+        "required_age": "17",
+        "interactive_elements": "In-Game Purchases\r\nUsers Interact"
+      },
+      "pegi": {
+        "rating": "18",
+        "descriptors": "Violence\r\nIn-Game Purchases",
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "usk": {
+        "rating": "18",
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "oflc": {
+        "rating": "ma15",
+        "descriptors": "Strong Violence\r\nOnline Interactivity",
+        "use_age_gate": "true",
+        "required_age": "15"
+      },
+      "nzoflc": {
+        "rating": "r16",
+        "descriptors": "Violence &amp; Horror",
+        "use_age_gate": "true",
+        "required_age": "16"
+      },
+      "dejus": {
+        "rating": "16",
+        "descriptors": "Viol\u00eancia\r\nViol\u00eancia Extrema\r\nMedo",
+        "use_age_gate": "true",
+        "required_age": "16"
+      }
     }
   },
   "594050": {
@@ -8961,7 +9030,8 @@
       15,
       22,
       52,
-      54
+      54,
+      62
     ],
     "genres": [
       1,
@@ -8988,6 +9058,74 @@
         5
       ],
       "notes": "Players will experience combat with disfigured undead enemies with an assortment of weapons like pistols, shot guns, and assault rifles. Blood, gore, dismemberment, violence, and some profanity are depicted throughout gameplay and dialogue. \r\n"
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "16",
+        "descriptors": "Viol\u00eancia Extrema\r\nMedo\r\nLinguagem impr\u00f3pria",
+        "use_age_gate": "true",
+        "required_age": "16"
+      },
+      "esrb": {
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "pegi": {
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "bbfc": {
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "usk": {
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "oflc": {
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "nzoflc": {
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "cero": {
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "kgrb": {
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "mda": {
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "fpb": {
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "csrr": {
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "crl": {
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "agcom": {
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "595650": {
