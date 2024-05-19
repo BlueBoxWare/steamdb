@@ -5520,7 +5520,7 @@
       "appid": "2785200",
       "name": "Unknown Tapes"
     },
-    "supported_languages": "English<strong>*</strong>, Italian, Spanish - Spain, Japanese, Portuguese - Brazil, Russian, Simplified Chinese<br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Italian, Spanish - Spain, Japanese, Portuguese - Brazil, Russian, Simplified Chinese, French, German, Korean<br><strong>*</strong>languages with full audio support",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2941310/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2941310/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2941310/capsule_184x69.jpg",
@@ -8432,7 +8432,20 @@
     "publishers": [
       "Xioanz"
     ],
-    "package_groups": [],
+    "packages": [
+      1048071
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Our Little Friend",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8440,15 +8453,19 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       4,
       23
     ],
+    "achievements": {
+      "total": 8
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "14 May, 2024"
+      "coming_soon": false,
+      "date": "17 May, 2024"
     },
     "support_info": {
       "url": "",
