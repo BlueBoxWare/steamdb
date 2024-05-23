@@ -765,6 +765,12 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      }
     }
   },
   "1692827": {
@@ -1167,6 +1173,11 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l"
+      }
     }
   },
   "1692837": {
@@ -1590,6 +1601,14 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "10",
+        "descriptors": "Viol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "10"
+      }
     }
   },
   "1693750": {
@@ -1741,7 +1760,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -1764,6 +1784,22 @@
         5
       ],
       "notes": "Supplice is a retro-styled first-person shooter game taking place in a Sci-Fi / Horror setting, and it contains scenes of gore and gun violence that come with the territory. All of it in non-realistic pixelated sprites."
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "16",
+        "descriptors": "Viol\u00eancia Extrema",
+        "use_age_gate": "true",
+        "required_age": "16"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "1692250": {
@@ -3572,7 +3608,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "\u00abWhere is the meaning?\u00bb is a JRPG made by two Russian developers with very special attitude to this genre. The action takes place in unknown universe where the player should make conclusions what is happening around. You are the geometric figure \u00absquare\u00bb which need to reach the end of this world.",
-    "supported_languages": "English<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English, Russian",
     "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1693340/header.jpg",
     "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1693340/capsule_231x87.jpg",
     "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1693340/capsule_184x69.jpg",
@@ -3583,7 +3619,20 @@
     "publishers": [
       "Gumarov Productions"
     ],
-    "package_groups": [],
+    "packages": [
+      603425
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Where is the meaning?",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3591,7 +3640,7 @@
     },
     "categories": [
       2,
-      18
+      62
     ],
     "genres": [
       3,
@@ -3599,8 +3648,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "15 Dec, 2023"
+      "coming_soon": false,
+      "date": "8 Mar, 2024"
     },
     "support_info": {
       "url": "https://vk.link/gumarov_productions",
@@ -3611,6 +3660,14 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "12",
+        "descriptors": "Linguagem impr\u00f3pria\r\nMedo",
+        "use_age_gate": "true",
+        "required_age": "12"
+      }
     }
   },
   "1692804": {
@@ -3812,6 +3869,14 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "14",
+        "descriptors": "Viol\u00eancia\r\nMedo",
+        "use_age_gate": "true",
+        "required_age": "14"
+      }
     }
   },
   "1692799": {
@@ -3892,7 +3957,7 @@
     "type": "game",
     "name": "Dead Space",
     "steam_appid": 1693980,
-    "required_age": 0,
+    "required_age": "17",
     "is_free": false,
     "controller_support": "full",
     "dlc": [
@@ -3939,7 +4004,9 @@
       2,
       22,
       23,
-      28
+      28,
+      61,
+      62
     ],
     "genres": [
       1,
@@ -3964,6 +4031,52 @@
         5
       ],
       "notes": "This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Frequent Violence or Gore, General Mature Content"
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "m",
+        "descriptors": "Intense Violence\r\nBlood and Gore\r\nStrong Language",
+        "display_online_notice": "true",
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "pegi": {
+        "rating": "18",
+        "descriptors": "Violence\r\n\r\nBad Language",
+        "required_age": "18"
+      },
+      "usk": {
+        "rating": "18",
+        "required_age": "18",
+        "use_age_gate": "true"
+      },
+      "oflc": {
+        "rating": "ma15",
+        "descriptors": "Strong horror themes and violence, blood and gore",
+        "use_age_gate": "true",
+        "required_age": "15"
+      },
+      "nzoflc": {
+        "rating": "ma15",
+        "descriptors": "Strong horror themes and violence, blood and gore",
+        "required_age": "15"
+      },
+      "kgrb": {
+        "rating": "18",
+        "required_age": "18"
+      },
+      "dejus": {
+        "rating": "18",
+        "descriptors": "Viol\u00eancia extrema\r\nLinguagem Impr\u00f3pria",
+        "required_age": "18"
+      },
+      "mda": {
+        "rating": "M18"
+      },
+      "fpb": {
+        "rating": "18",
+        "required_age": "18"
+      }
     }
   },
   "1694360": {
@@ -5258,7 +5371,8 @@
       2,
       9,
       38,
-      48
+      48,
+      62
     ],
     "genres": [
       1,
@@ -5278,6 +5392,13 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "16",
+        "use_age_gate": "true",
+        "required_age": "16"
+      }
     }
   },
   "1693710": {
@@ -5590,7 +5711,8 @@
         5
       ],
       "notes": "The game contains certain amount of visual violence. \r\nMost of the indecent content, like strong language or substance abuse, comes from character conversations"
-    }
+    },
+    "ratings": null
   },
   "1692520": {
     "type": "game",
@@ -5840,6 +5962,14 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "14",
+        "descriptors": "Viol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "14"
+      }
     }
   },
   "1694350": {
@@ -5982,7 +6112,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       23
@@ -6003,6 +6134,11 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l"
+      }
     }
   },
   "1692730": {
@@ -6141,7 +6277,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       2,
@@ -6160,6 +6297,11 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l"
+      }
     }
   },
   "1692791": {
@@ -6459,7 +6601,8 @@
     "categories": [
       2,
       22,
-      23
+      23,
+      62
     ],
     "genres": [
       4,
@@ -6486,6 +6629,14 @@
         4
       ],
       "notes": "This game may contain content not appropriate for all ages, or may not be appropriate for viewing at work.\r\nThe game contains sexual content: sexy girls, clothing.\r\nIt does not contains sexual acts , sexual violence, drug abuse, or self-harm.\r\nAll characters are over the age of 18."
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "14",
+        "descriptors": "Conte\u00fado sexual",
+        "use_age_gate": "true",
+        "required_age": "14"
+      }
     }
   },
   "1693210": {
@@ -6527,7 +6678,8 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       28
@@ -6548,6 +6700,12 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      }
     }
   },
   "1693080": {
@@ -8047,7 +8205,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       4,
@@ -8070,6 +8229,17 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "pegi": {
+        "rating": "3"
+      },
+      "dejus": {
+        "rating": "10",
+        "descriptors": "Medo",
+        "use_age_gate": "true",
+        "required_age": "10"
+      }
     }
   },
   "1692010": {
@@ -9209,7 +9379,8 @@
     "categories": [
       2,
       21,
-      22
+      22,
+      62
     ],
     "genres": [
       4,
@@ -9234,6 +9405,34 @@
         4
       ],
       "notes": "\r\nThis game contains content that is not suitable for all ages or may be inappropriate for use at work place : nudity or sexual suggestive content - scene of sexual activity,  sexual assault/non-consensual sex.\r\nthis game appropriate only for adult audiences\r\n\r\nAll characters related to game content are 18 years of age or older, and the game is made of 2D animation-style characters, not real characters."
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "14",
+        "descriptors": "Conte\u00fado sexual",
+        "use_age_gate": "true",
+        "required_age": "14"
+      },
+      "usk": {
+        "rating": "18",
+        "use_age_gate": "true",
+        "required_age": "18",
+        "descriptors": "this game is for Adults Only.\r\nThe game includes sexual content that is not suitable for viewing in the office or at work.\r\nand All 2D anime-style characters in the game are adults over 19 years of age, and users can access adult content by solving puzzles."
+      },
+      "pegi": {
+        "rating": "18",
+        "descriptors": "this game is for Adults Only.\r\nThe game includes sexual content that is not suitable for viewing in the office or at work.\r\nand All 2D anime-style characters in the game are adults over 19 years of age, and users can access adult content by solving puzzles.",
+        "required_age": "18"
+      },
+      "bbfc": {
+        "rating": "R18",
+        "descriptors": "this game is for Adults Only.\r\nThe game includes sexual content that is not suitable for viewing in the office or at work.\r\nand All 2D anime-style characters in the game are adults over 19 years of age, and users can access adult content by solving puzzles.",
+        "required_age": "18"
+      },
+      "oflc": {
+        "rating": "r18",
+        "descriptors": "this game is for Adults Only.\r\nThe game includes sexual content that is not suitable for viewing in the office or at work.\r\nand All 2D anime-style characters in the game are adults over 19 years of age, and users can access adult content by solving puzzles."
+      }
     }
   },
   "1693460": {
@@ -10688,6 +10887,11 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l"
+      }
     }
   },
   "1692460": {
@@ -11171,7 +11375,8 @@
     "categories": [
       2,
       18,
-      22
+      22,
+      62
     ],
     "genres": [
       4
@@ -11192,6 +11397,11 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l"
+      }
     }
   },
   "1692510": {
@@ -12095,7 +12305,8 @@
     },
     "categories": [
       2,
-      23
+      23,
+      62
     ],
     "genres": [
       23
@@ -12113,6 +12324,14 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "10",
+        "descriptors": "Viol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "10"
+      }
     }
   },
   "1692761": {
@@ -12646,7 +12865,8 @@
     },
     "categories": [
       1,
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -12670,6 +12890,14 @@
         5
       ],
       "notes": "Gun Violence"
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "14",
+        "descriptors": "Viol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "14"
+      }
     }
   },
   "1693950": {
@@ -12775,7 +13003,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "1692772": {
     "type": "dlc",
@@ -13305,7 +13534,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -13324,6 +13554,11 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l"
+      }
     }
   },
   "1692774": {
@@ -14244,6 +14479,12 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      }
     }
   },
   "1692400": {
@@ -15214,7 +15455,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1
@@ -15234,6 +15476,14 @@
         5
       ],
       "notes": "Cartoon violence, strong language"
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "14",
+        "descriptors": "Viol\u00eancia\r\nLinguagem impr\u00f3pria",
+        "use_age_gate": "true",
+        "required_age": "14"
+      }
     }
   },
   "1693990": {
@@ -15274,7 +15524,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       3,
@@ -15300,7 +15551,8 @@
         5
       ],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "1692660": {
     "type": "music",
@@ -16253,7 +16505,8 @@
       17,
       36,
       38,
-      49
+      49,
+      62
     ],
     "genres": [
       1,
@@ -16277,6 +16530,22 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "12",
+        "descriptors": "Viol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "12"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "1692767": {
@@ -16827,7 +17096,8 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       1,
@@ -16852,6 +17122,11 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l"
+      }
     }
   },
   "1694730": {
@@ -18250,7 +18525,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "1694170": {
     "type": "game",
@@ -18494,7 +18770,8 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       1
@@ -18515,6 +18792,14 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "10",
+        "descriptors": "Viol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "10"
+      }
     }
   },
   "1694620": {
@@ -18700,7 +18985,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "1692260": {
     "type": "music",
@@ -19638,7 +19924,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -19657,7 +19944,8 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "1693190": {
     "type": "game",
