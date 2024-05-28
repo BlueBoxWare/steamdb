@@ -7669,10 +7669,10 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "AKAYASHIKI is a game where you must escape from a killer roaming the mansion.",
-    "supported_languages": "English, Japanese",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2895280/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2895280/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2895280/capsule_184x69.jpg",
+    "supported_languages": "Japanese, English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2895280/header.jpg?t=1715781018",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2895280/capsule_231x87.jpg?t=1715781018",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2895280/capsule_184x69.jpg?t=1715781018",
     "website": null,
     "developers": [
       "TREIZE"
@@ -7680,14 +7680,28 @@
     "publishers": [
       "TREIZE"
     ],
-    "package_groups": [],
+    "packages": [
+      1032074
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy AKAYASHIKI | \u3042\u304b\u3084\u3057\u304d",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       23,
@@ -7695,15 +7709,15 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "13 May, 2024"
     },
     "support_info": {
       "url": "",
       "email": "hirotk313@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2895280/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2895280/page_bg_generated.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2895280/page_bg_generated_v6b.jpg?t=1715781018",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2895280/page_bg_generated.jpg?t=1715781018",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -9144,6 +9158,73 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": ""
+      }
+    }
+  },
+  "2895020": {
+    "type": "demo",
+    "name": "One Way Lane DEMO",
+    "steam_appid": 2895020,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "A psychological horror and surreal exploration game.",
+    "fullgame": {
+      "appid": "2855780",
+      "name": "One Way Lane"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2895020/header.jpg?t=1716851842",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2895020/capsule_231x87.jpg?t=1716851842",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2895020/capsule_184x69.jpg?t=1716851842",
+    "website": null,
+    "developers": [
+      "Roach"
+    ],
+    "publishers": [
+      "Roach"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      10
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "27 May, 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": "teamonewaylane@gmail.com"
+    },
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2895020/page_bg_generated_v6b.jpg?t=1716851842",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2895020/page_bg_generated.jpg?t=1716851842",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "One Way Lane contains flashing lights, sensitive topics, and surreal imagery."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
       }
     }
   }
