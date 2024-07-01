@@ -1749,11 +1749,11 @@
     "steam_appid": 3030530,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Cracker is a fast-paced arcade game where you have to destroy as many blocks as possible before you run out of lives.",
-    "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3030530/header.jpg?t=1717679385",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3030530/capsule_231x87.jpg?t=1717679385",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3030530/capsule_184x69.jpg?t=1717679385",
+    "short_description": "Cracker is a classic fast-paced arcade game that will hook you up trying to get the top score.",
+    "supported_languages": "English, French, German, Spanish - Spain, Japanese, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Traditional Chinese, Indonesian, Korean, Portuguese - Portugal",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3030530/header.jpg?t=1719000331",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3030530/capsule_231x87.jpg?t=1719000331",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3030530/capsule_184x69.jpg?t=1719000331",
     "website": null,
     "developers": [
       "LGV"
@@ -1761,29 +1761,48 @@
     "publishers": [
       "LGV"
     ],
-    "package_groups": [],
+    "packages": [
+      1077530
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cracker",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
-      2
+      2,
+      18,
+      22,
+      62
     ],
     "genres": [
       1,
       4
     ],
+    "achievements": {
+      "total": 19
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "21 Jun, 2024"
     },
     "support_info": {
       "url": "",
       "email": "conmtrast@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3030530/page_bg_generated_v6b.jpg?t=1717679385",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3030530/page_bg_generated.jpg?t=1717679385",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3030530/page_bg_generated_v6b.jpg?t=1719000331",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3030530/page_bg_generated.jpg?t=1719000331",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -8979,6 +8998,133 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": ""
+      }
+    }
+  },
+  "3032440": {
+    "type": "music",
+    "name": "Beyond The Tales OST",
+    "steam_appid": 3032440,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "All the music from the game Beyond the Tales is now available on Steam!",
+    "fullgame": {
+      "appid": "3025380",
+      "name": "Beyond The Tales"
+    },
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3032440/header.jpg?t=1719775143",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3032440/capsule_231x87.jpg?t=1719775143",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3032440/capsule_184x69.jpg?t=1719775143",
+    "website": null,
+    "developers": [
+      "Charlie Atom"
+    ],
+    "publishers": [
+      "Atomik Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "jcpelaez@live.com"
+    },
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3032440/page_bg_generated_v6b.jpg?t=1719775143",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3032440/page.bg.jpg?t=1719775143",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
+    }
+  },
+  "3031440": {
+    "type": "game",
+    "name": "Retroronto",
+    "steam_appid": 3031440,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Retroronto is an arcade-style city-life simulator, where you explore a thriving metropolis, engage in minigames to earn money, and meet people to unlock newer locations and jobs! Manage your finances, energy, and time in this contemporary life simulator in the big city!",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3031440/header.jpg?t=1719840770",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3031440/capsule_231x87.jpg?t=1719840770",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3031440/capsule_184x69.jpg?t=1719840770",
+    "website": "https://www.starspraystudios.com/retroronto",
+    "developers": [
+      "Starspray Studios Ltd."
+    ],
+    "publishers": [
+      "Starspray Studios Ltd."
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2
+    ],
+    "genres": [
+      3,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://www.starspraystudios.com/retroronto",
+      "email": "starspraystudios@gmail.com"
+    },
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3031440/page_bg_generated_v6b.jpg?t=1719840770",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3031440/page_bg_generated.jpg?t=1719840770",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "- Mentions and use of consumption of alcohol/tobacco\r\n- Depictions of mental health, drug use, and homelessness\r\n- Mild profanity"
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drogas il\u00edcitas\nLinguagem impr\u00f3pria"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drogen\nSchimpfw\u00f6rte"
       }
     }
   }
