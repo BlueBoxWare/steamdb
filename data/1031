@@ -716,9 +716,9 @@
       "name": "Angry Universe VR"
     },
     "supported_languages": "English<strong>*</strong>, German<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095990/header.jpg?t=1720547608",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095990/capsule_231x87.jpg?t=1720547608",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095990/capsule_184x69.jpg?t=1720547608",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095990/header.jpg?t=1722779415",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095990/capsule_231x87.jpg?t=1722779415",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095990/capsule_184x69.jpg?t=1722779415",
     "website": "https://rottaca.gitlab.io/rottacastudios",
     "developers": [
       "RottacaStudios"
@@ -738,8 +738,8 @@
       54
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "July 2024"
+      "coming_soon": false,
+      "date": "4 Aug, 2024"
     },
     "support_info": {
       "url": "https://rottaca.gitlab.io/rottacastudios/contact",
@@ -1955,11 +1955,14 @@
     "steam_appid": 3093370,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      3128750
+    ],
     "short_description": "You started a neighborhood security program, which gradually expanded in size. Over time, it evolved to monitor not only homes but also warehouses, gas stations and various other locations. However, as your program grew, it began attracting the attention of dubious individuals.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093370/header.jpg?t=1720637957",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093370/capsule_231x87.jpg?t=1720637957",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093370/capsule_184x69.jpg?t=1720637957",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093370/header.jpg?t=1722624954",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093370/capsule_231x87.jpg?t=1722624954",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093370/capsule_184x69.jpg?t=1722624954",
     "website": null,
     "developers": [
       "OtrexDev"
@@ -1988,8 +1991,8 @@
       "url": "",
       "email": "otrexdev@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093370/page_bg_generated_v6b.jpg?t=1720637957",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093370/page_bg_generated.jpg?t=1720637957",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093370/page_bg_generated_v6b.jpg?t=1722624954",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093370/page_bg_generated.jpg?t=1722624954",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -2844,10 +2847,10 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Broken War is an intense first-person shooter that combines different multiplayer modes.",
-    "supported_languages": "English, French, German, Simplified Chinese, Korean, Polish, Turkish, Ukrainian, Japanese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095270/header.jpg?t=1721169363",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095270/capsule_231x87.jpg?t=1721169363",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095270/capsule_184x69.jpg?t=1721169363",
+    "supported_languages": "English, German, Simplified Chinese, Korean, Ukrainian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095270/header.jpg?t=1722700619",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095270/capsule_231x87.jpg?t=1722700619",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095270/capsule_184x69.jpg?t=1722700619",
     "website": null,
     "developers": [
       "Hunt Studio"
@@ -2855,7 +2858,20 @@
     "publishers": [
       "Hunt Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1099559
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Broken War",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2866,11 +2882,13 @@
       2,
       9,
       18,
+      22,
       36,
       38,
       47,
       48,
-      49
+      49,
+      62
     ],
     "genres": [
       1,
@@ -2878,16 +2896,19 @@
       29,
       70
     ],
+    "achievements": {
+      "total": 2
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "1 Aug, 2024"
     },
     "support_info": {
       "url": "",
       "email": "glioten777@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095270/page_bg_generated_v6b.jpg?t=1721169363",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095270/page_bg_generated.jpg?t=1721169363",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095270/page_bg_generated_v6b.jpg?t=1722700619",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095270/page_bg_generated.jpg?t=1722700619",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -3053,9 +3074,9 @@
     "is_free": false,
     "short_description": "This is a casual and entertaining typing game that lets you experience the thrill of hacking systems by rapidly typing on your keyboard. Whether stress-testing your keyboard or unwinding after a tough day, this game has got you covered!",
     "supported_languages": "English, Japanese, Simplified Chinese, Traditional Chinese, Korean",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094390/header.jpg?t=1721347498",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094390/capsule_231x87.jpg?t=1721347498",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094390/capsule_184x69.jpg?t=1721347498",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094390/header.jpg?t=1722830898",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094390/capsule_231x87.jpg?t=1722830898",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094390/capsule_184x69.jpg?t=1722830898",
     "website": null,
     "developers": [
       "CyberMonk Studio"
@@ -3070,7 +3091,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      22
     ],
     "genres": [
       4,
@@ -3078,14 +3100,14 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "August 2024"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "https://x.com/StudioCybermonk",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094390/page_bg_generated_v6b.jpg?t=1721347498",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094390/page.bg.jpg?t=1721347498",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094390/page_bg_generated_v6b.jpg?t=1722830898",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094390/page.bg.jpg?t=1722830898",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -3698,16 +3720,16 @@
     "steam_appid": 3095750,
     "required_age": 0,
     "is_free": true,
-    "short_description": "",
+    "short_description": "Unknown FPV: The ultimate FPV drone simulator. Master the art of flying in a stylized world. Awesome physics, customizable settings. Beginners learn, experts escape. Join us on the journey to make FPV simulators great again.",
     "fullgame": {
       "appid": "2430910",
       "name": "Unknown FPV : Drone Simulator"
     },
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095750/header.jpg?t=1721232793",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095750/capsule_231x87.jpg?t=1721232793",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095750/capsule_184x69.jpg?t=1721232793",
-    "website": null,
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095750/header.jpg?t=1721823828",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095750/capsule_231x87.jpg?t=1721823828",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095750/capsule_184x69.jpg?t=1721823828",
+    "website": "https://unknownfpv.com/",
     "developers": [
       "Pipirs Solutions AB"
     ],
@@ -3894,9 +3916,9 @@
     "is_free": false,
     "short_description": "Online multiplayer third person shooter game in the Cyberpunk realm. Fascinating cityscapes, futuristic weapons, Cyberpunk characters. It's all in this sweet polygon style game.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Simplified Chinese, Portuguese - Portugal, Russian, Turkish, Portuguese - Brazil<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093670/header.jpg?t=1721338709",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093670/capsule_231x87.jpg?t=1721338709",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093670/capsule_184x69.jpg?t=1721338709",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093670/header.jpg?t=1722691970",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093670/capsule_231x87.jpg?t=1722691970",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093670/capsule_184x69.jpg?t=1722691970",
     "website": "https://perceptgames.com/slumpunk/",
     "ext_user_account_notice": "Percept Games Server (Supports Linking to Steam Account)",
     "developers": [
@@ -3937,14 +3959,14 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2024"
+      "date": "November 2024"
     },
     "support_info": {
       "url": "https://perceptgames.com/slumpunk/",
       "email": "slumpunk@perceptgames.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093670/page_bg_generated_v6b.jpg?t=1721338709",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093670/page.bg.jpg?t=1721338709",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093670/page_bg_generated_v6b.jpg?t=1722691970",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093670/page.bg.jpg?t=1722691970",
     "content_descriptors": {
       "ids": [
         2,
@@ -6532,15 +6554,15 @@
     "steam_appid": 3093820,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Nightmare transformations! Add over 350 horror styled artistic AI visuals to AI VJ! They deal with a wide range of themes. From parties, DJs and birthdays to fantasy monsters, fish, history gone wrong, and even creepy cars! Jump scares to keep them dancing!",
+    "short_description": "Unleash the nightmare! Add over 350 horror styled artistic AI visuals to AI VJ! They deal with a wide range of themes. From parties, DJs and birthdays to fantasy monsters, fish, history gone wrong, and even creepy cars! Jump scares to keep them dancing!",
     "fullgame": {
       "appid": "2893580",
       "name": "AI-VJ"
     },
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093820/header.jpg?t=1721483881",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093820/capsule_231x87.jpg?t=1721483881",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093820/capsule_184x69.jpg?t=1721483881",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093820/header.jpg?t=1722614609",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093820/capsule_231x87.jpg?t=1722614609",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093820/capsule_184x69.jpg?t=1722614609",
     "website": "https://ai-vj.com",
     "developers": [
       "Intuition Technology"
@@ -6548,7 +6570,20 @@
     "publishers": [
       "Intuition Technology"
     ],
-    "package_groups": [],
+    "packages": [
+      1099065
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy AI-VJ - Horror Visuals",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6564,15 +6599,15 @@
       51
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "2 Aug, 2024"
     },
     "support_info": {
       "url": "https://ai-vj.com",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093820/page_bg_generated_v6b.jpg?t=1721483881",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093820/page_bg_generated.jpg?t=1721483881",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093820/page_bg_generated_v6b.jpg?t=1722614609",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093820/page_bg_generated.jpg?t=1722614609",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -6676,34 +6711,47 @@
     "short_description": "This original chiptune soundtrack was made by Quillcannon and Blue Tango Street.",
     "fullgame": {
       "appid": "3058940",
-      "name": "Uninitialized"
+      "name": "Backspace Backspace Backspace"
     },
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093450/header.jpg?t=1721473231",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093450/capsule_231x87.jpg?t=1721473231",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093450/capsule_184x69.jpg?t=1721473231",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093450/header.jpg?t=1722857931",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093450/capsule_231x87.jpg?t=1722857931",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093450/capsule_184x69.jpg?t=1722857931",
     "website": null,
     "developers": [
       "Blue Tango Street"
     ],
     "publishers": [
-      ""
+      "Blue Tango Street"
     ],
-    "package_groups": [],
+    "packages": [
+      1098790
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Backspace Backspace Backspace Soundtrack",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
       "linux": true
     },
     "release_date": {
-      "coming_soon": true,
-      "date": "August 2024"
+      "coming_soon": false,
+      "date": "5 Aug, 2024"
     },
     "support_info": {
       "url": "www.bluetangostreet.com",
       "email": "theboss@bluetangostreet.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093450/page_bg_generated_v6b.jpg?t=1721473231",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093450/page_bg_generated.jpg?t=1721473231",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093450/page_bg_generated_v6b.jpg?t=1722857931",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093450/page_bg_generated.jpg?t=1722857931",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -6913,9 +6961,9 @@
       "appid": "1520130",
       "name": "Midnight Memories: Sonata of the Soul"
     },
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093480/header.jpg?t=1721491570",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093480/capsule_231x87.jpg?t=1721491570",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093480/capsule_184x69.jpg?t=1721491570",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093480/header.jpg?t=1722638585",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093480/capsule_231x87.jpg?t=1722638585",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093480/capsule_184x69.jpg?t=1722638585",
     "website": null,
     "developers": [
       "Moonlight District Ltd."
@@ -6935,8 +6983,8 @@
       18
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "July 2024"
+      "coming_soon": false,
+      "date": "2 Aug, 2024"
     },
     "support_info": {
       "url": "http://www.moonlightdistrict.ca/",
@@ -6951,7 +6999,7 @@
         4,
         5
       ],
-      "notes": "May contain content not appropriate for all ages, or may not be appropriate for viewing at work: General Mature Content \r\n\r\nAll characters are over 18 years old.\r\n\r\nContains explicit adult themes, including nudity, violence, and sexual acts.\r\n\r\nAdult language."
+      "notes": "May contain content not appropriate for all ages, or may not be appropriate for viewing at work: General Mature Content \r\n\r\nAll characters are over 18 years old.\r\n\r\nContains nudity, BDSM, violence.\r\n\r\nAdult language."
     },
     "ratings": {
       "dejus": {
@@ -7228,9 +7276,9 @@
       "name": "Super Retro GP"
     },
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Russian, Simplified Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095230/header.jpg?t=1721648927",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095230/capsule_231x87.jpg?t=1721648927",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095230/capsule_184x69.jpg?t=1721648927",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095230/header.jpg?t=1722020141",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095230/capsule_231x87.jpg?t=1722020141",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3095230/capsule_184x69.jpg?t=1722020141",
     "website": null,
     "developers": [
       "Dangerous Derk Interactive"
@@ -7247,11 +7295,15 @@
     "categories": [
       2,
       10,
+      25,
       28
     ],
+    "achievements": {
+      "total": 0
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "26 Jul, 2024"
     },
     "support_info": {
       "url": "https://www.ddinteractive.co.uk/",
@@ -9029,6 +9081,143 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Sexuelle Inhalte\nSchimpfw\u00f6rte\nFantasy-Gewalt"
+      }
+    }
+  },
+  "3093810": {
+    "type": "dlc",
+    "name": "AI-VJ - Carnival Visuals",
+    "steam_appid": 3093810,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "The parade on your screen! Add over 280 carnival themed artistic AI visuals to AI VJ! They're from across a wide range of styles. Be the king of the carnival!",
+    "fullgame": {
+      "appid": "2893580",
+      "name": "AI-VJ"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093810/header.jpg?t=1722795992",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093810/capsule_231x87.jpg?t=1722795992",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093810/capsule_184x69.jpg?t=1722795992",
+    "website": "https://ai-vj.com",
+    "developers": [
+      "Intuition Technology"
+    ],
+    "publishers": [
+      "Intuition Technology"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      21,
+      23
+    ],
+    "genres": [
+      23,
+      37,
+      51
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "16 Aug, 2024"
+    },
+    "support_info": {
+      "url": "https://ai-vj.com",
+      "email": ""
+    },
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093810/page_bg_generated_v6b.jpg?t=1722795992",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093810/page_bg_generated.jpg?t=1722795992",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Conte\u00fado sexual"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Sexuelle Andeutungen"
+      }
+    }
+  },
+  "3094350": {
+    "type": "game",
+    "name": "PEDRO!",
+    "steam_appid": 3094350,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "A cool clicker.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094350/header.jpg?t=1722854061",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094350/capsule_231x87.jpg?t=1722854061",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094350/capsule_184x69.jpg?t=1722854061",
+    "website": null,
+    "developers": [
+      "Stoyan Dardzhikov",
+      "Titi Mitkov",
+      "Plamen Dardzhikov",
+      "Qnislav Ivanov"
+    ],
+    "publishers": [
+      "Stoyan Dardzhikov"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2
+    ],
+    "genres": [
+      4,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "12 Aug, 2024"
+    },
+    "support_info": {
+      "url": "",
+      "email": "pedrocliker@gmail.com"
+    },
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094350/page_bg_generated_v6b.jpg?t=1722854061",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094350/page_bg_generated.jpg?t=1722854061",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
       }
     }
   }
