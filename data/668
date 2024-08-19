@@ -454,9 +454,9 @@
       "name": "The Callisto Protocol\u2122"
     },
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Polish, Portuguese - Brazil, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Spanish - Latin America<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2005972/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2005972/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2005972/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2005972/header.jpg?t=1675800652",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2005972/capsule_231x87.jpg?t=1675800652",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2005972/capsule_184x69.jpg?t=1675800652",
     "website": "https://callisto.sds.com",
     "developers": [
       "Striking Distance Studios"
@@ -487,7 +487,8 @@
       2,
       21,
       22,
-      28
+      28,
+      62
     ],
     "genres": [
       1,
@@ -501,15 +502,16 @@
       "url": "https://www.sds.com/",
       "email": "info@strikingdistancestudios.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2005972/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2005972/page_bg_generated.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2005972/page_bg_generated_v6b.jpg?t=1675800652",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2005972/page_bg_generated.jpg?t=1675800652",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Frequent Violence or Gore, General Mature Content"
-    }
+    },
+    "ratings": null
   },
   "2004606": {
     "type": "dlc",
@@ -3677,50 +3679,60 @@
     "steam_appid": 2006180,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Build, shoot, repair, upgrade! 1-4 players build and defend a barricade from waves of zombies that will tear through your barricade to devour you in this retro FPS.",
-    "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2006180/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2006180/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2006180/capsule_184x69.jpg",
-    "website": "https://SockhouseStudios.com",
+    "short_description": "Barricade is a wave based zombie fps with a classic 90's feel. Build and defend a barricade from endless waves of zombies. Will you juggle building, shooting, and repairing, or be overrun?",
+    "supported_languages": "English<strong>*</strong>, Russian<strong>*</strong>, Spanish - Latin America<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006180/header.jpg?t=1713412370",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006180/capsule_231x87.jpg?t=1713412370",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006180/capsule_184x69.jpg?t=1713412370",
+    "website": null,
     "developers": [
       "SOCKHOUSE STUDIOS"
     ],
     "publishers": [
       "SOCKHOUSE STUDIOS"
     ],
+    "demos": [
+      {
+        "appid": 2849590,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
-      1,
-      2,
-      9,
-      38
+      2
     ],
     "genres": [
-      1,
-      23
+      1
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "October 2024"
     },
     "support_info": {
       "url": "",
       "email": "support@sockhousestudios.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2006180/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2006180/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006180/page_bg_generated_v6b.jpg?t=1713412370",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006180/page.bg.jpg?t=1713412370",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "Contains gore, and violence."
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "12",
+        "descriptors": "Viol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "12"
+      }
     }
   },
   "2006090": {
@@ -4798,12 +4810,12 @@
     "name": "Godumas",
     "steam_appid": 2006730,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
     "short_description": "GODUMAS is a co-op horror game for 1-4 players. Explore the strange island, solve location based puzzles, run or sneak your way through local inhabitants and find a way to escape\u2026 before you are sacrificed.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2006730/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2006730/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2006730/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006730/header.jpg?t=1722624322",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006730/capsule_231x87.jpg?t=1722624322",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006730/capsule_184x69.jpg?t=1722624322",
     "website": "https://moistdog.com/godumas/",
     "developers": [
       "Moist Dog studio"
@@ -4811,20 +4823,7 @@
     "publishers": [
       "Moist Dog studio"
     ],
-    "packages": [
-      724520
-    ],
-    "package_groups": [
-      {
-        "name": "default",
-        "title": "Buy Godumas",
-        "description": "",
-        "selection_text": "Select a purchase option",
-        "save_text": "",
-        "display_type": 0,
-        "is_recurring_subscription": "false"
-      }
-    ],
+    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4841,7 +4840,8 @@
     "genres": [
       1,
       23,
-      25
+      25,
+      37
     ],
     "achievements": {
       "total": 35
@@ -4854,11 +4854,19 @@
       "url": "",
       "email": "moistdogstudio@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2006730/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2006730/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006730/page_bg_generated_v6b.jpg?t=1722624322",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006730/page.bg.jpg?t=1722624322",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "14",
+        "descriptors": "Viol\u00eancia\r\nMedo",
+        "use_age_gate": "true",
+        "required_age": "14"
+      }
     }
   },
   "2004400": {
