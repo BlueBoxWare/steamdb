@@ -5329,11 +5329,14 @@
     "steam_appid": 3013500,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      3148460
+    ],
     "short_description": "Embark on a pixel adventure with Ponchee the bunny in &quot;Bunny Space Odyssey: FlopHop&quot;. Solve puzzles, protect plants, and uncover deep mysteries with Usagi-01 on an uninhabited planet.",
     "supported_languages": "English, French, Danish, Russian",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013500/header.jpg?t=1717596031",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013500/capsule_231x87.jpg?t=1717596031",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013500/capsule_184x69.jpg?t=1717596031",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013500/header.jpg?t=1726239844",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013500/capsule_231x87.jpg?t=1726239844",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013500/capsule_184x69.jpg?t=1726239844",
     "website": "https://ainko.ink/",
     "developers": [
       "AinkOink"
@@ -5364,8 +5367,8 @@
       "url": "ainkoinkstudio@gmail.com",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013500/page_bg_generated_v6b.jpg?t=1717596031",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013500/page.bg.jpg?t=1717596031",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013500/page_bg_generated_v6b.jpg?t=1726239844",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013500/page.bg.jpg?t=1726239844",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5466,9 +5469,6 @@
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3012520/capsule_231x87.jpg?t=1717521962",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3012520/capsule_184x69.jpg?t=1717521962",
     "website": null,
-    "publishers": [
-      ""
-    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -5734,7 +5734,7 @@
     "short_description": "&quot;Pathfinder RPG - Campaign Setting: Andoran, Birthplace of Freedom Wedged between the crumbling empire of Taldor and the devil-worshipers of Cheliax, the self-made nation of Andoran shines proudly on the coast of the Inner Sea.",
     "fullgame": {
       "appid": "1196310",
-      "name": "Fantasy Grounds Unity"
+      "name": "Fantasy Grounds VTT"
     },
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013220/header.jpg?t=1717586992",
@@ -5743,9 +5743,6 @@
     "website": null,
     "developers": [
       "SmiteWorks USA, LLC"
-    ],
-    "publishers": [
-      ""
     ],
     "packages": [
       1071741
@@ -5820,11 +5817,11 @@
     "steam_appid": 3013280,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Roll for initiative! This companion to Dungeon-Master's and Game-Master's is a lightweight and easy to use tool that won't interrupt the flow of your table top roleplaying game, and holds everything you will need to stay organized and focused on your game.",
+    "short_description": "Roll for initiative! This is a lightweight and easy-to-use Game Master's companion tool that won't interrupt the flow of your tabletop roleplaying game, and holds everything you'll need to stay organized and focused on your game.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013280/header.jpg?t=1717595801",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013280/capsule_231x87.jpg?t=1717595801",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013280/capsule_184x69.jpg?t=1717595801",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013280/header.jpg?t=1725540208",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013280/capsule_231x87.jpg?t=1725540208",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013280/capsule_184x69.jpg?t=1725540208",
     "website": null,
     "developers": [
       "Justin Whitchurch"
@@ -5832,29 +5829,39 @@
     "publishers": [
       "Justin Whitchurch"
     ],
-    "package_groups": [],
+    "packages": [
+      1071760
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Table Top Creature Tracker",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
-    "categories": [
-      17
-    ],
     "genres": [
       57,
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "28 Jun, 2024"
     },
     "support_info": {
       "url": "",
       "email": "TableTopCreatureTracker@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013280/page_bg_generated_v6b.jpg?t=1717595801",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013280/page_bg_generated.jpg?t=1717595801",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013280/page_bg_generated_v6b.jpg?t=1725540208",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013280/page_bg_generated.jpg?t=1725540208",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5887,7 +5894,7 @@
     "short_description": "&quot; Cursed Scroll Zine, Vol. 1: Diablerie! Cursed knights channeling demonic power, mist-addled forests where witches and warlocks stalk the trees, and crumbling castles housing ancient, eldritch creatures! Cursed Scroll 1 for the Shadowdark RPG adds diabolical new ideas to your RPG game world!",
     "fullgame": {
       "appid": "1196310",
-      "name": "Fantasy Grounds Unity"
+      "name": "Fantasy Grounds VTT"
     },
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3013310/header.jpg?t=1717586964",
@@ -5896,9 +5903,6 @@
     "website": null,
     "developers": [
       "SmiteWorks USA, LLC"
-    ],
-    "publishers": [
-      ""
     ],
     "packages": [
       1071770
