@@ -2521,15 +2521,21 @@
     "is_free": false,
     "short_description": "Clash in furious combat in the yellow circle of the arena! Here, everyone will face bloody battles in PvP game modes and co-op to the last survivor. Fight for the leading positions and get valuable prizes for victory. Conquer glory in the arena as a Gladiator ..",
     "supported_languages": "English, Russian",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1213530/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1213530/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1213530/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1213530/header.jpg?t=1728193294",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1213530/6e2786595e75c26a0ef340d8bb7c79adb405630f/capsule_231x87.jpg?t=1728193294",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1213530/6e2786595e75c26a0ef340d8bb7c79adb405630f/capsule_184x69.jpg?t=1728193294",
     "website": null,
     "developers": [
       "Smerch inc"
     ],
     "publishers": [
       "Smerch inc"
+    ],
+    "demos": [
+      {
+        "appid": 2849670,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2541,9 +2547,7 @@
       1,
       2,
       22,
-      23,
       36,
-      47,
       49
     ],
     "genres": [
@@ -2560,8 +2564,8 @@
       "url": "",
       "email": "https://discord.com/invite/7meQA7VMU6"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1213530/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1213530/page_bg_generated.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1213530/page_bg_generated_v6b.jpg?t=1728193294",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1213530/page_bg_generated.jpg?t=1728193294",
     "content_descriptors": {
       "ids": [
         1,
@@ -2569,27 +2573,74 @@
         5
       ],
       "notes": "Attention !! The content provided has violent scenes and is not intended for persons under 18 years of age."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "1214650": {
     "type": "game",
     "name": "SOUTH PARK: SNOW DAY!",
     "steam_appid": 1214650,
-    "required_age": 0,
+    "required_age": "17",
     "is_free": false,
+    "controller_support": "full",
+    "dlc": [
+      2717700,
+      2534280,
+      3013230,
+      3053410,
+      3000090,
+      2856250,
+      2904870,
+      2777700,
+      3126390,
+      2895790,
+      2777690,
+      2856260
+    ],
     "short_description": "Play as the New kid in South Park and join Cartman, Stan, Kyle, and Kenny, in three-dimensional glory, to celebrate the most magical day in any young child\u2019s life - a snow day!",
-    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain, Portuguese - Brazil<strong>*</strong>, Japanese<strong>*</strong>, Korean, Polish, Spanish - Latin America<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1214650/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1214650/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1214650/capsule_184x69.jpg",
-    "website": null,
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain, Portuguese - Brazil<strong>*</strong>, Japanese, Korean, Polish, Spanish - Latin America<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1214650/header.jpg?t=1725517426",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1214650/capsule_231x87.jpg?t=1725517426",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1214650/capsule_184x69.jpg?t=1725517426",
+    "website": "https://southpark.thqnordic.com/",
     "developers": [
-      "Question Games"
+      "Question"
     ],
     "publishers": [
       "THQ Nordic"
     ],
-    "package_groups": [],
+    "packages": [
+      420294,
+      976991
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy SOUTH PARK: SNOW DAY!",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2600,27 +2651,70 @@
       2,
       9,
       22,
-      38
+      23,
+      28,
+      29,
+      38,
+      62
     ],
     "genres": [
       1,
       25
     ],
+    "achievements": {
+      "total": 32
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "26 Mar, 2024"
     },
     "support_info": {
       "url": "",
       "email": "support@quanticlab.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1214650/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1214650/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1214650/page_bg_generated_v6b.jpg?t=1725517426",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1214650/page.bg.jpg?t=1725517426",
     "content_descriptors": {
       "ids": [
         5
       ],
       "notes": "Frequent depiction of fart clouds, feces, urine and other gross ways to use against enemies. "
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "m",
+        "descriptors": "Violence\r\nBlood\r\nStrong Language\r\nMature Humor",
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "pegi": {
+        "rating": "16",
+        "descriptors": "Bad Language"
+      },
+      "usk": {
+        "rating": "16",
+        "descriptors": "Derbe Sprache"
+      },
+      "nzoflc": {
+        "rating": "r13",
+        "descriptors": "Offensive language &amp; other content that may offend"
+      },
+      "dejus": {
+        "rating": "16",
+        "descriptors": "Viol\u00eancia\r\nLinguagem Impr\u00f3pria\r\nConte\u00fado Sexual"
+      },
+      "oflc": {
+        "rating": "ma15",
+        "descriptors": "Strong Coarse Language"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "1213870": {
@@ -2705,9 +2799,9 @@
     ],
     "short_description": "Unleash your inner designer and renovate the hotel of your dreams! Embark on a makeover journey to turn this worn-out place into a successful getaway. Play with thousands of furniture pieces and accessories, and manage the hotel to get 5-star reviews!",
     "supported_languages": "English<strong>*</strong>, Italian, Spanish - Spain, Czech, Polish, Russian, Spanish - Latin America, Ukrainian, German, French, Portuguese - Brazil, Japanese, Korean, Simplified Chinese, Traditional Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1214470/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1214470/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1214470/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1214470/header.jpg?t=1727792521",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1214470/capsule_231x87.jpg?t=1727792521",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1214470/capsule_184x69.jpg?t=1727792521",
     "website": "https://www.focus-entmt.com/games/hotel-renovator",
     "developers": [
       "Two Horizons"
@@ -2738,7 +2832,8 @@
       2,
       22,
       23,
-      29
+      29,
+      62
     ],
     "genres": [
       4,
@@ -2757,11 +2852,24 @@
       "url": "https://support.focus-home.com/",
       "email": "support@focus-home.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1214470/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1214470/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1214470/page_bg_generated_v6b.jpg?t=1727792521",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1214470/page.bg.jpg?t=1727792521",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "1212806": {
@@ -11402,9 +11510,9 @@
     "is_free": false,
     "short_description": "Finding the Soul Orb is a medieval fantasy game. In it, you use your crossbow both as a weapon against werewolves as well as a tool to solve puzzles.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1213680/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1213680/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1213680/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1213680/header.jpg?t=1728914312",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1213680/7ac003005a3bb8765136defd016bb1437dd275fd/capsule_231x87.jpg?t=1728914312",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1213680/7ac003005a3bb8765136defd016bb1437dd275fd/capsule_184x69.jpg?t=1728914312",
     "website": null,
     "developers": [
       "Tongu\u00e7 Bodur"
@@ -11435,7 +11543,8 @@
       2,
       18,
       22,
-      23
+      23,
+      62
     ],
     "genres": [
       1,
@@ -11452,13 +11561,29 @@
     },
     "support_info": {
       "url": "",
-      "email": "kodekt@gmail.com"
+      "email": ""
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1213680/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1213680/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1213680/page_bg_generated_v6b.jpg?t=1728914312",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1213680/page.bg.jpg?t=1728914312",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "18",
+        "descriptors": "Viol\u00eancia fantasiosa\r\nViol\u00eancia\r\nMedo\r\nAtos criminosos\r\nViol\u00eancia Extrema\r\nLinguagem impr\u00f3pria\r\nConte\u00fado sexual\r\nNudez",
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "1214400": {
