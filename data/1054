@@ -990,15 +990,15 @@
   },
   "3164300": {
     "type": "game",
-    "name": "\u672b\u65e5\u6218\u59ec-\u4e8c\u6b21\u5143.\u7b56\u7565.\u5361\u724c.\u6e38\u620f",
+    "name": "\u5192\u9669\u5c0f\u5206\u961f-\u7206\u8863.\u7f8e\u5c11\u5973.\u5361\u724c.\u6e38\u620f",
     "steam_appid": 3164300,
     "required_age": 0,
     "is_free": true,
     "short_description": "\u5192\u9669\u4e16\u754c\u7684\u5371\u673a\u8feb\u5728\u7709\u776b\uff0c\u800c\u65b0\u7684\u751f\u6d3b\u4e5f\u5373\u5c06\u5f00\u59cb\uff0c\u90a3\u4e48\u5404\u4f4d\u6307\u6325\u5b98\uff0c\u4f60\u51c6\u5907\u597d\u5e26\u9886\u5c11\u5973\u4eec\u5f00\u59cb\u5192\u9669\u4e86\u5417\uff1f",
     "supported_languages": "Simplified Chinese, Traditional Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164300/header.jpg?t=1725676835",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164300/06da69cca5cf00fa72bd03ad2e2cf16ab4d48992/capsule_231x87.jpg?t=1725676835",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164300/06da69cca5cf00fa72bd03ad2e2cf16ab4d48992/capsule_184x69.jpg?t=1725676835",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164300/header.jpg?t=1730096653",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164300/3061dff73c753d7366b63023a6519cab00a8e697/capsule_231x87.jpg?t=1730096653",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164300/3061dff73c753d7366b63023a6519cab00a8e697/capsule_184x69.jpg?t=1730096653",
     "website": null,
     "developers": [
       "\u9f99\u6e38\u5de5\u4f5c\u5ba4"
@@ -1036,8 +1036,8 @@
       "url": "",
       "email": "sztisu@163.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164300/page_bg_generated_v6b.jpg?t=1725676835",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164300/page.bg.jpg?t=1725676835",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164300/page_bg_generated_v6b.jpg?t=1730096653",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164300/page.bg.jpg?t=1730096653",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -7792,11 +7792,12 @@
     "steam_appid": 3164400,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "\u2018Cats Go!\u2019 is an innovative strategic defense experience combining &quot;Tower Defense&quot;, &quot;Asymmetric&quot;, and &quot;Brawl&quot;. You either be a demonic cat, teaming up with demons to destroy the World Tree, or a heroic cat, joining forces with allies to protect it from the Dark Lord Kairos and his minions.",
-    "supported_languages": "Korean",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164400/header.jpg?t=1725946228",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164400/0111d98332f3df0602d2078c23df16adc6dbe270/capsule_231x87.jpg?t=1725946228",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164400/0111d98332f3df0602d2078c23df16adc6dbe270/capsule_184x69.jpg?t=1725946228",
+    "supported_languages": "Korean, English, Japanese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164400/header.jpg?t=1731571343",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164400/78449fddde91991081c07d08a0fb10d8b032b982/capsule_231x87.jpg?t=1731571343",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164400/78449fddde91991081c07d08a0fb10d8b032b982/capsule_184x69.jpg?t=1731571343",
     "website": null,
     "developers": [
       "Minimum Studio Corp."
@@ -7804,34 +7805,59 @@
     "publishers": [
       "Minimum Studio Corp."
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 3342290,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1122960
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cats Go!",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       1,
+      2,
       9,
+      28,
       36,
       38,
-      49
+      44,
+      49,
+      62
     ],
     "genres": [
       1,
       2,
-      4
+      4,
+      23,
+      70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "2024"
+      "coming_soon": false,
+      "date": "27 Oct, 2024"
     },
     "support_info": {
       "url": "https://home.minimumstudio.net/",
       "email": "team@minimumstudio.net"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164400/page_bg_generated_v6b.jpg?t=1725946228",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164400/page_bg_generated.jpg?t=1725946228",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164400/page_bg_generated_v6b.jpg?t=1731571343",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164400/page_bg_generated.jpg?t=1731571343",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -10821,11 +10847,11 @@
     "steam_appid": 3163550,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Hotel of Shadows is an immersive detective game where you step into the shoes of a rookie investigator in a mysterious hotel. You must find all stoles items and gather them to identify theft.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3163550/header.jpg?t=1725984209",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3163550/7589305cbc6853727b373c289634ebcd9ce713d3/capsule_231x87.jpg?t=1725984209",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3163550/7589305cbc6853727b373c289634ebcd9ce713d3/capsule_184x69.jpg?t=1725984209",
+    "short_description": "Hotel of Shadows is an immersive detective game where you step into the shoes of a rookie investigator in a mysterious hotel. You must find all stoles items and gather them to identify theft. There are 3 investigations where player have to find different, stolen items.",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Traditional Chinese, Simplified Chinese, Spanish - Latin America, Polish<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3163550/header.jpg?t=1727267146",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3163550/7589305cbc6853727b373c289634ebcd9ce713d3/capsule_231x87.jpg?t=1727267146",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3163550/7589305cbc6853727b373c289634ebcd9ce713d3/capsule_184x69.jpg?t=1727267146",
     "website": null,
     "developers": [
       "Piotr Boruszewski"
@@ -10833,14 +10859,28 @@
     "publishers": [
       "Piotr Boruszewski"
     ],
-    "package_groups": [],
+    "packages": [
+      1122686
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Hotel of Shadows",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       2,
@@ -10848,15 +10888,15 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "23 Sep, 2024"
+      "coming_soon": false,
+      "date": "24 Sep, 2024"
     },
     "support_info": {
       "url": "",
       "email": "skarbek1322@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3163550/page_bg_generated_v6b.jpg?t=1725984209",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3163550/page_bg_generated.jpg?t=1725984209",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3163550/page_bg_generated_v6b.jpg?t=1727267146",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3163550/page_bg_generated.jpg?t=1727267146",
     "content_descriptors": {
       "ids": [],
       "notes": null
