@@ -2863,11 +2863,12 @@
     "steam_appid": 3070070,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Open your own local game store. Stock shelves with the latest booster packs, or crack them and collect the cards for yourself. Set your own prices, hire staff, host events, and expand your card shop.",
-    "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/header.jpg?t=1721695456",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/capsule_231x87.jpg?t=1721695456",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/capsule_184x69.jpg?t=1721695456",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Simplified Chinese, Traditional Chinese, Portuguese - Brazil",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/header.jpg?t=1729839700",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/capsule_231x87.jpg?t=1729839700",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/capsule_184x69.jpg?t=1729839700",
     "website": null,
     "developers": [
       "OPNeon Games"
@@ -2875,29 +2876,50 @@
     "publishers": [
       "OPNeon Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1090962
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy TCG Card Shop Simulator",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      22,
+      23,
+      28,
+      29,
+      62
     ],
     "genres": [
       28,
       70
     ],
+    "achievements": {
+      "total": 40
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "15 Sep, 2024"
     },
     "support_info": {
       "url": "",
       "email": "opneongameservice@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/page_bg_generated_v6b.jpg?t=1721695456",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/page_bg_generated.jpg?t=1721695456",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/page_bg_generated_v6b.jpg?t=1729839700",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/page_bg_generated.jpg?t=1729839700",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -4196,12 +4218,30 @@
     "steam_appid": 3071670,
     "required_age": 0,
     "is_free": true,
-    "short_description": "Unleash your inner artist! Color hundreds of pixel images.",
-    "supported_languages": "English<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Polish<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3071670/header.jpg?t=1720100173",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3071670/capsule_231x87.jpg?t=1720100173",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3071670/capsule_184x69.jpg?t=1720100173",
-    "website": "https://www.facebook.com/error300com",
+    "dlc": [
+      3299030,
+      3299040,
+      3306490,
+      3306510,
+      3306520,
+      3306530,
+      3306550,
+      3306610,
+      3306630,
+      3306660,
+      3306670,
+      3306690,
+      3306710,
+      3306830,
+      3307070,
+      3309990
+    ],
+    "short_description": "Relax and create beautiful pixel art with color-by-number and cross-stitch fun!",
+    "supported_languages": "English<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Polish<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3071670/header.jpg?t=1732268519",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3071670/capsule_231x87.jpg?t=1732268519",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3071670/capsule_184x69.jpg?t=1732268519",
+    "website": "https://error300.com/",
     "developers": [
       "Error 300"
     ],
@@ -4212,8 +4252,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -4223,16 +4263,19 @@
       4,
       37
     ],
+    "achievements": {
+      "total": 39
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2024"
+      "coming_soon": false,
+      "date": "7 Nov, 2024"
     },
     "support_info": {
-      "url": "https://www.facebook.com/error300com",
+      "url": "https://error300.com/",
       "email": "contact@error300.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3071670/page_bg_generated_v6b.jpg?t=1720100173",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3071670/page_bg_generated.jpg?t=1720100173",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3071670/page_bg_generated_v6b.jpg?t=1732268519",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3071670/page_bg_generated.jpg?t=1732268519",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -10129,11 +10172,11 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Brentwood is a story-based 2D point and click adventure game.Through your journey you will uncover hidden secrets and your choices will shape the destiny of both characters and the world around them, leading to multiple endings that show the impact of your decisions.",
+    "short_description": "Solve puzzles and explore the rural village of Brentwood in this multi-ending point-and-click adventure. Uncover your family\u2019s darkest secret and gain the power to change the village\u2019s future. It is up to you to decide how to use this power.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070010/header.jpg?t=1721842497",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070010/capsule_231x87.jpg?t=1721842497",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070010/capsule_184x69.jpg?t=1721842497",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070010/header.jpg?t=1732242425",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070010/capsule_231x87.jpg?t=1732242425",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070010/capsule_184x69.jpg?t=1732242425",
     "website": "https://www.timefliesstudios.com/",
     "developers": [
       "Time Flies Studios Inc."
@@ -10164,8 +10207,8 @@
       "url": "https://www.timefliesstudios.com/support",
       "email": "support@timefliesstudios.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070010/page_bg_generated_v6b.jpg?t=1721842497",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070010/page.bg.jpg?t=1721842497",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070010/page_bg_generated_v6b.jpg?t=1732242425",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070010/page.bg.jpg?t=1732242425",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -10260,11 +10303,11 @@
     "steam_appid": 3070600,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A rogue-lite dungeon crawler RPG to uncover the secrets of a mysterious island inhabited by succubi. Play as either the warrior Hula Elstia or Sonia Lanternlily in a variety of combat styles, dress them up with various outfits and uncover a long lost, ancient technology!",
+    "short_description": "An RPG where you get to uncover the secrets of a mysterious island inhabited by succubi that was rumored to contain a lost ancient technology. Play as either the warrior Hula Elstia, or Sonia Lilylantern to a variety of combat styles, and dress them up with various outfits.",
     "supported_languages": "English, Japanese, Simplified Chinese, Traditional Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070600/header.jpg?t=1721912983",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070600/capsule_231x87.jpg?t=1721912983",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070600/capsule_184x69.jpg?t=1721912983",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070600/header.jpg?t=1732141613",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070600/6829584070e496e12e7f162ebbb568c28a659fd1/capsule_231x87.jpg?t=1732141613",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070600/6829584070e496e12e7f162ebbb568c28a659fd1/capsule_184x69.jpg?t=1732141613",
     "website": "https://saikeystudios.com",
     "developers": [
       "Ruhut Soft"
@@ -10281,12 +10324,11 @@
     "categories": [
       2,
       18,
-      22
+      22,
+      23
     ],
     "genres": [
       3,
-      4,
-      23,
       25
     ],
     "release_date": {
@@ -10297,28 +10339,30 @@
       "url": "https://saikeystudios.com",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070600/page_bg_generated_v6b.jpg?t=1721912983",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070600/page.bg.jpg?t=1721912983",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070600/page_bg_generated_v6b.jpg?t=1732141613",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070600/page.bg.jpg?t=1732141613",
     "content_descriptors": {
-      "ids": [],
-      "notes": null
+      "ids": [
+        5
+      ],
+      "notes": "The game contains general mature content such as cartoon violence and instances of strong language."
     },
     "ratings": {
       "dejus": {
         "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
+        "rating": "12",
+        "required_age": "12",
         "banned": "0",
         "use_age_gate": "0",
-        "descriptors": ""
+        "descriptors": "Linguagem impr\u00f3pria\nAtos criminosos\nViol\u00eancia"
       },
       "steam_germany": {
         "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
+        "rating": "12",
+        "required_age": "12",
         "banned": "0",
         "use_age_gate": "0",
-        "descriptors": ""
+        "descriptors": "Gewalt\nSchimpfw\u00f6rte"
       }
     }
   },
