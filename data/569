@@ -254,12 +254,12 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "30 Birds is a narrative puzzle game laid out on the surface of rotating lanterns. Wander a gorgeous open-world inspired by Persian art. Meet the local goofs, quirky Jinns and regular-old weirdos, and solve puzzles to help Zig rescue Simurgh, the missing bird Goddess!",
-    "supported_languages": "English, French, Dutch",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1708770/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1708770/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1708770/capsule_184x69.jpg",
-    "website": "http://30birdsgame.com/",
+    "short_description": "Lantern City is on the verge of disaster: the Goddess Simurgh has been kidnapped by the evil Scientist! 30 Birds is a narrative puzzle game laid out on the surface of rotating lanterns. Wander through a gorgeous world inspired by Persian art, meet quirky birds, and solve puzzles to rescue Simurgh.",
+    "supported_languages": "English, French, Dutch, German, Simplified Chinese, Japanese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1708770/header.jpg?t=1732700667",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1708770/56020f69d4b208e55e1845a58cfdde0daa6d510d/capsule_231x87.jpg?t=1732700667",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1708770/56020f69d4b208e55e1845a58cfdde0daa6d510d/capsule_184x69.jpg?t=1732700667",
+    "website": "https://www.arte.tv/digitalproductions/en/30-birds/",
     "developers": [
       "RAM RAM Games",
       "Business Goose Studios"
@@ -267,16 +267,10 @@
     "publishers": [
       "ARTE France"
     ],
-    "demos": [
-      {
-        "appid": 1878130,
-        "description": ""
-      }
-    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -289,17 +283,35 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2024"
+      "date": "28 Nov, 2024"
     },
     "support_info": {
-      "url": "http://30birdsgame.com/",
-      "email": "info@30birdsgame.com"
+      "url": "https://www.arte.tv/digitalproductions/fr/",
+      "email": "storemanager@artefrance.fr"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1708770/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1708770/page_bg_generated.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1708770/page_bg_generated_v6b.jpg?t=1732700667",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1708770/page_bg_generated.jpg?t=1732700667",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt\nAlkohol / Tabak"
+      }
     }
   },
   "1709960": {
@@ -6159,11 +6171,14 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      2873680
+    ],
     "short_description": "On the Reuss Express a passenger has been murdered, and you\u2019re the prime suspects. Uncover a thrilling mystery and solve satisfying point and click puzzles to prove your innocence! A slapstick adventure, packed full of deadly surprises, shocking twists and larger than life characters!",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1709880/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1709880/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1709880/capsule_184x69.jpg",
+    "supported_languages": "English<strong>*</strong>, German<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1709880/header.jpg?t=1732215074",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1709880/capsule_231x87.jpg?t=1732215074",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1709880/capsule_184x69.jpg?t=1732215074",
     "website": "https://locomotivegame.com",
     "developers": [
       "Robust Games"
@@ -6171,35 +6186,71 @@
     "publishers": [
       "Chucklefish"
     ],
-    "package_groups": [],
+    "packages": [
+      612181
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Loco Motive",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": false
+    },
+    "metacritic": {
+      "score": 86,
+      "url": "https://www.metacritic.com/game/pc/loco-motive?ftag=MCD-06-10aaa1f"
     },
     "categories": [
       2,
-      13,
       22,
-      28
+      23,
+      28,
+      29,
+      62
     ],
     "genres": [
       23,
       25
     ],
+    "achievements": {
+      "total": 33
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q1 2024"
+      "coming_soon": false,
+      "date": "21 Nov, 2024"
     },
     "support_info": {
       "url": "https://www.locomotivegame.com/support",
       "email": ""
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1709880/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1709880/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1709880/page_bg_generated_v6b.jpg?t=1732215074",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1709880/page.bg.jpg?t=1732215074",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "l",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Verbrechen"
+      }
     }
   },
   "1709540": {
