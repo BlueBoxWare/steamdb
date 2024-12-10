@@ -546,9 +546,9 @@
       "name": "Tabletop Simulator"
     },
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405130/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/405130/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/405130/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405130/header.jpg?t=1523480479",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405130/capsule_231x87.jpg?t=1523480479",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405130/capsule_184x69.jpg?t=1523480479",
     "website": "http://berserk-games.com/buy/cosmic-encounter-dlc",
     "developers": [
       "Berserk Games",
@@ -592,7 +592,8 @@
       24,
       27,
       29,
-      30
+      30,
+      62
     ],
     "genres": [
       2,
@@ -609,12 +610,13 @@
       "url": "http://www.berserk-games.com/forum",
       "email": "berserkgames@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/405130/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/405130/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405130/page_bg_generated_v6b.jpg?t=1523480479",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405130/page.bg.jpg?t=1523480479",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "407900": {
     "type": "game",
@@ -1557,7 +1559,7 @@
     "type": "dlc",
     "name": "Assassin's Creed Syndicate - Jack The Ripper",
     "steam_appid": 405080,
-    "required_age": "18",
+    "required_age": "17",
     "is_free": false,
     "short_description": "Experience the chilling persona of Jack the Ripper, a killer who knows no boundaries while embarking on a campaign of fear and murder that threatens the very existence of the Brotherhood.",
     "fullgame": {
@@ -1565,15 +1567,12 @@
       "name": "Assassin's Creed\u00ae Syndicate"
     },
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Czech, Dutch, Hungarian, Japanese<strong>*</strong>, Korean, Polish, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese, Traditional Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405080/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/405080/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/405080/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405080/header.jpg?t=1453225692",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405080/capsule_231x87.jpg?t=1453225692",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405080/capsule_184x69.jpg?t=1453225692",
     "website": "http://assassinscreed.ubi.com/",
     "developers": [
       "Ubisoft Quebec, in collaboration with Ubisoft Annecy, Bucharest, Kiev, Montreal, Montpellier, Shanghai, Singapore, Sofia, Toronto studios"
-    ],
-    "publishers": [
-      ""
     ],
     "packages": [
       79533
@@ -1597,7 +1596,8 @@
     "categories": [
       2,
       18,
-      21
+      21,
+      62
     ],
     "genres": [
       1,
@@ -1611,11 +1611,34 @@
       "url": "https://support.ubi.com/",
       "email": ""
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/405080/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/405080/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405080/page_bg_generated_v6b.jpg?t=1453225692",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405080/page.bg.jpg?t=1453225692",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "pegi": {
+        "rating": "18",
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "oflc": {
+        "rating": "ma15",
+        "use_age_gate": "true",
+        "required_age": "15"
+      },
+      "nzoflc": {
+        "rating": "ma15",
+        "use_age_gate": "true",
+        "required_age": "15"
+      },
+      "esrb": {
+        "rating": "m",
+        "use_age_gate": "true",
+        "required_age": "17",
+        "descriptors": "Blood\r\nDrug Reference\r\nStrong Language\r\nViolence"
+      }
     }
   },
   "405920": {
@@ -2515,13 +2538,13 @@
     "type": "game",
     "name": "Alpha Polaris : A Horror Adventure Game",
     "steam_appid": 405780,
-    "required_age": "16",
+    "required_age": 0,
     "is_free": true,
     "short_description": "Alpha Polaris is an oldschool adventure game focusing on slow-burning character driven horror and environmental themes. It draws inspiration from such sources as Inuit legends and Cthulhu mythos.",
     "supported_languages": "English<strong>*</strong>, German, Russian, Polish<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405780/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/405780/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/405780/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405780/header.jpg?t=1578449945",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405780/capsule_231x87.jpg?t=1578449945",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405780/capsule_184x69.jpg?t=1578449945",
     "website": "http://www.turmoilgames.com",
     "developers": [
       "Turmoil Games"
@@ -2555,11 +2578,19 @@
       "url": "",
       "email": "support@turmoilgames.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/405780/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/405780/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405780/page_bg_generated_v6b.jpg?t=1578449945",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405780/page.bg.jpg?t=1578449945",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "pegi": {
+        "rating": "16",
+        "descriptors": "- Realistic looking violence\r\n- Nudity of a sexual nature\r\n- Strong language",
+        "use_age_gate": "true",
+        "required_age": "16"
+      }
     }
   },
   "405830": {
@@ -2833,9 +2864,9 @@
     "controller_support": "full",
     "short_description": "Grow your farm, meet the villagers, and join your friends online in building your world.",
     "supported_languages": "English, French, German, Japanese, Simplified Chinese, Dutch",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405710/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/405710/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/405710/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405710/header.jpg?t=1659690961",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405710/capsule_231x87.jpg?t=1659690961",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405710/capsule_184x69.jpg?t=1659690961",
     "website": "http://playstaxel.com/",
     "developers": [
       "Plukit"
@@ -2870,7 +2901,8 @@
       28,
       29,
       30,
-      38
+      38,
+      62
     ],
     "genres": [
       3,
@@ -2888,11 +2920,29 @@
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1620515354",
       "email": "support@playstaxel.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/405710/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/405710/page_bg_generated.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405710/page_bg_generated_v6b.jpg?t=1659690961",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405710/page_bg_generated.jpg?t=1659690961",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "405180": {
@@ -2903,9 +2953,9 @@
     "is_free": false,
     "short_description": "Welcome everyone to 123 Slaughter Me Street! A criminal on the run, you find yourself evading police as you make your escape down an alley. You see an old fire escape and scramble up to the roof of an abandoned building; you are safe here. As the patrol cars drive past, you slip into the shadows.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405180/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/405180/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/405180/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405180/header.jpg?t=1722570409",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405180/capsule_231x87.jpg?t=1722570409",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405180/capsule_184x69.jpg?t=1722570409",
     "website": "http://www.impulsegamestudios.com",
     "developers": [
       "Nate Sanders",
@@ -2935,7 +2985,8 @@
     },
     "categories": [
       2,
-      18
+      18,
+      62
     ],
     "genres": [
       1,
@@ -2949,12 +3000,13 @@
       "url": "http://www.impulsegamestudios.com/contactus.html",
       "email": "impulsegamestudios@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/405180/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/405180/page_bg_generated.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405180/page_bg_generated_v6b.jpg?t=1722570409",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405180/page_bg_generated.jpg?t=1722570409",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "407420": {
     "type": "game",
@@ -3115,9 +3167,9 @@
     "controller_support": "full",
     "short_description": "Create the ultimate fortress and wreak havoc, raining destruction on your enemies with catapult-flinging fun!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405340/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/405340/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/405340/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405340/header.jpg?t=1668660546",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405340/capsule_231x87.jpg?t=1668660546",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405340/capsule_184x69.jpg?t=1668660546",
     "website": "http://siegecraftcommander.com/",
     "developers": [
       "Blowfish Studios"
@@ -3162,7 +3214,8 @@
       44,
       49,
       52,
-      53
+      53,
+      62
     ],
     "genres": [
       1,
@@ -3179,11 +3232,41 @@
       "url": "",
       "email": "support@blowfishstudios.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/405340/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/405340/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405340/page_bg_generated_v6b.jpg?t=1668660546",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405340/page.bg.jpg?t=1668660546",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "t",
+        "descriptors": "Blood\r\nViolence"
+      },
+      "pegi": {
+        "rating": "16",
+        "descriptors": "Violence"
+      },
+      "oflc": {
+        "rating": "pg",
+        "descriptors": "Mild fantasy violence"
+      },
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "406140": {
@@ -3918,9 +4001,9 @@
       "name": "A Fistful of Gun"
     },
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405260/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/405260/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/405260/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405260/header.jpg?t=1625183121",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405260/capsule_231x87.jpg?t=1625183121",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405260/capsule_184x69.jpg?t=1625183121",
     "website": "http://fistfulofgun.com",
     "developers": [
       "FarmerGnome"
@@ -3968,12 +4051,13 @@
       "url": "",
       "email": "farmergnome@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/405260/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/405260/page_bg_generated.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405260/page_bg_generated_v6b.jpg?t=1625183121",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405260/page_bg_generated.jpg?t=1625183121",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "406460": {
     "type": "dlc",
@@ -4410,9 +4494,9 @@
     "is_free": false,
     "short_description": "The Worm is a game that mixes the classic with innovation! The protagonist is \u201cthe worm\u201d, he stretches every time you turn on the blocks below and he can not touch his body with his head.",
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405070/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/405070/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/405070/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405070/header.jpg?t=1574195579",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405070/capsule_231x87.jpg?t=1574195579",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405070/capsule_184x69.jpg?t=1574195579",
     "website": null,
     "developers": [
       "Carlo D'Apostoli Projects"
@@ -4440,7 +4524,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       4,
@@ -4454,11 +4539,29 @@
       "url": "support@strategyfirst.com",
       "email": ""
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/405070/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/405070/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405070/page_bg_generated_v6b.jpg?t=1574195579",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405070/page.bg.jpg?t=1574195579",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "406650": {
@@ -6266,9 +6369,9 @@
     "controller_support": "full",
     "short_description": "Perfect Universe is a collection of 9 gravity inspired games. Featuring 6 hilarious local multiplayer modes and over 70 eye-popping single player levels, this captivating universe has something for everyone.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405720/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/405720/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/405720/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405720/header.jpg?t=1726150563",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405720/capsule_231x87.jpg?t=1726150563",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405720/capsule_184x69.jpg?t=1726150563",
     "website": "http://www.excalibur-publishing.com",
     "developers": [
       "Will Sykes Games"
@@ -6303,7 +6406,8 @@
       25,
       28,
       43,
-      44
+      44,
+      62
     ],
     "genres": [
       1,
@@ -6320,11 +6424,29 @@
       "url": "",
       "email": "willsykes@willsykesgames.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/405720/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/405720/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405720/page_bg_generated_v6b.jpg?t=1726150563",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405720/page.bg.jpg?t=1726150563",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "406350": {
@@ -6405,9 +6527,9 @@
     "is_free": false,
     "short_description": "Within the hostile environment of the Probability Aperture, a high-tech research complex called Horizon vanishes from the grid. Take control of the Rig, a massive 10-ton remote-operated vehicle outfitted with the latest in military hardware, to get Horizon back online.",
     "supported_languages": "English<strong>*</strong>, French<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405190/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/405190/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/405190/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405190/header.jpg?t=1506010787",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405190/capsule_231x87.jpg?t=1506010787",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405190/capsule_184x69.jpg?t=1506010787",
     "website": "http://skunkwerkskinetic.com/games/meg-9",
     "developers": [
       "Skunkwerks Kinetic"
@@ -6436,7 +6558,8 @@
     },
     "categories": [
       2,
-      18
+      18,
+      62
     ],
     "genres": [
       1,
@@ -6454,12 +6577,13 @@
       "url": "",
       "email": "community@skunkwerks.ca"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/405190/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/405190/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405190/page_bg_generated_v6b.jpg?t=1506010787",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405190/page.bg.jpg?t=1506010787",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "406160": {
     "type": "game",
@@ -7011,9 +7135,9 @@
       "name": "DGU: Death God University"
     },
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405350/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/405350/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/405350/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405350/header.jpg?t=1468852177",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405350/capsule_231x87.jpg?t=1468852177",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405350/capsule_184x69.jpg?t=1468852177",
     "website": "http://www.dgugame.com",
     "developers": [
       "DSK Green Ice Games"
@@ -7047,11 +7171,18 @@
       "url": "",
       "email": "contactus@dskgreenicegames.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/405350/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/405350/page_bg_generated.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405350/page_bg_generated_v6b.jpg?t=1468852177",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405350/page_bg_generated.jpg?t=1468852177",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "t",
+        "descriptors": "Violence\r\nSuggestive Themes\r\nDrug Reference\r\nCrude Humor\r\nMild Language",
+        "use_age_gate": "true"
+      }
     }
   },
   "405520": {
@@ -8493,9 +8624,9 @@
     "is_free": false,
     "short_description": "In Bitardia you will experience all the rules of the Internet in action, and venture on a journey in the spirit of classic low-budget shooters, making your way through the obstacles of the fantastic world of an imageboard.",
     "supported_languages": "English, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405010/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/405010/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/405010/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405010/header.jpg?t=1678288392",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405010/capsule_231x87.jpg?t=1678288392",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405010/capsule_184x69.jpg?t=1678288392",
     "website": "https://tvorofag.com/",
     "developers": [
       "varlamov5264"
@@ -8526,7 +8657,8 @@
       2,
       13,
       22,
-      29
+      29,
+      62
     ],
     "genres": [
       1,
@@ -8544,11 +8676,49 @@
       "url": "",
       "email": "varlamov5264@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/405010/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/405010/page_bg_generated.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405010/page_bg_generated_v6b.jpg?t=1678288392",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405010/page_bg_generated.jpg?t=1678288392",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "pegi": {
+        "rating": "18"
+      },
+      "bbfc": {
+        "rating": "18"
+      },
+      "usk": {
+        "rating": "18"
+      },
+      "oflc": {
+        "rating": "r18"
+      },
+      "nzoflc": {
+        "rating": "r18"
+      },
+      "cero": {
+        "rating": "z"
+      },
+      "kgrb": {
+        "rating": "18"
+      },
+      "dejus": {
+        "rating": "18"
+      },
+      "mda": {
+        "rating": "M18"
+      },
+      "fpb": {
+        "rating": "18"
+      },
+      "csrr": {
+        "rating": "R"
+      },
+      "crl": {
+        "rating": "18"
+      }
     }
   },
   "405900": {
@@ -8909,7 +9079,7 @@
     "type": "dlc",
     "name": "Batman\u2122: Arkham Knight - Original Arkham Batmobile",
     "steam_appid": 405032,
-    "required_age": "18",
+    "required_age": "17",
     "is_free": false,
     "controller_support": "full",
     "short_description": "Seize control from Gotham City\u2019s most notorious villains with the original Arkham Asylum Batmobile.",
@@ -8918,15 +9088,12 @@
       "name": "Batman\u2122: Arkham Knight"
     },
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Korean, Portuguese - Brazil<strong>*</strong>, Polish, Russian, Japanese<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405032/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/405032/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/405032/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405032/header.jpg?t=1677880704",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405032/capsule_231x87.jpg?t=1677880704",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405032/capsule_184x69.jpg?t=1677880704",
     "website": "https://www.batmanarkhamknight.com/",
     "developers": [
       "Rocksteady Studios"
-    ],
-    "publishers": [
-      ""
     ],
     "packages": [
       79515
@@ -8954,7 +9121,8 @@
       23,
       25,
       28,
-      29
+      29,
+      62
     ],
     "genres": [
       1,
@@ -8968,11 +9136,70 @@
       "url": "support.wbgames.com",
       "email": "support@wbgames.com or Wbgames.intsupport@warnerbros.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/405032/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/405032/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405032/page_bg_generated_v6b.jpg?t=1677880704",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405032/page.bg.jpg?t=1677880704",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "m",
+        "descriptors": "Blood\r\nLanguage\r\nSuggestive Themes\r\nViolence",
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "pegi": {
+        "rating": "18",
+        "descriptors": "Violence",
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "usk": {
+        "rating": "16",
+        "use_age_gate": "true",
+        "required_age": "16"
+      },
+      "oflc": {
+        "rating": "m",
+        "descriptors": "Mature themes\r\nViolence",
+        "use_age_gate": "true",
+        "required_age": "15"
+      },
+      "nzoflc": {
+        "rating": "m",
+        "descriptors": "Mature themes\r\nViolence",
+        "use_age_gate": "true",
+        "required_age": "15"
+      },
+      "dejus": {
+        "rating": "16",
+        "descriptors": "Viol\u00eancia\r\nAtos Criminosos \r\nConte\u00fado Impactante",
+        "use_age_gate": "true",
+        "required_age": "16"
+      },
+      "mda": {
+        "rating": "AA16",
+        "use_age_gate": "true",
+        "required_age": "16"
+      },
+      "fpb": {
+        "rating": "18",
+        "use_age_gate": "true",
+        "required_age": "18",
+        "descriptors": "SCENES CONTAINING IMAGES OF ILLEGAL DRUGS\r\nSCENES OF HORROR\r\nSTRONG LANGUAGE (SWEAR-WORDS, THREATS, ABUSE OR PREJUDICE)\r\nGRAPHIC OR PROLONGED PICTURES OF NUDITY\r\nSCENES SHOWING PICTURES OF VIOLENCE"
+      },
+      "csrr": {
+        "rating": "R",
+        "descriptors": "Violence\r\nImproper Language\r\nAnti-social",
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "kgrb": {
+        "rating": "18",
+        "use_age_gate": "true",
+        "required_age": "18"
+      }
     }
   },
   "406930": {
@@ -9714,9 +9941,9 @@
     "is_free": false,
     "short_description": "Become an elite pilot of special Robot Squad. Use specialized, remotely controlled robots, which you will control yourself. Deal with the hardest missions which can't be performed directly by people due to the conditions. Human life and safety is in your hands!",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Czech, Polish, Russian, Hungarian",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405760/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/405760/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/405760/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405760/header.jpg?t=1724958936",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405760/capsule_231x87.jpg?t=1724958936",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405760/capsule_184x69.jpg?t=1724958936",
     "website": null,
     "developers": [
       "Bit Golem"
@@ -9745,7 +9972,8 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       1,
@@ -9763,11 +9991,29 @@
       "url": "",
       "email": "rafal@ultimate-games.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/405760/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/405760/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405760/page_bg_generated_v6b.jpg?t=1724958936",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405760/page.bg.jpg?t=1724958936",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "407630": {
@@ -10262,15 +10508,12 @@
     "is_free": false,
     "short_description": "You have just inherited an old, run-down gas station from your family and must now transform it into a top-of-the-line service station! Build, demolish, upgrade, and service to accomplish specific tasks and prove yourself a worthy owner in this fantastic Time Management game.",
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405050/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/405050/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/405050/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405050/header.jpg?t=1649421186",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405050/capsule_231x87.jpg?t=1649421186",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405050/capsule_184x69.jpg?t=1649421186",
     "website": null,
     "developers": [
       "numlock"
-    ],
-    "publishers": [
-      ""
     ],
     "packages": [
       79524
@@ -10292,7 +10535,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       4
@@ -10305,11 +10549,29 @@
       "url": "http://www.headupgames.com/",
       "email": "support@headupgames.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/405050/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/405050/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405050/page_bg_generated_v6b.jpg?t=1649421186",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405050/page.bg.jpg?t=1649421186",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "405640": {
@@ -11380,9 +11642,9 @@
       "name": "Rocket League\u00ae"
     },
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Dutch, Portuguese - Portugal, Japanese, Korean, Russian, Turkish",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405170/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/405170/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/405170/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405170/header.jpg?t=1575391060",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405170/capsule_231x87.jpg?t=1575391060",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405170/capsule_184x69.jpg?t=1575391060",
     "website": "http://www.rocketleaguegame.com",
     "developers": [
       "Psyonix, Inc."
@@ -11407,7 +11669,8 @@
       24,
       27,
       28,
-      29
+      29,
+      62
     ],
     "genres": [
       1,
@@ -11423,11 +11686,39 @@
       "url": "http://psyonix.com/forum/viewforum.php?f=34",
       "email": "rlsupport@psyonix.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/405170/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/405170/page_bg_generated.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405170/page_bg_generated_v6b.jpg?t=1575391060",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405170/page_bg_generated.jpg?t=1575391060",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "e",
+        "descriptors": "Mild Lyrics",
+        "display_online_notice": "true"
+      },
+      "oflc": {
+        "rating": "g",
+        "descriptors": "Online interactivity."
+      },
+      "nzoflc": {
+        "rating": "g",
+        "descriptors": "Online interactivity."
+      },
+      "pegi": {
+        "rating": "3",
+        "descriptors": "Online Interactivity."
+      },
+      "usk": {
+        "rating": "6"
+      },
+      "dejus": {
+        "rating": "l"
+      },
+      "fpb": {
+        "rating": "A"
+      }
     }
   },
   "407380": {
