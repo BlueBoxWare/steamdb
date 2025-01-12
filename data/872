@@ -6345,11 +6345,12 @@
     "steam_appid": 2617190,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "In a realm between life and death, a confused soul, haunted by a life filled with misguided choices, seeks redemption and freedom.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Russian",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2617190/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2617190/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2617190/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2617190/header.jpg?t=1726966656",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2617190/capsule_231x87.jpg?t=1726966656",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2617190/capsule_184x69.jpg?t=1726966656",
     "website": null,
     "developers": [
       "Nibb Games"
@@ -6357,7 +6358,20 @@
     "publishers": [
       "Nibb Games"
     ],
-    "package_groups": [],
+    "packages": [
+      938977
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Soulshard",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6368,28 +6382,52 @@
       2,
       9,
       22,
+      23,
       24,
+      28,
       39,
-      44
+      44,
+      62
     ],
     "genres": [
       4,
       23,
       25
     ],
+    "achievements": {
+      "total": 11
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "12 Feb, 2024"
     },
     "support_info": {
       "url": "",
       "email": "contact@nibbgames.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2617190/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2617190/page.bg.jpg",
+    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2617190/page_bg_generated_v6b.jpg?t=1726966656",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2617190/page.bg.jpg?t=1726966656",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2616040": {
