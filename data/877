@@ -1066,7 +1066,7 @@
     "type": "dlc",
     "name": "The Expanse: A Telltale Series - Archangel",
     "steam_appid": 2632830,
-    "required_age": 0,
+    "required_age": "17",
     "is_free": false,
     "short_description": "Fan favorite Shohreh Aghdashloo returns to her role as Chrisjen Avasarala in \u201cArchangel\u201d, a new chapter in The Expanse: A Telltale Series saga.",
     "fullgame": {
@@ -1074,9 +1074,9 @@
       "name": "The Expanse: A Telltale Series"
     },
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Portuguese - Brazil<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2632830/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2632830/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2632830/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2632830/header.jpg?t=1736175181",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2632830/capsule_231x87.jpg?t=1736175181",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2632830/capsule_184x69.jpg?t=1736175181",
     "website": "https://telltale.com/",
     "developers": [
       "Deck Nine"
@@ -1106,7 +1106,8 @@
     "categories": [
       2,
       21,
-      22
+      22,
+      62
     ],
     "genres": [
       3,
@@ -1120,13 +1121,44 @@
       "url": "https://www.telltale.com/player-support/",
       "email": ""
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2632830/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2632830/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2632830?t=1736175181",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2632830/page_bg_raw.jpg?t=1736175181",
     "content_descriptors": {
       "ids": [
         5
       ],
       "notes": "Chrisjen Avasarala and other characters frequently swears both in English and in the in-game language. \r\nAlcohol is consumed and is un-skippable.\r\nThere is mild violence on screen and mild to medium violence described over calls and text.  "
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "m",
+        "descriptors": "Violence\r\nBlood and Gore\r\nSexual Themes\r\nStrong Language",
+        "use_age_gate": "true",
+        "required_age": "17"
+      },
+      "pegi": {
+        "rating": "18",
+        "descriptors": "Violence\r\nBad Language"
+      },
+      "usk": {
+        "rating": "16"
+      },
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Linguagem impr\u00f3pria\nViol\u00eancia\nDrogas l\u00edcitas"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2631650": {
@@ -8301,9 +8333,9 @@
       "name": "Disney Dreamlight Valley"
     },
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese, Simplified Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2632050/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2632050/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2632050/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2632050/header.jpg?t=1732736932",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2632050/capsule_231x87.jpg?t=1732736932",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2632050/capsule_184x69.jpg?t=1732736932",
     "website": "http://www.disneydreamlightvalley.com/",
     "developers": [
       "Gameloft"
@@ -8311,16 +8343,31 @@
     "publishers": [
       "Gameloft"
     ],
-    "package_groups": [],
+    "packages": [
+      943905
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Disney Dreamlight Valley: A Rift in Time",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
+      1,
       2,
       21,
-      28
+      28,
+      62
     ],
     "genres": [
       1,
@@ -8330,18 +8377,49 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "5 Dec, 2023"
     },
     "support_info": {
       "url": "https://gameloft.helpshift.com/hc/en/66-disney-dreamlight-valley/",
       "email": ""
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2632050/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2632050/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2632050?t=1732736932",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2632050?t=1732736932",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "esrb": {
+        "rating": "e",
+        "interactive_elements": "In-Game Purchases"
+      },
+      "pegi": {
+        "rating": "3",
+        "descriptors": "In-Game Purchases"
+      },
+      "kgrb": {
+        "rating": "all"
+      },
+      "dejus": {
+        "rating": "l"
+      },
+      "usk": {
+        "rating": "12",
+        "descriptors": "Handlungsdruck\r\nIn-Game-K\u00e4ufe"
+      },
+      "csrr": {
+        "rating": "G"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2631090": {
@@ -10074,15 +10152,21 @@
     "is_free": false,
     "short_description": "Embark on a surreal, time-looping journey in this horror comedy point-and-click adventure with a delicious twist. Eternity begins now: At the Owl Observatory!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2633510/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2633510/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2633510/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2633510/header.jpg?t=1728137588",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2633510/capsule_231x87.jpg?t=1728137588",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2633510/capsule_184x69.jpg?t=1728137588",
     "website": null,
     "developers": [
       "BoringSuburbanDad"
     ],
     "publishers": [
       "BoringSuburbanDad"
+    ],
+    "demos": [
+      {
+        "appid": 2764710,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -10091,7 +10175,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       23,
@@ -10099,17 +10184,35 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q2 2024"
+      "date": "To be announced"
     },
     "support_info": {
       "url": "",
       "email": "boringsuburbandad@gmx.de"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2633510/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2633510/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2633510?t=1728137588",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2633510?t=1728137588",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Medo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "\u00c4ngstigende Inhalte"
+      }
     }
   },
   "2632080": {
