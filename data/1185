@@ -2569,13 +2569,21 @@
     "type": "game",
     "name": "Stick Figure Combat",
     "steam_appid": 3557090,
-    "required_age": "??",
-    "is_free": false,
+    "required_age": 0,
+    "is_free": true,
+    "dlc": [
+      3627410,
+      3627420,
+      3631770,
+      3631780,
+      3632650,
+      3633110
+    ],
     "short_description": "Stick Figure Combat is a game where you fight other stick figures to secure the highest score possible. Try to survive as long as possible against endless hordes of grey enemies! Or create your own map and have your own fun!",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557090/3b2f66a25a6da57f0ff7481934013205ef6b398a/header.jpg?t=1741989484",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557090/c87782f8a2d2f9478a815a9303c1578b201a67de/capsule_231x87.jpg?t=1741989484",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557090/c87782f8a2d2f9478a815a9303c1578b201a67de/capsule_184x69.jpg?t=1741989484",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557090/2a7094295e9cb421ae1007dd8ab9dd0c28654ae8/header.jpg?t=1745717471",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557090/f08c93a5ee9654c012d9f1c163b0fde7d95ec29c/capsule_231x87.jpg?t=1745717471",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557090/f08c93a5ee9654c012d9f1c163b0fde7d95ec29c/capsule_184x69.jpg?t=1745717471",
     "website": "https://www.youtube.com/channel/UCa2Q_TyOZE6i6MUszUKkDlw",
     "developers": [
       "Tegridy Made Games"
@@ -2591,14 +2599,18 @@
     },
     "categories": [
       2,
-      25,
-      62
+      15,
+      17,
+      22,
+      23,
+      25
     ],
     "genres": [
       1,
       3,
       23,
-      25
+      25,
+      37
     ],
     "release_date": {
       "coming_soon": true,
@@ -2608,23 +2620,16 @@
       "url": "https://twitter.com/JaminsonJohn",
       "email": "johnjaminson1@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3557090?t=1741989484",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557090/43118918d2c0d0b6096e0c51d27bf23e7ad554ed/page_bg_raw.jpg?t=1741989484",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3557090?t=1745717471",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557090/6c1876244031ede06be45c66badd288f99a276fa/page_bg_raw.jpg?t=1745717471",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
-      "notes": "Contains blood/gore and rag-doll death physics"
+      "notes": "Game includes rag dolls, dismemberment and blood effects"
     },
     "ratings": {
-      "esrb": {
-        "rating": "m",
-        "descriptors": "Blood",
-        "interactive_elements": "Blood",
-        "use_age_gate": "true",
-        "required_age": "??"
-      },
       "dejus": {
         "rating_generated": "1",
         "rating": "14",
@@ -2651,9 +2656,9 @@
     "is_free": false,
     "short_description": "FJN Blackjack Cup features an exciting 64-Player knockout blackjack tournament.\u00a0 Make strategic decisions as you try to earn as many chips as possible before the end of the tournament.\u00a0 Climb the tournament leaderboards and compete for the championship against your tournament rivals.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3556680/header.jpg?t=1740809261",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3556680/0209d9cae5e3f3bdbd8cc5ee5b76cb2b492590ce/capsule_231x87.jpg?t=1740809261",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3556680/0209d9cae5e3f3bdbd8cc5ee5b76cb2b492590ce/capsule_184x69.jpg?t=1740809261",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3556680/header.jpg?t=1742192630",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3556680/0209d9cae5e3f3bdbd8cc5ee5b76cb2b492590ce/capsule_231x87.jpg?t=1742192630",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3556680/0209d9cae5e3f3bdbd8cc5ee5b76cb2b492590ce/capsule_184x69.jpg?t=1742192630",
     "website": "https://flagmanjeremy.net/",
     "developers": [
       "FlagmanJeremy"
@@ -2661,7 +2666,20 @@
     "publishers": [
       "FlagmanJeremy"
     ],
-    "package_groups": [],
+    "packages": [
+      1255024
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy FJN Blackjack Cup",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2678,16 +2696,19 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 8
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "17 Mar, 2025"
+      "coming_soon": false,
+      "date": "16 Mar, 2025"
     },
     "support_info": {
       "url": "https://flagmanjeremy.net/",
       "email": ""
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3556680?t=1740809261",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3556680?t=1740809261",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3556680?t=1742192630",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3556680?t=1742192630",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5053,15 +5074,15 @@
   },
   "3557760": {
     "type": "game",
-    "name": "Hot and Lovely : Seduction\uff08Adult Version\uff09",
+    "name": "Hot and Lovely : Seduction waifu",
     "steam_appid": 3557760,
     "required_age": 0,
     "is_free": false,
     "short_description": "This is a game that perfectly combines the match-3 gameplay and the two-dimensional beautiful girls. Players need to eliminate colored blocks to unlock the private plots and hot CGs of many sexy beauties and explore their hidden desires and tenderness.",
-    "supported_languages": "English, Simplified Chinese, Traditional Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557760/0a85956350b9a76b7a8550b8bd5b683e00b4e6f7/header.jpg?t=1741341603",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557760/76dded4f9fd3ee66702450e1679b05f6ef9dd811/capsule_231x87.jpg?t=1741341603",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557760/76dded4f9fd3ee66702450e1679b05f6ef9dd811/capsule_184x69.jpg?t=1741341603",
+    "supported_languages": "English, Simplified Chinese, Traditional Chinese, Russian, Japanese, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557760/40a91d14d7fd0737934cafc577793f6e62cbe203/header.jpg?t=1745292790",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557760/8638e5c9c2885310b560f5c086aa993fc0c3804a/capsule_231x87.jpg?t=1745292790",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557760/8638e5c9c2885310b560f5c086aa993fc0c3804a/capsule_184x69.jpg?t=1745292790",
     "website": "https://lovelygames.xyz/",
     "developers": [
       "Lovely Games"
@@ -5078,6 +5099,8 @@
     },
     "categories": [
       2,
+      22,
+      23,
       62
     ],
     "genres": [
@@ -5088,14 +5111,14 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q2 2025"
+      "date": "5 Jun, 2025"
     },
     "support_info": {
       "url": "",
       "email": "lovelygames888@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3557760?t=1741341603",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557760/2d6a51efe21b99a51a6f615dc90e0405b4d83f29/page_bg_raw.jpg?t=1741341603",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3557760?t=1745292790",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557760/2d6a51efe21b99a51a6f615dc90e0405b4d83f29/page_bg_raw.jpg?t=1745292790",
     "content_descriptors": {
       "ids": [
         1,
@@ -5132,9 +5155,9 @@
     "is_free": false,
     "short_description": "Landing on planet\u00a0Kepler-11e, You and up to 3 other players are tasked with preventing the planet from complete destruction as a nuclear meltdown is in progress. Upgrade weapons, Eliminate any aliens in your way and enjoy the beautiful sights in this realistic, first-person, sci-fi experience.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557550/439712cbf7d5404dade74432392fa8f7129ddee9/header.jpg?t=1741354410",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557550/fc1eb13d662e38273c09fd74235d5838aaae85f3/capsule_231x87.jpg?t=1741354410",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557550/fc1eb13d662e38273c09fd74235d5838aaae85f3/capsule_184x69.jpg?t=1741354410",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557550/439712cbf7d5404dade74432392fa8f7129ddee9/header.jpg?t=1744452078",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557550/fc1eb13d662e38273c09fd74235d5838aaae85f3/capsule_231x87.jpg?t=1744452078",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557550/fc1eb13d662e38273c09fd74235d5838aaae85f3/capsule_184x69.jpg?t=1744452078",
     "website": null,
     "developers": [
       "Owlfig Games"
@@ -5169,8 +5192,8 @@
       "url": "",
       "email": "support@owlfiggames.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3557550?t=1741354410",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3557550?t=1741354410",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3557550?t=1744452078",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3557550?t=1744452078",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5202,17 +5225,30 @@
     "is_free": false,
     "short_description": "Dino Genesis is an action FPS that navigates you through the forgotten island, ISLA GENESIS. You will have to defend yourself from genetically created Dinosaurs, Arachnids and Insects while discovering the dark secrets of the island.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3556660/header.jpg?t=1741982051",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3556660/f89090f821effaba1e499a9bdc11e67f5fc95f6f/capsule_231x87.jpg?t=1741982051",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3556660/f89090f821effaba1e499a9bdc11e67f5fc95f6f/capsule_184x69.jpg?t=1741982051",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3556660/header.jpg?t=1744385337",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3556660/f89090f821effaba1e499a9bdc11e67f5fc95f6f/capsule_231x87.jpg?t=1744385337",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3556660/f89090f821effaba1e499a9bdc11e67f5fc95f6f/capsule_184x69.jpg?t=1744385337",
     "website": null,
     "developers": [
-      "98 Redd Games"
+      "98 REDD GAMES"
     ],
     "publishers": [
       "98 REDD GAMES"
     ],
-    "package_groups": [],
+    "packages": [
+      1255016
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Dino Genesis",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5229,15 +5265,15 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "24 Mar, 2025"
     },
     "support_info": {
       "url": "",
       "email": "bdr.animations@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3556660?t=1741982051",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3556660?t=1741982051",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3556660?t=1744385337",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3556660?t=1744385337",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -8078,9 +8114,9 @@
     "is_free": false,
     "short_description": "To pursue his childhood friend Aria! And to be a hero to save the Kingdom of Kisiiu! A young man from the countryside with no distinctive features plays an active role! A nostalgic full-length fantasy RPG.",
     "supported_languages": "Japanese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557470/846edac18e14378f7fcef169be5425c018ad2995/header.jpg?t=1742141213",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557470/235fbc41bdb94c0cdb04109d15a577dfd31957e8/capsule_231x87.jpg?t=1742141213",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557470/235fbc41bdb94c0cdb04109d15a577dfd31957e8/capsule_184x69.jpg?t=1742141213",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557470/846edac18e14378f7fcef169be5425c018ad2995/header.jpg?t=1744166142",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557470/235fbc41bdb94c0cdb04109d15a577dfd31957e8/capsule_231x87.jpg?t=1744166142",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3557470/235fbc41bdb94c0cdb04109d15a577dfd31957e8/capsule_184x69.jpg?t=1744166142",
     "website": null,
     "developers": [
       "\u5149\u98af\u30b2\u30fc\u30e0\u5de5\u623f"
@@ -8109,28 +8145,31 @@
       "url": "",
       "email": "kosogamekobo@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3557470?t=1742141213",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3557470?t=1742141213",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3557470?t=1744166142",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3557470?t=1744166142",
     "content_descriptors": {
-      "ids": [],
-      "notes": null
+      "ids": [
+        1,
+        5
+      ],
+      "notes": "Although women in revealing clothing appear, there are no depictions of nudity, sex, sexual assault, non-consensual sexual activity, drug or alcohol abuse, or self-harm."
     },
     "ratings": {
       "dejus": {
         "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
+        "rating": "12",
+        "required_age": "12",
         "banned": "0",
         "use_age_gate": "0",
-        "descriptors": ""
+        "descriptors": "Conte\u00fado sexual\nViol\u00eancia"
       },
       "steam_germany": {
         "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
+        "rating": "12",
+        "required_age": "12",
         "banned": "0",
         "use_age_gate": "0",
-        "descriptors": ""
+        "descriptors": "Sexuelle Andeutungen\nGewalt"
       }
     }
   },
