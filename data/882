@@ -1322,9 +1322,9 @@
       "name": "Ghosts of Tabor"
     },
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2647740/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2647740/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2647740/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2647740/header.jpg?t=1698155581",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2647740/capsule_231x87.jpg?t=1698155581",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2647740/capsule_184x69.jpg?t=1698155581",
     "website": "https://ghostsoftabor.com",
     "developers": [
       "Combat Waffle Studios"
@@ -1359,7 +1359,8 @@
       36,
       38,
       49,
-      52
+      52,
+      62
     ],
     "genres": [
       1
@@ -1372,13 +1373,53 @@
       "url": "https://ghostsoftabor.com",
       "email": "support@combatwaffle.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2647740/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2647740/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2647740?t=1698155581",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2647740/page_bg_raw.jpg?t=1698155581",
     "content_descriptors": {
       "ids": [
         5
       ],
       "notes": "Online gameplay has military shooter themed violence."
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "16",
+        "descriptors": "Violence, Inappropriate Language",
+        "use_age_gate": "true",
+        "required_age": "16"
+      },
+      "pegi": {
+        "rating": "16",
+        "descriptors": "Strong Violence",
+        "use_age_gate": "true",
+        "required_age": "16"
+      },
+      "usk": {
+        "rating": "18",
+        "descriptors": "Explicit Violence",
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "oflc": {
+        "rating": "ma15",
+        "descriptors": "Strong Violence, Online Interactivity",
+        "use_age_gate": "true",
+        "required_age": "15"
+      },
+      "crl": {
+        "rating": "18",
+        "descriptors": "Violence, Language",
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2646750": {
@@ -3672,11 +3713,14 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Take control of a giant mech and embark on a riveting dieselpunk adventure in a vast subterranean world. Dig deep, collect minerals, upgrade smartly, explore diverse locations, unfold ancient secrets, and try not to explode! Will you save the world or vanish in the depths below?",
-    "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2647820/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2647820/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2647820/capsule_184x69.jpg",
+    "dlc": [
+      2678420
+    ],
+    "short_description": "Take control of a giant mech and dive into an exciting underground adventure in a dieselpunk world! Dig deep, collect valuable minerals, upgrade wisely, explore diverse locations, uncover ancient secrets, and try not to explode! Will you save the world or vanish in the depths below?",
+    "supported_languages": "English, French, German, Portuguese - Brazil, Simplified Chinese, Russian, Spanish - Spain, Japanese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2647820/header.jpg?t=1737397638",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2647820/capsule_231x87.jpg?t=1737397638",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2647820/capsule_184x69.jpg?t=1737397638",
     "website": null,
     "developers": [
       "Oldbut Gold"
@@ -3684,37 +3728,80 @@
     "publishers": [
       "Oldbut Gold"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 2807930,
+        "description": ""
+      }
+    ],
+    "packages": [
+      949171
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Ad Fundum",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
       22,
       23,
-      28
+      28,
+      29,
+      62
     ],
     "genres": [
       3,
+      4,
       23,
       25,
       28
     ],
+    "achievements": {
+      "total": 26
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "February 2024"
+      "coming_soon": false,
+      "date": "13 Jun, 2024"
     },
     "support_info": {
       "url": "",
       "email": "sergeev.denis.an@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2647820/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2647820/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2647820?t=1737397638",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2647820/page_bg_raw.jpg?t=1737397638",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Medo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2647980": {
@@ -4058,9 +4145,9 @@
     "is_free": false,
     "short_description": "Action RPG Game !!",
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2646440/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2646440/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2646440/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2646440/header.jpg?t=1701763818",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2646440/capsule_231x87.jpg?t=1701763818",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2646440/capsule_184x69.jpg?t=1701763818",
     "website": null,
     "developers": [
       "JY ACTION"
@@ -4088,7 +4175,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -4103,8 +4191,8 @@
       "url": "",
       "email": "lilia76@naver.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2646440/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2646440/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2646440?t=1701763818",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2646440/page_bg_raw.jpg?t=1701763818",
     "content_descriptors": {
       "ids": [
         1,
@@ -4113,6 +4201,24 @@
         5
       ],
       "notes": "warning!!\r\n\r\n-Nudity or sexual content\r\n-Not suitable for watching at work\r\n-Not suitable for all ages\r\n\r\n- This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Nudity or Sexual Content, General Mature Content.\r\n\r\n\r\nThis is adult-only content that contains sexual content.\r\nSexual content in this game includes sexual assault/sex without consent, etc.\r\nIf you are looking for an ordinary game, this is not the game for you.\r\nAll characters in the game are over 18 years old."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Nudez\nViol\u00eancia\nTemas sens\u00edveis"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "BANNED",
+        "required_age": "2147483647",
+        "banned": "1",
+        "use_age_gate": "0",
+        "descriptors": "Sexualisierte Gewalt / Sexual violence"
+      }
     }
   },
   "2647090": {
@@ -7744,16 +7850,16 @@
   },
   "2647800": {
     "type": "game",
-    "name": "DodgeBomb",
+    "name": "Fireball 2",
     "steam_appid": 2647800,
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "DodgeBomb is an intense and satisfying arcade game about dodging swarms and triggering bombs. DODGE and weave your way through massive the flood of enemies. Lure them into range and detonate a devastating BOMB! High Scores! Dazzling visuals! Epic soundscape! Local co-op! Dodge! Bomb!",
+    "short_description": "Fireball 2 is an elegant and satisfying arcade survival game. Dodge and boost your way through a massive flood of enemies. Lure them into range and detonate a devastating bomb! Features infinite waves, two modes and difficulties, local co-op, dazzling visuals, and an epic soundscape.",
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2647800/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2647800/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2647800/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2647800/header.jpg?t=1746702433",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2647800/51b48ec9e345968ad826c2f7d2dec34e4ef019eb/capsule_231x87.jpg?t=1746702433",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2647800/51b48ec9e345968ad826c2f7d2dec34e4ef019eb/capsule_184x69.jpg?t=1746702433",
     "website": "http://radiangames.com/",
     "developers": [
       "Radiangames"
@@ -7761,7 +7867,26 @@
     "publishers": [
       "Radiangames"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 3217800,
+        "description": ""
+      }
+    ],
+    "packages": [
+      949165
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Fireball 2",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7772,28 +7897,51 @@
       2,
       9,
       22,
+      23,
       24,
-      25,
       28,
       39,
-      44
+      43,
+      61,
+      62
     ],
     "genres": [
       1
     ],
+    "achievements": {
+      "total": 20
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q3 2024"
+      "coming_soon": false,
+      "date": "8 May, 2025"
     },
     "support_info": {
       "url": "http://radiangames.com/",
       "email": "support@radiangames.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2647800/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2647800/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2647800?t=1746702433",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2647800/page_bg_raw.jpg?t=1746702433",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2647250": {
@@ -8711,23 +8859,17 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Play as Seth, the God of Chaos. Break the legions of Apophis in a mythological Fast-FPS/Rogue-Lite, in a mix between Ancient Egypt and Science Fantasy.",
+    "short_description": "Play as Seth, god of desert and obliterate the legions of Apophis in a sci-fi mythological fast-fps rogue-lite.",
     "supported_languages": "French, English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2647900/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2647900/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2647900/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2647900/header.jpg?t=1745167090",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2647900/c7d7b88e9c2396cec12a432d67fff966b924e08a/capsule_231x87.jpg?t=1745167090",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2647900/c7d7b88e9c2396cec12a432d67fff966b924e08a/capsule_184x69.jpg?t=1745167090",
     "website": "https://www.chaoticgames.net/",
     "developers": [
       "Chaotic Games"
     ],
     "publishers": [
       "Chaotic Games"
-    ],
-    "demos": [
-      {
-        "appid": 2650000,
-        "description": ""
-      }
     ],
     "package_groups": [],
     "platforms": {
@@ -8737,8 +8879,11 @@
     },
     "categories": [
       2,
+      22,
       23,
-      28
+      25,
+      28,
+      62
     ],
     "genres": [
       1
@@ -8751,14 +8896,32 @@
       "url": "",
       "email": "help.chaoticgames@outlook.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2647900/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2647900/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2647900?t=1745167090",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2647900/page_bg_raw.jpg?t=1745167090",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "Seth focuses on intense fights against humanoid, non-humanoid and fantastic creatures, with firearms and melee. The game contains also strong language."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Linguagem impr\u00f3pria\nViol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2648050": {
