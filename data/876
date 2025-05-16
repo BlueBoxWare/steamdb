@@ -6,13 +6,10 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2628410/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2628410/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2628410/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2628410/header.jpg?t=1696382587",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2628410/capsule_231x87.jpg?t=1696382587",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2628410/capsule_184x69.jpg?t=1696382587",
     "website": null,
-    "publishers": [
-      ""
-    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -27,12 +24,13 @@
       "url": "",
       "email": ""
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2628410/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2628410/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2628410?t=1696382587",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2628410?t=1696382587",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "2630900": {
     "type": "game",
@@ -706,9 +704,9 @@
       "name": "Squeebing Up the Tower of Friendship"
     },
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2630070/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2630070/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2630070/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2630070/header.jpg?t=1696821669",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2630070/capsule_231x87.jpg?t=1696821669",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2630070/capsule_184x69.jpg?t=1696821669",
     "website": null,
     "developers": [
       "Space Kraken Studios"
@@ -739,11 +737,29 @@
       "url": "",
       "email": "support@spacekraken.studio"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2630070/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2630070/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2630070?t=1696821669",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2630070/page_bg_raw.jpg?t=1696821669",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2629560": {
@@ -2468,9 +2484,9 @@
     "is_free": false,
     "short_description": "Accompany Charlie, who is transported to different times in the universe, in surviving the challenging nature of the ocean and returning to his own time.",
     "supported_languages": "English, French, Italian, German, Simplified Chinese, Japanese, Korean, Portuguese - Portugal, Russian, Turkish, Swedish",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2629190/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2629190/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2629190/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2629190/header.jpg?t=1706875029",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2629190/capsule_231x87.jpg?t=1706875029",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2629190/capsule_184x69.jpg?t=1706875029",
     "website": "https://www.kelecik.com",
     "developers": [
       "Kelecik"
@@ -2478,14 +2494,29 @@
     "publishers": [
       "Kelecik"
     ],
-    "package_groups": [],
+    "packages": [
+      942991
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Trouble Magnet",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      18,
+      62
     ],
     "genres": [
       2,
@@ -2494,18 +2525,36 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2023"
+      "coming_soon": false,
+      "date": "2 Feb, 2024"
     },
     "support_info": {
       "url": "",
       "email": "kelecikgames@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2629190/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2629190/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2629190?t=1706875029",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2629190?t=1706875029",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2628730": {
@@ -4460,9 +4509,9 @@
     "is_free": false,
     "short_description": "Project Grey Cat is a Side Scroller Puzzle/Adventure/Bullet-Hell game with unique Puzzle capabilities. You are to guide a Cat through a abandoned Science Facility on a mission to Escape from this Creepy place. Think about your Actions because He knows you exist.",
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2629790/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2629790/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2629790/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2629790/header.jpg?t=1722867974",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2629790/capsule_231x87.jpg?t=1722867974",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2629790/capsule_184x69.jpg?t=1722867974",
     "website": null,
     "developers": [
       "Grey Dev"
@@ -4478,7 +4527,8 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       23,
@@ -4492,13 +4542,31 @@
       "url": "",
       "email": "greydev2021@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2629790/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2629790/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2629790?t=1722867974",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2629790?t=1722867974",
     "content_descriptors": {
       "ids": [
         5
       ],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2629220": {
@@ -5543,9 +5611,9 @@
     "is_free": false,
     "short_description": "A surfing game focused on smooth carving turns and realistic airs.",
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2630870/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2630870/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2630870/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2630870/header.jpg?t=1698805128",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2630870/capsule_231x87.jpg?t=1698805128",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2630870/capsule_184x69.jpg?t=1698805128",
     "website": null,
     "developers": [
       "Normal Dynamics"
@@ -5573,7 +5641,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -5589,11 +5658,29 @@
       "url": "",
       "email": "biocyberyan@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2630870/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2630870/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2630870?t=1698805128",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2630870?t=1698805128",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2630300": {
@@ -7785,9 +7872,9 @@
     "is_free": false,
     "short_description": "The Show is Over It is a challenging platform game with caricatured characters. Players must climb levels filled with quirky obstacles and surprises These unexpected events add excitement to the game.",
     "supported_languages": "English<strong>*</strong>, German, Korean, Spanish - Latin America, Japanese, Portuguese - Portugal<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2630970/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2630970/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2630970/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2630970/header.jpg?t=1698848630",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2630970/capsule_231x87.jpg?t=1698848630",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2630970/capsule_184x69.jpg?t=1698848630",
     "website": null,
     "developers": [
       "Unsweetcore"
@@ -7815,7 +7902,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       4,
@@ -7829,13 +7917,31 @@
       "url": "",
       "email": "unsweetcore@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2630970/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2630970/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2630970?t=1698848630",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2630970/page_bg_raw.jpg?t=1698848630",
     "content_descriptors": {
       "ids": [
         5
       ],
       "notes": "Jumpscares are sudden, intense, and startling moments in the game that are designed to catch players off guard and evoke a strong emotional response, typically through unexpected appearances of frightening elements, loud sounds, or abrupt changes in the game's atmosphere. They are often used to create tension and deliver a thrill by surprising players with terrifying or unsettling events at unexpected intervals."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nMedo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Horror"
+      }
     }
   },
   "2629620": {
@@ -7977,9 +8083,9 @@
     "is_free": true,
     "short_description": "Surf the wind as a Bunny and race against three other Bunnies to collect checkpoint balls. The game features a robust racing AI that is very challenging to beat. You\u2019ll have to learn quickly if you want to beat the Impossible Bunny Challenge!",
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2628960/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2628960/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2628960/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2628960/header.jpg?t=1698827918",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2628960/capsule_231x87.jpg?t=1698827918",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2628960/capsule_184x69.jpg?t=1698827918",
     "website": null,
     "developers": [
       "Robo Rabbit"
@@ -8008,11 +8114,29 @@
       "url": "",
       "email": "roborabbithole@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2628960/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2628960/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2628960?t=1698827918",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2628960/page_bg_raw.jpg?t=1698827918",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2629640": {
@@ -8267,9 +8391,9 @@
       "name": "Transilio"
     },
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2629380/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2629380/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2629380/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2629380/header.jpg?t=1729337297",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2629380/89b0d351789ac845ee14bc6f930155c018efd426/capsule_231x87.jpg?t=1729337297",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2629380/89b0d351789ac845ee14bc6f930155c018efd426/capsule_184x69.jpg?t=1729337297",
     "website": null,
     "developers": [
       "Moonbreak"
@@ -8288,6 +8412,9 @@
       10,
       28
     ],
+    "achievements": {
+      "total": 0
+    },
     "release_date": {
       "coming_soon": false,
       "date": "2 Nov, 2023"
@@ -8296,11 +8423,29 @@
       "url": "",
       "email": "moonbreak.entertainment@gmail.com"
     },
-    "background": "",
-    "background_raw": "",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2629380?t=1729337297",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2629380/page_bg_raw.jpg?t=1729337297",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2630660": {
@@ -9177,13 +9322,10 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2628170/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2628170/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2628170/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2628170/header.jpg?t=1715112758",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2628170/capsule_231x87.jpg?t=1715112758",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2628170/capsule_184x69.jpg?t=1715112758",
     "website": null,
-    "publishers": [
-      ""
-    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -9192,18 +9334,19 @@
     },
     "release_date": {
       "coming_soon": false,
-      "date": "2 Nov, 2023"
+      "date": "7 May, 2024"
     },
     "support_info": {
       "url": "",
       "email": ""
     },
-    "background": "",
-    "background_raw": "",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2628170?t=1715112758",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2628170?t=1715112758",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "2628320": {
     "type": "dlc",
