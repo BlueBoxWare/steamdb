@@ -855,9 +855,6 @@
     "developers": [
       "16air"
     ],
-    "publishers": [
-      ""
-    ],
     "packages": [
       1068070
     ],
@@ -885,8 +882,8 @@
       "url": "https://space.bilibili.com/1653890",
       "email": "849541275@qq.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002290/page_bg_generated_v6b.jpg?t=1716839817",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002290/page_bg_generated.jpg?t=1716839817",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3002290?t=1716839817",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3002290?t=1716839817",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -2412,12 +2409,13 @@
     "is_free": false,
     "short_description": "Classic Solitaire with pixel perfect graphics and soothing chip tunes. Four variants with separate difficulty modes and an addicting scoring mechanism for unlocking card backs.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002340/header.jpg?t=1717577854",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002340/capsule_231x87.jpg?t=1717577854",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002340/capsule_184x69.jpg?t=1717577854",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002340/header.jpg?t=1748894861",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002340/capsule_231x87.jpg?t=1748894861",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002340/capsule_184x69.jpg?t=1748894861",
     "website": "https://apskeppet.se",
     "developers": [
-      "Apskeppet"
+      "Johan Peitz",
+      "Vav"
     ],
     "publishers": [
       "Apskeppet"
@@ -2457,8 +2455,8 @@
       "url": "https://apskeppet.se",
       "email": "support@apskeppet.se"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002340/page_bg_generated_v6b.jpg?t=1717577854",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002340/page_bg_generated.jpg?t=1717577854",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3002340?t=1748894861",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3002340?t=1748894861",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -3864,19 +3862,42 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "A tense and surreal horror game where each step, shot and mistake costs precious energy, rendered entirely in black and white.",
-    "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002510/header.jpg?t=1716820479",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002510/capsule_231x87.jpg?t=1716820479",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002510/capsule_184x69.jpg?t=1716820479",
+    "dlc": [
+      3635110,
+      3635750
+    ],
+    "short_description": "In the facility, each step, each shot, each mistake costs precious energy. Rendered entirely in black and white, this mystery can be unravelled. The puzzle can be solved. Don't ask who tried to solve it before. Do the job. Find oxygen and sleep. Go deeper. And don't ask about Aaron.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Hungarian, Japanese, Korean, Portuguese - Brazil, Simplified Chinese, Traditional Chinese, Russian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002510/header.jpg?t=1747684787",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002510/capsule_231x87.jpg?t=1747684787",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002510/capsule_184x69.jpg?t=1747684787",
     "website": null,
     "developers": [
       "Boz\u00f3 Attila Bertold"
     ],
     "publishers": [
-      "Boz\u00f3 Attila Bertold"
+      "Akupara Games"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 3499950,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1068142
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy REPOSE",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3884,23 +3905,32 @@
     },
     "categories": [
       2,
-      28
+      22,
+      28,
+      62,
+      66,
+      67,
+      68,
+      75
     ],
     "genres": [
       1,
       23,
       25
     ],
+    "achievements": {
+      "total": 11
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "14 Apr, 2025"
     },
     "support_info": {
-      "url": "",
-      "email": "reposedev@gmail.com"
+      "url": "https://www.akuparagames.com/contact-us-2/",
+      "email": "support@akuparagames.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002510/page_bg_generated_v6b.jpg?t=1716820479",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002510/page_bg_generated.jpg?t=1716820479",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3002510?t=1747684787",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3002510?t=1747684787",
     "content_descriptors": {
       "ids": [
         2,
@@ -7126,8 +7156,8 @@
       "url": "",
       "email": "suporte@sendoestudio.com.br"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002900/page_bg_generated_v6b.jpg?t=1717981959",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002900/page_bg_generated.jpg?t=1717981959",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3002900?t=1717981959",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3002900?t=1717981959",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -7159,17 +7189,30 @@
     "is_free": false,
     "short_description": "Containment Initiative 2 is a local asymmetric co-op VR shooter which can be played by two people on the same PC. Kill zombies alone in VR or have a friend cover you by using the mouse and keyboard. Explore and scavenge to unlock new gear and weapons to help you survive the infected horde!",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Japanese, Korean, Simplified Chinese, Spanish - Latin America<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002560/header.jpg?t=1718211347",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002560/capsule_231x87.jpg?t=1718211347",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002560/capsule_184x69.jpg?t=1718211347",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002560/header.jpg?t=1748372901",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002560/capsule_231x87.jpg?t=1748372901",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002560/capsule_184x69.jpg?t=1748372901",
     "website": null,
     "developers": [
-      "Gwyn Games"
+      "Gwyn Games LLC"
     ],
     "publishers": [
-      "Gwyn Games"
+      "Gwyn Games LLC"
     ],
-    "package_groups": [],
+    "packages": [
+      1068158
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Containment Initiative 2",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7184,29 +7227,33 @@
       24,
       39,
       44,
-      54
+      54,
+      62
     ],
     "genres": [
       1,
       23,
       70
     ],
+    "achievements": {
+      "total": 16
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "2024"
+      "coming_soon": false,
+      "date": "26 Aug, 2024"
     },
     "support_info": {
       "url": "",
       "email": "containmentinitiative@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002560/page_bg_generated_v6b.jpg?t=1718211347",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002560/page_bg_generated.jpg?t=1718211347",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3002560?t=1748372901",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3002560?t=1748372901",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
-      "notes": null
+      "notes": "The violence in Containment Initiative 2 consists of blood and gore caused by shooting or blowing up zombies. There is also some dismemberment. The blood/gore is realistic in nature."
     },
     "ratings": {
       "dejus": {
