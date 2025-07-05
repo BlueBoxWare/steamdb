@@ -6723,8 +6723,8 @@
       "url": "https://www.dreamstoriesstudio.com/",
       "email": "support@dreamstoriesstudio.com"
     },
-    "background": "",
-    "background_raw": "",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3021260?t=1718595284",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3021260?t=1718595284",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -7004,8 +7004,8 @@
       "url": "",
       "email": "knuckleballinc@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021650/page_bg_generated_v6b.jpg?t=1721221207",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021650/page_bg_generated.jpg?t=1721221207",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3021650?t=1721221207",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3021650?t=1721221207",
     "content_descriptors": {
       "ids": [
         1,
@@ -7132,19 +7132,38 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Monster Meals is a cooking game where you control a small monster chef in your food truck, preparing meals with exotic creatures for monstrous customers. Serve quickly before you become the next meal!",
-    "supported_languages": "English<strong>*</strong>, Portuguese - Brazil<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021850/header.jpg?t=1722089476",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021850/capsule_231x87.jpg?t=1722089476",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021850/capsule_184x69.jpg?t=1722089476",
+    "dlc": [
+      3598530,
+      3441050,
+      3441090,
+      3441110
+    ],
+    "short_description": "Monster Meals is a fast-paced cooking game where you and a friend control monster chefs in a food truck, preparing meals with exotic creatures for monstrous customers. Play solo, local co-op, or online co-op\u2014but serve quickly, or you\u2019ll be on the menu!",
+    "supported_languages": "Traditional Chinese<strong>*</strong>, English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Simplified Chinese<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Japanese<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021850/3537fea2d64c1eb27de1b11f3aa4ac5a76bd4bf9/header_alt_assets_0.jpg?t=1747997512",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021850/569bb5a63a8fd4a28554ae107b158e8a5cd49b11/capsule_231x87_alt_assets_0.jpg?t=1747997512",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021850/569bb5a63a8fd4a28554ae107b158e8a5cd49b11/capsule_184x69_alt_assets_0.jpg?t=1747997512",
     "website": "https://www.giantwarriorstudio.com/monster-meals",
     "developers": [
       "Giant Warrior Studio"
     ],
     "publishers": [
-      " GoGo Games Interactive"
+      "GoGo Games Interactive"
     ],
-    "package_groups": [],
+    "packages": [
+      1074607
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Monster Meals",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7154,10 +7173,16 @@
       1,
       2,
       9,
+      15,
+      22,
+      23,
       24,
       28,
+      38,
       39,
-      44
+      43,
+      44,
+      62
     ],
     "genres": [
       1,
@@ -7166,16 +7191,19 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 25
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "17 Jan, 2025"
     },
     "support_info": {
       "url": "www.giantwarriorstudio.com",
-      "email": "contact@giantwarriorstudio.com"
+      "email": "suport@gogogames.com.br"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021850/page_bg_generated_v6b.jpg?t=1722089476",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021850/page.bg.jpg?t=1722089476",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3021850?t=1747997512",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021850/page_bg_raw.jpg?t=1747997512",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -7427,18 +7455,18 @@
   },
   "3022810": {
     "type": "game",
-    "name": "Nethack: Free Trial",
+    "name": "HackHub: Free Trial",
     "steam_appid": 3022810,
     "required_age": 0,
     "is_free": true,
-    "short_description": "Unravel cyber secrets and foil mass surveillance as a skilled hacker in NetHack. Challenge authority, rewrite the rules, and emerge as the ultimate digital rebel.",
-    "supported_languages": "English<strong>*</strong>, Spanish - Spain, Polish, Russian, Turkish, French, German, Traditional Chinese, Simplified Chinese, Spanish - Latin America, Japanese, Korean, Portuguese - Portugal, Portuguese - Brazil<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022810/header.jpg?t=1721405634",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022810/capsule_231x87.jpg?t=1721405634",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022810/capsule_184x69.jpg?t=1721405634",
-    "website": null,
+    "short_description": "Unravel cyber secrets and foil mass surveillance as a skilled hacker in HackHub. Challenge authority, rewrite the rules, and emerge as the ultimate digital rebel.",
+    "supported_languages": "English<strong>*</strong>, Spanish - Spain, Polish, Turkish, French, German, Simplified Chinese, Japanese, Korean, Portuguese - Portugal, Italian, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Norwegian, Portuguese - Brazil, Romanian, Russian, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Ukrainian, Vietnamese<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022810/header.jpg?t=1731842708",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022810/0f20e5e18cbf155a73fb51d3a3447ccbb8a1e4a5/capsule_231x87.jpg?t=1731842708",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022810/0f20e5e18cbf155a73fb51d3a3447ccbb8a1e4a5/capsule_184x69.jpg?t=1731842708",
+    "website": "https://g-devs.com",
     "developers": [
-      "CrazyBear Interactive"
+      "HotBunny"
     ],
     "publishers": [
       "G-DEVS.com"
@@ -7446,7 +7474,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -7458,15 +7486,15 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q3 2024"
+      "coming_soon": false,
+      "date": "4 Nov, 2024"
     },
     "support_info": {
       "url": "https://g-devs.com/",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022810/page_bg_generated_v6b.jpg?t=1721405634",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022810/page_bg_generated.jpg?t=1721405634",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3022810?t=1731842708",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3022810?t=1731842708",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -9486,9 +9514,6 @@
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022410/capsule_231x87.jpg?t=1718617586",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022410/capsule_184x69.jpg?t=1718617586",
     "website": null,
-    "publishers": [
-      ""
-    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -9503,8 +9528,8 @@
       "url": "",
       "email": ""
     },
-    "background": "",
-    "background_raw": "",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3022410?t=1718617586",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3022410?t=1718617586",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -9517,21 +9542,23 @@
     "steam_appid": 3022260,
     "required_age": 0,
     "is_free": true,
-    "short_description": "",
+    "controller_support": "full",
+    "short_description": "A single-player puzzle game that transforms traditional chess into a minimal, immersive journey. Every move is a step deeper into the world Beyond the Board, where shifting tiles and puzzles reveal the hidden fractures within the game\u2019s very foundations.",
     "fullgame": {
       "appid": "2794160",
       "name": "Beyond The Board"
     },
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022260/header.jpg?t=1718630313",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022260/capsule_231x87.jpg?t=1718630313",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022260/capsule_184x69.jpg?t=1718630313",
-    "website": null,
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022260/5d3357f4d87a924ef8caefed5e8ae9055ff0b4d1/header.jpg?t=1748195809",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022260/capsule_231x87.jpg?t=1748195809",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022260/capsule_184x69.jpg?t=1748195809",
+    "website": "https://beyond-theboard.com/",
     "developers": [
       "Guilherme Gama",
       "Bruno Mascarenhas"
     ],
     "publishers": [
-      "Guilherme Gama &Bruno Mascarenhas"
+      "Fragile Shapes Studio"
     ],
     "package_groups": [],
     "platforms": {
@@ -9541,18 +9568,23 @@
     },
     "categories": [
       2,
-      10
+      10,
+      28
+    ],
+    "genres": [
+      23,
+      25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "25 May, 2025"
     },
     "support_info": {
-      "url": "https://beyondtheboard.site/",
-      "email": "beyond_the_board@outlook.com"
+      "url": "https://beyond-theboard.com/",
+      "email": "contact@beyond-theboard.com"
     },
-    "background": "",
-    "background_raw": "",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3022260?t=1748195809",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3022260?t=1748195809",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -9584,15 +9616,15 @@
     "is_free": true,
     "short_description": "Golf Around! Lite is a free, fun multiplayer Mini Golf game, for up to 12 players! Can you beat your friends or will your golf ball be roasted to a crisp?",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022060/header.jpg?t=1719853281",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022060/capsule_231x87.jpg?t=1719853281",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022060/capsule_184x69.jpg?t=1719853281",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022060/header.jpg?t=1729799615",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022060/capsule_231x87.jpg?t=1729799615",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022060/capsule_184x69.jpg?t=1729799615",
     "website": "https://www.golfaroundgame.com/",
     "developers": [
-      "Steve Hough"
+      "Hough Studio"
     ],
     "publishers": [
-      "Steve Hough"
+      "Hough Studio"
     ],
     "package_groups": [],
     "platforms": {
@@ -9622,8 +9654,8 @@
       "url": "golfaroundgame.com",
       "email": "golfaroundgame@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022060/page_bg_generated_v6b.jpg?t=1719853281",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3022060/page_bg_generated.jpg?t=1719853281",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3022060?t=1729799615",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3022060?t=1729799615",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -9739,15 +9771,15 @@
       "name": "IL-2 Sturmovik: Battle of Stalingrad"
     },
     "supported_languages": "English, Russian, German<strong>*</strong>, Polish, French, Spanish - Spain, Simplified Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021360/header.jpg?t=1718731532",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021360/capsule_231x87.jpg?t=1718731532",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021360/capsule_184x69.jpg?t=1718731532",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021360/header.jpg?t=1734525762",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021360/capsule_231x87.jpg?t=1734525762",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021360/capsule_184x69.jpg?t=1734525762",
     "website": null,
     "developers": [
       "1C Game Studios"
     ],
     "publishers": [
-      "1\u0421-777 Limited"
+      "FOR-GAMES CR LTD"
     ],
     "packages": [
       1074449
@@ -9792,8 +9824,8 @@
       "url": "https://il2sturmovik.com/support/",
       "email": "support@1cgs.net"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021360/page_bg_generated_v6b.jpg?t=1718731532",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021360/page_bg_generated.jpg?t=1718731532",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3021360?t=1734525762",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3021360?t=1734525762",
     "content_descriptors": {
       "ids": [
         2,
