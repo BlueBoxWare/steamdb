@@ -10424,9 +10424,9 @@
     "controller_support": "full",
     "short_description": "This game is a \u201cFind the Difference\u201d game set in the Korean subway system. At the start, you will board the normal 0th train. Once you move to the 1st train, the real adventure begins. From the 1st train onward, you need to find differences from the 0th train.",
     "supported_languages": "English, Japanese, Korean",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3073040/header.jpg?t=1722502546",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3073040/capsule_231x87.jpg?t=1722502546",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3073040/capsule_184x69.jpg?t=1722502546",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3073040/header.jpg?t=1725836471",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3073040/d7a7829d8a7d1162b433d1edcbecc56dff576429/capsule_231x87.jpg?t=1725836471",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3073040/d7a7829d8a7d1162b433d1edcbecc56dff576429/capsule_184x69.jpg?t=1725836471",
     "website": "https://mocapot.com/seoul_station",
     "developers": [
       "Mocapot"
@@ -10434,7 +10434,20 @@
     "publishers": [
       "Mocapot"
     ],
-    "package_groups": [],
+    "packages": [
+      1091957
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Seoul Station",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -10443,28 +10456,39 @@
     "categories": [
       2,
       22,
-      28
+      23,
+      28,
+      62
     ],
     "genres": [
       23,
       25,
       28
     ],
+    "achievements": {
+      "total": 22
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "15 Aug, 2024"
     },
     "support_info": {
       "url": "https://mocapot.com",
       "email": "junl@mocapot.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3073040/page_bg_generated_v6b.jpg?t=1722502546",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3073040/page.bg.jpg?t=1722502546",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3073040?t=1725836471",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3073040/page_bg_raw.jpg?t=1725836471",
     "content_descriptors": {
       "ids": [],
       "notes": null
     },
     "ratings": {
+      "kgrb": {
+        "rating": "15",
+        "descriptors": "SGHS-SP-240813-0006",
+        "use_age_gate": "true",
+        "required_age": "15"
+      },
       "dejus": {
         "rating_generated": "1",
         "rating": "14",
