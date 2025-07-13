@@ -708,8 +708,8 @@
       "url": "http://store.steampowered.com/search/?publisher=Archor%20Games",
       "email": "archor@archor.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054680/page_bg_generated_v6b.jpg?t=1721775122",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054680/page.bg.jpg?t=1721775122",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054680?t=1721775122",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054680/page_bg_raw.jpg?t=1721775122",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -1977,8 +1977,8 @@
       "url": "",
       "email": "936751466@qq.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054350/page_bg_generated_v6b.jpg?t=1720096507",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054350/page_bg_generated.jpg?t=1720096507",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054350?t=1720096507",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054350?t=1720096507",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -2082,10 +2082,10 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "A short visual novel about finding your name and a girl in the fog.",
-    "supported_languages": "English, Russian",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056420/header.jpg?t=1720178307",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056420/capsule_231x87.jpg?t=1720178307",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056420/capsule_184x69.jpg?t=1720178307",
+    "supported_languages": "English, Russian, French, Spanish - Spain, Simplified Chinese, Japanese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056420/header.jpg?t=1746187784",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056420/capsule_231x87.jpg?t=1746187784",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056420/capsule_184x69.jpg?t=1746187784",
     "website": null,
     "developers": [
       "Mystael studio"
@@ -2133,8 +2133,8 @@
       "url": "",
       "email": "mystael@yandex.ru"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056420/page_bg_generated_v6b.jpg?t=1720178307",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056420/page_bg_generated.jpg?t=1720178307",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3056420?t=1746187784",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3056420?t=1746187784",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -2455,16 +2455,15 @@
     "name": "Fruit: Chain Effect",
     "steam_appid": 3055420,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "dlc": [
-      3066700,
-      3071780
+      3066700
     ],
     "short_description": "&quot;Fruit: Chain Effect&quot; is a link-and-match game where you collect and combine fruits. Obtain fruit items by completing levels or through market drops every 2 hours. Fruits come in Legendary, Rare, High, and Common rarities, with limited drops to maintain balance.",
     "supported_languages": "Simplified Chinese<strong>*</strong>, English<strong>*</strong>, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055420/header.jpg?t=1721493182",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055420/capsule_231x87.jpg?t=1721493182",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055420/capsule_184x69.jpg?t=1721493182",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055420/header.jpg?t=1735995819",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055420/capsule_231x87.jpg?t=1735995819",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055420/capsule_184x69.jpg?t=1735995819",
     "website": null,
     "developers": [
       "Twilight Sonata Studio"
@@ -2472,7 +2471,20 @@
     "publishers": [
       "Twilight Sonata Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1116592
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Fruit: Chain Effect",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2480,11 +2492,11 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
-      4,
-      37
+      4
     ],
     "achievements": {
       "total": 17
@@ -2497,8 +2509,8 @@
       "url": "",
       "email": "kottaloflotenspieler@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055420/page_bg_generated_v6b.jpg?t=1721493182",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055420/page_bg_generated.jpg?t=1721493182",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3055420?t=1735995819",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3055420?t=1735995819",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -3076,15 +3088,21 @@
     "controller_support": "full",
     "short_description": "Mech Survivor Elite is a time-based survival game featuring action-packed gameplay and roguelite elements.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054480/header.jpg?t=1722511239",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054480/capsule_231x87.jpg?t=1722511239",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054480/capsule_184x69.jpg?t=1722511239",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054480/header.jpg?t=1748388081",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054480/capsule_231x87.jpg?t=1748388081",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054480/capsule_184x69.jpg?t=1748388081",
     "website": null,
     "developers": [
       "Viktor Borg Grelsson"
     ],
     "publishers": [
       "Viktor Borg Grelsson"
+    ],
+    "demos": [
+      {
+        "appid": 3272850,
+        "description": ""
+      }
     ],
     "packages": [
       1085605
@@ -3113,22 +3131,21 @@
     ],
     "genres": [
       1,
-      23,
-      70
+      23
     ],
     "achievements": {
-      "total": 41
+      "total": 46
     },
     "release_date": {
       "coming_soon": false,
-      "date": "1 Aug, 2024"
+      "date": "27 May, 2025"
     },
     "support_info": {
       "url": "",
       "email": "v.grelsson@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054480/page_bg_generated_v6b.jpg?t=1722511239",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054480/page_bg_generated.jpg?t=1722511239",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054480?t=1748388081",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054480?t=1748388081",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -3154,21 +3171,27 @@
   },
   "3054710": {
     "type": "game",
-    "name": "Tree Simulator 2024",
+    "name": "Tree Simulator 2.0",
     "steam_appid": 3054710,
     "required_age": 0,
     "is_free": false,
-    "short_description": "An ultimate high-end 3D tree simulator. Find out what it's like to be a tree and enjoy all the benefits of being a part of nature. In this simulator many possibilities are waiting for you to finally be a tree, you will be able to control every aspect. A treemendous adventure awaits you.",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Bulgarian, Finnish, Indonesian, Japanese, Dutch, Norwegian, Polish, Portuguese - Portugal, Romanian, Russian, Swedish, Czech, Turkish, Ukrainian, Hungarian",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054710/header.jpg?t=1722757520",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054710/capsule_231x87.jpg?t=1722757520",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054710/capsule_184x69.jpg?t=1722757520",
+    "short_description": "An high-end 3D tree simulator. Find out what it's like to be a tree and enjoy all the benefits of being a part of nature. In this simulator many possibilities are waiting for you to finally be a tree. A treemendous adventure awaits you. Stick to the schedule and produce a lot of trouble in the town",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Bulgarian, Finnish, Indonesian, Japanese, Dutch, Norwegian, Polish, Portuguese - Portugal, Romanian, Russian, Swedish, Czech, Turkish, Ukrainian, Hungarian, Korean, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054710/cf7342a20944704babb278f37f97044ab449bf64/header.jpg?t=1745597224",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054710/93d502e532b86fc916938a3be6dc77e1bec77a59/capsule_231x87.jpg?t=1745597224",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054710/93d502e532b86fc916938a3be6dc77e1bec77a59/capsule_184x69.jpg?t=1745597224",
     "website": null,
     "developers": [
       "RevampIteration"
     ],
     "publishers": [
       "RevampIteration"
+    ],
+    "demos": [
+      {
+        "appid": 3195770,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3182,23 +3205,25 @@
       9,
       22,
       38,
-      48
+      48,
+      62
     ],
     "genres": [
+      1,
       4,
       23,
       28
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "October 2024"
+      "date": "Q4 2025"
     },
     "support_info": {
       "url": "",
       "email": "revampiteration@outlook.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054710/page_bg_generated_v6b.jpg?t=1722757520",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054710/page.bg.jpg?t=1722757520",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054710?t=1745597224",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054710/page_bg_raw.jpg?t=1745597224",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -3420,11 +3445,11 @@
     "steam_appid": 3054440,
     "required_age": 0,
     "is_free": false,
-    "short_description": "SHORT SNOW! Realistic open-world survival experience, you find yourself lost in a vast, snow-covered forest after a harrowing plane crash. With temperatures plummeting and hunger gnawing at you, will you succumb to the forces of nature, or will you conquer the frozen wilderness? The choice is yours!",
-    "supported_languages": "English<strong>*</strong>, French, German, Japanese, Korean, Russian, Simplified Chinese, Turkish, Azerbaijani, Ukrainian<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054440/header.jpg?t=1722524630",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054440/capsule_231x87.jpg?t=1722524630",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054440/capsule_184x69.jpg?t=1722524630",
+    "short_description": "A realistic open-world survival experience. After a harrowing plane crash, you find yourself stranded in the wilderness. Battling freezing temperatures and hunger, you face an unknown virus that slowly paralyzes muscles, leaving its victims motionless and at the mercy of the unforgiving cold.",
+    "supported_languages": "English<strong>*</strong>, French, German, Japanese, Korean, Russian, Simplified Chinese, Turkish, Azerbaijani<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054440/header.jpg?t=1745323228",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054440/f2298423c594afef4daa4185b402faa21ffafbeb/capsule_231x87.jpg?t=1745323228",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054440/f2298423c594afef4daa4185b402faa21ffafbeb/capsule_184x69.jpg?t=1745323228",
     "website": null,
     "developers": [
       "M6riz"
@@ -3432,36 +3457,50 @@
     "publishers": [
       "M6riz"
     ],
-    "package_groups": [],
+    "packages": [
+      1085593
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Short Snow",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": true
+      "linux": false
     },
     "categories": [
       2,
-      22
+      62
     ],
     "genres": [
+      1,
       23,
       25,
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2024"
+      "coming_soon": false,
+      "date": "18 Apr, 2025"
     },
     "support_info": {
       "url": "",
       "email": "shortsnowgame@outlook.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054440/page_bg_generated_v6b.jpg?t=1722524630",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054440/page.bg.jpg?t=1722524630",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054440?t=1745323228",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054440/page_bg_raw.jpg?t=1745323228",
     "content_descriptors": {
       "ids": [
         5
       ],
-      "notes": "Short Snow may contain content that is not suitable for all ages. The game includes strong language with the protagonist using curse words. It also features scenes of hunting wildlife and visual depictions of blood and injuries."
+      "notes": "Short Snow contains themes of survival, mercy killings, and infection. The game features scenes of hunting wildlife, visual depictions of blood and injuries, and emotionally intense moments where infected individuals are euthanized to prevent suffering."
     },
     "ratings": {
       "dejus": {
@@ -3525,8 +3564,8 @@
       "url": "https://discord.gg/6AkbBRMb",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056600/page_bg_generated_v6b.jpg?t=1720218869",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056600/page_bg_generated.jpg?t=1720218869",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3056600?t=1720218869",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3056600?t=1720218869",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -3589,8 +3628,8 @@
       "url": "",
       "email": "clicker.gam.games@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055390/page_bg_generated_v6b.jpg?t=1720288013",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055390/page_bg_generated.jpg?t=1720288013",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3055390?t=1720288013",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3055390?t=1720288013",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -6090,17 +6129,23 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "It was supposed to be a great party, but when Amaterasu and her sisters arrive, they find everything abandoned and all guests turned into stone. Go on an adventure in this cozy turn-based RPG to solve this mystery and save your friends!",
-    "supported_languages": "English, Portuguese - Brazil",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055290/header.jpg?t=1719587075",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055290/capsule_231x87.jpg?t=1719587075",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055290/capsule_184x69.jpg?t=1719587075",
+    "short_description": "Rescue your mythological friends in a cozy turn-based RPG adventure! Set up camp on a Brazilian paradise island as Amaterasu and her sisters. Fish, decorate, and explore while unraveling the mystery of why every mythological being has been turned to stone at what should be an epic party!",
+    "supported_languages": "English<strong>*</strong>, Portuguese - Brazil<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055290/b7a9ae59203b06794171c9d6e629d8e9667d35d6/header.jpg?t=1752264793",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055290/capsule_231x87.jpg?t=1752264793",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055290/capsule_184x69.jpg?t=1752264793",
     "website": "https://sunnytrails.net",
     "developers": [
-      "Sunny Team"
+      "Plot Interactive"
     ],
     "publishers": [
-      "Sunny Team"
+      "Plot Interactive"
+    ],
+    "demos": [
+      {
+        "appid": 3720120,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -6110,10 +6155,12 @@
     },
     "categories": [
       2,
-      28
+      28,
+      62
     ],
     "genres": [
-      3
+      3,
+      23
     ],
     "release_date": {
       "coming_soon": true,
@@ -6123,8 +6170,8 @@
       "url": "",
       "email": "contact@sunnytrails.net"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055290/page_bg_generated_v6b.jpg?t=1719587075",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055290/page_bg_generated.jpg?t=1719587075",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3055290?t=1752264793",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3055290?t=1752264793",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -7611,9 +7658,9 @@
     "is_free": false,
     "short_description": "A ruin-delving turn-based RPG. After taking on a request, half-beast Luna heads into the overwhelmingly shady ruins, but finds only evil monsters running rampant within... Each time you enter the ruins, the enemies and traps you encounter will change.",
     "supported_languages": "English, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054370/header.jpg?t=1720411232",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054370/capsule_231x87.jpg?t=1720411232",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054370/capsule_184x69.jpg?t=1720411232",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054370/header.jpg?t=1725528847",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054370/capsule_231x87.jpg?t=1725528847",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054370/capsule_184x69.jpg?t=1725528847",
     "website": null,
     "developers": [
       "Ofuro Works"
@@ -7621,29 +7668,43 @@
     "publishers": [
       "DLsite"
     ],
-    "package_groups": [],
+    "packages": [
+      1085570
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Luna and the Wasted City of Sin",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       3,
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q3 2024"
+      "coming_soon": false,
+      "date": "29 Aug, 2024"
     },
     "support_info": {
       "url": "",
       "email": "steamsupport@dlsite.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054370/page_bg_generated_v6b.jpg?t=1720411232",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054370/page_bg_generated.jpg?t=1720411232",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054370?t=1725528847",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054370?t=1725528847",
     "content_descriptors": {
       "ids": [
         1,
