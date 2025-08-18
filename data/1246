@@ -6200,9 +6200,9 @@
       "name": "Frogspin"
     },
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739940/3d04f3d45635279eb16d7c4f38d5d3faac887ae7/header.jpg?t=1747842230",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739940/3b3b82ddfebe5137f8204162894af850270e4486/capsule_231x87.jpg?t=1747842230",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739940/3b3b82ddfebe5137f8204162894af850270e4486/capsule_184x69.jpg?t=1747842230",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739940/3d04f3d45635279eb16d7c4f38d5d3faac887ae7/header.jpg?t=1755176848",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739940/3b3b82ddfebe5137f8204162894af850270e4486/capsule_231x87.jpg?t=1755176848",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739940/3b3b82ddfebe5137f8204162894af850270e4486/capsule_184x69.jpg?t=1755176848",
     "website": "https://venturous.se/",
     "developers": [
       "Venturous"
@@ -6221,7 +6221,11 @@
       10,
       22,
       23,
-      28
+      28,
+      68,
+      75,
+      76,
+      77
     ],
     "genres": [
       1,
@@ -6231,14 +6235,14 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "June 2025"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "https://venturous.se/",
       "email": ""
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3739940?t=1747842230",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739940/4249439950c3c72e0c3bffc5d36e3c0bdd34d30b/page_bg_raw.jpg?t=1747842230",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3739940?t=1755176848",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739940/4249439950c3c72e0c3bffc5d36e3c0bdd34d30b/page_bg_raw.jpg?t=1755176848",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -6629,12 +6633,13 @@
     "name": "Orbit Maze",
     "steam_appid": 3740920,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
+    "controller_support": "full",
     "short_description": "Orbit Maze is a unique maze game set on various surfaces. Control gravity, navigate through platforms, and solve mind-bending puzzles!",
-    "supported_languages": "English<strong>*</strong>, Turkish<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740920/a393030a7c9a1599e55d4143e70bc18bbaede52a/header.jpg?t=1749118623",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740920/32e6b1c4d3bc888f9512a66a93b8f344c68d9fb9/capsule_231x87.jpg?t=1749118623",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740920/32e6b1c4d3bc888f9512a66a93b8f344c68d9fb9/capsule_184x69.jpg?t=1749118623",
+    "supported_languages": "English<strong>*</strong>, Turkish<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Simplified Chinese<strong>*</strong>, Korean<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740920/a393030a7c9a1599e55d4143e70bc18bbaede52a/header.jpg?t=1755345258",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740920/32e6b1c4d3bc888f9512a66a93b8f344c68d9fb9/capsule_231x87.jpg?t=1755345258",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740920/32e6b1c4d3bc888f9512a66a93b8f344c68d9fb9/capsule_184x69.jpg?t=1755345258",
     "website": null,
     "developers": [
       "Esra Ko\u00e7 Y\u0131lmaz"
@@ -6642,21 +6647,42 @@
     "publishers": [
       "Esra Ko\u00e7 Y\u0131lmaz"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 3744050,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1360900
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Orbit Maze",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      23,
+      28,
+      62
     ],
     "genres": [
       1,
       4,
       23,
-      25,
-      37
+      25
     ],
     "release_date": {
       "coming_soon": false,
@@ -6666,8 +6692,8 @@
       "url": "",
       "email": "militarywildlife@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3740920?t=1749118623",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3740920?t=1749118623",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3740920?t=1755345258",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3740920?t=1755345258",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -10303,9 +10329,9 @@
       "name": "Cameraman: The Pilot Episode"
     },
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739990/efec1a1bd0483b86bc49be6d27523b162ec8b09c/header.jpg?t=1749303940",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739990/14adbb99d15f5513f1c0d2d05e16076c87a5f4c6/capsule_231x87.jpg?t=1749303940",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739990/14adbb99d15f5513f1c0d2d05e16076c87a5f4c6/capsule_184x69.jpg?t=1749303940",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739990/efec1a1bd0483b86bc49be6d27523b162ec8b09c/header.jpg?t=1749481230",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739990/14adbb99d15f5513f1c0d2d05e16076c87a5f4c6/capsule_231x87.jpg?t=1749481230",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739990/14adbb99d15f5513f1c0d2d05e16076c87a5f4c6/capsule_184x69.jpg?t=1749481230",
     "website": null,
     "developers": [
       "RAA Studios"
@@ -10324,15 +10350,15 @@
       10
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "9 Jun, 2025"
     },
     "support_info": {
       "url": "",
       "email": "contact@raastudios.net"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3739990?t=1749303940",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3739990?t=1749303940",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3739990?t=1749481230",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3739990?t=1749481230",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -10367,9 +10393,10 @@
       "appid": "3607490",
       "name": "Mr. Billion: Idle Rich Tycoon"
     },
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740150/acbc3a4887980449e5def5e93b3d825521a91970/header.jpg?t=1749290477",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740150/2b5d03f5f132444c5fa131f03a8c8867668786c9/capsule_231x87.jpg?t=1749290477",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740150/2b5d03f5f132444c5fa131f03a8c8867668786c9/capsule_184x69.jpg?t=1749290477",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Bulgarian, Portuguese - Brazil, Hungarian, Vietnamese, Danish, Indonesian, Spanish - Latin America, Traditional Chinese, Simplified Chinese, Korean, Dutch, Norwegian, Polish, Portuguese - Portugal, Romanian, Russian, Thai, Turkish, Ukrainian, Finnish, Czech, Swedish, Japanese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740150/90fbc4be5f9d939b7539c554cbeeb6cd6d76242c/header.jpg?t=1749538654",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740150/0eb711f0d85c4ddba796048e109598ed94bdf0f3/capsule_231x87.jpg?t=1749538654",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740150/0eb711f0d85c4ddba796048e109598ed94bdf0f3/capsule_184x69.jpg?t=1749538654",
     "website": null,
     "developers": [
       "U Master"
@@ -10395,8 +10422,8 @@
       "url": "",
       "email": "https://discord.gg/4aHGG6R7qH"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3740150?t=1749290477",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3740150?t=1749290477",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3740150?t=1749538654",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3740150?t=1749538654",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -10515,12 +10542,11 @@
     "steam_appid": 3740690,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
-    "short_description": "Step into the role of a Vampire-Human Hybrid, imprisoned for longer than you can remember. Explore a Open-world RPG and expand your Vampiric Domain. Defeat the local Vampire Lord to claim his territory and begin your quest to dominate\u2014or liberate\u2014the lands.",
+    "short_description": "Step into the role of a Vampire-Human Hybrid, imprisoned for longer than you can remember. Explore a small Open-world RPG and expand your Vampiric Domain. Defeat the local Vampire Lord to claim his territory and begin your quest to dominate\u2014or liberate\u2014the lands.",
     "supported_languages": "English, Spanish - Spain, Spanish - Latin America",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740690/ceef8f4ec263df80ccf5a51cbd3982e31a2ebcb6/header.jpg?t=1749236570",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740690/c1adfdfdf5f3c2ea567d8882fc7412ad78c2de57/capsule_231x87.jpg?t=1749236570",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740690/c1adfdfdf5f3c2ea567d8882fc7412ad78c2de57/capsule_184x69.jpg?t=1749236570",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740690/ceef8f4ec263df80ccf5a51cbd3982e31a2ebcb6/header.jpg?t=1754463734",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740690/da9682fc817f3274c3117206a27c0791fe467fc7/capsule_231x87.jpg?t=1754463734",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740690/da9682fc817f3274c3117206a27c0791fe467fc7/capsule_184x69.jpg?t=1754463734",
     "website": null,
     "developers": [
       "Huggman"
@@ -10536,8 +10562,8 @@
     },
     "categories": [
       2,
+      18,
       22,
-      28,
       62
     ],
     "genres": [
@@ -10555,8 +10581,8 @@
       "url": "",
       "email": "contact@huggstudio.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3740690?t=1749236570",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740690/8f2af4f15e0a7e86d2597f658d7431c2c1c67cfe/page_bg_raw.jpg?t=1749236570",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3740690?t=1754463734",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740690/ccca00ceae8e2985b0bcee4ca7ea06cab9ef5ad6/page_bg_raw.jpg?t=1754463734",
     "content_descriptors": {
       "ids": [
         5
