@@ -5415,11 +5415,11 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "An adventure kart-racing game with cute, colorful animal characters behind the wheel. Drift and boost around a hub world theme park with multiple areas to explore, each filled with unique courses to race with precision arcade-style movement!",
+    "short_description": "A retro kart-racing adventure with a cast of cute animal characters. Set in a theme park, compete to win tickets, unlock new courses, and new worlds in the park to explore! Driving consists of precise arcade-style movement, complete with drifting, boosting, and items to use against your opponents!",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755680/83217524af0e257230ecef20a294d818287184f3/header.jpg?t=1749494127",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755680/7d4b200f246e8a89c9260496e218fdc5fa0af015/capsule_231x87.jpg?t=1749494127",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755680/7d4b200f246e8a89c9260496e218fdc5fa0af015/capsule_184x69.jpg?t=1749494127",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755680/1e8c2f133ecd0b28770be140f264b748db8fb066/header.jpg?t=1755962855",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755680/6e895c0495a81629416c492227f121072e988e42/capsule_231x87.jpg?t=1755962855",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755680/6e895c0495a81629416c492227f121072e988e42/capsule_184x69.jpg?t=1755962855",
     "website": null,
     "developers": [
       "Doodle Donut"
@@ -5427,16 +5427,24 @@
     "publishers": [
       "Doodle Donut"
     ],
+    "demos": [
+      {
+        "appid": 3794160,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
       28,
-      62
+      62,
+      68,
+      69
     ],
     "genres": [
       1,
@@ -5446,14 +5454,14 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "To be announced"
+      "date": "3 Nov, 2025"
     },
     "support_info": {
       "url": "https://bsky.app/profile/doodle.arcticpolygon.com",
       "email": "joshwiens7@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755680?t=1749494127",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755680?t=1749494127",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755680?t=1755962855",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755680?t=1755962855",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5484,18 +5492,31 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Build and grow your dream car dealership in this realistic simulation. Buy, inspect, repair, and sell used cars for profit. Negotiate with customers, manage financing, and dominate the used car market.",
-    "supported_languages": "English<strong>*</strong>, Turkish, German, Russian, Japanese, Korean, Portuguese - Portugal<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755670/386e5e7af87952dbf169c0fc21d9db1aaa827b9b/header.jpg?t=1749556610",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755670/2efa58c1223e0ab8e6e48dfb3aae74de7a5c2f26/capsule_231x87.jpg?t=1749556610",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755670/2efa58c1223e0ab8e6e48dfb3aae74de7a5c2f26/capsule_184x69.jpg?t=1749556610",
+    "supported_languages": "English<strong>*</strong>, Turkish, German, Russian, Japanese, Spanish - Latin America<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755670/19247caca2740e45d5932e338917bda1fa897d3a/header.jpg?t=1753001660",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755670/18ee566231462f178f5f1af2f476e8283cd2fe3e/capsule_231x87.jpg?t=1753001660",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755670/18ee566231462f178f5f1af2f476e8283cd2fe3e/capsule_184x69.jpg?t=1753001660",
     "website": null,
     "developers": [
-      "Lone Lantern Games"
+      "Berkay Y\u0131ld\u0131r\u0131m"
     ],
     "publishers": [
       "Lone Lantern Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1321670
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Car Dealer Life Simulator",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5507,19 +5528,22 @@
     ],
     "genres": [
       4,
-      18,
+      23,
       28
     ],
+    "achievements": {
+      "total": 1
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "June 2025"
+      "coming_soon": false,
+      "date": "20 Jun, 2025"
     },
     "support_info": {
       "url": "",
       "email": "Lonelanterngames@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755670?t=1749556610",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755670?t=1749556610",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755670?t=1753001660",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755670?t=1753001660",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5617,6 +5641,9 @@
     "steam_appid": 3753360,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      3753940
+    ],
     "short_description": "Survive a deadly descent from a mountain peak. One wrong step ends it all. Be slow, focused, and patient caution is your only ally in this unforgiving journey. There\u2019s no map, no help just you, your instincts, and the will to make it out alive. One mistake, and it\u2019s all over.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753360/68730baae6bf08d53377b32db8890f6f4fde45ee/header.jpg?t=1749452807",
@@ -5650,7 +5677,11 @@
     },
     "categories": [
       2,
-      62
+      62,
+      74,
+      75,
+      76,
+      79
     ],
     "genres": [
       1,
@@ -5698,9 +5729,9 @@
     "controller_support": "full",
     "short_description": "In a island fractured by darkness, ancient evil energy pulses beneath the surface, forgotten by time, yet always present. Hero of Cursed Island is a thrilling adventure game where you must journey across a hand-crafted world to collect energy fragments and unlock your potential to defeat evil.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754560/a879e6bd7ef3e99fc111a21e6c3c5e118e054f38/header.jpg?t=1748556762",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754560/a92799a19b06c0d25428f9aaf278d0b9ca4d05f6/capsule_231x87.jpg?t=1748556762",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754560/a92799a19b06c0d25428f9aaf278d0b9ca4d05f6/capsule_184x69.jpg?t=1748556762",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754560/a879e6bd7ef3e99fc111a21e6c3c5e118e054f38/header.jpg?t=1750672753",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754560/a92799a19b06c0d25428f9aaf278d0b9ca4d05f6/capsule_231x87.jpg?t=1750672753",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754560/a92799a19b06c0d25428f9aaf278d0b9ca4d05f6/capsule_184x69.jpg?t=1750672753",
     "website": null,
     "developers": [
       "PinkySoul"
@@ -5708,7 +5739,20 @@
     "publishers": [
       "PinkySoul"
     ],
-    "package_groups": [],
+    "packages": [
+      1321313
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Hero of Cursed Island",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5725,15 +5769,15 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "June 2025"
+      "coming_soon": false,
+      "date": "23 Jun, 2025"
     },
     "support_info": {
       "url": "",
       "email": "pinkysoulofficial@hotmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3754560?t=1748556762",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754560/cdb3a1a631331654ebe6db3650e1f0571d34a566/page_bg_raw.jpg?t=1748556762",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3754560?t=1750672753",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754560/cdb3a1a631331654ebe6db3650e1f0571d34a566/page_bg_raw.jpg?t=1750672753",
     "content_descriptors": {
       "ids": [
         1,
@@ -5741,7 +5785,7 @@
         4,
         5
       ],
-      "notes": "This Game may contain content not appropriate for all ages or may not be appropriate for viewing at work: Explicit Mature Content.\r\nAll the hentai scenes in the game are uncensored and consensual.\r\nAll characters are over 18 years old."
+      "notes": "This Game may contain content not appropriate for all ages or may not be appropriate for viewing at work: Explicit Mature Content.\r\nAll the hentai scenes in the game are uncensored and consensual.\r\nAll characters are over 18 years old.\r\nThis game contains BDSM Hentai Scenes."
     },
     "ratings": {
       "dejus": {
@@ -5849,9 +5893,9 @@
       "name": "FallingBattle"
     },
     "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755040/d6c3313a1ab12cc159e6a456d19177752bc26070/header.jpg?t=1748894206",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755040/7e34d35afaf8aa546a224f3ebdf19b71a9dfcbdc/capsule_231x87.jpg?t=1748894206",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755040/7e34d35afaf8aa546a224f3ebdf19b71a9dfcbdc/capsule_184x69.jpg?t=1748894206",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755040/d6c3313a1ab12cc159e6a456d19177752bc26070/header.jpg?t=1750738287",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755040/7e34d35afaf8aa546a224f3ebdf19b71a9dfcbdc/capsule_231x87.jpg?t=1750738287",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755040/7e34d35afaf8aa546a224f3ebdf19b71a9dfcbdc/capsule_184x69.jpg?t=1750738287",
     "website": null,
     "developers": [
       "syhdaniel",
@@ -5865,7 +5909,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -5873,7 +5917,6 @@
       2,
       9,
       10,
-      23,
       36,
       38,
       49
@@ -5884,15 +5927,15 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "19 Jun, 2025"
     },
     "support_info": {
       "url": "",
       "email": "ourownwaygames@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755040?t=1748894206",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755040?t=1748894206",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755040?t=1750738287",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755040/45b9ae6f6d46324d62d62fc6b68632bd7e37d008/page_bg_raw.jpg?t=1750738287",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5924,9 +5967,9 @@
     "is_free": false,
     "short_description": "This is a post-apocalyptic survival farming game where you can plant crops, chop wood, fish, mine, trade, play the stock market\u2014but most importantly, plan how to stay alive.",
     "supported_languages": "English, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754330/df35acd7aec6ae9f67b622a0a7e8b8815c25fc51/header.jpg?t=1749597350",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754330/fcdd06da9736e5b156936fe63cb86864088953c2/capsule_231x87.jpg?t=1749597350",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754330/fcdd06da9736e5b156936fe63cb86864088953c2/capsule_184x69.jpg?t=1749597350",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754330/df35acd7aec6ae9f67b622a0a7e8b8815c25fc51/header.jpg?t=1750990920",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754330/fcdd06da9736e5b156936fe63cb86864088953c2/capsule_231x87.jpg?t=1750990920",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754330/fcdd06da9736e5b156936fe63cb86864088953c2/capsule_184x69.jpg?t=1750990920",
     "website": null,
     "developers": [
       "YIN SHOUPENG"
@@ -5934,7 +5977,20 @@
     "publishers": [
       "YIN SHOUPENG"
     ],
-    "package_groups": [],
+    "packages": [
+      1321240
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Apocalypse Tale",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5942,7 +5998,9 @@
     },
     "categories": [
       2,
-      62
+      62,
+      68,
+      79
     ],
     "genres": [
       4,
@@ -5951,15 +6009,15 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "26 Jun, 2025"
     },
     "support_info": {
       "url": "",
       "email": "1990807726@qq.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3754330?t=1749597350",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754330/7e0d576b209c3722501180d7a733c978aac4f29e/page_bg_raw.jpg?t=1749597350",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3754330?t=1750990920",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754330/7e0d576b209c3722501180d7a733c978aac4f29e/page_bg_raw.jpg?t=1750990920",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5991,9 +6049,9 @@
     "is_free": false,
     "short_description": "A single-player FPS set in a dangerous prehistoric jungle. Collect nests while battling fierce dinosaurs like Dimetrodons, Raptors, and Troodons. Navigate rain-soaked terrain and survive relentless attacks in a thrilling 15\u201345 minute adventure. Can you escape the mire alive?",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754550/ffb149c7eeaf8cbfe3b1d324271cf1e18cdb9525/header.jpg?t=1748358450",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754550/3db98eb48ce8d46b40c658400aaf535ae5e981c2/capsule_231x87.jpg?t=1748358450",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754550/3db98eb48ce8d46b40c658400aaf535ae5e981c2/capsule_184x69.jpg?t=1748358450",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754550/ffb149c7eeaf8cbfe3b1d324271cf1e18cdb9525/header.jpg?t=1749922584",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754550/3db98eb48ce8d46b40c658400aaf535ae5e981c2/capsule_231x87.jpg?t=1749922584",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754550/3db98eb48ce8d46b40c658400aaf535ae5e981c2/capsule_184x69.jpg?t=1749922584",
     "website": null,
     "developers": [
       "Jonathan Moye"
@@ -6001,7 +6059,20 @@
     "publishers": [
       "Jonathan Moye"
     ],
-    "package_groups": [],
+    "packages": [
+      1321310
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Primal Glade",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6009,7 +6080,6 @@
     },
     "categories": [
       2,
-      18,
       62
     ],
     "genres": [
@@ -6018,15 +6088,15 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "13 Jun, 2025"
+      "coming_soon": false,
+      "date": "14 Jun, 2025"
     },
     "support_info": {
       "url": "",
       "email": "ZukaraGame@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3754550?t=1748358450",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3754550?t=1748358450",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3754550?t=1749922584",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3754550?t=1749922584",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -10235,9 +10305,9 @@
       "name": "Empower Your Intent"
     },
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753960/a6baf6ae1c34e9051b6f7e16956af643ec35860a/header.jpg?t=1749597043",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753960/ae933e10db06bdc1a849f3fdff075aab667b8050/capsule_231x87.jpg?t=1749597043",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753960/ae933e10db06bdc1a849f3fdff075aab667b8050/capsule_184x69.jpg?t=1749597043",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753960/cb57fb8925350c8061676727d287e0dad8886801/header.jpg?t=1749752682",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753960/a1ccc70f64e71ffcdd4e7f21f07f843b5138725e/capsule_231x87.jpg?t=1749752682",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753960/a1ccc70f64e71ffcdd4e7f21f07f843b5138725e/capsule_184x69.jpg?t=1749752682",
     "website": "https://bliblo.studio",
     "developers": [
       "BLIBLO"
@@ -10264,7 +10334,12 @@
     "categories": [
       2,
       21,
-      28
+      28,
+      66,
+      67,
+      69,
+      75,
+      78
     ],
     "genres": [
       4,
@@ -10278,8 +10353,8 @@
       "url": "https://bliblo.studio",
       "email": "bliblostudio@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3753960?t=1749597043",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753960/6380c6fae0a2b035f8aae680d4ee7f57317b282a/page_bg_raw.jpg?t=1749597043",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3753960?t=1749752682",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753960/6380c6fae0a2b035f8aae680d4ee7f57317b282a/page_bg_raw.jpg?t=1749752682",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -10316,9 +10391,9 @@
       "name": "Empower Your Intent"
     },
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753970/7f65448b87756868a05d1f6c567987b64f4b0900/header.jpg?t=1749597095",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753970/3a4bf45d22df8a36fa2e3e10be7bb3bed82ca498/capsule_231x87.jpg?t=1749597095",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753970/3a4bf45d22df8a36fa2e3e10be7bb3bed82ca498/capsule_184x69.jpg?t=1749597095",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753970/7897be959b68955846a92ef37da474478be2751c/header.jpg?t=1749752745",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753970/b33ef9395a3fda290812f2acf34fb56aa53c6b56/capsule_231x87.jpg?t=1749752745",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753970/b33ef9395a3fda290812f2acf34fb56aa53c6b56/capsule_184x69.jpg?t=1749752745",
     "website": "https://bliblo.studio",
     "developers": [
       "BLIBLO"
@@ -10345,7 +10420,12 @@
     "categories": [
       2,
       21,
-      28
+      28,
+      66,
+      67,
+      69,
+      75,
+      78
     ],
     "genres": [
       4,
@@ -10359,8 +10439,8 @@
       "url": "https://bliblo.studio",
       "email": "bliblostudio@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3753970?t=1749597095",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753970/598438d512650b2ed13c876d78d9dd23541c7a14/page_bg_raw.jpg?t=1749597095",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3753970?t=1749752745",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753970/598438d512650b2ed13c876d78d9dd23541c7a14/page_bg_raw.jpg?t=1749752745",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -10390,17 +10470,23 @@
     "steam_appid": 3754430,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Ribbit Ranch is a cozy idle game about relaxing and collecting frogs. Buy or breed frogs, take care of them in real time to earn a profit. Unlock, upgrade and customise your frog tanks and expand your collection of over 300,000+ possible frog combinations!",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754430/2a412cd7a34a62664c8e44f75c7ba92754cc3abb/header.jpg?t=1749615548",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754430/cb4e29655d4f26cf87fb0e568049a84afb87e245/capsule_231x87.jpg?t=1749615548",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754430/cb4e29655d4f26cf87fb0e568049a84afb87e245/capsule_184x69.jpg?t=1749615548",
+    "short_description": "Ribbit Ranch is a cozy idle game about relaxing and collecting frogs. Buy or breed frogs, take care of them and play mini-games to earn a profit. Expand your collection of over 43.8m+ possible frog combinations!",
+    "supported_languages": "English<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754430/9f2950c21e6644340355b2c77cb58ca8bf72e6bf/header.jpg?t=1755916423",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754430/1b68e6c87da38d00bc910ac14b0c71466b7345d4/capsule_231x87_alt_assets_0.jpg?t=1755916423",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754430/1b68e6c87da38d00bc910ac14b0c71466b7345d4/capsule_184x69_alt_assets_0.jpg?t=1755916423",
     "website": null,
     "developers": [
       "Jack McAllister"
     ],
     "publishers": [
-      "Bangus Games"
+      "Jack McAllister"
+    ],
+    "demos": [
+      {
+        "appid": 3928690,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -10410,13 +10496,22 @@
     },
     "categories": [
       2,
-      62
+      22,
+      23,
+      25,
+      62,
+      66,
+      67,
+      68,
+      69,
+      74,
+      76,
+      79
     ],
     "genres": [
       4,
       23,
-      28,
-      70
+      28
     ],
     "release_date": {
       "coming_soon": true,
@@ -10426,8 +10521,8 @@
       "url": "",
       "email": "bangusgames@outlook.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3754430?t=1749615548",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3754430?t=1749615548",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3754430?t=1755916423",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3754430?t=1755916423",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -10459,9 +10554,9 @@
     "is_free": false,
     "short_description": "An eldritch-inspired 2D pixel art tower defense game. Take control of the battlefield and manage limited resources to spawn units and cast spells to defeat your enemy. Destroy the enemy rift portal before they destroy yours.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755300/20725b2262d6a83f64b67347c71599c74e7b3794/header.jpg?t=1749658777",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755300/c754e78b0215b8a95a0becc58284ef848c173711/capsule_231x87.jpg?t=1749658777",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755300/c754e78b0215b8a95a0becc58284ef848c173711/capsule_184x69.jpg?t=1749658777",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755300/20725b2262d6a83f64b67347c71599c74e7b3794/header.jpg?t=1750859389",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755300/c754e78b0215b8a95a0becc58284ef848c173711/capsule_231x87.jpg?t=1750859389",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755300/c754e78b0215b8a95a0becc58284ef848c173711/capsule_184x69.jpg?t=1750859389",
     "website": null,
     "developers": [
       "Onimous Games"
@@ -10469,7 +10564,20 @@
     "publishers": [
       "Onimous Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1321543
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RIFT WAR Tower defense",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -10484,15 +10592,15 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "June 2025"
+      "coming_soon": false,
+      "date": "25 Jun, 2025"
     },
     "support_info": {
       "url": "",
       "email": "onimousgamedev@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755300?t=1749658777",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755300/470474c2fe66ce4a7643147c4b53a46f93505f43/page_bg_raw.jpg?t=1749658777",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755300?t=1750859389",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755300/470474c2fe66ce4a7643147c4b53a46f93505f43/page_bg_raw.jpg?t=1750859389",
     "content_descriptors": {
       "ids": [
         5
@@ -10526,9 +10634,9 @@
     "is_free": false,
     "short_description": "Long, long ago, there existed a kingdom shrouded in dense mist: the Lost Empire. This mist twisted humans into terrifying beasts, plunging the world into despair. War raged endlessly. Heroes rose, seeking fame and glory. It is in this place you awaken\u2014a nameless undead.",
     "supported_languages": "Japanese, English, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755860/9e7df105234b7abbeebc88ea11f1fda0ffc48519/header.jpg?t=1749638269",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755860/3b6c53bc00c8db566d34c4ed1af1602deb13431f/capsule_231x87.jpg?t=1749638269",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755860/3b6c53bc00c8db566d34c4ed1af1602deb13431f/capsule_184x69.jpg?t=1749638269",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755860/9e7df105234b7abbeebc88ea11f1fda0ffc48519/header.jpg?t=1755309728",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755860/3b6c53bc00c8db566d34c4ed1af1602deb13431f/capsule_231x87.jpg?t=1755309728",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755860/3b6c53bc00c8db566d34c4ed1af1602deb13431f/capsule_184x69.jpg?t=1755309728",
     "website": null,
     "developers": [
       "Eeny, meeny, miny, moe?"
@@ -10537,7 +10645,20 @@
       "OTAKU Plan",
       "NEWS"
     ],
-    "package_groups": [],
+    "packages": [
+      1321743
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy BLACK SOULS",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -10545,6 +10666,8 @@
     },
     "categories": [
       2,
+      22,
+      23,
       62
     ],
     "genres": [
@@ -10552,16 +10675,19 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 65
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "15 Aug, 2025"
     },
     "support_info": {
       "url": "",
       "email": "otakuplan.staff@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755860?t=1749638269",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755860?t=1749638269",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755860?t=1755309728",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3755860?t=1755309728",
     "content_descriptors": {
       "ids": [
         5
@@ -10595,9 +10721,9 @@
     "is_free": false,
     "short_description": "In this pixel adventure, \u00dcrgel walks through a village crumbling with byllars, guided by the cosmology of the Sakha people and the memory of his ancestors, the \u00d6b\u00fcge. As the permafrost collapses and the Earth warms, he searches for meaning on a quiet journey for jam.",
     "supported_languages": "English, Russian",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753770/1ed0cab7c89af9507a7baaa9524dd93356ca6e93/header.jpg?t=1749741623",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753770/501a09adcce10e6e43769ccff7a614b5306f6e51/capsule_231x87.jpg?t=1749741623",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753770/501a09adcce10e6e43769ccff7a614b5306f6e51/capsule_184x69.jpg?t=1749741623",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753770/1ed0cab7c89af9507a7baaa9524dd93356ca6e93/header.jpg?t=1753783889",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753770/501a09adcce10e6e43769ccff7a614b5306f6e51/capsule_231x87.jpg?t=1753783889",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753770/501a09adcce10e6e43769ccff7a614b5306f6e51/capsule_184x69.jpg?t=1753783889",
     "website": null,
     "developers": [
       "Kyhynngy Oyuur"
@@ -10605,7 +10731,20 @@
     "publishers": [
       "Kyhynngy Oyuur"
     ],
-    "package_groups": [],
+    "packages": [
+      1321054
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Irbet Tong",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -10614,6 +10753,7 @@
     "categories": [
       2,
       18,
+      22,
       62,
       74,
       75,
@@ -10622,16 +10762,19 @@
     "genres": [
       25
     ],
+    "achievements": {
+      "total": 13
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "July 2025"
+      "coming_soon": false,
+      "date": "28 Jul, 2025"
     },
     "support_info": {
       "url": "",
       "email": "kyhynnyoyuur@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3753770?t=1749741623",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753770/7d79868dd9b1b1ff6212230b04ee1446375f5999/page_bg_raw.jpg?t=1749741623",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3753770?t=1753783889",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3753770/7d79868dd9b1b1ff6212230b04ee1446375f5999/page_bg_raw.jpg?t=1753783889",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -10657,7 +10800,7 @@
   },
   "3754820": {
     "type": "dlc",
-    "name": "Between Two Worlds - Walkthrough",
+    "name": "Between Two Worlds - Walkthrough & Art",
     "steam_appid": 3754820,
     "required_age": 0,
     "is_free": false,
@@ -10668,9 +10811,9 @@
       "name": "Between Two Worlds"
     },
     "supported_languages": "English, French, Italian, Spanish - Latin America, Spanish - Spain, Portuguese - Brazil, Simplified Chinese, German, Russian",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754820/5506c805634df5bebd2c2e6ca12961fd81221c3a/header.jpg?t=1749746945",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754820/c65f20be568611039e867a10126897c72dcb56ec/capsule_231x87.jpg?t=1749746945",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754820/c65f20be568611039e867a10126897c72dcb56ec/capsule_184x69.jpg?t=1749746945",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754820/5506c805634df5bebd2c2e6ca12961fd81221c3a/header.jpg?t=1754502773",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754820/c65f20be568611039e867a10126897c72dcb56ec/capsule_231x87.jpg?t=1754502773",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3754820/c65f20be568611039e867a10126897c72dcb56ec/capsule_184x69.jpg?t=1754502773",
     "website": "https://www.droosk.com",
     "developers": [
       "Drooskati Games"
@@ -10684,7 +10827,7 @@
     "package_groups": [
       {
         "name": "default",
-        "title": "Buy Between Two Worlds - Walkthrough",
+        "title": "Buy Between Two Worlds - Walkthrough & Art",
         "description": "",
         "selection_text": "Select a purchase option",
         "save_text": "",
@@ -10705,7 +10848,11 @@
       23,
       28,
       29,
-      62
+      62,
+      68,
+      71,
+      74,
+      79
     ],
     "genres": [
       4,
@@ -10721,8 +10868,8 @@
       "url": "",
       "email": "support@droosk.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3754820?t=1749746945",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3754820?t=1749746945",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3754820?t=1754502773",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3754820?t=1754502773",
     "content_descriptors": {
       "ids": [],
       "notes": null
