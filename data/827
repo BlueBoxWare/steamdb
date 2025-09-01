@@ -1006,13 +1006,10 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483900/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483900/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2483900/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483900/header.jpg?t=1688136878",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483900/capsule_231x87.jpg?t=1688136878",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483900/capsule_184x69.jpg?t=1688136878",
     "website": null,
-    "publishers": [
-      ""
-    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -1027,12 +1024,13 @@
       "url": "",
       "email": ""
     },
-    "background": "",
-    "background_raw": "",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483900?t=1688136878",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483900?t=1688136878",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "2482750": {
     "type": "dlc",
@@ -1424,9 +1422,9 @@
       "appid": "2311070",
       "name": "Devil's Dive"
     },
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483980/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483980/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2483980/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483980/header.jpg?t=1688727674",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483980/capsule_231x87.jpg?t=1688727674",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483980/capsule_184x69.jpg?t=1688727674",
     "website": null,
     "developers": [
       "1984pxls"
@@ -1464,11 +1462,29 @@
       "url": "",
       "email": "1984pxls@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2483980/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2483980/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483980?t=1688727674",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483980?t=1688727674",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2482360": {
@@ -2205,44 +2221,63 @@
   },
   "2483970": {
     "type": "game",
-    "name": "Honey Moon -- Mystery Journey",
+    "name": "Honeymoon : Mystery Journey",
     "steam_appid": 2483970,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      2909350,
+      2909690
+    ],
     "short_description": "Return to that fateful day to save your beloved wife in this time-hopping puzzle game!",
-    "supported_languages": "Traditional Chinese, English, Japanese<strong>*</strong>, Simplified Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483970/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483970/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2483970/capsule_184x69.jpg",
+    "supported_languages": "Traditional Chinese, English, Japanese<strong>*</strong>, Simplified Chinese, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483970/header.jpg?t=1725001088",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483970/capsule_231x87.jpg?t=1725001088",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483970/capsule_184x69.jpg?t=1725001088",
     "website": null,
     "developers": [
       "Gentleman.LTD"
     ],
     "publishers": [
-      "Mango Party"
+      "Mango Party",
+      "Mango Party News"
     ],
-    "package_groups": [],
+    "packages": [
+      893982
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Honeymoon : Mystery Journey",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       4
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q1 2024"
+      "coming_soon": false,
+      "date": "4 Apr, 2024"
     },
     "support_info": {
       "url": "",
       "email": "support@mangopartygames.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2483970/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2483970/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483970?t=1725001088",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483970?t=1725001088",
     "content_descriptors": {
       "ids": [
         1,
@@ -2250,7 +2285,25 @@
         4,
         5
       ],
-      "notes": "All character depicted are over the age of 20.\r\nContent Warning:\"\"Honey Moon -- Mystery Journey\"\" contains Bondage, and Rape\t\t"
+      "notes": "All character depicted are over the age of 20.\r\nContent Warning:\"Honey Moon -- Mystery Journey\"\"contains Bondage, and Rape."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Nudez\nViol\u00eancia\nTemas sens\u00edveis"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "BANNED",
+        "required_age": "2147483647",
+        "banned": "1",
+        "use_age_gate": "0",
+        "descriptors": "Sexualisierte Gewalt / Sexual violence"
+      }
     }
   },
   "2481710": {
@@ -2568,11 +2621,12 @@
     "steam_appid": 2483930,
     "required_age": 0,
     "is_free": false,
-    "short_description": "2d hand drawn female protagonist action-adventure/soulslike game",
-    "supported_languages": "English, Russian",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483930/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483930/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2483930/capsule_184x69.jpg",
+    "controller_support": "full",
+    "short_description": "2d hand drawn female protagonist action-adventure/soulslike.",
+    "supported_languages": "English, Russian, French, German, Spanish - Spain, Arabic, Japanese, Korean, Portuguese - Portugal, Simplified Chinese, Traditional Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483930/header.jpg?t=1739726631",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483930/capsule_231x87.jpg?t=1739726631",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483930/capsule_184x69.jpg?t=1739726631",
     "website": null,
     "developers": [
       "Ongar Studio"
@@ -2607,27 +2661,45 @@
     },
     "categories": [
       2,
-      18
+      28,
+      62
     ],
     "genres": [
       1,
       23,
-      25,
-      70
+      25
     ],
     "release_date": {
       "coming_soon": false,
-      "date": "20 Jul, 2023"
+      "date": "9 Feb, 2025"
     },
     "support_info": {
       "url": "",
       "email": "ongarstudio@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2483930/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2483930/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483930?t=1739726631",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483930?t=1739726631",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2483360": {
@@ -6531,9 +6603,9 @@
       "name": "Helping the Hotties"
     },
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483780/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483780/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2483780/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483780/header.jpg?t=1695400282",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483780/capsule_231x87.jpg?t=1695400282",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483780/capsule_184x69.jpg?t=1695400282",
     "website": "https://xred.games",
     "developers": [
       "xRed Games"
@@ -6565,7 +6637,8 @@
       21,
       22,
       23,
-      29
+      29,
+      62
     ],
     "genres": [
       1,
@@ -6582,8 +6655,8 @@
       "url": "http://xred.games",
       "email": "support@xred.games"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2483780/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2483780/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483780?t=1695400282",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483780?t=1695400282",
     "content_descriptors": {
       "ids": [
         1,
@@ -6592,6 +6665,22 @@
         5
       ],
       "notes": "This game is for ADULTS only and it includes explicit, sexual content, assault/non-consensual sex and drug/alcohol abuse that some viewers may find offensive. The characters shown in the game are all over 18 years old."
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "18",
+        "descriptors": "Nudez\r\nDrogas il\u00edcitas\r\nMedo",
+        "use_age_gate": "true",
+        "required_age": "18"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2481910": {
@@ -7641,9 +7730,9 @@
     "is_free": false,
     "short_description": "Step into a galaxy not far far away, where an alien race plotting the end of mankind discovered a spectacular creature that has the potential to create the necessary chaos. There is only one problem; it is not very intelligent and requires some training!",
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483960/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483960/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2483960/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483960/header.jpg?t=1695321290",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483960/capsule_231x87.jpg?t=1695321290",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483960/capsule_184x69.jpg?t=1695321290",
     "website": null,
     "developers": [
       "Redactor Interactive"
@@ -7658,7 +7747,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -7673,14 +7763,32 @@
       "url": "",
       "email": "support@redactorinteractive.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2483960/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2483960/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483960?t=1695321290",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483960?t=1695321290",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "This game features blood, gore, and eating people as a spider-limbed alien life form that inhabits cars. Eight limbed spider-like creatures might be present on screen for the complete duration of the game, which might be uncomfortable for people with arachnophobia."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia Extrema\nMedo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2482740": {
@@ -8363,13 +8471,10 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483840/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483840/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2483840/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483840/header.jpg?t=1692417680",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483840/capsule_231x87.jpg?t=1692417680",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483840/capsule_184x69.jpg?t=1692417680",
     "website": null,
-    "publishers": [
-      ""
-    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -8384,12 +8489,13 @@
       "url": "",
       "email": ""
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2483840/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2483840/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483840?t=1692417680",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483840/page_bg_raw.jpg?t=1692417680",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    }
+    },
+    "ratings": null
   },
   "2483880": {
     "type": "game",
@@ -8399,9 +8505,9 @@
     "is_free": false,
     "short_description": "Dragon Tower is a light ROGUE game set in a different world, where players take on the role of a brave adventurer exploring inside the Dragon Tower. They will assemble their own team to create unique strategies and defeat the monsters within the Dragon Tower.",
     "supported_languages": "Simplified Chinese, English, French, German, Russian, Portuguese - Brazil, Korean, Japanese",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483880/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483880/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2483880/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483880/header.jpg?t=1747316399",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483880/capsule_231x87.jpg?t=1747316399",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483880/capsule_184x69.jpg?t=1747316399",
     "website": null,
     "developers": [
       "\u4eba\u8089\u9992\u5934"
@@ -8419,7 +8525,8 @@
       1,
       2,
       9,
-      38
+      38,
+      62
     ],
     "genres": [
       1,
@@ -8433,17 +8540,35 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q1 2024"
+      "date": "Q1 2028"
     },
     "support_info": {
       "url": "https://space.bilibili.com/10075324?spm_id_from=444.41.0.0",
       "email": "b539931636@qq.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2483880/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2483880/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483880?t=1747316399",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483880/page_bg_raw.jpg?t=1747316399",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2482840": {
@@ -11175,9 +11300,9 @@
     "is_free": false,
     "short_description": "You are FBI crime scene photographer Thomas Greene, fighting violent street criminals and documenting the crimes of a German serial killer known to the press as &quot;Der Kannibale&quot;.",
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483920/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483920/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2483920/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483920/header.jpg?t=1722195812",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483920/capsule_231x87.jpg?t=1722195812",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483920/capsule_184x69.jpg?t=1722195812",
     "website": null,
     "developers": [
       "Cult Software"
@@ -11191,34 +11316,66 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      893965
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy 2x4 Nails",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "19 Mar, 2024"
     },
     "support_info": {
       "url": "",
       "email": "cultsoftware666@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2483920/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2483920/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483920?t=1722195812",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483920?t=1722195812",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "Blood and Gore\r\nEvisceration\r\nDecapitation\r\nDismemberment\r\nCorpses\r\nDrugs and Alcohol \r\n"
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia Extrema\nDrogas il\u00edcitas\nMedo"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2481150": {
@@ -11915,11 +12072,11 @@
     "steam_appid": 2483950,
     "required_age": 0,
     "is_free": true,
-    "short_description": "Flee or hunt? It\u2019s up to you! Time is running will you be fast enough to foil your opponent\u2019s strategy? Under Pressure is a bluff and deduction game.",
+    "short_description": "Flee or hunt? It\u2019s up to you! Under Pressure is an asymmetric card game! To win you will need to strategize and guess.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483950/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2483950/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2483950/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483950/header.jpg?t=1710079068",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483950/capsule_231x87.jpg?t=1710079068",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483950/capsule_184x69.jpg?t=1710079068",
     "website": "https://home.hibo-studios.com/",
     "developers": [
       "Hibo Studios"
@@ -11947,11 +12104,29 @@
       "url": "",
       "email": "contact@hibo-studios.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2483950/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2483950/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2483950?t=1710079068",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483950/page_bg_raw.jpg?t=1710079068",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2481140": {
@@ -14498,6 +14673,95 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "\u00c4ngstigende Inhalte"
+      }
+    }
+  },
+  "2482391": {
+    "type": "dlc",
+    "name": "Star Conflict - Sirius (Deluxe Edition)",
+    "steam_appid": 2482391,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This pack includesRank 14 suppression destroyer \u201cSirius\u201dUnique portrait \u201cLux Firewalker\u201dCoilgun 1Additionally, the pilot receives:Permanent credit reward bonus +10%Paint \u201cBattle scars\u201dStickers \u201cSomeone\u2019s homeland. Probably\u201d and \u201cTake it easy!",
+    "fullgame": {
+      "appid": "212070",
+      "name": "Star Conflict"
+    },
+    "supported_languages": "English<strong>*</strong>, Russian<strong>*</strong>, French, German, Spanish - Spain, Portuguese - Portugal, Polish, Hungarian, Czech, Ukrainian, Simplified Chinese<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482391/header.jpg?t=1756742165",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482391/capsule_231x87.jpg?t=1756742165",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482391/capsule_184x69.jpg?t=1756742165",
+    "website": "http://star-conflict.com/",
+    "developers": [
+      "Star Gem Inc."
+    ],
+    "packages": [
+      893394
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Star Conflict - Sirius (Deluxe Edition)",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      1,
+      9,
+      18,
+      20,
+      21,
+      22,
+      29,
+      31
+    ],
+    "genres": [
+      1,
+      28,
+      29,
+      37
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "6 Sep, 2023"
+    },
+    "support_info": {
+      "url": "http://support.gaijinent.com",
+      "email": "support@gaijinent.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2482391?t=1756742165",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2482391?t=1756742165",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "pegi": {
+        "rating": "12",
+        "descriptors": "Bad Language\r\nOnline Gameplay"
+      },
+      "dejus": {
+        "rating": "10",
+        "descriptors": "Viol\u00eancia",
+        "use_age_gate": "true",
+        "required_age": "10"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
       }
     }
   }
