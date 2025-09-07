@@ -7177,13 +7177,13 @@
     "type": "game",
     "name": "Supermarket Security Simulator",
     "steam_appid": 2453380,
-    "required_age": "18",
+    "required_age": 0,
     "is_free": false,
     "short_description": "Welcome to your first day of work as security in our supermarket.In this job you will have to prevent theft, check tickets, monitor cameras, prevent robberies and keep an eye on the carts.Be attentive and efficient, manage your family and don't mess up.To the top team leader!",
     "supported_languages": "English, French, Italian, German, Spanish - Spain<strong>*</strong>, Japanese, Korean, Portuguese - Portugal, Russian, Simplified Chinese, Turkish<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2453380/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2453380/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2453380/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453380/header.jpg?t=1720864490",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453380/capsule_231x87.jpg?t=1720864490",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453380/capsule_184x69.jpg?t=1720864490",
     "website": null,
     "developers": [
       "Pigeon-G"
@@ -7191,7 +7191,20 @@
     "publishers": [
       "Pigeon-G"
     ],
-    "package_groups": [],
+    "packages": [
+      883079
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Supermarket Security Simulator",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7199,23 +7212,27 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       1,
       23,
       28
     ],
+    "achievements": {
+      "total": 27
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "20 Nov, 2023"
     },
     "support_info": {
       "url": "",
       "email": "pigeong.info@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2453380/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2453380/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2453380?t=1720864490",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453380/page_bg_raw.jpg?t=1720864490",
     "content_descriptors": {
       "ids": [
         1,
@@ -7223,6 +7240,30 @@
         5
       ],
       "notes": "The game contains dialogue with insults and/or sexual references"
+    },
+    "ratings": {
+      "pegi": {
+        "rating": "18",
+        "descriptors": "Palabras malsonantes, drogas y referencias sexuales.",
+        "required_age": "18",
+        "use_age_gate": "true"
+      },
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia Extrema\nDrogas il\u00edcitas\nTemas sens\u00edveis"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2452360": {
