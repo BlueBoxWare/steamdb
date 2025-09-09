@@ -11834,25 +11834,33 @@
     "steam_appid": 2475440,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Step into a lost, post-apocalyptic zombie world, destroyed by a deadly virus. Explore the ruins and battle for your life while searching for the much-needed cure in this action-packed survival adventure. Find your family who is lost in this catastrophe. Bring peace to the world and your heart.",
-    "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2475440/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2475440/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2475440/capsule_184x69.jpg",
+    "controller_support": "full",
+    "short_description": "You wake up in a bunker! The Earth became a battlefield. Dangerous creatures at every turn. We give you everything you need: medicine, weapons, shelter. Your task is to find your family. And please try to survive in this post-apocalypse.",
+    "supported_languages": "English, Russian, French, German, Spanish - Spain, Portuguese - Brazil, Simplified Chinese, Korean, Japanese, Polish, Turkish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475440/header.jpg?t=1755015949",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475440/capsule_231x87.jpg?t=1755015949",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475440/capsule_184x69.jpg?t=1755015949",
     "website": null,
     "developers": [
-      "TryMyGames"
+      "Bazuro Games"
     ],
     "publishers": [
-      "ArtDock"
+      "Dreland Enterprises"
     ],
-    "demos": [
+    "packages": [
+      890935
+    ],
+    "package_groups": [
       {
-        "appid": 2613190,
-        "description": ""
+        "name": "default",
+        "title": "Buy Last Hope Bunker: Zombie Survival",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -11860,8 +11868,9 @@
     },
     "categories": [
       2,
-      18,
-      22
+      22,
+      28,
+      62
     ],
     "genres": [
       1,
@@ -11869,19 +11878,42 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 15
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "9 Apr, 2024"
     },
     "support_info": {
       "url": "",
       "email": "pr@artdock.studio"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2475440/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2475440/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2475440?t=1755015949",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475440/page_bg_raw.jpg?t=1755015949",
     "content_descriptors": {
-      "ids": [],
+      "ids": [
+        5
+      ],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2475620": {
@@ -12280,16 +12312,21 @@
     "steam_appid": 2477090,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
+    "dlc": [
+      3740910
+    ],
     "short_description": "a hostile interpretation of the immersive sim, where nothing is planned, and everything works",
-    "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2477090/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2477090/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2477090/capsule_184x69.jpg",
+    "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Turkish, Ukrainian, Traditional Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2477090/header.jpg?t=1750805605",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2477090/6620be449593144a74e58f06db0339126081dbd6/capsule_231x87.jpg?t=1750805605",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2477090/6620be449593144a74e58f06db0339126081dbd6/capsule_184x69.jpg?t=1750805605",
     "website": null,
     "developers": [
       "Stuffed Wombat",
       "Silkersoft",
-      "Lukke"
+      "Lukke",
+      "Rollin'Barrel"
     ],
     "publishers": [
       "Stuffed Wombat"
@@ -12310,13 +12347,28 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": true
     },
     "categories": [
+      1,
       2,
-      18,
-      44
+      9,
+      17,
+      23,
+      24,
+      27,
+      28,
+      30,
+      38,
+      39,
+      44,
+      48,
+      62,
+      63,
+      66,
+      74,
+      75
     ],
     "genres": [
       23,
@@ -12331,11 +12383,29 @@
       "url": "",
       "email": "thestuffedwombat@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2477090/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2477090/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2477090?t=1750805605",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2477090?t=1750805605",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
+      }
     }
   },
   "2476720": {

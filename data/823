@@ -3142,11 +3142,14 @@
     "steam_appid": 2469190,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A short 2D drilling adventure set in a mining company.",
-    "supported_languages": "Japanese",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2469190/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2469190/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2469190/capsule_184x69.jpg",
+    "dlc": [
+      2753770
+    ],
+    "short_description": "A short 2D excavation adventure game set in a mining company.",
+    "supported_languages": "Japanese, English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2469190/header.jpg?t=1749450923",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2469190/capsule_231x87.jpg?t=1749450923",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2469190/capsule_184x69.jpg?t=1749450923",
     "website": "https://twitter.com/hayanariiii",
     "developers": [
       "hayanari"
@@ -3184,11 +3187,11 @@
       15,
       18,
       22,
-      23
+      23,
+      62
     ],
     "genres": [
       3,
-      4,
       23,
       25
     ],
@@ -3203,11 +3206,29 @@
       "url": "https://twitter.com/hayanariiii",
       "email": "hayanari.game@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2469190/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2469190/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2469190?t=1749450923",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2469190?t=1749450923",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2470470": {
@@ -5730,9 +5751,9 @@
     "controller_support": "full",
     "short_description": "&quot;Egg War Puzzle&quot; is a mixed-mode fighting puzzle action game in which battles unfold in an otherworldly reincarnation.",
     "supported_languages": "Japanese",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2470440/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2470440/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2470440/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2470440/header.jpg?t=1700654627",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2470440/capsule_231x87.jpg?t=1700654627",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2470440/capsule_184x69.jpg?t=1700654627",
     "website": "https://aqua-factory.dev/ewp/",
     "developers": [
       "AQUA FACTORY"
@@ -5740,7 +5761,20 @@
     "publishers": [
       "AQUA FACTORY"
     ],
-    "package_groups": [],
+    "packages": [
+      889140
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy EggWarPuzzle",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -5756,26 +5790,48 @@
       36,
       37,
       44,
-      49
+      49,
+      62
     ],
     "genres": [
       4,
       23,
       70
     ],
+    "achievements": {
+      "total": 5
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "22 Nov, 2023"
     },
     "support_info": {
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSdsO-cMIgs_X1LtYypp9ZjAw8rEeSUM-k4AziXIw4KMXB7xLA/viewform",
       "email": ""
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2470440/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2470440/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2470440?t=1700654627",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2470440?t=1700654627",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "6",
+        "required_age": "6",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Fantasy-Gewalt"
+      }
     }
   },
   "2471110": {
@@ -11372,11 +11428,11 @@
     "steam_appid": 2469590,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Back To Home is a short adventure where you explore a beautiful world and solve puzzles Throughoutthe journey, you will uncover an interesting story about the past of the main character.",
+    "short_description": "Back To Home is a cozy third-person cat adventure game where you explore stunning worlds and solve puzzles. Uncover the captivating story of a cat\u2019s past as you embark on this heartfelt journey",
     "supported_languages": "English, Spanish - Spain, Simplified Chinese, Russian, German",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2469590/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2469590/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2469590/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2469590/header.jpg?t=1737619252",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2469590/capsule_231x87.jpg?t=1737619252",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2469590/capsule_184x69.jpg?t=1737619252",
     "website": null,
     "developers": [
       "Teo Georgiev"
@@ -11384,13 +11440,20 @@
     "publishers": [
       "Teo Georgiev"
     ],
-    "demos": [
+    "packages": [
+      888856
+    ],
+    "package_groups": [
       {
-        "appid": 2604470,
-        "description": ""
+        "name": "default",
+        "title": "Buy Back To Home",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -11398,28 +11461,48 @@
     },
     "categories": [
       2,
-      18,
       22,
-      61
+      61,
+      62
     ],
     "genres": [
       4,
-      23,
       25
     ],
+    "achievements": {
+      "total": 9
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "12 Jul, 2024"
     },
     "support_info": {
       "url": "",
       "email": "teogg0903@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2469590/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2469590/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2469590?t=1737619252",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2469590/page_bg_raw.jpg?t=1737619252",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "l",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2471780": {
