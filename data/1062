@@ -4632,9 +4632,9 @@
       "name": "PAKO 3"
     },
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187930/header.jpg?t=1725346811",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187930/95fae4e1a2162dcb38d51f765acef9e893939879/capsule_231x87.jpg?t=1725346811",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187930/95fae4e1a2162dcb38d51f765acef9e893939879/capsule_184x69.jpg?t=1725346811",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187930/header.jpg?t=1730993892",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187930/95fae4e1a2162dcb38d51f765acef9e893939879/capsule_231x87.jpg?t=1730993892",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187930/95fae4e1a2162dcb38d51f765acef9e893939879/capsule_184x69.jpg?t=1730993892",
     "website": null,
     "developers": [
       "Tree Men Games"
@@ -4661,8 +4661,8 @@
       "url": "http://www.treemengames.com",
       "email": "support@treemengames.com"
     },
-    "background": "",
-    "background_raw": "",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3187930?t=1730993892",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3187930?t=1730993892",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -4692,25 +4692,33 @@
     "steam_appid": 3188050,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Mini Mini Golf Golf is an indie storytelling experience that goes beyond the lanes of the here and now into distant memories of a future planetary collapse. Destabilize the present and plunge into a neon psychohistory of a bizarre entity in distress. This is not a game about minigolf.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188050/header.jpg?t=1729272678",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188050/021b7db3254a9b4301c5530fc355f117259bc552/capsule_231x87.jpg?t=1729272678",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188050/021b7db3254a9b4301c5530fc355f117259bc552/capsule_184x69.jpg?t=1729272678",
-    "website": null,
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188050/header.jpg?t=1750935238",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188050/021b7db3254a9b4301c5530fc355f117259bc552/capsule_231x87.jpg?t=1750935238",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188050/021b7db3254a9b4301c5530fc355f117259bc552/capsule_184x69.jpg?t=1750935238",
+    "website": "https://miniminigolfgolf.com",
     "developers": [
       "Three More Years"
     ],
     "publishers": [
       "Three More Years"
     ],
-    "demos": [
+    "packages": [
+      1130841
+    ],
+    "package_groups": [
       {
-        "appid": 3256570,
-        "description": ""
+        "name": "default",
+        "title": "Buy Mini Mini Golf Golf",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -4718,22 +4726,28 @@
     },
     "categories": [
       2,
-      18
+      22,
+      23,
+      28,
+      62
     ],
     "genres": [
       23,
       25
     ],
+    "achievements": {
+      "total": 15
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "2024"
+      "coming_soon": false,
+      "date": "12 Dec, 2024"
     },
     "support_info": {
       "url": "",
       "email": "support@threemoreyears.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188050/page_bg_generated_v6b.jpg?t=1729272678",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188050/page.bg.jpg?t=1729272678",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3188050?t=1750935238",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188050/page_bg_raw.jpg?t=1750935238",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -4749,32 +4763,38 @@
       },
       "steam_germany": {
         "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
+        "rating": "12",
+        "required_age": "12",
         "banned": "0",
         "use_age_gate": "0",
-        "descriptors": "\u00c4ngstigende Inhalte"
+        "descriptors": "Gewalt"
       }
     }
   },
   "3188360": {
     "type": "game",
-    "name": "True Thief - Way of Survival",
+    "name": "True Thief",
     "steam_appid": 3188360,
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
     "short_description": "True Thief is a dark fantasy Stealth-RPG. Hide in the darkness to come out into the light and change your destiny.",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Russian<strong>*</strong>, Turkish, Simplified Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188360/header.jpg?t=1725376516",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188360/dac7c8159c6f7460ed06e3ecb06d32d75abaeaee/capsule_231x87.jpg?t=1725376516",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188360/dac7c8159c6f7460ed06e3ecb06d32d75abaeaee/capsule_184x69.jpg?t=1725376516",
-    "website": "https://t.me/antelus_ag",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Russian<strong>*</strong>, Turkish, Simplified Chinese<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188360/050330fd72130ea1714fd3ebb850f3fd0522edfe/header.jpg?t=1755614486",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188360/0b13763ca538f8dd1fcf2edfc1a52de038ba7836/capsule_231x87.jpg?t=1755614486",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188360/0b13763ca538f8dd1fcf2edfc1a52de038ba7836/capsule_184x69.jpg?t=1755614486",
+    "website": "https://antelus-games.com/",
     "developers": [
       "Antelus Games"
     ],
     "publishers": [
       "Antelus Games"
+    ],
+    "demos": [
+      {
+        "appid": 3591960,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4789,7 +4809,8 @@
       22,
       23,
       28,
-      61
+      61,
+      62
     ],
     "genres": [
       3,
@@ -4798,14 +4819,14 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2025"
+      "date": "Coming soon"
     },
     "support_info": {
-      "url": "",
-      "email": "amfir@outlook.com"
+      "url": "https://t.me/antelus_ag",
+      "email": "i@antelus.ru"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188360/page_bg_generated_v6b.jpg?t=1725376516",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188360/page.bg.jpg?t=1725376516",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3188360?t=1755614486",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188360/page_bg_raw.jpg?t=1755614486",
     "content_descriptors": {
       "ids": [
         1,
@@ -4843,10 +4864,10 @@
       3200390
     ],
     "short_description": "A FAST 2.5D platformer with TIGHT controls! Blast through a destructible medieval world. You've been sent back in time to correct a twisted space-time continuum - battle enemies, dodge hazards, carve your path, and race against the crumbling world behind you. Easy to learn - hard to master!",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187470/header.jpg?t=1729260639",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187470/dd7cd5b0333570d5cc18773a22d2b7f4d7c117aa/capsule_231x87.jpg?t=1729260639",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187470/dd7cd5b0333570d5cc18773a22d2b7f4d7c117aa/capsule_184x69.jpg?t=1729260639",
+    "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Finnish, Japanese, Korean, Polish, Portuguese - Portugal, Russian, Simplified Chinese, Swedish, Traditional Chinese, Italian<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187470/header.jpg?t=1751692114",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187470/dd7cd5b0333570d5cc18773a22d2b7f4d7c117aa/capsule_231x87.jpg?t=1751692114",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187470/dd7cd5b0333570d5cc18773a22d2b7f4d7c117aa/capsule_184x69.jpg?t=1751692114",
     "website": null,
     "developers": [
       "Imphenzia"
@@ -4867,12 +4888,18 @@
       "linux": false
     },
     "categories": [
+      1,
       2,
+      9,
       15,
       22,
       23,
+      24,
       25,
-      28
+      28,
+      39,
+      44,
+      62
     ],
     "genres": [
       1,
@@ -4886,8 +4913,8 @@
       "url": "https://www.imphenzia.com/contact",
       "email": "stefan@imphenzia.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187470/page_bg_generated_v6b.jpg?t=1729260639",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187470/page_bg_generated.jpg?t=1729260639",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3187470?t=1751692114",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3187470?t=1751692114",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -4970,8 +4997,8 @@
       "url": "https://theoclarkeart.weebly.com/",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188810/page_bg_generated_v6b.jpg?t=1727110931",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188810/page_bg_generated.jpg?t=1727110931",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3188810?t=1727110931",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3188810?t=1727110931",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5034,8 +5061,8 @@
       "url": "https://www.mixerxr.com/support",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188390/page_bg_generated_v6b.jpg?t=1725643137",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188390/page.bg.jpg?t=1725643137",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3188390?t=1725643137",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188390/page_bg_raw.jpg?t=1725643137",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5097,8 +5124,8 @@
       "url": "https://discord.gg/Ux3Epykfmb",
       "email": "contact@pingleap.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187240/page_bg_generated_v6b.jpg?t=1726850446",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187240/page_bg_generated.jpg?t=1726850446",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3187240?t=1726850446",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3187240?t=1726850446",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5172,8 +5199,8 @@
       "url": "https://x.com/eyes_trash",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187110/page_bg_generated_v6b.jpg?t=1725937730",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187110/page_bg_generated.jpg?t=1725937730",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3187110?t=1725937730",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3187110?t=1725937730",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5210,9 +5237,9 @@
       "name": "Aurascope"
     },
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188440/header.jpg?t=1725390020",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188440/c80b51b4b94c5267e759a0c1578d17f7e90e1081/capsule_231x87.jpg?t=1725390020",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188440/c80b51b4b94c5267e759a0c1578d17f7e90e1081/capsule_184x69.jpg?t=1725390020",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188440/header.jpg?t=1737200628",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188440/70e0d09a0477865fe74e576b8abe4a7953df73c1/capsule_231x87.jpg?t=1737200628",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188440/70e0d09a0477865fe74e576b8abe4a7953df73c1/capsule_184x69.jpg?t=1737200628",
     "website": "https://aurascope.net",
     "developers": [
       "Nick Oztok"
@@ -5248,8 +5275,8 @@
       "url": "https://aurascope.net",
       "email": "nick@aurascope.net"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188440/page_bg_generated_v6b.jpg?t=1725390020",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188440/page_bg_generated.jpg?t=1725390020",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3188440?t=1737200628",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3188440?t=1737200628",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5504,8 +5531,8 @@
       "url": "https://taskgems.com",
       "email": "support@taskgems.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188470/page_bg_generated_v6b.jpg?t=1729276757",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188470/page_bg_generated.jpg?t=1729276757",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3188470?t=1729276757",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3188470?t=1729276757",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5540,16 +5567,16 @@
       "appid": "2960250",
       "name": "Tempus Triad"
     },
-    "supported_languages": "English, French, German, Spanish - Spain, Simplified Chinese, Japanese, Portuguese - Brazil, Russian",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186190/header.jpg?t=1727113846",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186190/ce2a5793aaeb5c2c9b3be4e41d3c418eef5cee54/capsule_231x87.jpg?t=1727113846",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186190/ce2a5793aaeb5c2c9b3be4e41d3c418eef5cee54/capsule_184x69.jpg?t=1727113846",
+    "supported_languages": "English, French, German, Spanish - Spain, Simplified Chinese, Japanese, Portuguese - Brazil, Russian, Traditional Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186190/header.jpg?t=1742551718",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186190/ce2a5793aaeb5c2c9b3be4e41d3c418eef5cee54/capsule_231x87.jpg?t=1742551718",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186190/ce2a5793aaeb5c2c9b3be4e41d3c418eef5cee54/capsule_184x69.jpg?t=1742551718",
     "website": null,
     "developers": [
       "Mendesz"
     ],
     "publishers": [
-      "Mendesz"
+      "Pretty Soon"
     ],
     "package_groups": [],
     "platforms": {
@@ -5573,8 +5600,8 @@
       "url": "",
       "email": "geraldoma2000@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186190/page_bg_generated_v6b.jpg?t=1727113846",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186190/page.bg.jpg?t=1727113846",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3186190?t=1742551718",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186190/page_bg_raw.jpg?t=1742551718",
     "content_descriptors": {
       "ids": [
         2,
@@ -5647,8 +5674,8 @@
       "url": "https://gamegaard.com/",
       "email": "support@gamegaard.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187570/page_bg_generated_v6b.jpg?t=1725419855",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187570/page.bg.jpg?t=1725419855",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3187570?t=1725419855",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187570/page_bg_raw.jpg?t=1725419855",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5685,9 +5712,9 @@
       "name": "Empty Skull"
     },
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Korean, Russian, Turkish, Ukrainian, Japanese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188560/header.jpg?t=1725951979",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188560/923658af280c507037a6c59849148946437a01f0/capsule_231x87.jpg?t=1725951979",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188560/923658af280c507037a6c59849148946437a01f0/capsule_184x69.jpg?t=1725951979",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188560/header.jpg?t=1755171560",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188560/923658af280c507037a6c59849148946437a01f0/capsule_231x87.jpg?t=1755171560",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188560/923658af280c507037a6c59849148946437a01f0/capsule_184x69.jpg?t=1755171560",
     "website": null,
     "developers": [
       "Ironbellys Crew"
@@ -5698,7 +5725,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": false
     },
     "categories": [
@@ -5719,8 +5746,8 @@
       "url": "",
       "email": "ironbellys.crew@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188560/page_bg_generated_v6b.jpg?t=1725951979",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188560/page.bg.jpg?t=1725951979",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3188560?t=1755171560",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188560/page_bg_raw.jpg?t=1755171560",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5877,8 +5904,8 @@
       "url": "http://com3d2.world",
       "email": "en_support@kisskiss.tv"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187910/page_bg_generated_v6b.jpg?t=1726129572",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187910/page.bg.jpg?t=1726129572",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3187910?t=1726129572",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187910/page_bg_raw.jpg?t=1726129572",
     "content_descriptors": {
       "ids": [
         1,
@@ -8444,8 +8471,8 @@
       "url": "",
       "email": "pressfstudio.gamedev@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186930/page_bg_generated_v6b.jpg?t=1729375023",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186930/page_bg_generated.jpg?t=1729375023",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3186930?t=1729375023",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3186930?t=1729375023",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -8511,8 +8538,8 @@
       "url": "https://www.linkedin.com/company/lazy-lion-games/",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186980/page_bg_generated_v6b.jpg?t=1729128967",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186980/page.bg.jpg?t=1729128967",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3186980?t=1729128967",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186980/page_bg_raw.jpg?t=1729128967",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -8593,8 +8620,8 @@
       "url": "",
       "email": "demetree9@yahoo.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186370/page_bg_generated_v6b.jpg?t=1727732378",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186370/page.bg.jpg?t=1727732378",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3186370?t=1727732378",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186370/page_bg_raw.jpg?t=1727732378",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -15009,5 +15036,38 @@
         "descriptors": ""
       }
     }
+  },
+  "3186720": {
+    "type": "game",
+    "name": "Double Whammy Playtest",
+    "steam_appid": 3186720,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186720/dfe49d38ac6dd23ee02b5c7a1ffa078a8b17787f/header.jpg?t=1757796387",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186720/ec83bb2001d0dc5ed917e7c2c17b1dbc83fb24d0/capsule_231x87.jpg?t=1757796387",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186720/ec83bb2001d0dc5ed917e7c2c17b1dbc83fb24d0/capsule_184x69.jpg?t=1757796387",
+    "website": null,
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "release_date": {
+      "coming_soon": false,
+      "date": "13 Sep, 2025"
+    },
+    "support_info": {
+      "url": "",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3186720?t=1757796387",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3186720?t=1757796387",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": null
   }
 }
