@@ -5583,11 +5583,12 @@
     "steam_appid": 2622500,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Escape a concealed, mutated monster disrupting your scavenging. Master the running, jumping, swinging, shooting and combining upgrades to end up becoming the poweful beast you initially feared, turning the cave system from a nightmarish hollow into a playground.",
+    "controller_support": "full",
+    "short_description": "Escape a concealed, mutated monster that's disrupting your scavenging. Master running, jumping, swinging, shooting and combining upgrades to end up as the powerful beast you once feared, turning the cave system from a nightmarish hollow into a playground.",
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2622500/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2622500/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2622500/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622500/header.jpg?t=1725092865",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622500/capsule_231x87.jpg?t=1725092865",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622500/capsule_184x69.jpg?t=1725092865",
     "website": null,
     "developers": [
       "DualWielded"
@@ -5595,15 +5596,30 @@
     "publishers": [
       "DualWielded"
     ],
-    "package_groups": [],
+    "packages": [
+      940718
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Incaved Runner",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
-      22
+      22,
+      28,
+      62
     ],
     "genres": [
       1,
@@ -5611,19 +5627,40 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 26
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "30 Aug, 2024"
     },
     "support_info": {
       "url": "",
       "email": "dualwielded1@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2622500/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2622500/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2622500?t=1725092865",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622500/page_bg_raw.jpg?t=1725092865",
     "content_descriptors": {
       "ids": [],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drogas\nViol\u00eancia fantasiosa"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drogen"
+      }
     }
   },
   "2622660": {
@@ -6717,9 +6754,9 @@
       "name": "Dirty Room"
     },
     "supported_languages": "English<strong>*</strong>, Simplified Chinese, Traditional Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2622480/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2622480/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2622480/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622480/header.jpg?t=1697904476",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622480/capsule_231x87.jpg?t=1697904476",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622480/capsule_184x69.jpg?t=1697904476",
     "website": null,
     "developers": [
       "Tactic Forge"
@@ -6768,14 +6805,30 @@
       "url": "",
       "email": "info@tacticforge.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2622480/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2622480/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2622480?t=1697904476",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2622480?t=1697904476",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating": "16",
+        "descriptors": "Viol\u00eancia Extrema\r\nMedo\r\nLinguagem impr\u00f3pria",
+        "use_age_gate": "true",
+        "required_age": "16"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "0",
+        "required_age": "0",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": ""
+      }
     }
   },
   "2623570": {
@@ -7998,9 +8051,9 @@
       "name": "Tank Squad"
     },
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Simplified Chinese, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Turkish, Hungarian<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2622470/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2622470/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2622470/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622470/header.jpg?t=1745853506",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622470/capsule_231x87.jpg?t=1745853506",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622470/capsule_184x69.jpg?t=1745853506",
     "website": "https://degenerals.com/en/our-games#ts",
     "developers": [
       "DeGenerals S.A."
@@ -8030,14 +8083,32 @@
       "url": "https://degenerals.com/en/contact",
       "email": "support@degenerals.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2622470/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2622470/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2622470?t=1745853506",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2622470?t=1745853506",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "The violence/brutality that we want to add to the game is that the infantry/soldiers bodies can be dismembered (after, for example, an artillery shell or a bomb explodes near that soldier), or be burnt (with flame thrower). This game will be a grim and realistic depiction of horrors of war."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "18",
+        "required_age": "18",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Drastische Gewalt"
+      }
     }
   },
   "2622100": {
@@ -11370,13 +11441,14 @@
     "required_age": 0,
     "is_free": true,
     "dlc": [
-      2627320
+      2627320,
+      2722510
     ],
     "short_description": "If you're nervous about job searching and interviews, face your fears head-on in &quot;Welcome to the Karoshi Club&quot; a Japanese horror business punk visual novel.",
-    "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2624950/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2624950/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2624950/capsule_184x69.jpg",
+    "supported_languages": "English, Russian, Japanese, Italian, Vietnamese, Spanish - Spain, Spanish - Latin America",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2624950/header.jpg?t=1756034150",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2624950/capsule_231x87.jpg?t=1756034150",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2624950/capsule_184x69.jpg?t=1756034150",
     "website": null,
     "developers": [
       "Kamishibai Interactive"
@@ -11397,21 +11469,42 @@
     "genres": [
       23
     ],
+    "achievements": {
+      "total": 5
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "27 Dec, 2023"
     },
     "support_info": {
-      "url": "",
+      "url": "kamishibai.dev",
       "email": "kamishibaiinteractive@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2624950/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2624950/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2624950?t=1756034150",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2624950?t=1756034150",
     "content_descriptors": {
       "ids": [
         5
       ],
-      "notes": "The game is an experience that combines a job interview with horror elements.\r\nIt's okay and not as horrible as you may think!\r\n\r\nAlmost..."
+      "notes": "The game is an experience that combines a job interview with horror elements.\r\nThe job interview is okay and not as horrible as you may think!\r\n\r\nAlmost..."
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "14",
+        "required_age": "14",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia\nMedo\nLinguagem impr\u00f3pria"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "16",
+        "required_age": "16",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Horror"
+      }
     }
   },
   "2624610": {
