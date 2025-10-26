@@ -4083,17 +4083,24 @@
     "steam_appid": 3937560,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Fight horrible creatures. Devour other fairytales' hearts. Set the Princess free from her cage... and rewrite her fate!",
+    "controller_support": "full",
+    "short_description": "Fight horrible creatures. Devour other fairytales' hearts. Set the Princess free from her cage...and rewrite her fate! To Crown or to Destroy is a narrative RPG inspired by dark fairy tales, and tragic love stories.",
     "supported_languages": "English, Italian",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937560/da8e4ce64388c4ec01dafc05c07e7c7a4bc1ab95/header.jpg?t=1756115094",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937560/dfd3c3870a07d6e327daf8ceee7de7a79c75d151/capsule_231x87.jpg?t=1756115094",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937560/dfd3c3870a07d6e327daf8ceee7de7a79c75d151/capsule_184x69.jpg?t=1756115094",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937560/da8e4ce64388c4ec01dafc05c07e7c7a4bc1ab95/header.jpg?t=1758033699",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937560/dfd3c3870a07d6e327daf8ceee7de7a79c75d151/capsule_231x87.jpg?t=1758033699",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937560/dfd3c3870a07d6e327daf8ceee7de7a79c75d151/capsule_184x69.jpg?t=1758033699",
     "website": "https://www.sezhes.com/",
     "developers": [
       "Sezhes"
     ],
     "publishers": [
       "Sezhes"
+    ],
+    "demos": [
+      {
+        "appid": 4039640,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4105,6 +4112,7 @@
       2,
       22,
       23,
+      28,
       62,
       68,
       74,
@@ -4124,30 +4132,30 @@
       "url": "https://www.sezhes.com/",
       "email": "sezhes.gamedev@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3937560?t=1756115094",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3937560?t=1756115094",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3937560?t=1758033699",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3937560?t=1758033699",
     "content_descriptors": {
       "ids": [
         5
       ],
-      "notes": null
+      "notes": "- Fantasy violence\r\n- Blood\r\n- Objectification of women"
     },
     "ratings": {
       "dejus": {
         "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
+        "rating": "14",
+        "required_age": "14",
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": "Viol\u00eancia"
       },
       "steam_germany": {
         "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
+        "rating": "16",
+        "required_age": "16",
         "banned": "0",
         "use_age_gate": "0",
-        "descriptors": "Gewalt"
+        "descriptors": "Drastische Gewalt"
       }
     }
   },
@@ -4160,9 +4168,9 @@
     "controller_support": "full",
     "short_description": "Top-down dual stick shooter, help Nugget to find her path and combat against Rosties in the game or other minigames.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/f66392783fc615024c2314438b77f1034f0cdff9/header.jpg?t=1755318622",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/3ef7693ccc99d0d11d8c0e2b0fa74e75a21ef6ef/capsule_231x87.jpg?t=1755318622",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/3ef7693ccc99d0d11d8c0e2b0fa74e75a21ef6ef/capsule_184x69.jpg?t=1755318622",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/a83c361f09f6a0d599d8da3c8ff27791ba9959b9/header.jpg?t=1761066598",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/3ef7693ccc99d0d11d8c0e2b0fa74e75a21ef6ef/capsule_231x87.jpg?t=1761066598",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/3ef7693ccc99d0d11d8c0e2b0fa74e75a21ef6ef/capsule_184x69.jpg?t=1761066598",
     "website": "https://www.quacksquad.es/",
     "developers": [
       "Boxcutter L.A"
@@ -4170,7 +4178,20 @@
     "publishers": [
       "BoxCutter L.A"
     ],
-    "package_groups": [],
+    "packages": [
+      1383378
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy QuackSquad",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -4178,7 +4199,6 @@
     },
     "categories": [
       2,
-      14,
       28,
       62,
       67,
@@ -4189,16 +4209,19 @@
       1,
       23
     ],
+    "achievements": {
+      "total": 9
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "25 Sep, 2025"
     },
     "support_info": {
       "url": "https://quacksquad.es/",
       "email": "quackcentral@quacksquad.es"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3937960?t=1755318622",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/a7f36400e1b5698628dcc3553082df835d9033c2/page_bg_raw.jpg?t=1755318622",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3937960?t=1761066598",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/a7f36400e1b5698628dcc3553082df835d9033c2/page_bg_raw.jpg?t=1761066598",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -4231,16 +4254,22 @@
     "controller_support": "full",
     "short_description": "Start digging with your grandpa\u2019s map! In this stylized co-op digging game (up to 4 players), dig, upgrade, and reach the treasure together. Work as a team or compete! Fun, chaos, and rivalry await deep underground.",
     "supported_languages": "English, French, Italian, German, Simplified Chinese, Traditional Chinese, Japanese, Korean, Portuguese - Portugal, Russian, Turkish, Swedish",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3938040/081e366e86da2ddc5b94c09423c623a4a53643e2/header.jpg?t=1755869469",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3938040/641fd380d2ab575336d4b65fe405d55d8cdaec4c/capsule_231x87.jpg?t=1755869469",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3938040/641fd380d2ab575336d4b65fe405d55d8cdaec4c/capsule_184x69.jpg?t=1755869469",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3938040/081e366e86da2ddc5b94c09423c623a4a53643e2/header.jpg?t=1760210225",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3938040/641fd380d2ab575336d4b65fe405d55d8cdaec4c/capsule_231x87.jpg?t=1760210225",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3938040/641fd380d2ab575336d4b65fe405d55d8cdaec4c/capsule_184x69.jpg?t=1760210225",
     "website": "https://www.subergamestudio.com",
     "developers": [
       "Suber Game Studio",
       "Cem Bal"
     ],
     "publishers": [
-      "Suber Game Studio"
+      "PlayWay S.A."
+    ],
+    "demos": [
+      {
+        "appid": 4057650,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4265,14 +4294,14 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q3 2025"
+      "date": "Q4 2025"
     },
     "support_info": {
       "url": "https://www.subergamestudio.com",
       "email": "subergamestudio@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3938040?t=1755869469",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3938040/a3b3650694bd2dea49fc02d30e48dcee5eb5d01c/page_bg_raw.jpg?t=1755869469",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3938040?t=1760210225",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3938040/a3b3650694bd2dea49fc02d30e48dcee5eb5d01c/page_bg_raw.jpg?t=1760210225",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -4305,15 +4334,21 @@
     "controller_support": "full",
     "short_description": "A pleasant evening to relax - but not here. Get dressed, fix your hair, and strike a winning pose. Try building a tower out of your small figurines alone, or gather up to 4 players. A lucky figurine can lead to victory - or defeat.",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936900/6863c7c5e5cd5f2d2a86e9b99a477afa02131f99/header.jpg?t=1755396875",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936900/32b9e4d79860072331c506a0636a9164087e1c2c/capsule_231x87.jpg?t=1755396875",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936900/32b9e4d79860072331c506a0636a9164087e1c2c/capsule_184x69.jpg?t=1755396875",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936900/6863c7c5e5cd5f2d2a86e9b99a477afa02131f99/header.jpg?t=1758568767",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936900/32b9e4d79860072331c506a0636a9164087e1c2c/capsule_231x87.jpg?t=1758568767",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936900/32b9e4d79860072331c506a0636a9164087e1c2c/capsule_184x69.jpg?t=1758568767",
     "website": "https://www.soloq-dev.com/",
     "developers": [
       "SoloQ"
     ],
     "publishers": [
       "SoloQ"
+    ],
+    "demos": [
+      {
+        "appid": 3960000,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4348,11 +4383,11 @@
       "date": "Coming soon"
     },
     "support_info": {
-      "url": "https://discord.gg/EfqDZA2Pxq",
+      "url": "https://discord.gg/v2sH88FTyM",
       "email": ""
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3936900?t=1755396875",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3936900?t=1755396875",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3936900?t=1758568767",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3936900?t=1758568767",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -4456,10 +4491,10 @@
       "appid": "3898070",
       "name": "SUSPECTO"
     },
-    "supported_languages": "English, French, German, Spanish - Spain, Simplified Chinese, Japanese, Korean, Portuguese - Portugal, Russian, Turkish",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936300/ecb04ebada5c66234597c72f3943827084ec7e3d/header.jpg?t=1755466538",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936300/569a1db2c58008f3d762b51ef13446e6b92d7853/capsule_231x87.jpg?t=1755466538",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936300/569a1db2c58008f3d762b51ef13446e6b92d7853/capsule_184x69.jpg?t=1755466538",
+    "supported_languages": "English, French, German, Spanish - Spain, Simplified Chinese, Japanese, Korean, Portuguese - Portugal, Russian, Turkish, Italian, Indonesian, Polish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936300/95ba4d2c97cac75fe425ec995a1f62f5b3e19775/header.jpg?t=1758831016",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936300/fd4c8e0e3a55297857911364464f6480182ec025/capsule_231x87.jpg?t=1758831016",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936300/fd4c8e0e3a55297857911364464f6480182ec025/capsule_184x69.jpg?t=1758831016",
     "website": "https://www.yorqstudios.com/suspecto",
     "developers": [
       "YORQ Studios"
@@ -4497,8 +4532,8 @@
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSdw8bVy0eHsx2dyj7tCB8LBLbVqo2YMZHikzrFZh-NIrK84wA/viewform",
       "email": "suspecto@yorqstudio.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3936300?t=1755466538",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936300/83a0215344c2377a7fc3790a582ad863156885c4/page_bg_raw.jpg?t=1755466538",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3936300?t=1758831016",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936300/220368af9b2c26818d1c56549c217eea38db98e2/page_bg_raw.jpg?t=1758831016",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -4530,9 +4565,9 @@
     "is_free": false,
     "short_description": "Become a sky architect in this relaxing, cozy, building and management sim. Meet charming characters and design unique houses just for them! Go shopping for new decorations, renovate their homes and discover the keys to their hearts.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936940/284127289eeb8463718913ffeb6d6e63f26f6f55/header.jpg?t=1755720461",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936940/3d6f0c8ecf36ff391d79d09811b5635c04ee6b72/capsule_231x87.jpg?t=1755720461",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936940/3d6f0c8ecf36ff391d79d09811b5635c04ee6b72/capsule_184x69.jpg?t=1755720461",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936940/284127289eeb8463718913ffeb6d6e63f26f6f55/header.jpg?t=1760269611",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936940/3d6f0c8ecf36ff391d79d09811b5635c04ee6b72/capsule_231x87.jpg?t=1760269611",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936940/3d6f0c8ecf36ff391d79d09811b5635c04ee6b72/capsule_184x69.jpg?t=1760269611",
     "website": null,
     "developers": [
       "Clover Bite"
@@ -4559,14 +4594,14 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2025"
+      "date": "Q1 2026"
     },
     "support_info": {
       "url": "",
       "email": "tidbitclover@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3936940?t=1755720461",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3936940?t=1755720461",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3936940?t=1760269611",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936940/6c6f8954bb773aff2d9242b66c91bc50d7f1eb49/page_bg_raw.jpg?t=1760269611",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -11660,6 +11695,73 @@
         "banned": "0",
         "use_age_gate": "0",
         "descriptors": ""
+      }
+    }
+  },
+  "3937680": {
+    "type": "game",
+    "name": "Arcane Shores",
+    "steam_appid": 3937680,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "From a humble settlement to a mystical stronghold, Arcane Shores challenges you to guide a primitive civilization through an extraordinary transformation. What begins as a village of wooden houses and cozy taverns evolves into a magical kingdom wielding forces beyond imagination.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937680/2503a61ef96be60dfd8a4a900cca2e92d87c0d68/header.jpg?t=1761495540",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937680/f19536d9e7f7bfb3aab9eddf24fd6d90b4dfcc88/capsule_231x87.jpg?t=1761495540",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937680/f19536d9e7f7bfb3aab9eddf24fd6d90b4dfcc88/capsule_184x69.jpg?t=1761495540",
+    "website": null,
+    "developers": [
+      "Absent Slumber"
+    ],
+    "publishers": [
+      "Absent Slumber"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      2,
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "None",
+      "email": "None"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3937680?t=1761495540",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3937680?t=1761495540",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    },
+    "ratings": {
+      "dejus": {
+        "rating_generated": "1",
+        "rating": "10",
+        "required_age": "10",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Viol\u00eancia"
+      },
+      "steam_germany": {
+        "rating_generated": "1",
+        "rating": "12",
+        "required_age": "12",
+        "banned": "0",
+        "use_age_gate": "0",
+        "descriptors": "Gewalt"
       }
     }
   }
