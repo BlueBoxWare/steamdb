@@ -1,6 +1,6 @@
 Data on all Steam games.
 
-Mildly up-to-date: games with higher ids are updated more often, games with lower ids less often.
+Currently not updated (broken)
 
 - `data/`: JSON data on all Steam games. A game with `id` can be found in the file `floor(id / 3000)`.
 - `lists/`
