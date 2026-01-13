@@ -13,7 +13,7 @@ from urllib.parse import ParseResult, urlparse
 
 STATE_FILE_NAME = "state"
 
-APPLIST_URL = "https://api.steampowered.com/ISteamApps/GetAppList/v2/"
+APPLIST_URL = "https://raw.githubusercontent.com/jsnli/steamappidlist/refs/heads/master/data/games_appid.json"
 APPINFO_URL = "https://store.steampowered.com/api/appdetails?l=english&appids="
 
 SLEEP = 2
