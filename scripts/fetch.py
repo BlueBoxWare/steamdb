@@ -172,7 +172,13 @@ else:
 
 new_item_count = 0
 ids = set()
-for app in json_obj["applist"]["apps"]:
+
+# Handle both old Steam API format (dict) and new GitHub list format (list)
+apps_source = json_obj
+if isinstance(json_obj, dict) and "applist" in json_obj:
+    apps_source = json_obj["applist"]["apps"]
+
+for app in apps_source:
     id = int(app["appid"])
     ids.add(id)
     if id not in known_ids:
