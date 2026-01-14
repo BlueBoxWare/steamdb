@@ -13,7 +13,7 @@ from urllib.parse import ParseResult, urlparse
 
 STATE_FILE_NAME = "state"
 
-APPLIST_URL = "https://api.steampowered.com/ISteamApps/GetAppList/v2/"
+APPLIST_URL = "https://raw.githubusercontent.com/jsnli/steamappidlist/refs/heads/master/data/games_appid.json"
 APPINFO_URL = "https://store.steampowered.com/api/appdetails?l=english&appids="
 
 SLEEP = 2
@@ -172,7 +172,13 @@ else:
 
 new_item_count = 0
 ids = set()
-for app in json_obj["applist"]["apps"]:
+
+# Handle both old Steam API format (dict) and new GitHub list format (list)
+apps_source = json_obj
+if isinstance(json_obj, dict) and "applist" in json_obj:
+    apps_source = json_obj["applist"]["apps"]
+
+for app in apps_source:
     id = int(app["appid"])
     ids.add(id)
     if id not in known_ids:
