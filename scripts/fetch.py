@@ -32,6 +32,7 @@ DELETE = [
     "pc_requirements",
     "mac_requirements",
     "linux_requirements",
+    "ratings",
 ]
 
 
@@ -44,6 +45,7 @@ class State(NamedTuple):
 
 state: dict[int, State] = {}
 known_ids: set[int] = set()
+
 
 ##
 ## Helpers
@@ -214,7 +216,6 @@ if args.number and len(queue) > args.number:
     queue = queue[: args.number]
 
 elif not args.new:
-
     BUCKETS.insert(0, 0)
     items_per_bucket = (args.number - len(queue)) // len(BUCKETS)
     ids = sorted(
