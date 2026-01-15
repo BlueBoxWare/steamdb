@@ -110,7 +110,7 @@ def transform(js: Any, transformer: Callable[[str], str]) -> Any:
 
 def urlrewrite(url: str) -> str:
     u = urlparse(url)
-    if u.netloc == "cdn.akamai.steamstatic.com" and "=" in u.query:
+    if u.netloc.endswith("akamai.steamstatic.com") and "=" in u.query:
         name, value = u.query.split("=")
         if name == "t" and value.isdigit():
             return ParseResult(u.scheme, u.netloc, u.path, u.params, "", "").geturl()
