@@ -16,7 +16,6 @@ STATE_FILE_NAME = "state"
 APPLIST_URL = "https://raw.githubusercontent.com/jsnli/steamappidlist/refs/heads/master/data/games_appid.json"
 APPINFO_URL = "https://store.steampowered.com/api/appdetails?l=english&appids="
 
-SLEEP = 2
 BACKOFF = [5, 20, 60, 120]
 BUCKETS: list[int] = [100, 500, 1000, 2000, 5000, 10000, 50000, 100000]
 
@@ -142,6 +141,9 @@ parser.add_argument("datadir", help="data directory")
 parser.add_argument("number", help="number of apps to fetch", type=int)
 parser.add_argument("--new", help="new apps only", action="store_true")
 parser.add_argument("--file", help="load list of apps from <file>", metavar="<file>")
+parser.add_argument(
+    "--sleep", help="number of seconds to sleep between fetches", type=int, default=3
+)
 parser.add_argument("--stats", help="print stats only", action="store_true")
 parser.add_argument("-b", "--batch", help="batch size", type=int)
 parser.add_argument("-q", "--quiet", help="don't report progress", action="store_true")
@@ -238,7 +240,7 @@ for game_id in queue:
     if args.batch and batch_count > args.batch:
         save()
         batch_count = 0
-        sleep(SLEEP)
+        sleep(args.sleep)
 
     full_url = APPINFO_URL + str(game_id)
     req = request(full_url)
@@ -273,7 +275,7 @@ for game_id in queue:
     except KeyError as e:
         progress(f"E: {game_id}. ")
         state[game_id] = State(timestamp, state[game_id].count + 1, error=True)
-        sleep(SLEEP)
+        sleep(args.sleep)
         continue
 
     for d in DELETE:
@@ -311,6 +313,6 @@ for game_id in queue:
 
     state[game_id] = State(timestamp, state[game_id].count + 1)
 
-    sleep(SLEEP)
+    sleep(args.sleep)
 
 save()
