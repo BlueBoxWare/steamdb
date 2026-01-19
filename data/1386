@@ -1217,12 +1217,12 @@
     "steam_appid": 4160160,
     "required_age": 0,
     "is_free": true,
-    "short_description": "You will own nothing and be happy. You can't afford a house, but you can afford Dumbubu Desktop Pet. &quot;Nurture&quot; Dumbubu and receive random skins tradeable on Steam Market.",
+    "short_description": "You will own nothing and be happy. You can't afford a house, but you can afford Dumbubu Desktop Pet. Torture your Dumbubu and earn random Blind Boxes.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160160/466bd7a936cef7180f574f4d79ec0e8831869910/header.jpg?t=1762570278",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160160/551fe5bedc00b865c217165a1e29b3044e70727f/capsule_231x87.jpg?t=1762570278",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160160/551fe5bedc00b865c217165a1e29b3044e70727f/capsule_184x69.jpg?t=1762570278",
-    "website": null,
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160160/466bd7a936cef7180f574f4d79ec0e8831869910/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160160/551fe5bedc00b865c217165a1e29b3044e70727f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160160/551fe5bedc00b865c217165a1e29b3044e70727f/capsule_184x69.jpg",
+    "website": "https://github.com/jjohnson5253/dumbubu",
     "developers": [
       "Upside Down 9"
     ],
@@ -1236,7 +1236,10 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      15,
+      22,
+      23
     ],
     "genres": [
       4,
@@ -1244,37 +1247,22 @@
       28,
       37
     ],
+    "achievements": {
+      "total": 4
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "December 2025"
+      "coming_soon": false,
+      "date": "19 Dec, 2025"
     },
     "support_info": {
       "url": "",
       "email": "upsidedown9studio@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4160160?t=1762570278",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4160160?t=1762570278",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4160160",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4160160",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4160290": {
@@ -1283,11 +1271,15 @@
     "steam_appid": 4160290,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4209950,
+      4209960
+    ],
     "short_description": "Explore the sweet gingerbread town while finding cute cats and paint black - white locations with colored paints.",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Greek, Simplified Chinese, Korean, Norwegian, Romanian, Russian, Czech, Japanese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/0b93ddb69cfddb2e3dd78eb28722214f14a67b29/header.jpg?t=1762584354",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/30206ca073e67ae816bb8d0f7142c27eded64451/capsule_231x87.jpg?t=1762584354",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/30206ca073e67ae816bb8d0f7142c27eded64451/capsule_184x69.jpg?t=1762584354",
+    "supported_languages": "English, Russian, Czech, Japanese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/0b93ddb69cfddb2e3dd78eb28722214f14a67b29/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/30206ca073e67ae816bb8d0f7142c27eded64451/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/30206ca073e67ae816bb8d0f7142c27eded64451/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Very very LITTLE Studio"
@@ -1295,7 +1287,20 @@
     "publishers": [
       "Very very LITTLE Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1457493
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy HIDDEN CATS 7: Cookie Town",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -1315,37 +1320,22 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 21
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "December 2025"
+      "coming_soon": false,
+      "date": "1 Dec, 2025"
     },
     "support_info": {
       "url": "",
       "email": "VVL.studio.supp@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4160290?t=1762584354",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/4a9276a8e070be6eb7f13843be5f7fff7d07eea7/page_bg_raw.jpg?t=1762584354",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4160290",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/4a9276a8e070be6eb7f13843be5f7fff7d07eea7/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4160850": {
@@ -1422,9 +1412,9 @@
     "is_free": false,
     "short_description": "Crack open surprise eggs and discover what's inside! Find rare toys to get rich or lose it all. Every opening is a gamble, every egg a chance. Build your store, sell eggs or crack them open - no risk, no reward. If luck's on your side, fortune awaits!",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160960/e1bfb7ab6d217a49b3ed9c6c25692da09a93d519/header.jpg?t=1762550657",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160960/d465ebeb8a0526a5b4754cadff5d669b893d7868/capsule_231x87.jpg?t=1762550657",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160960/d465ebeb8a0526a5b4754cadff5d669b893d7868/capsule_184x69.jpg?t=1762550657",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160960/e1bfb7ab6d217a49b3ed9c6c25692da09a93d519/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160960/d465ebeb8a0526a5b4754cadff5d669b893d7868/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160960/d465ebeb8a0526a5b4754cadff5d669b893d7868/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Emre \u015eahin"
@@ -1432,7 +1422,21 @@
     "publishers": [
       "Survivillage"
     ],
-    "package_groups": [],
+    "packages": [
+      1457785,
+      1475854
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy EGGMART",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1452,36 +1456,18 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "26 Nov, 2025"
     },
     "support_info": {
       "url": "None",
       "email": "survivillagegame@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4160960?t=1762550657",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4160960?t=1762550657",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4160960",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4160960",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4159630": {
@@ -1967,18 +1953,17 @@
     "steam_appid": 4158040,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
-    "short_description": "A first-person fast-food simulator where you run your own fried chicken shop. Cook, fry, serve, and manage the chaos with juicy physics, sizzling kitchens, and hungry customers.",
-    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4158040/99be50035878a7e7109d7a7740d6be040f2a6e71/header.jpg?t=1762820161",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4158040/4f1ff03f5d262f765aff38032977b07d72c9441a/capsule_231x87.jpg?t=1762820161",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4158040/4f1ff03f5d262f765aff38032977b07d72c9441a/capsule_184x69.jpg?t=1762820161",
+    "short_description": "Fry and season juicy chicken in your own fried chicken joint!",
+    "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4158040/60e6e99f311ebb7b01d936f8b8b97541ffc176b3/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4158040/c1186af0bf698c3a0ed8efcd0b52c3c3947e6896/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4158040/c1186af0bf698c3a0ed8efcd0b52c3c3947e6896/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Chicken Fries"
+      "Turquoise Games"
     ],
     "publishers": [
-      "Chicken Fries"
+      "Turquoise Games"
     ],
     "package_groups": [],
     "platforms": {
@@ -1987,12 +1972,9 @@
       "linux": false
     },
     "categories": [
-      1,
       2,
-      9,
+      15,
       22,
-      28,
-      38,
       62
     ],
     "genres": [
@@ -2008,29 +1990,11 @@
       "url": "",
       "email": "contact@bks.games"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4158040?t=1762820161",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4158040?t=1762820161",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4158040",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4158040",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4158380": {
