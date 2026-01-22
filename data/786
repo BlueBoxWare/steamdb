@@ -2330,11 +2330,12 @@
     "steam_appid": 2359270,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Minimalist precision platformer starring a cute chicken. Flap your wings, avoid obstacles, get to the top of the tower and become Bravest Chicken!",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2359270/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2359270/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2359270/capsule_184x69.jpg",
+    "controller_support": "full",
+    "short_description": "A minimalist precision platformer about a cute chicken. Jump, flap your wings and avoid obstacles. Can you reach the top and become the Bravest Chicken?",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2359270/dd5959d3942031562a62e017066144871d33750a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2359270/e3db209dc4a4ae73feccec6a0fc1fc0c77fe9fa1/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2359270/e3db209dc4a4ae73feccec6a0fc1fc0c77fe9fa1/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Frajda Games"
@@ -2342,29 +2343,55 @@
     "publishers": [
       "Frajda Games"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 3040310,
+        "description": ""
+      }
+    ],
+    "packages": [
+      847699
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Bravest Chicken",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      22,
+      23,
+      28,
+      62,
+      75
     ],
     "genres": [
       4,
       23
     ],
+    "achievements": {
+      "total": 27
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "December 2023"
+      "coming_soon": false,
+      "date": "25 Nov, 2025"
     },
     "support_info": {
       "url": "",
       "email": "frajdameansfun@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2359270/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2359270/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2359270",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2359270",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -3522,15 +3549,18 @@
   },
   "2358040": {
     "type": "game",
-    "name": "Fantasy Craft",
+    "name": "Magisterium: Fantasy Craft",
     "steam_appid": 2358040,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Fantasy Craft is a medieval fantasy life simulator with survival and RPG elements. Build, craft, hunt, go fishing, farm, cook, brew potions, explore the world, go treasure hunting and fight monsters.",
-    "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2358040/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2358040/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2358040/capsule_184x69.jpg",
+    "dlc": [
+      4054140
+    ],
+    "short_description": "A grinding medieval fantasy life sim with a detailed complex crafting system complemented by survival and RPG elements. Grind resources, craft items, trade with locals, master professions, fulfill quests and explore the world to uncover its long-lost secrets.",
+    "supported_languages": "English, French, German, Portuguese - Brazil, Russian, Spanish - Spain, Polish, Japanese, Swedish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358040/5763be839545d0d036a6a6205353dcda8a6e5cbb/header_alt_assets_1.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358040/515660a3b791f5d31ee6379d9ac6129b28a87928/capsule_231x87_alt_assets_1.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358040/515660a3b791f5d31ee6379d9ac6129b28a87928/capsule_184x69_alt_assets_1.jpg",
     "website": null,
     "developers": [
       "The Spiteful Games"
@@ -3544,9 +3574,8 @@
     "package_groups": [
       {
         "name": "default",
-        "title": "Buy Fantasy Craft",
+        "title": "Buy Magisterium: Fantasy Craft",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -3561,7 +3590,8 @@
       1,
       2,
       9,
-      38
+      38,
+      62
     ],
     "genres": [
       1,
@@ -3580,8 +3610,8 @@
       "url": "",
       "email": "thespitefulgames@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2358040/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2358040/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2358040",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358040/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5224,16 +5254,15 @@
   },
   "2358420": {
     "type": "game",
-    "name": "Madhouse Madness",
+    "name": "Madhouse Madness: Streamer's Fate",
     "steam_appid": 2358420,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
-    "short_description": "&quot;Madhouse Madness: The streamer's nightmare becomes your reality. Immerse yourself in this chilling psychological horror adventure, explore an abandoned asylum, and uncover the streamer's fate.&quot;",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Simplified Chinese, Portuguese - Brazil, Bulgarian, Danish, Dutch, Finnish, Traditional Chinese, Japanese, Korean, Spanish - Latin America, Polish, Hungarian, Norwegian, Portuguese - Portugal, Romanian, Russian, Thai, Turkish, Ukrainian, Vietnamese, Greek, Czech, Swedish, Hebrew, Indonesian, Persian, Hindi, Serbian",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2358420/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2358420/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2358420/capsule_184x69.jpg",
+    "short_description": "Dive into Madhouse Madness: Streamer's Fate, where your stream turns into a wild, eerie adventure. Uncover secrets, solve puzzles, and expect the unexpected in a haunted asylum where nothing is as it seems. Will you brave the madness and reveal the truth?",
+    "supported_languages": "English<strong>*</strong>, French, German, Simplified Chinese, Portuguese - Brazil, Japanese, Spanish - Latin America, Russian, Turkish<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358420/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358420/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358420/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Hurrycat Studios"
@@ -5241,13 +5270,19 @@
     "publishers": [
       "Hurrycat Studios"
     ],
-    "demos": [
+    "packages": [
+      847385
+    ],
+    "package_groups": [
       {
-        "appid": 2631770,
-        "description": ""
+        "name": "default",
+        "title": "Buy Madhouse Madness: Streamer's Fate",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5256,23 +5291,27 @@
     "categories": [
       2,
       22,
-      28
+      62
     ],
     "genres": [
       1,
       23,
-      25
+      25,
+      28
     ],
+    "achievements": {
+      "total": 20
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "5 Jun, 2024"
     },
     "support_info": {
       "url": "http://www.hurrycatstudios.com",
       "email": "contact@hurrycatstudios.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2358420/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2358420/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2358420",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2358420",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5287,9 +5326,9 @@
     "controller_support": "full",
     "short_description": "Cricket 24 is the culmination of a decade of Cricket video game development and includes teams from every corner of the globe.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2358260/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2358260/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2358260/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358260/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358260/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358260/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Big Ant Studios"
@@ -5305,7 +5344,6 @@
         "name": "default",
         "title": "Buy Cricket 24",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -5329,7 +5367,8 @@
       37,
       38,
       39,
-      49
+      49,
+      62
     ],
     "genres": [
       18,
@@ -5346,8 +5385,8 @@
       "url": "",
       "email": "support@nacon.fr"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2358260/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2358260/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2358260",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358260/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -7776,10 +7815,10 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Death Harvest is a cooperative VR indie game in which players assume the role of a group of survivors from the Boston combat unit - the Reapers. Fight for the survival of your colony in a post-apocalyptic world full of zombies.",
-    "supported_languages": "English<strong>*</strong>, Italian, German, Polish, Russian, Ukrainian, Simplified Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2358600/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2358600/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2358600/capsule_184x69.jpg",
+    "supported_languages": "English<strong>*</strong>, Italian, German, Polish, Russian, Ukrainian, Simplified Chinese, French, Spanish - Spain<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358600/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358600/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358600/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "LaserOnion"
@@ -7795,7 +7834,6 @@
         "name": "default",
         "title": "Buy Death Harvest",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -7813,7 +7851,8 @@
       22,
       38,
       52,
-      54
+      54,
+      62
     ],
     "genres": [
       1,
@@ -7821,7 +7860,7 @@
       70
     ],
     "achievements": {
-      "total": 9
+      "total": 14
     },
     "release_date": {
       "coming_soon": false,
@@ -7831,8 +7870,8 @@
       "url": "",
       "email": "deathharvestvr@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2358600/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2358600/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2358600",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2358600",
     "content_descriptors": {
       "ids": [
         1,
@@ -8643,11 +8682,11 @@
     "steam_appid": 2358770,
     "required_age": 0,
     "is_free": false,
-    "short_description": "ROGUELIKE MILITIA RECRUITMENT SIM \u26aa Assemble a rag-tag army. \u26aa Liberate America from big boss demons. \u26aa Create game-breaking synergies!",
+    "short_description": "A roguelike autobattling deckbuilder. Draft an army of\u2026 Succubi? Tax Accountants? Whales? It\u2019s up to you! Discover thousands of possible synergies based on what fighters you choose. Fights are snappy and turn-based. Recruit your army and let them fight for you!",
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2358770/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2358770/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2358770/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358770/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358770/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358770/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Space Capsule Games",
@@ -8665,7 +8704,6 @@
         "name": "default",
         "title": "Buy Million Monster Militia",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -8677,25 +8715,26 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      22,
+      62
     ],
     "genres": [
-      2,
-      70
+      2
     ],
     "achievements": {
-      "total": 6
+      "total": 77
     },
     "release_date": {
       "coming_soon": false,
-      "date": "17 Aug, 2023"
+      "date": "21 Jun, 2024"
     },
     "support_info": {
       "url": "https://www.dejobaan.com",
       "email": "support@dejobaan.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2358770/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2358770/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2358770",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2358770",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -11855,9 +11894,9 @@
     "is_free": false,
     "short_description": "Kao the Kangaroo: Mystery of the Volcano is a third installment of the epic Kao the Kangaroo 3D platformer series where the player takes control of a brave Kao, who embarks on a journey to save his homeland from an erupting volcano. Help him succeed!",
     "supported_languages": "English, French, Polish",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2360030/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2360030/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2360030/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2360030/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2360030/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2360030/capsule_184x69.jpg",
     "website": "https://kaokangaroo.com/",
     "developers": [
       "Tate Multimedia"
@@ -11873,7 +11912,6 @@
         "name": "default",
         "title": "Buy Kao the Kangaroo: Mystery of the Volcano (2005 re-release)",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -11886,7 +11924,8 @@
     },
     "categories": [
       2,
-      18
+      18,
+      62
     ],
     "genres": [
       1,
@@ -11900,8 +11939,8 @@
       "url": "",
       "email": "contact@tatemultimedia.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2360030/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2360030/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2360030",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2360030/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

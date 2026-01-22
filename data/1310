@@ -8517,11 +8517,11 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Blackjack rogue-like with a Roulette &quot;spin&quot;. Purchase Insurance Policies with unique abilities give you the edge while taking on a larger Roulette wheels with even larger Buy-In Costs.",
+    "short_description": "Blackjack rogue-like with a Roulette &quot;Spin&quot;. Purchase Insurance Policies that provide unique abilities that give you the edge while you take on larger wheels with even larger Buy-Ins.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930450/11caffa16881bca8d14fada4018f441471e5f686/header.jpg?t=1756565435",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930450/4c58b02988534fe3927b8f9f76d337480651a883/capsule_231x87.jpg?t=1756565435",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930450/4c58b02988534fe3927b8f9f76d337480651a883/capsule_184x69.jpg?t=1756565435",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930450/4ef67e23830f8423b4d3903b856dbf60bd4f61d4/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930450/4c58b02988534fe3927b8f9f76d337480651a883/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930450/4c58b02988534fe3927b8f9f76d337480651a883/capsule_184x69.jpg",
     "website": "https://reactvts.com/",
     "developers": [
       "Reactvts"
@@ -8529,17 +8529,29 @@
     "publishers": [
       "Reactvts"
     ],
+    "demos": [
+      {
+        "appid": 4219370,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
-      "linux": true
+      "mac": false,
+      "linux": false
     },
     "categories": [
       2,
       22,
       28,
-      62
+      62,
+      66,
+      67,
+      68,
+      74,
+      76,
+      78
     ],
     "genres": [
       4,
@@ -8553,29 +8565,11 @@
       "url": "https://reactvts.com/",
       "email": "info@reactvts.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3930450?t=1756565435",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3930450?t=1756565435",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3930450",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3930450",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3931070": {
@@ -8726,9 +8720,9 @@
       "name": "Aquarist"
     },
     "supported_languages": "English<strong>*</strong>, Polish<strong>*</strong>, French, Italian, German, Spanish - Spain, Simplified Chinese, Korean, Russian, Turkish, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Japanese, Norwegian, Portuguese - Portugal, Romanian, Swedish, Thai, Traditional Chinese, Ukrainian, Vietnamese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930930/891934089c942a363bb96e5c0167146100a07ffe/header.jpg?t=1756727724",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930930/365967b7c723dc58de0814d574e39f66d51455b5/capsule_231x87.jpg?t=1756727724",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930930/365967b7c723dc58de0814d574e39f66d51455b5/capsule_184x69.jpg?t=1756727724",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930930/891934089c942a363bb96e5c0167146100a07ffe/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930930/365967b7c723dc58de0814d574e39f66d51455b5/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930930/365967b7c723dc58de0814d574e39f66d51455b5/capsule_184x69.jpg",
     "website": "http://www.freemind.games",
     "developers": [
       "FreeMind S.A."
@@ -8737,7 +8731,19 @@
       "PlayWay S.A.",
       "FreeMind S.A."
     ],
-    "package_groups": [],
+    "packages": [
+      1381081
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Aquarist - American Fish DLC",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8762,31 +8768,18 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "15 Sep, 2025"
     },
     "support_info": {
       "url": "http://www.freemind.games",
       "email": "info@freemind.games"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3930930?t=1756727724",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930930/7666d27a884e4837a954ff7c8816bac8e0d68a27/page_bg_raw.jpg?t=1756727724",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3930930",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930930/7666d27a884e4837a954ff7c8816bac8e0d68a27/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "l"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3932940": {
@@ -12054,6 +12047,726 @@
         5
       ],
       "notes": "The game contains scenes with nude characters in sexual poses. All characters are fictional, clearly depicted as adults (18+), and have no relation to real people."
+    }
+  },
+  "3932400": {
+    "type": "dlc",
+    "name": "Monster Hunter Wilds - Pendant: Trot-along Fledgling",
+    "steam_appid": 3932400,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Have this adorable Seikret Fledging trot-alongside you!",
+    "fullgame": {
+      "appid": "2246340",
+      "name": "Monster Hunter Wilds"
+    },
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic, Spanish - Latin America, Portuguese - Brazil<strong>*</strong>, Polish, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932400/b3e201452c05594933d5d7c895ca4af0dfc6bbf7/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932400/3ac99f7793854a81fef26117b581b9416d2f4c4d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932400/3ac99f7793854a81fef26117b581b9416d2f4c4d/capsule_184x69.jpg",
+    "website": "https://www.monsterhunter.com/wilds/",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "packages": [
+      1381564
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Monster Hunter Wilds - Pendant: Trot-along Fledgling",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      21,
+      22,
+      23,
+      27,
+      28,
+      29,
+      38,
+      61,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "15 Dec, 2025"
+    },
+    "support_info": {
+      "url": "http://www.capcom.co.jp/support/contact/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3932400",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932400/25f646e5661db6a5c0bd476a4d5ce9ce8394ff4f/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "3932410": {
+    "type": "dlc",
+    "name": "Monster Hunter Wilds - Pendant: White Turntail",
+    "steam_appid": 3932410,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "A pendant designed to look like a Lynian with a peculiar facial expression and pose.",
+    "fullgame": {
+      "appid": "2246340",
+      "name": "Monster Hunter Wilds"
+    },
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic, Spanish - Latin America, Portuguese - Brazil<strong>*</strong>, Polish, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932410/2e96aff79218b62bef4051f582411101e94cb927/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932410/f2d6fdd3ec5e4ffff97592a6420df06575d4b5f1/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932410/f2d6fdd3ec5e4ffff97592a6420df06575d4b5f1/capsule_184x69.jpg",
+    "website": "https://www.monsterhunter.com/wilds/",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "packages": [
+      1381567,
+      1450079
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Monster Hunter Wilds - Pendant: White Turntail",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      21,
+      22,
+      23,
+      27,
+      28,
+      29,
+      38,
+      61,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "15 Dec, 2025"
+    },
+    "support_info": {
+      "url": "http://www.capcom.co.jp/support/contact/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3932410",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932410/77b1d1d03cc0b4d118417d90dc981216d5d56b32/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "3932420": {
+    "type": "dlc",
+    "name": "Monster Hunter Wilds - Pendant: White Tubby Turntail",
+    "steam_appid": 3932420,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "A pendant designed to look like a long-haired Lynian with a peculiar facial expression and pose.",
+    "fullgame": {
+      "appid": "2246340",
+      "name": "Monster Hunter Wilds"
+    },
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic, Spanish - Latin America, Portuguese - Brazil<strong>*</strong>, Polish, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932420/eaf49d9050ded8f2de18671c7a54fb4d48ad4b07/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932420/bae6830478114d5563522583741ea33a2a0f6bc3/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932420/bae6830478114d5563522583741ea33a2a0f6bc3/capsule_184x69.jpg",
+    "website": "https://www.monsterhunter.com/wilds/",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "packages": [
+      1381570,
+      1450079
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Monster Hunter Wilds - Pendant: White Tubby Turntail",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      21,
+      22,
+      23,
+      27,
+      28,
+      29,
+      38,
+      61,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "15 Dec, 2025"
+    },
+    "support_info": {
+      "url": "http://www.capcom.co.jp/support/contact/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3932420",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932420/707f04f34e95ffe75d247c036cb3e2fb49764d6c/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "3932430": {
+    "type": "dlc",
+    "name": "Monster Hunter Wilds - Pendant: Black Turntail",
+    "steam_appid": 3932430,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "A pendant designed to look like a black-haired Lynian with a peculiar facial expression and pose.",
+    "fullgame": {
+      "appid": "2246340",
+      "name": "Monster Hunter Wilds"
+    },
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic, Spanish - Latin America, Portuguese - Brazil<strong>*</strong>, Polish, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932430/0fde36190479cd953231eb4b8b333b0d97f50477/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932430/758af561b7f935c1b8e8234ebe62bda3f6156a25/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932430/758af561b7f935c1b8e8234ebe62bda3f6156a25/capsule_184x69.jpg",
+    "website": "https://www.monsterhunter.com/wilds/",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "packages": [
+      1381573,
+      1450079
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Monster Hunter Wilds - Pendant: Black Turntail",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      21,
+      22,
+      23,
+      27,
+      28,
+      29,
+      38,
+      61,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "15 Dec, 2025"
+    },
+    "support_info": {
+      "url": "http://www.capcom.co.jp/support/contact/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3932430",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932430/3138964bcd27a4b0765869fe909d697599b15527/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "3932440": {
+    "type": "dlc",
+    "name": "Monster Hunter Wilds - Pendant: Black Tubby Turntail",
+    "steam_appid": 3932440,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "A pendant designed to look like a black long-haired Lynian with a peculiar facial expression and pose.",
+    "fullgame": {
+      "appid": "2246340",
+      "name": "Monster Hunter Wilds"
+    },
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic, Spanish - Latin America, Portuguese - Brazil<strong>*</strong>, Polish, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932440/646d6855d342823fb801cf7723bec1b3b89f5dec/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932440/b30820008095d5fb606dc2181ff76eb33c4574d0/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932440/b30820008095d5fb606dc2181ff76eb33c4574d0/capsule_184x69.jpg",
+    "website": "https://www.monsterhunter.com/wilds/",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "packages": [
+      1381576,
+      1450079
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Monster Hunter Wilds - Pendant: Black Tubby Turntail",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      21,
+      22,
+      23,
+      27,
+      28,
+      29,
+      38,
+      61,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "15 Dec, 2025"
+    },
+    "support_info": {
+      "url": "http://www.capcom.co.jp/support/contact/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3932440",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932440/bf02af15ea666d6402eb97a20e433e6f02bd6f6c/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "3932450": {
+    "type": "dlc",
+    "name": "Monster Hunter Wilds - Pendant: Floating Rath Balloon",
+    "steam_appid": 3932450,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "This Rathalos-shaped balloon pendant flaps its wings as it moves around with you.",
+    "fullgame": {
+      "appid": "2246340",
+      "name": "Monster Hunter Wilds"
+    },
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic, Spanish - Latin America, Portuguese - Brazil<strong>*</strong>, Polish, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932450/dd8c03da9c6e0314916649677416934550760860/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932450/c7a3fe76670366dc928571348b9e66a2c38f65d6/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932450/c7a3fe76670366dc928571348b9e66a2c38f65d6/capsule_184x69.jpg",
+    "website": "https://www.monsterhunter.com/wilds/",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "packages": [
+      1381579
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Monster Hunter Wilds - Pendant: Floating Rath Balloon",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      21,
+      22,
+      23,
+      27,
+      28,
+      29,
+      38,
+      61,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "15 Dec, 2025"
+    },
+    "support_info": {
+      "url": "http://www.capcom.co.jp/support/contact/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3932450",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932450/76b77c789e7eac1fd87c4dd4b30c50b9bac39bf2/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "3932460": {
+    "type": "dlc",
+    "name": "Monster Hunter Wilds - Gesture Set Vol. 10",
+    "steam_appid": 3932460,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "This set of gestures is perfect for good moments where you're in the mood to dance.",
+    "fullgame": {
+      "appid": "2246340",
+      "name": "Monster Hunter Wilds"
+    },
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic, Spanish - Latin America, Portuguese - Brazil<strong>*</strong>, Polish, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932460/a290228df42209da43a38a5eed3e74e4d2862215/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932460/e52892e3f749b1e6a48bffe7af568e2676cacf4d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932460/e52892e3f749b1e6a48bffe7af568e2676cacf4d/capsule_184x69.jpg",
+    "website": "https://www.monsterhunter.com/wilds/",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "packages": [
+      1381582
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Monster Hunter Wilds - Gesture Set Vol. 10",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      21,
+      22,
+      23,
+      27,
+      28,
+      29,
+      38,
+      61,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "15 Dec, 2025"
+    },
+    "support_info": {
+      "url": "http://www.capcom.co.jp/support/contact/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3932460",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932460/1de2bb66ebe1e43dea6e0832cd7d191ba75b8135/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "3932490": {
+    "type": "dlc",
+    "name": "Monster Hunter Wilds - Pendant: Purple Rock-a-Baby",
+    "steam_appid": 3932490,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "A pendant of a Seikret fledgling snuggled in a purple basket.",
+    "fullgame": {
+      "appid": "2246340",
+      "name": "Monster Hunter Wilds"
+    },
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic, Spanish - Latin America, Portuguese - Brazil<strong>*</strong>, Polish, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932490/9d0f4344583585b2a37593dbe58ebf34c8f31c55/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932490/0a035b139c3575db37ebe19aea40a81e3f9c0ca4/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932490/0a035b139c3575db37ebe19aea40a81e3f9c0ca4/capsule_184x69.jpg",
+    "website": "https://www.monsterhunter.com/wilds/",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "packages": [
+      1381591,
+      1450077,
+      1450071
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Monster Hunter Wilds - Pendant: Purple Rock-a-Baby",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      21,
+      22,
+      23,
+      27,
+      28,
+      29,
+      38,
+      61,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "18 Dec, 2025"
+    },
+    "support_info": {
+      "url": "http://www.capcom.co.jp/support/contact/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3932490",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932490/8ab53ad4989c663f9d3d3c1d29334bb9e7bb7309/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "3932500": {
+    "type": "dlc",
+    "name": "Monster Hunter Wilds - Pendant: Black Rock-a-Baby",
+    "steam_appid": 3932500,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "A pendant of a Seikret fledgling snuggled in a black basket.",
+    "fullgame": {
+      "appid": "2246340",
+      "name": "Monster Hunter Wilds"
+    },
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic, Spanish - Latin America, Portuguese - Brazil<strong>*</strong>, Polish, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932500/d8fcb1c6ed0eb945386acc90a4bfa7413e35241b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932500/dff4d842d8e3815575bac429fccda3a605693ddc/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932500/dff4d842d8e3815575bac429fccda3a605693ddc/capsule_184x69.jpg",
+    "website": "https://www.monsterhunter.com/wilds/",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "packages": [
+      1381594,
+      1450077,
+      1450071
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Monster Hunter Wilds - Pendant: Black Rock-a-Baby",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      21,
+      22,
+      23,
+      27,
+      28,
+      29,
+      38,
+      61,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "18 Dec, 2025"
+    },
+    "support_info": {
+      "url": "http://www.capcom.co.jp/support/contact/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3932500",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932500/74870c52fbbe6a882575f60a8769a096ce542b43/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "3932570": {
+    "type": "dlc",
+    "name": "PUMP IT UP RISE - REMIX PACK",
+    "steam_appid": 3932570,
+    "required_age": 0,
+    "is_free": true,
+    "controller_support": "full",
+    "short_description": "The first remix pack featuring 14 popular remixes and 1 new track from PUMP IT UP. Experience classic tracks in a whole new way with specially designed BGAs!",
+    "fullgame": {
+      "appid": "2756930",
+      "name": "PUMP IT UP RISE"
+    },
+    "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Portuguese - Portugal, Simplified Chinese, Traditional Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932570/088d3ae9d72e94ac0aed441ee3697739a4e8ca84/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932570/73884d3f1a0ce96fc274287e8444b2cd3cd5b523/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932570/73884d3f1a0ce96fc274287e8444b2cd3cd5b523/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "ANDAMIRO"
+    ],
+    "publishers": [
+      "ANDAMIRO"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      15,
+      21,
+      22,
+      23,
+      28,
+      62,
+      68,
+      69,
+      74,
+      75,
+      78,
+      79
+    ],
+    "genres": [
+      1,
+      4,
+      37
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "26 Nov, 2025"
+    },
+    "support_info": {
+      "url": "https://am-pass.net/",
+      "email": "marketing@andamiro.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3932570",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932570/7af87ac49e3e72b8233d013b84508f51a7b785c1/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }

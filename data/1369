@@ -254,7 +254,7 @@
     "type": "dlc",
     "name": "Sophie: The Girl From The Zone - Progression Assistant",
     "steam_appid": 4107860,
-    "required_age": "18",
+    "required_age": 0,
     "is_free": false,
     "short_description": "This optional module adds hints for locked scenes. When a red lock appears, a contextual message explains how to unlock the corresponding scene.",
     "fullgame": {
@@ -262,9 +262,9 @@
       "name": "Sophie: The Girl From The Zone"
     },
     "supported_languages": "English, French, Spanish - Spain, German, Russian, Portuguese - Brazil",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107860/3e142cd61617f09d827ab88960b7cb9401b420df/header.jpg?t=1760709794",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107860/1c4b02e597ef08c0481f3b9e38c63a8d7c55ff16/capsule_231x87.jpg?t=1760709794",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107860/1c4b02e597ef08c0481f3b9e38c63a8d7c55ff16/capsule_184x69.jpg?t=1760709794",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107860/3e142cd61617f09d827ab88960b7cb9401b420df/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107860/1c4b02e597ef08c0481f3b9e38c63a8d7c55ff16/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107860/1c4b02e597ef08c0481f3b9e38c63a8d7c55ff16/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "DavyCroquetteGame"
@@ -272,7 +272,19 @@
     "publishers": [
       "DavyCroquetteGame"
     ],
-    "package_groups": [],
+    "packages": [
+      1439440
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Sophie: The Girl From The Zone - Progression Assistant",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -281,6 +293,7 @@
     "categories": [
       2,
       21,
+      62,
       68,
       74,
       75,
@@ -294,91 +307,18 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Jan, 2026"
     },
     "support_info": {
       "url": "",
       "email": "helpdavygamecreation@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107860?t=1760709794",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107860?t=1760709794",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107860",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107860",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "esrb": {
-        "rating": "ao",
-        "use_age_gate": "true",
-        "required_age": "18"
-      },
-      "pegi": {
-        "rating": "18",
-        "required_age": "18"
-      },
-      "bbfc": {
-        "rating": "R18",
-        "use_age_gate": "true",
-        "required_age": "18"
-      },
-      "oflc": {
-        "rating": "x18",
-        "use_age_gate": "true",
-        "required_age": "18"
-      },
-      "nzoflc": {
-        "rating": "x18",
-        "use_age_gate": "true",
-        "required_age": "18"
-      },
-      "cero": {
-        "rating": "z",
-        "use_age_gate": "true",
-        "required_age": "18"
-      },
-      "kgrb": {
-        "rating": "19",
-        "required_age": "19"
-      },
-      "dejus": {
-        "rating": "18",
-        "use_age_gate": "true",
-        "required_age": "18"
-      },
-      "mda": {
-        "rating": "M18",
-        "use_age_gate": "true",
-        "required_age": "18"
-      },
-      "fpb": {
-        "rating": "18",
-        "use_age_gate": "true",
-        "required_age": "18"
-      },
-      "csrr": {
-        "rating": "R",
-        "use_age_gate": "true",
-        "required_age": "18"
-      },
-      "crl": {
-        "rating": "18",
-        "use_age_gate": "true",
-        "required_age": "18"
-      },
-      "agcom": {
-        "rating": "18",
-        "use_age_gate": "true",
-        "required_age": "18"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Schimpfw\u00f6rte"
-      }
     }
   },
   "4108540": {
@@ -390,15 +330,21 @@
     "controller_support": "full",
     "short_description": "You are a demon trapped in a stick. A challenging game about crossing different levels of hell, inspired by the paintings of Hieronymus Bosch. Simple controls, endless falls, and no mercy.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108540/a8f5417673c4c3716183a196b0a49e6aeb5430ed/header.jpg?t=1761658382",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108540/7c047ad1710e3ca01a387bda97687bda3ae72c18/capsule_231x87.jpg?t=1761658382",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108540/7c047ad1710e3ca01a387bda97687bda3ae72c18/capsule_184x69.jpg?t=1761658382",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108540/a8f5417673c4c3716183a196b0a49e6aeb5430ed/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108540/7c047ad1710e3ca01a387bda97687bda3ae72c18/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108540/7c047ad1710e3ca01a387bda97687bda3ae72c18/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Artur Latkovsky"
     ],
     "publishers": [
       "Artur Latkovsky"
+    ],
+    "demos": [
+      {
+        "appid": 4156200,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -408,45 +354,31 @@
     },
     "categories": [
       2,
+      22,
       28,
       62,
       68,
       74
     ],
     "genres": [
-      23
+      1,
+      2,
+      23,
+      25
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q2 2026"
+      "date": "Q1 2026"
     },
     "support_info": {
       "url": "",
       "email": "aarchijslgame@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4108540?t=1761658382",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108540/4cf2b2e6ad7a03e1c407e1fa6f838da1494320dc/page_bg_raw.jpg?t=1761658382",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4108540",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108540/4cf2b2e6ad7a03e1c407e1fa6f838da1494320dc/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Medo"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "\u00c4ngstigende Inhalte"
-      }
     }
   },
   "4107470": {
@@ -458,15 +390,15 @@
     "controller_support": "full",
     "short_description": "Brew potions, create monstrosities, and commit atrocities... Fulfill the collector's sick fantasies by experimenting on goblins with wacky potion ingredients that can modify bodies in grotesque ways. If a goblin seems sad that you turned him into an abomination, just drop him into the meatgrinder!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107470/106d3136ac93209ad2cb36da1af457d6f80ca127/header.jpg?t=1761962508",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107470/7b4054441d0698aacb077749481004613bbfb4eb/capsule_231x87.jpg?t=1761962508",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107470/7b4054441d0698aacb077749481004613bbfb4eb/capsule_184x69.jpg?t=1761962508",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107470/106d3136ac93209ad2cb36da1af457d6f80ca127/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107470/7b4054441d0698aacb077749481004613bbfb4eb/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107470/7b4054441d0698aacb077749481004613bbfb4eb/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "BugFight Studio"
+      "Bugfight Studio"
     ],
     "publishers": [
-      "BugFight Studio"
+      "Bugfight Studio"
     ],
     "packages": [
       1439311
@@ -476,7 +408,6 @@
         "name": "default",
         "title": "Buy Goblin Goopmaxxing",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -514,31 +445,13 @@
       "url": "",
       "email": "bugfightstudio@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107470?t=1761962508",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107470?t=1761962508",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107470",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107470",
     "content_descriptors": {
       "ids": [
         5
       ],
       "notes": "Many goblins will be harmed and perchance turned into goop"
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia Extrema\nLinguagem impr\u00f3pria"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt\nSchimpfw\u00f6rte"
-      }
     }
   },
   "4108170": {
@@ -788,9 +701,9 @@
     "is_free": false,
     "short_description": "Rage Flick is a Arcade Incremental game where precision meets strategy. Flick your striker to pocket coins, earn Bucks, and unlock upgrades. Every flick counts! Master your aim and turn every shot into profit in this arcadey, satisfying experience.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109010/2c40bdf6acf664990d1fd25674574751105fd037/header.jpg?t=1760762696",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109010/37b7d77cf4c3c69181da8c87ffa3f525a14ef3da/capsule_231x87.jpg?t=1760762696",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109010/37b7d77cf4c3c69181da8c87ffa3f525a14ef3da/capsule_184x69.jpg?t=1760762696",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109010/2c40bdf6acf664990d1fd25674574751105fd037/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109010/37b7d77cf4c3c69181da8c87ffa3f525a14ef3da/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109010/37b7d77cf4c3c69181da8c87ffa3f525a14ef3da/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "DriftBit"
@@ -823,29 +736,11 @@
       "url": "",
       "email": "rhy.games.in@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109010?t=1760762696",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109010/f4eb61e3c41ed8f45913139431091714eb480563/page_bg_raw.jpg?t=1760762696",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109010",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109010/f4eb61e3c41ed8f45913139431091714eb480563/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4109470": {
@@ -889,9 +784,9 @@
     "is_free": false,
     "short_description": "Experience an intense multiplayer PvPvE extraction shooter set in a vast post-apocalyptic world. Scavenge, duct-tape random objects into deadly weapons, fight both players and AI enemies, extract valuable loot, upgrade your base and return stronger each raid.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109600/f1df4fc65e87c2b0ef1c0f51c0f35ee4728aaf54/header.jpg?t=1761835928",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109600/ab76c2d83b5e5b25acaced51eca1f6c9eeb8675c/capsule_231x87.jpg?t=1761835928",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109600/ab76c2d83b5e5b25acaced51eca1f6c9eeb8675c/capsule_184x69.jpg?t=1761835928",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109600/f1df4fc65e87c2b0ef1c0f51c0f35ee4728aaf54/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109600/ab76c2d83b5e5b25acaced51eca1f6c9eeb8675c/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109600/ab76c2d83b5e5b25acaced51eca1f6c9eeb8675c/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Spheroom"
@@ -899,7 +794,19 @@
     "publishers": [
       "Spheroom"
     ],
-    "package_groups": [],
+    "packages": [
+      1440017
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Requisition VR: Hunt & Extract",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -926,39 +833,21 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "12 Nov, 2025"
     },
     "support_info": {
       "url": "https://spheroom.com/",
       "email": "info@spheroom.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109600?t=1761835928",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109600?t=1761835928",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109600",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109600",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "Our game does not contain adult content related to themes of sex, nudity, drugs, or illegal substances.\r\n\r\nThe game does feature violent scenes: murder, killing of non-living beings (zombies), and players can also kill another player as part of a survival mission on a special location after leaving the shelter.\r\n\r\nInside the shelter, it is not possible to kill anyone. Only resource management, customization, production of consumables, and storage management are available. Mini-games for basketball and darts are also accessible."
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia Extrema\nLinguagem impr\u00f3pria"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt\nDerbe Sprache"
-      }
     }
   },
   "4109900": {
@@ -969,9 +858,9 @@
     "is_free": false,
     "short_description": "Click on 'Start Game', the image will be grayed out, and the colored parts will be randomly scrambled into 16 small fragments, scattered randomly on the screen.Players click on the small image, drag it to its original position to restore it, until all the small fragments move to the correct position",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109900/00d527ffd4ce764f544dcffcffb24697b26daefa/header.jpg?t=1760749901",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109900/1204eb6ccc7f743b81cc6f8c82fc41b9794305c5/capsule_231x87.jpg?t=1760749901",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109900/1204eb6ccc7f743b81cc6f8c82fc41b9794305c5/capsule_184x69.jpg?t=1760749901",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109900/00d527ffd4ce764f544dcffcffb24697b26daefa/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109900/1204eb6ccc7f743b81cc6f8c82fc41b9794305c5/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109900/1204eb6ccc7f743b81cc6f8c82fc41b9794305c5/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "hongshui river"
@@ -979,7 +868,19 @@
     "publishers": [
       "hongshui river"
     ],
-    "package_groups": [],
+    "packages": [
+      1440122
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy hongshui river",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -993,36 +894,18 @@
       4
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "31 Oct, 2025"
     },
     "support_info": {
       "url": "",
       "email": "453998820@qq.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109900?t=1760749901",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109900?t=1760749901",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109900",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109900",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4108940": {
@@ -1732,10 +1615,10 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Dive into an erotic world of heat, temptation, and desire \u2014 an adult adventure in the heart of the desert, where sin is the only law.",
-    "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109380/0c4c8abeaf2cf4bdf7dc0b94b9e23cce8ef77361/header.jpg?t=1761560311",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109380/c54f08c0b004ec4acd107a5f9b3c5a292e5a72c9/capsule_231x87.jpg?t=1761560311",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109380/c54f08c0b004ec4acd107a5f9b3c5a292e5a72c9/capsule_184x69.jpg?t=1761560311",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Bulgarian, Czech<strong>*</strong>, Danish<strong>*</strong>, Dutch<strong>*</strong>, Finnish<strong>*</strong>, Greek<strong>*</strong>, Hungarian<strong>*</strong>, Indonesian, Japanese, Korean, Norwegian<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Romanian, Russian<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Swedish<strong>*</strong>, Thai, Turkish<strong>*</strong>, Ukrainian<strong>*</strong>, Vietnamese<strong>*</strong>, Catalan<strong>*</strong>, Georgian<strong>*</strong>, Hindi<strong>*</strong>, Icelandic<strong>*</strong>, Kazakh<strong>*</strong>, Latvian<strong>*</strong>, Luxembourgish<strong>*</strong>, Nepali<strong>*</strong>, Persian<strong>*</strong>, Serbian<strong>*</strong>, Slovak<strong>*</strong>, Slovenian<strong>*</strong>, Swahili<strong>*</strong>, Welsh<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109380/0c4c8abeaf2cf4bdf7dc0b94b9e23cce8ef77361/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109380/c54f08c0b004ec4acd107a5f9b3c5a292e5a72c9/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109380/c54f08c0b004ec4acd107a5f9b3c5a292e5a72c9/capsule_184x69.jpg",
     "website": "https://t.me/bestpcgamesforfun",
     "developers": [
       "Games For Pleasure"
@@ -1743,7 +1626,19 @@
     "publishers": [
       "Games For Pleasure"
     ],
-    "package_groups": [],
+    "packages": [
+      1439942
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Sins of the Desert",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1751,6 +1646,7 @@
     },
     "categories": [
       2,
+      22,
       62,
       68
     ],
@@ -1760,16 +1656,19 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 36
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "14 Nov, 2025"
+      "coming_soon": false,
+      "date": "15 Nov, 2025"
     },
     "support_info": {
       "url": "https://t.me/bestpcgamesforfun",
       "email": "havefungames2@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109380?t=1761560311",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109380/d508a1f55f06ba32a7fa7b24a45ce840f007e53c/page_bg_raw.jpg?t=1761560311",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109380",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109380/d508a1f55f06ba32a7fa7b24a45ce840f007e53c/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         1,
@@ -1778,24 +1677,6 @@
         5
       ],
       "notes": "This game contains mature content intended for adults (18+). It features:\r\n\r\n    Depictions of sexual acts between consenting adults of all sexual orientations, including same-sex encounters, featuring full nudity and suggestive animations.\r\n\r\n    Characters may wear BDSM-inspired clothing and accessories as part of their appearance or style, but the game does not depict explicit BDSM acts or scenes.\r\n\r\n    Scenes involving alcohol consumption, including drinking wine and portrayals of intoxicated behavior.\r\n\r\n    All mature content is presented in a fictional context. Viewer discretion is advised."
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Nudez\nDrogas l\u00edcitas"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "BANNED",
-        "required_age": "2147483647",
-        "banned": "1",
-        "use_age_gate": "0",
-        "descriptors": "Sexuelle Inhalte\nAlkohol / Tabak"
-      }
     }
   },
   "4109440": {
@@ -1804,11 +1685,11 @@
     "steam_appid": 4109440,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A short narrative point-and-click about life with limited energy.",
+    "short_description": "A short narrative point-and-click about living with limited energy \u2014 and how even the smallest tasks can feel impossible.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109440/6ae6b81c2a32d14fff94e53c3af745b874c153cb/header.jpg?t=1761053318",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109440/82702e5df929873f44ac7497a6e452fa18f9e190/capsule_231x87.jpg?t=1761053318",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109440/82702e5df929873f44ac7497a6e452fa18f9e190/capsule_184x69.jpg?t=1761053318",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109440/6ae6b81c2a32d14fff94e53c3af745b874c153cb/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109440/82702e5df929873f44ac7497a6e452fa18f9e190/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109440/82702e5df929873f44ac7497a6e452fa18f9e190/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Closed Forum"
@@ -1816,7 +1697,19 @@
     "publishers": [
       "Closed Forum"
     ],
-    "package_groups": [],
+    "packages": [
+      1439961
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy It's Not You, It's M.E",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1832,39 +1725,25 @@
     ],
     "genres": [
       4,
-      23
+      23,
+      28
     ],
+    "achievements": {
+      "total": 5
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2025"
+      "coming_soon": false,
+      "date": "1 Dec, 2025"
     },
     "support_info": {
       "url": "",
       "email": "info@closedforum.co.uk"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109440?t=1761053318",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109440/f5cbb0fba3aaaa25fd1ed60d929d9ae04c0d944e/page_bg_raw.jpg?t=1761053318",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109440",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109440/f5cbb0fba3aaaa25fd1ed60d929d9ae04c0d944e/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4109480": {
@@ -1875,9 +1754,9 @@
     "is_free": false,
     "short_description": "Build nuclear weapon, wage wars, strategize and become the strongest leader",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Indonesian, Japanese, Korean, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America, Thai, Turkish, Ukrainian, Vietnamese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109480/ed650c83daa67859e0d17244fffa2f7fd6b83333/header.jpg?t=1761794529",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109480/fa250d930b85688102839aa2859ec5418295ce12/capsule_231x87.jpg?t=1761794529",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109480/fa250d930b85688102839aa2859ec5418295ce12/capsule_184x69.jpg?t=1761794529",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109480/76d3e3ace5fa95b03212f6096d6fc6de0c342199/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109480/faed1ff386921bb63648875708aa731a6a5a44ee/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109480/faed1ff386921bb63648875708aa731a6a5a44ee/capsule_184x69.jpg",
     "website": "https://oxiwyle.com/",
     "developers": [
       "Oxiwyle Inc."
@@ -1919,29 +1798,11 @@
       "url": "https://oxiwyle.com/",
       "email": "modern_age_2@oxiwyle.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109480?t=1761794529",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109480/4cea2890603e58536cf6db4015e3a4515093e5ca/page_bg_raw.jpg?t=1761794529",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109480",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109480/9f737a343a5b5487d6532760eee6c3fd4d91c201/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia fantasiosa"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Fantasy-Gewalt"
-      }
     }
   },
   "4108060": {
@@ -2051,9 +1912,9 @@
     "is_free": false,
     "short_description": "Sometimes you just want to work mindlessly\u2014picking up products flowing down a conveyor belt. A work simulation game for overthinkers who crave simple focus. Tired from work? Unwind with more work. For the beautifully insane.",
     "supported_languages": "English, Japanese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109200/bd24a3d7715cc6e7be29cae19d2cf2b1710b2fe6/header.jpg?t=1761313054",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109200/4bd1713f81410fe22a7bca7b59417fa697d3bd48/capsule_231x87.jpg?t=1761313054",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109200/4bd1713f81410fe22a7bca7b59417fa697d3bd48/capsule_184x69.jpg?t=1761313054",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109200/bd24a3d7715cc6e7be29cae19d2cf2b1710b2fe6/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109200/4bd1713f81410fe22a7bca7b59417fa697d3bd48/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109200/4bd1713f81410fe22a7bca7b59417fa697d3bd48/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "oftuuun_dev"
@@ -2061,7 +1922,19 @@
     "publishers": [
       "oftuuun_dev"
     ],
-    "package_groups": [],
+    "packages": [
+      1439881
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy WorkParadise",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2077,36 +1950,18 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "5 Nov, 2025"
+      "coming_soon": false,
+      "date": "4 Nov, 2025"
     },
     "support_info": {
       "url": "",
       "email": "oftuuun.dev.supo@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109200?t=1761313054",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109200?t=1761313054",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109200",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109200",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4109510": {
@@ -2755,9 +2610,9 @@
     "is_free": false,
     "short_description": "After a brief wander, at the end of a corridor, you encounter a girl curled up by a door, you can tell that her style is far from ordinary. Perhaps she knows more than you do\u2026 Or maybe she\u2019s the reason you\u2019re here. Will she help you? Or maybe you will help her?",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109060/88d0767b45c0df8322dc78759bea4401b22224a1/header.jpg?t=1761763753",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109060/b28822335a6e69d6b0cd7fbca98ce6c58da86df3/capsule_231x87.jpg?t=1761763753",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109060/b28822335a6e69d6b0cd7fbca98ce6c58da86df3/capsule_184x69.jpg?t=1761763753",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109060/88d0767b45c0df8322dc78759bea4401b22224a1/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109060/b28822335a6e69d6b0cd7fbca98ce6c58da86df3/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109060/b28822335a6e69d6b0cd7fbca98ce6c58da86df3/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Jacob Meler"
@@ -2765,7 +2620,19 @@
     "publishers": [
       "Jacob Meler"
     ],
-    "package_groups": [],
+    "packages": [
+      1439830
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Oblivio: Lost In The World",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2780,38 +2647,20 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "4 Nov, 2025"
+      "coming_soon": false,
+      "date": "5 Nov, 2025"
     },
     "support_info": {
       "url": "",
       "email": "jacob.meler2187@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109060?t=1761763753",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109060/3d68ec6db51d69f072fc3ffc5ef049fd93f8307c/page_bg_raw.jpg?t=1761763753",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109060",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109060/3d68ec6db51d69f072fc3ffc5ef049fd93f8307c/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         5
       ],
       "notes": "self-harm, suicide"
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia\nTemas sens\u00edveis\nMedo"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Horror"
-      }
     }
   },
   "4109410": {
@@ -4425,9 +4274,9 @@
     "is_free": true,
     "short_description": "Free stand\u2011alone Prologue. Shape a grand colony where every life bends to your will. Feel the weight of absolute power as you decree laws, then march into chaos, leading squads in roguelite FPS battles from brutal skirmishes to large-scale battlefields. Play Sector One now &amp; wishlist the full game.",
     "supported_languages": "English<strong>*</strong>, Simplified Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107120/614543a9b2b126448e2799ce0bca618aafa22d93/header.jpg?t=1761748790",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107120/3691b7a74b17bb36a56709d6f5d8c9b7bf5b5436/capsule_231x87.jpg?t=1761748790",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107120/3691b7a74b17bb36a56709d6f5d8c9b7bf5b5436/capsule_184x69.jpg?t=1761748790",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107120/f83abf023568118e7ab8c8a4e3c3a1d4301fb78c/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107120/f2d05df5f1d4c056e7179cadd17655d8e910d8d0/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107120/f2d05df5f1d4c056e7179cadd17655d8e910d8d0/capsule_184x69.jpg",
     "website": "https://paxautocratica.com/",
     "developers": [
       "Multiverse"
@@ -4443,7 +4292,7 @@
     },
     "categories": [
       2,
-      18,
+      23,
       68,
       69,
       78,
@@ -4457,39 +4306,21 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "1 Dec, 2025"
     },
     "support_info": {
       "url": "https://paxautocratica.com/",
       "email": "contact@multiverseinc.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107120?t=1761748790",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107120/1d128be52c5d2313d5a3fc13f08519fce34c9f75/page_bg_raw.jpg?t=1761748790",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107120",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107120/1d128be52c5d2313d5a3fc13f08519fce34c9f75/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work"
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "14",
-        "required_age": "14",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Linguagem impr\u00f3pria\nViol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt\nDerbe Sprache"
-      }
     }
   },
   "4107490": {
@@ -4500,9 +4331,9 @@
     "is_free": false,
     "short_description": "This application lets &quot;MESUGAKi&quot; peer into your computer desktop and watch what you're working on! It keeps an eye on your mouse cursor and peers into your computer screen! When you place her over a window, it will appear as if she's sitting! * Supports multiple displays, including dual displays.",
     "supported_languages": "English, Japanese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107490/45bb8389081ef79e95c7ed1ca073ce0107e4d35a/header.jpg?t=1761711168",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107490/2df55a5b55c8035f16f08282074df87bc13f74fa/capsule_231x87.jpg?t=1761711168",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107490/2df55a5b55c8035f16f08282074df87bc13f74fa/capsule_184x69.jpg?t=1761711168",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107490/71af8e3fe8c0b8d82ad120ba8b36530612409939/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107490/4198ff9c004bbaf847c932ab60e02b42ac6fe138/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107490/4198ff9c004bbaf847c932ab60e02b42ac6fe138/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Team Tea Mascot"
@@ -4510,7 +4341,19 @@
     "publishers": [
       "Team Tea Mascot"
     ],
-    "package_groups": [],
+    "packages": [
+      1439317
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy MESUGAKi (PEEPiNG MASCOT)",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4525,36 +4368,18 @@
       57
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "11 Nov, 2025"
     },
     "support_info": {
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSfbzq15FxeXgpna9GbMU-XICbgHAnbcENImyN-USrNiymCPfw/viewform?usp=header",
       "email": ""
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107490?t=1761711168",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107490?t=1761711168",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107490",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107490",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4108380": {
@@ -4597,11 +4422,11 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Face endless hordes of darkness in this fast-paced action roguelike. Gather power, choose upgrades, and survive until the night consumes you.",
-    "supported_languages": "English<strong>*</strong>, German<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108600/d462e0cb4a8e6abe6d1e9f570ce5d9f000509538/header.jpg?t=1761684186",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108600/68fff05b8cfb87bdebf4ce80c2c78512b7720743/capsule_231x87.jpg?t=1761684186",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108600/68fff05b8cfb87bdebf4ce80c2c78512b7720743/capsule_184x69.jpg?t=1761684186",
+    "short_description": "Face endless hordes of darkness in this fast-paced action roguelite. Gather power, forge your build, and survive\u2014until the night consumes you. \ud83c\udf18",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108600/d462e0cb4a8e6abe6d1e9f570ce5d9f000509538/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108600/68fff05b8cfb87bdebf4ce80c2c78512b7720743/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108600/68fff05b8cfb87bdebf4ce80c2c78512b7720743/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "HerrBaum"
@@ -4639,29 +4464,11 @@
       "url": "https://www.twitch.tv/herrbaum",
       "email": "HerrBaumTTV@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4108600?t=1761684186",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108600/e3649671b799481ea99ada97af68e36c32597d5d/page_bg_raw.jpg?t=1761684186",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4108600",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108600/e3649671b799481ea99ada97af68e36c32597d5d/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "14",
-        "required_age": "14",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt"
-      }
     }
   },
   "4108650": {
@@ -4676,9 +4483,9 @@
       "name": "WASD : The Adventure of Tori"
     },
     "supported_languages": "English, Korean, Japanese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108650/5ab5507bddab568c0785473420be7229fe23fb5d/header.jpg?t=1761723742",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108650/0f5b0786d3a4cca16317aafd71c50ffe0a517bf0/capsule_231x87.jpg?t=1761723742",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108650/0f5b0786d3a4cca16317aafd71c50ffe0a517bf0/capsule_184x69.jpg?t=1761723742",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108650/d374a8e99ffa45970e5713f62e4d2e939d2103fc/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108650/0f5b0786d3a4cca16317aafd71c50ffe0a517bf0/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108650/0f5b0786d3a4cca16317aafd71c50ffe0a517bf0/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "EVNA Games"
@@ -4686,7 +4493,19 @@
     "publishers": [
       "EVNA Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1439687
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy WASD : The Adventure of Tori - KOREAN Theme",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4709,36 +4528,18 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "12 Nov, 2025"
     },
     "support_info": {
       "url": "https://evnagames.tistory.com",
       "email": "evna8250@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4108650?t=1761723742",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4108650?t=1761723742",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4108650",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4108650",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
     }
   },
   "4108700": {
@@ -4948,9 +4749,9 @@
     "controller_support": "full",
     "short_description": "Waddle, slide, and dive into a frozen adventure! Play as and alongside penguins, foxes, deer, and seals across the Arctic and Antarctic \u2014 climb icy cliffs, swim beneath the ice, and uncover hidden glowing worlds in a relaxing yet lively game about life in the cold.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108910/fbe0310c46e376840ffa5a03a4d8f81c8a44f69c/header.jpg?t=1761790389",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108910/0f55be0774ed67fcb95940f10fa7467647f9a636/capsule_231x87.jpg?t=1761790389",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108910/0f55be0774ed67fcb95940f10fa7467647f9a636/capsule_184x69.jpg?t=1761790389",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108910/fbe0310c46e376840ffa5a03a4d8f81c8a44f69c/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108910/0f55be0774ed67fcb95940f10fa7467647f9a636/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108910/0f55be0774ed67fcb95940f10fa7467647f9a636/capsule_184x69.jpg",
     "website": "https://wws.wanderingwaddlerstudios.com/games/tundra",
     "developers": [
       "Wandering Waddler Studios"
@@ -4998,29 +4799,11 @@
       "url": "https://wws.wanderingwaddlerstudios.com/the-nest",
       "email": "admin@wanderingwaddlerstudios.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4108910?t=1761790389",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108910/28168227d305a04c3a7dc11fd11395ef801d4a47/page_bg_raw.jpg?t=1761790389",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4108910",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108910/28168227d305a04c3a7dc11fd11395ef801d4a47/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4109650": {
@@ -5130,11 +4913,11 @@
     "steam_appid": 4107620,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Command your forces across a dynamic frontline. Capture ground, hold your positions, call in artillery and airstrikes, and reshape the battlefield in this real-time strategy of modern warfare.",
-    "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107620/ec582b8ddfefb50703e5c5198cb1370578dfe62f/header.jpg?t=1761929678",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107620/043f3f7b1cad51d2387398816ef01c73c976aba5/capsule_231x87.jpg?t=1761929678",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107620/043f3f7b1cad51d2387398816ef01c73c976aba5/capsule_184x69.jpg?t=1761929678",
+    "short_description": "Command modern forces across a living frontline where every meter matters. Plan, strike, and adapt in a realistic real-time strategy of modern warfare.",
+    "supported_languages": "English, Ukrainian, French, German, Polish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107620/ec582b8ddfefb50703e5c5198cb1370578dfe62f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107620/043f3f7b1cad51d2387398816ef01c73c976aba5/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107620/043f3f7b1cad51d2387398816ef01c73c976aba5/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Darkcell"
@@ -5164,29 +4947,11 @@
       "url": "",
       "email": "tarnex.warfare@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107620?t=1761929678",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107620?t=1761929678",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107620",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4107620",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
     }
   },
   "4108320": {
@@ -8027,6 +7792,488 @@
         5
       ],
       "notes": "Riftwalker includes intense combat, gunplay, and scenes where enemies are shot, injured, or killed. Some missions involve criminal activity, bounty targets, and hostile factions. The story includes references to drugs, corruption, and violence tied to life on Asakai. There are no sexual themes. There is no depictions of sexual assault, non-consensual acts, or self harm. Tone stays focused on action, survival, and the dangers of the world."
+    }
+  },
+  "4108090": {
+    "type": "dlc",
+    "name": "Enlisted - PPSh-41 (S) Squad",
+    "steam_appid": 4108090,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "A premium squad of 5 level 4 guerrillas armed with the PPSh-41 (S) (Rank V, USSR) TNT charge 300 Gold",
+    "fullgame": {
+      "appid": "2051620",
+      "name": "Enlisted"
+    },
+    "supported_languages": "English<strong>*</strong>, French, German<strong>*</strong>, Japanese<strong>*</strong>, Korean, Polish, Russian<strong>*</strong>, Simplified Chinese, Spanish - Latin America<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108090/91606a9cc8464ac745c771d5dec463600b557b5a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108090/6d420e5f942eab2643af9ca78845869b0eb4300f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108090/6d420e5f942eab2643af9ca78845869b0eb4300f/capsule_184x69.jpg",
+    "website": "https://enlisted.net",
+    "developers": [
+      "Darkflow Software"
+    ],
+    "publishers": [
+      "Gaijin Network Ltd"
+    ],
+    "packages": [
+      1439510
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Enlisted - PPSh-41 (S) Squad",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      1,
+      9,
+      20,
+      21,
+      22,
+      27,
+      28,
+      35,
+      36,
+      38,
+      49
+    ],
+    "genres": [
+      1,
+      29,
+      37
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "16 Dec, 2025"
+    },
+    "support_info": {
+      "url": "https://support.gaijin.net/",
+      "email": "https://support.gaijin.net/"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4108090",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4108090",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": null
+    }
+  },
+  "4108110": {
+    "type": "dlc",
+    "name": "Enlisted - Captured M1918A2 Squad",
+    "steam_appid": 4108110,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Premium squad of four Level 4 machine gunners and one engineer armed with the captured M1918A2 (Rank III, Japan) TNT Charge 200 Gold",
+    "fullgame": {
+      "appid": "2051620",
+      "name": "Enlisted"
+    },
+    "supported_languages": "English<strong>*</strong>, French, German<strong>*</strong>, Japanese<strong>*</strong>, Korean, Polish, Russian<strong>*</strong>, Simplified Chinese, Spanish - Latin America<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108110/f25ec95825d91a2dcb05b15363e8c3fc3b62ae2b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108110/a072371abbd74d9275e1412ef660abcb2926aa6f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108110/a072371abbd74d9275e1412ef660abcb2926aa6f/capsule_184x69.jpg",
+    "website": "https://enlisted.net",
+    "developers": [
+      "Darkflow Software"
+    ],
+    "publishers": [
+      "Gaijin Network Ltd"
+    ],
+    "packages": [
+      1439516
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Enlisted - Captured M1918A2 Squad",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      1,
+      9,
+      20,
+      21,
+      22,
+      27,
+      28,
+      35,
+      36,
+      38,
+      49
+    ],
+    "genres": [
+      1,
+      29,
+      37
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "16 Dec, 2025"
+    },
+    "support_info": {
+      "url": "https://support.gaijin.net/",
+      "email": "https://support.gaijin.net/"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4108110",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4108110",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": null
+    }
+  },
+  "4109240": {
+    "type": "dlc",
+    "name": "Drums Rock: Payday 3 - 'No Rest for the Wicked'",
+    "steam_appid": 4109240,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Get the track 'No Rest for the Wicked' from Payday 3! This track is part of the 'Payday Music Pack'. Music Downloads Not Rated by the ESRB Visit www.esrb.org for rating information Music Downloads Not Rated by PEGI",
+    "fullgame": {
+      "appid": "1906020",
+      "name": "Drums Rock"
+    },
+    "supported_languages": "English<strong>*</strong>, French, Spanish - Spain, Russian, Simplified Chinese, Italian, German, Korean, Japanese, Catalan<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109240/cc636017ecd77dcc3d129dc7f32081b82b849e7b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109240/f2b32b46847418ae5db9873f06bedeb60c70accd/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109240/f2b32b46847418ae5db9873f06bedeb60c70accd/capsule_184x69.jpg",
+    "website": "https://garage51.es/drumsrock/",
+    "developers": [
+      "Garage51"
+    ],
+    "packages": [
+      1439894
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Drums Rock: Payday 3 - 'No Rest for the Wicked'",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      23,
+      25,
+      29,
+      30,
+      52,
+      62
+    ],
+    "genres": [
+      1,
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "11 Dec, 2025"
+    },
+    "support_info": {
+      "url": "https://garage51.es/",
+      "email": "info@garage51.es"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109240",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109240/db0c52546a77151d7b01d2403e5499d1b4d4986e/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4109250": {
+    "type": "dlc",
+    "name": "Drums Rock: Payday 3 - 'Da Capo'",
+    "steam_appid": 4109250,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Get the track 'Da Capo' from Payday 3! This track is part of the 'Payday Music Pack'. Music Downloads Not Rated by the ESRB Visit www.esrb.org for rating information Music Downloads Not Rated by PEGI",
+    "fullgame": {
+      "appid": "1906020",
+      "name": "Drums Rock"
+    },
+    "supported_languages": "English<strong>*</strong>, French, Spanish - Spain, Russian, Simplified Chinese, Italian, German, Korean, Japanese, Catalan<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109250/0fb98efff76c572a7a068132deb27aa8302adf5b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109250/bc89139a560e2358d85ff6e067665f9ff1a80bc2/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109250/bc89139a560e2358d85ff6e067665f9ff1a80bc2/capsule_184x69.jpg",
+    "website": "https://garage51.es/drumsrock/",
+    "developers": [
+      "Garage51"
+    ],
+    "packages": [
+      1439897
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Drums Rock: Payday 3 - 'Da Capo'",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      23,
+      25,
+      29,
+      30,
+      52,
+      62
+    ],
+    "genres": [
+      1,
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "11 Dec, 2025"
+    },
+    "support_info": {
+      "url": "https://garage51.es/",
+      "email": "info@garage51.es"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109250",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109250/db0c52546a77151d7b01d2403e5499d1b4d4986e/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4109260": {
+    "type": "dlc",
+    "name": "Drums Rock: Payday 2 - 'On the Road'",
+    "steam_appid": 4109260,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Get the track 'On the Road' from Payday 2! This track is part of the 'Payday Music Pack'. Music Downloads Not Rated by the ESRB Visit www.esrb.org for rating information Music Downloads Not Rated by PEGI",
+    "fullgame": {
+      "appid": "1906020",
+      "name": "Drums Rock"
+    },
+    "supported_languages": "English<strong>*</strong>, French, Spanish - Spain, Russian, Simplified Chinese, Italian, German, Korean, Japanese, Catalan<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109260/4d6a835ddf3af43abcd68c9349dd638a53721b00/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109260/77488488a62d901fa1f4131bd67b7ae64096dd16/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109260/77488488a62d901fa1f4131bd67b7ae64096dd16/capsule_184x69.jpg",
+    "website": "https://garage51.es/drumsrock/",
+    "developers": [
+      "Garage51"
+    ],
+    "packages": [
+      1439900
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Drums Rock: Payday 2 - 'On the Road'",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      23,
+      25,
+      29,
+      30,
+      52,
+      62
+    ],
+    "genres": [
+      1,
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "11 Dec, 2025"
+    },
+    "support_info": {
+      "url": "https://garage51.es/",
+      "email": "info@garage51.es"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109260",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109260/db0c52546a77151d7b01d2403e5499d1b4d4986e/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4109270": {
+    "type": "dlc",
+    "name": "Drums Rock: Payday 2 - 'Death Wish'",
+    "steam_appid": 4109270,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Get the track 'Death Wish' from Payday 2! This track is part of the 'Payday Music Pack'. Music Downloads Not Rated by the ESRB Visit www.esrb.org for rating information Music Downloads Not Rated by PEGI",
+    "fullgame": {
+      "appid": "1906020",
+      "name": "Drums Rock"
+    },
+    "supported_languages": "English<strong>*</strong>, French, Spanish - Spain, Russian, Simplified Chinese, Italian, German, Korean, Japanese, Catalan<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109270/61ca8dfbb4e351824de90d8fa591fcbab773df29/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109270/cef4bf7c8b0d17c1d9e1a7f2bf80397e8138fa76/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109270/cef4bf7c8b0d17c1d9e1a7f2bf80397e8138fa76/capsule_184x69.jpg",
+    "website": "https://garage51.es/drumsrock/",
+    "developers": [
+      "Garage51"
+    ],
+    "packages": [
+      1439903
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Drums Rock: Payday 2 - 'Death Wish'",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      23,
+      25,
+      29,
+      30,
+      52,
+      62
+    ],
+    "genres": [
+      1,
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "11 Dec, 2025"
+    },
+    "support_info": {
+      "url": "https://garage51.es/",
+      "email": "info@garage51.es"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109270",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109270/db0c52546a77151d7b01d2403e5499d1b4d4986e/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4109310": {
+    "type": "game",
+    "name": "FoldHub",
+    "steam_appid": 4109310,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "FoldHub is a powerful Windows customization tool that brings life to your boring folders. Transform your desktop organization with custom colors, gradients, and a vast library of beautiful icons spanning multiple themes including Anime, Space, Pixel Art, Neon, and Studio Ghibli styles.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109310/fda9ec966465811559c34c9366eb5c9849be820a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109310/33e77c867a271419d2eea61ccd84f9e313acc5b9/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109310/33e77c867a271419d2eea61ccd84f9e313acc5b9/capsule_184x69.jpg",
+    "website": "https://dryazilim.com",
+    "developers": [
+      "Sabri Ya\u015f\u0131n"
+    ],
+    "publishers": [
+      "Dryazilim.com"
+    ],
+    "packages": [
+      1439916
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy FoldHub",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "genres": [
+      57
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "9 Dec, 2025"
+    },
+    "support_info": {
+      "url": "https://dryazilim.com",
+      "email": "info@satoshiturk.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4109310",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4109310/bc4cdf2020f5854feb8d19e3efc5d7cedf610907/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }
