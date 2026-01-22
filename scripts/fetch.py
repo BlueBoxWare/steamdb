@@ -13,8 +13,16 @@ from urllib.parse import ParseResult, urlparse
 
 STATE_FILE_NAME = "state"
 
-APPLIST_URL = "https://raw.githubusercontent.com/jsnli/steamappidlist/refs/heads/master/data/games_appid.json"
+APPLIST_URLS = [
+    "https://raw.githubusercontent.com/jsnli/steamappidlist/refs/heads/master/data/games_appid.json",
+    "https://raw.githubusercontent.com/jsnli/steamappidlist/refs/heads/master/data/dlc_appid.json",
+    "https://raw.githubusercontent.com/jsnli/steamappidlist/refs/heads/master/data/software_appid.json",
+]
 APPINFO_URL = "https://store.steampowered.com/api/appdetails?l=english&appids="
+META_FILES: dict[str, str] = {
+    "categories.json": "https://store.steampowered.com/actions/ajaxgetstorecategories",
+    "genres.json": "https://store.steampowered.com/api/getgenrelist/?cc=us&l=english",
+}
 
 BACKOFF = [5, 20, 60, 120]
 BUCKETS: list[int] = [100, 500, 1000, 2000, 5000, 10000, 50000, 100000]
@@ -140,7 +148,6 @@ parser = argparse.ArgumentParser(prog="fetch.py")
 parser.add_argument("datadir", help="data directory")
 parser.add_argument("number", help="number of apps to fetch", type=int)
 parser.add_argument("--new", help="new apps only", action="store_true")
-parser.add_argument("--file", help="load list of apps from <file>", metavar="<file>")
 parser.add_argument(
     "--sleep", help="number of seconds to sleep between fetches", type=int, default=3
 )
@@ -165,25 +172,19 @@ except FileNotFoundError:
     pass
 
 
+apps: dict[int, int] = dict()  # id, last_modified
+
 # Get apps
-if args.file:
-    with open(args.file) as f:
-        json_obj = json.load(f)
-else:
-    req = request(APPLIST_URL)
+for url in APPLIST_URLS:
+    req = request(url)
     with urllib.request.urlopen(req) as resp:
-        json_obj = json.loads(resp.read())
+        for item in json.loads(resp.read()):
+            apps[item["appid"]] = item["last_modified"]
 
 new_item_count = 0
 ids = set()
 
-# Handle both old Steam API format (dict) and new GitHub list format (list)
-apps_source = json_obj
-if isinstance(json_obj, dict) and "applist" in json_obj:
-    apps_source = json_obj["applist"]["apps"]
-
-for app in apps_source:
-    id = int(app["appid"])
+for id in apps.keys():
     ids.add(id)
     if id not in known_ids:
         state[id] = State(0, 0)
@@ -201,13 +202,18 @@ for id, data in list(state.items()):
 progress(f"{removed_item_count} removed from queue.")
 
 # Stats
-if not args.quiet:
-    unseen_items = len([i for i in state.values() if i.timestamp == 0])
-    progress(f"{unseen_items} unfetched items in queue.")
-    progress(f"{len(state) - unseen_items} fetched items in queue.")
+unseen_items = len([i for i in state.values() if i.timestamp == 0])
+progress(f"{unseen_items} unfetched items in queue.")
+progress(f"{len(state) - unseen_items} fetched items in queue.")
 
 if args.stats:
     sys.exit(0)
+
+for filename, url in META_FILES.items():
+    req = request(url)
+    with urllib.request.urlopen(req) as resp:
+        with open(Path(args.datadir, filename), "w") as f:
+            json.dump(json.loads(resp.read()), f, indent=2)
 
 # Create queue
 queue: list[int] = [
@@ -216,12 +222,17 @@ queue: list[int] = [
 
 if args.number and len(queue) > args.number:
     queue = queue[: args.number]
-
 elif not args.new:
-    BUCKETS.insert(0, 0)
     items_per_bucket = (args.number - len(queue)) // len(BUCKETS)
+    BUCKETS.insert(0, 0)
     ids = sorted(
-        [id for id in state.keys() if state[id].count > 0 and not state[id].removed],
+        [
+            id
+            for id in state.keys()
+            if state[id].count > 0
+            and not state[id].removed
+            and apps[id] > state[id].timestamp
+        ],
         reverse=True,
     )
     BUCKETS.append(len(ids))
@@ -230,11 +241,13 @@ elif not args.new:
         to_add = sorted(bucket, key=lambda id: state[id].timestamp)[:items_per_bucket]
         queue.extend(to_add)
 
+progress(f"Queue size: {len(queue)}")
+
 # Start
 batch_count = 0
 fetched: DefaultDict[int, dict[int, Any]] = defaultdict(dict)
 
-for game_id in queue:
+for index, game_id in enumerate(queue):
     batch_count = batch_count + 1
 
     if args.batch and batch_count > args.batch:
@@ -285,6 +298,8 @@ for game_id in queue:
         for p in data["package_groups"]:
             if "subs" in p:
                 del p["subs"]
+            if "selection_text" in p:
+                del p["selection_text"]
     if "achievements" in data:
         if "highlighted" in data["achievements"]:
             del data["achievements"]["highlighted"]
@@ -306,10 +321,10 @@ for game_id in queue:
             + datetime.utcfromtimestamp(state[game_id].timestamp)
             .replace(tzinfo=timezone.utc)
             .astimezone(tz=None)
-            .strftime("%-d %b")
+            .strftime("%-d %b %Y")
             + ")"
         )
-    progress(f"{prefix}: {data['name']} ({game_id}) {old_time}")
+    progress(f"{index} {prefix}: {data['name']} ({game_id}) {old_time}")
 
     state[game_id] = State(timestamp, state[game_id].count + 1)
 
