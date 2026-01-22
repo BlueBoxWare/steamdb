@@ -905,11 +905,11 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "You're not a hero \u2013 just a dirty bum. But you\u2019ll have to become a hero. Well, kind of. Jump between the real world and its twisted reflection, explore, survive, craft, and uncover the truth. Your old trailer is your only safe place in all worlds; everywhere else can be a trap.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114320/1b8767e00a32a07ee0395fe80b9147ff451617c6/header.jpg?t=1761737145",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114320/e6489adfd6199101d26e986fb96dcbe8b4e8ca19/capsule_231x87.jpg?t=1761737145",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114320/e6489adfd6199101d26e986fb96dcbe8b4e8ca19/capsule_184x69.jpg?t=1761737145",
+    "short_description": "You're not a hero, but maybe this time, world needs someone like you. Explore a semi-open world, leap between two realities, gather loot, upgrade your shotgun at the base and destroy the enemies. This is a dangerous way, but if you survive, you will have a chance to save more than one reality.",
+    "supported_languages": "English<strong>*</strong>, French, German, Polish, Romanian, Russian<strong>*</strong>, Spanish - Latin America, Turkish<strong>*</strong>, Ukrainian<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114320/1b8767e00a32a07ee0395fe80b9147ff451617c6/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114320/e6489adfd6199101d26e986fb96dcbe8b4e8ca19/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114320/e6489adfd6199101d26e986fb96dcbe8b4e8ca19/capsule_184x69.jpg",
     "website": "https://removechild.com/",
     "developers": [
       "RemoveChild"
@@ -921,7 +921,7 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
@@ -953,8 +953,8 @@
       "url": "https://removechild.com/",
       "email": "info@removechild.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114320?t=1761737145",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114320/87e5b8e571e4c9ea347ffda87cb92a9e0c98506a/page_bg_raw.jpg?t=1761737145",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114320",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114320/87e5b8e571e4c9ea347ffda87cb92a9e0c98506a/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         1,
@@ -962,24 +962,6 @@
         5
       ],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia\nTemas sens\u00edveis\nLinguagem impr\u00f3pria"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt\nSexuelle Inhalte\nAlkohol / Tabak"
-      }
     }
   },
   "4114450": {
@@ -2355,14 +2337,26 @@
       "name": "Cozy Littlequarium"
     },
     "supported_languages": "English, French, Spanish - Spain, Simplified Chinese, Traditional Chinese, Spanish - Latin America, Japanese, Portuguese - Brazil, Portuguese - Portugal",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114840/bf3e17ef7decedbc6310d22882a69edf48934daf/header.jpg?t=1761362673",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114840/5647bfefdeda0037d967871d3f0258e9679eac69/capsule_231x87.jpg?t=1761362673",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114840/5647bfefdeda0037d967871d3f0258e9679eac69/capsule_184x69.jpg?t=1761362673",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114840/bf3e17ef7decedbc6310d22882a69edf48934daf/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114840/5647bfefdeda0037d967871d3f0258e9679eac69/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114840/5647bfefdeda0037d967871d3f0258e9679eac69/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Gabreu Senra"
     ],
-    "package_groups": [],
+    "packages": [
+      1441800
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cozy Littlequarium - Supporter Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2372,7 +2366,8 @@
       2,
       21,
       22,
-      23
+      23,
+      62
     ],
     "genres": [
       4,
@@ -2380,36 +2375,18 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "10 Nov, 2025"
     },
     "support_info": {
       "url": "",
       "email": "senra.gabreusoares@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114840?t=1761362673",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114840?t=1761362673",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114840",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114840",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4114850": {
@@ -3949,9 +3926,9 @@
     "controller_support": "full",
     "short_description": "Farm, explore and survive in a world torn between the light of seasons and the shadow of pacts. Valmirae\u2019s Pact blends peaceful life-sim farming with dark demonic mystery.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113540/78322eb8f96229ff4e1c1273229167a589315ff2/header.jpg?t=1762462307",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113540/88ebd4400850f6fa693b20c7400e690957707c40/capsule_231x87.jpg?t=1762462307",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113540/88ebd4400850f6fa693b20c7400e690957707c40/capsule_184x69.jpg?t=1762462307",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113540/78322eb8f96229ff4e1c1273229167a589315ff2/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113540/88ebd4400850f6fa693b20c7400e690957707c40/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113540/88ebd4400850f6fa693b20c7400e690957707c40/capsule_184x69.jpg",
     "website": "https://valmiraespact.com/",
     "developers": [
       "MDXR Studio"
@@ -3989,29 +3966,11 @@
       "url": "https://valmiraespact.com/support",
       "email": "support@valmiraespact.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4113540?t=1762462307",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4113540?t=1762462307",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4113540",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4113540",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
     }
   },
   "4113980": {
@@ -4101,9 +4060,9 @@
     "is_free": false,
     "short_description": "The political sandbox game where you build a career from the city council to the presidency. Authentic electoral systems, government departments, pass legislation, and a unique news landscape. Create custom scenarios, parties, and politicians in this data-driven democracy simulator.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114080/e1a582e9e398dcedb1c4ea3248181d3a1687386e/header.jpg?t=1762494404",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114080/e1f75124f38e78bd309af362f02412e8e3df69c1/capsule_231x87.jpg?t=1762494404",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114080/e1f75124f38e78bd309af362f02412e8e3df69c1/capsule_184x69.jpg?t=1762494404",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114080/f5af0d39addb125f833245a0022e752a070c6fab/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114080/8eb788b70daa0c595d4d0cad925cfd1608804aca/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114080/8eb788b70daa0c595d4d0cad925cfd1608804aca/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "ReallyBadGames"
@@ -4139,35 +4098,17 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "20 Jan, 2026"
+      "date": "6 Mar, 2026"
     },
     "support_info": {
       "url": "",
       "email": "ReallyBadGamesDev@reallybadgames.org"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114080?t=1762494404",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114080?t=1762494404",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114080",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114080",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4114390": {
@@ -4600,9 +4541,9 @@
     "is_free": true,
     "short_description": "Take a look\u2014watch how the \u201cme\u201d in the game is shaped by your choices, pushing the story forward step by step until the truth of this game (this world) is finally revealed.",
     "supported_languages": "English, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113920/703edbe63448bad2ec205e8fdf6cf256390790ca/header.jpg?t=1761837560",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113920/cb6dbc3e3ac9b45dd1c17757420605838531c94d/capsule_231x87.jpg?t=1761837560",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113920/cb6dbc3e3ac9b45dd1c17757420605838531c94d/capsule_184x69.jpg?t=1761837560",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113920/703edbe63448bad2ec205e8fdf6cf256390790ca/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113920/cb6dbc3e3ac9b45dd1c17757420605838531c94d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113920/cb6dbc3e3ac9b45dd1c17757420605838531c94d/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "ShiFeiFan"
@@ -4627,36 +4568,18 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "14 Nov, 2025"
     },
     "support_info": {
       "url": "https://space.bilibili.com/17842435",
       "email": "3362669785@qq.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4113920?t=1761837560",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4113920?t=1761837560",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4113920",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4113920",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
     }
   },
   "4115030": {
@@ -6187,9 +6110,9 @@
       "name": "Farm Manager World"
     },
     "supported_languages": "English, Polish, French, Italian, German, Spanish - Spain, Simplified Chinese, Japanese, Korean, Portuguese - Brazil, Turkish, Russian",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113390/8561fc221e910227a253b3c88aec974321c76531/header.jpg?t=1762339280",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113390/3f87c28bd94e6bbd07e41185776ef0783817193e/capsule_231x87.jpg?t=1762339280",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113390/3f87c28bd94e6bbd07e41185776ef0783817193e/capsule_184x69.jpg?t=1762339280",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113390/b033bbe65b810b1e1ae45e907fad7a272d8f9631/header_alt_assets_0.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113390/81cbdf42ae4da1b26aa3ca1480e0042265141ced/capsule_231x87_alt_assets_0.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113390/81cbdf42ae4da1b26aa3ca1480e0042265141ced/capsule_184x69_alt_assets_0.jpg",
     "website": "https://cleversan.com/",
     "developers": [
       "Cleversan Games"
@@ -6198,7 +6121,19 @@
       "Sim Farm S.A.",
       "PlayWay S.A."
     ],
-    "package_groups": [],
+    "packages": [
+      1441276
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Farm Manager World - Africa DLC",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6230,31 +6165,18 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2025"
+      "coming_soon": false,
+      "date": "15 Jan, 2026"
     },
     "support_info": {
       "url": "",
       "email": "farmmanager@cleversan.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4113390?t=1762339280",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113390/574b03050a8eddba70065ec2bcd9867b5f22b78a/page_bg_raw.jpg?t=1762339280",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4113390",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113390/574b03050a8eddba70065ec2bcd9867b5f22b78a/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "l"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4114370": {
@@ -6263,15 +6185,15 @@
     "steam_appid": 4114370,
     "required_age": 0,
     "is_free": false,
-    "short_description": "ArkhamDark for Shadowdark RPG Old School Mythos Roleplaying Step into the shadowed streets of the 1920s, a world teetering on the brink of cosmic horror. Arkham Dark plunges you into the heart of Lovecraft's chilling Mythos, where sanity is a fragile shield against the unspeakable.",
+    "short_description": "Plunge into 1920s cosmic horror, where sanity is fragile against eldritch terrors. Choose Professions like Antiquarian or Federal Agent, navigate high-stakes Downtime activities, and uncover forbidden magic amidst a terrifying Mythos Bestiary. Will you face the darkness?",
     "fullgame": {
       "appid": "1196310",
       "name": "Fantasy Grounds VTT"
     },
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114370/53e8702a92646736570641db7ed2a14ce86fae67/header.jpg?t=1762286037",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114370/05b146369c3c52e8740be4bbdcf63cd511db2ef7/capsule_231x87.jpg?t=1762286037",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114370/05b146369c3c52e8740be4bbdcf63cd511db2ef7/capsule_184x69.jpg?t=1762286037",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114370/53e8702a92646736570641db7ed2a14ce86fae67/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114370/05b146369c3c52e8740be4bbdcf63cd511db2ef7/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114370/05b146369c3c52e8740be4bbdcf63cd511db2ef7/capsule_184x69.jpg",
     "website": "https://www.fantasygrounds.com",
     "developers": [
       "SmiteWorks USA, LLC"
@@ -6284,7 +6206,6 @@
         "name": "default",
         "title": "Buy Fantasy Grounds - ArkhamDark for Shadowdark RPG",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -6304,8 +6225,7 @@
       27,
       38,
       39,
-      48,
-      62
+      48
     ],
     "genres": [
       2,
@@ -6320,27 +6240,11 @@
       "url": "support.fantasygrounds.com",
       "email": "support@fantasygrounds.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114370?t=1762286037",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114370?t=1762286037",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114370",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114370",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "10",
-        "descriptors": "Viol\u00eancia fantasiosa\r\nViol\u00eancia",
-        "use_age_gate": "true",
-        "required_age": "10"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt\nSchimpfw\u00f6rte"
-      }
     }
   },
   "4114940": {
@@ -6355,9 +6259,9 @@
       "name": "ZDSimulator"
     },
     "supported_languages": "English, Russian, Ukrainian, French, Czech, German, Polish, Kazakh",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114940/02f2361da25f9763b10a7ecaf129c0c20966923b/header.jpg?t=1762292920",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114940/ccac300900ff113dd5de250177e9e5b55102afe9/capsule_231x87.jpg?t=1762292920",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114940/ccac300900ff113dd5de250177e9e5b55102afe9/capsule_184x69.jpg?t=1762292920",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114940/02f2361da25f9763b10a7ecaf129c0c20966923b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114940/ccac300900ff113dd5de250177e9e5b55102afe9/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114940/ccac300900ff113dd5de250177e9e5b55102afe9/capsule_184x69.jpg",
     "website": "https://zdsimulator.com/",
     "developers": [
       "ZDSimulator Team"
@@ -6365,7 +6269,19 @@
     "publishers": [
       "ZDSimulator Team"
     ],
-    "package_groups": [],
+    "packages": [
+      1441837
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy ZDSimulator - ED2t Electric Train",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6385,36 +6301,18 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "November 2025"
+      "coming_soon": false,
+      "date": "5 Dec, 2025"
     },
     "support_info": {
       "url": "https://zdsimulator.com/",
       "email": "support@zdsimulator.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114940?t=1762292920",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114940/8cd9c357318f09d0a8130a02333fd7d4e6c96438/page_bg_raw.jpg?t=1762292920",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114940",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114940/8cd9c357318f09d0a8130a02333fd7d4e6c96438/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4113190": {
@@ -6696,9 +6594,9 @@
     "is_free": false,
     "short_description": "This is a story about a regular person. A person living in an attick apartment, struggling somewhat to make ends meet. Then, something rather odd happens ...",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114280/c9614e7abccc9b3f2f9838ae51f57d91858bf58b/header.jpg?t=1762693915",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114280/929f73767b9b761a0a1fd00377756746b4eb7f7f/capsule_231x87.jpg?t=1762693915",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114280/929f73767b9b761a0a1fd00377756746b4eb7f7f/capsule_184x69.jpg?t=1762693915",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114280/c9614e7abccc9b3f2f9838ae51f57d91858bf58b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114280/929f73767b9b761a0a1fd00377756746b4eb7f7f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114280/929f73767b9b761a0a1fd00377756746b4eb7f7f/capsule_184x69.jpg",
     "website": "https://threepointfivecats.be/games/and_eyes_to_see.php",
     "developers": [
       "3.5Cats"
@@ -6706,7 +6604,19 @@
     "publishers": [
       "3.5Cats"
     ],
-    "package_groups": [],
+    "packages": [
+      1441612
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy And Eyes To See : Escape Room",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6723,36 +6633,18 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "1 Dec, 2025"
     },
     "support_info": {
       "url": "https://threepointfivecats.be/about.php",
       "email": "info@threepointfivecats.be"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114280?t=1762693915",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114280?t=1762693915",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114280",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114280",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4115680": {
@@ -6826,10 +6718,10 @@
     "is_free": false,
     "short_description": "CHAQS 44 is a system simulation game that encourages players to explore, learn, and experiment. It offers a wide range of realistic tools and environments designed to test understanding and curiosity.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113220/454a36b37f87c939c6dc8b3b733a9e6480ed4043/header.jpg?t=1762776313",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113220/d14b8dd84ac0d1a850d17e326b64819af009ca73/capsule_231x87.jpg?t=1762776313",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113220/d14b8dd84ac0d1a850d17e326b64819af009ca73/capsule_184x69.jpg?t=1762776313",
-    "website": null,
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113220/77db0d1e06b4c7a5d9831f61e444e000bf93d1e3/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113220/41b42654e11749b549da1bd8e72b3d0912e10635/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113220/41b42654e11749b549da1bd8e72b3d0912e10635/capsule_184x69.jpg",
+    "website": "https://nomorevalid.com",
     "developers": [
       "nomorevalid"
     ],
@@ -6851,7 +6743,9 @@
       30,
       62,
       64,
+      66,
       68,
+      71,
       74,
       79
     ],
@@ -6863,32 +6757,14 @@
       "date": "To be announced"
     },
     "support_info": {
-      "url": "https://chaqs.net",
-      "email": "support@chaqs.net"
+      "url": "https:/nomorevalid.com",
+      "email": "mert@nomorevalid.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4113220?t=1762776313",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4113220?t=1762776313",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4113220",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4113220",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4115040": {
@@ -9868,6 +9744,54 @@
         5
       ],
       "notes": "This game features fantasy combat in both PvE and PvP modes, with mild blood effects and battle scenes. Some characters wear revealing outfits, but there are no explicit sexual acts or realistic depictions of violence, drugs, or self-harm."
+    }
+  },
+  "4114210": {
+    "type": "game",
+    "name": "Loop Firefighters",
+    "steam_appid": 4114210,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Save homes, plan your tactics on the circular track and build a deck of abilities as Loop Firefighters combines deckbuilding with strategic decision making on a procedural city loop.",
+    "supported_languages": "English, German, Spanish - Latin America, Czech",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114210/3b5bf06a35f9e3d810a22864c57a5560a4f6d3d9/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114210/946d26c94a85e624817a5e94d0ddc3e8f6e82978/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114210/946d26c94a85e624817a5e94d0ddc3e8f6e82978/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Darius games"
+    ],
+    "publishers": [
+      "Darius games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      2,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "6 Feb, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "loopfirefighters@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114210",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4114210",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }

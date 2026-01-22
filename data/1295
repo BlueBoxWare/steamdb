@@ -2629,15 +2629,21 @@
     "is_free": false,
     "short_description": "A pixel-art roguelike fusing fishing and deck-building. Build a powerful pond and earn gold through a 'buy, catch, sell' cycle. You must balance card strategy and economics to pay rising rent and survive this unique adventure.",
     "supported_languages": "English, French, German, Spanish - Spain, Simplified Chinese, Russian, Japanese, Korean",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885630/5417de411d5d97b2e969b5eb083f40fdc24c385d/header.jpg?t=1754581880",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885630/3eb13a2e8f1d5fd58945b73918aa80434beba3ae/capsule_231x87.jpg?t=1754581880",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885630/3eb13a2e8f1d5fd58945b73918aa80434beba3ae/capsule_184x69.jpg?t=1754581880",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885630/5417de411d5d97b2e969b5eb083f40fdc24c385d/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885630/3eb13a2e8f1d5fd58945b73918aa80434beba3ae/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885630/3eb13a2e8f1d5fd58945b73918aa80434beba3ae/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "JianBingGaming"
     ],
     "publishers": [
       "JianBingGaming"
+    ],
+    "demos": [
+      {
+        "appid": 4102170,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2669,29 +2675,11 @@
       "url": "",
       "email": "jianbinggaming@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3885630?t=1754581880",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3885630?t=1754581880",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3885630",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3885630",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3885650": {
@@ -9024,11 +9012,14 @@
     "steam_appid": 3885570,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A Halloween dare turns into a nightmare when three friends awaken an ancient evil hidden deep within the walls of a haunted castle. Solve puzzles, find hidden objects, and uncover the dark history in this chilling hidden-object adventure.",
+    "dlc": [
+      3885620
+    ],
+    "short_description": "Face ancient curses in a haunted castle! Solve eerie puzzles, find hidden objects, and uncover the dark vow of Halloween night.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Russian, Swedish<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885570/b30127544e647e22b3ec7292436bb450ba3108fa/header.jpg?t=1755091433",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885570/24ac649e45b630ef54d23cc2e52fbaadba7eb602/capsule_231x87.jpg?t=1755091433",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885570/24ac649e45b630ef54d23cc2e52fbaadba7eb602/capsule_184x69.jpg?t=1755091433",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885570/3f944ecd6fc27eb6100b4fae16c1e4b7f3e845ba/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885570/d6f8a2b7ef7de998abf6f13dde03a08545634944/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885570/d6f8a2b7ef7de998abf6f13dde03a08545634944/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Do Games Limited"
@@ -9036,51 +9027,55 @@
     "publishers": [
       "Do Games Limited"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 3885610,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1365864
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Halloween Secrets: The Blood Vow Collector's Edition",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
       2,
+      22,
       62
     ],
     "genres": [
       4,
       25
     ],
+    "achievements": {
+      "total": 35
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "16 Oct, 2025"
     },
     "support_info": {
       "url": "https://dogameslimited.zohodesk.eu",
       "email": "support@dominigames.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3885570?t=1755091433",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3885570?t=1755091433",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3885570",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3885570",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia fantasiosa"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Fantasy-Gewalt"
-      }
     }
   },
   "3885680": {
@@ -9197,9 +9192,9 @@
     "is_free": false,
     "short_description": "The Spirit Weaver is a narrative-driven visual novel where you use the power of Tarot to guide lost spirits through their grief, and maybe figure out your own. Explore a mystical spirit realm, help its denizens, and restore balance in a bittersweet story of love, loss, and empathy.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885820/dfcfb291634848d9f1103fbb059f6d90c0542586/header.jpg?t=1755160526",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885820/8d3dc12a94d65dcd4a18f6141cf13be3edc274d4/capsule_231x87.jpg?t=1755160526",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885820/8d3dc12a94d65dcd4a18f6141cf13be3edc274d4/capsule_184x69.jpg?t=1755160526",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885820/dfcfb291634848d9f1103fbb059f6d90c0542586/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885820/8d3dc12a94d65dcd4a18f6141cf13be3edc274d4/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3885820/8d3dc12a94d65dcd4a18f6141cf13be3edc274d4/capsule_184x69.jpg",
     "website": "https://gamechangerstudio.net/",
     "developers": [
       "StarBullet Studio"
@@ -9230,29 +9225,11 @@
       "url": "https://gamechangerstudio.net/",
       "email": "contact@gamechangerstudio.net"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3885820?t=1755160526",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3885820?t=1755160526",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3885820",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3885820",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3886440": {
@@ -9267,9 +9244,9 @@
       "name": "Strategic Command: American Civil War"
     },
     "supported_languages": "English<strong>*</strong>, Spanish - Spain, French, German<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886440/0501f6309154c541717f007e2cb5a3f704d596e1/header.jpg?t=1755182246",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886440/d405787ac9a414632639daec016895caabfcc8d5/capsule_231x87.jpg?t=1755182246",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886440/d405787ac9a414632639daec016895caabfcc8d5/capsule_184x69.jpg?t=1755182246",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886440/e37fb8777607d5c6d06567b34a34bf126f7b1b2a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886440/c182f338f7672515b6f9249249916aab5be4a35a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886440/c182f338f7672515b6f9249249916aab5be4a35a/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Fury Software"
@@ -9277,7 +9254,19 @@
     "publishers": [
       "Slitherine Ltd."
     ],
-    "package_groups": [],
+    "packages": [
+      1366146
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Strategic Command: American Civil War - Concert of Europe",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -9297,31 +9286,18 @@
       2
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "25 Nov, 2025"
     },
     "support_info": {
       "url": "https://www.slitherine.com",
       "email": ""
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3886440?t=1755182246",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886440/945f789916e0324018ca9fd0628b096479f5b7d1/page_bg_raw.jpg?t=1755182246",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3886440",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886440/5027c8d33738416ebec9048a2c8faa00a5152067/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "l"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3886510": {

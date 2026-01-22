@@ -5,7 +5,7 @@
     "steam_appid": 4254020,
     "required_age": 0,
     "is_free": false,
-    "short_description": "SokoGhost: Unfinished Business is a block-pushing game where you can pass through walls and boxes! A new level of Sokoban inspired puzzles.",
+    "short_description": "Pass through obstacles in this block-pushing puzzle game! Beat all levels of the Box Corp skyscraper and reach for the stars by thinking through the box!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254020/aba22b5296337fd6367c76a3919a0018d7cd63eb/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254020/64764347835b9c523b4161543c7ec5afdffd2d12/capsule_231x87.jpg",
@@ -1173,6 +1173,12 @@
     "publishers": [
       "odwar"
     ],
+    "demos": [
+      {
+        "appid": 4277350,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -1465,9 +1471,9 @@
     "steam_appid": 4254960,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Like forced happy endings in Spring Festival Gala skits, \u201cLet\u2019s all make dumplings\u201d reveals a subtle horror \u2014 the family\u2019s discipline over the individual. Explore love and suffocation through Chinese New Year\u2019s reunion dumplings. In this formulaic collective narrative, what\u2019s your choice?",
-    "supported_languages": "Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254960/2c2267850ae9f5b7794897a9320b56dc26c35296/header.jpg",
+    "short_description": "&quot;Let\u2019s make dumplings&quot; carries that same unsettling vibe as Spring Festival Gala skits with intentionally happy endings?\u2014 it's about how family norms discipline the individual. It uses dumplings to explore love and pressure in families. In this scripted, collective narrative... what will you choose?",
+    "supported_languages": "Simplified Chinese, English, Japanese, Traditional Chinese, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254960/4ec7493edbb7010f595f41df6b4a1b91b347e49f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254960/dd1b3ca453cf8d2a8ad503febda6547f9f8f8f3f/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254960/dd1b3ca453cf8d2a8ad503febda6547f9f8f8f3f/capsule_184x69.jpg",
     "website": "https://www.taptap.cn/app/781465?os=pc",
@@ -2281,7 +2287,6 @@
     "steam_appid": 4255480,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "A mini Souls-like arena game. Survive waves of enemies, defeat mini-bosses, loot weapons and potions, and unlock 100 achievements in an intense and compact experience.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4255480/6d33346ac711c6cd6c9890370877f3846d514e64/header.jpg",
@@ -2294,7 +2299,19 @@
     "publishers": [
       "SeedWall"
     ],
-    "package_groups": [],
+    "packages": [
+      1489444
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Souls Arena 100 Trials",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2303,15 +2320,17 @@
     "categories": [
       2,
       22,
-      28,
       62
     ],
     "genres": [
       1,
       23
     ],
+    "achievements": {
+      "total": 100
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "20 Jan, 2026"
     },
     "support_info": {
@@ -2399,7 +2418,19 @@
     "publishers": [
       "ZipStrike Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1489457
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Presentfall: Santa Defense",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2421,9 +2452,12 @@
       25,
       70
     ],
+    "achievements": {
+      "total": 17
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "20 Jan, 2026"
     },
     "support_info": {
       "url": "",
@@ -5171,6 +5205,58 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "4254720": {
+    "type": "game",
+    "name": "Call of the Light",
+    "steam_appid": 4254720,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "Explore an old art gallery in this short fantasy adventure. When the time comes, will you escape fate or succumb to its call?",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254720/f156a5751936c5dad7974935dbed4c0c0632db46/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254720/b9c90e6fb824d52a900008f1df9d0f54364431f1/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254720/b9c90e6fb824d52a900008f1df9d0f54364431f1/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "AmaNai"
+    ],
+    "publishers": [
+      "AmaNai"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      2,
+      22
+    ],
+    "genres": [
+      3,
+      23,
+      25,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "February 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "help.amanai@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4254720",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254720/b20591b63ce0b09a9a5eebbab75c71f5cef6d2a1/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game contains depictions of death."
     }
   }
 }
