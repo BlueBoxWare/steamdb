@@ -2686,9 +2686,9 @@
     "controller_support": "full",
     "short_description": "Compete to build the perfect monster. Then unleash it to hunt your rival scientists. - Either in single player against bots, or online.",
     "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Simplified Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099970/8f7104ca5de2d7f7e7514fe8971647458c73c157/header.jpg?t=1762646587",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099970/47c1905955d1a4c10c491e887d3f9087ba268299/capsule_231x87.jpg?t=1762646587",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099970/47c1905955d1a4c10c491e887d3f9087ba268299/capsule_184x69.jpg?t=1762646587",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099970/8f7104ca5de2d7f7e7514fe8971647458c73c157/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099970/47c1905955d1a4c10c491e887d3f9087ba268299/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099970/47c1905955d1a4c10c491e887d3f9087ba268299/capsule_184x69.jpg",
     "website": "http://teadunkgames.com",
     "developers": [
       "Tea Dunk Games"
@@ -2722,29 +2722,11 @@
       "url": "http://teadunkgames.com",
       "email": "contact@teadunkgames.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4099970?t=1762646587",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099970/cc2216c36caaa2684430e3281145931bcce04efe/page_bg_raw.jpg?t=1762646587",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4099970",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099970/cc2216c36caaa2684430e3281145931bcce04efe/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
     }
   },
   "4100060": {
@@ -2753,11 +2735,11 @@
     "steam_appid": 4100060,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A fantasy-themed galgame where you play as the protagonist journeying with a former knight to defeat the Demon Lord. In a coastal city, you meet a pure-hearted girl. A tale of adventure and battles\u2014just like playing an RPG!",
-    "supported_languages": "Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100060/184d935849a9dcb460bc4c1133e71a8ac8f5c72b/header.jpg?t=1762267486",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100060/91b95ff55fffd4b24669e5be1e9174073378e6c0/capsule_231x87.jpg?t=1762267486",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100060/91b95ff55fffd4b24669e5be1e9174073378e6c0/capsule_184x69.jpg?t=1762267486",
+    "short_description": "A fantasy Galgame. Play as Kashus, join former knight Candide to defeat the Demon King. Encounter the innocent Holiness in a coastal city. This journey weaves a tale of fantasy, fierce battles, and triumph\u2014an experience that truly feels like playing an RPG!",
+    "supported_languages": "Simplified Chinese, English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100060/184d935849a9dcb460bc4c1133e71a8ac8f5c72b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100060/91b95ff55fffd4b24669e5be1e9174073378e6c0/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100060/91b95ff55fffd4b24669e5be1e9174073378e6c0/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "J.Zero"
@@ -2765,7 +2747,19 @@
     "publishers": [
       "J.Zero"
     ],
-    "package_groups": [],
+    "packages": [
+      1436865
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u7ebf\u7f18\u4ea4\u7ec7-\u4e16\u9053-",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2773,6 +2767,7 @@
     },
     "categories": [
       2,
+      23,
       62
     ],
     "genres": [
@@ -2780,39 +2775,18 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2025"
+      "coming_soon": false,
+      "date": "27 Nov, 2025"
     },
     "support_info": {
       "url": "",
       "email": "reporterzero@163.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4100060?t=1762267486",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100060/8d85dafc7b3377802ab5651c4c07038f8fe48b9b/page_bg_raw.jpg?t=1762267486",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4100060",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100060/8d85dafc7b3377802ab5651c4c07038f8fe48b9b/page_bg_raw.jpg",
     "content_descriptors": {
-      "ids": [
-        1,
-        5
-      ],
-      "notes": "This game contains mild depictions of sexual activity, shown through before- and after-scenes without any direct display of genitalia. All sexual interactions are fully consensual. The game does not include any themes of sexual assault, non-consensual acts, sex crimes, drug use, or other sensitive subjects. All characters involved in sexual content are over 18 years old."
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "14",
-        "required_age": "14",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Nudez\nViol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
+      "ids": [],
+      "notes": null
     }
   },
   "4100220": {
@@ -5937,9 +5911,9 @@
     "is_free": false,
     "short_description": "A physics-based multiplayer party game where your voice drives the gameplay. Use speech to manipulate objects, activate effects, and outsmart opponents across a variety of game modes, with fully customizable settings that let you fine-tune the rules and challenges.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099020/8dee5ac1163ad4db21cf4712de2897a507f60f4e/header.jpg?t=1762337657",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099020/f6a478c9942765c79648603ee5f172fc760e3ba0/capsule_231x87.jpg?t=1762337657",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099020/f6a478c9942765c79648603ee5f172fc760e3ba0/capsule_184x69.jpg?t=1762337657",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099020/8dee5ac1163ad4db21cf4712de2897a507f60f4e/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099020/a201604a19ae6f61b5f3fabec9350bf73e8be52e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099020/a201604a19ae6f61b5f3fabec9350bf73e8be52e/capsule_184x69.jpg",
     "website": "https://discord.gg/7Q86cWGGQQ",
     "developers": [
       "Finite Studios"
@@ -5975,29 +5949,11 @@
       "url": " https://discord.gg/7Q86cWGGQQ",
       "email": "support@finitestudios.dev"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4099020?t=1762337657",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4099020?t=1762337657",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4099020",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4099020",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia fantasiosa"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Fantasy-Gewalt"
-      }
     }
   },
   "4099070": {
@@ -9223,7 +9179,7 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4098140/a6a603b2d2721d19bab4fb9c116a5c3f15b2733e/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4098140/3aaf9ffb38e7dd30556c12ffc52ab09b86f4f10e/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4098140/3aaf9ffb38e7dd30556c12ffc52ab09b86f4f10e/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://store.steampowered.com/app/4098140/Fantastic_journey?snr=1_25_4__318",
     "developers": [
       "Nouveausouffle"
     ],
@@ -9238,7 +9194,6 @@
         "name": "default",
         "title": "Buy Fantastic journey",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -9266,7 +9221,7 @@
     },
     "support_info": {
       "url": "",
-      "email": ""
+      "email": "Nouveau_souffle@hotmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4098140",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4098140",
@@ -9371,6 +9326,12 @@
     ],
     "publishers": [
       "Devcats"
+    ],
+    "demos": [
+      {
+        "appid": 4295510,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -10106,11 +10067,11 @@
     "steam_appid": 4100400,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A music-powered Tower Defense where every tower is an instrument. Place drums, bass, synths, and lead synths to build your soundtrack while defending against beat-synced enemies. Multiple genres. Your defense IS the music.",
+    "short_description": "A music-powered tower defense where every tower is an instrument. Build your soundtrack as you defend against beat-synced enemies across multiple genres. Your defense is the music.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100400/264d07d768830ad796e22cbb61312ada5b4ca9fe/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100400/d985533757970b5a8fa6ab855d73f2608f815f31/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100400/d985533757970b5a8fa6ab855d73f2608f815f31/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100400/0bd5ea45826c90fe7872522eb02fe0dfb308fd7a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100400/cf8b42a56aa606cd36059da9525a1f35bf097dc3/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100400/cf8b42a56aa606cd36059da9525a1f35bf097dc3/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Crunch Moonkiss"
@@ -10121,7 +10082,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": false
     },
     "categories": [
