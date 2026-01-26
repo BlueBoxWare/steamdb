@@ -491,22 +491,28 @@
   },
   "3403540": {
     "type": "game",
-    "name": "Space Grunts 3",
+    "name": "Space Grunts: Chrono Shard",
     "steam_appid": 3403540,
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "A fast turn-based game! Use your weapon's or the shockwaves they create to tactically navigate your way around the procedurally generated space stations. Pick missions based on risk and reward to fast track your Grunt career to the Elite Space Grunts",
+    "short_description": "When you die in this fast paced roguelike turn-based game, your Chrono Shard will reset time and let you re-try with all the knowledge from your previous game run AND leaving previously placed items and changes intact for your next attempt giving you that extra edge to not die the same way!",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3403540/header.jpg?t=1737462606",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3403540/7f09381a678632fa56617c980021bff8db7077b1/capsule_231x87.jpg?t=1737462606",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3403540/7f09381a678632fa56617c980021bff8db7077b1/capsule_184x69.jpg?t=1737462606",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3403540/ef452e3f23b12e4031c89bc56749a4b72814d281/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3403540/558b7d3f3d719580f8ed55e9a5662f13816456f7/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3403540/558b7d3f3d719580f8ed55e9a5662f13816456f7/capsule_184x69.jpg",
     "website": "https://www.orangepixel.net",
     "developers": [
       "Orangepixel"
     ],
     "publishers": [
       "Orangepixel"
+    ],
+    "demos": [
+      {
+        "appid": 3481400,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -518,7 +524,8 @@
       2,
       22,
       23,
-      28
+      28,
+      62
     ],
     "genres": [
       1,
@@ -528,37 +535,19 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2025"
+      "date": "2026"
     },
     "support_info": {
       "url": "https://www.orangepixel.net",
       "email": "support@orangepixel.net"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3403540/page_bg_generated_v6b.jpg?t=1737462606",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3403540/page_bg_generated.jpg?t=1737462606",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3403540",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3403540",
     "content_descriptors": {
       "ids": [
         5
       ],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Medo"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "\u00c4ngstigende Inhalte"
-      }
     }
   },
   "3404630": {
@@ -8314,11 +8303,11 @@
     "steam_appid": 3404140,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A 2000s-inspired horror with VHS low-poly graphics. Try to unravel the mystery behind your brother\u2019s disappearance while being HUNTED by a sinister cult.",
+    "short_description": "Step into a 2000s-inspired horror experience with gritty, VHS-style low-poly graphics. Uncover the dark secrets behind your brother\u2019s disappearance.",
     "supported_languages": "English, Portuguese - Brazil",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404140/header.jpg?t=1737326473",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404140/ce06b168294e7f8f6388c41286850894a1ab20dc/capsule_231x87.jpg?t=1737326473",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404140/ce06b168294e7f8f6388c41286850894a1ab20dc/capsule_184x69.jpg?t=1737326473",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404140/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404140/ce06b168294e7f8f6388c41286850894a1ab20dc/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404140/ce06b168294e7f8f6388c41286850894a1ab20dc/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Fyre Studios"
@@ -8326,7 +8315,19 @@
     "publishers": [
       "Fyre Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1204204
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Bloody Night Cult",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8334,45 +8335,31 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       23
     ],
+    "achievements": {
+      "total": 21
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "20 Mar, 2025"
     },
     "support_info": {
       "url": "",
       "email": "fyrestudioscontact@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404140/page_bg_generated_v6b.jpg?t=1737326473",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404140/page_bg_generated.jpg?t=1737326473",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3404140",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3404140",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "Dismemberment\r\nSuicide\r\nViscera\r\nBlood"
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia Extrema\nTemas sens\u00edveis\nLinguagem impr\u00f3pria"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt\nSchimpfw\u00f6rte"
-      }
     }
   },
   "3403790": {
@@ -8381,17 +8368,23 @@
     "steam_appid": 3403790,
     "required_age": 0,
     "is_free": false,
-    "short_description": "You make the elevator go up, go down, go fast, and go slow. And yet, by the end of a week in an old hotel stuck square in the middle of Edelfaustian mountains, you'll have been the deciding factor in either war, or peace.",
+    "short_description": "You're the newly-hired elevator operator at the Matterhorn Hotel in Dernich. You make it go up, go down, go fast, and go slow. And yet by the end of the week, you'll have been the deciding factor in either devastating continental war, or an uneasy peace.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3403790/header.jpg?t=1737408046",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3403790/bc190e0ebd429d77693fa47ef1271ffb575170a9/capsule_231x87.jpg?t=1737408046",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3403790/bc190e0ebd429d77693fa47ef1271ffb575170a9/capsule_184x69.jpg?t=1737408046",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3403790/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3403790/bc190e0ebd429d77693fa47ef1271ffb575170a9/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3403790/bc190e0ebd429d77693fa47ef1271ffb575170a9/capsule_184x69.jpg",
     "website": "https://bsky.app/profile/altarstudios.bsky.social",
     "developers": [
       "Altar Studios"
     ],
     "publishers": [
       "ReWrite Media"
+    ],
+    "demos": [
+      {
+        "appid": 3403810,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -8401,64 +8394,48 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       3,
       4,
+      23,
       28
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "To be announced"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "https://discord.gg/ApqTTyUfaB",
       "email": "stainedaltarstudios@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3403790/page_bg_generated_v6b.jpg?t=1737408046",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3403790/page_bg_generated.jpg?t=1737408046",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3403790",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3403790",
     "content_descriptors": {
       "ids": [
         5
       ],
-      "notes": "\"Elevator Music\" includes non-animated pixel-art deaths in a non-gory way, and a scene with optional drug usage. There are long descriptions of disconcerting war-related scenes, but nothing overly graphic or intended to shock."
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia\nTemas sens\u00edveis\nDrogas il\u00edcitas"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Selbstmord\nDrogen\nDerbe Sprache"
-      }
+      "notes": "\"Elevator Music\" includes non-animated pixel-art deaths in a non-gory way, optional drug usage, alcoholic intoxication, characters being thrown out of a window, and suicide. There are long descriptions of disconcerting war-related scenes, but nothing overly graphic or intended to shock."
     }
   },
   "3402520": {
     "type": "dlc",
     "name": "\u4e0b\u4e00\u7ad9\u6c5f\u6e56\u2161-\u7eaf\u73a9\u6cd5DLC\uff08\u514d\u8d39\uff09\u300a\u6c5f\u6e56\u6d6a\u5b50\u300b",
     "steam_appid": 3402520,
-    "required_age": "13",
+    "required_age": "12",
     "is_free": true,
     "controller_support": "full",
-    "short_description": "\u7b2c\u516b\u90e8\u73a9\u6cd5\u8d44\u6599\u7247\u201c\u6c5f\u6e56\u6d6a\u5b50\u201d\u66a8\u201c\u521b\u65b0\u5de5\u574a\u201d\u73b0\u5df2\u63a8\u51fa\uff01\u5927\u4fa0\u4eec\u53ef\u4ee5\u9009\u62e9\u4e0d\u540c\u7684\u4eba\u751f\u95ef\u8361\u6c5f\u6e56\uff1a\u56db\u4e2a\u4e0d\u540c\u7684\u51fa\u8eab\u3001\u5206\u522b\u5bf9\u5e94\u5168\u65b0\u4e0d\u540c\u7684\u6570\u5341\u4e07\u5b57\u5267\u60c5\u53ca\u4ece\u5e99\u5802\u5230\u6c5f\u6e56\u7684\u6570\u5341\u4e2a\u7ed3\u5c40\uff01\u53ef\u4ee5\u4f53\u9a8c\u6570\u5341\u4e2a\u72ec\u7acb\u5267\u60c5\u3001\u6069\u6028\u60c5\u4ec7\u7684\u95e8\u6d3e\u3001\u8eab\u4efd\uff0c\u4f53\u9a8c\u5b8c\u6574\u9a91\u780dLike\u73a9\u6cd5\u7684\u771f\u5b9e\u6c5f\u6e56\uff01\u4ee5\u53ca\u624b\u6413\u5b8c\u6574\u5341\u516b\u5f0f\u7684\u964d\u9f99\u7b49\u6570\u767e\u795e\u529f\u7edd\u6280",
+    "short_description": "\u4e0b\u4e00\u7ad9\u6c5f\u6e56\u2161\u7b2c\u4e03\u90e8\u73a9\u6cd5\u8d44\u6599\u7247\uff08\u514d\u8d39\uff09\uff0c\u6b64\u5185\u5bb9\u9700\u8981\u62e5\u6709\u57fa\u7840\u6e38\u620f \u300a\u4e0b\u4e00\u7ad9\u6c5f\u6e56\u2161\u300b\u624d\u80fd\u7545\u73a9\u3002",
     "fullgame": {
       "appid": "1606180",
       "name": "\u4e0b\u4e00\u7ad9\u6c5f\u6e56\u2161"
     },
     "supported_languages": "Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3402520/header.jpg?t=1737451590",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3402520/ee1487212c4848511938e1a936d82939636e31ba/capsule_231x87.jpg?t=1737451590",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3402520/ee1487212c4848511938e1a936d82939636e31ba/capsule_184x69.jpg?t=1737451590",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3402520/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3402520/ee1487212c4848511938e1a936d82939636e31ba/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3402520/ee1487212c4848511938e1a936d82939636e31ba/capsule_184x69.jpg",
     "website": "http://jh.inmotiongame.com/",
     "developers": [
       "\u767d\u7389\u4eac\u5de5\u4f5c\u5ba4"
@@ -8475,7 +8452,8 @@
     "categories": [
       2,
       21,
-      28
+      28,
+      62
     ],
     "genres": [
       1,
@@ -8485,102 +8463,18 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "January 2025"
+      "coming_soon": false,
+      "date": "26 Jan, 2025"
     },
     "support_info": {
       "url": "www.inmotiongame.com",
       "email": "inmotiongame@inmotiongame.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3402520/page_bg_generated_v6b.jpg?t=1737451590",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3402520/page_bg_generated.jpg?t=1737451590",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3402520",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3402520",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "cadpa": {
-        "rating": "16",
-        "required_age": "16"
-      },
-      "esrb": {
-        "rating": "t",
-        "use_age_gate": "true",
-        "required_age": "13"
-      },
-      "pegi": {
-        "rating": "12",
-        "use_age_gate": "true",
-        "required_age": "12"
-      },
-      "bbfc": {
-        "rating": "12",
-        "use_age_gate": "true",
-        "required_age": "12"
-      },
-      "usk": {
-        "rating": "12",
-        "use_age_gate": "true",
-        "required_age": "12"
-      },
-      "oflc": {
-        "rating": "ma15",
-        "use_age_gate": "true",
-        "required_age": "15"
-      },
-      "nzoflc": {
-        "rating": "r13",
-        "use_age_gate": "true",
-        "required_age": "13"
-      },
-      "cero": {
-        "rating": "b",
-        "use_age_gate": "true",
-        "required_age": "12"
-      },
-      "kgrb": {
-        "rating": "12",
-        "use_age_gate": "true",
-        "required_age": "12"
-      },
-      "dejus": {
-        "rating": "12",
-        "use_age_gate": "true",
-        "required_age": "12"
-      },
-      "mda": {
-        "rating": "AA16",
-        "use_age_gate": "true",
-        "required_age": "16"
-      },
-      "fpb": {
-        "rating": "13",
-        "use_age_gate": "true",
-        "required_age": "13"
-      },
-      "csrr": {
-        "rating": "C12",
-        "use_age_gate": "true",
-        "required_age": "12"
-      },
-      "crl": {
-        "rating": "12",
-        "use_age_gate": "true",
-        "required_age": "12"
-      },
-      "agcom": {
-        "rating": "12",
-        "use_age_gate": "true",
-        "required_age": "12"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3404440": {
@@ -8588,65 +8482,68 @@
     "name": "Musical Meteors",
     "steam_appid": 3404440,
     "required_age": 0,
-    "is_free": true,
-    "short_description": "Musical Meteors is a retro arcade game where your piano is the controller. Destroy meteors by playing the piano to rack up score and level up. Break as many meteors as you can within the time limit to achieve high scores and build your mastery over the piano.",
+    "is_free": false,
+    "short_description": "Blast meteors in this retro-style arcade game with a musical twist! Use your keyboard or plug in a MIDI piano to methodically (and melodically) destroy the oncoming meteors. Shoot for high scores, rack up massive combos, and develop your piano dexterity along the way!",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404440/header.jpg?t=1737512646",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404440/fd7e5d01c14f8aef184a66dab47330d8e8001faa/capsule_231x87.jpg?t=1737512646",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404440/fd7e5d01c14f8aef184a66dab47330d8e8001faa/capsule_184x69.jpg?t=1737512646",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404440/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404440/fd7e5d01c14f8aef184a66dab47330d8e8001faa/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404440/fd7e5d01c14f8aef184a66dab47330d8e8001faa/capsule_184x69.jpg",
     "website": "https://hurleypiano.com",
     "developers": [
-      "Hurley Piano"
+      "Hurley Piano",
+      "Nic Saliani"
     ],
     "publishers": [
       "Hurley Piano"
     ],
-    "package_groups": [],
+    "packages": [
+      1204309
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Musical Meteors",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      15,
+      22,
+      23,
+      62,
+      68,
+      74
     ],
     "genres": [
       1,
       4,
-      23,
-      37
+      23
     ],
+    "achievements": {
+      "total": 21
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "2025"
+      "coming_soon": false,
+      "date": "12 Jul, 2025"
     },
     "support_info": {
       "url": "https://hurleypiano.com/contact/",
       "email": "info@hurleypiano.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404440/page_bg_generated_v6b.jpg?t=1737512646",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404440/page.bg.jpg?t=1737512646",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3404440",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404440/dfee5c330eaa16f04931356458c129cd2dd2513e/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3404110": {
@@ -8657,10 +8554,10 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "Move, dash and move again. Identify the most efficient route to complete the race more quickly. Will you be able to make it into the top 10?",
-    "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404110/header.jpg?t=1737506181",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404110/50e310c461cbde113535f4ce53cb98926aaa56db/capsule_231x87.jpg?t=1737506181",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404110/50e310c461cbde113535f4ce53cb98926aaa56db/capsule_184x69.jpg?t=1737506181",
+    "supported_languages": "English, French",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404110/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404110/cf60e321ee2cb1c92a8d7499ac7614c734ebeeed/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404110/cf60e321ee2cb1c92a8d7499ac7614c734ebeeed/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Carton 22"
@@ -8668,7 +8565,19 @@
     "publishers": [
       "Carton 22"
     ],
-    "package_groups": [],
+    "packages": [
+      1204190
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Move Dash Rush",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8679,43 +8588,29 @@
       22,
       23,
       25,
-      28
+      28,
+      62
     ],
     "genres": [
       1,
       23
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "24 Feb, 2025"
     },
     "support_info": {
       "url": "",
-      "email": "support@cartonvingdeux.com"
+      "email": "cartonvingtdeux@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404110/page_bg_generated_v6b.jpg?t=1737506181",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404110/page_bg_generated.jpg?t=1737506181",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3404110",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3404110",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3404160": {
