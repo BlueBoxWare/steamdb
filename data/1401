@@ -1450,7 +1450,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "\u30b8\u30e3\u30f3\u30eb\uff1a\u30cf\u30fc\u30c8\u30d5\u30eb\u5712\u82b8ADV\u3002 \u30c6\u30ad\u30b9\u30c8\u3092\u8aad\u307f\u9032\u3081\u308b\u604b\u611b\u30b7\u30e5\u30df\u30ec\u30fc\u30b7\u30e7\u30f3\u30b2\u30fc\u30e0\u3067\u3059\u3002 \u50b7\u3064\u3044\u305f\u5c11\u5e74\u5c11\u5973\u305f\u3061\u304c\u5712\u82b8\u90e8\u306b\u6240\u5c5e\u3059\u308b\u3053\u3068\u306b\u3088\u3063\u3066\u304a\u4e92\u3044\u306e\u304d\u305a\u306a\u3092\u6df1\u3081\u3042\u3063\u3066\u3044\u304f\u3002 \u306f\u305a\u304c\u3001\u4e3b\u4eba\u516c\u306e\u6bcd\u306e\u75c5\u6c17\u306b\u3088\u3063\u3066\u751f\u6d3b\u306f\u4e00\u5909\u3059\u308b\u3002 \u9ad8\u984d\u306a\u533b\u7642\u8cbb\u306e\u652f\u6255\u3044\u306e\u305f\u3081\u306b\u4e3b\u4eba\u516c\u306f\u3042\u308b\u3068\u3093\u3067\u3082\u306a\u3044\u3053\u3068\u3092\u3057\u3066\u6cbb\u7642\u8cbb\u3092\u7a3c\u3054\u3046\u3068\u3059\u308b\u304c\u305d\u3093\u306a\u3053\u3068\u306f\u3046\u307e\u304f\u3044\u304f\u306f\u305a\u3082\u306a\u304f\u3001\u30c8\u30e9\u30d6\u30eb\u7d9a\u304d\u306e\u6bce\u65e5\u304c\u8a2a\u308c\u308b\u3002 \u203b\u3053\u306e\u30b2\u30fc\u30e0\u306fseason1\u306b\u3042\u305f\u308a\u3001\u7d9a\u7de8\u306e\u516c\u958b\u304c\u4e88\u5b9a\u3055\u308c\u3066\u3044\u307e\u3059\u3002",
-    "supported_languages": "Japanese",
+    "supported_languages": "Japanese, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4203790/3f0b8b0ee13e0c98e74ec5fbd2092394c36c1c71/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4203790/9175a36609a49c05efb03e3860a02ae9f7b65530/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4203790/9175a36609a49c05efb03e3860a02ae9f7b65530/capsule_184x69.jpg",
@@ -1469,7 +1469,6 @@
         "name": "default",
         "title": "Buy \u305d\u308c\u3044\u3051!!\u6749\u57ce\u5712\u82b8\u90e8",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -2469,7 +2468,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "HORROR is a test of your logic in the face of primal fear. You are unarmed. You are vulnerable. All you have is a flashlight with a dying battery and your intellect.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Russian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4204360/13962b80f4789aee752328ff8bd7a74fded4a9ef/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4204360/65fb9765e606b80b25a9a0cb008c40d7518a049c/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4204360/65fb9765e606b80b25a9a0cb008c40d7518a049c/capsule_184x69.jpg",
@@ -2480,7 +2479,19 @@
     "publishers": [
       "STuNT"
     ],
-    "package_groups": [],
+    "packages": [
+      1472336
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Horror",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2497,8 +2508,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "25 Jan, 2026"
     },
     "support_info": {
       "url": "",
@@ -2567,11 +2578,11 @@
     "steam_appid": 4204390,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Mindless typing has never been so magical. Sharpen your typing speed and accuracy while learning the meanings behind all 78 Tarot cards. This fast-paced typing survival game turns each keystroke into a spell!",
+    "short_description": "A fast-paced typing survival game where every word becomes a Tarot spell.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4204390/23ce7a3d49984e63401d47fa41d73f47d9a3d2c1/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4204390/b6a1d8d39485666023944f8ca8dcc98acc9f4448/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4204390/b6a1d8d39485666023944f8ca8dcc98acc9f4448/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4204390/ba817d3db59952d15482993d6c73ef2a482c1863/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4204390/0ce7e5880d5bda340b55a1c7232e3e4b0e289f63/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4204390/0ce7e5880d5bda340b55a1c7232e3e4b0e289f63/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "kocreate"
