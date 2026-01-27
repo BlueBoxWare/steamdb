@@ -819,9 +819,9 @@
     "is_free": true,
     "short_description": "Visualize, Learn, Compose And Render Music.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2881110/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2881110/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2881110/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881110/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881110/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881110/capsule_184x69.jpg",
     "website": "https://unrealmusician.com",
     "developers": [
       "Algosyntax Pty Ltd"
@@ -847,19 +847,18 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "2026"
     },
     "support_info": {
       "url": "https://unrealmusician.com",
       "email": "support@algosyntax.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2881110/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2881110/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2881110",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881110/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": null
+    }
   },
   "2880720": {
     "type": "dlc",
@@ -1002,7 +1001,7 @@
   },
   "2882010": {
     "type": "dlc",
-    "name": "Hidden Cosmo Cats - Artbook",
+    "name": "Cosmo Cats - Artbook",
     "steam_appid": 2882010,
     "required_age": 0,
     "is_free": false,
@@ -1010,12 +1009,12 @@
     "short_description": "\ud83c\udfa8 This is additional content in the form of hand drawn arts for the game Hidden Cosmo Cats.",
     "fullgame": {
       "appid": "2881900",
-      "name": "Hidden Cosmo Cats"
+      "name": "Cosmo Cats"
     },
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2882010/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2882010/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2882010/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882010/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882010/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882010/capsule_184x69.jpg",
     "website": "https://twitter.com/FaithyGames",
     "developers": [
       "Faithy Games"
@@ -1023,10 +1022,22 @@
     "publishers": [
       "Faithy Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1027621
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cosmo Cats - Artbook",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": true
     },
     "categories": [
@@ -1042,41 +1053,23 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q2 2025"
+      "coming_soon": false,
+      "date": "28 Feb, 2025"
     },
     "support_info": {
       "url": "gamesfaithy@gmail.com",
       "email": "gamesfaithy@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2882010/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2882010/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2882010",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882010/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "2882020": {
     "type": "dlc",
-    "name": "Hidden Cosmo Cats - Bonus Level",
+    "name": "Cosmo Cats - Bonus Level",
     "steam_appid": 2882020,
     "required_age": 0,
     "is_free": false,
@@ -1084,12 +1077,12 @@
     "short_description": "\ud83d\udc7e Hidden Cosmo Cats - Bonus Level includes one additional hand-drawn level with 100 more cats to find! \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
     "fullgame": {
       "appid": "2881900",
-      "name": "Hidden Cosmo Cats"
+      "name": "Cosmo Cats"
     },
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2882020/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2882020/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2882020/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882020/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882020/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882020/capsule_184x69.jpg",
     "website": "https://twitter.com/FaithyGames",
     "developers": [
       "Faithy Games"
@@ -1097,10 +1090,22 @@
     "publishers": [
       "Faithy Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1027624
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cosmo Cats - Bonus Level",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": true
     },
     "categories": [
@@ -1116,36 +1121,18 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q2 2025"
+      "coming_soon": false,
+      "date": "28 Feb, 2025"
     },
     "support_info": {
       "url": "gamesfaithy@gmail.com",
       "email": "gamesfaithy@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2882020/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2882020/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2882020",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882020/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "2881070": {
@@ -11516,7 +11503,7 @@
     "type": "dlc",
     "name": "MK1: Mavado",
     "steam_appid": 2880680,
-    "required_age": "18",
+    "required_age": 0,
     "is_free": false,
     "controller_support": "full",
     "short_description": "Mavado, a commanding leader of the merciless Red Dragon Clan, returns to the Mortal Kombat\u2122 Universe. Purchase this pack and receive Mavado as a Kameo Character to assist you in fight.",
@@ -11525,26 +11512,26 @@
       "name": "Mortal Kombat 1"
     },
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic, Polish, Portuguese - Brazil<strong>*</strong>, Russian, Simplified Chinese, Spanish - Latin America<strong>*</strong>, Traditional Chinese, Korean<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2880680/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2880680/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2880680/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880680/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880680/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880680/capsule_184x69.jpg",
     "website": "https://www.mortalkombat.com/",
     "developers": [
       "NetherRealm Studios",
       "QLOC"
     ],
     "publishers": [
-      ""
+      "Warner Bros. Games"
     ],
     "packages": [
-      1027145
+      1027145,
+      1314240
     ],
     "package_groups": [
       {
         "name": "default",
         "title": "Buy MK1: Mavado",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -11583,73 +11570,14 @@
       "url": "https://support.wbgames.com/",
       "email": "support@wbgames.com or Wbgames.intsupport@warnerbros.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2880680/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2880680/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2880680",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2880680",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Frequent Violence or Gore, General Mature Content"
-    },
-    "ratings": {
-      "esrb": {
-        "rating": "m",
-        "descriptors": "Intense Violence\r\nBlood and Gore\r\nStrong Language",
-        "interactive_elements": "Users Interact\r\nIn-Game Purchases",
-        "display_online_notice": "true",
-        "use_age_gate": "true",
-        "required_age": "18"
-      },
-      "pegi": {
-        "rating": "18",
-        "descriptors": "Violence\r\nBad Language\r\nIn-Game Purchases",
-        "required_age": "18"
-      },
-      "usk": {
-        "rating": "18",
-        "descriptors": "Drastische Gewalt\r\nIn-Game-K\u00e4ufe\r\nChats",
-        "required_age": "18"
-      },
-      "oflc": {
-        "rating": "r18",
-        "descriptors": "High impact violence\r\nBlood and gore\r\nOnline interactivity\r\nIn-game purchases",
-        "required_age": "18"
-      },
-      "nzoflc": {
-        "rating": "r18",
-        "descriptors": "Graphic violence",
-        "required_age": "18"
-      },
-      "dejus": {
-        "rating": "18",
-        "descriptors": "Viol\u00eancia Extrema\r\nDrogas l\u00edcitas\r\nLinguagem impr\u00f3pria",
-        "required_age": "18"
-      },
-      "mda": {
-        "rating": "M18",
-        "descriptors": "Strong Violence and Gore",
-        "required_age": "18"
-      },
-      "fpb": {
-        "rating": "18",
-        "descriptors": "IAT L V PPS CI",
-        "use_age_gate": "true",
-        "required_age": "18"
-      },
-      "csrr": {
-        "rating": "R",
-        "descriptors": "Violence\r\nHorror\r\nInappropriate Language",
-        "required_age": "18"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt"
-      }
     }
   },
   "2882810": {
@@ -11868,9 +11796,9 @@
     "controller_support": "full",
     "short_description": "Set sail in Rum N\u2019 Gold, a naval Battle Royale action. With tactical combat, ship customization, and a relentless storm, every round is a thrilling adventure. Go solo or form a fleet with your friends and fight to be the last ship sailing!",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Russian, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881600/header.jpg?t=1717012382",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881600/capsule_231x87.jpg?t=1717012382",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881600/capsule_184x69.jpg?t=1717012382",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881600/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881600/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881600/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "PrimalDev Games"
@@ -11878,7 +11806,19 @@
     "publishers": [
       "PrimalDev Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1027465
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Rum N' Gold Royale",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -11886,65 +11826,53 @@
     },
     "categories": [
       1,
+      9,
+      22,
       28,
       36,
-      49
+      38,
+      49,
+      62
     ],
     "genres": [
       1,
-      23,
       29
     ],
+    "achievements": {
+      "total": 29
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "31 Jan, 2025"
     },
     "support_info": {
       "url": "",
       "email": "primal.gamedev@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881600/page_bg_generated_v6b.jpg?t=1717012382",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881600/page.bg.jpg?t=1717012382",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2881600",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881600/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         5
       ],
       "notes": "Contains reference to alcohol and pirates / sailing ship naval combat. May include sea shanty songs with crude language at later date"
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "14",
-        "required_age": "14",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Linguagem impr\u00f3pria\nDrogas l\u00edcitas\nViol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Alkohol / Tabak"
-      }
     }
   },
   "2880150": {
     "type": "dlc",
-    "name": "Clue/Cluedo: Whispering Pines Retreat Crime Scene Bundle",
+    "name": "Clue/Cluedo: Whispering Pines Retreat Crime Scene",
     "steam_appid": 2880150,
     "required_age": 0,
     "is_free": false,
-    "short_description": "The tranquillity of Whispering Pines Retreat shatters in the wake of a horrifying murder! Interrogate the guests and solve the case at an all-new crime scene.",
+    "short_description": "The calm, quiet solitude of Whispering Pines Retreat makes it the ideal location for relaxation\u2026and revenge. Six suspects, multiple motives and one victim \u2013 solve the case and become the ultimate detective in this all-new crime scene for Clue/Cluedo!",
     "fullgame": {
       "appid": "2506480",
       "name": "Clue/Cluedo"
     },
     "supported_languages": "English, French, Italian, German, Spanish - Spain",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880150/header.jpg?t=1717169796",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880150/capsule_231x87.jpg?t=1717169796",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880150/capsule_184x69.jpg?t=1717169796",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880150/24ffba52044c2d93c8f797aec8939546513a449f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880150/95d40d7de0eb16bb355e53e8475481f6706984aa/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880150/95d40d7de0eb16bb355e53e8475481f6706984aa/capsule_184x69.jpg",
     "website": "https://www.marmaladegamestudio.com",
     "developers": [
       "Marmalade Game Studio Ltd"
@@ -11952,7 +11880,19 @@
     "publishers": [
       "Marmalade Game Studio Ltd"
     ],
-    "package_groups": [],
+    "packages": [
+      1026974
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Clue/Cluedo: Whispering Pines Retreat Crime Scene",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -11967,44 +11907,29 @@
       27,
       35,
       36,
-      49
+      44,
+      49,
+      62
     ],
     "genres": [
       2,
       4,
+      25,
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "11 Jun, 2024"
     },
     "support_info": {
       "url": "https://www.marmaladegamestudio.com/support/",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880150/page_bg_generated_v6b.jpg?t=1717169796",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880150/page.bg.jpg?t=1717169796",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2880150",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880150/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia fantasiosa"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Fantasy-Gewalt"
-      }
     }
   },
   "2882310": {
@@ -12013,18 +11938,23 @@
     "steam_appid": 2882310,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "Soccer meets air hockey with an incredible twist: fast-paced, zany robots inspired by your favorite pop culture icons. This isn\u2019t just about speed and strength; strategy, quick moves, and clever plays are the keys to victory. This game guarantees endless fun and high-octane action.",
-    "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882310/header.jpg?t=1717171516",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882310/capsule_231x87.jpg?t=1717171516",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882310/capsule_184x69.jpg?t=1717171516",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Czech, Dutch, Indonesian, Japanese, Korean, Polish, Portuguese - Portugal, Russian, Simplified Chinese, Thai, Ukrainian, Vietnamese, Hindi",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882310/50d114cd5f7eb18d4a9a1ca0c4823faecf96cc3f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882310/b0711cfc8d1e06c28f53395b159588a4654f3b5f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882310/b0711cfc8d1e06c28f53395b159588a4654f3b5f/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Daniel Perdomo"
+      "Ultraton Studios"
     ],
     "publishers": [
-      "Ultraton Studios SAS"
+      "Ultraton Studios"
+    ],
+    "demos": [
+      {
+        "appid": 3767010,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -12035,20 +11965,22 @@
     "categories": [
       1,
       9,
-      14,
-      15,
-      22,
-      25,
-      28,
-      35,
+      18,
+      24,
       36,
+      37,
       38,
-      49
+      39,
+      49,
+      62
     ],
     "genres": [
+      4,
       9,
       18,
-      29
+      23,
+      29,
+      70
     ],
     "release_date": {
       "coming_soon": true,
@@ -12058,29 +11990,11 @@
       "url": "ultratonstudios.com",
       "email": "contact@ultratonstudios.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882310/page_bg_generated_v6b.jpg?t=1717171516",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882310/page.bg.jpg?t=1717171516",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2882310",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882310/ccab8aa476e210d2bd2e85c4e635506b83fecf66/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "2882850": {
@@ -12238,17 +12152,26 @@
       "name": "Pocket Pusher"
     },
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880790/header.jpg?t=1717685723",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880790/capsule_231x87.jpg?t=1717685723",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880790/capsule_184x69.jpg?t=1717685723",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880790/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880790/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880790/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Skylor Beck"
     ],
-    "publishers": [
-      ""
+    "packages": [
+      1027180
     ],
-    "package_groups": [],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Pocket Pusher - The Citadel",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12267,36 +12190,18 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "7 Jun, 2024"
     },
     "support_info": {
       "url": "https://www.skylorbeck.website",
       "email": "help@skylorbeck.website"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880790/page_bg_generated_v6b.jpg?t=1717685723",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2880790/page_bg_generated.jpg?t=1717685723",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2880790",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2880790",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "2882360": {
@@ -12307,9 +12212,9 @@
     "is_free": false,
     "short_description": "Experience Alice's long-awaited vacation turn into a tumultuous journey in this gripping visual novel. As her plans unravel, she faces unforeseen challenges, testing her resilience. Will she emerge stronger or succumb to the unexpected twists of fate?",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882360/header.jpg?t=1719066003",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882360/capsule_231x87.jpg?t=1719066003",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882360/capsule_184x69.jpg?t=1719066003",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882360/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882360/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882360/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Robin Dwornik"
@@ -12324,7 +12229,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       23,
@@ -12332,38 +12238,20 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2025"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
       "email": "tixx696@abwesend.de"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882360/page_bg_generated_v6b.jpg?t=1719066003",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882360/page.bg.jpg?t=1719066003",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2882360",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882360/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         1,
         5
       ],
       "notes": "This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Nudity or Sexual Content.\r\nThe characters are all over 18 years old. "
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "14",
-        "required_age": "14",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Nudez"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Sexuelle Andeutungen"
-      }
     }
   },
   "2880670": {

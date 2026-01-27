@@ -4664,15 +4664,15 @@
     "controller_support": "full",
     "short_description": "\u8fd9\u662f\u4e00\u6b3e\u590d\u53e4\u5411\u56de\u5408\u5236RPG\u6e38\u620f\u3002 \u672c\u6e38\u620f\u8fd8\u539f\u4e86\u4f20\u7edf\u7684\u56de\u5408\u5236RPG\u73a9\u6cd5\uff0c\u53ef\u5b8c\u5168\u4f7f\u7528\u952e\u76d8\u6216\u4e3b\u6d41\u6e38\u620f\u624b\u67c4\u8fdb\u884c\u64cd\u4f5c\u3002",
     "supported_languages": "Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054120/header.jpg?t=1720432907",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054120/capsule_231x87.jpg?t=1720432907",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054120/capsule_184x69.jpg?t=1720432907",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054120/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054120/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054120/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Orange Game"
+      "Pixel Game"
     ],
     "publishers": [
-      "Orange Game"
+      "Pixel Game"
     ],
     "packages": [
       1085482
@@ -4682,7 +4682,6 @@
         "name": "default",
         "title": "Buy \u52c7\u8005\u5723\u5251\u4f20\u8bf4 Legend of the Brave Sword",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -4710,29 +4709,11 @@
       "url": "",
       "email": "366074228@qq.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054120/page_bg_generated_v6b.jpg?t=1720432907",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054120/page.bg.jpg?t=1720432907",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054120",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054120/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3056080": {
@@ -8388,22 +8369,25 @@
   },
   "3054410": {
     "type": "game",
-    "name": "Bushside Rangers: Chapter 1",
+    "name": "Bushside Rangers",
     "steam_appid": 3054410,
     "required_age": 0,
     "is_free": true,
     "controller_support": "full",
-    "short_description": "Unravel the twisted secrets of the &quot;Bushside Rangers Nature Park&quot; as Vera, a young girl forced to use her wits as she's pursued by the tainted memories of the park's long lost innocence.",
+    "dlc": [
+      3629890
+    ],
+    "short_description": "Bushside Rangers\u00ae is a first-person survival horror game that forces you to use your wits as you navigate through the dark, dreary depths of an abandoned nature park.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054410/header.jpg?t=1724226499",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054410/capsule_231x87.jpg?t=1724226499",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054410/capsule_184x69.jpg?t=1724226499",
-    "website": null,
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054410/bc1ea7c6d3a9fbd8ae39b7f6ce8b4e6fafb5df10/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054410/480383fb175fe3251bd588b16fba59706e22a138/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054410/480383fb175fe3251bd588b16fba59706e22a138/capsule_184x69.jpg",
+    "website": "https://www.bushsiderangers.com",
     "developers": [
-      "Daniella G Studios"
+      "Team Bushside"
     ],
     "publishers": [
-      "Daniella G Studios"
+      "Team Bushside"
     ],
     "package_groups": [],
     "platforms": {
@@ -8414,7 +8398,17 @@
     "categories": [
       2,
       22,
-      28
+      28,
+      43,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      74,
+      78,
+      79
     ],
     "genres": [
       1,
@@ -8423,37 +8417,22 @@
       25,
       37
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "26 Mar, 2025"
     },
     "support_info": {
       "url": "",
-      "email": "daniellagarner67@gmail.com"
+      "email": "contact@bushsiderangers.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054410/page_bg_generated_v6b.jpg?t=1724226499",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054410/page.bg.jpg?t=1724226499",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054410",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054410/dad3aed8a86bf7d4bc89f343a1df464eaeb6d5cc/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "14",
-        "required_age": "14",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia\nMedo"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Horror"
-      }
     }
   },
   "3056060": {
@@ -8630,15 +8609,15 @@
     "is_free": false,
     "short_description": "Play as a day trader gambling on people's pension money and try to beat the stock market. Engage in a comedic story with multiple endings. Meet different characters and get insider info to use for your own advantage. Gamble on cryptocurrency and quickly react to market events.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054910/header.jpg?t=1724479374",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054910/capsule_231x87.jpg?t=1724479374",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054910/capsule_184x69.jpg?t=1724479374",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054910/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054910/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054910/capsule_184x69.jpg",
     "website": "https://daytradertycoon.com",
     "developers": [
-      "JRose"
+      "DayTrade Games"
     ],
     "publishers": [
-      "JRose"
+      "DayTrade Games"
     ],
     "package_groups": [],
     "platforms": {
@@ -8648,7 +8627,8 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       23,
@@ -8656,35 +8636,17 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q4 2024"
+      "date": "Q3 2027"
     },
     "support_info": {
       "url": "https://daytradertycoon.com/",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054910/page_bg_generated_v6b.jpg?t=1724479374",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054910/page_bg_generated.jpg?t=1724479374",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054910",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054910",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "14",
-        "required_age": "14",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Linguagem impr\u00f3pria"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Derbe Sprache"
-      }
     }
   },
   "3056720": {
@@ -11426,10 +11388,10 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Idle Tower Defense is a game where you control a single tower to fight off hordes of enemies. No randomization. Choose from a variety of modules to create unique builds and upgrade modules and survive endless waves.",
-    "supported_languages": "English, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054090/header.jpg?t=1724810483",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054090/c781932f0f12a048ef79464043f802ac82fff2aa/capsule_231x87.jpg?t=1724810483",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054090/c781932f0f12a048ef79464043f802ac82fff2aa/capsule_184x69.jpg?t=1724810483",
+    "supported_languages": "English, Simplified Chinese, French, German, Spanish - Spain, Russian, Japanese, Traditional Chinese, Portuguese - Portugal, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054090/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054090/c781932f0f12a048ef79464043f802ac82fff2aa/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054090/c781932f0f12a048ef79464043f802ac82fff2aa/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "ZNZ Games"
@@ -11437,7 +11399,19 @@
     "publishers": [
       "ZNZ Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1085473
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Idle Tower Defense",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -11454,37 +11428,22 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 80
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "26 Dec, 2024"
     },
     "support_info": {
       "url": "",
       "email": "1422012145@qq.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054090/page_bg_generated_v6b.jpg?t=1724810483",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054090/page.bg.jpg?t=1724810483",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054090",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054090/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3056540": {
@@ -11622,11 +11581,14 @@
     "steam_appid": 3054060,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      3476160
+    ],
     "short_description": "Collect, and fight powerful creatures known as Kraktures in turn-based or realtime RPG battles! You have full customization of your adventure so play it however you want.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054060/header.jpg?t=1725660822",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054060/capsule_231x87.jpg?t=1725660822",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054060/capsule_184x69.jpg?t=1725660822",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054060/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054060/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054060/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Deggy"
@@ -11634,7 +11596,19 @@
     "publishers": [
       "Deggy"
     ],
-    "package_groups": [],
+    "packages": [
+      1085458
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Kraktures",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -11642,42 +11616,25 @@
     },
     "categories": [
       2,
-      18
+      18,
+      62
     ],
     "genres": [
       3
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "28 Mar, 2025"
     },
     "support_info": {
       "url": "",
       "email": "support@charlienfriend.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054060/page_bg_generated_v6b.jpg?t=1725660822",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054060/page_bg_generated.jpg?t=1725660822",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054060",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054060",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia\nTemas sens\u00edveis"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Selbstmord"
-      }
     }
   },
   "3056650": {
@@ -11686,11 +11643,11 @@
     "steam_appid": 3056650,
     "required_age": 0,
     "is_free": false,
-    "short_description": "&quot;Cult of Blood&quot; is a survival horror adventure game that plunges players into a chilling, immersive experience. Set in a remote village deep within an ominous forest, the game draws inspiration from a true story, weaving a rich and terrifying narrative.",
+    "short_description": "Investigate strange reports as a police officer, only to uncover a hidden village ruled by a blood cult. Inspired by a true story and twisted with dark magic, every choice pulls you closer to survival, or to becoming the final sacrifice in the priestess\u2019s ritual.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056650/header.jpg?t=1725721497",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056650/10e4e39f427a12f7a63b3269b118cc90ba78b234/capsule_231x87.jpg?t=1725721497",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056650/10e4e39f427a12f7a63b3269b118cc90ba78b234/capsule_184x69.jpg?t=1725721497",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056650/058d61fe62010fff14fc20ffe30d77a413539fa3/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056650/d0c47c7f3de7e750cd61f84165019cdb3339cf87/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056650/d0c47c7f3de7e750cd61f84165019cdb3339cf87/capsule_184x69.jpg",
     "website": "https://www.cultofbloodgame.com/",
     "developers": [
       "Dusty Box"
@@ -11712,7 +11669,8 @@
     },
     "categories": [
       2,
-      18
+      18,
+      62
     ],
     "genres": [
       1,
@@ -11727,32 +11685,14 @@
       "url": "https://www.cultofbloodgame.com/",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056650/page_bg_generated_v6b.jpg?t=1725721497",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056650/page.bg.jpg?t=1725721497",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3056650",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056650/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "This game contains scenes of explicit violence and gore."
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia Extrema"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt"
-      }
     }
   },
   "3055380": {
@@ -11828,17 +11768,16 @@
     "name": "I Have More Hours Than You",
     "steam_appid": 3056640,
     "required_age": 0,
-    "is_free": false,
-    "controller_support": "full",
-    "short_description": "The game has a simple objective. Rack up as many hours as humanly possible.",
+    "is_free": true,
+    "short_description": "I Have More Hours Than You is an Idle game with a loose abstract story about acceptance. But you'll probably just use it to brag about how many hours you have to your friends.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056640/header.jpg?t=1726406726",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056640/capsule_231x87.jpg?t=1726406726",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056640/capsule_184x69.jpg?t=1726406726",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056640/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056640/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056640/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "David L.",
-      "Andrew D."
+      "David Lawrence",
+      "Andrew Dowsett"
     ],
     "publishers": [
       "DaveDrewGames"
@@ -11851,44 +11790,29 @@
     },
     "categories": [
       2,
-      22,
-      28
+      22
     ],
     "genres": [
       4,
-      23
+      23,
+      37
     ],
+    "achievements": {
+      "total": 69
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "5 Feb, 2025"
     },
     "support_info": {
       "url": "",
       "email": "ihavemorehoursthanyou@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056640/page_bg_generated_v6b.jpg?t=1726406726",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056640/page.bg.jpg?t=1726406726",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3056640",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3056640/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3055400": {
@@ -11899,9 +11823,9 @@
     "is_free": false,
     "short_description": "After being invited to Mogwards University in Ohio,A young boy named Virgin needs to Rizz some badies before big end of school Rizz Party. Will he be able to defeat his Beta side and become a true Sigma?Help him get some baddies in this new Brainrot Rizz Simulator.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055400/header.jpg?t=1726521916",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055400/capsule_231x87.jpg?t=1726521916",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055400/capsule_184x69.jpg?t=1726521916",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055400/7344f598bf8168cf473202ae15aa25e77eb6c0bd/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055400/5f5a46a8c180f516851c0f4978c3ef69fd761d80/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055400/5f5a46a8c180f516851c0f4978c3ef69fd761d80/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "MirKO"
@@ -11909,52 +11833,47 @@
     "publishers": [
       "MirKO"
     ],
-    "package_groups": [],
+    "packages": [
+      1085906
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy High School Rizz Party",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       2,
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "1 Oct, 2024"
     },
     "support_info": {
       "url": "",
       "email": "mirkoko014@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055400/page_bg_generated_v6b.jpg?t=1726521916",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055400/page_bg_generated.jpg?t=1726521916",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3055400",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3055400",
     "content_descriptors": {
       "ids": [
         5
       ],
       "notes": "This game contains:sexual acts,extreme violence,sexual\r\nassault/non-consensual sex, BDSM, drug/alcohol abuse,\r\nself-harm, incest, school shootings, and/or suicide,hate.\r\n"
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drogas il\u00edcitas\nViol\u00eancia Extrema\nTemas sens\u00edveis"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Sexualisierte Gewalt / Sexual violence\nDrogen\nDrastische Gewalt"
-      }
     }
   },
   "3054140": {
@@ -11962,12 +11881,12 @@
     "name": "Cheese - The Cheese Collector",
     "steam_appid": 3054140,
     "required_age": 0,
-    "is_free": true,
-    "short_description": "Cheese the Simple down to earth clicker game... You Play the game and as you play you earn rewards. with these rewards You can hold onto them and expand you collection of rare and crazy cheeses made by the community and Developers or Sell and trade them for more unique cheeses. That's all.",
+    "is_free": false,
+    "short_description": "Cheese - The Cheese Collector is a grindy clicker game. Compete against friends or the globe to have the most cheese. Unlock upgrades, choose a theme that fits you, View a user's profile and statistics.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054140/header.jpg?t=1727272610",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054140/3139de32004ac196c383e8505d8d7ce1235dc0d2/capsule_231x87.jpg?t=1727272610",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054140/3139de32004ac196c383e8505d8d7ce1235dc0d2/capsule_184x69.jpg?t=1727272610",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054140/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054140/3139de32004ac196c383e8505d8d7ce1235dc0d2/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054140/3139de32004ac196c383e8505d8d7ce1235dc0d2/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "ShadowClaw Games"
@@ -11975,7 +11894,19 @@
     "publishers": [
       "ShadowClaw Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1085490
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cheese - The Cheese Collector",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -11983,53 +11914,30 @@
     },
     "categories": [
       2,
-      15,
-      22
+      22,
+      62
     ],
     "genres": [
       4,
       23,
-      37
+      70
     ],
+    "achievements": {
+      "total": 17
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "23 Oct, 2024"
     },
     "support_info": {
       "url": "",
       "email": "shadowclawgames2022@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054140/page_bg_generated_v6b.jpg?t=1727272610",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054140/page_bg_generated.jpg?t=1727272610",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054140",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3054140",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "esrb": {
-        "rating": "e",
-        "required_age": "17"
-      },
-      "pegi": {
-        "rating": "3",
-        "required_age": "16"
-      },
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3054750": {
