@@ -9996,12 +9996,16 @@
     "name": "Madness Arena",
     "steam_appid": 3123580,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
+    "dlc": [
+      3185080,
+      3187440
+    ],
     "short_description": "Enter the ultimate battleground, where chaos reigns and survival is everything. Every decision could be your last\u2014will you rise to the challenge or descend into madness? Master powerful abilities, crush your enemies, and prove your worth in Madness Arena.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3123580/header.jpg?t=1730534806",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3123580/capsule_231x87.jpg?t=1730534806",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3123580/capsule_184x69.jpg?t=1730534806",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3123580/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3123580/8c525d17ea1f031673250cb3c8a565bfee153b0a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3123580/8c525d17ea1f031673250cb3c8a565bfee153b0a/capsule_184x69.jpg",
     "website": "https://www.madness-arena.com/",
     "developers": [
       "Titan Games"
@@ -10009,20 +10013,13 @@
     "publishers": [
       "Titan Games"
     ],
-    "packages": [
-      1109223
-    ],
-    "package_groups": [
+    "demos": [
       {
-        "name": "default",
-        "title": "Buy Madness Arena",
-        "description": "",
-        "selection_text": "Select a purchase option",
-        "save_text": "",
-        "display_type": 0,
-        "is_recurring_subscription": "false"
+        "appid": 3188450,
+        "description": ""
       }
     ],
+    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -10032,12 +10029,12 @@
       1,
       25,
       36,
-      49,
-      62
+      49
     ],
     "genres": [
       1,
-      23
+      23,
+      37
     ],
     "release_date": {
       "coming_soon": false,
@@ -10047,29 +10044,11 @@
       "url": "",
       "email": "gamedev@dreamchasers-interactive.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3123580/page_bg_generated_v6b.jpg?t=1730534806",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3123580/page.bg.jpg?t=1730534806",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3123580",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3123580/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
     }
   },
   "3125790": {
@@ -12470,9 +12449,9 @@
       "name": "One More Question"
     },
     "supported_languages": "English, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125810/header.jpg?t=1735010256",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125810/116325934c182d0a751f394bf50fa2d5c7dcc6c4/capsule_231x87.jpg?t=1735010256",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125810/116325934c182d0a751f394bf50fa2d5c7dcc6c4/capsule_184x69.jpg?t=1735010256",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125810/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125810/116325934c182d0a751f394bf50fa2d5c7dcc6c4/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125810/116325934c182d0a751f394bf50fa2d5c7dcc6c4/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "OrangeSounds"
@@ -12480,7 +12459,19 @@
     "publishers": [
       "OrangeSounds"
     ],
-    "package_groups": [],
+    "packages": [
+      1110021
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy One More Question - Creator's Extension & Original Soundtrack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12491,7 +12482,8 @@
       17,
       21,
       30,
-      51
+      51,
+      62
     ],
     "genres": [
       2,
@@ -12501,36 +12493,18 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "24 Dec, 2024"
     },
     "support_info": {
       "url": "",
       "email": "support@2pgames.net"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125810/page_bg_generated_v6b.jpg?t=1735010256",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125810/page_bg_generated.jpg?t=1735010256",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3125810",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3125810",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3125370": {
@@ -12539,19 +12513,31 @@
     "steam_appid": 3125370,
     "required_age": 0,
     "is_free": false,
-    "short_description": "The year is 2578, you have been awoken 553 years after your original construction. You play as Platform Bot. A small green square robot built for... well... Platforming! Take part in the deadly 'Super Platforming Bot' TV Show's 510th Season, or die trying.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125370/header.jpg?t=1736371878",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125370/8fadcc262f5cd340e17332791a5054810a5025e4/capsule_231x87.jpg?t=1736371878",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125370/8fadcc262f5cd340e17332791a5054810a5025e4/capsule_184x69.jpg?t=1736371878",
+    "short_description": "There is no Escape is a storyless 2D side-scrolling puzzle platformer, it was inspired by early to late 2000's flash games of a similar nature. Jump, fail, repeat! Experience the nostalgia of the classic platforming genre.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125370/2eae722b42e8a1e81b87c2a7a3b99a54d3ac76b0/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125370/56373f9702d59ab51a572536b1e532307f88d99f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125370/56373f9702d59ab51a572536b1e532307f88d99f/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Viper Interactive"
+      "Retrowave Studios"
     ],
     "publishers": [
-      "Viper Interactive"
+      "Retrowave Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1109869
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy There Is No Escape",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12559,44 +12545,32 @@
     },
     "categories": [
       2,
-      13,
       22,
-      23
+      62,
+      68,
+      74,
+      78,
+      79
     ],
     "genres": [
       25
     ],
+    "achievements": {
+      "total": 27
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "2025"
+      "coming_soon": false,
+      "date": "2 Dec, 2025"
     },
     "support_info": {
-      "url": "",
-      "email": "viperinteractivegame@gmail.com"
+      "url": "https://www.facebook.com/RetrowaveStudiosUK/",
+      "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125370/page_bg_generated_v6b.jpg?t=1736371878",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125370/page.bg.jpg?t=1736371878",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3125370",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125370/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Medo"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "\u00c4ngstigende Inhalte"
-      }
     }
   },
   "3124230": {
@@ -12606,17 +12580,23 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Execute ultra-violent raids in retro 1970s hotels. Master precision and timing to take out bad guys in unforgiving top-down close-combat. No two playthroughs are alike with stackable gameplay mutators and randomly generated rooms.",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Greek, Indonesian, Japanese, Korean, Polish, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Traditional Chinese, Turkish, Vietnamese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124230/header.jpg?t=1736587017",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124230/2360b3f2c7063508a914c5ca3f36811fd657e010/capsule_231x87.jpg?t=1736587017",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124230/2360b3f2c7063508a914c5ca3f36811fd657e010/capsule_184x69.jpg?t=1736587017",
+    "short_description": "Execute ultra-violent raids in 1970s casino hotels. Take down the Las Vegas mob as a drug-fueled hitman in physics-fueled top-down close combat.",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Arabic, Greek, Indonesian, Japanese, Korean, Polish, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Traditional Chinese, Turkish, Vietnamese, Bulgarian, Danish, Finnish, Hungarian, Norwegian, Portuguese - Brazil, Swedish, Thai, Ukrainian<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124230/953b10dcee407cbb6671efd94d889a63b3746eb7/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124230/bf02df2e17512a1b8211054cc6e1e8692e5a9823/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124230/bf02df2e17512a1b8211054cc6e1e8692e5a9823/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Transhuman Design"
     ],
     "publishers": [
       "Transhuman Design"
+    ],
+    "demos": [
+      {
+        "appid": 3133310,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -12626,9 +12606,17 @@
     },
     "categories": [
       2,
-      13,
       23,
-      28
+      25,
+      28,
+      62,
+      64,
+      65,
+      67,
+      68,
+      74,
+      76,
+      78
     ],
     "genres": [
       1,
@@ -12636,51 +12624,33 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "5 Feb, 2026"
     },
     "support_info": {
       "url": "https://kag2d.com/en/contact",
       "email": "support@thd.vg"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124230/page_bg_generated_v6b.jpg?t=1736587017",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124230/page.bg.jpg?t=1736587017",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3124230",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124230/62f035f31d1769ea89a5954e1161d853aea22b81/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
-      "notes": "The game has adult themes like crime. Sex is insinuated but never shown."
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "14",
-        "required_age": "14",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt"
-      }
+      "notes": "The game has adult themes like crime and drug use but it is meant as satire and hyperbole. By following the story it will be evident the game doesn't glorify those themes."
     }
   },
   "3125570": {
     "type": "game",
-    "name": "Laundry Simulator : PowerWash It!",
+    "name": "Laundry & Supermarket Simulator",
     "steam_appid": 3125570,
     "required_age": 0,
     "is_free": false,
     "short_description": "&quot;Laundry Simulator&quot; immerses you in the bustling laundry business. Manage a boutique shop, handling everything from everyday clothes to luxury garments, and sell related products. Efficiently manage resources, upgrade equipment, and optimize layout to attract customers with superior service.",
-    "supported_languages": "English, French, Italian, German, Danish, Ukrainian, Russian, Hungarian, Indonesian, Turkish, Norwegian, Czech, Japanese, Polish, Swedish, Simplified Chinese, Traditional Chinese, Romanian, Finnish, Dutch, Vietnamese, Korean, Spanish - Spain, Portuguese - Brazil, Portuguese - Portugal, Spanish - Latin America",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125570/header.jpg?t=1736787396",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125570/79a04824a5e33c7dd2d74cb950f61b61698278fe/capsule_231x87.jpg?t=1736787396",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125570/79a04824a5e33c7dd2d74cb950f61b61698278fe/capsule_184x69.jpg?t=1736787396",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Danish, Ukrainian, Russian, Hungarian, Indonesian, Turkish, Norwegian, Czech, Japanese, Polish, Swedish, Simplified Chinese, Traditional Chinese, Romanian, Finnish, Dutch, Portuguese - Brazil, Portuguese - Portugal, Spanish - Latin America, Vietnamese, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125570/da32950a85b83f33275787f51dda9911fbda77f6/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125570/35db74ce3a57558c4f0f1ddb3fa9881dea01fefb/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125570/35db74ce3a57558c4f0f1ddb3fa9881dea01fefb/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "SmartPlayGames"
@@ -12688,7 +12658,19 @@
     "publishers": [
       "SmartPlayGames"
     ],
-    "package_groups": [],
+    "packages": [
+      1109931
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Laundry & Supermarket Simulator",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12696,7 +12678,9 @@
     },
     "categories": [
       2,
-      23
+      22,
+      23,
+      62
     ],
     "genres": [
       3,
@@ -12704,37 +12688,22 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 36
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q1 2025"
+      "coming_soon": false,
+      "date": "1 May, 2025"
     },
     "support_info": {
       "url": "",
       "email": "personatsl@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125570/page_bg_generated_v6b.jpg?t=1736787396",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125570/page_bg_generated.jpg?t=1736787396",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3125570",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3125570",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
     }
   },
   "3124580": {
@@ -12749,17 +12718,29 @@
       "name": "of the Devil"
     },
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124580/header.jpg?t=1737046274",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124580/6bd530ed97112de31f4c6049724a2f24353fab04/capsule_231x87.jpg?t=1737046274",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124580/6bd530ed97112de31f4c6049724a2f24353fab04/capsule_184x69.jpg?t=1737046274",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124580/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124580/6bd530ed97112de31f4c6049724a2f24353fab04/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124580/6bd530ed97112de31f4c6049724a2f24353fab04/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "nth Circle Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1109567
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy of the Devil - Episode 1",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": false
     },
     "categories": [
@@ -12773,38 +12754,20 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "6 Feb, 2025"
     },
     "support_info": {
       "url": "",
       "email": "ofthedevilgame@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124580/page_bg_generated_v6b.jpg?t=1737046274",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124580/page_bg_generated.jpg?t=1737046274",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3124580",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3124580",
     "content_descriptors": {
       "ids": [
         5
       ],
       "notes": "of the Devil is a mature work that includes death, killing, implied gore, implied torture, use of tobacco, alcohol, discussion of illegal drugs, discussion of drug legalization, and other topics that may not be appropriate for all audiences. Player discretion is advised."
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drogas il\u00edcitas\nViol\u00eancia\nLinguagem impr\u00f3pria"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drogen\nDrastische Gewalt\nSchimpfw\u00f6rte"
-      }
     }
   },
   "3123230": {
@@ -12878,9 +12841,9 @@
     "is_free": true,
     "short_description": "Landon's Puzzle ParTAY\u2122 is a game where you complete puzzles as fast as you can without running out of time! Enjoy all of the fun and wacky minigames with a C.I. Puppet Friends\u2122 flair! Create your own profile and compete for the high score!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125230/header.jpg?t=1738025867",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125230/228636ce01e1d4d5f3f8fff0cd594a1aeb83839f/capsule_231x87.jpg?t=1738025867",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125230/228636ce01e1d4d5f3f8fff0cd594a1aeb83839f/capsule_184x69.jpg?t=1738025867",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125230/6acf5615bbdc1cb99daa815683909cd2f80904ba/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125230/52184fdad10752a5c95e9a10d268c257c6b2d335/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125230/52184fdad10752a5c95e9a10d268c257c6b2d335/capsule_184x69.jpg",
     "website": "https://ciadventurecamp.com/",
     "developers": [
       "Adventure Camp Games"
@@ -12891,7 +12854,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -12903,36 +12866,18 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "4 Oct, 2025"
     },
     "support_info": {
       "url": "https://churchint.org/contact-us/",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125230/page_bg_generated_v6b.jpg?t=1738025867",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125230/page.bg.jpg?t=1738025867",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3125230",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125230/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3124590": {

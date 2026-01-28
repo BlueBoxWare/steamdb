@@ -8575,11 +8575,12 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Level Up For the Epic Conclusion of the Tiberium Saga.",
-    "supported_languages": "English, French, German, Korean, Polish, Russian, Traditional Chinese",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/47700/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/47700/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/47700/capsule_184x69.jpg",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Korean, Polish, Russian<strong>*</strong>, Traditional Chinese<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/47700/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/47700/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/47700/capsule_184x69.jpg",
     "website": "http://www.commandandconquer.com",
+    "drm_notice": "Steam DRM",
     "developers": [
       "EA Los Angeles"
     ],
@@ -8587,9 +8588,19 @@
       "Electronic Arts"
     ],
     "packages": [
+      1027600,
       4066
     ],
-    "package_groups": [],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Command & Conquer\u2122 4 Tiberian Twilight",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8602,10 +8613,14 @@
     "categories": [
       1,
       2,
+      17,
+      23,
+      30,
       62
     ],
     "genres": [
-      2
+      2,
+      25
     ],
     "release_date": {
       "coming_soon": false,
@@ -8615,36 +8630,11 @@
       "url": "https://help.ea.com/",
       "email": ""
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/47700/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/47700/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/47700",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/47700",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "esrb": {
-        "rating": "t",
-        "display_online_notice": "true",
-        "descriptors": "Mild Language\r\nViolence",
-        "interactive_elements": "Online and In-Game Purchases"
-      },
-      "pegi": {
-        "rating": "16",
-        "descriptors": "PEGI Online\r\nViolence"
-      },
-      "usk": {
-        "rating": "16"
-      },
-      "oflc": {
-        "rating": "m",
-        "descriptors": "Violence"
-      },
-      "fpb": {
-        "rating": "13"
-      },
-      "crl": {
-        "rating": "16"
-      }
     }
   }
 }
