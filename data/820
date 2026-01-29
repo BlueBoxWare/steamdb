@@ -782,13 +782,17 @@
     "type": "game",
     "name": "Senua\u2019s Saga: Hellblade II",
     "steam_appid": 2461850,
-    "required_age": "17",
+    "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
+    "dlc": [
+      3199630
+    ],
     "short_description": "The sequel to the award winning Hellblade: Senua\u2019s Sacrifice, Senua returns in a brutal journey of survival through the myth and torment of Viking Iceland. Intent on saving those who have fallen victim to the horrors of tyranny, Senua faces a battle of overcoming the darkness within and without.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461850/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461850/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2461850/capsule_184x69.jpg",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Arabic, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Traditional Chinese, Turkish, Ukrainian, Hebrew, Icelandic<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461850/eeba63cff53a732f380249a09b0be2bbf49f2635/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461850/443ddfb84a535cf564e13af8cfbf42f1720e5bd4/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461850/443ddfb84a535cf564e13af8cfbf42f1720e5bd4/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Ninja Theory"
@@ -796,58 +800,59 @@
     "publishers": [
       "Xbox Game Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      886158,
+      1372557
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Senua\u2019s Saga: Hellblade II",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      13,
+      22,
+      23,
+      28,
+      29,
+      61,
+      62
     ],
     "genres": [
       1,
       25
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "21 May, 2024"
     },
     "support_info": {
       "url": "https://www.xbox.com/en-US/games/senuas-saga-hellblade-II",
       "email": ""
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2461850/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2461850/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2461850",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461850/321ba4d9a0ea162644d34483dddc10af5a34e610/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
+        1,
+        2,
         5
       ],
-      "notes": null
-    },
-    "ratings": {
-      "esrb": {
-        "rating": "m",
-        "descriptors": "Blood and Gore\r\nIntense Violence\r\nStrong Language",
-        "use_age_gate": "true",
-        "required_age": "17"
-      },
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia Extrema"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt"
-      }
+      "notes": "Gameplay consists of realistic violent combat, and narrative scenes sometimes showing extreme gore. Enemies react realistically to wounds, and are dispatched with intense killing animations involving blood and vocalisations of pain.\r\n \r\nSome strong language is used, and partial nudity can be seen during some sequences."
     }
   },
   "2462361": {
@@ -1325,9 +1330,9 @@
     "controller_support": "full",
     "short_description": "Critically acclaimed, minimalist text-based rpg. Come light the fire.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2460660/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2460660/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2460660/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2460660/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2460660/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2460660/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Amir Rajan"
@@ -1343,7 +1348,6 @@
         "name": "default",
         "title": "Buy A Dark Room \u00ae",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -1371,29 +1375,11 @@
       "url": "http://amirrajan.net",
       "email": "ar@amirrajan.net"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2460660/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2460660/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2460660",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2460660",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Medo"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
     }
   },
   "2462820": {
@@ -2132,10 +2118,10 @@
       2464600
     ],
     "short_description": "The charming heartthrob made a bet with his best friend that within a week he would put five girls from the city's rhythmic gymnastics team, which had recently won national competitions, into bed. Will Victor win the bet on the lives of the girls?",
-    "supported_languages": "English, German, Russian, French, Simplified Chinese",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461460/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461460/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2461460/capsule_184x69.jpg",
+    "supported_languages": "English, German, Russian, French, Simplified Chinese, Japanese, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461460/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461460/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461460/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "kamti"
@@ -2143,53 +2129,51 @@
     "publishers": [
       "kamti"
     ],
-    "package_groups": [],
+    "packages": [
+      886026
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Womanizer",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
       "linux": true
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       23,
       25
     ],
+    "achievements": {
+      "total": 45
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "25 Apr, 2024"
     },
     "support_info": {
       "url": "",
       "email": "tks.conussia@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2461460/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2461460/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2461460",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2461460",
     "content_descriptors": {
       "ids": [
         1,
         5
       ],
       "notes": "This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: contains strong language and revealing outfits; sexual innuendo; sex-related language, depictions of sexual acts, as well as depictions of alcohol abuse, or self-harm. The characters discuss sex topics.\r\n\r\n"
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "14",
-        "required_age": "14",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Linguagem impr\u00f3pria\nNudez\nDrogas l\u00edcitas"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Sexuelle Inhalte"
-      }
     }
   },
   "2461980": {
@@ -2591,11 +2575,12 @@
     "steam_appid": 2462000,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Roboom is an arena shooter roguelite where you blast your way through hordes of evil Robocons. Are you ready to face the challenges of the Robocon War and ascend to become the best in the Multiverse?",
-    "supported_languages": "English<strong>*</strong>, German, Turkish<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2462000/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2462000/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2462000/capsule_184x69.jpg",
+    "controller_support": "full",
+    "short_description": "You should simply try out Roboom. We have quite a long description below, you can read if you like, but experiencing Roboom yourself or as Co-op is the best.",
+    "supported_languages": "English<strong>*</strong>, German, Turkish, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462000/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462000/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462000/capsule_184x69.jpg",
     "website": "https://robogame.io",
     "developers": [
       "Robogame Studios"
@@ -2609,55 +2594,59 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      886211
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Roboom",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
+      1,
       2,
-      13,
-      18,
+      9,
       22,
-      23
+      23,
+      24,
+      28,
+      39,
+      44,
+      62
     ],
     "genres": [
       1,
       3,
-      23
+      4,
+      23,
+      70
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "19 May, 2024"
     },
     "support_info": {
       "url": "https://robogame.io",
-      "email": "robogamestudios@gmail.com"
+      "email": "contact@robogame.io"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2462000/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2462000/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2462000",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2462000",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "2462170": {
@@ -5065,10 +5054,10 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "Shoot hordes of zombies in a bullet hell roguelite arena. By day, harvest resources, unlock map areas, and prepare for the upcoming night. Craft unique strategies by combining characters, weapons, and exploring a vast ability tree.",
-    "supported_languages": "English, German, Spanish - Spain, Japanese, Russian, Simplified Chinese, Traditional Chinese, Korean, Portuguese - Brazil",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2462060/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2462060/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2462060/capsule_184x69.jpg",
+    "supported_languages": "English, German, Spanish - Spain, Japanese, Russian, Simplified Chinese, Traditional Chinese, Korean, Portuguese - Brazil, French, Dutch, Polish, Spanish - Latin America",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462060/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462060/70e5e628a510438e5e680afae4dcef92b3bca8c9/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462060/70e5e628a510438e5e680afae4dcef92b3bca8c9/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "PyroPhysics"
@@ -5076,7 +5065,19 @@
     "publishers": [
       "PyroPhysics"
     ],
-    "package_groups": [],
+    "packages": [
+      886229
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Graveyard Gunslingers",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5084,43 +5085,28 @@
     },
     "categories": [
       2,
-      28
+      28,
+      62
     ],
     "genres": [
       1,
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2024"
+      "coming_soon": false,
+      "date": "8 Nov, 2024"
     },
     "support_info": {
       "url": "",
       "email": "ignasjas3@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2462060/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2462060/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2462060",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2462060",
     "content_descriptors": {
-      "ids": [],
-      "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
+      "ids": [
+        5
+      ],
+      "notes": "Blood and gore throughout combat parts of the game"
     }
   },
   "2461180": {
@@ -6455,11 +6441,11 @@
     "steam_appid": 2461050,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Adapted from true casefiles, \u201cCode Name: Daybreak\u201d is an interactive film about the intertwining fates of two men drawn into a large anti-drug operation. With a dual-protagonist feature, take charge of both characters as they confront a secretive drug cartel. All choices matter. Will you survive?",
+    "short_description": "\u300aDayBreak\u300b is an anti-narcotics-themed interactive video work, adapted from real volumes, with a unique two-line narrative system that brings a differentiated interactive experience.",
     "supported_languages": "Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461050/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461050/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2461050/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461050/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461050/a867dc81a0a38abfce139acb95827a9990c14600/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461050/a867dc81a0a38abfce139acb95827a9990c14600/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Enter Games"
@@ -6467,14 +6453,28 @@
     "publishers": [
       "\u666f\u79c0\u6e38\u620f"
     ],
-    "package_groups": [],
+    "packages": [
+      885892
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u6668\u660f\u7ebf",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      22,
+      62
     ],
     "genres": [
       3,
@@ -6482,39 +6482,25 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 32
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "6 Feb, 2025"
     },
     "support_info": {
-      "url": "https://kf.qq.com/",
-      "email": ""
+      "url": "",
+      "email": "kf@ruyi.cn"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2461050/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2461050/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2461050",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2461050",
     "content_descriptors": {
       "ids": [
+        2,
         5
       ],
-      "notes": "The game contains a small amount of violence and may not be suitable for all ages."
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia\nAtos criminosos"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
+      "notes": "The game contains images of crime, violent behavior, gunfights, and fights, and is not suitable for minors.\r\n \r\nThe adult content in this game mainly focuses on the scenes caused by gunfights and fights in the plot, as well as crime and violent behavior. It only appears in specific maps or scenes and does not require specific levels or rankings to unlock content. These scenes will appear as the plot of the live action interactive movie progresses."
     }
   },
   "2461340": {
@@ -7139,49 +7125,67 @@
     "steam_appid": 2460070,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      3331470,
+      3331480
+    ],
     "short_description": "Guide Manari the Anti-Demon Ninja in her journey to eliminate the demon terror she battles her own inner demons in this lewd rogue-lite deck-building adventure game!",
     "supported_languages": "English, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2460070/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2460070/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2460070/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2460070/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2460070/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2460070/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "\u6a39\u61f6\u53eb\u5de5\u4f5c\u5ba4",
+      "\u7d33\u58eb\u5409\u5a03",
       "Maker\u88fd\u9020\u6a5f"
     ],
     "publishers": [
       "Mango Party",
-      "LewdLoco"
+      "LewdLoco",
+      "Mango Party News"
     ],
-    "demos": [
+    "packages": [
+      885494
+    ],
+    "package_groups": [
       {
-        "appid": 2868180,
-        "description": ""
+        "name": "default",
+        "title": "Buy Half-Demon Shinobi",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      22,
+      23,
+      62
     ],
     "genres": [
       4,
       23
     ],
+    "achievements": {
+      "total": 54
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2024"
+      "coming_soon": false,
+      "date": "17 Dec, 2024"
     },
     "support_info": {
       "url": "",
       "email": "support@mangopartygames.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2460070/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2460070/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2460070",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2460070",
     "content_descriptors": {
       "ids": [
         1,
@@ -7191,24 +7195,6 @@
         5
       ],
       "notes": "All character depicted are over the age of 20.\r\nContent Warning:\"Special Operations Unit - MANARI\" contains Anal, Blowjob and Rape."
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Nudez\nViol\u00eancia\nTemas sens\u00edveis"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "BANNED",
-        "required_age": "2147483647",
-        "banned": "1",
-        "use_age_gate": "0",
-        "descriptors": "Sexualisierte Gewalt / Sexual violence"
-      }
     }
   },
   "2461580": {
@@ -8586,9 +8572,9 @@
     ],
     "short_description": "\u5c11\u5973\u9054\u306e\u300c\u6700\u671f\u306e\u4e00\u65e5\u300d\u3092\u8fbf\u308a\u3001\u771f\u76f8\u3092\u7d10\u89e3\u3044\u3066\u3044\u304f",
     "supported_languages": "Japanese",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461130/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461130/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2461130/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461130/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461130/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461130/capsule_184x69.jpg",
     "website": "https://www.wakuwakugames.com/",
     "developers": [
       "\u3072\u3068\u308a\u30b5\u30fc\u30af\u30eb\u300c\u5319\u6295\u3052\u90e8\u300d"
@@ -8610,7 +8596,6 @@
         "name": "default",
         "title": "Buy \u6c88\u3081\u308b\u697d\u5712",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -8637,31 +8622,13 @@
       "url": "https://www.wakuwakugames.com/",
       "email": "support@wakuwakugames.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2461130/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2461130/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2461130",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461130/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         5
       ],
       "notes": "The themes of this story include \"suicide\" and \"self-harm\". The game also contains references to drug overdose and sexually violent. The protagonist's best friend tries to jump off a cliff as you progress through the story. There is no bloodshed or other cruelty."
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia\nTemas sens\u00edveis\nDrogas il\u00edcitas"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Selbstmord"
-      }
     }
   },
   "2461500": {
@@ -13450,18 +13417,27 @@
       "appid": "1807690",
       "name": "Roxy Raccoon's Pinball Panic"
     },
-    "supported_languages": "English<strong>*</strong>, French, German, Polish, Spanish - Latin America, Portuguese - Brazil, Turkish<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2462921/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2462921/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2462921/capsule_184x69.jpg",
+    "supported_languages": "English<strong>*</strong>, French, German, Polish, Spanish - Latin America, Portuguese - Brazil, Turkish, Italian<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462921/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462921/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462921/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Sinomod Studios"
     ],
-    "publishers": [
-      ""
+    "packages": [
+      886537
     ],
-    "package_groups": [],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Roxy Raccoon's Pinball Panic - Baker's Best",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13484,15 +13460,15 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "2 Sep, 2024"
+      "coming_soon": false,
+      "date": "1 Jan, 2024"
     },
     "support_info": {
       "url": "",
       "email": "sinomodstudios@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2462921/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2462921/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2462921",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2462921",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -13506,9 +13482,9 @@
     "is_free": true,
     "short_description": "The Complex IV is a turn-based RPG set in the world of Dungeons &amp; Dragons. Using a subset of the SRD 5.1 ruleset, play solo or compete with up to 5 other players in scenarios designed to test your sword and sorcery skills against a relentless horde of monsters.",
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2460770/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2460770/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2460770/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2460770/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2460770/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2460770/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "SC"
@@ -13537,16 +13513,19 @@
       3,
       37
     ],
+    "achievements": {
+      "total": 49
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q1 2024"
+      "coming_soon": false,
+      "date": "13 Jan, 2024"
     },
     "support_info": {
       "url": "",
       "email": "the.complex.online.unity@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2460770/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2460770/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2460770",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2460770/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -13613,9 +13592,9 @@
     "is_free": true,
     "short_description": "A single-player zombies experience. Players are armed with diverse weapons, unique abilities, bullet types, and more to face relentless hordes of cunning enemies. Navigate the in-depth DnD-style progression system, in this riveting journey through an ever-increasing wave of undead threats.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461070/header_alt_assets_0.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461070/capsule_231x87_alt_assets_0.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2461070/capsule_184x69_alt_assets_0.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461070/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461070/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461070/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "DastardlyDawgs",
@@ -13637,16 +13616,19 @@
       1,
       70
     ],
+    "achievements": {
+      "total": 5
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "February 2024"
+      "coming_soon": false,
+      "date": "6 Feb, 2024"
     },
     "support_info": {
       "url": "https://discord.gg/KmdVzjxmTy",
       "email": "blackout@vojmir.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2461070/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2461070/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2461070",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2461070",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -13665,9 +13647,9 @@
       "name": "Corsairs Legacy - Pirate Action RPG & Sea Battles"
     },
     "supported_languages": "English<strong>*</strong>, Russian<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Simplified Chinese<strong>*</strong>, Spanish - Spain<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Korean<strong>*</strong>, Polish<strong>*</strong>, Ukrainian<strong>*</strong>, Japanese<strong>*</strong>, Turkish<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461620/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461620/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2461620/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461620/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461620/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461620/capsule_184x69.jpg",
     "website": "https://corsairslegacy.com/",
     "developers": [
       "Mauris"
@@ -13675,7 +13657,19 @@
     "publishers": [
       "Mauris Games OU"
     ],
-    "package_groups": [],
+    "packages": [
+      886076
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Corsairs Legacy Supporter Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13686,7 +13680,8 @@
       2,
       21,
       28,
-      49
+      49,
+      62
     ],
     "genres": [
       1,
@@ -13695,15 +13690,15 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "30 Jan, 2024"
     },
     "support_info": {
       "url": "",
       "email": "support@corsairslegacy.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2461620/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2461620/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2461620",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461620/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -13764,9 +13759,9 @@
     "is_free": false,
     "short_description": "Simple memory game. Play against time and challenge your memory, avoiding the bombs finding one will mess up your game. Get some cool icons and letters!",
     "supported_languages": "English<strong>*</strong>, Spanish - Spain<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2462110/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2462110/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2462110/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462110/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462110/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462110/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "PinkBananaGames"
@@ -13782,7 +13777,8 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       4
@@ -13795,8 +13791,8 @@
       "url": "",
       "email": "hello@pinkbananagames.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2462110/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2462110/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2462110",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462110/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -13861,9 +13857,9 @@
     "is_free": false,
     "short_description": "Welcome to Beyond the Fringe, a single-player action/adventure set in a sci-fi universe with over seven different handcrafted maps to explore! Fight, fly, loot, mine, and craft your way through each world, searching for your mother and discovering the truth about the danger looming over the galaxy.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461290/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461290/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2461290/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461290/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461290/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461290/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "KandH"
@@ -13871,7 +13867,19 @@
     "publishers": [
       "KandH"
     ],
-    "package_groups": [],
+    "packages": [
+      885964
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Beyond the Fringe",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13879,22 +13887,22 @@
     },
     "categories": [
       2,
-      18
+      62
     ],
     "genres": [
       1,
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "28 Feb, 2024"
     },
     "support_info": {
       "url": "",
       "email": "kandh22023@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2461290/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2461290/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2461290",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461290/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         2,
@@ -13982,9 +13990,9 @@
     "is_free": false,
     "short_description": "&quot;Black &amp; White\u2022plot exclusive version&quot; is a dystopian visual novel game: black and white, sensibility and reason, freedom and order: follow your beliefs and join your camp.",
     "supported_languages": "Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461240/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2461240/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2461240/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461240/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461240/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461240/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "\u96f6\u521b\u6e38\u620f(ZerocreationGame)"
@@ -13992,7 +14000,19 @@
     "publishers": [
       "\u65b9\u5757\u6e38\u620f(CubeGame)"
     ],
-    "package_groups": [],
+    "packages": [
+      885950
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Black & White Lite",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -14001,41 +14021,32 @@
     "categories": [
       2,
       22,
-      23
+      23,
+      62
     ],
     "genres": [
       3,
       23,
       25
     ],
+    "achievements": {
+      "total": 35
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "2024"
+      "coming_soon": false,
+      "date": "4 Jul, 2024"
     },
     "support_info": {
       "url": "",
       "email": "support@5icube.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2461240/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2461240/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2461240",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2461240",
     "content_descriptors": {
-      "ids": [],
-      "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "16",
-        "descriptors": "Conte\u00fado sexual\r\nViol\u00eancia",
-        "required_age": "16"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Sexuelle Inhalte"
-      }
+      "ids": [
+        5
+      ],
+      "notes": "suggestive sexual themes"
     }
   },
   "2462920": {
@@ -14051,17 +14062,26 @@
       "name": "Roxy Raccoon's Pinball Panic"
     },
     "supported_languages": "English<strong>*</strong>, French, German, Polish, Spanish - Latin America, Portuguese - Brazil, Turkish, Italian<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2462920/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2462920/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2462920/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462920/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462920/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462920/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Sinomod Studios"
     ],
-    "publishers": [
-      ""
+    "packages": [
+      886534
     ],
-    "package_groups": [],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Roxy Raccoon's Pinball Panic - Aquatic Adventures",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -14084,31 +14104,18 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "10 May, 2024"
     },
     "support_info": {
       "url": "",
       "email": "sinomodstudios@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2462920/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2462920/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2462920",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2462920",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "l"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "2460020": {
