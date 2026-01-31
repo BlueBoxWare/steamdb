@@ -5357,9 +5357,9 @@
     "controller_support": "full",
     "short_description": "Water Delivery is a first person, horror experience where you play as a water delivery boy. Ride along in the delivery truck from house to house. Deliver filled water jugs, find and return empty jugs, and collect all the payments. Will you be able to finish your final route of the evening?",
     "supported_languages": "English, French, German, Japanese, Korean, Russian, Simplified Chinese, Spanish - Latin America, Traditional Chinese, Filipino, Italian, Spanish - Spain, Portuguese - Brazil, Arabic, Thai, Indonesian, Polish, Turkish, Ukrainian, Vietnamese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077670/header.jpg?t=1746780920",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077670/capsule_231x87.jpg?t=1746780920",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077670/capsule_184x69.jpg?t=1746780920",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077670/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077670/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077670/capsule_184x69.jpg",
     "website": "https://frozenlakesoftware.com/newsletter-landing-page",
     "developers": [
       "Frozen Lake Software"
@@ -5375,7 +5375,6 @@
         "name": "default",
         "title": "Buy Water Delivery",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -5410,8 +5409,8 @@
       "url": "https://www.frozenlakesoftware.com",
       "email": "support@frozenlakesoftware.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3077670?t=1746780920",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3077670?t=1746780920",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3077670",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3077670",
     "content_descriptors": {
       "ids": [
         1,
@@ -5419,24 +5418,6 @@
         5
       ],
       "notes": "This game contains disturbing imagery, moments of self-harm, nudity, and dark religious undertones."
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Conte\u00fado sexual\nViol\u00eancia\nTemas sens\u00edveis"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Sexuelle Inhalte\nDrastische Gewalt\nSchimpfw\u00f6rte"
-      }
     }
   },
   "3077910": {
@@ -11456,33 +11437,46 @@
     "steam_appid": 3077570,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4226420,
+      4226430,
+      4128700
+    ],
     "short_description": "This game is a rhythm action game in which the player purifies souls by pinching them with girls' thighs! The player controls the thighs and pinches the flowing souls in rhythm. Let's purify souls by pinching them with thighs in rhythm! Let's Paradise!",
-    "supported_languages": "Japanese<strong>*</strong>, English, Simplified Chinese, Traditional Chinese, Korean<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077570/a1f3df20926d31c35bbf4dca67226a257276642b/header.jpg?t=1751351255",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077570/e0476e1185e94bac7176c2bf75e8cbdf0846467e/capsule_231x87.jpg?t=1751351255",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077570/e0476e1185e94bac7176c2bf75e8cbdf0846467e/capsule_184x69.jpg?t=1751351255",
-    "website": "https://skoota.jp/games",
+    "supported_languages": "Japanese<strong>*</strong>, English, Simplified Chinese, Traditional Chinese, Korean, French, Spanish - Latin America, Portuguese - Brazil, Russian<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077570/a1f3df20926d31c35bbf4dca67226a257276642b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077570/e0476e1185e94bac7176c2bf75e8cbdf0846467e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077570/e0476e1185e94bac7176c2bf75e8cbdf0846467e/capsule_184x69.jpg",
+    "website": "https://skoota.jp/games/momocrash/",
     "developers": [
       "SKOOTA GAMES"
     ],
     "publishers": [
       "SCOOTER FILMS INC."
     ],
-    "demos": [
+    "packages": [
+      1093476
+    ],
+    "package_groups": [
       {
-        "appid": 3308980,
-        "description": ""
+        "name": "default",
+        "title": "Buy MOMO Crash",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
       2,
       18,
+      22,
+      23,
       62,
       67,
       68,
@@ -11493,40 +11487,25 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 4
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "18 Sep, 2025"
     },
     "support_info": {
       "url": "",
       "email": "info@skoota.jp"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3077570?t=1751351255",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077570/8d715970aa3611d27a2924c161496740ba809899/page_bg_raw.jpg?t=1751351255",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3077570",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077570/8d715970aa3611d27a2924c161496740ba809899/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         1,
         5
       ],
       "notes": "This game does not contain nudity or direct violence, but features female characters in revealing outfits, which some players may find suggestive. Please consider this when playing.\r\nPlease note: All characters depicted in this game are adults (18 years of age or older)"
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Conte\u00fado sexual"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Sexuelle Inhalte"
-      }
     }
   },
   "3077500": {
@@ -11944,9 +11923,9 @@
     "controller_support": "full",
     "short_description": "Slip into the role of a detective and find out why a seemingly peaceful village suddenly has to hold a funeral every other day. To solve the mysteries, act as the perpetrator and simulate the crimes. Left completely to your own devices, it\u2019s up to you to prove your ingenuity and wit.",
     "supported_languages": "English<strong>*</strong>, German<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077760/header.jpg?t=1752495261",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077760/capsule_231x87.jpg?t=1752495261",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077760/capsule_184x69.jpg?t=1752495261",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077760/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077760/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077760/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "CorDubiumArts"
@@ -11971,35 +11950,17 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "March 2026"
     },
     "support_info": {
       "url": "",
       "email": "support@cordubiumarts.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3077760?t=1752495261",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3077760?t=1752495261",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3077760",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3077760",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia\nTemas sens\u00edveis\nDrogas l\u00edcitas"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Selbstmord\nAlkohol / Tabak"
-      }
     }
   },
   "3076620": {
@@ -12254,11 +12215,11 @@
     "steam_appid": 3077850,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Feel the fear and adrenaline in the deadly dungeons in search of treasures. Create impenetrable catacombs, protecting loot from other players. Test your skills and strategies in a world where every decision can be your last. One life - one chance!",
+    "short_description": "In a world created by The Entity, tricksters build deadly labyrinths and delve into others creations, chasing gold, power, and souls. Each victory increases your strength, while every death feeds the world that consumes you, a dark fantasy PvPvE where greed is survival, and no soul ever finds peace.",
     "supported_languages": "English<strong>*</strong>, Ukrainian<strong>*</strong>, French, German, Polish, Japanese, Simplified Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077850/6cd03828f3237071278c7854e793e1698886ebb0/header.jpg?t=1748087882",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077850/178e8f4511e53515e5cd19710b7da8a6116fd808/capsule_231x87.jpg?t=1748087882",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077850/178e8f4511e53515e5cd19710b7da8a6116fd808/capsule_184x69.jpg?t=1748087882",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077850/71b4e4ee7b1c2636fdab16c95bb3b70a7240f124/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077850/79cd1ad0ae4a877ed29fea3f622d5de909bf5f4a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077850/79cd1ad0ae4a877ed29fea3f622d5de909bf5f4a/capsule_184x69.jpg",
     "website": "https://gamirare.com/",
     "developers": [
       "Gamirare Inc."
@@ -12277,7 +12238,10 @@
       2,
       9,
       17,
+      22,
+      36,
       38,
+      49,
       62
     ],
     "genres": [
@@ -12293,32 +12257,14 @@
       "url": "https://gamirare.com",
       "email": "olfamelles@gamirare.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3077850?t=1748087882",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077850/b15554c6b3ecb11a68c882af85ea2855212ade25/page_bg_raw.jpg?t=1748087882",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3077850",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077850/b15554c6b3ecb11a68c882af85ea2855212ade25/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "This game may contain content not appropriate for all ages or for viewing at work"
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia Extrema\nLinguagem impr\u00f3pria\nDrogas l\u00edcitas"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt\nAlkohol / Tabak\nDerbe Sprache"
-      }
     }
   },
   "3077170": {
@@ -15775,15 +15721,15 @@
     "controller_support": "full",
     "short_description": "&quot;Arohel: Call Of The Wind&quot; is set in a near future, when a series of mass flooding across the entire Earth has forced survivors to take refuge on stilt complexes. A few years later, a meteor shower reached the Earth, bringing with it a mysterious crystal of unknown origin: the Arohel.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077720/header.jpg?t=1747739349",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077720/capsule_231x87.jpg?t=1747739349",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077720/capsule_184x69.jpg?t=1747739349",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077720/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077720/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077720/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "906 Games"
     ],
     "publishers": [
-      "Bonus Stage Publishing"
+      "906 Games"
     ],
     "package_groups": [],
     "platforms": {
@@ -15803,35 +15749,17 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2025"
+      "date": "To be announced"
     },
     "support_info": {
       "url": "",
       "email": "team@bonusstage.co"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3077720?t=1747739349",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077720/page_bg_raw.jpg?t=1747739349",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3077720",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077720/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
     }
   },
   "3077410": {
@@ -16133,11 +16061,11 @@
     "steam_appid": 3077540,
     "required_age": 0,
     "is_free": false,
-    "short_description": "While trying to impress Ay\u015fil at the bar, you'll encounter the dark side of the night. An innocent flirt turns into an unexpected story. Your choices, timing, and a roll of the dice may lead this romantic tale to love\u2026 or disaster.",
-    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Turkish<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077540/fb1ff344a46a8a57edf1ace72f9a41321ea3c19b/header.jpg?t=1762788723",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077540/4a2e32afef29565ab5da1bafb7fd4662d880938e/capsule_231x87.jpg?t=1762788723",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077540/4a2e32afef29565ab5da1bafb7fd4662d880938e/capsule_184x69.jpg?t=1762788723",
+    "short_description": "An FMV interactive romantic comedy where your choices and timing shape the night. Try to impress Ay\u015fil at the bar and navigate a branching story that can lead to love\u2026 or total chaos.",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Turkish<strong>*</strong>, Italian, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Norwegian, Polish, Portuguese - Portugal, Romanian, Swedish, Thai, Traditional Chinese, Ukrainian, Vietnamese<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077540/fb1ff344a46a8a57edf1ace72f9a41321ea3c19b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077540/4a2e32afef29565ab5da1bafb7fd4662d880938e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077540/4a2e32afef29565ab5da1bafb7fd4662d880938e/capsule_184x69.jpg",
     "website": "https://snrinteractive.com/",
     "developers": [
       "SNR Interactive"
@@ -16155,6 +16083,7 @@
       2,
       13,
       22,
+      23,
       62
     ],
     "genres": [
@@ -16172,32 +16101,14 @@
       "url": "https://snrinteractive.com/",
       "email": "support@snrinteractive.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3077540?t=1762788723",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077540/5e9971f56681afc9c809e5c3c323e503f1150f5b/page_bg_raw.jpg?t=1762788723",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3077540",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3077540/5e9971f56681afc9c809e5c3c323e503f1150f5b/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "The game contains sensitive content such as infrequent use of profanity, alcohol, blood, occasional violent actions, and depictions of injury, and may not be suitable for all age groups."
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "14",
-        "required_age": "14",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Linguagem impr\u00f3pria\nViol\u00eancia\nDrogas l\u00edcitas"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt\nAlkohol / Tabak\nSexuelle Andeutungen"
-      }
     }
   },
   "3077060": {

@@ -1983,11 +1983,16 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Kitchen Crisis is a cooking defense game where you play as an abducted Earthling, serving dishes demanded by aliens to survive. Arrange cooking tools efficiently, upgrade ingredients and tools, and adapt to ever-changing recipes to stay alive!",
-    "supported_languages": "Korean, English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2118250/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2118250/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2118250/capsule_184x69.jpg",
+    "dlc": [
+      2795430,
+      2795440,
+      2795450
+    ],
+    "short_description": "Kitchen Crisis is a culinary defense game. You are abducted by aliens and must satisfy their appetite. If you want to live to see another day, efficiently arrange your cooking appliances, upgrade your ingredients and tools! In order to survive, make wise decisions according to everchaning recipes.",
+    "supported_languages": "Korean, English, Japanese, Simplified Chinese, Traditional Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2118250/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2118250/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2118250/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Team Samoyed"
@@ -1995,7 +2000,25 @@
     "publishers": [
       "Team Samoyed"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 2511020,
+        "description": ""
+      }
+    ],
+    "packages": [
+      757706
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Kitchen Crisis",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -2003,25 +2026,30 @@
     },
     "categories": [
       2,
+      17,
       22,
       23,
       28,
-      30
+      30,
+      62
     ],
     "genres": [
       4,
       23
     ],
+    "achievements": {
+      "total": 30
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "2 Apr, 2024"
     },
     "support_info": {
       "url": "",
       "email": "teamsamoyed@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2118250/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2118250/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2118250",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2118250/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -2897,14 +2925,15 @@
     "steam_appid": 2120870,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "dlc": [
       2394370
     ],
     "short_description": "&quot;Lize&quot; was an orphan, taken in and raised by the priest at the church. One day, while she was out in the city, she got taken by someone... She awoke in a dark dungeon... She felt &quot;something&quot; around her... Will she be able to escape the dungeon of nightmares?",
     "supported_languages": "Japanese, English, Simplified Chinese",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2120870/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2120870/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2120870/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2120870/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2120870/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2120870/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "\u50be\u4e16\u904a\u5eb5"
@@ -2920,7 +2949,6 @@
         "name": "default",
         "title": "Buy Sister Lize's suffering",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -2933,7 +2961,9 @@
     },
     "categories": [
       2,
-      23
+      23,
+      28,
+      62
     ],
     "genres": [
       3
@@ -2946,8 +2976,8 @@
       "url": "",
       "email": "info@wasabi.sub.jp"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2120870/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2120870/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2120870",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2120870",
     "content_descriptors": {
       "ids": [
         1,
@@ -4176,11 +4206,12 @@
     "steam_appid": 2119580,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "\u27eaGolden Record Retriever\u27eb is a rogue-like DICE building game in which a golden retriever kidnapped by aliens grows into a space hero by retrieving the golden records that have become a &quot;space headache.\u201d",
-    "supported_languages": "English, Korean",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2119580/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2119580/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2119580/capsule_184x69.jpg",
+    "supported_languages": "English, Korean, German, Japanese, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2119580/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2119580/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2119580/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Hoochoo Game Studios"
@@ -4202,7 +4233,6 @@
         "name": "default",
         "title": "Buy Golden Record Retriever",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -4215,24 +4245,28 @@
     },
     "categories": [
       2,
-      23
+      23,
+      28,
+      62
     ],
     "genres": [
       2,
       23,
-      28,
-      70
+      28
     ],
+    "achievements": {
+      "total": 20
+    },
     "release_date": {
       "coming_soon": false,
-      "date": "2 Aug, 2023"
+      "date": "22 Mar, 2024"
     },
     "support_info": {
       "url": "",
       "email": "support@hoochoogamestudios.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2119580/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2119580/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2119580",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2119580",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -13593,11 +13627,14 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      3254860
+    ],
     "short_description": "A game about being kind to real people. Send nice letters from your cozy room, go outside and say hi to your neighbors, swap recommendations, dress up for the poetry slam and add your dreams to a sky full of wishes. Join a community of real people with their hearts on their sleeves.",
     "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2118120/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/2118120/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/2118120/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2118120/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2118120/fde5ea919bdab12b29ea4f1602721731c032496d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2118120/fde5ea919bdab12b29ea4f1602721731c032496d/capsule_184x69.jpg",
     "website": "https://lofichillbeats.com",
     "developers": [
       "Popcannibal"
@@ -13605,7 +13642,25 @@
     "publishers": [
       "Popcannibal"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 2777710,
+        "description": ""
+      }
+    ],
+    "packages": [
+      757668
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Kind Words 2 (lofi city pop)",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -13615,11 +13670,13 @@
       1,
       2,
       9,
+      20,
       23,
       28,
       36,
       38,
-      49
+      49,
+      62
     ],
     "genres": [
       4,
@@ -13627,15 +13684,15 @@
       29
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "7 Oct, 2024"
     },
     "support_info": {
       "url": "https://popcannibal.com",
       "email": "support@popcannibal.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/2118120/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/2118120/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2118120",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2118120/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         5
