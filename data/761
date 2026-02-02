@@ -2424,9 +2424,9 @@
     "is_free": false,
     "short_description": "Click! Place gears, click! Make money, click! Place more gears, click! Make even more money, click, click and above all click!",
     "supported_languages": "English, French, Spanish - Spain, Catalan, Galician, Spanish - Latin America, Italian, German, Czech, Japanese, Korean, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Turkish, Bulgarian, Danish, Dutch, Finnish, Greek, Hungarian, Norwegian, Romanian, Swedish, Thai, Ukrainian, Vietnamese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285820/header.jpg?t=1731090099",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285820/capsule_231x87.jpg?t=1731090099",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285820/capsule_184x69.jpg?t=1731090099",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285820/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285820/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285820/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "guilemus"
@@ -2442,7 +2442,6 @@
         "name": "default",
         "title": "Buy Idling Gears",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -2455,6 +2454,7 @@
     },
     "categories": [
       2,
+      15,
       22,
       23,
       25,
@@ -2462,7 +2462,12 @@
       30,
       41,
       42,
-      62
+      62,
+      66,
+      68,
+      74,
+      76,
+      79
     ],
     "genres": [
       4
@@ -2478,24 +2483,11 @@
       "url": "https://discord.gg/YyhtyeSVKe",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285820/page_bg_generated_v6b.jpg?t=1731090099",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285820/page_bg_generated.jpg?t=1731090099",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2285820",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2285820",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "l"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "2284640": {
@@ -3646,21 +3638,38 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Battle through hordes of horrific creatures as you hack and slash your way to the top of the Tower in this rogue-like dungeon crawler game. Choose from a variety of upgrades, unlock new weapons, discover powerful synergies, and save the Tower from the evil Soulbinders.",
-    "supported_languages": "English<strong>*</strong>, Simplified Chinese, Spanish - Spain, Japanese, Korean, Russian, Spanish - Latin America, French, Italian, German, Polish, Traditional Chinese, Turkish<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285940/header.jpg?t=1736602958",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285940/capsule_231x87.jpg?t=1736602958",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285940/capsule_184x69.jpg?t=1736602958",
+    "short_description": "Battle through hordes of horrific creatures as you hack and slash your way to the top of the Tower in this rogue-like dungeon crawler game. Choose from a variety of upgrades and weapons, and save the Tower.",
+    "supported_languages": "English<strong>*</strong>, Simplified Chinese, Spanish - Spain, Japanese, Korean, Russian, French, Italian, German, Polish, Traditional Chinese, Turkish, Portuguese - Portugal<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285940/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285940/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285940/capsule_184x69.jpg",
     "website": "https://discord.gg/wneN3QWbwp",
     "developers": [
       "Danny Deer"
     ],
     "publishers": [
-      "Gameparic",
-      "Games Incubator",
-      "PlayWay S.A."
+      "PlayWay S.A.",
+      "Gameparic"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 2589310,
+        "description": ""
+      }
+    ],
+    "packages": [
+      820030
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Hollow Survivors",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -3669,7 +3678,9 @@
     "categories": [
       2,
       22,
-      28
+      23,
+      28,
+      62
     ],
     "genres": [
       1,
@@ -3678,37 +3689,22 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 18
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q1 2025"
+      "coming_soon": false,
+      "date": "10 Apr, 2025"
     },
     "support_info": {
       "url": "https://discord.gg/wneN3QWbwp",
-      "email": "hello@gameparic.com"
+      "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285940/page_bg_generated_v6b.jpg?t=1736602958",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285940/page_bg_generated.jpg?t=1736602958",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2285940",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2285940",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "2285290": {
@@ -4356,11 +4352,14 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      3366150
+    ],
     "short_description": "The new open world, spellcasting action-RPG. The grimoires have been stolen, civilisation is in ruins. Rise, Curator! Craft ancient elemental magics and challenge the great lords who threaten to fracture reality itself.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284600/header.jpg?t=1732986631",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284600/capsule_231x87.jpg?t=1732986631",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284600/capsule_184x69.jpg?t=1732986631",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284600/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284600/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284600/capsule_184x69.jpg",
     "website": "https://www.jandusoft.com/codexlost/",
     "developers": [
       "Freemana"
@@ -4376,7 +4375,6 @@
         "name": "default",
         "title": "Buy Codex Lost",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -4410,30 +4408,14 @@
       "url": "https://www.jandusoft.com/contactus/",
       "email": "freemanagames@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284600/page_bg_generated_v6b.jpg?t=1732986631",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284600/page_bg_generated.jpg?t=1732986631",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2284600",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2284600",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "GENERAL MATURE CONTENT"
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "16",
-        "descriptors": "Viol\u00eancia Extrema\r\nTemas sens\u00edveis\r\nMedo",
-        "use_age_gate": "true",
-        "required_age": "16"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
     }
   },
   "2283020": {
@@ -4729,9 +4711,9 @@
     "controller_support": "full",
     "short_description": "A stunning mix of visual novel and relationship-simulating elements as they make decisions that shape the main plot. Each character featured in the game has its unique storyline to discover, with various daily actions, stats, and events set in place to strengthen the gameplay experience.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283200/header.jpg?t=1732886206",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283200/capsule_231x87.jpg?t=1732886206",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283200/capsule_184x69.jpg?t=1732886206",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283200/e61d3dd4d7e0d7cf2a292691ca0fd72d2ccc02fe/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283200/dc9ec44089967c17f0b5feb03fe645236d647a6f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283200/dc9ec44089967c17f0b5feb03fe645236d647a6f/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Lesson of Passion"
@@ -4747,7 +4729,6 @@
         "name": "default",
         "title": "Buy Eleanor in Miami",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -4772,7 +4753,7 @@
       70
     ],
     "achievements": {
-      "total": 19
+      "total": 23
     },
     "release_date": {
       "coming_soon": false,
@@ -4782,8 +4763,8 @@
       "url": "https://blog.lessonofpassion.com/contact-form/",
       "email": "leonizer@lessonofpassion.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283200/page_bg_generated_v6b.jpg?t=1732886206",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283200/page.bg.jpg?t=1732886206",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2283200",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283200/b888b08af7ce25429548fe7a8ddb80d76bcf2150/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         1,
@@ -4792,22 +4773,6 @@
         5
       ],
       "notes": "This game is dedicated to the adult audience only - we present vivid sex scenes without any censorship. In some cases, characters perform \"vanilla sex\", but sometimes we present more kinky scenes, including cheating on your partner, lesbian sex, threesomes or foursomes, sex for money or position, the elements of BDSM and more bizarre scenes.\r\n\r\nWe try to present a wide variety of characters, and some of them might represent the type of behavior we don't endorse, such as bad language, using their dominant position toward women and treating them as their sexual toys.\r\n\r\nIn some scenes, we're presenting illegal activities such as running underground casinos, working as a prostitute and being used as a sexual trophy during illegal bets.\r\n\r\nAlso, you may witness here mild usage of alcohol and mention of illegal drugs."
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "18",
-        "descriptors": "Nudez",
-        "use_age_gate": "true",
-        "required_age": "18"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "BANNED",
-        "required_age": "2147483647",
-        "banned": "1",
-        "use_age_gate": "0",
-        "descriptors": "Sexuelle Inhalte\nDrogen\nDerbe Sprache"
-      }
     }
   },
   "2284480": {
@@ -5755,18 +5720,21 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "CTHULOOT is a cooperative arcade game for 2 to 4 players in which you explore strange places filled with treasures to collect. Cooperation, agility and cthonic chanting will be required to solve the mysteries that await you. But watch out for tentacles!",
-    "supported_languages": "English, French, Basque",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283410/header.jpg?t=1733410122",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283410/capsule_231x87.jpg?t=1733410122",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283410/capsule_184x69.jpg?t=1733410122",
+    "dlc": [
+      3655300
+    ],
+    "short_description": "CTHULOOT is a cooperative arcade game in which you explore strange places filled with treasures to collect. Cooperation, agility and cthonic chanting will be required to solve the mysteries that await you. But watch out for tentacles!",
+    "supported_languages": "English, French, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283410/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283410/1f84ce2de0c39d42f91516fb976d4f8f99999749/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283410/1f84ce2de0c39d42f91516fb976d4f8f99999749/capsule_184x69.jpg",
     "website": "https://cthuloot.games",
     "developers": [
       "Pixelnest Studio",
       "Headbang Club"
     ],
     "publishers": [
-      "Pixelnest Studio"
+      "TyGAMES"
     ],
     "demos": [
       {
@@ -5774,57 +5742,59 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      819147
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy CTHULOOT",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
-      "linux": false
+      "linux": true
     },
     "categories": [
       1,
       2,
       9,
+      22,
       23,
       24,
       28,
       39,
       43,
-      44
+      44,
+      62
     ],
     "genres": [
       1,
+      4,
       23,
       25
     ],
+    "achievements": {
+      "total": 23
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "14 Apr, 2025"
     },
     "support_info": {
       "url": "",
-      "email": "support@pixelnest.io"
+      "email": "support@ty.games"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283410/page_bg_generated_v6b.jpg?t=1733410122",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283410/page_bg_generated.jpg?t=1733410122",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2283410",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2283410",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "10",
-        "descriptors": "Medo",
-        "use_age_gate": "true",
-        "required_age": "10"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Schimpfw\u00f6rte\n\u00c4ngstigende Inhalte"
-      }
     }
   },
   "2284810": {
@@ -6958,16 +6928,23 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "A fantasy world like no other! Help Runa uncover the mysteries buried deep in the ruins of the ancient Chaikuru civilization, in a classic and epic 3D adventure platformer.",
-    "supported_languages": "English, Spanish - Latin America, Portuguese - Brazil, Spanish - Spain, Portuguese - Portugal",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283470/header.jpg?t=1734769264",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283470/capsule_231x87.jpg?t=1734769264",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283470/capsule_184x69.jpg?t=1734769264",
+    "supported_languages": "English, Spanish - Latin America, Portuguese - Brazil, Spanish - Spain, Portuguese - Portugal, French, German, Japanese, Simplified Chinese, Traditional Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283470/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283470/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283470/capsule_184x69.jpg",
     "website": "http://www.fannypackstudios.com",
     "developers": [
       "Fanny Pack Studios"
     ],
     "publishers": [
+      "QUByte Interactive",
       "Fanny Pack Studios"
+    ],
+    "demos": [
+      {
+        "appid": 2422440,
+        "description": ""
+      }
     ],
     "packages": [
       819176
@@ -6977,7 +6954,6 @@
         "name": "default",
         "title": "Buy Runa & the Chaikur\u00fa Legacy",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -6990,58 +6966,31 @@
     },
     "categories": [
       2,
+      22,
+      23,
       28,
       62
     ],
     "genres": [
       23,
-      25,
-      70
+      25
     ],
+    "achievements": {
+      "total": 100
+    },
     "release_date": {
       "coming_soon": false,
-      "date": "27 Aug, 2024"
+      "date": "29 Jan, 2025"
     },
     "support_info": {
       "url": "http://www.fannypackstudios.com",
-      "email": ""
+      "email": "info@fannypackstudios.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283470/page_bg_generated_v6b.jpg?t=1734769264",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283470/page.bg.jpg?t=1734769264",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2283470",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283470/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "l",
-        "descriptors": "Viol\u00eancia fantasiosa"
-      },
-      "pegi": {
-        "rating": "7",
-        "descriptors": "Mild Violence"
-      },
-      "usk": {
-        "rating": "6",
-        "rating_id": "fa1a2b2b-bd0b-4fca-86f8-f82d77beb867",
-        "descriptors": "Comic Violence"
-      },
-      "kgrb": {
-        "rating": "all",
-        "descriptors": "Violence"
-      },
-      "csrr": {
-        "rating": "P6",
-        "descriptors": "Violence"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Fantasy-Gewalt"
-      }
     }
   },
   "2285270": {
@@ -8002,15 +7951,15 @@
     "is_free": true,
     "short_description": "Relive the fighting of the 'Sakura Arms' with cute animated SD graphics!",
     "supported_languages": "English<strong>*</strong>, Korean<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285950/header.jpg?t=1676020910",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285950/capsule_231x87.jpg?t=1676020910",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285950/capsule_184x69.jpg?t=1676020910",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285950/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285950/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285950/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "ClearSky Studio"
+      "SubCulture Dev"
     ],
     "publishers": [
-      "ClearSky Studio"
+      "SubCulture Dev"
     ],
     "package_groups": [],
     "platforms": {
@@ -8036,29 +7985,11 @@
       "url": "",
       "email": "junhyuckjang3@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285950/page_bg_generated_v6b.jpg?t=1676020910",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285950/page_bg_generated.jpg?t=1676020910",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2285950",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2285950",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "2285460": {
@@ -8271,9 +8202,9 @@
     "is_free": false,
     "short_description": "One summer afternoon, Saeki is invited by his friend Maeda to go to an old book festival. . . By chance, the self-proclaimed genius scientist Nanaban asked him to search for the lost book! A mysterious incident happens there!\uff1fIt's that kind of story!",
     "supported_languages": "Japanese, English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284410/header.jpg?t=1704697202",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284410/capsule_231x87.jpg?t=1704697202",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284410/capsule_184x69.jpg?t=1704697202",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284410/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284410/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284410/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "\u8def\u5730\u88cf\u96fb\u8133\u7814\u7a76\u6240"
@@ -8289,7 +8220,6 @@
         "name": "default",
         "title": "Buy Back alley chronicle",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -8317,24 +8247,11 @@
       "url": "https://nemuinazz7.wixsite.com/my-site",
       "email": "nemuina.zz7@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284410/page_bg_generated_v6b.jpg?t=1704697202",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284410/page.bg.jpg?t=1704697202",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2284410",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284410/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "l"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "2284380": {
@@ -10076,9 +9993,9 @@
     "is_free": false,
     "short_description": "Pull-along VRosty, the little snowman, through a warming world in this VR-only puppet-puzzle-platformer. His life is hanging by a thread.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Simplified Chinese<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Dutch<strong>*</strong>, Norwegian<strong>*</strong>, Polish<strong>*</strong>, Russian<strong>*</strong>, Swedish<strong>*</strong>, Turkish<strong>*</strong>, Ukrainian<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Spanish - Latin America<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284860/header.jpg?t=1733234830",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284860/929d3b5db69aeffaa400e75b962c0f87bec0582d/capsule_231x87.jpg?t=1733234830",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284860/929d3b5db69aeffaa400e75b962c0f87bec0582d/capsule_184x69.jpg?t=1733234830",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284860/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284860/929d3b5db69aeffaa400e75b962c0f87bec0582d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284860/929d3b5db69aeffaa400e75b962c0f87bec0582d/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "TomyHorst"
@@ -10094,7 +10011,6 @@
         "name": "default",
         "title": "Buy VRosty",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -10125,29 +10041,11 @@
       "url": "",
       "email": "support@vrosty.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284860/page_bg_generated_v6b.jpg?t=1733234830",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284860/page.bg.jpg?t=1733234830",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2284860",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284860/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
     }
   },
   "2283450": {
@@ -10324,18 +10222,16 @@
     "steam_appid": 2285550,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
-    "short_description": "Doloc Town is a cozy pixel art farm simulation game set in a post-apocalyptic world. Build your dream farm from scratch and explore this mysterious wasteland. Harvest, plant, build, and battle against ferocious creatures while discover the untold stories of this forgotten land!",
-    "supported_languages": "English, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285550/header.jpg?t=1730964407",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285550/f56da64cc29e6fcc12223361a81226ea2928af6b/capsule_231x87.jpg?t=1730964407",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285550/f56da64cc29e6fcc12223361a81226ea2928af6b/capsule_184x69.jpg?t=1730964407",
+    "short_description": "Doloc Town is a cozy pixel-art farming simulation set in a post-apocalyptic world. Build your dream farm from scratch and explore this mysterious wasteland. Harvest, plant, build, and uncover the untold stories of this forgotten land.",
+    "supported_languages": "English, Simplified Chinese, Traditional Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285550/b15f97ee7e693856e47aee5d41ffe916a7ab7bb3/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285550/354ce866a8eda2bcbb650b4c2d5bdcf17268d697/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285550/354ce866a8eda2bcbb650b4c2d5bdcf17268d697/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "RedSaw Games Studio"
     ],
     "publishers": [
-      "RedSaw Games Studio",
       "Logoi Games"
     ],
     "demos": [
@@ -10344,7 +10240,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      819903
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Doloc Town",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -10352,42 +10260,39 @@
     },
     "categories": [
       2,
+      18,
       22,
-      28
+      23,
+      62,
+      66,
+      67,
+      68,
+      74
     ],
     "genres": [
       3,
       4,
       23,
       25,
-      28
+      28,
+      70
     ],
+    "achievements": {
+      "total": 43
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "7 May, 2025"
     },
     "support_info": {
       "url": "",
-      "email": "doloctown@logoi.net"
+      "email": "qa@logoi.net"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285550/page_bg_generated_v6b.jpg?t=1730964407",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285550/page.bg.jpg?t=1730964407",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2285550",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285550/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "l"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "2285560": {
@@ -11642,10 +11547,10 @@
     "controller_support": "full",
     "short_description": "TraumaCore Violence is a 2D Action Game with a focus on intense, snappy combat and in-depth movement mechanics; set within the psyche of a woman who has just had her mind snap.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284460/header.jpg?t=1727556132",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284460/capsule_231x87.jpg?t=1727556132",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284460/capsule_184x69.jpg?t=1727556132",
-    "website": null,
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284460/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284460/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284460/capsule_184x69.jpg",
+    "website": "https://discade.dev",
     "developers": [
       "Discade Project"
     ],
@@ -11660,7 +11565,6 @@
         "name": "default",
         "title": "Buy TraumaCore Violence",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -11693,30 +11597,14 @@
       "url": "https://twitter.com/DiscadeProject",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284460/page_bg_generated_v6b.jpg?t=1727556132",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284460/page.bg.jpg?t=1727556132",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2284460",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284460/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "Excessive CPU Destroying Gore, as well as Themes of Trauma and other Mature Subjects, Possibly Disturbing Imagery."
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "14",
-        "descriptors": "Viol\u00eancia\r\nTemas sens\u00edveis\r\nLinguagem impr\u00f3pria",
-        "use_age_gate": "true",
-        "required_age": "14"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
     }
   },
   "2283690": {
@@ -11727,9 +11615,9 @@
     "is_free": false,
     "short_description": "Lin Shanhai, a reclusive yet brilliant detective, solved major intricate cases in the 90s, compiling vignettes into the acclaimed Lin Shanhai Case Files through his unparalleled deductive skills, earning legendary status.",
     "supported_languages": "Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283690/header.jpg?t=1735572698",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283690/bedd478c2c007475ceb8e60b57b9eb05c9fcc1a8/capsule_231x87.jpg?t=1735572698",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283690/bedd478c2c007475ceb8e60b57b9eb05c9fcc1a8/capsule_184x69.jpg?t=1735572698",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283690/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283690/bedd478c2c007475ceb8e60b57b9eb05c9fcc1a8/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283690/bedd478c2c007475ceb8e60b57b9eb05c9fcc1a8/capsule_184x69.jpg",
     "website": "https://qzqstudio.com",
     "developers": [
       "QZQ Studio"
@@ -11745,7 +11633,6 @@
         "name": "default",
         "title": "Buy The Adventures of LinShanHai",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -11777,27 +11664,11 @@
       "url": "https://qzqstudio.com",
       "email": "sa@hpyshark.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283690/page_bg_generated_v6b.jpg?t=1735572698",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283690/page.bg.jpg?t=1735572698",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2283690",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283690/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "14",
-        "descriptors": "Viol\u00eancia\r\nMedo\r\nDrogas l\u00edcitas",
-        "use_age_gate": "true",
-        "required_age": "14"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Horror\nDrogen"
-      }
     }
   },
   "2285221": {
@@ -12357,9 +12228,9 @@
     ],
     "short_description": "&quot;Princess Fayne leads in &quot;The MisAdventures of Xenos,&quot; a hilarious, turn-based RPG parody. Full of crude humor, meta jokes, and retro graphics, enjoy a fresh take on classic RPGs with new game+ mode. Discover a what-if quest line and defy genre conventions. Clear in 6 hours. Join the adventure now!&quot;",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285000/header.jpg?t=1710300474",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285000/capsule_231x87.jpg?t=1710300474",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285000/capsule_184x69.jpg?t=1710300474",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285000/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285000/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285000/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "ZestyTS"
@@ -12381,7 +12252,6 @@
         "name": "default",
         "title": "Buy The MisAdventures of Xenos",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -12396,6 +12266,8 @@
       2,
       22,
       28,
+      41,
+      42,
       62
     ],
     "genres": [
@@ -12414,27 +12286,11 @@
       "url": "",
       "email": "ZestyTS@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285000/page_bg_generated_v6b.jpg?t=1710300474",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285000/page_bg_generated.jpg?t=1710300474",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2285000",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2285000",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "14",
-        "descriptors": "Linguagem impr\u00f3pria\r\nViol\u00eancia",
-        "use_age_gate": "true",
-        "required_age": "14"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Fantasy-Gewalt"
-      }
     }
   },
   "2283630": {
@@ -12700,15 +12556,15 @@
     "steam_appid": 2284960,
     "required_age": 0,
     "is_free": false,
-    "short_description": "&quot; Rifts: The Garnet Town Gambit (Revised Edition) (SWADE Edition) Explore the world of Rifts(R) using the Savage Worlds system!A small town is caught in the middle between different groups wanting to exploit the region. Heroes of the Tomorrow Legion arrive just in time to make a difference in this settlement's future.",
+    "short_description": "Explore Rifts universe with Savage Worlds, navigating factions vying for control as heroes of the Tomorrow Legion arrive to save a small town from destruction. Requires Savage Worlds core rules, Rifts Player's Guide, and GM Handbook.",
     "fullgame": {
       "appid": "1196310",
       "name": "Fantasy Grounds VTT"
     },
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284960/header.jpg?t=1674569878",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284960/capsule_231x87.jpg?t=1674569878",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284960/capsule_184x69.jpg?t=1674569878",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284960/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284960/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284960/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "SmiteWorks USA, LLC"
@@ -12721,7 +12577,6 @@
         "name": "default",
         "title": "Buy Fantasy Grounds - Rifts: The Garnet Town Gambit (Revised Edition)",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -12742,8 +12597,7 @@
       27,
       38,
       39,
-      48,
-      62
+      48
     ],
     "genres": [
       2,
@@ -12758,19 +12612,11 @@
       "url": "support.fantasygrounds.com",
       "email": "support@fantasygrounds.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284960/page_bg_generated_v6b.jpg?t=1674569878",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284960/page_bg_generated.jpg?t=1674569878",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2284960",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2284960",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "10",
-        "descriptors": "Viol\u00eancia fantasiosa\r\nViol\u00eancia",
-        "use_age_gate": "true",
-        "required_age": "10"
-      }
     }
   },
   "2284650": {
@@ -12780,17 +12626,23 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "An epic 2D hand-drawn metroidvania game, where you explore, fight and survive an ancient mystery land. Dahlia wakes up from her sarcophagus cage without remembering much. She has to find her leading commander and get answers to why the kingdom is left in ruins.",
+    "short_description": "Step into an epic 2D hand-drawn Metroidvania, where mystery, danger, and beauty intertwine. Dahlia emerges with no memories and a kingdom in ruins. Joined by a flying companion, Axo, they must battle corrupted creatures and unravel the secrets of the Crystal Plague.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284650/header.jpg?t=1730401515",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284650/capsule_231x87.jpg?t=1730401515",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284650/capsule_184x69.jpg?t=1730401515",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284650/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284650/65c22b10361ca2fdb04bb24dcc9516ad2a8004d1/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284650/65c22b10361ca2fdb04bb24dcc9516ad2a8004d1/capsule_184x69.jpg",
     "website": "https://sweetdreamsdahlia.com/",
     "developers": [
       "2357 Steps"
     ],
     "publishers": [
       "2357 Steps"
+    ],
+    "demos": [
+      {
+        "appid": 2562090,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -12802,7 +12654,8 @@
       2,
       22,
       23,
-      28
+      28,
+      62
     ],
     "genres": [
       1,
@@ -12814,22 +12667,14 @@
       "date": "To be announced"
     },
     "support_info": {
-      "url": "Http://www.2357steps.com",
-      "email": "Dahliasupport@2357steps.com"
+      "url": "http://www.2357steps.com",
+      "email": "office@2357steps.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284650/page_bg_generated_v6b.jpg?t=1730401515",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284650/page.bg.jpg?t=1730401515",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2284650",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284650/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "10",
-        "descriptors": "Viol\u00eancia",
-        "use_age_gate": "true",
-        "required_age": "10"
-      }
     }
   },
   "2285280": {
@@ -14209,9 +14054,9 @@
     "is_free": false,
     "short_description": "Immerse yourself in an epic JRPG set in the midst of Tokyo's apocalyptic turmoil. Survive a catastrophic earthquake triggered by a meteorite impact, battle otherworldly creatures, and embark on a quest to reunite with your loved ones. Can you save Tokyo from impending doom?",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283720/header.jpg?t=1731026107",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283720/capsule_231x87.jpg?t=1731026107",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283720/capsule_184x69.jpg?t=1731026107",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283720/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283720/f4025dbb860df3fb9f165e7806b79f2c87e25bce/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283720/f4025dbb860df3fb9f165e7806b79f2c87e25bce/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Succubella Games"
@@ -14219,7 +14064,19 @@
     "publishers": [
       "Looking for publishers"
     ],
-    "package_groups": [],
+    "packages": [
+      819274
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy City of Despair: Shadows Over Tokyo",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -14229,7 +14086,8 @@
       2,
       18,
       22,
-      23
+      23,
+      62
     ],
     "genres": [
       3,
@@ -14238,38 +14096,25 @@
       25,
       37
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "28 Nov, 2024"
+      "coming_soon": false,
+      "date": "29 Nov, 2024"
     },
     "support_info": {
       "url": "",
       "email": "master2015hp@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283720/page_bg_generated_v6b.jpg?t=1731026107",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283720/page.bg.jpg?t=1731026107",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2283720",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283720/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         1,
         5
       ],
       "notes": "- The game features artwork with characters in revealing outfits, such as swimsuits, tattered clothes, and nearly nude humanoid monsters, without explicit depiction of nipples or genitals.\r\n- The game touches on the apocalypse monsters kills people and post-apocalyptic life but doesn\u2019t delve deeply into these themes."
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "14",
-        "descriptors": "Viol\u00eancia\r\nLinguagem impr\u00f3pria\r\nConte\u00fado sexual",
-        "use_age_gate": "true",
-        "required_age": "14"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Sexuelle Inhalte\nSelbstmord\nAlkohol / Tabak"
-      }
     }
   },
   "2284080": {
@@ -14280,15 +14125,21 @@
     "is_free": false,
     "short_description": "Tactical control meets strategic execution in this real-time, action tower defense. Develop classes of customized units and leverage different vantage points to defend your stake and ensure your colony\u2019s survival.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284080/header.jpg?t=1731081734",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284080/2a8ad847ac3cb877d801809ea8c7295ffb6ee857/capsule_231x87.jpg?t=1731081734",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284080/2a8ad847ac3cb877d801809ea8c7295ffb6ee857/capsule_184x69.jpg?t=1731081734",
-    "website": "https://www.rankwarmaster.com",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284080/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284080/2a8ad847ac3cb877d801809ea8c7295ffb6ee857/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284080/2a8ad847ac3cb877d801809ea8c7295ffb6ee857/capsule_184x69.jpg",
+    "website": "https://www.lbpsinc.com",
     "developers": [
       "Laser Beams & Particle Streams Software, Inc."
     ],
     "publishers": [
       "Laser Beams & Particle Streams Software, Inc."
+    ],
+    "demos": [
+      {
+        "appid": 3460180,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -14297,7 +14148,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -14312,29 +14164,11 @@
       "url": "http://blog.rankwarmaster.com/index.php/tracker/",
       "email": "contact@rankwarmaster.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284080/page_bg_generated_v6b.jpg?t=1731081734",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2284080/page_bg_generated.jpg?t=1731081734",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2284080",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2284080",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Linguagem impr\u00f3pria\nViol\u00eancia fantasiosa"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Schimpfw\u00f6rte\nFantasy-Gewalt"
-      }
     }
   },
   "2285190": {
@@ -14342,18 +14176,24 @@
     "name": "DreadMist",
     "steam_appid": 2285190,
     "required_age": 0,
-    "is_free": true,
-    "short_description": "DreadMist is an open-world role-playing roleplaying sandbox simulation. With the incredible mechanical depth of this fantasy sandbox, you can begin as a lowly beggar and advance to numerous people skilled in crafting, trade, farming, thievery, combat, and many other activities.",
+    "is_free": false,
+    "short_description": "DreadMist is an open-world role-playing sandbox simulation. With the incredible mechanical depth of this fantasy sandbox, you can begin as a lowly beggar and advance to become skilled in crafting, trading, farming, thievery, combat, and many other activities. Gather others to create an adventure.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285190/header.jpg?t=1732331858",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285190/capsule_231x87.jpg?t=1732331858",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285190/capsule_184x69.jpg?t=1732331858",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285190/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285190/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285190/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "EatTheAAA"
+      "Michael Shoots"
     ],
     "publishers": [
       "N/A"
+    ],
+    "demos": [
+      {
+        "appid": 3000300,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -14362,7 +14202,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       3,
@@ -14377,49 +14218,32 @@
       "url": "",
       "email": "michael.shoots@live.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285190/page_bg_generated_v6b.jpg?t=1732331858",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285190/page.bg.jpg?t=1732331858",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2285190",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2285190/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Atos criminosos\nMedo"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt\nAlkohol / Tabak"
-      }
     }
   },
   "2283250": {
     "type": "game",
-    "name": "DARK DAWN: The Chronicles of a Doll",
+    "name": "BrokenLore: DARK DAWN",
     "steam_appid": 2283250,
-    "required_age": "18",
+    "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Designed as an episodic experience, experience the horrors of kidnapping first-hand and try to escape in a twisted world. Can you escape?",
-    "supported_languages": "English<strong>*</strong>, Spanish - Spain, Spanish - Latin America<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283250/header.jpg?t=1733776794",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283250/0ef8dc6b29038756e251af333b7ba72cc4d89fad/capsule_231x87.jpg?t=1733776794",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283250/0ef8dc6b29038756e251af333b7ba72cc4d89fad/capsule_184x69.jpg?t=1733776794",
-    "website": null,
+    "short_description": "BrokenLore: DARK DAWN is a first-person psychological horror where you face the horrors of abduction and fight to escape a warped reality. Do you have what it takes?",
+    "supported_languages": "English<strong>*</strong>, Spanish - Spain, Spanish - Latin America, French, Italian, German, Korean, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Traditional Chinese, Turkish, Ukrainian<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283250/13e5ae6fd419207f7b08e34d222cceab9d21d017/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283250/69a841bc9076bbd6c313ab8f3b46af61a797326e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283250/69a841bc9076bbd6c313ab8f3b46af61a797326e/capsule_184x69.jpg",
+    "website": "https://serafiniproductions.com/",
     "developers": [
-      "Waran\u00ed Studios"
+      "Waran\u00ed Studios",
+      "Serafini Productions"
     ],
     "publishers": [
-      "Waran\u00ed Studios"
+      "Serafini Productions"
     ],
     "package_groups": [],
     "platforms": {
@@ -14430,9 +14254,11 @@
     "categories": [
       2,
       22,
-      28
+      28,
+      62
     ],
     "genres": [
+      1,
       25
     ],
     "release_date": {
@@ -14443,42 +14269,14 @@
       "url": "https://waranistudios.com/",
       "email": "hola@waranistudios.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283250/page_bg_generated_v6b.jpg?t=1733776794",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283250/page_bg_generated.jpg?t=1733776794",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2283250",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2283250/2cfdc5da549e074c723a4331099fb7afa7b18a20/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "This game may contain content not suitable for all ages or for viewing at work: Frequent violence or gore, general adult content"
-    },
-    "ratings": {
-      "esrb": {
-        "rating": "m",
-        "descriptors": "Blood and Gore\r\nStrong Language\r\nViolence",
-        "display_online_notice": "true",
-        "required_age": "18",
-        "use_age_gate": "true"
-      },
-      "dejus": {
-        "rating": "16",
-        "descriptors": "Viol\u00eancia Extrema\r\nMedo\r\nLinguagem impr\u00f3pria",
-        "use_age_gate": "true",
-        "required_age": "16"
-      },
-      "pegi": {
-        "rating": "18",
-        "required_age": "18",
-        "use_age_gate": "true"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt\nDrogen\nSchimpfw\u00f6rte"
-      }
     }
   },
   "2283230": {

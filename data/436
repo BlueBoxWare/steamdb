@@ -6566,9 +6566,9 @@
     ],
     "short_description": "Welcome to the world of dungeon crawling! The classic dungeon crawler released back in 2006, returns to Steam with improved UI and more.",
     "supported_languages": "Japanese, English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1308700/header_alt_assets_1.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1308700/capsule_231x87_alt_assets_1.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1308700/capsule_184x69_alt_assets_1.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1308700/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1308700/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1308700/capsule_184x69.jpg",
     "website": "https://wiz.gamespark.jp/",
     "developers": [
       "59 Studio"
@@ -6584,7 +6584,6 @@
         "name": "default",
         "title": "Buy Wizardry: The Five Ordeals",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -6601,7 +6600,8 @@
       23,
       41,
       42,
-      43
+      43,
+      62
     ],
     "genres": [
       3,
@@ -6615,8 +6615,8 @@
       "url": "",
       "email": "wiz@iid.co.jp"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1308700/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1308700/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1308700",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1308700/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         1,
@@ -10334,11 +10334,19 @@
     "steam_appid": 1310410,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
+    "dlc": [
+      2450970,
+      2450980,
+      2450981,
+      2450982,
+      2450983
+    ],
     "short_description": "Return to Derceto Manor in this reimagination of Alone in the Dark, a love letter to the 90\u2019s cult classic horror game.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian, German<strong>*</strong>, Spanish - Spain, Arabic, Portuguese - Brazil, Traditional Chinese, Simplified Chinese, Japanese<strong>*</strong>, Korean, Polish, Russian, Hindi, Indonesian, Persian<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1310410/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1310410/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1310410/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1310410/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1310410/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1310410/capsule_184x69.jpg",
     "website": "http://aloneinthedarkgame.com/",
     "developers": [
       "Pieces Interactive"
@@ -10346,7 +10354,19 @@
     "publishers": [
       "THQ Nordic"
     ],
-    "package_groups": [],
+    "packages": [
+      457432
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Alone in the Dark",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -10354,29 +10374,35 @@
     },
     "categories": [
       2,
-      18,
-      22
+      22,
+      23,
+      28,
+      29,
+      62
     ],
     "genres": [
       1,
       25
     ],
+    "achievements": {
+      "total": 38
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "16 Jan, 2024"
+      "coming_soon": false,
+      "date": "20 Mar, 2024"
     },
     "support_info": {
       "url": "",
       "email": "support@quanticlab.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1310410/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1310410/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1310410",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1310410/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
-      "notes": "The player fights against monsters with guns and melee weapons. No excessive gore or dismemberment, but violence against non-human enemies is displayed.\r\nSome of the game's themes imply self-harm, such as suicide and depression, but are not shown explicitly. "
+      "notes": "The player fights against monsters with guns and melee weapons. No excessive gore, but violence against non-human enemies is displayed.\r\nSome of the game's themes imply self-harm, such as suicide and depression, but are not shown explicitly. "
     }
   },
   "1309150": {
@@ -10909,50 +10935,68 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      3352450
+    ],
     "short_description": "On a deadly road trip into darkness, control the path of a single bullet and unleash a fury of vengeance on the sinister cult that ruined your life in this tactical puzzle-shooter.",
-    "supported_languages": "English",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1309950/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1309950/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1309950/capsule_184x69.jpg",
-    "website": null,
+    "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1309950/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1309950/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1309950/capsule_184x69.jpg",
+    "website": "https://www.childrenofthesungame.com/",
     "developers": [
       "Ren\u00e9 Rother"
     ],
     "publishers": [
       "Devolver Digital"
     ],
-    "demos": [
+    "packages": [
+      457291
+    ],
+    "package_groups": [
       {
-        "appid": 2312700,
-        "description": ""
+        "name": "default",
+        "title": "Buy Children of the Sun",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
+    "metacritic": {
+      "score": 81,
+      "url": "https://www.metacritic.com/game/pc/children-of-the-sun?ftag=MCD-06-10aaa1f"
+    },
     "categories": [
       2,
+      22,
       23,
-      28
+      28,
+      62
     ],
     "genres": [
       1,
       2,
       23
     ],
+    "achievements": {
+      "total": 21
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "9 Apr, 2024"
     },
     "support_info": {
       "url": "",
       "email": "support@devolverdigital.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1309950/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1309950/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1309950",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1309950",
     "content_descriptors": {
       "ids": [],
       "notes": null

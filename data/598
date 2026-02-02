@@ -1602,15 +1602,19 @@
   },
   "1796470": {
     "type": "game",
-    "name": "HASTE: Broken Worlds",
+    "name": "Haste",
     "steam_appid": 1796470,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Run fast, leap through the air, and perfect your landings as you try again and again to make your way through an infinite number of worlds falling apart behind you!",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1796470/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1796470/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1796470/capsule_184x69.jpg",
+    "controller_support": "full",
+    "dlc": [
+      3587100
+    ],
+    "short_description": "Run fast, soar through the air, and master your landings as you speed through procedural worlds to outrun the end of the universe, by yourself and with friends!",
+    "supported_languages": "English<strong>*</strong>, Simplified Chinese, French, Italian, German, Spanish - Spain, Japanese, Portuguese - Brazil, Russian, Swedish<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796470/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796470/5b6b1129c5e2c5d26847ac730cc1ca49408b8154/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796470/5b6b1129c5e2c5d26847ac730cc1ca49408b8154/capsule_184x69.jpg",
     "website": "http://landfall.se",
     "developers": [
       "Landfall"
@@ -1618,14 +1622,39 @@
     "publishers": [
       "Landfall"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 2940200,
+        "description": ""
+      }
+    ],
+    "packages": [
+      645074
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Haste",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
-      2
+      1,
+      2,
+      9,
+      22,
+      23,
+      28,
+      38,
+      62
     ],
     "genres": [
       1,
@@ -1633,16 +1662,19 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 29
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "1 Apr, 2025"
     },
     "support_info": {
       "url": "http://landfall.se/troubleshooting",
       "email": "support@landfall.se"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1796470/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1796470/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1796470",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796470/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -1784,11 +1816,15 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Sorry We're Closed is a nostalgic, single-player survival horror game with rich lore, deep characters and multiple endings. Explore unsettling locations with fixed camera angles. Fight in first person with demonic weapons. Open your Third Eye to see between worlds, uncover secrets and solve puzzles.",
-    "supported_languages": "English, French, Spanish - Spain, Japanese",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1796580/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1796580/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1796580/capsule_184x69.jpg",
+    "dlc": [
+      3314810,
+      4236260
+    ],
+    "short_description": "Sorry We're Closed is an eccentric story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of classic fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
+    "supported_languages": "English, French, Spanish - Spain, Japanese, Simplified Chinese, Traditional Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796580/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796580/c6fa267fe2888073c88a429b579bd92e5f388292/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796580/c6fa267fe2888073c88a429b579bd92e5f388292/capsule_184x69.jpg",
     "website": "https://alamode.games/",
     "developers": [
       "\u00e0 la mode games"
@@ -1802,34 +1838,64 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      645113
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Sorry We're Closed",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
+    "metacritic": {
+      "score": 83,
+      "url": "https://www.metacritic.com/game/pc/sorry-were-closed?ftag=MCD-06-10aaa1f"
+    },
     "categories": [
       2,
-      28
+      22,
+      23,
+      28,
+      29,
+      62,
+      67,
+      68,
+      69,
+      74,
+      78
     ],
     "genres": [
       1,
       23,
       25
     ],
+    "achievements": {
+      "total": 64
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "2024"
+      "coming_soon": false,
+      "date": "14 Nov, 2024"
     },
     "support_info": {
-      "url": "",
+      "url": "https://bugs.akuparagames.com/",
       "email": "support@alamode.games"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1796580/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1796580/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1796580",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796580/page_bg_raw.jpg",
     "content_descriptors": {
-      "ids": [],
-      "notes": null
+      "ids": [
+        5
+      ],
+      "notes": "Characters can appear in revealing outfits, but the game does not contain any explicit sexual content or nudity. Some cutscenes and set pieces include strong violence, blood and gore. Player-controlled gameplay features cartoon-style violence. Strong language is used throughout the game."
     }
   },
   "1794680": {
@@ -7460,9 +7526,9 @@
     "controller_support": "full",
     "short_description": "In 1999, a young woman disappears in a nearby forest. Her whereabouts remain unknown to this day. The only trace of her is a VHS recording. Relive the last hours of her in an adventure of psychological terror, the decisions we make can have different results",
     "supported_languages": "English<strong>*</strong>, Spanish - Spain, Japanese, Spanish - Latin America<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1794750/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1794750/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1794750/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794750/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794750/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794750/capsule_184x69.jpg",
     "website": "https://staywithmegame.com",
     "developers": [
       "Dreams of Heaven - Games"
@@ -7485,7 +7551,8 @@
     "categories": [
       2,
       28,
-      43
+      43,
+      62
     ],
     "genres": [
       23,
@@ -7493,14 +7560,14 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2024"
+      "date": "To be announced"
     },
     "support_info": {
       "url": "https://staywithmegame.com/support",
       "email": "support@staywithmegame.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1794750/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1794750/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1794750",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794750/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         2,
@@ -9573,17 +9640,17 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Laika: Aged Through Blood is a western-inspired motorvania set in a post-apocalyptic wasteland. It is the story about a tribe oppressed by occupant forces, and the personal story of a mother coyote warrior who descends on an endless path of vengeance to take back what her people lost.",
+    "short_description": "Laika: Aged Through Blood is an action-adventure Metroidvania set in a post-apocalyptic western world. Play as Laika, a coyote mother and fierce warrior, and carve your motorbike through a land ravaged by betrayal and loss as you uncover dark secrets in the pursuit of vengeance against oppression.",
     "supported_languages": "English, French, German, Spanish - Spain, Russian, Simplified Chinese, Japanese, Korean",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1796220/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1796220/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1796220/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796220/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796220/d0cea11c4f9c0218a15fe99b5ec2c0453ddab1ca/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796220/d0cea11c4f9c0218a15fe99b5ec2c0453ddab1ca/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Brainwash Gang"
     ],
     "publishers": [
-      "Headup Publishing"
+      "Thunderful Publishing"
     ],
     "demos": [
       {
@@ -9599,7 +9666,6 @@
         "name": "default",
         "title": "Buy Laika: Aged Through Blood",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -9619,7 +9685,8 @@
       22,
       23,
       28,
-      29
+      29,
+      62
     ],
     "genres": [
       1,
@@ -9634,10 +9701,10 @@
     },
     "support_info": {
       "url": "",
-      "email": "support@headupgames.com"
+      "email": "support@thunderful.games"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1796220/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1796220/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1796220",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796220/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         2,
@@ -13394,10 +13461,10 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "The SysAdmin simulator is a sandbox in which you can try on the role of a system administrator. Every new game day you will face different tasks and problems in the office where you work.",
-    "supported_languages": "English, Russian",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1794240/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1794240/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1794240/capsule_184x69.jpg",
+    "supported_languages": "English, Russian, French, Polish, Ukrainian, Swedish, German, Italian, Spanish - Spain, Bulgarian, Danish, Simplified Chinese, Korean, Norwegian, Thai, Turkish, Czech, Japanese, Belarusian, Latvian, Slovak, Hindi, Portuguese - Portugal",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794240/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794240/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794240/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Molodoy-GameDev"
@@ -13405,32 +13472,40 @@
     "publishers": [
       "Molodoy-GameDev"
     ],
+    "demos": [
+      {
+        "appid": 2835510,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
       22,
-      23
+      23,
+      62
     ],
     "genres": [
       3,
       23,
+      25,
       28
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "Q1 2026"
     },
     "support_info": {
-      "url": "",
+      "url": "https://t.me/SysAdminOdyssey",
       "email": "sysadmproject.main@gmail.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1794240/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1794240/page_bg_generated.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1794240",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1794240",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -13444,9 +13519,9 @@
     "is_free": false,
     "short_description": "I Witness is a 2-player online co-op psychological horror game that follows a sibling whose curiosity leads them to investigate a neighbor suspected of being a serial killer who, unbeknownst to them, hides a disturbing desire.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1796280/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1796280/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1796280/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796280/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796280/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796280/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Storytale",
@@ -13465,7 +13540,8 @@
       1,
       9,
       22,
-      38
+      38,
+      62
     ],
     "genres": [
       23,
@@ -13473,35 +13549,17 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2024"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "https://storytale.co.id/support",
       "email": "support@storytale.co.id"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1796280/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1796280/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1796280",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796280/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drogas il\u00edcitas\nViol\u00eancia Extrema\nTemas sens\u00edveis"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Sexualisierte Gewalt / Sexual violence"
-      }
     }
   },
   "1795260": {
@@ -13512,9 +13570,9 @@
     "is_free": false,
     "short_description": "Embark on your interior design journey in Home Renovator! Transform houses, unlock tools, and fulfill your client\u2019s needs to build your dream home.",
     "supported_languages": "English<strong>*</strong>, Italian, Spanish - Spain, Polish, French, German<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1795260/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/1795260/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/1795260/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1795260/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1795260/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1795260/capsule_184x69.jpg",
     "website": "https://www.twohorizons.pl/#/",
     "developers": [
       "Two Horizons"
@@ -13529,7 +13587,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       4,
@@ -13538,22 +13597,17 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q1 2025"
+      "date": "Q1 2026"
     },
     "support_info": {
       "url": "https://www.twohorizons.pl",
       "email": "support@twohorizons.pl"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1795260/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/1795260/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1795260",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1795260/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "l"
-      }
     }
   },
   "1796720": {

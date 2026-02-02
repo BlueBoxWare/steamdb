@@ -3378,13 +3378,13 @@
     "type": "game",
     "name": "Gore Doctor",
     "steam_appid": 2495990,
-    "required_age": 0,
+    "required_age": "18",
     "is_free": false,
     "short_description": "Gore Doctor is an immersive horror game set to unleash spine-chilling thrills on PC. You find yourself in the institute of a tormented doctor who, driven by desperation after losing his wife, descends into madness and becomes convinced that death is the only respite.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495990/header.jpg?t=1730135824",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495990/capsule_231x87.jpg?t=1730135824",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495990/capsule_184x69.jpg?t=1730135824",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495990/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495990/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495990/capsule_184x69.jpg",
     "website": "http://salient-games.com",
     "developers": [
       "Salient Games"
@@ -3410,7 +3410,6 @@
         "name": "default",
         "title": "Buy Gore Doctor",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -3443,8 +3442,8 @@
       "url": "http://salient-games.com/contact-us/",
       "email": ""
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495990/page_bg_generated_v6b.jpg?t=1730135824",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495990/page.bg.jpg?t=1730135824",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2495990",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495990/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         1,
@@ -3452,29 +3451,6 @@
         5
       ],
       "notes": "It is a psychological horror game with gore elements. The brutality mainly features gun and melee fights as well as some cutscenes similar in brutality to scenes known from movies like Saw. Features a sexual act between zombies."
-    },
-    "ratings": {
-      "pegi": {
-        "rating": "18",
-        "use_age_gate": "true",
-        "required_age": "18"
-      },
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia Extrema\nDrogas il\u00edcitas\nSexo Expl\u00edcito"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "BANNED",
-        "required_age": "2147483647",
-        "banned": "1",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt"
-      }
     }
   },
   "2493820": {
@@ -8479,11 +8455,11 @@
     "steam_appid": 2495730,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A hand-drawn 2.5D adventure game about the different ways one can look at things\u2014or choose not to look. About the demons in our minds and the desire to save the world. Well... or at least change it a little... or maybe it's much simpler to stop being a white crow and just blend in with the crowd?",
-    "supported_languages": "English, Russian",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495730/header.jpg?t=1729381245",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495730/77a5f224039b47c683138b9d9fd9a44780f9936c/capsule_231x87.jpg?t=1729381245",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495730/77a5f224039b47c683138b9d9fd9a44780f9936c/capsule_184x69.jpg?t=1729381245",
+    "short_description": "When demons leave your head and fill the whole world, all you can do is close your eyes and go forward. Immerse yourself in the atmospheric and moving adventure of white crow Ankou \u2014 one of pain, loneliness, and salvation that no one asked for.",
+    "supported_languages": "English, Russian, German, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495730/c5bb99c6d62bfbdd635b4b6ed0b8394ed070ef68/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495730/f2b1be15029de3fdb1d6950a88835f7869b03aad/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495730/f2b1be15029de3fdb1d6950a88835f7869b03aad/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Tara Kan"
@@ -8491,20 +8467,28 @@
     "publishers": [
       "Tara Kan"
     ],
+    "demos": [
+      {
+        "appid": 4083800,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": false
     },
     "categories": [
       2,
       18,
       22,
-      23
+      23,
+      62
     ],
     "genres": [
-      23
+      23,
+      25
     ],
     "release_date": {
       "coming_soon": true,
@@ -8514,32 +8498,14 @@
       "url": "",
       "email": "Ungeziefear@mail.ru"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495730/page_bg_generated_v6b.jpg?t=1729381245",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495730/page.bg.jpg?t=1729381245",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2495730",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495730/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "The game contains scenes of violence, suicide, and graphic descriptions of scenes of extreme cruelty and crime. because of this, it may not be suitable for all audiences."
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia\nTemas sens\u00edveis\nMedo"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Horror"
-      }
     }
   },
   "2495720": {
@@ -15439,9 +15405,9 @@
     "is_free": false,
     "short_description": "Step into the chaotic world of Shattered Time, a 2.5D platformer set within the mysterious confines of a high-tech laboratory. As a lone experiment gone awry, you gain the ability to manipulate time itself, allowing you to reverse moments in the environment and use the past to reshape the present.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2493590/header.jpg?t=1734552010",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2493590/bbfdfa9bc26b8d0d1ea59eb49e90e80056fa6913/capsule_231x87.jpg?t=1734552010",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2493590/bbfdfa9bc26b8d0d1ea59eb49e90e80056fa6913/capsule_184x69.jpg?t=1734552010",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2493590/8aacd0e88140a4fa1f8f6bbd4518027397391f70/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2493590/6ff899d95df38f9bf9aaa5c147b8733f0059fc17/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2493590/6ff899d95df38f9bf9aaa5c147b8733f0059fc17/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "PixelRift Studios"
@@ -15449,50 +15415,48 @@
     "publishers": [
       "PixelRift Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1208313
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Shattered Time",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
       2
     ],
+    "achievements": {
+      "total": 14
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q1 2025"
+      "coming_soon": false,
+      "date": "9 Apr, 2025"
     },
     "support_info": {
       "url": "https://www.pixelriftstudios.com/",
       "email": "codiarmstrong@pixelriftstudios.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2493590/page_bg_generated_v6b.jpg?t=1734552010",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2493590/page_bg_generated.jpg?t=1734552010",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2493590",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2493590",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
     }
   },
   "2494420": {
