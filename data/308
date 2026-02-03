@@ -13384,9 +13384,9 @@
     "is_free": false,
     "short_description": "Welcome to the sandbox world full of creativity! With a free and open gameplay mode and a creative platform, whether you are a player or a developer, you can find highly scalable gameplay and game modes, or DIY your own game ideas here!",
     "supported_languages": "English, Simplified Chinese, Japanese, Traditional Chinese, Korean, Russian",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/926200/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/926200/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/926200/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/926200/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/926200/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/926200/capsule_184x69.jpg",
     "website": "https://sengine.mp-gamer.com/",
     "developers": [
       "FantasyJoyed Studio"
@@ -13404,14 +13404,17 @@
       1,
       2,
       9,
+      13,
       17,
+      22,
       23,
       30,
       36,
       38,
       47,
       48,
-      49
+      49,
+      62
     ],
     "genres": [
       2,
@@ -13423,31 +13426,30 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q4 2024"
+      "date": "2026"
     },
     "support_info": {
       "url": "https:/sengine.mp-gamer.com/",
       "email": "fantasyjoyed@163.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/926200/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/926200/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/926200",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/926200/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": null
+    }
   },
   "926330": {
     "type": "game",
-    "name": "\u5c0f\u897f\u6e38\u8bb0\uff1a\u77f3\u7334\u95ee\u4e16",
+    "name": "Little JttW: The Birth",
     "steam_appid": 926330,
     "required_age": 0,
     "is_free": false,
-    "short_description": "This is a mysterious game series. This is the first chapter of the stories, this is the first part. Suitable for teenagers, adults are also suitable.",
+    "short_description": "This game series tells the stories from the ancient Chinese book Journey to the West. This is the first part of the first chapter of the stories. Suitable for juveniles.",
     "supported_languages": "Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/926330/header.jpg",
-    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/926330/capsule_231x87.jpg",
-    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/926330/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/926330/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/926330/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/926330/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "T\u00b7HELL"
@@ -13455,14 +13457,27 @@
     "publishers": [
       "T\u00b7HELL"
     ],
-    "package_groups": [],
+    "packages": [
+      299411
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Little JttW: The Birth",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       3,
@@ -13470,36 +13485,18 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "28 May, 2024"
+      "coming_soon": false,
+      "date": "6 Jun, 2024"
     },
     "support_info": {
       "url": "",
       "email": "thkeepflying@163.com"
     },
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/926330/page_bg_generated_v6b.jpg",
-    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/926330/page.bg.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/926330",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/926330/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Medo"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "\u00c4ngstigende Inhalte"
-      }
     }
   },
   "926290": {
@@ -13509,11 +13506,14 @@
     "required_age": 0,
     "is_free": true,
     "controller_support": "full",
+    "dlc": [
+      4220420
+    ],
     "short_description": "In a plague-devastated world, return as the Plague Doctor to a cursed city, recruit survivors and hunters, fight grotesque foes in a free to play rpg-roguelite. Randomized runs, perks, and a twisted fairytale art direction.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/926290/d567d2ee683828b212b25efe770478267c127008/header.jpg?t=1768207238",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/926290/d5257d88f314e997f7a5ddb3b17beb30c3548311/capsule_231x87.jpg?t=1768207238",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/926290/d5257d88f314e997f7a5ddb3b17beb30c3548311/capsule_184x69.jpg?t=1768207238",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/926290/d567d2ee683828b212b25efe770478267c127008/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/926290/d5257d88f314e997f7a5ddb3b17beb30c3548311/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/926290/d5257d88f314e997f7a5ddb3b17beb30c3548311/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Arcade Distillery"
@@ -13544,37 +13544,22 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 11
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "20 Jan, 2026"
     },
     "support_info": {
       "url": "",
       "email": "info@arcadedistillery.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/926290?t=1768207238",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/926290/47409fd85e086c16fe10609d47db700d30e08666/page_bg_raw.jpg?t=1768207238",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/926290",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/926290/47409fd85e086c16fe10609d47db700d30e08666/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Medo"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "\u00c4ngstigende Inhalte"
-      }
     }
   },
   "925857": {

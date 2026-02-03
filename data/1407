@@ -91,7 +91,6 @@
         "name": "default",
         "title": "Buy Anarchy School",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -1074,6 +1073,12 @@
     "publishers": [
       "Grave Hammer Games"
     ],
+    "demos": [
+      {
+        "appid": 4221780,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -1327,10 +1332,9 @@
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4221740",
     "content_descriptors": {
       "ids": [
-        1,
         5
       ],
-      "notes": "\u30fb\u81ea\u6bba\u3001\u81ea\u50b7\u884c\u70ba\u3092\u793a\u5506\u3059\u308b\u63cf\u5199\u3042\u308a\u3002\r\n\u30fb\u4e00\u90e8\u6f14\u51fa\u304c\u7cbe\u795e\u7684\u306b\u8ca0\u62c5\u306b\u306a\u308b\u53ef\u80fd\u6027\u304c\u3042\u308a\u307e\u3059\u3002\r\n\u30fb\u3044\u304b\u306a\u308b\u5371\u967a\u884c\u70ba\u3092\u5bb9\u8a8d\u3001\u5968\u52b1\u3059\u308b\u610f\u56f3\u306f\u3054\u3056\u3044\u307e\u305b\u3093\u3002\r\n"
+      "notes": "\u30fb\u9593\u63a5\u7684\u306b\u81ea\u6bba\u672a\u9042\u304a\u3088\u3073\u81ea\u50b7\u884c\u70ba\u3092\u793a\u5506\u3059\u308b\u8868\u73fe\u304c\u3042\u308a\u307e\u3059\u3002\r\n\u30fb\u4e00\u90e8\u306e\u6f14\u51fa\u306f\u3001\u7cbe\u795e\u7684\u306b\u8ca0\u62c5\u3092\u611f\u3058\u308b\u53ef\u80fd\u6027\u304c\u3042\u308a\u307e\u3059\u3002\r\n\u30fb\u672c\u4f5c\u306f\u3044\u304b\u306a\u308b\u5371\u967a\u884c\u70ba\u3082\u5bb9\u8a8d\u30fb\u5968\u52b1\u3059\u308b\u610f\u56f3\u306f\u3042\u308a\u307e\u305b\u3093\u3002"
     }
   },
   "4221760": {
@@ -1517,10 +1521,10 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Die for Pay is a CO-OP Multiplayer action crime game where you try to rise from nothing in a world where riots break out every night. Make money by day, gather your crew. By night, stand your ground with honor, or run. When the siren sounds, there's no mercy.",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Japanese, Korean, Polish, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America, Turkish, Ukrainian",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4221820/90d5f2ee9c7f5c0095020f99633a38edf25f5832/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4221820/df8f87ede9f3e0710fa877f9cf2dc5cb7efa5c3c/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4221820/df8f87ede9f3e0710fa877f9cf2dc5cb7efa5c3c/capsule_184x69.jpg",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Arabic, Japanese, Korean, Polish, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America, Turkish, Ukrainian, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Norwegian, Portuguese - Brazil, Romanian, Swedish, Thai, Traditional Chinese, Vietnamese<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4221820/b470262b1de92cacd2f284337ed110e704dd36a6/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4221820/c1c0b0647bdb4cfd4cc497ae1fbcf455cb72f561/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4221820/c1c0b0647bdb4cfd4cc497ae1fbcf455cb72f561/capsule_184x69.jpg",
     "website": "https://woziva.com/",
     "developers": [
       "Woziva"
@@ -2244,7 +2248,7 @@
     "name": "Small Cave Action",
     "steam_appid": 4222080,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
     "short_description": "\u4e3b\u4eba\u516c\u304c\u8131\u51fa\u3057\u3088\u3046\u3068\u6d1e\u7a9f\uff08\u30b9\u30c6\u30fc\u30b8\uff09\u3092\u9032\u3093\u3067\u3044\u304f\u30a2\u30af\u30b7\u30e7\u30f3\u30b2\u30fc\u30e0",
     "supported_languages": "Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4222080/5c422de1d70bbce8603f94d1b87c1092cf97ece4/header.jpg",
@@ -2264,11 +2268,11 @@
       "linux": false
     },
     "categories": [
-      2,
-      62
+      2
     ],
     "genres": [
-      1
+      1,
+      37
     ],
     "release_date": {
       "coming_soon": true,
@@ -2303,7 +2307,19 @@
     "publishers": [
       "\u7434\u7814 Ginyan"
     ],
-    "package_groups": [],
+    "packages": [
+      1478318
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy 1000 Princes 2: Loving You Is My Duty",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2321,8 +2337,8 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "28 Jan, 2026"
+      "coming_soon": false,
+      "date": "27 Jan, 2026"
     },
     "support_info": {
       "url": "https://www.rainbo.asia",
@@ -3115,7 +3131,7 @@
     "steam_appid": 4222620,
     "required_age": 0,
     "is_free": false,
-    "short_description": "[[[DEVELOPMENT HAULTED TEMPORARILY]]]",
+    "short_description": "Fight back against yourself and uncover the rich story. Beneath The Empty Sky is a dark narrative-driven indie game, combining bittersweet rowing with intense combat. Six chapters... Six adventures...",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4222620/5f58b7ef9a413c94f06a7eaa5059fc6cf9a47348/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4222620/96737dff8b12c8449b50af8ac0e661c61a5c5efb/capsule_231x87.jpg",
@@ -3485,7 +3501,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "I'm in Love with My Cosplay Futanari Princess ! is a spicy, short, Female x Futanari, Slice of life, Romance Visual novel. When the tall, sexy Art School Idol needs an emergency cosplay fix, shy seamstress Ally discovers the 10-inch secret hiding under her skirt.",
+    "short_description": "I'm in Love with My Cosplay Futanari Princess ! is a spicy, short, Female x Futanari, Slice of life, Romance Visual Novel. When the tall, sexy Art School Idol needs an emergency cosplay fix, shy seamstress Ally discovers the 10-inch secret hiding under her skirt.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4222830/08d540b82eb4394371e2c85492c97a903db91de6/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4222830/8e6d3964c35d74ee6ec6572d4c46d560b2d9dff1/capsule_231x87.jpg",
@@ -3520,7 +3536,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "3 Mar, 2026"
     },
     "support_info": {
       "url": "",
@@ -3981,7 +3997,19 @@
     "publishers": [
       "TENDA Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1478683
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u9ed2\u6d1e\u3005\uff5cKOKUTOTO",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4000,9 +4028,12 @@
       4,
       25
     ],
+    "achievements": {
+      "total": 17
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "January 2026"
+      "coming_soon": false,
+      "date": "29 Jan, 2026"
     },
     "support_info": {
       "url": "",
@@ -4035,6 +4066,12 @@
     ],
     "publishers": [
       "ThrillDaWill"
+    ],
+    "demos": [
+      {
+        "appid": 4299380,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4124,9 +4161,9 @@
     "is_free": true,
     "short_description": "A fast, chaotic bird-based PvP game where you fly, fight, steal eggs, and trash-talk in proximity chat. Perch, ragdoll, eat worms, and yes, you can play as a shoebill.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223300/b2a2d168b05e6e2263cf0ff7594859d61655927f/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223300/17c3afbd22a2c32199bfe2c4c46ac804806a956d/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223300/17c3afbd22a2c32199bfe2c4c46ac804806a956d/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223300/c90930a7e06b0d7b969884e605070e6112a251d6/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223300/6d50f5c02c661a8e607f9f50fde6fe60dd88ce5a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223300/6d50f5c02c661a8e607f9f50fde6fe60dd88ce5a/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "HexNest Games"
@@ -4515,9 +4552,9 @@
     "is_free": false,
     "short_description": "Doodle Wipeout is an action rougelite - survive waves of chaotic doodles by erasing them. Dodge, upgrade, and clean the canvas before it\u2019s overrun.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223540/86a9785b4aaf897aaba2c7f7cb4b6b73b25c563a/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223540/f55cde4951cfd4429f4492c59e8f1a1e647b1d6f/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223540/f55cde4951cfd4429f4492c59e8f1a1e647b1d6f/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223540/f102ae846c1774b452b60ccee97acddc1e87b1d2/header_alt_assets_0.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223540/75e1714a7603a79fba4c99ebb1ea4fe66e0a4cb9/capsule_231x87_alt_assets_0.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223540/75e1714a7603a79fba4c99ebb1ea4fe66e0a4cb9/capsule_184x69_alt_assets_0.jpg",
     "website": null,
     "developers": [
       "Mostly Stable Games"
@@ -4548,7 +4585,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "April 2026"
+      "date": "21 Apr, 2026"
     },
     "support_info": {
       "url": "",
@@ -5648,15 +5685,15 @@
     "steam_appid": 4223010,
     "required_age": 0,
     "is_free": true,
-    "short_description": "\u6b64\u5185\u5bb9\u9700\u8981\u5728 Steam \u4e0a\u62e5\u6709\u57fa\u7840\u6e38\u620f \u4ed9\u65c5\u5f02\u95fb\u5f55 \u624d\u80fd\u7545\u73a9\u3002",
+    "short_description": "DLC\u300a\u5357\u67ef\u4e00\u68a6\u300b\u662f\u5728\u300a\u4ed9\u65c5\u5f02\u95fb\u5f55\u300b\u672c\u4f53\u57fa\u7840\u4e0a\u884d\u751f\u51fa\u7684Roguelike\u73a9\u6cd5\u3002DLC\u4e2d\u6ca1\u6709\u95e8\u6d3e\u5efa\u7b51\u548c\u8d44\u6e90\u6536\u96c6\uff0c\u4f60\u53ea\u9700\u8981\u4e13\u6ce8\u4e8e\u63a2\u7d22\u548c\u6218\u6597\u3002 DLC\u4e2d\u4f60\u53ef\u4ee5\u5e26\u4e0a\u6240\u6709\u7684\u88c5\u5907\uff0c\u5347\u7ea7\u6280\u80fd\uff0c\u5e76\u4e14\u5347\u7ea7\u5929\u8d4b\uff0c\u611f\u53d7\u65a9\u5996\u9664\u9b54\u7684\u4e50\u8da3\u3002",
     "fullgame": {
       "appid": "3952930",
       "name": "\u4ed9\u65c5\u5f02\u95fb\u5f55"
     },
     "supported_languages": "Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223010/2047a8d7f04f3ec5223655e8b52b3201984c72df/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223010/0059f1d76497b426984205e0b57a260e15ee71a7/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223010/0059f1d76497b426984205e0b57a260e15ee71a7/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223010/57ca61762e63ae4f465877ce0870904d516031b5/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223010/2e90df9303aa872ea6653d3ec323cf98915ecf86/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223010/2e90df9303aa872ea6653d3ec323cf98915ecf86/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "lazykitten"
@@ -5689,8 +5726,8 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "30 Jan, 2026"
+      "coming_soon": false,
+      "date": "29 Jan, 2026"
     },
     "support_info": {
       "url": "",
@@ -6312,7 +6349,7 @@
     "steam_appid": 4221990,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A short incremental game where you collect fish for your lab. Upgrade by making discoveries and writing grants.\u00a0 Synced to music.",
+    "short_description": "A short incremental game where you collect fish for your lab. Upgrade by making discoveries and writing grants. Synced to music.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4221990/dcbb43f81e7d2bf1d7c89438c34195cbe45b38b1/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4221990/2c7bafdc90acf46b2d17cc6c1135546063e527d3/capsule_231x87.jpg",
@@ -6463,7 +6500,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Master a modular arsenal and survive a biomechanical nightmare in this intense cinematic shmup. Face grotesque aberrations, unlock achievements, and conquer the hardcore mode. The first level of an expanding saga!",
-    "supported_languages": "English<strong>*</strong>, Spanish - Latin America<br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4222580/035b8780cc2ad2f28a5a63fbcb4ba0b77e390437/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4222580/edf74a33a0c730431231bc4c4bfa2e9d5e380d64/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4222580/edf74a33a0c730431231bc4c4bfa2e9d5e380d64/capsule_184x69.jpg",
@@ -6482,7 +6519,6 @@
     },
     "categories": [
       2,
-      18,
       22,
       62,
       69,
@@ -6496,7 +6532,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "12 Feb, 2026"
+      "date": "26 Feb, 2026"
     },
     "support_info": {
       "url": "https://binarywriter3-d.vercel.app/",
@@ -6655,6 +6691,62 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4222360",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4222360",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4223400": {
+    "type": "game",
+    "name": "TANCRUSH",
+    "steam_appid": 4223400,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Harvest resources, fend off incoming enemies, and build your own squad through an endless cycle of combat and progression.",
+    "supported_languages": "Korean, English, Japanese, French, Italian, German, Spanish - Spain, Indonesian, Polish, Portuguese - Portugal, Russian, Simplified Chinese, Thai, Traditional Chinese, Turkish, Vietnamese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223400/046d136f24215c4117137925359fbb44f10e2618/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223400/fa2d7be56dc2230126a26c7db09eb14934f85693/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223400/fa2d7be56dc2230126a26c7db09eb14934f85693/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "WOOLOOLOO"
+    ],
+    "publishers": [
+      "WOOLOOLOO"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      67,
+      68,
+      69,
+      74,
+      76,
+      78,
+      79
+    ],
+    "genres": [
+      2,
+      23,
+      28,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "15 Feb, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "pwj891129@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4223400",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4223400/f3c4db2532032923b82ce40d451d9856481501ce/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

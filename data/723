@@ -10145,6 +10145,7 @@
     "steam_appid": 2171550,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Optimise and grow your railways in this challenging train management game. Instead of waiting for money to arrive, earn resource tokens by refining your network until your towns are thriving. Avoid queues, jams, or angry passengers to be recognised as the unsung train hero you know you are.",
     "supported_languages": "English, Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2171550/689944f8884e1b7e4e5a1571810dfc6f92feedb4/header.jpg",
@@ -10184,6 +10185,7 @@
     },
     "categories": [
       2,
+      28,
       62
     ],
     "genres": [
@@ -16277,23 +16279,53 @@
     "steam_appid": 2169200,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      2561520,
+      2729150,
+      2800240,
+      2800250,
+      3003600,
+      3003610,
+      3003620,
+      3003630,
+      3258690,
+      3618300
+    ],
     "short_description": "Offering unparalleled sniping mechanics, stealth and tactical third-person combat, Sniper Elite: Resistance turns the attention of the award-winning series towards a hidden war, far from the front lines, deep within the heart of occupied France.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169200/header.jpg?t=1724247486",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169200/7fa2c363905869ad0d53fbdab682cfc04b4e36fc/capsule_231x87.jpg?t=1724247486",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169200/7fa2c363905869ad0d53fbdab682cfc04b4e36fc/capsule_184x69.jpg?t=1724247486",
-    "website": null,
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169200/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169200/7fa2c363905869ad0d53fbdab682cfc04b4e36fc/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169200/7fa2c363905869ad0d53fbdab682cfc04b4e36fc/capsule_184x69.jpg",
+    "website": "https://rebellion.com/games/sniper-elite-resistance/",
+    "drm_notice": "Denuvo Anti-tamper<br>5 different machines within 24 hours machine activation limit machine activation limit",
     "developers": [
       "Rebellion"
     ],
     "publishers": [
       "Rebellion"
     ],
-    "package_groups": [],
+    "packages": [
+      1158714,
+      1158713
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Sniper Elite: Resistance",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
+    },
+    "metacritic": {
+      "score": 70,
+      "url": "https://www.metacritic.com/game/pc/sniper-elite-resistance?ftag=MCD-06-10aaa1f"
     },
     "categories": [
       1,
@@ -16303,48 +16335,45 @@
       22,
       23,
       27,
+      29,
       36,
       38,
-      49
+      49,
+      61,
+      62,
+      64,
+      65,
+      66,
+      67,
+      70,
+      74,
+      75,
+      78,
+      79
     ],
     "genres": [
       1,
       25
     ],
+    "achievements": {
+      "total": 70
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "30 Jan, 2025"
     },
     "support_info": {
-      "url": "https://rebellion.com/support/",
-      "email": ""
+      "url": "https://support.rebellion.com",
+      "email": "support@rebellion.co.uk"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169200/page_bg_generated_v6b.jpg?t=1724247486",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169200/page.bg.jpg?t=1724247486",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2169200",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169200/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia Extrema\nLinguagem impr\u00f3pria"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt\nDerbe Sprache"
-      }
     }
   },
   "2170390": {
@@ -16356,9 +16385,9 @@
     "controller_support": "full",
     "short_description": "A Mystical Anime-Inspired Metroidvania. Embark on an adventure through a mystical world full of magical creatures.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Danish<strong>*</strong>, Dutch<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Norwegian<strong>*</strong>, Polish<strong>*</strong>, Swedish<strong>*</strong>, Thai<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170390/header.jpg?t=1726673671",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170390/capsule_231x87.jpg?t=1726673671",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170390/capsule_184x69.jpg?t=1726673671",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170390/6b6b316ef09e1405c6b8b2d0252a5442f1c1221a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170390/8884b78bf400ede94c8d948121f99d178922eccd/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170390/8884b78bf400ede94c8d948121f99d178922eccd/capsule_184x69.jpg",
     "website": "https://exilgame.com",
     "developers": [
       "Mystic Clockwork Studio"
@@ -16375,7 +16404,8 @@
     "categories": [
       2,
       22,
-      28
+      28,
+      62
     ],
     "genres": [
       1,
@@ -16390,17 +16420,11 @@
       "url": "",
       "email": "mysticclockworkstudio@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170390/page_bg_generated_v6b.jpg?t=1726673671",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170390/page_bg_generated.jpg?t=1726673671",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2170390",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2170390",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "l",
-        "descriptors": "Viol\u00eancia fantasiosa"
-      }
     }
   },
   "2171330": {
@@ -16500,19 +16524,12 @@
     "is_free": true,
     "short_description": "Begin your fishing journey in this surreal angling experience! Be wary though, the current masters of these ponds might not respond kindly to a rookie fisherman appearing on their turf. Can you uncover the secrets that lurk beneath the surface and rise to the top of this fintastic experience?",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169680/header.jpg?t=1728233778",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169680/capsule_231x87.jpg?t=1728233778",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169680/capsule_184x69.jpg?t=1728233778",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169680/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169680/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169680/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Steve Jester",
-      "Adam Larson",
-      "Chris Trimbach",
-      "Alex Kauble",
-      "Justine Bader",
-      "Ryan Martin",
-      "Connor Redwine",
-      "Nicholas Richer"
+      "Walleyed Games"
     ],
     "publishers": [
       "Walleyed Games"
@@ -16533,36 +16550,18 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "31 Oct, 2024"
     },
     "support_info": {
       "url": "",
       "email": "walleyedgames@gmail.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169680/page_bg_generated_v6b.jpg?t=1728233778",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169680/page_bg_generated.jpg?t=1728233778",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2169680",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2169680",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "14",
-        "required_age": "14",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Linguagem impr\u00f3pria\nAtos criminosos\nViol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
     }
   },
   "2170110": {
@@ -16643,9 +16642,9 @@
       "name": "Little Nightmares III"
     },
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Indonesian, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Traditional Chinese, Thai, Portuguese - Portugal",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170190/a13ca410a2748254c58d567bcb2a49fcf09b2013/header.jpg?t=1750794411",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170190/c2bb2e732a2cc823096c8b350c50d707c9342748/capsule_231x87.jpg?t=1750794411",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170190/c2bb2e732a2cc823096c8b350c50d707c9342748/capsule_184x69.jpg?t=1750794411",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170190/a13ca410a2748254c58d567bcb2a49fcf09b2013/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170190/c2bb2e732a2cc823096c8b350c50d707c9342748/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170190/c2bb2e732a2cc823096c8b350c50d707c9342748/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Supermassive Games"
@@ -16656,7 +16655,16 @@
     "packages": [
       776823
     ],
-    "package_groups": [],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Little Nightmares III - Secrets of The Spiral - Expansion Pass",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -16670,42 +16678,25 @@
       22,
       23,
       35,
-      38
+      38,
+      62
     ],
     "genres": [
       25
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Oct, 2025"
     },
     "support_info": {
       "url": "https://service.bandainamcoent.eu",
       "email": ""
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2170190?t=1750794411",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170190/86d9a804dfe52690d8af137c6e48e7515a1379a6/page_bg_raw.jpg?t=1750794411",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2170190",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170190/86d9a804dfe52690d8af137c6e48e7515a1379a6/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "2171321": {

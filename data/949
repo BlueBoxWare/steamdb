@@ -11133,15 +11133,21 @@
     "controller_support": "full",
     "short_description": "This is a 3D action game where you become a bikini hunter and fight against the bikini army. \u30fbUse shooting, fighting, guarding, and invincibility techniques depending on the situation You can enjoy a variety of battles.",
     "supported_languages": "English, Japanese<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849610/header.jpg?t=1715488485",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849610/capsule_231x87.jpg?t=1715488485",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849610/capsule_184x69.jpg?t=1715488485",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849610/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849610/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849610/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "studio core"
     ],
     "publishers": [
       "studio core"
+    ],
+    "demos": [
+      {
+        "appid": 2965580,
+        "description": ""
+      }
     ],
     "packages": [
       1016609
@@ -11151,7 +11157,6 @@
         "name": "default",
         "title": "Buy Bikini Hunter Attack on Bikini Army",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -11178,32 +11183,14 @@
       "url": "",
       "email": "machiee.studio@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2849610?t=1715488485",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2849610?t=1715488485",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2849610",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2849610",
     "content_descriptors": {
       "ids": [
         1,
         5
       ],
       "notes": "A large number of bikini-clad beauties will appear."
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Conte\u00fado sexual\nViol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Sexuelle Inhalte"
-      }
     }
   },
   "2849670": {
@@ -12946,7 +12933,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "February 2026"
+      "date": "March 2026"
     },
     "support_info": {
       "url": "",
@@ -13740,7 +13727,7 @@
     "type": "dlc",
     "name": "Lies of P: Overture",
     "steam_appid": 2848330,
-    "required_age": 0,
+    "required_age": "16",
     "is_free": false,
     "controller_support": "full",
     "short_description": "Cross the bounds of time in Lies of P: Overture, a dramatic prequel that transports you back to Krat in its unseen grandeur on the verge of collapse. Follow the path of the Legendary Stalker, uncover hidden secrets, and endure relentless battles that will define the past and future of Lies of P.",
@@ -13749,9 +13736,9 @@
       "name": "Lies of P"
     },
     "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Russian, Japanese, Simplified Chinese, Traditional Chinese, Portuguese - Brazil, Polish, Korean, Italian<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848330/header.jpg?t=1739401002",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848330/739caba35242391f0405e9dd1edfb5159ee0f9e7/capsule_231x87.jpg?t=1739401002",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848330/739caba35242391f0405e9dd1edfb5159ee0f9e7/capsule_184x69.jpg?t=1739401002",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848330/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848330/739caba35242391f0405e9dd1edfb5159ee0f9e7/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848330/739caba35242391f0405e9dd1edfb5159ee0f9e7/capsule_184x69.jpg",
     "website": "https://liesofp.com/",
     "developers": [
       "NEOWIZ"
@@ -13759,7 +13746,19 @@
     "publishers": [
       "NEOWIZ"
     ],
-    "package_groups": [],
+    "packages": [
+      1016164
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Lies of P: Overture",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -13768,7 +13767,15 @@
     "categories": [
       2,
       21,
-      28
+      28,
+      62,
+      66,
+      67,
+      68,
+      69,
+      70,
+      78,
+      79
     ],
     "genres": [
       1,
@@ -13776,40 +13783,21 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "6 Jun, 2025"
     },
     "support_info": {
       "url": "https://liesofp.com/",
       "email": "lop_support@neowiz.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848330/page_bg_generated_v6b.jpg?t=1739401002",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848330/page_bg_generated.jpg?t=1739401002",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2848330",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2848330",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "This product contains violence, blood and gore, as well as fear elements."
-    },
-    "ratings": {
-      "dejus": {
-        "rating": "14",
-        "descriptors": "Viol\u00eancia",
-        "required_age": "14"
-      },
-      "kgrb": {
-        "rating": "18",
-        "descriptors": "\uac8c\uc784\ubb3c \uc81c\uba85 : P\uc758 \uac70\uc9d3\r\n\uc774\uc6a9\ub4f1\uae09 : \uccad\uc18c\ub144\uc774\uc6a9\ubd88\uac00\r\n\ub0b4\uc6a9\uc815\ubcf4\ud45c\uc9c0\uc0ac\ud56d : \ud3ed\ub825\ud45c\ud604\r\n\ub4f1\uae09\ubd84\ub958\uc77c\uc790 : 2023.04.27\r\n\ub4f1\uae09\ubd84\ub958\ubc88\ud638 : CC-NP-230427-001\r\n\uc2e0\uace0/\ub4f1\ub85d\ubc88\ud638 : 2010-000009\ud638"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "2848220": {
@@ -13820,9 +13808,9 @@
     "is_free": false,
     "short_description": "&quot;Lashes of the Sea&quot; is an adult sex game with strong BDSM elements. Play as a kinky pirate - roam the high seas, feel the wind in your hair, the freedom in your bones and the lips on your cock!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848220/header.jpg?t=1740141738",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848220/6ae7422dd0508bcc7f47ddeb04ffd7cac12c34cf/capsule_231x87.jpg?t=1740141738",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848220/6ae7422dd0508bcc7f47ddeb04ffd7cac12c34cf/capsule_184x69.jpg?t=1740141738",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848220/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848220/6ae7422dd0508bcc7f47ddeb04ffd7cac12c34cf/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848220/6ae7422dd0508bcc7f47ddeb04ffd7cac12c34cf/capsule_184x69.jpg",
     "website": "https://www.bd-games.com/lashes-of-the-sea/",
     "developers": [
       "Biggus Diccus Games"
@@ -13837,7 +13825,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -13854,8 +13843,8 @@
       "url": "https://www.bd-games.com/lashes-of-the-sea/",
       "email": "lots@bd-games.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2848220?t=1740141738",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2848220?t=1740141738",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2848220",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2848220",
     "content_descriptors": {
       "ids": [
         1,
@@ -13863,25 +13852,7 @@
         4,
         5
       ],
-      "notes": "This game is a 3D, adult game and includes strong language, frequent nudity and strong sexual content. Including cut-scenes and in-game sex and bdsm scenes.\r\n\r\nAll characters depicted in this game are over 18. This game portrays various types of sexual acts and aspects of consensual and non-consensual BDSM. The game does not include drug/alcohol abuse or self harm. \r\n\r\nAll stories and acts in the game are fictional. If you think you might be offended by sexual content you should avoid this game."
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Nudez\nViol\u00eancia Extrema\nLinguagem impr\u00f3pria"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "BANNED",
-        "required_age": "2147483647",
-        "banned": "1",
-        "use_age_gate": "0",
-        "descriptors": "Sexuelle Inhalte\nDrastische Gewalt\nAlkohol / Tabak"
-      }
+      "notes": "This game is a 3D, adult game and includes strong language, frequent nudity and strong sexual content. Including cut-scenes and in-game sex and bdsm scenes.\r\n\r\nAll characters depicted in this game are over 18. This game portrays various types of sexual acts and aspects of BDSM. The game does not include drug/alcohol abuse or self harm. \r\n\r\nAll stories and acts in the game are fictional. If you think you might be offended by sexual content you should avoid this game."
     }
   },
   "2847370": {
@@ -13925,9 +13896,9 @@
     "is_free": false,
     "short_description": "Landmaster is a cozy pixel RPG about survival, crafting, and building in a magical world that doesn\u2019t always play nice. Explore, create, and fight to keep your Kingdom alive.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848680/1512742c85b7e8fce6e452584d83801693d7f5f6/header.jpg?t=1760110184",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848680/5efbd90d8ab12ab4289a3567004c7d4ca32c24cb/capsule_231x87.jpg?t=1760110184",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848680/5efbd90d8ab12ab4289a3567004c7d4ca32c24cb/capsule_184x69.jpg?t=1760110184",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848680/1512742c85b7e8fce6e452584d83801693d7f5f6/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848680/5efbd90d8ab12ab4289a3567004c7d4ca32c24cb/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848680/5efbd90d8ab12ab4289a3567004c7d4ca32c24cb/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Creative Quark"
@@ -13935,7 +13906,19 @@
     "publishers": [
       "Creative Quark"
     ],
-    "package_groups": [],
+    "packages": [
+      1016280
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Landmaster",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13952,36 +13935,18 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "25 Oct, 2025"
     },
     "support_info": {
       "url": "",
       "email": "creativekvark@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2848680?t=1760110184",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848680/67e014276305766fc36f865e623eb060b3d7f746/page_bg_raw.jpg?t=1760110184",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2848680",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848680/67e014276305766fc36f865e623eb060b3d7f746/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia fantasiosa"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Fantasy-Gewalt"
-      }
     }
   },
   "2849170": {
@@ -13992,9 +13957,9 @@
     "is_free": false,
     "short_description": "The Nose knows. A text based adventure game set in an ancient temple full of secrets.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849170/d238a03daa26f3efe985714039e9bacafbf31e69/header.jpg?t=1762051052",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849170/be800f5bdf261d7a30490e53ae63f8e50ccb03a4/capsule_231x87.jpg?t=1762051052",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849170/be800f5bdf261d7a30490e53ae63f8e50ccb03a4/capsule_184x69.jpg?t=1762051052",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849170/155f787954bc18adebc6020374d3ad239d3979f5/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849170/b7d5b9e524b3016f20e10fdd631ea6388fe2f3fa/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849170/b7d5b9e524b3016f20e10fdd631ea6388fe2f3fa/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Ian Hornik"
@@ -14002,7 +13967,19 @@
     "publishers": [
       "Ian Hornik"
     ],
-    "package_groups": [],
+    "packages": [
+      1016443
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Temple of Egmelitia",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -14016,36 +13993,18 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "20 Nov, 2025"
     },
     "support_info": {
       "url": "",
       "email": "IHGamesSupport@proton.me"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2849170?t=1762051052",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849170/92daf1ef3bc46e16ef4a7e62c27c9afb6f58463e/page_bg_raw.jpg?t=1762051052",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2849170",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849170/92daf1ef3bc46e16ef4a7e62c27c9afb6f58463e/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia\nTemas sens\u00edveis"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Selbstmord"
-      }
     }
   }
 }
