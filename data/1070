@@ -1073,7 +1073,7 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
@@ -1087,7 +1087,7 @@
       70
     ],
     "achievements": {
-      "total": 8
+      "total": 16
     },
     "release_date": {
       "coming_soon": false,
@@ -6527,8 +6527,8 @@
     "short_description": "The AUTOMATION bullet heaven! Build your custom spellcasting factory and tear through endless waves of monsters. Unlock 20+ characters and 100+ golden totems to craft broken roguelite synergies and survive the swarm! Build, automate, autocast, OBLITERATE!",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3212630/7b73612c68e43272f320d9db46e780795a90d856/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3212630/5ba2a1bb64aa2d4a1e7d124d7df21adf88963f91/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3212630/5ba2a1bb64aa2d4a1e7d124d7df21adf88963f91/capsule_184x69.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3212630/94bb1d4ff5ba5924966bd5a476a5746f9c079cc0/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3212630/94bb1d4ff5ba5924966bd5a476a5746f9c079cc0/capsule_184x69.jpg",
     "website": "https://roguefactorygame.github.io/#/recipes",
     "developers": [
       "curried_functor",
@@ -6543,7 +6543,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1138977
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Rogue Factory",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6564,8 +6576,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 23
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "3 Feb, 2026"
     },
     "support_info": {
@@ -6725,6 +6740,7 @@
     "steam_appid": 3211750,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "A minimalist cyberpunk city builder inspired by Islanders and Luck Be a Landlord.",
     "supported_languages": "English, French, German, Japanese, Korean, Polish, Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3211750/header.jpg",
@@ -6764,6 +6780,7 @@
     "categories": [
       2,
       22,
+      28,
       62
     ],
     "genres": [

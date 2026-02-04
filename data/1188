@@ -1072,9 +1072,9 @@
     "controller_support": "full",
     "short_description": "Set in a ghost town of the same name, Nighthawk is an upcoming horror adventure game. Explore the remnants of a once prosperous community and uncover the mystery of its abandoned mine. Find Jesse, or die trying.",
     "supported_languages": "English<strong>*</strong>, French, Italian, Spanish - Spain, Portuguese - Portugal, Simplified Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3566050/f6aa6673301f1c20535f1ff2e0fddba374167d37/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3566050/e6121231c816af08742479a1f1cdbf50877aee6c/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3566050/e6121231c816af08742479a1f1cdbf50877aee6c/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3566050/02a5611b8ffebaa6ce533e1fd0cb6c81b4b7ef0a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3566050/5665c90cfa35b777852dc1e9f2f21f5bb61db142/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3566050/5665c90cfa35b777852dc1e9f2f21f5bb61db142/capsule_184x69.jpg",
     "website": "https://www.skypulse.dev/nighthawk",
     "developers": [
       "SkyPulse Studios",
@@ -9051,6 +9051,9 @@
     "steam_appid": 3566870,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4360450
+    ],
     "short_description": "A macabre ritual murder puts Arkham PD detectives Jack Foster and Harvey Whitman to the test. As the investigation progresses, they will unveil a disturbing connection between the Salem witch trials of the 17th century and the end of humankind.",
     "supported_languages": "English, Spanish - Spain",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3566870/2deb4d10e0b417d0ea7ff444964f48da490b3c05/header.jpg",
@@ -9069,7 +9072,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1258588
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy The Dark Rites of Arkham",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -9086,8 +9101,11 @@
     "genres": [
       25
     ],
+    "achievements": {
+      "total": 30
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "3 Feb, 2026"
     },
     "support_info": {
