@@ -1,9 +1,15 @@
-Data on all Steam games.
+Up-to-date data on (almost[^1]) all Steam games[^2].
 
-Mildly up-to-date: games with higher ids are updated more often, games with lower ids less often.
+- [`data/`](data/): JSON data on the games. A game with `id` can be found in the file `floor(id / 3000)`.
 
-- `data/`: JSON data on all Steam games. A game with `id` can be found in the file `floor(id / 3000)`.
-- `lists/`
-  - `demos`: All Steam games with demos.
-  - `achievements`: All games with achievements.
-  - `cards`: All games with trading cards.
+### Lists
+
+- [data/demos](data/demos): IDs of all games with demos
+- [data/achievements](data/achievements): IDs of all games with achievements
+- [data/cards](data/cards): IDs of all games with trading cards
+- [data/categories](data/categories): Data on all store categories
+- [data/genres](data/genres): Genre IDs and their description
+
+[^1]: Games with a region restriction which are not available in Europe are not included.
+
+[^2]: Including DLC, Software, Videos and Hardware.
