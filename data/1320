@@ -338,7 +338,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "Four buttons. Four limbs. One impossible vertical climb. Your ragdoll won\u2019t make it easy...",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Portuguese - Portugal, Russian",
+    "supported_languages": "English<strong>*</strong>, French, Italian<strong>*</strong>, German, Spanish - Spain<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962540/74976234cabcb16649bdb421256f134b7ce72ad1/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962540/3e9914423648d465acddb7d4102d172b3a27c9a6/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962540/3e9914423648d465acddb7d4102d172b3a27c9a6/capsule_184x69.jpg",
@@ -1573,7 +1573,7 @@
     "is_free": false,
     "short_description": "Blend fragrances in your cozy perfume atelier! \ud83c\udf38 Craft unique scents by mixing essences, design beautiful bottles, and try to sell your creations to curious customers. Decorate your workshop, unlock new recipes, and grow your reputation in the art of fragrance.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, Turkish<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Spanish - Latin America<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962270/f96b229cc88688070f9e62ee04a3ad7ec2e734e6/header.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962270/b959b3337994270fd97a004b7d5250827baf7e80/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962270/d4e72d1844cd833af3f767d9f8bfe3ef25526a93/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962270/d4e72d1844cd833af3f767d9f8bfe3ef25526a93/capsule_184x69.jpg",
     "website": "https://rogueduck.net",
@@ -1583,7 +1583,19 @@
     "publishers": [
       "Rogue Duck Interactive"
     ],
-    "package_groups": [],
+    "packages": [
+      1391412
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Perfume Atelier",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -1608,8 +1620,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 31
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "7 Feb, 2026"
     },
     "support_info": {
@@ -3265,6 +3280,8 @@
       68,
       69,
       75,
+      77,
+      78,
       79
     ],
     "genres": [
@@ -10799,7 +10816,7 @@
     "is_free": false,
     "short_description": "A delivery guy. A dimensional rift. A quest across another world. Master telekinesis and elemental magic in Erath, where everyday objects become legendary weapons. Battle mythical creatures. Solve ancient puzzles. Uncover dark truths. Advanced VR physics meet epic fantasy adventure.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Japanese, Portuguese - Brazil, Portuguese - Portugal, Simplified Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962020/b9607a4d63f5480c3a4558cf0f41977606980d6e/header.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962020/e97b7d1eab91f1221af5110a2ecae00ef2d4643c/header_alt_assets_0.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962020/c4fd0d684aaf04cc3694b624017c63c7880da16d/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962020/c4fd0d684aaf04cc3694b624017c63c7880da16d/capsule_184x69.jpg",
     "website": "https://extradimensional.world/",
@@ -10830,7 +10847,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "February 2026"
+      "date": "To be announced"
     },
     "support_info": {
       "url": "https://extradimensional.world/",
@@ -11492,6 +11509,12 @@
     ],
     "publishers": [
       "GoragarX"
+    ],
+    "demos": [
+      {
+        "appid": 4141470,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
