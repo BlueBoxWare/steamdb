@@ -311,7 +311,6 @@ else:
                 apps[item["appid"]] = item["last_modified"]
 progress(" Done.")
 
-# New apps
 for id, stamp in apps.items():
     if id in state:
         if state[id] < apps[id]:
@@ -332,7 +331,9 @@ progress(f"Removed apps: {removed_apps}")
 # Queue
 queue = sorted(new_apps)
 if not args.new:
-    queue = queue + sorted(outdated_apps, key=lambda id: apps[id] - state[id])
+    queue = queue + sorted(
+        outdated_apps, key=lambda id: apps[id] - state[id], reverse=True
+    )
 
 nr_of_outdated_items = len(queue)
 

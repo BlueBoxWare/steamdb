@@ -10,6 +10,16 @@ Up-to-date data on (almost[^1]) all Steam games[^2].
 - [data/categories](data/categories): Data on all store categories
 - [data/genres](data/genres): Genre IDs and their description
 
+### Download
+
+- With `git`:
+
+  - **download**: `git clone --depth=1 https://github.com/BlueBoxWare/steamdb.git`
+    - This will download the repository to the directory `steamdb` under your current directory.
+  - **update**: Go to the downloaded `steamdb` directory and run `git pull`
+
+- [ZIP file](https://github.com/BlueBoxWare/steamdb/archive/refs/heads/main.zip)
+
 [^1]: Games with a region restriction which are not available in Europe are not included.
 
 [^2]: Including DLC, Software, Videos and Hardware.
