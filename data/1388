@@ -5387,6 +5387,7 @@
     "steam_appid": 4166570,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "DunDie is a dice-based roguelike where you combine Yahtzee-style rolls to attack or defend, explore shifting routes, discover relics that reshape your strategy, and face an eternal cycle that can only be broken by sacrificing your own dice.",
     "supported_languages": "English, Spanish - Spain",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4166570/bbb46c7b9c4195ea79a593d77dafe9d234262cb6/header.jpg",
@@ -5409,8 +5410,8 @@
       2,
       22,
       23,
+      28,
       62,
-      66,
       67,
       68,
       74,
@@ -7781,7 +7782,19 @@
     "publishers": [
       "KERR GAMES"
     ],
-    "package_groups": [],
+    "packages": [
+      1459054
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy KERRPUTT",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7800,9 +7813,12 @@
       4,
       18
     ],
+    "achievements": {
+      "total": 11
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "8 Feb, 2026"
     },
     "support_info": {
       "url": "",

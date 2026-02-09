@@ -157,7 +157,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Step inside a living video rental store filled with movies and atmosphere. Build, organize, and manage your store as you explore, experiment, and make it your own.",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Portuguese - Brazil, Portuguese - Portugal, Russian, Spanish - Latin America",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Japanese, Portuguese - Brazil, Portuguese - Portugal, Russian, Spanish - Latin America<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333080/860c6054e72f809ed562b750c21a4bccbff39973/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333080/6da17be69a61eae6f8819cfe85a54b618a1ba4a0/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333080/6da17be69a61eae6f8819cfe85a54b618a1ba4a0/capsule_184x69.jpg",
@@ -204,11 +204,12 @@
     "steam_appid": 4333500,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A skill-driven top-down action game focused on control, positioning, and timing. Navigate a fractured dream world and overcome powerful guardians through mastery.",
+    "controller_support": "full",
+    "short_description": "Lucid Dream is a top-down action shooter built around intense combat and constant pressure. You move through interconnected areas, facing frequent encounters and powerful enemies. Progress is driven by combat experience, exploration, and the way you build your character.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Russian<strong>*</strong>, Turkish<strong>*</strong>, Japanese<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Korean<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/e94b9ba7d966722bd2727772025b04bdfcf99862/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/700383bb20d482f88bc1b497b15fd55bb638ca8c/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/700383bb20d482f88bc1b497b15fd55bb638ca8c/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/70b62329b18eb94e6e190dd221a38c3e222b5e2a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/d4426bc71201fca5e201b74bcea9dcb60a6c5232/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/d4426bc71201fca5e201b74bcea9dcb60a6c5232/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Ragdall_"
@@ -224,6 +225,7 @@
     },
     "categories": [
       2,
+      28,
       62
     ],
     "genres": [
@@ -242,7 +244,7 @@
       "email": "palmasandpazu@gmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4333500",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/e1ab7eaec4eb585f5e4c608e55ed6027616dc6e9/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/701dd931f8a6de7db2c5c8d3fbf7f5e9ba02f599/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -891,7 +893,7 @@
       23
     ],
     "achievements": {
-      "total": 13
+      "total": 15
     },
     "release_date": {
       "coming_soon": false,
@@ -1391,7 +1393,7 @@
     "steam_appid": 4332610,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Drift through stunning natural landscapes, tight mountain hairpins and different weather conditions. Choose the right tires, adapt to the road, and put your drift skills to the test!",
+    "short_description": "Indie drifting game with smooth drift physics, responsive handling and winding natural roads. Choose your tires wisely, adapt to changing weather and master every slide!",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Korean, Japanese, Polish, Portuguese - Brazil, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4332610/03979fb730130118171cbf6cfb58ccd848ae8c0e/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4332610/9e26730b543714172ca3c39d4d8066995b028b62/capsule_231x87.jpg",
@@ -1415,7 +1417,8 @@
       62
     ],
     "genres": [
-      9
+      9,
+      23
     ],
     "release_date": {
       "coming_soon": true,
@@ -2083,7 +2086,19 @@
     "publishers": [
       "ArcadeOn Engine"
     ],
-    "package_groups": [],
+    "packages": [
+      1515393
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy ArcadeOn Engine",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2104,7 +2119,7 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Feb, 2026"
     },
     "support_info": {
@@ -2185,7 +2200,19 @@
     "publishers": [
       "w1h"
     ],
-    "package_groups": [],
+    "packages": [
+      1515077
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy NeonSurvivor",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2206,9 +2233,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 27
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "7 Feb, 2026"
     },
     "support_info": {
       "url": "",
@@ -4287,7 +4317,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "Q3 2026"
     },
     "support_info": {
       "url": "",
@@ -4308,7 +4338,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "A pixel-art 2D platformer action game where players clear stages, defeat powerful bosses, and gain new abilities. Combat shifts between drawn and sheathed weapons, offering sword attacks, punches, and kicks. Master precise defense and stylish knockback battles to overcome fierce enemies.",
-    "supported_languages": "English",
+    "supported_languages": "English, Simplified Chinese, Traditional Chinese, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333840/dc674c6993b6c186303cd7da641e8b13a920a857/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333840/1ae73f53611555d80605bf5f8b186d961fc7a0f3/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333840/1ae73f53611555d80605bf5f8b186d961fc7a0f3/capsule_184x69.jpg",

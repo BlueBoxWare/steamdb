@@ -7456,7 +7456,7 @@
     "steam_appid": 3093540,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Immerse yourself in the ultimate roleplay experience where players shape the world. Start with no possessions, earn money through various jobs and build your own business. Create and experience a vibrant, dynamic world full of possibilities.",
+    "short_description": "Return to a world ruled by a misguided AI. As a survivor of Haven-12, will you uphold the order of Sector 12 or embrace the lawless freedom of the Outlands? Experience boundless Sci-Fi Roleplay where every choice shapes your clearance, your karma, and your future. The surface awaits.",
     "supported_languages": "English, German",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093540/4a5913ef71771ef74a87767106329d99e149870f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093540/7773b51b76a43c2bb0f465cdf4ffc2f06a2307a8/capsule_231x87.jpg",
@@ -13877,6 +13877,9 @@
     "steam_appid": 3093020,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4308340
+    ],
     "short_description": "CIRCLE EMPIRES returns! Expand your empire, circle by circle, in this fast-paced follow-up to the hit RTS. Gather resources, build armies, and defeat bosses (or your friends) in a world that changes with every game. With unique units and biomes, it's an addictive battle of wits and tactics.",
     "supported_languages": "English, French, German, Simplified Chinese, Spanish - Spain",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3093020/ac5870871aec61e0b7098074dda0d3d8b0e9fac8/header.jpg",
@@ -13895,7 +13898,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1098654
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Circle Empires 2",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13905,6 +13920,8 @@
       1,
       2,
       9,
+      22,
+      29,
       36,
       38,
       49,
@@ -13920,8 +13937,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 34
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Feb, 2026"
     },
     "support_info": {

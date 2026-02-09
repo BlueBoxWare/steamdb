@@ -877,7 +877,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "SolveIt! invites you into the world of twisty puzzles - from the timeless Rubik\u2019s Cube to unique and challenging shapes. Whether you\u2019re a casual solver or a speedcubing enthusiast, SolveIt lets you practice, compete, and learn - all in one place.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Russian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188330/1257ef7152d9c8c444ca7225e6418e110dfa4e1d/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188330/12af99d4b5d80e80c61017699f6af01cb26e0903/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188330/12af99d4b5d80e80c61017699f6af01cb26e0903/capsule_184x69.jpg",
@@ -4431,7 +4431,19 @@
     "publishers": [
       "Y Develop"
     ],
-    "package_groups": [],
+    "packages": [
+      1467619
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Worlds",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4446,9 +4458,12 @@
     "genres": [
       23
     ],
+    "achievements": {
+      "total": 5
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "9 Feb, 2026"
     },
     "support_info": {
       "url": "ygames295@gmail.com",
@@ -5339,6 +5354,12 @@
     ],
     "publishers": [
       "HIGH GENIUS LIMITED"
+    ],
+    "demos": [
+      {
+        "appid": 4350450,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -6326,8 +6347,8 @@
     "steam_appid": 4188620,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A story-driven visual novel about a time loop, set in a rural village in the mid-1980s. Make choices, explore your surroundings, and unlock new story branches as you search for a way out of a repeating day.",
-    "supported_languages": "English, Russian",
+    "short_description": "The USSR, 1984. A summer frozen in time. Spend a recurring day with two charming companions, chasing the truth through old correspondence and derelict ruins. Will you find love and a way out of the cycle, or are you doomed to roam the labyrinth of your memories forever?",
+    "supported_languages": "English, Russian, French, German, Spanish - Spain, Traditional Chinese, Portuguese - Brazil, Portuguese - Portugal",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188620/b6ba768ec5f15d04a0a11310a75e873868c59506/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188620/fa5ae46bb6e81ae3773b9572d4260cbd424554a8/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188620/fa5ae46bb6e81ae3773b9572d4260cbd424554a8/capsule_184x69.jpg",
@@ -6341,8 +6362,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
