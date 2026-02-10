@@ -11017,7 +11017,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -12412,10 +12412,10 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "\u8fd9\u662f\u4e00\u6b3e\u6c89\u6d78\u5f0f\u604b\u7231\u517b\u6210\u6e38\u620f\u3002\u4f60\u5c06\u626e\u6f14\u4e3b\u89d2\uff0c\u7a7f\u68ad\u5728\u5404\u79cd\u5404\u6837\u7684\u573a\u666f\uff0c\u9082\u9005\u6027\u683c\u5404\u5f02\u7684\u604b\u7231\u5bf9\u8c61\u3002\u901a\u8fc7\u804a\u5929\u3001\u7ea6\u4f1a\u3001\u9001\u793c\u7b49\u4e92\u52a8\u63d0\u5347\u597d\u611f\uff0c\u89e3\u9501\u4e30\u5bcc\u5267\u60c5\uff0c\u8c31\u5199\u4e13\u5c5e\u4f60\u7684\u751c\u871c\u604b\u7231\u7bc7\u7ae0 \u3002",
-    "supported_languages": "Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898880/e605c489ffcbe595cc3c7c5e67f9dc149b9a7890/header.jpg?t=1761807964",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898880/9bc71b8da82527c262b453d99cfc4c8448ea5f13/capsule_231x87.jpg?t=1761807964",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898880/9bc71b8da82527c262b453d99cfc4c8448ea5f13/capsule_184x69.jpg?t=1761807964",
+    "supported_languages": "Simplified Chinese<strong>*</strong>, English, French, Italian, German, Spanish - Spain, Russian, Indonesian, Turkish, Japanese, Thai, Traditional Chinese<strong>*</strong>, Portuguese - Portugal, Vietnamese, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898880/e605c489ffcbe595cc3c7c5e67f9dc149b9a7890/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898880/9bc71b8da82527c262b453d99cfc4c8448ea5f13/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898880/9bc71b8da82527c262b453d99cfc4c8448ea5f13/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "sichongzhou.co"
@@ -12423,7 +12423,19 @@
     "publishers": [
       "sichongzhou.co"
     ],
-    "package_groups": [],
+    "packages": [
+      1370336
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Quartet: Heels, Magic, Yoga & The Case",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12437,40 +12449,25 @@
       4,
       28
     ],
+    "achievements": {
+      "total": 19
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "9 Feb, 2026"
     },
     "support_info": {
       "url": "",
       "email": "coolstarcs1@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3898880?t=1761807964",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898880/155eb0be5ed8fd15e555d1966feb1c5ff3adde57/page_bg_raw.jpg?t=1761807964",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3898880",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898880/155eb0be5ed8fd15e555d1966feb1c5ff3adde57/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         1,
         5
       ],
       "notes": "The Game will show some revealing clothing. \r\n"
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "14",
-        "required_age": "14",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Nudez"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Sexuelle Inhalte"
-      }
     }
   },
   "3899610": {
@@ -12490,6 +12487,12 @@
     ],
     "publishers": [
       "Bugurca Game Studio"
+    ],
+    "demos": [
+      {
+        "appid": 4177800,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
