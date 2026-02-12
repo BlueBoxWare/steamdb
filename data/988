@@ -4953,6 +4953,10 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4391920,
+      4395490
+    ],
     "short_description": "Tired of the city grind? Escape to Starsand Island and embrace the simple joys of country life! Live alongside capybaras, cats, and dogs, reel in a big catch, and explore the enchanting Moonlit Forest. Leave the hustle behind and experience the charm of this seaside paradise.",
     "supported_languages": "Simplified Chinese<strong>*</strong>, English<strong>*</strong>, Japanese<strong>*</strong>, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2966320/2e82370bf60a42fc82c5082e7b3b94575abf8ed1/header.jpg",
@@ -4965,7 +4969,19 @@
     "publishers": [
       "Seed Sparkle Lab"
     ],
-    "package_groups": [],
+    "packages": [
+      1056059
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Starsand Island",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4985,8 +5001,11 @@
       28,
       70
     ],
+    "achievements": {
+      "total": 75
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "11 Feb, 2026"
     },
     "support_info": {

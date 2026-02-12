@@ -12862,6 +12862,7 @@
     "steam_appid": 2814990,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "High-octane action and anime aesthetics collide in this arcade racing game, featuring fighting mechanics and a storyline that hits hard. In this world, some race for glory while others seek power or revenge. Every race is a fight and every battle is personal.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Simplified Chinese, Spanish - Latin America, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2814990/f4fba3a1edca44fbb2bd86c80340eb3de854102b/header.jpg",
@@ -12897,11 +12898,11 @@
     "categories": [
       1,
       2,
-      18,
       22,
       23,
       24,
       27,
+      28,
       36,
       37,
       49,
@@ -12911,6 +12912,7 @@
       68,
       69,
       70,
+      74,
       78
     ],
     "genres": [
@@ -13469,6 +13471,11 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      3970220,
+      3970260,
+      3970270
+    ],
     "short_description": "Live the thrill of asphalt and dirt with RIDE 6: affirm your biker identity by joining RIDE Fest, race with 250+ bikes from different categories and prove you're the best by challenging real motorcycling legends.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese<strong>*</strong>, Portuguese - Brazil, Simplified Chinese<strong>*</strong>, Spanish - Latin America, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2815070/4be2d85724afab7ccd40187b0d920dd03754991b/header.jpg",
@@ -13482,7 +13489,21 @@
     "publishers": [
       "Milestone S.r.l."
     ],
-    "package_groups": [],
+    "packages": [
+      1005067,
+      1410466,
+      1410467
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RIDE 6",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13495,6 +13516,7 @@
       23,
       27,
       28,
+      29,
       36,
       49,
       62,
@@ -13511,8 +13533,11 @@
       18,
       28
     ],
+    "achievements": {
+      "total": 49
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "12 Feb, 2026"
     },
     "support_info": {
