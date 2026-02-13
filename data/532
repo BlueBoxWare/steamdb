@@ -13191,6 +13191,9 @@
     "steam_appid": 1598230,
     "required_age": "18",
     "is_free": false,
+    "dlc": [
+      4179300
+    ],
     "short_description": "A corpse has been found... and everyone is a suspect. You have been chosen to participate in a one-night-only game of death, deceit, and deduction. Will you be a wolf? Or perhaps a lamb with the means to fight back... In deception we trust.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Traditional Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1598230/c25f0ab964ae226259dd2bbc22102e96c5398264/header.jpg",
@@ -13204,7 +13207,20 @@
     "publishers": [
       "Square Enix"
     ],
-    "package_groups": [],
+    "packages": [
+      565964,
+      1463911
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy KILLER INN",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13214,11 +13230,18 @@
       1,
       9,
       18,
+      29,
       35,
       36,
       38,
       49,
-      62
+      62,
+      65,
+      67,
+      68,
+      69,
+      70,
+      74
     ],
     "genres": [
       1,
@@ -13227,7 +13250,7 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "12 Feb, 2026"
     },
     "support_info": {
