@@ -1322,7 +1322,7 @@
     "name": "Goat Massacre",
     "steam_appid": 3259390,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "Fight Satan\u2019s demonic goat army as they storm through cursed portals. Kill goats that come out of gateways and face the Devil in an epic final battle. But even after victory, something stirs, and you realize the fight is far from over, with each return more brutal than the last.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259390/header.jpg",
@@ -1335,19 +1335,31 @@
     "publishers": [
       "Cybernetic Studios LLC"
     ],
-    "package_groups": [],
+    "packages": [
+      1536106
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Goat Massacre",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
-      23,
-      37
+      23
     ],
     "release_date": {
       "coming_soon": false,
@@ -10487,7 +10499,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2026"
+      "date": "April 2026"
     },
     "support_info": {
       "url": "",
