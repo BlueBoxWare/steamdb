@@ -14063,9 +14063,9 @@
     "is_free": false,
     "short_description": "Backrooms in the Forest - a horror game where you must escape from a mysterious forest and find your way out of the anomalies!",
     "supported_languages": "English, Russian, French, German, Spanish - Spain, Simplified Chinese, Turkish, Japanese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3351800/c8c834f442b3dffea40d101e3e9665944d3b2675/header.jpg?t=1764225504",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3351800/c87d1ccf9515cfac11631ee62e5a415b763f96e1/capsule_231x87.jpg?t=1764225504",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3351800/c87d1ccf9515cfac11631ee62e5a415b763f96e1/capsule_184x69.jpg?t=1764225504",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3351800/c8c834f442b3dffea40d101e3e9665944d3b2675/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3351800/c87d1ccf9515cfac11631ee62e5a415b763f96e1/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3351800/c87d1ccf9515cfac11631ee62e5a415b763f96e1/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Awecom",
@@ -14075,7 +14075,19 @@
       "Awecom",
       "Kourov Vyacheslav"
     ],
-    "package_groups": [],
+    "packages": [
+      1186357
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Backrooms in the Forest",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -14091,37 +14103,22 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 10
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "16 Feb, 2026"
     },
     "support_info": {
       "url": "",
       "email": "awecom.supp@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3351800?t=1764225504",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3351800/79c9c9658dc42582ea7b9fb49c1651d4a97cfa43/page_bg_raw.jpg?t=1764225504",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3351800",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3351800/79c9c9658dc42582ea7b9fb49c1651d4a97cfa43/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Medo"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "\u00c4ngstigende Inhalte"
-      }
     }
   },
   "3351260": {
@@ -14141,6 +14138,12 @@
     ],
     "publishers": [
       "Hellva Games"
+    ],
+    "demos": [
+      {
+        "appid": 4381420,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
