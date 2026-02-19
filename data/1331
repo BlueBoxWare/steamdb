@@ -3505,7 +3505,7 @@
     "name": "Headspace",
     "steam_appid": 3993810,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "A NSFW Adventure-RPG where you either subdue or seduce the various denizens of your imagination, all while trying to remember who you are. Can you escape the confines of your Headspace?",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3993810/0f81b7ddf2796506145c1b53b4382c858b02728b/header.jpg",
@@ -3518,7 +3518,19 @@
     "publishers": [
       "DoctorLoops"
     ],
-    "package_groups": [],
+    "packages": [
+      1551476
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Headspace",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3526,15 +3538,15 @@
     },
     "categories": [
       2,
-      22
+      22,
+      62
     ],
     "genres": [
       3,
-      23,
-      37
+      23
     ],
     "achievements": {
-      "total": 33
+      "total": 34
     },
     "release_date": {
       "coming_soon": false,
@@ -4958,8 +4970,8 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "A 3D cute management sim where you're a duck building and operating a treetop hotel for a variety of bird species. Strategically expand your tree, cater to each species\u2019 unique needs, and keep your feathery guests happy through all four seasons. Just don\u2019t ruffle any feathers, or it\u2019s game over!",
-    "supported_languages": "English, Korean, French",
+    "short_description": "Cute 3D management sim where you play as a duck, building and operating a treetop hotel for a variety of bird species. Strategically expand your tree, cater to each species\u2019 unique needs, and keep your feathery guests happy through all four seasons. Just don\u2019t ruffle any feathers, or it\u2019s game over!",
+    "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3995530/da979c7d009ee419f86d2c4e69401e8b5fa2cbc1/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3995530/589c9540aaf848aa24527a62020804c8aab5a0c2/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3995530/589c9540aaf848aa24527a62020804c8aab5a0c2/capsule_184x69.jpg",
@@ -4978,6 +4990,7 @@
     },
     "categories": [
       2,
+      22,
       23,
       28,
       62,
@@ -4998,7 +5011,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "23 Mar, 2026"
+      "date": "8 Apr, 2026"
     },
     "support_info": {
       "url": "https://www.goosewinggames.com/contact",

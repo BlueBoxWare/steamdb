@@ -5273,6 +5273,7 @@
     "steam_appid": 3219580,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "A lovely logical puzzle game about the many-worlds interpretation and quantum mechanics.",
     "supported_languages": "English, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219580/1d909d79fba1f64e6e778b43b3172383b778c5c0/header.jpg",
@@ -5309,6 +5310,7 @@
       2,
       22,
       23,
+      28,
       62,
       68,
       74,
@@ -7644,7 +7646,19 @@
     "publishers": [
       "Andr\u00e9 Cerqueira"
     ],
-    "package_groups": [],
+    "packages": [
+      1141742
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Horse Manager",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7660,8 +7674,11 @@
       4,
       28
     ],
+    "achievements": {
+      "total": 36
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "19 Feb, 2026"
     },
     "support_info": {
@@ -12657,7 +12674,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "Hack, slash, and cast your way through a haunted kingdom brimming with secrets where no two builds are ever the same. As a cursed mage-knight you will unlock devastating spells, equip ability transforming runes, and reforge your curse on the path to victory or death in this fantasy action roguelite.",
-    "supported_languages": "English, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Japanese, Korean, German, French, Spanish - Latin America, Polish",
+    "supported_languages": "English, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Japanese, Korean, German, French, Spanish - Latin America, Polish, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219180/1ea8ef162ee8ff8dca849ff84a8c222a0b1efb71/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219180/a17d964d1860b7a6572eef4f9cdf45443542e4b0/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219180/a17d964d1860b7a6572eef4f9cdf45443542e4b0/capsule_184x69.jpg",
@@ -12678,7 +12695,7 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": true
+      "linux": false
     },
     "categories": [
       2,
@@ -13734,7 +13751,11 @@
       "Forgotten Empires",
       "Tantalus Media",
       "Wicked Witch",
-      "World's Edge"
+      "World's Edge",
+      "CaptureAge"
+    ],
+    "publishers": [
+      "Xbox Game Studios"
     ],
     "packages": [
       1141419
