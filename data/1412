@@ -1399,7 +1399,7 @@
     "steam_appid": 4236710,
     "required_age": 0,
     "is_free": false,
-    "short_description": "an intense, physics-based arcade game that will test your reflexes and keep you on the edge of your seat. Race through collapsing arenas, face endless challenges, and conquer thrilling obstacle courses. One mistake could be your last. How long can you survive?",
+    "short_description": "A physics arcade survival game where the floor collapses beneath you. Chase score, distance, and time trials across three modes with Steam leaderboards.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4236710/d8d116bcff0cc66c970c7ab6dbd55a4c8867ff1b/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4236710/65bf3060b9138a1ae66706eee6f9869cfc7ef04a/capsule_231x87.jpg",
@@ -4063,6 +4063,12 @@
     "publishers": [
       "ZD Games"
     ],
+    "demos": [
+      {
+        "appid": 4275850,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -6258,7 +6264,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1483728
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Miya Might Break",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -6279,8 +6297,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 14
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "23 Feb, 2026"
     },
     "support_info": {

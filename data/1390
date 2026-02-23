@@ -1522,7 +1522,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "The player controls the bar with the mouse to pass the ball from the player's side to the CPU's side. If the CPU fails to receive the player's ball, the player scores 1 point. The player can move the bar using the mouse or rotate it using the mouse buttons or mouse wheel.",
-    "supported_languages": "English",
+    "supported_languages": "English, French, German, Spanish - Spain, Japanese, Simplified Chinese, Traditional Chinese, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4170700/fde195a9680b251897968b5b3473748a9c6fc8a8/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4170700/97ca71783d1e1e2a0c2baec3a7861db897d6ff91/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4170700/97ca71783d1e1e2a0c2baec3a7861db897d6ff91/capsule_184x69.jpg",
@@ -4769,7 +4769,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1461676
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Gray Protocol",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4777,6 +4789,8 @@
     },
     "categories": [
       2,
+      22,
+      23,
       62,
       68,
       74,
@@ -4788,8 +4802,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 8
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "22 Feb, 2026"
     },
     "support_info": {
