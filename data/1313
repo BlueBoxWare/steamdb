@@ -382,7 +382,7 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939360/3ced37c63b2ec5339ccba6f314ced32443d980be/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939360/70f4aeb9277fe4f61a1cf805752041524ef4498f/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939360/70f4aeb9277fe4f61a1cf805752041524ef4498f/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://detective-vr.com/",
     "developers": [
       "Studio CHIPO Y JUAN",
       "Valem Studio"
@@ -6168,9 +6168,9 @@
     "controller_support": "full",
     "short_description": "Entropy is a tactical turn-based RPG inspired by classic JRPGs. Assemble your party of mercenaries and forge your own path towards an expedition into hell to stop the demonic incursion. Choices you make along the way will determine the fate of your world.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940340/774c651c3be6a5c0a44d85a43b0d269b0c620415/header.jpg?t=1757443628",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940340/f3f06b81f5c6890140221c341f4123ebc937b8f5/capsule_231x87.jpg?t=1757443628",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940340/f3f06b81f5c6890140221c341f4123ebc937b8f5/capsule_184x69.jpg?t=1757443628",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940340/774c651c3be6a5c0a44d85a43b0d269b0c620415/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940340/f3f06b81f5c6890140221c341f4123ebc937b8f5/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940340/f3f06b81f5c6890140221c341f4123ebc937b8f5/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Lovely Hellplace"
@@ -6203,29 +6203,11 @@
       "url": "https://dreadxp.com/contact/",
       "email": "support@dreadxp.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3940340?t=1757443628",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940340/166e9116583de79bb6307ccc1bb0a2451f0ee93c/page_bg_raw.jpg?t=1757443628",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3940340",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940340/166e9116583de79bb6307ccc1bb0a2451f0ee93c/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "14",
-        "required_age": "14",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia\nLinguagem impr\u00f3pria\nAtos criminosos"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt\nSchimpfw\u00f6rte"
-      }
     }
   },
   "3940660": {
@@ -8754,6 +8736,10 @@
     "is_free": false,
     "controller_support": "full",
     "dlc": [
+      4282890,
+      4282900,
+      4282910,
+      4282950,
       4375080
     ],
     "short_description": "Wield over 300 modern weapons, from jets to tanks, and outmaneuver rival forces with your strategy. From small islands to massive total-war maps, turn-based battles let both newcomers and veterans play at their own pace.",
@@ -8768,7 +8754,19 @@
     "publishers": [
       "Systemsoft beta, Inc."
     ],
-    "package_groups": [],
+    "packages": [
+      1384623
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u5927\u6226\u7565SSB2",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8785,8 +8783,11 @@
       2,
       28
     ],
+    "achievements": {
+      "total": 23
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "25 Feb, 2026"
     },
     "support_info": {
