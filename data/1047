@@ -4479,7 +4479,7 @@
     "steam_appid": 3143930,
     "required_age": 0,
     "is_free": false,
-    "short_description": "ProtonVR is a VR Roguelike/Roguelite Retro Shooter dream-inspired by classic 90s shooters and movies. Customize your weapons arsenal, buy attachments, upgrades and choose your playstyle. Fight commandos, cyborgs, robots, zombies and much more!",
+    "short_description": "ProtonVR is a VR Roguelite Retro Shooter dream-inspired by classic 90s shooters and movies. Customize your weapons arsenal, buy attachments, upgrades and choose your playstyle. Fight commandos, cyborgs, robots, zombies and much more!",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3143930/0d837eec8e6b82ed34b6b0628f22edb85fd91d6f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3143930/51d2de68249d55f87dc44e8d5e6dfdd46c66b6a7/capsule_231x87.jpg",
@@ -8635,7 +8635,19 @@
       "Shiravune",
       "Co-FUN Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1115992
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Encode Encore!",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8643,13 +8655,14 @@
     },
     "categories": [
       2,
+      23,
       62
     ],
     "genres": [
       25
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "2 Mar, 2026"
     },
     "support_info": {
