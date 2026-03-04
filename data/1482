@@ -377,10 +377,10 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Play basketball for your soul. Mod balls with stickers, hunt perks, and outrun the fan. Success is a choice, failure is fatal.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446370/c3d935bbb8135b499a5dbe0ac28902c309d4105a/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446370/7faf5edc1e7462e48f8abdc26fbda20804faadbf/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446370/7faf5edc1e7462e48f8abdc26fbda20804faadbf/capsule_184x69.jpg",
+    "supported_languages": "English, French, Italian, German, Simplified Chinese, Japanese, Russian, Turkish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446370/5128367ce4ea42c7a238b940d8fa543d85a512b0/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446370/e334f823452f312b74490fbc11e4d7920fff7416/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446370/e334f823452f312b74490fbc11e4d7920fff7416/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "nithic"
@@ -417,7 +417,7 @@
       "email": "hello@snack.games"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4446370",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446370/d2485f448fa1b9dd5beb2c4a6db52fc7f2c341fb/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446370/2cddedf9a83fd6e91948a038d65b34438034d7cd/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -652,7 +652,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "Casual arcade combat racing game where you shoot rivals, drop mines, and destroy opponents while speeding to the finish line. Earn money and experience to unlock new cars, upgrade vehicles, and equip stronger weapons as you progress through increasingly challenging races.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic<strong>*</strong>, Bulgarian<strong>*</strong>, Traditional Chinese<strong>*</strong>, Simplified Chinese<strong>*</strong>, Czech<strong>*</strong>, Danish<strong>*</strong>, Finnish<strong>*</strong>, Greek<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Dutch<strong>*</strong>, Indonesian<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Norwegian<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong>, Romanian<strong>*</strong>, Swedish<strong>*</strong>, Thai<strong>*</strong>, Turkish<strong>*</strong>, Ukrainian<strong>*</strong>, Vietnamese<strong>*</strong>, Hungarian<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446710/2fabdb9291192198f2b3dd30309d856e8295d268/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446710/e070cf6f2ba5a36df9f461cfdd41762c65563810/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446710/e070cf6f2ba5a36df9f461cfdd41762c65563810/capsule_184x69.jpg",
@@ -1137,7 +1137,19 @@
     "developers": [
       "Zoady"
     ],
-    "package_groups": [],
+    "packages": [
+      1553000
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Tailor Simulator - Workshop Tunes",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1158,7 +1170,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "3 Mar, 2026"
     },
     "support_info": {
@@ -2021,6 +2033,12 @@
     "publishers": [
       "MewHoot Studio"
     ],
+    "demos": [
+      {
+        "appid": 4475800,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -2078,6 +2096,12 @@
     ],
     "publishers": [
       "Doom Turtle"
+    ],
+    "demos": [
+      {
+        "appid": 4460990,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2631,6 +2655,1811 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "4446280": {
+    "type": "dlc",
+    "name": "SOS OPS! - BACKROOMS",
+    "steam_appid": 4446280,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Fall into the Backrooms with 1\u20134 friends: sprint through iconic levels, bait monsters, crawl-hide your way out, and turn horror into pure SOS OPS! chaos.",
+    "fullgame": {
+      "appid": "2475460",
+      "name": "SOS OPS!"
+    },
+    "supported_languages": "English, Russian, French, German, Spanish - Spain, Japanese, Polish, Portuguese - Brazil, Simplified Chinese, Turkish, Ukrainian, Italian, Czech, Hungarian, Indonesian, Korean, Swedish, Thai, Vietnamese, Hindi, Swahili",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446280/f5aa2e99b22dd40a1998997d9553a3126242fa1d/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446280/d3ca70b0f3c73cb0dae47b976bed50c9d79f36a5/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446280/d3ca70b0f3c73cb0dae47b976bed50c9d79f36a5/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "ArtDock"
+    ],
+    "publishers": [
+      "Dreland Enterprises"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      21,
+      22,
+      23,
+      24,
+      28,
+      29,
+      36,
+      37,
+      38,
+      39,
+      44,
+      47,
+      48,
+      49,
+      62
+    ],
+    "genres": [
+      1,
+      4,
+      25,
+      28,
+      29
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "5 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://games.artdock.studio/",
+      "email": "pr@games.artdock.studio"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4446280",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446280/00d703128609fa14681d5e6cd55f017cba58e64f/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4446490": {
+    "type": "game",
+    "name": "paraDICE",
+    "steam_appid": 4446490,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A roguelite dice-building game where you defeat enemies using number dice and operator dice.",
+    "supported_languages": "English, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446490/b4d0a75eec726a3c50a2defb3873c49b3272b2e6/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446490/3f8e32488ff411532c91cfc0880a4cd5a6eb6dad/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446490/3f8e32488ff411532c91cfc0880a4cd5a6eb6dad/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "JustGG"
+    ],
+    "publishers": [
+      "JustGG"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      62,
+      74,
+      78,
+      79
+    ],
+    "genres": [
+      2,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "April 2026"
+    },
+    "support_info": {
+      "url": "https://goodborn.tistory.com/",
+      "email": "wodjs2640@naver.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4446490",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4446490",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4446570": {
+    "type": "dlc",
+    "name": "Super Video Golf - Putt-Stop in Paradise",
+    "steam_appid": 4446570,
+    "required_age": 0,
+    "is_free": true,
+    "controller_support": "full",
+    "short_description": "Putt-stop in Paradise, a free DLC for Super Video Golf, is an 18 hole putting course set on a sunny tropical island. Great for practicing your putting, or just chilling with some friends, Putt-stop in Paradise also includes full online leaderboards so the competition is never far away!",
+    "fullgame": {
+      "appid": "2173760",
+      "name": "Super Video Golf"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446570/7a2520434f45b3325a388310a63bf75f1c53b68b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446570/7b1a7ed05f0a37304a39cb31f7113666d7a5534f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446570/7b1a7ed05f0a37304a39cb31f7113666d7a5534f/capsule_184x69.jpg",
+    "website": "https://trederiagames.com",
+    "developers": [
+      "Trederia"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      1,
+      2,
+      15,
+      21,
+      22,
+      23,
+      24,
+      25,
+      28,
+      29,
+      30,
+      36,
+      37,
+      43,
+      44,
+      47,
+      49,
+      62,
+      63,
+      68,
+      69,
+      70,
+      73,
+      75,
+      78
+    ],
+    "genres": [
+      4,
+      18,
+      23,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support@trederiagames.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4446570",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4446570",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4447230": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 26",
+    "steam_appid": 4447230,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 26, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447230/9d49e9fd2fbd24a2769ea8561fd824fc82f251a1/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447230/10fe3fd5d9fadecc4ac5186a1e9a3db51bf76b21/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447230/10fe3fd5d9fadecc4ac5186a1e9a3db51bf76b21/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552603
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 26",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447230",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447230",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447240": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 27",
+    "steam_appid": 4447240,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 27, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447240/49b0a7628f2ebd0c99a156ee8e2890649c1b6c8d/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447240/e56310a06c46d4a7bd94d1a9266135526f08c5d0/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447240/e56310a06c46d4a7bd94d1a9266135526f08c5d0/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552606
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 27",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447240",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447240",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447260": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 28",
+    "steam_appid": 4447260,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 28, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447260/9a26c0a1960a882a1889e70f1df66fa55733e1a7/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447260/3ddd92a8cc2e368d350f57edfb25c32f87d0b69d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447260/3ddd92a8cc2e368d350f57edfb25c32f87d0b69d/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552612
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 28",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447260",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447260",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447270": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 29",
+    "steam_appid": 4447270,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 29, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447270/a6002d9e344ee0bdabfabc4aa083ce3c2c9e57f7/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447270/96c8195e573b1cb6068deb95054bbf5e20548c6a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447270/96c8195e573b1cb6068deb95054bbf5e20548c6a/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552615
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 29",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447270",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447270",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447280": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 30",
+    "steam_appid": 4447280,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 30, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447280/1a4d0dd48acf56d3272cb600d25c211dd40c4140/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447280/cbc478650dac92c5f31934047a2b35f597ba8084/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447280/cbc478650dac92c5f31934047a2b35f597ba8084/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552618
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 30",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447280",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447280",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447290": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 31",
+    "steam_appid": 4447290,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 31, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447290/21bce4e470426cdd5f03687584020ad9a1553f5a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447290/994cf5f9af77785858e4cf85c5682d8d1b280e76/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447290/994cf5f9af77785858e4cf85c5682d8d1b280e76/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552621
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 31",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447290",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447290",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447310": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 32",
+    "steam_appid": 4447310,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 32, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447310/13290b7dd06bf31a32ffa9ae30ceee6a606b3c9d/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447310/68ab71470652fbf516d84ad71090d98aff4a534a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447310/68ab71470652fbf516d84ad71090d98aff4a534a/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552627
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 32",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447310",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447310",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447320": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 33",
+    "steam_appid": 4447320,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 33, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447320/73955b826ecee34cf6f03e9dda2fb7c44aa745bc/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447320/0ca9a7ec3d7187a828de3dff2dd126acb5f06b98/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447320/0ca9a7ec3d7187a828de3dff2dd126acb5f06b98/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552630
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 33",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447320",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447320",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447330": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 34",
+    "steam_appid": 4447330,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 34, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447330/58e0210fffbb8b1be5459f303e14de85bf00eed0/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447330/1f84bcd42f825a321a7cbe40b6341b19100db5b9/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447330/1f84bcd42f825a321a7cbe40b6341b19100db5b9/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552633
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 34",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447330",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447330",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447340": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 35",
+    "steam_appid": 4447340,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 35, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447340/4bca46b2262bab74e8f018d85fedfba26ca8c2e0/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447340/1c1acc0d54b084a30d3d3f5da9a9b8dc4ee7f191/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447340/1c1acc0d54b084a30d3d3f5da9a9b8dc4ee7f191/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552636
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 35",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447340",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447340",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447350": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 36",
+    "steam_appid": 4447350,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 36, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447350/019a6e1cb344fe5798a8b50ad174f0c32929c1ca/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447350/882872bd75d03bdf560ef97410ba074031609a46/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447350/882872bd75d03bdf560ef97410ba074031609a46/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552639
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 36",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447350",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447350",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447360": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 37",
+    "steam_appid": 4447360,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 37, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447360/578f525067fada512bd1ca8302a01ca0b7556301/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447360/272fe5027b38b62e1cb470fa13735ca3cb80cf2a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447360/272fe5027b38b62e1cb470fa13735ca3cb80cf2a/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552642
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 37",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447360",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447360",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447370": {
+    "type": "game",
+    "name": "Amante VS Esposa",
+    "steam_appid": 4447370,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "You are Shigeru, happily married to Ayaka, a wife as loving as she is passionate. One morning, at a bar, you meet Megumi\u2014an unbelievably beautiful woman who might become your lover. Will you choose one of them\u2026 or live with secrets?",
+    "supported_languages": "English, French, German, Spanish - Spain, Simplified Chinese, Korean, Japanese, Russian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447370/bf00e62ffa1d1b9bd02b1b3d00557fa123b99430/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447370/01c485f474470e246191fd48f734e67f00f77873/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447370/01c485f474470e246191fd48f734e67f00f77873/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "MAGNA GAMES"
+    ],
+    "publishers": [
+      "MAGNA GAMES"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      3,
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "19 Mar, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "magnagames2025@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447370",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447370",
+    "content_descriptors": {
+      "ids": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "notes": "- Nudity and sexual acts graphic content.\r\n- Sex with stranger known by app.\r\n- Anal sex.\r\n- Sex on public spaces.\r\n- Not suitable for watching at work.\r\n- Not suitable for all ages.\r\n- All characters in the game are over 18 years old."
+    }
+  },
+  "4447440": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 38",
+    "steam_appid": 4447440,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 38, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447440/b4529ea02d39a67242898333a50d4b32526bbc05/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447440/eb4e6ba6ba7f8d281b4424552c5591507bd0a7a9/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447440/eb4e6ba6ba7f8d281b4424552c5591507bd0a7a9/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552666
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 38",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447440",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447440",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447450": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 39",
+    "steam_appid": 4447450,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 39, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447450/d0740224174023c0c3c70a27700ed528b2861c28/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447450/e8fd64b0ca6bf24075a6d9f7d290ba3d270e8293/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447450/e8fd64b0ca6bf24075a6d9f7d290ba3d270e8293/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552669
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 39",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447450",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447450",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447460": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 40",
+    "steam_appid": 4447460,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 40, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447460/092c0a6d5d182693448b161a3ea0f6f0f237affc/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447460/7ca4525d41a60919675f82a5a195a25f4dc281d3/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447460/7ca4525d41a60919675f82a5a195a25f4dc281d3/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552672
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 40",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447460",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447460",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447470": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 41",
+    "steam_appid": 4447470,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 41, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447470/5d06c67ecf30380d3438f37846b2738f0c6e186f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447470/b2570b2e30b5285a1ea6cb8dfe2e03f3dfda3580/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447470/b2570b2e30b5285a1ea6cb8dfe2e03f3dfda3580/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552675
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 41",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447470",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447470",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447480": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 42",
+    "steam_appid": 4447480,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 42, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447480/5c17ac568a996659cf21c8416aa387f21c6c8ff5/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447480/1674d76393408dc8a71fe6c60f3a358ea6797a77/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447480/1674d76393408dc8a71fe6c60f3a358ea6797a77/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552678
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 42",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447480",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447480",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447490": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 43",
+    "steam_appid": 4447490,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 43, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447490/d363100e7d378d0661aaff87ee833e1a0d3eb849/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447490/4db76c129859959b687ea4f4fa4352eccc6acf7b/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447490/4db76c129859959b687ea4f4fa4352eccc6acf7b/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552681
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 43",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447490",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447490",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447500": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 44",
+    "steam_appid": 4447500,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 44, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447500/49af536fd7deae16631e63cc899cbc5b6dc32833/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447500/3f4dda500be8d75578f6b196f6c7087027b41246/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447500/3f4dda500be8d75578f6b196f6c7087027b41246/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552684
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 44",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447500",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447500",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447510": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 45",
+    "steam_appid": 4447510,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 45, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447510/98a5ab9f9ebec4a150181463dadb61f423f17e9d/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447510/9df7433f8b16f6f7766143cdda10a6fe898b942c/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447510/9df7433f8b16f6f7766143cdda10a6fe898b942c/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552687
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 45",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447510",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447510",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447520": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 46",
+    "steam_appid": 4447520,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 46, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447520/c87af190daa9416a8d752d0ebde33f31c141a60b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447520/badde602e1a35184c91ebfe73cb2f65f62238700/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447520/badde602e1a35184c91ebfe73cb2f65f62238700/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552690
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 46",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447520",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447520",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
+    }
+  },
+  "4447530": {
+    "type": "dlc",
+    "name": "Cyberphobia: Prologue - Expansion Pass 47",
+    "steam_appid": 4447530,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dive deep into the dystopian future with the complete Expansion Pass 47, the essential, discounted bundle featuring all new major new DLCs for Cyberphobia: Prologue.",
+    "fullgame": {
+      "appid": "4127140",
+      "name": "Cyberphobia: Prologue"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447530/ad9758d8c25553cdcfb9a88545844e8e9a4aae31/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447530/6448bf38822eb83d652188bff9007d5f9114d401/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447530/6448bf38822eb83d652188bff9007d5f9114d401/capsule_184x69.jpg",
+    "website": "https://phantomproductions.com.tr/cyberphobia-prologue/",
+    "developers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "publishers": [
+      "PHANTOM PRODUCTIONS YAZILIM LIMITED"
+    ],
+    "packages": [
+      1552693
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyberphobia: Prologue - Expansion Pass 47",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://support.phantomproductions.com.tr/",
+      "email": "support@phantomproductions.com.tr"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447530",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4447530",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game is a mature, extremely graphic game containing frequent intense violence, gore, adult themes, frightening psychological horror, and general mature content, including non-graphic cartoon/fantasy violence and derogatory language."
     }
   }
 }

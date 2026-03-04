@@ -8403,6 +8403,9 @@
     "steam_appid": 4059320,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4059340
+    ],
     "short_description": "Room 304 is a short boys\u2019 love visual novel set in a dorm room rumored to be cursed. Over the course of four days, your choices shape the bond between the timid Ian and his confident roommate, Eric, revealing their fears, hopes, and hidden feelings.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059320/7b20eea1ba20907d4ac17de55819bbe2b0b983b8/header.jpg",
@@ -8421,7 +8424,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1423552
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Room 304 - A Boys' Love Story",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8437,9 +8452,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 4
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q1 2026"
+      "coming_soon": false,
+      "date": "4 Mar, 2026"
     },
     "support_info": {
       "url": "",
@@ -12127,6 +12145,73 @@
         5
       ],
       "notes": "The game's story revolves around cult-like behavior and home invasion."
+    }
+  },
+  "4059340": {
+    "type": "dlc",
+    "name": "Room 304 - Art Pack",
+    "steam_appid": 4059340,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Wanna &quot;Room 304 - A Boys' Love Story&quot; scenes in your pocket and check the game's backstage?",
+    "fullgame": {
+      "appid": "4059320",
+      "name": "Room 304 - A Boys' Love Story"
+    },
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059340/d497a547a7c4af89ba5de13f9e92389c056c9ba9/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059340/148f79546240a0101557a1fecef0d1f77ccfb1d0/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059340/148f79546240a0101557a1fecef0d1f77ccfb1d0/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Witz Games"
+    ],
+    "publishers": [
+      "Witz Games"
+    ],
+    "packages": [
+      1423558
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Room 304 - Art Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      62
+    ],
+    "genres": [
+      4,
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "4 Mar, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "maledollstudio@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4059340",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4059340",
+    "content_descriptors": {
+      "ids": [
+        1,
+        5
+      ],
+      "notes": "Room 304 - A Boys' Love Story contains CGs with gay kissing scenes. "
     }
   }
 }
