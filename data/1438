@@ -6724,7 +6724,7 @@
     "steam_appid": 4314680,
     "required_age": 0,
     "is_free": false,
-    "short_description": "\u8fd9\u662f\u4e00\u6b3e\u8089\u9e3d\u7c7b\u7684\u4e09\u6d88\u6e38\u620f\u3002\u5c55\u5f00\u4f60\u7684\u667a\u6167\uff0c\u8fd0\u7528\u6e38\u620f\u5185\u591a\u79cd\u673a\u5236\uff0c\u5728\u68cb\u76d8\u4e0a\u8986\u96e8\u7ffb\u4e91\uff0c\u51fb\u8d25\u654c\u624b\uff01",
+    "short_description": "This is a pigeon-type match-3 game. Expand your wisdom and use various mechanisms in the game to change the board and defeat your opponents!",
     "supported_languages": "Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4314680/48801e65b6b5c945dddd5473d561f7f430e9a6d8/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4314680/e045f442ef2fb2ac5c1ba4aac121f817f65a74b8/capsule_231x87.jpg",
@@ -6742,7 +6742,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1508648
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u4e94\u884c\u4fa0\u5f55",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6750,17 +6762,17 @@
     },
     "categories": [
       2,
-      15,
       62
     ],
     "genres": [
       2,
+      3,
       4,
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "March 2026"
+      "coming_soon": false,
+      "date": "12 Mar, 2026"
     },
     "support_info": {
       "url": "",
@@ -6871,6 +6883,84 @@
         5
       ],
       "notes": "The player dies some times, you only hunt \"robots\", there is blood sometimes visible as decals, possible occuring dead people."
+    }
+  },
+  "4314040": {
+    "type": "dlc",
+    "name": "Card-en-Ciel - The World of the \"Blaster Master Zero Series\"",
+    "steam_appid": 4314040,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "This set includes new dungeons, cards, a Muse, and a Random Event related to the Blaster Master Zero series. Clear the first new dungeon and you'll be able to use the new cards and Muse, as well as trigger the Random Event, in other dungeons.",
+    "fullgame": {
+      "appid": "2730540",
+      "name": "Card-en-Ciel"
+    },
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Simplified Chinese, Traditional Chinese, Japanese<strong>*</strong>, Korean, Portuguese - Brazil<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4314040/7414fec9337ea6836bc21625b208c58513fbc369/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4314040/2ef61e2fcf3b0385265e83feba14bbd85800d973/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4314040/2ef61e2fcf3b0385265e83feba14bbd85800d973/capsule_184x69.jpg",
+    "website": "https://card-en-ciel.com/",
+    "developers": [
+      "INTI CREATES CO., LTD."
+    ],
+    "publishers": [
+      "INTI CREATES CO., LTD."
+    ],
+    "packages": [
+      1508442
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Card-en-Ciel - The World of the \"Blaster Master Zero Series\"",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      21,
+      22,
+      23,
+      25,
+      28,
+      29,
+      36,
+      49,
+      62,
+      68,
+      69,
+      74,
+      75,
+      76,
+      78
+    ],
+    "genres": [
+      3
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "11 Mar, 2026"
+    },
+    "support_info": {
+      "url": "https://card-en-ciel.com/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4314040",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4314040",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }

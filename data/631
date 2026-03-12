@@ -14275,6 +14275,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4008520
+    ],
     "short_description": "Journey through a tumultuous Medieval Italy as Aeta, a young knight errant who sets off on a brutal quest to find and save her closest one. 1348 Ex Voto is a cinematic action-adventure game inspired by chivalric tales.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Simplified Chinese, Traditional Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1895900/e2406ff9c7687c9a2a4775092208d8691b04738b/header.jpg",
@@ -14287,7 +14290,20 @@
     "publishers": [
       "Dear Villagers"
     ],
-    "package_groups": [],
+    "packages": [
+      682848,
+      1552925
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy 1348 Ex Voto",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -14309,8 +14325,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 19
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "12 Mar, 2026"
     },
     "support_info": {
