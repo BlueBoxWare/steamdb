@@ -721,6 +721,7 @@
     "genres": [
       1,
       3,
+      23,
       25,
       29,
       37,
@@ -1357,7 +1358,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Ashes of Darkness is a soulslike action game set in the Middle Ages. Face challenging combat and strengthen your knight through character progression, abilities, and artifacts as you grow more powerful.",
+    "short_description": "Ashes of Darkness is a 2D Soulslike Action RPG set in a dark medieval world. Master fast-paced combat, defeat powerful enemies, collect rare artifacts, and forge your own build as you grow stronger and challenge deadly bosses.",
     "supported_languages": "English, French, Spanish - Spain, Simplified Chinese, Spanish - Latin America, Portuguese - Brazil",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4401980/2402c302762a37052c23b895a0e412950d24e196/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4401980/f27905d6887028e65a2e501d5665ffb55880b321/capsule_231x87.jpg",
@@ -3418,7 +3419,19 @@
     "publishers": [
       "Saturn Rising Labs"
     ],
-    "package_groups": [],
+    "packages": [
+      1537980
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy A World To Come",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3442,9 +3455,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q1 2026"
+      "coming_soon": false,
+      "date": "13 Mar, 2026"
     },
     "support_info": {
       "url": "",
@@ -3961,15 +3977,21 @@
     "is_free": false,
     "short_description": "SpinBound is a roguelike deckbuilder wrapped in a slot machine, where every spin is a strategic decision. Craft unique builds. Create exponentially scaling chains, bend randomness to your will, and enjoy how your synergies turn each spin into an explosion of numbers and effects. Good luck!",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4403320/79b9c418183f31067c1399bb70e46ad4a2a20460/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4403320/489443aea17ff47309ad4e6ba69b53044759994f/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4403320/489443aea17ff47309ad4e6ba69b53044759994f/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4403320/d49435917b7a35425289edec4a7c034c2a171ee7/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4403320/0d9eca7b7471d50ed98d22bb80f6548196b21562/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4403320/0d9eca7b7471d50ed98d22bb80f6548196b21562/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Team404 "
     ],
     "publishers": [
       "Team404 "
+    ],
+    "demos": [
+      {
+        "appid": 4443790,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
