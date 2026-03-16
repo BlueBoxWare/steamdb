@@ -8961,7 +8961,7 @@
     "name": "M2K",
     "steam_appid": 1763120,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "You landed on labyrinth-planet, where all territory filled of puzzles. Your need clearance mines and destroy trolls.",
     "supported_languages": "English, Polish, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1763120/0048217c1efca9f92bfd657bc08bbba3f5e6a6d3/header.jpg",
@@ -8974,7 +8974,19 @@
     "publishers": [
       "dj---alex"
     ],
-    "package_groups": [],
+    "packages": [
+      1575245
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy M2K",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8983,7 +8995,8 @@
     "categories": [
       2,
       17,
-      18
+      18,
+      62
     ],
     "genres": [
       1,
