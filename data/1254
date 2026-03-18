@@ -2408,9 +2408,9 @@
     "is_free": false,
     "short_description": "Aetherglen gives you the freedom to build your home anywhere on your land. Rebuild the town, attract new NPCs, and shape a thriving world through farming, crafting, and combat! Inspired by Rune Factory, Harvest Moon, Stardew Valley, and My Time at Portia.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764100/a022c7f45da0dfcfc04a7b39e92f70f19861efad/header.jpg?t=1748852784",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764100/a1206301d2b277f64dad67c9b7dd900ae5108f26/capsule_231x87.jpg?t=1748852784",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764100/a1206301d2b277f64dad67c9b7dd900ae5108f26/capsule_184x69.jpg?t=1748852784",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764100/a022c7f45da0dfcfc04a7b39e92f70f19861efad/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764100/a1206301d2b277f64dad67c9b7dd900ae5108f26/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764100/a1206301d2b277f64dad67c9b7dd900ae5108f26/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Fennecy Games"
@@ -2445,29 +2445,11 @@
       "url": "",
       "email": "aetherglengame@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3764100?t=1748852784",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3764100?t=1748852784",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3764100",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3764100",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia fantasiosa"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "6",
-        "required_age": "6",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Fantasy-Gewalt"
-      }
     }
   },
   "3764820": {
@@ -12065,7 +12047,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1324152
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Comet Tycoon",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12088,8 +12082,11 @@
       4,
       28
     ],
+    "achievements": {
+      "total": 8
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "17 Mar, 2026"
     },
     "support_info": {

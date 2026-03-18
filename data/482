@@ -5808,7 +5808,7 @@
     "type": "game",
     "name": "Fallen Tear: The Ascension",
     "steam_appid": 1446900,
-    "required_age": 0,
+    "required_age": "12",
     "is_free": false,
     "controller_support": "full",
     "short_description": "A story-driven Metroidvania where the allies you choose to bond with change how you fight and explore. Journey through the high-fantasy world of Raoah, uncover lost civilizations, and forge bonds that shape your path through a land on the brink of collapse.",
@@ -5823,13 +5823,19 @@
     "publishers": [
       "CMD Studios"
     ],
-    "demos": [
+    "packages": [
+      509047
+    ],
+    "package_groups": [
       {
-        "appid": 1530420,
-        "description": "Fallen Tear: The Ascension Demo"
+        "name": "default",
+        "title": "Buy Fallen Tear: The Ascension",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5851,8 +5857,11 @@
       25,
       70
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "17 Mar, 2026"
     },
     "support_info": {

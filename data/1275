@@ -3739,7 +3739,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "A darkness creeps into a man\u2019s life, twisting his reality. Plunged into the VOID, a shifting abyss, he must endure mind-bending nightmares, unravel its mysteries, scavenge to survive, and confront the monsters to escape\u2026 or be lost to it forever.",
+    "short_description": "Force Restart is a cinematic psychological horror game set within the VOID, a shifting abyss. Trapped in darkness teeming with monsters, a grieving man must endure mind-bending nightmares to unravel its secrets and escape or be consumed.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3827730/30f7a147bc703d0dc37234057791ff2582b375cc/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3827730/1bf25f9f69373de7909882b2b46263d3f9077a29/capsule_231x87.jpg",
@@ -11825,7 +11825,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1346003
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Monster Tavern",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -11844,8 +11856,11 @@
       23,
       70
     ],
+    "achievements": {
+      "total": 15
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "17 Mar, 2026"
     },
     "support_info": {

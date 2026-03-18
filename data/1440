@@ -1509,7 +1509,6 @@
       2,
       9,
       15,
-      18,
       22,
       38,
       62,
@@ -3643,7 +3642,7 @@
     "steam_appid": 4322380,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A local-first AI desktop assistant that runs on your hardware. Load different model cores, manage memory and chat history, and keep full control over performance, storage, and optional model downloads.",
+    "short_description": "A local-first AI desktop assistant that runs on your hardware. Load different model cores, manage memory and chat history, and keep full control over performance, storage, and optional AI core loader .",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4322380/9e1a72b3eb4d63011ba2993813583f149860108a/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4322380/2448b2675c31433a85329d2a5198e7cee48b2977/capsule_231x87.jpg",
@@ -4238,7 +4237,21 @@
     "publishers": [
       "Bohemia Interactive"
     ],
-    "package_groups": [],
+    "packages": [
+      1510954,
+      1550172,
+      1550173
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Everwind - Supporter Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": "1",
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4255,6 +4268,7 @@
       28,
       29,
       38,
+      62,
       68,
       74
     ],
@@ -4265,7 +4279,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "17 Mar, 2026"
     },
     "support_info": {
