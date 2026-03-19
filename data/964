@@ -4773,7 +4773,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Embark on your Dream Adventure: Discover uncharted lands, master the waves, and soar the skies! A challenging shoot-em-up bullet dodging game with a dash of side-scrolling platformer featuring a crew with hearts of gold at the ready, awaiting their Whale Captain.",
+    "short_description": "A challenging shoot-em-up bullet dodging game with a dash of side-scrolling platformer featuring unique hand drawn art and handcrafted music.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2892110/8004a2d990c193dca58bdbde7152495f76167385/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2892110/53e3f04e2b839aef2dcaab73ff6fe38b50bb6c76/capsule_231x87.jpg",
@@ -10376,6 +10376,9 @@
     "steam_appid": 2892380,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4407520
+    ],
     "short_description": "The mercenary robot AIVI is forced out of retirement as the P.A.S.C.A.L. Gigacorporation conquers his planet to squeeze it dry. Combine your FPS and tower defense skills, then send the corporate invaders to the scrapheap, seize the means of production, and take the planet back for the worker bots!",
     "supported_languages": "English, French",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2892380/f3e382b5406fe302c2a28d655aa300f12b7985b9/header.jpg",
@@ -10394,7 +10397,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1031137
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy AI.VI",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -10410,8 +10425,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 40
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "18 Mar, 2026"
     },
     "support_info": {
