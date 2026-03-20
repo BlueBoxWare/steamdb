@@ -253,7 +253,10 @@
     "categories": [
       1,
       2,
+      9,
+      38,
       47,
+      48,
       49,
       62,
       68,
@@ -618,7 +621,7 @@
     "steam_appid": 4440550,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Relax into eethCross, a stunning nonogram puzzle game blending logic and artistry. Solve 110 vibrant colored puzzles amid soothing ambience. Create and share custom grids via workshop integration, tackle the daily puzzle, or generate endless random challenges. Pure zen deduction awaits.",
+    "short_description": "Relax into eethCross, a stunning nonogram/picross-style puzzle game blending logic and artistry. Solve 110 vibrant colored puzzles amid soothing ambience. Create and share custom grids via workshop integration, tackle the daily puzzle, or generate endless random challenges.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4440550/b480b0cb029753b95889aa260e177777d91191a3/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4440550/bca4e2589b80337bd9204c75de34facc161537ca/capsule_231x87.jpg",
@@ -630,7 +633,19 @@
     "publishers": [
       "eeth"
     ],
-    "package_groups": [],
+    "packages": [
+      1550386
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy eethCross",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -655,8 +670,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "March 2026"
+      "coming_soon": false,
+      "date": "19 Mar, 2026"
     },
     "support_info": {
       "url": "",
@@ -2968,6 +2983,58 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "4442690": {
+    "type": "game",
+    "name": "In buone mani (IFeC Lab)",
+    "steam_appid": 4442690,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "In buone mani is a narrative game following community nurse Maria through five home visits. Balance medical expertise and empathy as you treat patients and uncover the stories behind their care.",
+    "supported_languages": "Italian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4442690/e70600bcfebb7cacddca3152a0858454e9f3c91f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4442690/f7354994d100adb31cb164bdec8f1bf8ecf02f39/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4442690/f7354994d100adb31cb164bdec8f1bf8ecf02f39/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Whitesock"
+    ],
+    "publishers": [
+      "Whitesock"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      68,
+      74,
+      79
+    ],
+    "genres": [
+      23,
+      28,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://whitesock.it/",
+      "email": "info@whitesock.it"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4442690",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4442690/435c4a73027e4a13f57a463e0a1037a560f86e64/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "The game includes realistic depictions of vulnerable individuals and sensitive social contexts. Storylines feature elderly patients in distress, people with physical disabilities, injuries, substance dependency issues, and characters facing economic or social hardship. No sexual content or graphic violence is shown."
     }
   }
 }
