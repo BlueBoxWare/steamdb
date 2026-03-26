@@ -11290,7 +11290,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "Voidloop is a mining adventure with roguelite elements. Explore procedural caves, fight dangerous enemies, and upgrade your abilities as you race to find your way back home to the void.",
-    "supported_languages": "English, French, German, Spanish - Spain, Japanese, Russian, Simplified Chinese, Hindi, Polish",
+    "supported_languages": "English, French, German, Spanish - Spain, Japanese, Russian, Simplified Chinese, Hindi",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3803180/dc332f6c182978045b2f2dce06f1b35ed844a61e/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3803180/68d71d135c9797b9095265644a0037a898644092/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3803180/68d71d135c9797b9095265644a0037a898644092/capsule_184x69.jpg",
@@ -13195,6 +13195,10 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      3818030,
+      4248830
+    ],
     "short_description": "Enroll in the Ancient Magic Academy and become a Great Mage in this charming dungeon-crawling RPG!",
     "supported_languages": "English, Japanese<strong>*</strong>, Simplified Chinese, Traditional Chinese, French<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3802800/546fc9f5cde4789863627a26643b4c41345de5d1/header.jpg",
@@ -13209,7 +13213,19 @@
     "publishers": [
       "Idea Factory International"
     ],
-    "package_groups": [],
+    "packages": [
+      1337490
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy MADO MONOGATARI: Fia and the Wondrous Academy",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13231,8 +13247,11 @@
       3,
       25
     ],
+    "achievements": {
+      "total": 49
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "25 Mar, 2026"
     },
     "support_info": {

@@ -834,6 +834,9 @@
     "steam_appid": 4200480,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4502790
+    ],
     "short_description": "Embark on an adventure where every word brings you closer to home! As Miskwaa, forge a path through a forest teaming with spirits, stories, and intricate puzzles inspired by Ojibwe culture and language in this all-new point and click adventure.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4200480/813a37c6da01c59e79c71a14d8ae9691bae4b877/header.jpg",
@@ -852,7 +855,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1471041
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Reclaim! Azhe-giiwewining",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -866,7 +881,7 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "26 Mar, 2026"
     },
     "support_info": {
@@ -1324,8 +1339,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
-      "linux": true
+      "mac": false,
+      "linux": false
     },
     "categories": [
       2,

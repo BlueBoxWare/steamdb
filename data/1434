@@ -3120,7 +3120,7 @@
   },
   "4304240": {
     "type": "game",
-    "name": "The Henchmen",
+    "name": "Not Our Crime",
     "steam_appid": 4304240,
     "required_age": 0,
     "is_free": false,
@@ -5190,7 +5190,19 @@
     "publishers": [
       "FallingNT"
     ],
-    "package_groups": [],
+    "packages": [
+      1504652
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy My Idle Witch",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5215,8 +5227,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 19
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "26 Mar, 2026"
     },
     "support_info": {
