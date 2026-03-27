@@ -8695,7 +8695,6 @@
     "steam_appid": 4100550,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "Delve into a new adventure... and some new dimensions. Marsh Into the New Dimension is a thrilling 3D boss-rush platformer adventure game travelling through brand new worlds and meeting new friends to help you save the universe from unwanted destruction. With a fresh new and original soundtrack!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100550/9f0baef75525351863d7acdcc16936ec1aa8b4cc/header.jpg",
@@ -8708,7 +8707,19 @@
     "publishers": [
       "TeeGK"
     ],
-    "package_groups": [],
+    "packages": [
+      1437028
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Marsh Into the New Dimension",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8717,7 +8728,6 @@
     "categories": [
       2,
       22,
-      28,
       62
     ],
     "genres": [
@@ -8726,9 +8736,12 @@
       25,
       70
     ],
+    "achievements": {
+      "total": 21
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "27 Mar, 2026"
     },
     "support_info": {
       "url": "https://www.teegk.live/",
