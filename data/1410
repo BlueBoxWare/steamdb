@@ -873,7 +873,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": true
     },
     "categories": [
@@ -2622,7 +2622,7 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -3866,13 +3866,19 @@
     "publishers": [
       "TWEN"
     ],
-    "demos": [
+    "packages": [
+      1481874
+    ],
+    "package_groups": [
       {
-        "appid": 4241220,
-        "description": ""
+        "name": "default",
+        "title": "Buy DEEPLY",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3900,8 +3906,11 @@
       28,
       70
     ],
+    "achievements": {
+      "total": 9
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "27 Mar, 2026"
     },
     "support_info": {
