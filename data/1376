@@ -1440,15 +1440,15 @@
   },
   "4128580": {
     "type": "game",
-    "name": "BidKing",
+    "name": "BidKing:\u7ade\u62cd\u4e4b\u738b",
     "steam_appid": 4128580,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "BidKing: A multiplayer game of strategic bluffing and collectible hunting. Use unique character skills to gain intel in sealed-bid auctions. Analyze behavior and clues to win items cheaply\u2014or bluff to make others overpay. Who will be the true Auction Master?",
     "supported_languages": "English<strong>*</strong>, Russian, Japanese, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, Vietnamese, Korean, French, Italian, German, Spanish - Spain, Indonesian, Dutch, Danish, Hungarian, Turkish, Norwegian, Thai, Romanian, Portuguese - Portugal<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4128580/c0a237dc23c8750665d4aa5f928a3fae62950cec/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4128580/8c8025b2f5a7ee6dd82d25e29af05b9e425bdc6e/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4128580/8c8025b2f5a7ee6dd82d25e29af05b9e425bdc6e/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4128580/b7e0ff7f05df2c97692bc61c5d3ddf751acb3477/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4128580/de019d15290d2e752fee0a3aa8abe18d23806a05/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4128580/de019d15290d2e752fee0a3aa8abe18d23806a05/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "LingZhu Tech Ltd.\u200b"
@@ -1474,6 +1474,7 @@
       35,
       36,
       49,
+      62,
       64,
       68,
       74,
@@ -1487,8 +1488,7 @@
       18,
       23,
       28,
-      29,
-      37
+      29
     ],
     "release_date": {
       "coming_soon": true,
@@ -2862,9 +2862,9 @@
     "is_free": false,
     "short_description": "Trapped in a nightmarish labyrinth, you have only two goals, find the ancient book and\u00a0escape. But the walls are alive with echoes, and the monsters that stalk the corridors never sleep.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4129870/5675f137ec881544a6c93388ac62e4524375964a/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4129870/78d525e1e530a4d4d4363ee90d8bd4afa37f5325/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4129870/78d525e1e530a4d4d4363ee90d8bd4afa37f5325/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4129870/eac7dc67f25dfe774f96b543991eadcb56720e5b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4129870/539b16eab3d2945ab20b456ccbd9ae866105fdfe/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4129870/539b16eab3d2945ab20b456ccbd9ae866105fdfe/capsule_184x69.jpg",
     "website": "https://abyssaledgestudios.com/",
     "developers": [
       "AbyssalEdgeStudios"
@@ -2923,7 +2923,7 @@
       "email": ""
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4129870",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4129870/31cfeeb3517df1227f2725a24b6058a383c4d95a/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4129870/fbe444edae3b2c2b8d2c096a7749ddea4a96a8ce/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -9788,7 +9788,19 @@
     "publishers": [
       "Hooded Horse"
     ],
-    "package_groups": [],
+    "packages": [
+      1447039
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Old World - Empires of the Indus",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -9827,8 +9839,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "30 Mar, 2026"
     },
     "support_info": {
       "url": "https://mohawkgames.com/support/",
@@ -9847,6 +9859,7 @@
     "steam_appid": 4129300,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "A card-driven strategy roguelike where every step is a choice. Descend into dark dungeons, battle monsters, face various encounters, and collect powerful items in fast, easy-to-pick-up runs filled with meaningful decisions.",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Polish, Portuguese - Portugal, Portuguese - Brazil, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4129300/e89f35555c24862e97fd598b2bfaaa612da9ae30/header.jpg",
@@ -9869,6 +9882,7 @@
       2,
       22,
       23,
+      28,
       62,
       66,
       67,

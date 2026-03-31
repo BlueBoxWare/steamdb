@@ -3162,7 +3162,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Backpack jianghu\u00a0is a Wuxia theme, inventory management and battle royale game. Choose a starting sect, enter the world with dozens of other players, pick your path, battle and grow, and compete in the final showdown at Mount Hua's peak.",
-    "supported_languages": "Simplified Chinese, English, Traditional Chinese, German, Japanese",
+    "supported_languages": "Simplified Chinese<strong>*</strong>, English, Traditional Chinese<strong>*</strong>, German, Japanese, Korean<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972650/0ee5fa5e75d3c3e02075cb4ce32ea4c6ef30b527/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972650/d9cd1e90dba8de4cccabfbcda9582543f1e1dc2d/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972650/d9cd1e90dba8de4cccabfbcda9582543f1e1dc2d/capsule_184x69.jpg",
@@ -3896,7 +3896,19 @@
     "publishers": [
       "pheniki_games"
     ],
-    "package_groups": [],
+    "packages": [
+      1394943
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Clay Puzzle",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3914,9 +3926,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 9
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q1 2026"
+      "coming_soon": false,
+      "date": "30 Mar, 2026"
     },
     "support_info": {
       "url": "https://pheniki-games.com/contact/",
