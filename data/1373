@@ -2223,7 +2223,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "You're trapped in your school during a lockdown and being hunted by a chainsaw-wielding maniac in an Easter Bunny suit. Get ready to experience an unforgettable Easter\u2026",
-    "supported_languages": "English<strong>*</strong>, Spanish - Spain, Indonesian, Japanese, Korean, Polish, Portuguese - Brazil<strong>*</strong>, Russian, Spanish - Latin America, German, Portuguese - Portugal<br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English, Spanish - Spain, Indonesian, Japanese, Korean, Polish, Portuguese - Brazil<strong>*</strong>, Russian, Spanish - Latin America, German, Portuguese - Portugal<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4119160/0ec36e630963fee2fc7b531a53e8b9e7bbc722cf/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4119160/50943f632026dd79acb396129577eb0ab8cc2e20/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4119160/50943f632026dd79acb396129577eb0ab8cc2e20/capsule_184x69.jpg",
@@ -2234,17 +2234,23 @@
     "publishers": [
       "William Jacob"
     ],
-    "demos": [
+    "packages": [
+      1443259
+    ],
+    "package_groups": [
       {
-        "appid": 4176480,
-        "description": ""
+        "name": "default",
+        "title": "Buy An Easter to Remember",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
-      "linux": true
+      "mac": false,
+      "linux": false
     },
     "categories": [
       1,
@@ -2265,8 +2271,11 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 15
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "3 Apr, 2026"
     },
     "support_info": {
@@ -11624,6 +11633,61 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "4120630": {
+    "type": "dlc",
+    "name": "Tiltility - The Finger Unlock",
+    "steam_appid": 4120630,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Unlock the iconic middle\u2011finger gesture for Tiltility\u2122 1 and let you bind it to any key for in\u2011game interactions. A playful, expressive add\u2011on for users who want a little extra attitude in their gesture toolkit.",
+    "fullgame": {
+      "appid": "4058970",
+      "name": "Tiltility\u2122"
+    },
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Dutch, Finnish, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Ukrainian, Bulgarian, Czech, Danish, Greek, Hungarian, Indonesian, Romanian, Thai, Traditional Chinese, Turkish, Vietnamese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120630/be50bf19eec7d68f26e6afa20b09cb32a77f2949/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120630/2bb12bb65931033ac14db37a872d7a85b2578a4c/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120630/2bb12bb65931033ac14db37a872d7a85b2578a4c/capsule_184x69.jpg",
+    "website": "https://www.tiltility.com/",
+    "developers": [
+      "Hedeshy"
+    ],
+    "publishers": [
+      "Hedeshy"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      21,
+      23,
+      74,
+      75,
+      76,
+      77,
+      79
+    ],
+    "genres": [
+      57
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": ""
+    },
+    "support_info": {
+      "url": "https://www.tiltility.com/",
+      "email": "support@tiltility.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4120630",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4120630",
+    "content_descriptors": {
+      "ids": [],
+      "notes": "This DLC contains a single hand gesture (the middle finger) used as a visual interaction method. There is no depiction of sexual acts, nudity, or violence. The gesture is intended for comedic and expressive use by the user; no verbal profanity or audio is included in this content."
     }
   }
 }
