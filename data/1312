@@ -6299,6 +6299,7 @@
     "steam_appid": 3937230,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Build your own cleaning empire! Unlock tools, take on bigger jobs, and clean your way to fame and fortune in this unique cleaning simulator.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Japanese, Korean, Polish, Portuguese - Portugal, Portuguese - Brazil, Russian, Turkish, Ukrainian, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937230/8deef6f201e7d7120faee3bead39f42e870239f5/header.jpg",
@@ -6328,7 +6329,11 @@
       2,
       22,
       25,
-      62
+      28,
+      62,
+      67,
+      74,
+      79
     ],
     "genres": [
       4,
@@ -11476,7 +11481,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1383703
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Eyehold Blocks",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -11494,8 +11511,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "6 Apr, 2026"
     },
     "support_info": {
       "url": "",

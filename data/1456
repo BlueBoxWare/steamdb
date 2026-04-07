@@ -1569,7 +1569,7 @@
     "steam_appid": 4368740,
     "required_age": 0,
     "is_free": false,
-    "short_description": "\u3053\u306e\u30b2\u30fc\u30e0\u306f\u534a\u81ea\u52d5\uff12DRPG\u3067\u3059\u3002\u30d1\u30fc\u30c6\u30a3\u306e\u4ef2\u9593\u305f\u3061\u306f\u81ea\u5206\u3067\u8003\u3048\u3066\u884c\u52d5\u3057\u307e\u3059\u3002 \u8857\u3067\u306f\u305d\u308c\u305e\u308c\u8cb7\u3044\u7269\u306b\u51fa\u304b\u3051\u3066\u3001\u6c17\u306b\u5165\u3063\u305f\u9053\u5177\u3084\u88c5\u5099\u3092\u8cb7\u3063\u305f\u308a\u3001\u88c5\u5099\u3092\u5f37\u5316\u3057\u305f\u308a\u3001\u9053\u5177\u3092\u30af\u30e9\u30d5\u30c8\u3057\u305f\u308a\u3057\u307e\u3059\u3002 \u5192\u967a\u306b\u884c\u304f\u3068\u3001\u81ea\u5206\u3067\u8003\u3048\u3066\u9053\u5177\u3067\u56de\u5fa9\u3057\u305f\u308a\u30d0\u30d5\u3092\u304b\u3051\u305f\u308a\u3001\u5012\u308c\u305f\u4ef2\u9593\u304c\u3044\u305f\u3089\u8607\u751f\u3057\u305f\u308a\u3001\u69d8\u3005\u306a\u6b66\u5668\u3067\u6575\u3092\u653b\u6483\u3057\u307e\u3059\u3002 \u64cd\u4f5c\u3082\u7c21\u5358\u3001\u884c\u304d\u305f\u3044\u5834\u6240\u3092\u30af\u30ea\u30c3\u30af\u3059\u308b\u3060\u3051\u3067\u3059\u3002 \u307e\u308b\u3067\u8ab0\u304b\u3068\u5192\u967a\u306b\u884c\u304f\u3088\u3046\u306a\u3001\u305d\u3093\u306a\u30b2\u30fc\u30e0\u3067\u3059\u3002",
+    "short_description": "This is a semi-automatic 2D RPG where party members think and act on their own. In town they shop, upgrade gear, and craft items. On adventures they heal, buff, revive allies, and fight automatically. Just click to move.",
     "supported_languages": "Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4368740/09c30c1771324e973e9336e5127bc6a6c20c0e98/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4368740/b0d9f1e804103000deb3e9e622f3f70cb60cadba/capsule_231x87.jpg",
@@ -4737,7 +4737,19 @@
     "publishers": [
       "General Script Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1526955
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Panic Sell 2 - GOLD",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4746,7 +4758,8 @@
     "categories": [
       2,
       21,
-      22
+      22,
+      62
     ],
     "genres": [
       2,
@@ -4756,7 +4769,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "6 Apr, 2026"
     },
     "support_info": {

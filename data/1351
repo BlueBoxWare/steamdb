@@ -8690,6 +8690,9 @@
     "steam_appid": 4054310,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4054510
+    ],
     "short_description": "Uncover impossible deaths in a hidden object adventure filled with myth, mystery, and puzzles. Explore eerie locations and face a legend rising from the deep!",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Russian, Swedish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4054310/faae2a779e821b88c11f08d464eae54cb0971510/header.jpg",
@@ -8708,7 +8711,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1421876
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Mystery of Myths: Whisper of Depth Collector's Edition",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -8716,6 +8731,7 @@
     },
     "categories": [
       2,
+      22,
       62,
       68,
       76,
@@ -8726,9 +8742,12 @@
       4,
       25
     ],
+    "achievements": {
+      "total": 14
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "7 Apr, 2026"
     },
     "support_info": {
       "url": "https://dogameslimited.zohodesk.eu",
@@ -13145,6 +13164,71 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4055050",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4055050/e28b854fca07665f787fd5d6000933c747d90ad5/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4054510": {
+    "type": "dlc",
+    "name": "Mystery of Myths: Whisper of Depth DLC",
+    "steam_appid": 4054510,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Continue the investigation with more locations, puzzles, and secrets. Dive deeper into the myth, uncover hidden truths, and face what waits beneath the waves.",
+    "fullgame": {
+      "appid": "4054310",
+      "name": "Mystery of Myths: Whisper of Depth Collector's Edition"
+    },
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Russian, Swedish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4054510/87e43d148e067e3283837dc94783c6fbe148a105/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4054510/e26f7433d418ca852bc93ed739b0c593d9e50d10/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4054510/e26f7433d418ca852bc93ed739b0c593d9e50d10/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Do Games Limited"
+    ],
+    "publishers": [
+      "Do Games Limited."
+    ],
+    "packages": [
+      1421939
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Mystery of Myths: Whisper of Depth DLC",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      4,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "7 Apr, 2026"
+    },
+    "support_info": {
+      "url": "https://dogameslimited.zohodesk.eu",
+      "email": "support@dominigames.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4054510",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4054510",
     "content_descriptors": {
       "ids": [],
       "notes": null
