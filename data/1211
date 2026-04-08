@@ -8415,7 +8415,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Play as a Dwarven 'Pirate' and set sail on your modified minecart into the depths of the mines. Fight enemies in a unique blend of Pinball, Pachinko, and Bubble Shooter whilst collecting game altering balls &amp; relics that ensure no two runs are alike.",
+    "short_description": "Grab your balls and set sail on your 'pirate' minecart into the depths of the mines. Fight enemies in a unique blend of Pinball, Pachinko, and Bubble Shooter whilst collecting game altering balls &amp; relics that ensure no two runs are alike.",
     "supported_languages": "English, French, Japanese, Korean, Russian, Simplified Chinese, German, Portuguese - Brazil, Thai, Italian, Spanish - Spain, Turkish, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3634710/03ce311bd5fb7741e643ee191b01e071846969ca/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3634710/0238476baa639f4272ddccaa0a408d6cbb5a689b/capsule_231x87.jpg",
@@ -10224,6 +10224,7 @@
     "required_age": 0,
     "is_free": true,
     "dlc": [
+      4557220,
       4475660,
       4400580,
       4335710,
@@ -10505,7 +10506,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "27 Apr, 2026"
     },
     "support_info": {
       "url": "",
@@ -12890,10 +12891,6 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "dlc": [
-      4540000,
-      4540060
-    ],
     "short_description": "Samson returns to Tyndalston, a city that shaped him hard, where every fight is close and every escape is earned. He owes dangerous people more than he can pay, and they\u2019re using his sister to force his hand. The clock is ticking. The only way out is through anyone who stands in his way.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Turkish<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3634520/139e0f223c1c0cb4f2e763c41ae7fe6e4e3e59a2/header.jpg",
@@ -12906,7 +12903,19 @@
     "publishers": [
       "Liquid Swords"
     ],
-    "package_groups": [],
+    "packages": [
+      1281097
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Samson",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12930,8 +12939,11 @@
       9,
       25
     ],
+    "achievements": {
+      "total": 40
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "8 Apr, 2026"
     },
     "support_info": {
