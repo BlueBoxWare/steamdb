@@ -14586,6 +14586,10 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4359010,
+      4533770
+    ],
     "short_description": "Minos is a maze-building roguelite where you, the fabled Minotaur, must defend your sanctuary from bloodthirsty adventurers. Design and re-design deadly labyrinths, set traps, and turn every brave fool into your next victim.",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3181650/ca22af7d9f01d6577458c7d18851e3cff47a3840/header.jpg",
@@ -14604,7 +14608,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1128716
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy MINOS",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -14615,6 +14631,7 @@
       22,
       23,
       28,
+      29,
       62
     ],
     "genres": [
@@ -14623,8 +14640,11 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 35
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Apr, 2026"
     },
     "support_info": {

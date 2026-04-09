@@ -2844,7 +2844,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -5733,13 +5733,31 @@
     "publishers": [
       "FireLine Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1539590
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy FireLine",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
+      1,
+      2,
+      9,
+      36,
+      38,
+      49,
       62
     ],
     "genres": [
@@ -5747,8 +5765,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "9 Apr, 2026"
     },
     "support_info": {
       "url": "",
@@ -5796,6 +5814,7 @@
       22,
       28,
       38,
+      48,
       62,
       67,
       68,
@@ -5871,6 +5890,54 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4407100",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4407100/cc6574b3949777939b085de3b3299b317846ee3e/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4408540": {
+    "type": "game",
+    "name": "FincrementalOS",
+    "steam_appid": 4408540,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "Blast away with a submarine\u2019s cannon and sort your desktop for minigames in this incremental fish shooting and simulated operating system hybrid!",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4408540/1c842c77979455a176690ed8d54b6c4d41b3aca3/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4408540/dcd0048577334d48db7b7c4d605d8b0e2fde6ea2/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4408540/dcd0048577334d48db7b7c4d605d8b0e2fde6ea2/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Calamafia Studio"
+    ],
+    "publishers": [
+      "Champlain College"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22
+    ],
+    "genres": [
+      4,
+      23,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "1 May, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "calamafiastudio@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4408540",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4408540/113e1f0dd77dd3204f8061246107a21c2641e3ae/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

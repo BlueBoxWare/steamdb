@@ -3561,8 +3561,9 @@
     "steam_appid": 4480040,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "This is a super cute spot-the-difference game!",
-    "supported_languages": "English, German, Japanese, Hungarian, Persian",
+    "supported_languages": "English, German, Japanese, Hungarian, Persian, French, Italian, Spanish - Spain, Bulgarian, Portuguese - Brazil, Simplified Chinese, Traditional Chinese, Korean, Polish, Russian, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4480040/1f1df1c9cd7cca88796bde0a21efb8ffcfecf616/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4480040/45589b42020464a2372f2634ec7bd80d8fc130f6/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4480040/45589b42020464a2372f2634ec7bd80d8fc130f6/capsule_184x69.jpg",
@@ -3573,7 +3574,19 @@
     "publishers": [
       "Glitchy Frame Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1563462
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Glitchy: Cute Loop",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3583,6 +3596,7 @@
       2,
       22,
       23,
+      28,
       44,
       62,
       66,
@@ -3596,8 +3610,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 16
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Apr, 2026"
     },
     "support_info": {
