@@ -5719,7 +5719,7 @@
     "name": "Wheel Riders Online OBT",
     "steam_appid": 734550,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "dlc": [
       746080,
       758450
@@ -5736,7 +5736,19 @@
     "publishers": [
       "Raum Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1300359
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Wheel Riders Online OBT",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5750,13 +5762,13 @@
       35,
       36,
       38,
-      49
+      49,
+      62
     ],
     "genres": [
       1,
       9,
-      29,
-      37
+      29
     ],
     "release_date": {
       "coming_soon": false,

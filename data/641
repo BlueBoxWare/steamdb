@@ -1325,7 +1325,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "This is a 2D cover-based tactical shooter game where the key to victory lies not in shooting skills, but in tactical movement.",
-    "supported_languages": "English, Simplified Chinese, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Portugal, Russian, Traditional Chinese, Turkish",
+    "supported_languages": "English, Simplified Chinese, French, German, Spanish - Spain, Japanese, Korean, Russian, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1924670/39951a11597b3c526b7efa26f57612b2c58e9ace/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1924670/0186f12ea20c5c987de272d05742e5dc91f2289d/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1924670/0186f12ea20c5c987de272d05742e5dc91f2289d/capsule_184x69.jpg",
@@ -12063,6 +12063,10 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4400310,
+      4400330
+    ],
     "short_description": "In this sequel to the award-winning roleplay visual novel, Arcadia Fallen, you play as a senior student at the Seven Winds Academy. Choose from three different magical disciplines, and let your choices shape the personality of your character as you navigate school life during a time of great change.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1924070/header.jpg",
@@ -12075,7 +12079,19 @@
     "publishers": [
       "Galdra Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      693122
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Arcadia Fallen II",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -12107,8 +12123,11 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 31
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Apr, 2026"
     },
     "support_info": {

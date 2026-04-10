@@ -312,11 +312,11 @@
     "steam_appid": 4532550,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Escape From Chickov\u200b is a PVE top-down shooter game. You control a chicken surviving in a world infested with zombies and other enemies, gathering resources in this devastated world, developing and expanding your own base, and ultimately seeking a way to escape.",
+    "short_description": "Chicken Force is a PVE top-down shooter game. You control a chicken surviving in a world infested with zombies and other enemies, gathering resources in this devastated world, developing and expanding your own base, and ultimately seeking a way to escape.",
     "supported_languages": "English, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4532550/aeaec920375ef68d885548826fdd493b6774000a/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4532550/f7ef41fd40ba94bdfee3b94a6640de74e88612fc/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4532550/f7ef41fd40ba94bdfee3b94a6640de74e88612fc/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4532550/36531a46f4b539104b6e02eef5d26b98ae65d5f8/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4532550/99a6c3fa051a838fc6e1b3152bb93cd8e866c06e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4532550/99a6c3fa051a838fc6e1b3152bb93cd8e866c06e/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Gugu Studio"
@@ -336,10 +336,15 @@
       9,
       22,
       23,
-      62
+      38,
+      62,
+      68,
+      69
     ],
     "genres": [
-      3
+      3,
+      23,
+      25
     ],
     "release_date": {
       "coming_soon": true,
@@ -668,7 +673,19 @@
     "publishers": [
       "Exeter Game Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1580681
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Dead Sector",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -687,8 +704,11 @@
       1,
       23
     ],
+    "achievements": {
+      "total": 21
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Apr, 2026"
     },
     "support_info": {
@@ -999,7 +1019,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "9 Apr, 2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -3274,7 +3294,19 @@
     "publishers": [
       "Mens Sana Interactive"
     ],
-    "package_groups": [],
+    "packages": [
+      1580295
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Meow Moments: The Winter Resort",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -3300,7 +3332,7 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Apr, 2026"
     },
     "support_info": {
@@ -3514,7 +3546,7 @@
     "steam_appid": 4532890,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A cozy game about building homes for penguins on ANTA3 Island, help the island grow and work off the debt you took to buy a house.",
+    "short_description": "A cozy game about building houses for penguins on ANTA3 Island, help the island grow and work off the debt you took to buy a house.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4532890/b5da68fe6fecff05d6241d52ad0db62edb31cea0/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4532890/90324e7c41888c456d2d0176aac07ad40385fbea/capsule_231x87.jpg",
@@ -3921,7 +3953,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "19:30. Lena is waiting by the riverside. Vera must resist losing herself in the maze of Velyograd High while uncovering what happened.",
+    "short_description": "When a world built to last quietly unravels, two girls face the void left by everything once certain.",
     "supported_languages": "English<strong>*</strong>, Russian, Turkish, Traditional Chinese, Japanese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530240/67f81fa075e48aa6c08d598ed71a961de9c8795a/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530240/282d871df99f273271b1a532aa4fd176e578d555/capsule_231x87.jpg",
@@ -4220,6 +4252,156 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "4530000": {
+    "type": "game",
+    "name": "House Cleaner Simulator",
+    "steam_appid": 4530000,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Step into the role of a professional cleaner in House Cleaner Simulator and turn the dirtiest, most cluttered spaces into spotless, organized homes. Every job is a new challenge where your attention to detail and efficiency truly matter",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530000/55c76a0fd1ca8aea235fb57d3c532f4723d1f50d/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530000/a0c678e842c26d5607854eb80a095e7f9f803e3e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530000/a0c678e842c26d5607854eb80a095e7f9f803e3e/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "TESTAGAMERCREATIONS"
+    ],
+    "publishers": [
+      "TESTAGAMERCREATIONS"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      4,
+      23,
+      28,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "team@testagamer.games"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4530000",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530000/60ec072d589f19597d903b3130165f634a3ecd56/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4530020": {
+    "type": "game",
+    "name": "Part-Time Pandemonium",
+    "steam_appid": 4530020,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "It's your first day as the receptionist at the local museum, and you're about to close down for the evening \u2014\u00a0a simple task, if it weren't for the exhibitions coming to life. Fight your way through the workday and discover the museum's secrets in this 2d platformer action adventure game!",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530020/b0b493fb36aa2c3fdfc8d716804f8046d0eb824b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530020/b262d711d36e923f47f81adbc4b6cac56ef2dc2d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530020/b262d711d36e923f47f81adbc4b6cac56ef2dc2d/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Starcatcher Games"
+    ],
+    "publishers": [
+      "Starcatcher Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      28,
+      62
+    ],
+    "genres": [
+      1,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "starcatchergamessb@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4530020",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4530020",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4530740": {
+    "type": "game",
+    "name": "Marmorea",
+    "steam_appid": 4530740,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "To solve the mystery of his brother\u2019s disappearance, Guido ventures into the village of Pietralba to uncover the truth about the marble quarry and his family\u2019s past.",
+    "supported_languages": "English<strong>*</strong>, French, Italian<strong>*</strong>, German, Spanish - Spain, Simplified Chinese, Traditional Chinese, Japanese, Portuguese - Brazil, Portuguese - Portugal, Spanish - Latin America, Russian<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530740/b40074a6864c6175fe29ab55fcf6bd72fdf2856f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530740/f76df3c2fe30b0e520b785c322a013f5ef84a3bb/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530740/f76df3c2fe30b0e520b785c322a013f5ef84a3bb/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Burning Farmhouse Studios",
+      "Jnox"
+    ],
+    "publishers": [
+      "Burning Farmhouse Studios"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q4 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "burningfarmhouse@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4530740",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4530740",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "It is a psychological thriller with strong horror elements. The game features blood, corpses, disturbing clues, and unsettling audio design. The atmosphere is tense and oppressive, and certain scenes may evoke fear, discomfort, or emotional distress. While the game does not focus on explicit sexual content, it explores mature themes related to trauma, obsession, and the darker sides of human psychology."
     }
   }
 }
