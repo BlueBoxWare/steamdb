@@ -817,7 +817,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Dig, upgrade, and take risky buffs in this chaotic tunnel adventure! Team up with your loyal cat and dog companions, discover powerful upgrades, and decide how far you're willing to push your luck while digging deeper and deeper.",
+    "short_description": "Dig, upgrade, and dig again until you reach the end! Team up with your loyal cat and dog companions, discover powerful upgrades, and decide how far you're willing to push your luck while digging deeper and deeper.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4404000/cbd3290b93cd7c418bdd9648f42755e5090f497d/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4404000/d6c61171b2af7bd5b05d31aba9973633feb630bc/capsule_231x87.jpg",
@@ -1825,6 +1825,12 @@
     "publishers": [
       "renolc.games"
     ],
+    "demos": [
+      {
+        "appid": 4556870,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -1852,7 +1858,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "July 2026"
     },
     "support_info": {
       "url": "https://renolc.games",
@@ -2422,10 +2428,10 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Try to survive the experiments being conducted on you while you attempt to uncover the truth about why you are there.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4404390/e2633a2dd3cf3d7c38b1546e16ed4c260b35706f/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4404390/2f9a346ec479359896f3496949d02c6dcbedb08b/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4404390/2f9a346ec479359896f3496949d02c6dcbedb08b/capsule_184x69.jpg",
+    "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4404390/4e1cb8c031c4311b08812d69cc677d5d44e93b62/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4404390/eee7be597c8a66d34cd1704f82c17323b1c22c5b/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4404390/eee7be597c8a66d34cd1704f82c17323b1c22c5b/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Holitass"
@@ -3472,7 +3478,19 @@
     "publishers": [
       "The Snark Hunters"
     ],
-    "package_groups": [],
+    "packages": [
+      1538366
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Val's Adventures at Scure Manor",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3486,8 +3504,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 28
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "10 Apr, 2026"
     },
     "support_info": {

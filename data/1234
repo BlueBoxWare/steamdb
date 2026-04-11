@@ -8115,8 +8115,9 @@
     "steam_appid": 3703730,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Tezzel is a cozy, colorful, and crafty puzzle game where every level completed becomes a colorful tile that gets added to the mosaic Wall. Discover mind-bending mechanics across 100+ handcrafted levels.",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Catalan, Japanese, Korean, Portuguese - Portugal, Russian, Simplified Chinese",
+    "controller_support": "full",
+    "short_description": "Tezzel is a cozy, colorful, and crafty puzzle game where every level completed becomes a colorful tile that gets added to the mosaic Wall. Discover mind-bending mechanics across 100 handcrafted levels.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Catalan, Japanese, Korean, Portuguese - Portugal, Russian, Simplified Chinese, Portuguese - Brazil, Spanish - Latin America",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3703730/898f060b0141187c618104f74cd92fb0bb07f1cb/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3703730/e9dc9ccdbfdbe1dfeed28f9a606ded173842ba62/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3703730/e9dc9ccdbfdbe1dfeed28f9a606ded173842ba62/capsule_184x69.jpg",
@@ -8133,7 +8134,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1304084
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Tezzel: The Tilemaker's Tale",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -8142,6 +8155,7 @@
     "categories": [
       2,
       22,
+      28,
       62,
       65,
       67,
@@ -8153,8 +8167,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 31
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "10 Apr, 2026"
     },
     "support_info": {
