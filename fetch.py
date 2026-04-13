@@ -282,10 +282,6 @@ nr_of_outdated_items: int = 0
 
 Path(args.datadir).mkdir(parents=True, exist_ok=True)
 
-if args.gfn:
-    create_gfn_list()
-    sys.exit(0)
-
 # Load state
 try:
     with open(p(STATE_FILE_NAME)) as f:
