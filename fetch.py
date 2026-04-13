@@ -333,7 +333,7 @@ else:
 progress(" Done.")
 
 for appid, stamp in apps.items():
-    if id in state:
+    if appid in state:
         if state[appid] < apps[appid]:
             outdated_apps.add(appid)
     else:
