@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+from __future__ import annotations
+
 import argparse
 import json
 import os
@@ -26,6 +28,9 @@ APPLIST_URLS = {
 APPINFO_URL = "https://store.steampowered.com/api/appdetails?l=english&appids="
 APPLIST_API_URL = "https://api.steampowered.com/IStoreService/GetAppList/v1/?"
 CATEGORIES_URL = "https://store.steampowered.com/actions/ajaxgetstorecategories"
+GFN_URL = (
+    "https://static.nvidiagrid.net/supported-public-game-list/locales/gfnpc-en-US.json"
+)
 
 VALID_TYPES = ", ".join(APPLIST_URLS.keys())
 
@@ -73,7 +78,7 @@ def sleep(secs: int):
     if args.quiet:
         sleep(secs)
         return
-    for _ in range(0, secs):
+    for _ in range(secs):
         time.sleep(1)
         print(".", end="", flush=True)
     print()
@@ -98,8 +103,8 @@ def save():
     fetched.clear()
 
     with open(p(STATE_FILE_NAME), "w") as f:
-        for id, timestamp in sorted(state.items()):
-            f.write(f"{id},{timestamp}\n")
+        for appid, timestamp in sorted(state.items()):
+            f.write(f"{appid},{timestamp}\n")
 
     progress("Done.")
 
@@ -152,6 +157,18 @@ def time2str(timestamp: int) -> str:
     return datetime.fromtimestamp(timestamp).strftime("%-d %b %Y")
 
 
+def create_gfn_list() -> None:
+    with urllib.request.urlopen(request(GFN_URL)) as resp:
+        result = []
+        js = json.loads(resp.read())
+        for data in js:
+            appid = data.get("steamUrl", "").split("/")[-1]
+            if appid.isdigit():
+                result.append(appid)
+    with open(p("gfn"), "w") as f:
+        f.write("\n".join(sorted(result, key=int)))
+
+
 def create_lists():
     if not args.lists:
         return
@@ -166,8 +183,8 @@ def create_lists():
         if filename.isdigit():
             with open(p(filename)) as f:
                 js = json.load(f)
-                for id, data in js.items():
-                    gameid = int(id)
+                for appid, data in js.items():
+                    gameid = int(appid)
                     if data.get("demos", []):
                         demos.add(gameid)
                     cats = data.get("categories", [])
@@ -177,21 +194,25 @@ def create_lists():
                         achievements.add(gameid)
 
     with open(p("demos"), "w") as f:
-        for id in sorted(demos):
-            f.write(f"{id}\n")
+        for appid in sorted(demos):
+            f.write(f"{appid}\n")
     with open(p("cards"), "w") as f:
-        for id in sorted(cards):
-            f.write(f"{id}\n")
+        for appid in sorted(cards):
+            f.write(f"{appid}\n")
     with open(p("achievements"), "w") as f:
-        for id in sorted(achievements):
-            f.write(f"{id}\n")
+        for appid in sorted(achievements):
+            f.write(f"{appid}\n")
     with open(p(GENRE_FILE_NAME), "w") as f:
-        for id in sorted(genres.keys(), key=int):
-            f.write(f"{id}\t{genres[id]}\n")
+        for appid in sorted(genres.keys(), key=int):
+            f.write(f"{appid}\t{genres[appid]}\n")
 
-    with urllib.request.urlopen(request(CATEGORIES_URL)) as resp:
-        with open(p("categories"), "w") as f:
-            json.dump(json.loads(resp.read()), f, indent=2)
+    with (
+        urllib.request.urlopen(request(CATEGORIES_URL)) as resp,
+        open(p("categories"), "w") as f,
+    ):
+        json.dump(json.loads(resp.read()), f, indent=2)
+
+    create_gfn_list()
 
     progress("Done.")
 
@@ -239,9 +260,9 @@ types_to_fetch: list[str] = list(APPLIST_URLS.keys())
 if args.types:
     types_to_fetch = re.split(r"\s*,\s*", args.types.strip(", "))
     types_to_fetch = [t.lower() for t in types_to_fetch]
-    for type in types_to_fetch:
-        if type not in APPLIST_URLS:
-            error(f"--types: Unknown type: '{type}'. Valid types: {VALID_TYPES}.")
+    for t in types_to_fetch:
+        if t not in APPLIST_URLS:
+            error(f"--types: Unknown type: '{t}'. Valid types: {VALID_TYPES}.")
             sys.exit(1)
 
 
@@ -261,20 +282,24 @@ nr_of_outdated_items: int = 0
 
 Path(args.datadir).mkdir(parents=True, exist_ok=True)
 
+if args.gfn:
+    create_gfn_list()
+    sys.exit(0)
+
 # Load state
 try:
     with open(p(STATE_FILE_NAME)) as f:
         for line in f:
-            id, stamp = line[:-1].split(",")[0:2]
-            state[int(id)] = int(stamp)
+            appid, stamp = line[:-1].split(",")[0:2]
+            state[int(appid)] = int(stamp)
 except FileNotFoundError:
     pass
 
 try:
     with open(p(GENRE_FILE_NAME)) as f:
         for line in f:
-            id, name = line[:-1].split("\t")
-            genres[id] = name
+            appid, name = line[:-1].split("\t")
+            genres[appid] = name
 except FileNotFoundError:
     pass
 
@@ -283,8 +308,8 @@ except FileNotFoundError:
 progress("Fetching app ids.", end="")
 if args.api:
     base_url = APPLIST_API_URL + f"key={args.api}&max_results=50000"
-    for type in types_to_fetch:
-        base_url = base_url + f"&include_{type}=true"
+    for t in types_to_fetch:
+        base_url = base_url + f"&include_{t}=true"
     if "games" not in types_to_fetch:
         base_url = base_url + "&include_games=false"
     last_appid = None
@@ -311,16 +336,16 @@ else:
                 apps[item["appid"]] = item["last_modified"]
 progress(" Done.")
 
-for id, stamp in apps.items():
+for appid, stamp in apps.items():
     if id in state:
-        if state[id] < apps[id]:
-            outdated_apps.add(id)
+        if state[appid] < apps[appid]:
+            outdated_apps.add(appid)
     else:
-        new_apps.add(id)
+        new_apps.add(appid)
 
 # Removed apps
-for id in state.keys():
-    if id not in apps:
+for appid in state:
+    if appid not in apps:
         removed_apps = removed_apps + 1
 
 # Stats
@@ -332,7 +357,7 @@ progress(f"Removed apps: {removed_apps}")
 queue = sorted(new_apps)
 if not args.new:
     queue = queue + sorted(
-        outdated_apps, key=lambda id: apps[id] - state[id], reverse=True
+        outdated_apps, key=lambda appid: apps[appid] - state[appid], reverse=True
     )
 
 nr_of_outdated_items = len(queue)
@@ -354,7 +379,7 @@ if args.stats:
 batch_count = 0
 error_count = 0
 
-for index, id in enumerate(queue):
+for index, appid in enumerate(queue):
     batch_count = batch_count + 1
 
     if batch_count > args.batch:
@@ -362,7 +387,7 @@ for index, id in enumerate(queue):
         create_lists()
         batch_count = 1
 
-    req = request(APPINFO_URL + str(id))
+    req = request(APPINFO_URL + str(appid))
     timestamp = int(datetime.now().timestamp())
 
     retry = 0
@@ -371,28 +396,28 @@ for index, id in enumerate(queue):
         try:
             response = urllib.request.urlopen(req)
             break
-        except Exception as e:
-            progress(f"Error fetching {id}")
+        except Exception:
+            progress(f"Error fetching {appid}")
             sleep(BACKOFF[retry])
             retry = retry + 1
             if retry >= len(BACKOFF):
                 error("Too many failures. Aborting.\n")
                 save()
-                raise e
+                raise
 
     if not response:
         sys.exit(1)
 
     text = response.read()
     if not text:
-        progress(f"Empty response for {id}.")
+        progress(f"Empty response for {appid}.")
         response_text = "{}"
     json_obj = json.loads(text)
     try:
-        data = json_obj[str(id)]["data"]
-    except KeyError as e:
-        progress(f"E: {id}", end="")
-        state[id] = timestamp
+        data = json_obj[str(appid)]["data"]
+    except KeyError:
+        progress(f"E: {appid}", end="")
+        state[appid] = timestamp
         error_count = error_count + 1
         sleep(args.sleep)
         continue
@@ -410,23 +435,23 @@ for index, id in enumerate(queue):
     compact(data, "genres")
     data = transform(data, urlrewrite)
 
-    file = id // 3000
-    fetched[file][id] = data
+    file = appid // 3000
+    fetched[file][appid] = data
 
     prefix = "N"
     old_time = ""
-    last_change = time2str(apps[id])
+    last_change = time2str(apps[appid])
     last_fetch = ""
-    if state[id] > 0:
+    if state[appid] > 0:
         prefix = "U"
-        last_fetch = ", last fetch: " + time2str(state[id])
+        last_fetch = ", last fetch: " + time2str(state[appid])
 
     progress(
-        f"{index}: {prefix}: {id}: {data['name']} (last change: {last_change}{last_fetch}) ",
+        f"{index}: {prefix}: {appid}: {data['name']} (last change: {last_change}{last_fetch}) ",
         end="",
     )
 
-    state[id] = timestamp
+    state[appid] = timestamp
 
     sleep(args.sleep)
 

@@ -9,6 +9,7 @@ Up-to-date data on (almost[^1]) all Steam games[^2].
 - [data/cards](data/cards): IDs of all games with trading cards
 - [data/categories](data/categories): Data on all store categories
 - [data/genres](data/genres): Genre IDs and their description
+- [data/gfn](data/gfn): IDs of Steam games on GeForce NOW (playable through Steam)
 
 ### Download
 
