@@ -1195,6 +1195,10 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4338370,
+      4446470
+    ],
     "short_description": "Embark on an explorative RPG hack-and-slash adventure where you attempt to re-establish a haven for the lost dwarven civilization. Journey across varied lands, help those in need, gather resources and fight off goblins and monsters as you slowly rebuild a home for your people.\u00a0",
     "supported_languages": "English, French, German, Spanish - Spain, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1375750/d8e9440137e70a2724afcecee04b0d18d095f402/header.jpg",
@@ -1213,7 +1217,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      493683
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Regions of Ruin: Runegate",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -1232,8 +1248,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 48
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "14 Apr, 2026"
     },
     "support_info": {
