@@ -656,6 +656,7 @@
     "steam_appid": 4357030,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "dlc": [
       4366290
     ],
@@ -678,10 +679,16 @@
       "linux": false
     },
     "categories": [
+      1,
       2,
+      9,
       15,
       22,
       23,
+      24,
+      28,
+      39,
+      44,
       62,
       64,
       66,
@@ -1657,7 +1664,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Coin Tavern is not your average tavern! In this roguelike game, you\u2019ll wield a wild array of quirky coins to build your one-of-a-kind coin deck. Hoard coins, refine strategies, streamline your deck, unlock hidden treasures, and land outrageous combos in randomized runs!",
-    "supported_languages": "English, Simplified Chinese, Traditional Chinese, Japanese",
+    "supported_languages": "English, Simplified Chinese, Traditional Chinese, Japanese, German",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4358310/1dbd41ac3ca03dd9d0160f47617801c3a43a5d8a/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4358310/6aed5bd85082d4cd19f6e76231a4b77c1b4230db/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4358310/6aed5bd85082d4cd19f6e76231a4b77c1b4230db/capsule_184x69.jpg",
@@ -3760,7 +3767,19 @@
     "publishers": [
       "Kisotik Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1522609
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy That's My President!",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3781,8 +3800,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 37
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "14 Apr, 2026"
     },
     "support_info": {

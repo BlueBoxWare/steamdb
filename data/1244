@@ -1787,12 +1787,12 @@
     "name": "PRISM",
     "steam_appid": 3734280,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
     "short_description": "Master mystical spells and advanced movement techniques in PRISM, a first-person parkour speedrunning game where seconds count and style matters. Blast, slide, and swing your way through medieval landscapes to claim your place atop the leaderboards.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734280/b05affb975149ff6d65914ff264fc9844bedc1d3/header.jpg?t=1748418223",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734280/13ccc41878f1c60bc85116db02b9587895deec72/capsule_231x87.jpg?t=1748418223",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734280/13ccc41878f1c60bc85116db02b9587895deec72/capsule_184x69.jpg?t=1748418223",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734280/b05affb975149ff6d65914ff264fc9844bedc1d3/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734280/13ccc41878f1c60bc85116db02b9587895deec72/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734280/13ccc41878f1c60bc85116db02b9587895deec72/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Mathieu Schmerber",
@@ -1801,20 +1801,7 @@
     "publishers": [
       "Mathieu Schmerber"
     ],
-    "packages": [
-      1314560
-    ],
-    "package_groups": [
-      {
-        "name": "default",
-        "title": "Buy PRISM",
-        "description": "",
-        "selection_text": "Select a purchase option",
-        "save_text": "",
-        "display_type": 0,
-        "is_recurring_subscription": "false"
-      }
-    ],
+    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1824,13 +1811,17 @@
       2,
       23,
       25,
-      62
+      67,
+      68,
+      69,
+      79
     ],
     "genres": [
       1,
       4,
       23,
-      25
+      25,
+      37
     ],
     "release_date": {
       "coming_soon": false,
@@ -1840,29 +1831,11 @@
       "url": "https://mathieu-schmerber.com/",
       "email": "mathieu.schmerber@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3734280?t=1748418223",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734280/3092500213dcf638fd8f4516cd56f5c73bcece49/page_bg_raw.jpg?t=1748418223",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3734280",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734280/3092500213dcf638fd8f4516cd56f5c73bcece49/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3733260": {
@@ -5491,9 +5464,9 @@
     "controller_support": "full",
     "short_description": "Demonborg Mining Co is a unique rogue-lite about mining the insides of giant demon cyborgs with your auto-firing turret loaded drill drone.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734930/6e25f3690130a0099a5cd75a0d18e5f7b45e25d3/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734930/9bc9779750fcbc934a99fd19d373e9401c1e3781/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734930/9bc9779750fcbc934a99fd19d373e9401c1e3781/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734930/37458889e58da7a00a1b46e89d7298a6efd1c1c8/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734930/36b6c01126d05942698b0688ba4c3724c4e03652/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734930/36b6c01126d05942698b0688ba4c3724c4e03652/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Ouch Giver Games"
@@ -12912,7 +12885,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1314545
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy S.U.S",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12930,8 +12915,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "April 2026"
+      "coming_soon": false,
+      "date": "14 Apr, 2026"
     },
     "support_info": {
       "url": "http://www.cryptioninteractive.com/",

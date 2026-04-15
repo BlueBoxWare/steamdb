@@ -427,7 +427,7 @@
     "steam_appid": 4251290,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A turn-based tactical combat game where you dismantle enemies limb by limb, steal their body parts, and use them to rebuild your character in order to become the most overpower god in history.",
+    "short_description": "A turn-based combat roguelite where you build a monster from the body parts of your enemies. Create evolving combos, break enemy limbs mid-fight and wear their flesh after you defeat them to grow in power.",
     "supported_languages": "English, Spanish - Spain, Portuguese - Brazil, Simplified Chinese, Spanish - Latin America",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4251290/fe9779835e900f1b8f90ee70c7bbc7859d38ab28/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4251290/79b262e88baea5a06cf6d53d57fe0760e70d8d08/capsule_231x87.jpg",
@@ -1395,7 +1395,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1488320
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Shape Swarm",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -1410,8 +1422,11 @@
     "genres": [
       1
     ],
+    "achievements": {
+      "total": 15
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "14 Apr, 2026"
     },
     "support_info": {
