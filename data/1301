@@ -5340,7 +5340,7 @@
     "steam_appid": 3905670,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A fast-paced roguelike boomer shooter where you battle VHS-era horrors, upgrade weapons, and survive procedurally generated levels.",
+    "short_description": "A roguelike FPS where the level rewrites itself while you fight. Battle VHS-era horrors in liminal spaces that shift mid-combat. No two runs are physically the same.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Portuguese - Portugal, Danish, Dutch, Finnish, Norwegian, Russian, Simplified Chinese, Swedish, Traditional Chinese, Turkish, Ukrainian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905670/d0d8ba81da96e42afddcd0d774212ae94fc317af/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905670/2fafc34a629a8be4ac3728d4022c590f9bffe693/capsule_231x87.jpg",
@@ -14195,7 +14195,19 @@
     "publishers": [
       "Sambatti Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1372664
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Reliquare",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -14216,8 +14228,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 11
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "15 Apr, 2026"
     },
     "support_info": {

@@ -4053,7 +4053,7 @@
     "name": "Spleef Game",
     "steam_appid": 2547240,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "Dig the blocks below the opposing player to make him fall... But don't fall yourself! As competitive as fun!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2547240/header.jpg",
@@ -4066,7 +4066,19 @@
     "publishers": [
       "MCGames"
     ],
-    "package_groups": [],
+    "packages": [
+      1613410
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Spleef Game",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4075,13 +4087,13 @@
     "categories": [
       1,
       36,
-      49
+      49,
+      62
     ],
     "genres": [
       1,
       4,
-      23,
-      37
+      23
     ],
     "release_date": {
       "coming_soon": false,

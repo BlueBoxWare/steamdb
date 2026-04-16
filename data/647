@@ -6126,7 +6126,7 @@
     "name": "The Complex: Found Footage",
     "steam_appid": 1942120,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "Experience the liminal world of the backrooms through a VHS camera, immersing into a mysterious story and wandering the dream-like structures... Might there be something following you?",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942120/94cdb57f9831e272157ee2acced7c06f91d50fed/header.jpg",
@@ -6139,20 +6139,32 @@
     "publishers": [
       "pgWave"
     ],
-    "package_groups": [],
+    "packages": [
+      1613678
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy The Complex: Found Footage",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       23,
       25,
-      28,
-      37
+      28
     ],
     "release_date": {
       "coming_soon": false,
