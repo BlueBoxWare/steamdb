@@ -15893,6 +15893,7 @@
     "steam_appid": 2432240,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Smash it Wild is a tactical turn-based game combining volleyball and dodgeball in a fantasy universe. Upgrade your players and defeat your opponents in an intense roguelike competition!",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Polish, Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432240/a53c28d02a783b0064b2205307074f13cda1fcfe/header.jpg",
@@ -15913,7 +15914,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      875294
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Smash it Wild: Tactical Volleyball Roguelike",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -15921,6 +15934,7 @@
     },
     "categories": [
       2,
+      28,
       62
     ],
     "genres": [
@@ -15928,9 +15942,12 @@
       3,
       18
     ],
+    "achievements": {
+      "total": 16
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "16 Apr, 2026"
     },
     "support_info": {
       "url": "",

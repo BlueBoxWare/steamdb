@@ -6743,7 +6743,7 @@
     "name": "eWorlds",
     "steam_appid": 2513440,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "dlc": [
       3241850,
       3307190
@@ -6760,7 +6760,19 @@
     "publishers": [
       "GGTech Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1598365
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy eWorlds",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6775,15 +6787,15 @@
       23,
       36,
       38,
-      49
+      49,
+      62
     ],
     "genres": [
       1,
       4,
       23,
       25,
-      29,
-      37
+      29
     ],
     "achievements": {
       "total": 29

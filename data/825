@@ -13217,7 +13217,7 @@
     "name": "Write Warz",
     "steam_appid": 2477650,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "Write Warz is a multiplayer storytelling party game. Write a line, vote for the winner, and build the story across bold themes, mini-games, bonus words, and character abilities. Laughs included!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2477650/7f4b84164a941cb299066413ae52002b690da12c/header.jpg",
@@ -13230,7 +13230,19 @@
     "publishers": [
       "Boltz Entertainment"
     ],
-    "package_groups": [],
+    "packages": [
+      1595911
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Write Warz",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -13244,7 +13256,8 @@
       35,
       36,
       38,
-      49
+      49,
+      62
     ],
     "genres": [
       1,
