@@ -1143,7 +1143,8 @@
     "steam_appid": 4386510,
     "required_age": 0,
     "is_free": false,
-    "short_description": "WarSlice is a turn-based strategy game where you lead armies as a Commander in tactical grid-based battles. Play the Campaign, create your own maps, or challenge other players online.",
+    "controller_support": "full",
+    "short_description": "WarSlice is a turn-based tactics game where you lead armies as a Commander in tactical grid-based battles. Play the Campaign, create your own maps, or challenge other players online.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4386510/4066c021ea007aebf888dc2ad4b8b168985c9416/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4386510/e63755b1837618b3bc8dd3058d6b66a980e98651/capsule_231x87.jpg",
@@ -1165,7 +1166,11 @@
       1,
       2,
       17,
+      24,
+      28,
       36,
+      37,
+      44,
       49,
       62
     ],
@@ -5522,7 +5527,19 @@
     "publishers": [
       "StarSouls Studios "
     ],
-    "package_groups": [],
+    "packages": [
+      1532774
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy FOOTSLOG",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5537,8 +5554,8 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "24 Apr, 2026"
     },
     "support_info": {
       "url": "",
