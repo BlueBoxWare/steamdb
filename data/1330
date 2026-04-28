@@ -2350,7 +2350,7 @@
     "name": "LUCIFERIANISM",
     "steam_appid": 3990500,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "A roguelike, Soulslike Open World RPG, set in a Labyrinthine Maze of Artifice, the construct world, with all lines fully voiced by Elevenlabs AI Voice Robots, A strange religious poem in game form. Created by one guy, with schizophrenia in Unreal Engine 5.4.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3990500/e8ba53b8a8b8bbfc9efe6d75fc406fffff1393a2/header.jpg",
@@ -2363,7 +2363,19 @@
     "publishers": [
       "The Czechoslovakian Secret Police"
     ],
-    "package_groups": [],
+    "packages": [
+      1625943
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy LUCIFERIANISM",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2375,13 +2387,13 @@
       22,
       27,
       36,
-      49
+      49,
+      62
     ],
     "genres": [
       1,
       3,
-      25,
-      37
+      25
     ],
     "achievements": {
       "total": 13

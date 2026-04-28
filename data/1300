@@ -1496,9 +1496,9 @@
     "is_free": true,
     "short_description": "Apoclone is a post-apocalyptic idle strategy RPG where you command a squad of clone warriors and unleash powerful mechs in turn-based combat. Strategize your formation, conquer enemies in PvE and PvP, and thrive in a ruined world\u2014even while offline.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3901990/982d573a4bf44c512f1c715465a131d9d7e5f99c/header.jpg?t=1754900133",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3901990/f0b631891f3c431642842d7b9b1bd036505253f3/capsule_231x87.jpg?t=1754900133",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3901990/f0b631891f3c431642842d7b9b1bd036505253f3/capsule_184x69.jpg?t=1754900133",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3901990/982d573a4bf44c512f1c715465a131d9d7e5f99c/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3901990/f0b631891f3c431642842d7b9b1bd036505253f3/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3901990/f0b631891f3c431642842d7b9b1bd036505253f3/capsule_184x69.jpg",
     "website": "https://apo.r2games.com",
     "ext_user_account_notice": "R2 Games ID ",
     "developers": [
@@ -1533,29 +1533,11 @@
       "url": "https://www.r2games.com/support/",
       "email": ""
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3901990?t=1754900133",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3901990/e8b10a96d6f815fd2151cb272d2be24dae5e7575/page_bg_raw.jpg?t=1754900133",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3901990",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3901990/e8b10a96d6f815fd2151cb272d2be24dae5e7575/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3900070": {
@@ -7299,7 +7281,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1371505
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Wolf with Inn",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7314,8 +7308,11 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 16
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "27 Apr, 2026"
     },
     "support_info": {
