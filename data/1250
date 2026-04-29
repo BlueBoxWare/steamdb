@@ -4612,12 +4612,6 @@
     "publishers": [
       "Blackroot Studios"
     ],
-    "demos": [
-      {
-        "appid": 4191920,
-        "description": ""
-      }
-    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -8008,7 +8002,7 @@
     "type": "game",
     "name": "The Blood of Dawnwalker",
     "steam_appid": 3751260,
-    "required_age": 0,
+    "required_age": "18",
     "is_free": false,
     "controller_support": "full",
     "short_description": "The Blood of Dawnwalker is an open-world dark fantasy action RPG set in 14th-century Europe. You play as Coen, human by day and vampire by night, fighting to save your family in a story shaped by your actions and the secrets you uncover.",
@@ -8023,7 +8017,20 @@
     "publishers": [
       "Bandai Namco Entertainment"
     ],
-    "package_groups": [],
+    "packages": [
+      1543138,
+      1543139
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy The Blood of Dawnwalker",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8043,7 +8050,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "2 Sep, 2026"
     },
     "support_info": {
       "url": "https://service.bandainamcoent.eu/",
@@ -8057,7 +8064,7 @@
         2,
         5
       ],
-      "notes": null
+      "notes": "This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Some Nudity or Sexual Content, Frequent Violence or Gore, General Mature Content"
     }
   },
   "3751580": {
@@ -13184,9 +13191,11 @@
     },
     "categories": [
       2,
+      13,
       18,
       22,
       35,
+      61,
       64,
       65,
       66,

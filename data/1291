@@ -2127,7 +2127,7 @@
     "steam_appid": 3875090,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Black Unit is a story-driven third-person tactical shooter where you play as Indian Special Forces, carrying out missions to neutralize a shadow paramilitary group before they destabilize the nation.",
+    "short_description": "Black Unit is a high-intensity third-person action shooter where explosions trigger slow motion, letting you chain kills and dominate combat. Fight through enemy territory in tightly designed missions built for speed, precision, and style.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875090/8e22c5e9fcb98fccaa2339eb6a466b235ab886dc/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875090/77e2a38dfa94d5fa973cdfe4df1c419ea0f347e7/capsule_231x87.jpg",
@@ -11031,7 +11031,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -12996,7 +12996,7 @@
     "steam_appid": 3873610,
     "required_age": 0,
     "is_free": false,
-    "short_description": "vrOS is a virtual reality overlay system for SteamVR. Accessibility-focused speech-to-text, text-to-speech, computer vision, real-time translation, and crash-resilient architecture built for all-day sessions.",
+    "short_description": "vrOS is a VR overlay system for SteamVR. Pin windows and displays into your playspace, manage Twitch chat and ads without leaving VR, drive VRChat via OSC, play soundboard clips, and watch frame timing \u2014 all inside one crash-resilient overlay app.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese, Afrikaans, Catalan, Filipino, Hebrew, Hindi, Icelandic, Swahili, Yoruba, Persian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3873610/9a43e913c5b679cd8b19439eacb90ddb43507c2a/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3873610/f3d8333e908447f0a607013177168cbc704b8038/capsule_231x87.jpg",
@@ -13016,6 +13016,7 @@
     },
     "categories": [
       23,
+      54,
       64,
       65,
       66,
@@ -13778,6 +13779,10 @@
     "steam_appid": 3875050,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4332650,
+      4332660
+    ],
     "short_description": "Live the real MotoGP\u2122 experience with all the thrills of the Official 2026 Season, renewed physics built around a new rider-based handling system, a more complete Career mode, dynamic Riders Ratings and much more.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese, Portuguese - Brazil<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875050/b53a48a0eb23496725d62cd610096ce95a8491f1/header.jpg",
@@ -13791,7 +13796,19 @@
     "publishers": [
       "Milestone S.r.l."
     ],
-    "package_groups": [],
+    "packages": [
+      1362206
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy MotoGP\u212226",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13805,6 +13822,7 @@
       23,
       24,
       27,
+      29,
       36,
       37,
       49,
@@ -13820,8 +13838,11 @@
       18,
       28
     ],
+    "achievements": {
+      "total": 50
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "29 Apr, 2026"
     },
     "support_info": {
