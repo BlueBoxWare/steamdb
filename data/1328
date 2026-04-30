@@ -12571,6 +12571,13 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4131000,
+      4131010,
+      4131030,
+      4152630,
+      4211250
+    ],
     "short_description": "Ariana must restore the Codices and unravel the Library's hidden truths...",
     "supported_languages": "English<strong>*</strong>, Japanese<strong>*</strong>, Simplified Chinese, Traditional Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3986690/7c5c276dc63c565c9a446a9ceccf87a54e997903/header.jpg",
@@ -12591,7 +12598,20 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1399388,
+      1471993
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Ariana and the Elder Codex",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12614,8 +12634,11 @@
       1,
       25
     ],
+    "achievements": {
+      "total": 48
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "29 Apr, 2026"
     },
     "support_info": {
@@ -12760,6 +12783,12 @@
     ],
     "publishers": [
       "BChaotic"
+    ],
+    "demos": [
+      {
+        "appid": 4653400,
+        "description": ""
+      }
     ],
     "packages": [
       1398618

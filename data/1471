@@ -835,7 +835,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "An 13-year-old boy travels with his parents to a cabin in a remote area for a short trip. During their stay, they explore the surroundings, visit a nearby abandoned house, and spend their evenings at the cabin. The trip does not continue as planned.",
-    "supported_languages": "English, Spanish - Spain, Russian, Spanish - Latin America, Portuguese - Brazil, Portuguese - Portugal",
+    "supported_languages": "English, Spanish - Spain, Russian, Portuguese - Portugal",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4415880/2515e5faa0a653f8f7275850013487fdd743b4d3/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4415880/fe8e855f175fb78d058609f8f395fe60bd9ee0b0/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4415880/fe8e855f175fb78d058609f8f395fe60bd9ee0b0/capsule_184x69.jpg",
@@ -883,7 +883,7 @@
         2,
         5
       ],
-      "notes": null
+      "notes": "This game contains scenes of violence, including depictions of murder and blood. Some moments may be disturbing, such as a child witnessing the aftermath of a killing. The game features psychological horror elements, tense situations, and unsettling imagery that may not be suitable for all audiences."
     }
   },
   "4413300": {
@@ -2991,6 +2991,7 @@
     },
     "categories": [
       2,
+      22,
       62,
       65,
       68,
@@ -3004,6 +3005,9 @@
       28,
       70
     ],
+    "achievements": {
+      "total": 15
+    },
     "release_date": {
       "coming_soon": false,
       "date": "9 Apr, 2026"
@@ -6073,7 +6077,7 @@
   },
   "4415870": {
     "type": "dlc",
-    "name": "Kiln - Fired Up Edition Upgrade",
+    "name": "Fired Up Edition Upgrade",
     "steam_appid": 4415870,
     "required_age": 0,
     "is_free": false,
@@ -6094,7 +6098,19 @@
     "publishers": [
       "Xbox Game Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1542036
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Fired Up Edition Upgrade",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
