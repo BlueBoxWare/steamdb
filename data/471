@@ -6887,7 +6887,7 @@
     "name": "Republic of Jungle",
     "steam_appid": 1413250,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "controller_support": "full",
     "short_description": "Gather your friends (5 to 10 players) and play as advisors to President Puma. His re-election depends on your loyalty. In a social deduction party game, Leakers try to sneak into missions to leak Puma's secrets- Loyalists try to suss them out. Read the room and bluff your way to a political victory.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Thai, Traditional Chinese, Turkish<br><strong>*</strong>languages with full audio support",
@@ -6901,7 +6901,19 @@
     "publishers": [
       "Gerdoo Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1629805
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Republic of Jungle",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -6916,12 +6928,12 @@
       37,
       39,
       44,
-      49
+      49,
+      62
     ],
     "genres": [
       2,
-      23,
-      37
+      23
     ],
     "release_date": {
       "coming_soon": false,
