@@ -11425,7 +11425,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "U.V.S. Nirmana is a engineering puzzle game from Coincidence, the creators of Kaizen: A Factory Story and the inventors of the Zach-like. Set off on the Unreturning Void Ship Nirmana as it continues a journey of uncountable eons toward the edge of the universe.",
-    "supported_languages": "English, Russian, Simplified Chinese",
+    "supported_languages": "English<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536720/c7e5cf80d61e96bcc308f529dc87b9f3d52b9fd6/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536720/23cd277fb9638e86c343ffd19f19e61c7bbda786/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536720/23cd277fb9638e86c343ffd19f19e61c7bbda786/capsule_184x69.jpg",
@@ -11436,7 +11436,19 @@
     "publishers": [
       "Klei Publishing"
     ],
-    "package_groups": [],
+    "packages": [
+      911504
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy U.V.S. Nirmana",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -11460,8 +11472,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 4
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "4 May, 2026"
     },
     "support_info": {
