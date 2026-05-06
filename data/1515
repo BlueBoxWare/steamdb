@@ -234,7 +234,19 @@
     "publishers": [
       "HugePixel"
     ],
-    "package_groups": [],
+    "packages": [
+      1585229
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Ex-Master, Zombie",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -250,9 +262,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 13
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "5 May, 2026"
     },
     "support_info": {
       "url": "",
@@ -4730,6 +4745,12 @@
     "publishers": [
       "Hatchett Studio"
     ],
+    "demos": [
+      {
+        "appid": 4675510,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -4893,8 +4914,7 @@
       4557710,
       4557720,
       4557730,
-      4557790,
-      4675580
+      4557790
     ],
     "short_description": "A competitive turn-based strategy game where positioning, unit synergy, and map control decide everything. Capture structures, build your army, and outplay your opponents in tactical battles with up to 8 players.",
     "supported_languages": "English",
@@ -6916,10 +6936,13 @@
   },
   "4547140": {
     "type": "game",
-    "name": "CoyoteMIDI",
+    "name": "CoyoteMIDI: MIDI To Key",
     "steam_appid": 4547140,
     "required_age": 0,
     "is_free": true,
+    "dlc": [
+      4547150
+    ],
     "short_description": "Turn any MIDI device into a fully programmable hotkey board. Bind any key, knob, or pad to keyboard shortcuts, macros, and mouse clicks for total control over your games and apps directly from the device.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4547140/252db1332cb057db8d60fdf272a724e020b62cff/header.jpg",
