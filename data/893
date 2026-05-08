@@ -11645,12 +11645,6 @@
     "publishers": [
       "Square Glade Games"
     ],
-    "demos": [
-      {
-        "appid": 2938240,
-        "description": ""
-      }
-    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -13680,7 +13674,20 @@
     "publishers": [
       "Team17"
     ],
-    "package_groups": [],
+    "packages": [
+      960253,
+      1549495
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Wardrum",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13697,8 +13704,11 @@
       2,
       3
     ],
+    "achievements": {
+      "total": 30
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "7 May, 2026"
     },
     "support_info": {
