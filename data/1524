@@ -2437,12 +2437,18 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572290/dbdf3086afea1f4911e8efaac32470c4aa8f2258/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572290/23595693499b3ebb22f7e1e564834736ef48125a/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572290/23595693499b3ebb22f7e1e564834736ef48125a/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://devofone.com/",
     "developers": [
       "DevOfOne"
     ],
     "publishers": [
       "DevOfOne"
+    ],
+    "demos": [
+      {
+        "appid": 4634960,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2474,7 +2480,7 @@
         1,
         5
       ],
-      "notes": "\"The game simulates a fictional social media career where characters may appear in suggestive clothing, such as bikinis and lingerie. Due to the dialogue and the 'hate comments' mechanic, the game contains mild profanity and sexual innuendos. However, the game does not feature explicit sexual acts or full nudity."
+      "notes": "The game simulates a fictional social media career where characters may appear in suggestive clothing, such as bikinis and lingerie, as well as pixel art nudity (topless characters) in specific game sections or unlockable previews. Due to the dialogue and the 'hate comments' mechanic, the game contains mild profanity and sexual innuendos. However, the game does not feature explicit sexual acts."
     }
   },
   "4572680": {
@@ -2938,17 +2944,23 @@
     "publishers": [
       "Tidefall Interactive"
     ],
-    "demos": [
+    "packages": [
+      1593993
+    ],
+    "package_groups": [
       {
-        "appid": 4629940,
-        "description": ""
+        "name": "default",
+        "title": "Buy Box Office Mayhem: Theatre Tycoon",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       1,
@@ -2956,6 +2968,7 @@
       9,
       18,
       22,
+      23,
       36,
       38,
       49,
@@ -2969,8 +2982,11 @@
       28,
       70
     ],
+    "achievements": {
+      "total": 41
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "8 May, 2026"
     },
     "support_info": {
