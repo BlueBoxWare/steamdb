@@ -1742,8 +1742,8 @@
     "short_description": "Idle Knight turns every click, keystroke, and controller input into XP. Level up your warrior, build your stats, fight in ranked duels, conquer dungeons, join guilds, and crush seasonal events all from your desktop.",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Czech",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4579750/81c04a9a448b0cb1de185f529af73a731cdd318b/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4579750/c1bdbab6d5f6c330377c7150dec65cf6e251bd4a/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4579750/c1bdbab6d5f6c330377c7150dec65cf6e251bd4a/capsule_184x69.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4579750/3eb7e546aed6ddeddaa6b26bc016594096006a7a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4579750/3eb7e546aed6ddeddaa6b26bc016594096006a7a/capsule_184x69.jpg",
     "website": "https://discord.com/invite/DEdF8V8dSn",
     "developers": [
       "VECR"
@@ -2354,7 +2354,7 @@
     "steam_appid": 4580690,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Trade by day. Eat, sleep, survive by night. Lose everything in one bad call. The stock market is more than just numbers; it\u2019s a battle for survival. In Neo Capitalist, manage your wealth from a terminal while fighting off hunger, stress, and mounting debt.",
+    "short_description": "Trade by day. Eat, sleep, and survive by night. Lose everything with a single bad decision. Neo Capitalist is a financial survival roguelite where the richer you get, the harder the system fights back. Play in a realistic stock market simulation or in a dystopian cyber-punk world.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Polish, Russian, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4580690/144e4f5c68097d0657b7965c136efddb5a0d2142/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4580690/5c7ccc4f89bae4c5050f43a1001d394db0d82569/capsule_231x87.jpg",
@@ -2744,7 +2744,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Ride pig - Life good. Find loot - Load cart - Sell loot. Cart grow big - Goblin happy. Lose pig. Think about pig. Regret...",
+    "short_description": "Caravan Bazar is a chaotic co-op physics adventure where goblins drag a fragile cart through a dangerous world. Hitch strange animals, repair broken wheels, save flying cargo, and try to reach the bazaar before everything falls apart.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4580160/1dda5b5c9535de92500ca9f7eedbb043535c80a7/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4580160/c1a51249df00fca7b2b80c76cb2c26471299cb50/capsule_231x87.jpg",
@@ -2760,7 +2760,7 @@
     "platforms": {
       "windows": true,
       "mac": true,
-      "linux": true
+      "linux": false
     },
     "categories": [
       1,
@@ -3870,6 +3870,12 @@
     "publishers": [
       "Domnaier"
     ],
+    "demos": [
+      {
+        "appid": 4652580,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -4142,7 +4148,19 @@
     "publishers": [
       "Diabonobbu Game"
     ],
-    "package_groups": [],
+    "packages": [
+      1595771
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u5de1\u602a\u8b66\u5099 -The Cursed Security-",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4160,9 +4178,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 4
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "2026"
+      "coming_soon": false,
+      "date": "14 May, 2026"
     },
     "support_info": {
       "url": "https://x.com/Diabonobbu_3D",

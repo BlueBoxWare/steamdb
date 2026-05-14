@@ -6143,7 +6143,7 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": false
     },
     "categories": [
@@ -11661,7 +11661,8 @@
       "\u5bc6\u8f38\u6c34\u7523"
     ],
     "publishers": [
-      "room6"
+      "room6",
+      "yokaze"
     ],
     "demos": [
       {
@@ -11956,7 +11957,19 @@
     "publishers": [
       " Absam Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1275073
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy MAZEBOUND: Hunt, Gather, Run!",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -11983,8 +11996,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 16
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "13 May, 2026"
     },
     "support_info": {
