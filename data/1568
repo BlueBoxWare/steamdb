@@ -670,11 +670,11 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Clankerfront is a classic isometric RTS where AI research went too far and awakened the world\u2019s home appliances against humanity. Build bases, command armies, fight solo or co-op, and defend the front from the clankers.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Spanish - Spain<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706900/7d503edd206df19ef1f1dd1dd8b473f52904a479/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706900/fe637494ad68751c2a814ff006f7218cae036a37/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706900/fe637494ad68751c2a814ff006f7218cae036a37/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://clankerfront.com/",
     "developers": [
       "Lizz Studio"
     ],
@@ -887,6 +887,12 @@
     ],
     "publishers": [
       "Zinda Murda"
+    ],
+    "demos": [
+      {
+        "appid": 4710450,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2798,7 +2804,7 @@
     "is_free": false,
     "short_description": "Junebug is a game that helps you stay focused and on task when it matters most. Set a timer for your session, choose the tasks you want to complete, and enjoy calm, distraction-free stylized nature with a cat companion by your side.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704810/f613a3a2416cbac85d85cb195ed0669e0abe0de2/header.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704810/9ded63caad1f15d5bdd18d6167cbb18ae738315f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704810/ffec07112120400566b3bb851be0ebe8deb95946/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704810/ffec07112120400566b3bb851be0ebe8deb95946/capsule_184x69.jpg",
     "website": null,
@@ -3002,7 +3008,8 @@
     "steam_appid": 4705550,
     "required_age": 0,
     "is_free": false,
-    "short_description": "The arcade snake reborn - with combo chains, 30 upgrades, 10 bosses, and 100 achievements. Eat apples, dodge yourself, push your run. Five modes from a 60-second sprint to a roguelite that never stops. Same one-handed controls. Endless mastery.",
+    "controller_support": "full",
+    "short_description": "A chill snake game until you choose otherwise. Cruise through Endless, then test yourself with combos, risky routes, Two-Body control, Strategist planning, evolving builds, daily runs, 10 bosses, and 100 achievements.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Czech, Dutch, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Traditional Chinese, Turkish, Arabic, Bulgarian, Danish, Finnish, Greek, Hungarian, Indonesian, Norwegian, Portuguese - Portugal, Romanian, Swedish, Thai, Ukrainian, Vietnamese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4705550/f44d8c5e93c5cf62d40dc6a9df7235a2ad2a884f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4705550/6ba283a7298cf46695a2fb7361590cca0eb74594/capsule_231x87.jpg",
@@ -3014,7 +3021,19 @@
     "publishers": [
       "Pinch Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1637495
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Endless Snake",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3025,6 +3044,7 @@
       22,
       23,
       25,
+      28,
       62
     ],
     "genres": [
@@ -3032,9 +3052,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 100
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "22 May, 2026"
+      "coming_soon": false,
+      "date": "15 May, 2026"
     },
     "support_info": {
       "url": "",
@@ -3292,6 +3315,263 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4706400",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4706400",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4704170": {
+    "type": "game",
+    "name": "BreakDespair2D",
+    "steam_appid": 4704170,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Enjoy mining, upgrades, and explosive growth in this all-directional scrolling shooter. Auto-upgrades allow idle play, with no time limits or game overs. Defaults work fine, story scenes can be skipped, 20 weapons unlock later, and levels can reach 900 million.",
+    "supported_languages": "Japanese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704170/bd58ac9b41d8c4b6501679d84cb03279ae5be3ac/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704170/f820430ae22150a78d9e2e0ccdc1d4e3cb123c30/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704170/f820430ae22150a78d9e2e0ccdc1d4e3cb123c30/capsule_184x69.jpg",
+    "website": "https://happyluckyrainbowgames.itch.io/",
+    "developers": [
+      "HappyLuckyRainbowGames"
+    ],
+    "publishers": [
+      "HappyLuckyRainbowGames"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      28,
+      62
+    ],
+    "genres": [
+      1,
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://x.com/StgFreak",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4704170",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704170/89bb87c64d8a15f7ce9171932571010140e424f3/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4706000": {
+    "type": "game",
+    "name": "Hearts at Sea",
+    "steam_appid": 4706000,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Challenge powerful sea monsters and decide the fate of a forgotten archipelago in &quot;Hearts at Sea&quot;. Recruit heroes, manage their needs and fight a series of bosses in an action-driven experience, supported by puzzle and narrative mechanics.",
+    "supported_languages": "English, Portuguese - Brazil",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706000/a635b2fc1f7f6be512f0fed8fad1a007ce0ccd02/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706000/02af93ac3db43feaed9b5ae3cb0c6216a459790b/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706000/02af93ac3db43feaed9b5ae3cb0c6216a459790b/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Relic Forge"
+    ],
+    "publishers": [
+      "Relic Forge"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      28,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "relicforgestudio@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4706000",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706000/00975a82968750c136f4827f38746bcf38a4ee42/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4706270": {
+    "type": "dlc",
+    "name": "Crawling Angels - Supporter Pack",
+    "steam_appid": 4706270,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This supporter's pack is for those who have been enjoying their time with Crawling Angels and want to buy Talia and Autumn a coffee to support future development.",
+    "fullgame": {
+      "appid": "3958640",
+      "name": "Crawling Angels"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706270/b7559f0b8bdc46501d0d7161b6372a38b2458f7a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706270/3fb157b463576691bb96c2f6f7cadb9402af312b/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706270/3fb157b463576691bb96c2f6f7cadb9402af312b/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "ItsTheTalia",
+      "Autumn West"
+    ],
+    "publishers": [
+      "TwoLeftThumbs"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      23,
+      62,
+      68,
+      69,
+      74,
+      76,
+      78,
+      79
+    ],
+    "genres": [
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "AutumnWestDev@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4706270",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4706270",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4706340": {
+    "type": "game",
+    "name": "Bubbly",
+    "steam_appid": 4706340,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Bubbly is a fast-paced roguelike-extraction arcade game where everything revolves around risk. Bubbles keep spawning. Your crosshair pops them automatically. The longer you stay, the stronger you get!!!",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706340/56d44415ecab0e1d3c99271a1a00f8dc646e5c03/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706340/5e9460251144179890caa6971458152a2da4ad5a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706340/5e9460251144179890caa6971458152a2da4ad5a/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "SadSloth"
+    ],
+    "publishers": [
+      "SadSloth"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      15,
+      22,
+      25,
+      62
+    ],
+    "genres": [
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "youdonomeapp@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4706340",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706340/7914e7fab29be32426f9e4e17b577aae9f925e63/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4706790": {
+    "type": "game",
+    "name": "Dig You Fools",
+    "steam_appid": 4706790,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "A casual game about delving the depths of the earth.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706790/09ca0d587d52177801fe2c18880537175b46b1a1/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706790/c401ea534f9f03e6d49a918fd0af0f10e659fd94/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706790/c401ea534f9f03e6d49a918fd0af0f10e659fd94/capsule_184x69.jpg",
+    "website": "https://pixelshuffle.com/",
+    "developers": [
+      "PixelShuffle LLC"
+    ],
+    "publishers": [
+      "PixelShuffle LLC"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2
+    ],
+    "genres": [
+      4,
+      23,
+      25,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://pixelshuffle.com/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4706790",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706790/70218ef5bf3188ef654a44fca38f3d54a8ba256f/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

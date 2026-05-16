@@ -1021,7 +1021,7 @@
     "steam_appid": 4519240,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Ignore the Blackbird is a hand-drawn watercolor puzzle game. Explore the greenhouse, solve puzzles woven into its surroundings, and uncover what happened to Sonya and her family.",
+    "short_description": "Ignore the Blackbird is a handcrafted, narrative puzzle game, illustrated in layers of traditional watercolours. Designed as a thoughtful experience, it features relaxing puzzles that drive the narrative forward, where piecing together the story is the game's ultimate puzzle.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4519240/6963426706465fab01be7c6600fd6b00b95e2c06/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4519240/3dbadb655285fea186590fbcd5ba81934a4b6d52/capsule_231x87.jpg",
@@ -1363,7 +1363,19 @@
     "publishers": [
       "Del Campo Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1576316
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Deep in the Fields",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1379,8 +1391,11 @@
     "genres": [
       25
     ],
+    "achievements": {
+      "total": 6
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "15 May, 2026"
     },
     "support_info": {
@@ -2287,7 +2302,6 @@
     "steam_appid": 4519460,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "top-down co-op survival horror game where players deploy into deadly Quarantined Zones, fight mutated experiments, and extract with everything you can carry\u2014because if you die, you lose it all.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4519460/574c0a8d00ae9a2c2428d35e5b35d0fb447491bc/header.jpg",
@@ -2310,8 +2324,8 @@
       1,
       2,
       9,
+      18,
       24,
-      28,
       36,
       37,
       38,
@@ -2550,6 +2564,12 @@
     ],
     "publishers": [
       "Ad Dominum Games"
+    ],
+    "demos": [
+      {
+        "appid": 4575090,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
