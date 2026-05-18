@@ -79,6 +79,10 @@
     "steam_appid": 4119360,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4705830,
+      4705840
+    ],
     "short_description": "It Reaches is a first person horror game, captured through the lens of a police officer\u2019s body cam. Trapped inside the facilities of an abandoned hospital, find a way to escape the horrors lurking underground. Uncover a dark mystery left behind and don't get caught! They will reach for you\u2026",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Japanese, Korean, Russian, Simplified Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4119360/e9bbcbafb3a3d21391a4a2dde40e7a64d09ee0da/header.jpg",
@@ -97,7 +101,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1443337
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy It Reaches",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -114,9 +130,12 @@
       1,
       23
     ],
+    "achievements": {
+      "total": 20
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "18 May, 2026"
+      "coming_soon": false,
+      "date": "17 May, 2026"
     },
     "support_info": {
       "url": "",
@@ -126,7 +145,6 @@
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4119360",
     "content_descriptors": {
       "ids": [
-        2,
         5
       ],
       "notes": "This game includes content not appropriate for all ages. This includes disturbing imagery, depictions of blood, severed limbs, and dead bodies. Player discretion is advised."

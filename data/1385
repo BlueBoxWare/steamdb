@@ -2618,7 +2618,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Solve puzzles, uncover riddles, and hunt crows and ravens through layered scenes of mystery. Reveal the hidden truth in a world where every shadow tells a story. Learn about the fabulous corvus.",
-    "supported_languages": "English, Portuguese - Brazil, Portuguese - Portugal",
+    "supported_languages": "English, Portuguese - Brazil<strong>*</strong>, Portuguese - Portugal, French, German, Spanish - Spain, Japanese, Korean, Russian, Simplified Chinese, Ukrainian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4156730/d78b60aac8fee663a2c61d6e328058c474c7e7ca/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4156730/ab5596c10a2a5265da192fe337902291479b587f/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4156730/ab5596c10a2a5265da192fe337902291479b587f/capsule_184x69.jpg",
@@ -6257,7 +6257,19 @@
     "publishers": [
       "EroBits"
     ],
-    "package_groups": [],
+    "packages": [
+      1456620
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy IT's for Adults \ud83e\udd21",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -6283,8 +6295,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "18 May, 2026"
     },
     "support_info": {
