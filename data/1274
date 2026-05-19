@@ -4954,9 +4954,9 @@
     "controller_support": "full",
     "short_description": "A stealth action survival horror game. Avoid the Maw, a blind and deaf monster, to avoid being devoured. Despite being unable to see or hear you the Maw can be directed to you location by other monsters who can. Explore the rooms and collect the keys to escape.",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Portuguese - Brazil, Russian, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3824180/40d439c3fda8e3514eb209ee1ade891a48fbab73/header.jpg?t=1752363168",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3824180/ca88d10ca002be96cadaece0ba832a7f7d963d05/capsule_231x87.jpg?t=1752363168",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3824180/ca88d10ca002be96cadaece0ba832a7f7d963d05/capsule_184x69.jpg?t=1752363168",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3824180/40d439c3fda8e3514eb209ee1ade891a48fbab73/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3824180/ca88d10ca002be96cadaece0ba832a7f7d963d05/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3824180/ca88d10ca002be96cadaece0ba832a7f7d963d05/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "JLRS Games"
@@ -4972,7 +4972,6 @@
         "name": "default",
         "title": "Buy Escape the Maw",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -4998,32 +4997,14 @@
       "date": "11 Jul, 2025"
     },
     "support_info": {
-      "url": "https://discord.gg/ppg43ArC",
+      "url": "https://discord.gg/mZ8kJ2HFJR",
       "email": ""
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3824180?t=1752363168",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3824180?t=1752363168",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3824180",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3824180",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "14",
-        "required_age": "14",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia\nMedo"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Horror"
-      }
     }
   },
   "3824270": {
@@ -11363,7 +11344,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1344931
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Crush The Rebellion!",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -11388,8 +11381,11 @@
       1,
       23
     ],
+    "achievements": {
+      "total": 30
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "18 May, 2026"
     },
     "support_info": {
