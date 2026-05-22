@@ -1330,7 +1330,7 @@
     "steam_appid": 4245820,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Bring a forgotten solar system to life in this serene space simulator. Pilot your ship to gather tech, resolve story-rich incidents, and upgrade planets to watch your civilization thrive.",
+    "short_description": "A space adventure where you solve the mystery of your past, building a thriving civilization across a distant solar system. Fly your rocket as a commander, grow your colonies and build planet upgrades to conquer this unknown space.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4245820/f6f977916527fb01cf6be0bb868543099a7e2ca1/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4245820/43e5b65b8d529beeb12c59dbb0681ff1f4094cac/capsule_231x87.jpg",
@@ -1341,12 +1341,6 @@
     ],
     "publishers": [
       "Night Sky Dogs"
-    ],
-    "demos": [
-      {
-        "appid": 4386640,
-        "description": ""
-      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3286,6 +3280,9 @@
     "steam_appid": 4247100,
     "required_age": 0,
     "is_free": true,
+    "dlc": [
+      4751940
+    ],
     "short_description": "Take direct control of your hero on a hostile planet. Build your base, gather resources, expand your territory your way, and survive against the planet\u2019s deadly wildlife.",
     "supported_languages": "English, French, German, Spanish - Spain, Simplified Chinese, Korean, Polish, Portuguese - Brazil, Russian, Turkish, Japanese, Italian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4247100/c3b9857b45cae6d1db040edca5c844282ffebadc/header.jpg",
@@ -3401,6 +3398,9 @@
     "steam_appid": 4247150,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4307670
+    ],
     "short_description": "Summer Waifu 2 is an exciting puzzle game featuring charming summer waifus and a sunny vacation atmosphere! Complete 30 unique levels, unlock new illustrations, and enjoy the vibrant details of each summer girl. All collected images are saved in your personal gallery in high quality.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Hungarian, Vietnamese, Greek, Danish, Indonesian, Spanish - Latin America, Traditional Chinese, Simplified Chinese, Korean, Dutch, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Thai, Turkish, Ukrainian, Finnish, Czech, Swedish, Japanese, Azerbaijani, Albanian, Amharic, Armenian, Assamese, Afrikaans, Basque, Belarusian, Bangla, Bosnian, Valencian, Welsh, Wolof, Galician, Georgian, Gujarati, Dari, Zulu, Hebrew, Igbo, Irish, Icelandic, Yoruba, Kazakh, Kannada, Catalan, Quechua, Kinyarwanda, K'iche', Konkani, Xhosa, Khmer, Kyrgyz, Latvian, Lithuanian, Luxembourgish, Macedonian, Malay, Malayalam, Maltese, Maori, Marathi, Mongolian, Nepali, Odia, Punjabi (Gurmukhi), Punjabi (Shahmukhi), Persian, Serbian, Sotho, Sinhala, Sindhi, Slovak, Slovenian, Sorani, Swahili, Tajik, Tamil, Tatar, Telugu, Tigrinya, Tswana, Turkmen, Uzbek, Uyghur, Urdu, Filipino, Hausa, Hindi, Croatian, Cherokee, Scots, Estonian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4247150/a6f82f427e6973ec26e1f95f9e03fe3e44b64844/header.jpg",
@@ -3413,7 +3413,19 @@
     "publishers": [
       "Morf Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1486694
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Summer Waifu 2",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -3427,8 +3439,11 @@
     "genres": [
       4
     ],
+    "achievements": {
+      "total": 50
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "22 May, 2026"
     },
     "support_info": {
