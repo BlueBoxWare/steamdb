@@ -4499,7 +4499,7 @@
     "name": "Bylina \"Shroomie Power\" Armor",
     "steam_appid": 4591680,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "controller_support": "full",
     "short_description": "&quot;Shroomie Power&quot; Armor \u2013 Don't underestimate the mushrooms.",
     "fullgame": {
@@ -4517,7 +4517,19 @@
     "publishers": [
       "Digital Vortex Entertainment"
     ],
-    "package_groups": [],
+    "packages": [
+      1610357
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Bylina \"Shroomie Power\" Armor",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4536,8 +4548,7 @@
     "genres": [
       1,
       23,
-      25,
-      37
+      25
     ],
     "release_date": {
       "coming_soon": false,
