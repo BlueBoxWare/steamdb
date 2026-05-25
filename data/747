@@ -9132,6 +9132,7 @@
     "steam_appid": 2241440,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Chapter 1: Reditus is a richly crafted 2.5D JRPG that fuses retro-inspired pixel art with modern 3D environments. Set in a mystical world where magic has vanished, the game follows a father-son duo on a dangerous pilgrimage to restore lost divine power.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2241440/c1f1bd6e79e0d8040fccfb774ccbee722871050c/header.jpg",
@@ -9150,7 +9151,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      803700
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Chapter 1: Reditus",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -9159,6 +9172,7 @@
     "categories": [
       2,
       22,
+      28,
       62
     ],
     "genres": [
@@ -9166,9 +9180,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "24 May, 2026"
     },
     "support_info": {
       "url": "",

@@ -13270,7 +13270,7 @@
     "name": "Dungeon Twist",
     "steam_appid": 2706030,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "Dungeon Twist is a turn-based tactical game focused on free-for-all multiplayer matches.Join a gang of filthy rogues and manipulate the Shifting Dungeon, an ever-changing maze full of loot and hazards.Trick your opponents, grab the Treasure\u2026 and get out alive!",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2706030/header.jpg",
@@ -13289,23 +13289,35 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      968839
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Dungeon Twist",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       2,
-      4,
-      37
+      4
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "20 May, 2026"
+      "coming_soon": false,
+      "date": "24 May, 2026"
     },
     "support_info": {
       "url": "magari.fun",
