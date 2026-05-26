@@ -1704,7 +1704,7 @@
     "name": "Age of Wonders 4: Pre-Order Content Pack",
     "steam_appid": 2257970,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "Conquer your enemies and rule the lands with Tigran hero Aric Rex, along with an exclusive lion plate armor set, the Athlan crown, and an Imperial Cape.",
     "fullgame": {
       "appid": "1669000",
@@ -1722,9 +1722,19 @@
       "Paradox Interactive"
     ],
     "packages": [
-      1464143
+      1464143,
+      1623859
     ],
-    "package_groups": [],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Age of Wonders 4: Pre-Order Content Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1739,8 +1749,7 @@
       62
     ],
     "genres": [
-      2,
-      37
+      2
     ],
     "release_date": {
       "coming_soon": false,
