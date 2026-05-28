@@ -2106,7 +2106,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "This is a short visual novel game that combines zombie apocalypse survival with elements involving beautiful women. The story follows a male protagonist as he struggles to survive in a zombie-infested world while becoming romantically involved with beautiful women.",
-    "supported_languages": "English, Simplified Chinese, Traditional Chinese",
+    "supported_languages": "English, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4403030/71bd64a778ecc6270d9161b9b58eae1536f4ba4b/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4403030/2ee870f939f3414c8abf1c9d989281ef3e6a4da8/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4403030/2ee870f939f3414c8abf1c9d989281ef3e6a4da8/capsule_184x69.jpg",
@@ -2456,6 +2456,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4737590
+    ],
     "short_description": "HEXSTORM: Tears of Arcadia is a tactical tower defense with roguelike structure. Build your flying fortress, upgrade your ship, and combine powerful boosts. Every battle is unique. Uncover the mystery of the fallen captain.",
     "supported_languages": "English, Spanish - Spain, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/0f2f538efd1775edd9f36e85186fa101dab20df5/header.jpg",
@@ -2468,10 +2471,16 @@
     "publishers": [
       "Tearevo"
     ],
+    "demos": [
+      {
+        "appid": 4737590,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": true
     },
     "categories": [
@@ -2484,7 +2493,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q2 2026"
+      "date": "July 2026"
     },
     "support_info": {
       "url": "",
@@ -5714,7 +5723,19 @@
     "publishers": [
       "holo Indie"
     ],
-    "package_groups": [],
+    "packages": [
+      1537876
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Nna-tan's Pixel Princess",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5737,7 +5758,7 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "27 May, 2026"
     },
     "support_info": {
@@ -6429,6 +6450,7 @@
     },
     "categories": [
       2,
+      22,
       62,
       66,
       67,
@@ -6448,7 +6470,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "To be announced"
+      "date": "Q3 2026"
     },
     "support_info": {
       "url": "https://www.thoosielabs.com",
@@ -6625,6 +6647,66 @@
         5
       ],
       "notes": "Violence, references to mutilation and slavery, drug use and addiction, and religious conflict."
+    }
+  },
+  "4401280": {
+    "type": "game",
+    "name": "Wheels Arena",
+    "steam_appid": 4401280,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Wheels Arena is a fast-paced arcade multiplayer game for up to 3 players. Battle in a compact arena, use skills, and brawl to score points or return 3 gears to your base. Pure retro chaos!",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4401280/fc83284e9e6733d0e4a1adf80a064d7aae3062d6/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4401280/5f9835b84977e90364bf1e4d1a5d04343309977e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4401280/5f9835b84977e90364bf1e4d1a5d04343309977e/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Wheels Arena"
+    ],
+    "publishers": [
+      "Wheels Arena"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      22,
+      25,
+      28,
+      36,
+      38,
+      49,
+      62,
+      68,
+      69,
+      74,
+      78
+    ],
+    "genres": [
+      1,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "publishing@knfproductions.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4401280",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4401280/acdeb33f6aa0f89fa707fc67195333b73aa71946/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }
