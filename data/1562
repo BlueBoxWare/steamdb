@@ -432,6 +432,9 @@
     "steam_appid": 4686000,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4761200
+    ],
     "short_description": "A cute, pixel-art, incremental basketball idler that every click is a swish. Automate your shots, upgrade your players, and go from being rookie to an ALL-STAR in this relaxing 2D indie baller. Perfect game to keep open in the background while you work.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese, Filipino, Hindi, Serbian, Croatian, Persian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4686000/f87fb0d16a8109bfd9dc2c11c31e34ffde0eb0c6/header.jpg",
@@ -443,6 +446,16 @@
     ],
     "publishers": [
       "Broad Street Indie Games"
+    ],
+    "demos": [
+      {
+        "appid": 4761200,
+        "description": ""
+      },
+      {
+        "appid": 4761200,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -1362,7 +1375,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Bring your wildest imagination to life in your art studio. Paint, sell, build your own gallery, and invite friends to admire your art.",
-    "supported_languages": "English, Simplified Chinese",
+    "supported_languages": "English, Simplified Chinese, French, German, Spanish - Spain, Russian, Japanese, Traditional Chinese, Portuguese - Brazil, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687780/eaa22fde6e848b52d4e308cf3b56a01bbb98e622/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687780/a05f32a08dc574eb6932e16a22376633af8a11af/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687780/a05f32a08dc574eb6932e16a22376633af8a11af/capsule_184x69.jpg",
@@ -2375,7 +2388,7 @@
     "steam_appid": 4686350,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Raw Video is a high-end local Windows image-to-video engine that turns still images into short animated clips using bundled local AI models, simple motion notes, optional frame interpolation, and 1080p final export.",
+    "short_description": "Raw Video is a high-end local Windows image-to-video engine that turns still images into short animated clips using bundled local AI models, Custom Director\u2019s Notes, and 1080p-class final export.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4686350/22df5e72534563c805f30d1a9bdf8e3eaf431cf0/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4686350/78e745e51aa0119e0613bfe7531167c8e9179f71/capsule_231x87.jpg",
@@ -2534,7 +2547,19 @@
     "publishers": [
       "MalinDream"
     ],
-    "package_groups": [],
+    "packages": [
+      1631364
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Climbing Forever",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2556,8 +2581,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 17
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "28 May, 2026"
     },
     "support_info": {
@@ -2577,7 +2605,7 @@
     "steam_appid": 4687470,
     "required_age": 0,
     "is_free": true,
-    "short_description": "\u5168\u65b0\u4f20\u5947\u300a\u5408\u51fb\u4f20\u5947\u300b\uff0c\u8017\u65f6\u4e24\u5e74\u7cbe\u5fc3\u96d5\u7422\uff0c\u503e\u5c3d\u5fc3\u8840\u6253\u9020\u8bda\u610f\u5de8\u732e\uff01\u4ee5\u539f\u521b\u5267\u60c5\u4e3a\u7075\u9b42\u7684\u57fa\u7840\u4e0a\uff0c\u5b83\u4fdd\u7559\u4e86\u4f20\u5947\u7684\u6838\u5fc3\u73a9\u6cd5\uff08\u6253\u602a\u3001\u5347\u7ea7\u3001\u7206\u88c5\u5907\u3001\u653b\u6c99\u5df4\u514b\uff09\u8d85\u7ea7\u5927\u9646\u4e3a\u821e\u53f0\ud83c\udf0f\uff0c\u79c9\u6301\u201c\u4e0d\u809d\u4e0d\u6c2a\u201d\u7684\u53cb\u597d\u7406\u5ff5\ud83e\udd70\u3001\u4e0d\u540c\u804c\u4e1a\u7684\u591a\u79cd\u6d41\u6d3e\u7b49\u72ec\u5177\u7279\u8272\u7684\u65b0\u5185\u5bb9\uff0c\u8ba9\u6e38\u620f\u4f53\u9a8c\u65e2\u6000\u65e7\u53c8\u65b0\u5947",
+    "short_description": "\u5168\u65b0\u4f20\u5947\u300a1.76\u590d\u53e4\u6c89\u9ed8\u300b\uff0c\u8017\u65f6\u4e24\u5e74\u7cbe\u5fc3\u96d5\u7422\uff0c\u503e\u5c3d\u5fc3\u8840\u6253\u9020\u8bda\u610f\u5de8\u732e\uff01\u4ee5\u539f\u521b\u5267\u60c5\u4e3a\u7075\u9b42\u7684\u57fa\u7840\u4e0a\uff0c\u5b83\u4fdd\u7559\u4e86\u4f20\u5947\u7684\u6838\u5fc3\u73a9\u6cd5\uff08\u6253\u602a\u3001\u5347\u7ea7\u3001\u7206\u88c5\u5907\u3001\u653b\u6c99\u5df4\u514b\uff09\u8d85\u7ea7\u5927\u9646\u4e3a\u821e\u53f0\ud83c\udf0f\uff0c\u79c9\u6301\u201c\u4e0d\u809d\u4e0d\u6c2a\u201d\u7684\u53cb\u597d\u7406\u5ff5\ud83e\udd70\u3001\u4e0d\u540c\u804c\u4e1a\u7684\u591a\u79cd\u6d41\u6d3e\u7b49\u72ec\u5177\u7279\u8272\u7684\u65b0\u5185\u5bb9\uff0c\u8ba9\u6e38\u620f\u4f53\u9a8c\u65e2\u6000\u65e7\u53c8\u65b0\u5947",
     "supported_languages": "Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687470/daff09c9a402316fcdb952791b6ea01b1a726727/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687470/91a8533fb18b9ff8506f7e27b45d74aa7e636197/capsule_231x87.jpg",
@@ -2616,7 +2644,7 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "28 May, 2026"
     },
     "support_info": {
@@ -3879,6 +3907,59 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "4687550": {
+    "type": "game",
+    "name": "The Audition",
+    "steam_appid": 4687550,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Becoming the world's next SUPERSTAR is no easy task, and passion alone will not please the investors. Navigate a cruel and unforgiving industrialized dystopian world. Survive by proving yourself in a 1v1 guitar duel. Freestyle your solo and endure the investor's mysterious criteria for success.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687550/7c5c83a8742a4840802bb6ce92e1e44a8be2f86e/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687550/fddf4007bc7c5ab888dfe24b9ac0b7fad9d8f899/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687550/fddf4007bc7c5ab888dfe24b9ac0b7fad9d8f899/capsule_184x69.jpg",
+    "website": "https://theauditiongame.com/",
+    "developers": [
+      "The Audition"
+    ],
+    "publishers": [
+      "The Audition"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      69,
+      74
+    ],
+    "genres": [
+      1,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "luizcauetcastilla@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4687550",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4687550",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "Gore / Executioning"
     }
   }
 }

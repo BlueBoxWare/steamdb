@@ -5735,7 +5735,7 @@
     "steam_appid": 3924680,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Support development with behind-the-scenes extras. The base game already includes all gameplay. Pro DLC adds: HQ soundtrack, PDF tech papers that inspired Meco\u2019s simulation engine, 3D-print turbopump models, and hi-res \u201cMiku\u201d wallpapers. Requires owning Meco Rocket Simulator.",
+    "short_description": "Support a solo dev with behind-the-scenes extras. The base game already includes all gameplay. Pro DLC adds: HQ soundtrack, PDF tech papers that inspired Meco\u2019s simulation engine, 3D-print turbopump models, and hi-res \u201cMiku\u201d wallpapers. Requires owning Meco Rocket Simulator.",
     "fullgame": {
       "appid": "1583540",
       "name": "Meco Rocket Simulator"
@@ -12833,7 +12833,19 @@
       "Sim Farm S.A.",
       "PlayWay S.A."
     ],
-    "package_groups": [],
+    "packages": [
+      1378914
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Farm Manager World - Supporter Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12858,7 +12870,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "29 May, 2026"
     },
     "support_info": {
