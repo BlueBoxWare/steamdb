@@ -694,6 +694,7 @@
     "steam_appid": 4537240,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "HoloMapper is a real-time projection mapping tool for creators and visual artists. Warp, align, and project visuals onto any surface with precision using advanced mesh controls, flexible inputs, and smooth real-time editing.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4537240/def698f33fa519b813d2e952507cc3984949eaef/header.jpg",
@@ -722,10 +723,11 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       17,
+      28,
       74,
       76,
       77,
@@ -744,7 +746,7 @@
       "date": "27 Apr, 2026"
     },
     "support_info": {
-      "url": "",
+      "url": "https://holomapperstudio.com",
       "email": "holomapper@gmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4537240",
@@ -920,7 +922,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Roll through a world of rhythm and light! Control a fast-moving ball through stunning levels, each with its own unique visual style and musical genre. Dodge obstacles, stay on the beat, and test your reflexes as the challenge grows. Simple to play, but can you master the speed?",
+    "short_description": "Roll through a world of rhythm and light in Rhythm Roll! Control a fast-moving ball through stunning levels, each with its own unique visual style and musical genre. Dodge obstacles, stay on the beat, and test your reflexes. Simple to play, but can you master the speed?",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4537030/e0a1a7df4cbcee97dba11b69728ac53aaad907e4/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4537030/434c109badbd0d46237fb4d16bf648a7f0addf3e/capsule_231x87.jpg",
@@ -1714,7 +1716,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Survive against adaptive AI animatronics in an abandoned theme park. Explore hidden areas, solve puzzles, and uncover the truth behind its mysterious closure.",
+    "short_description": "Survive this first-person mascot horror adventure set in an abandoned theme park. Solve puzzles, craft tools, avoid a deadly animatronic, and uncover the secrets hidden within Brain World Rots.",
     "supported_languages": "English<strong>*</strong>, Spanish - Spain<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4537800/9c62ef7dceb3c83ab0965c1f65c73e8e9f0cc5c5/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4537800/097ebd89f3990bb42308377638ff948c72879084/capsule_231x87.jpg",
@@ -1738,7 +1740,6 @@
       62
     ],
     "genres": [
-      1,
       23,
       25
     ],
@@ -2583,7 +2584,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1582140
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Fish House Simulator",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2605,8 +2618,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "May 2026"
+      "coming_soon": false,
+      "date": "30 May, 2026"
     },
     "support_info": {
       "url": "https://ninestudio.dev",
@@ -3942,7 +3955,7 @@
     "steam_appid": 4537040,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Take to the skies in this open-world FPV drone simulator. Track majestic animals, master realistic flight physics, and capture the perfect cinematic shot. Complete challenging missions and explore beautiful natural environments in the ultimate aerial photography safari.",
+    "short_description": "Take to the skies in Sky Safari: FPV Drone, an open-world FPV drone simulator. Track majestic animals, master realistic flight physics, and capture the perfect cinematic shot. Complete challenging missions and explore beautiful natural environments in the ultimate aerial photography safari.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Turkish, Ukrainian, Vietnamese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4537040/c245afd4611c591160b191bf5c01a71a3829f29e/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4537040/ee94ae0d672843cdf062a2e1cd6e023873cb3cc5/capsule_231x87.jpg",
@@ -7727,6 +7740,54 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4536440",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4536440/362dac98a1a59dd63ede88b789031d9f47e09dce/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4536080": {
+    "type": "game",
+    "name": "BanPick",
+    "steam_appid": 4536080,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "This is a ban-pick and turn-based draft strategy game. Find your own strategic picks to raise your team's score and ban troublesome counter picks. Plan your mastery according to your build and perfect skill combos to increase your score or weaken your opponent to win",
+    "supported_languages": "Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4536080/db792a37560bebe71bdfcdc1073bc668d8a8e7c2/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4536080/77665f96648a61eb5277cb20bc4e847f1738740a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4536080/77665f96648a61eb5277cb20bc4e847f1738740a/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "PenguinGod"
+    ],
+    "publishers": [
+      "PenguinGod"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      74
+    ],
+    "genres": [
+      2,
+      23,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "1 Jun, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "parkjun141@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4536080",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4536080",
     "content_descriptors": {
       "ids": [],
       "notes": null
