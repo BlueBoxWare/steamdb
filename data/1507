@@ -4443,6 +4443,12 @@
     "publishers": [
       "Team E.S"
     ],
+    "demos": [
+      {
+        "appid": 4773900,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -5226,7 +5232,7 @@
   },
   "4521340": {
     "type": "game",
-    "name": "Digital ED Treatment Center",
+    "name": "Gaming Burnout Treatment Center",
     "steam_appid": 4521340,
     "required_age": 0,
     "is_free": false,
@@ -5242,7 +5248,19 @@
     "publishers": [
       "Wave Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1576996
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Gaming Burnout Treatment Center",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5257,9 +5275,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 7
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "25 May, 2026"
+      "coming_soon": false,
+      "date": "31 May, 2026"
     },
     "support_info": {
       "url": "",
