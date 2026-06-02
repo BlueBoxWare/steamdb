@@ -101,7 +101,6 @@
       67,
       68,
       74,
-      75,
       76,
       79
     ],
@@ -778,7 +777,7 @@
     "steam_appid": 4644850,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Every floor looks normal\u2026 until it isn\u2019t. Go up if everything is fine, down if something is wrong. One mistake sends you back. Can you reach the final floor?",
+    "short_description": "Every floor looks normal\u2026 until it isn't. Go up if everything is fine, down if something is wrong. One mistake sends you back. The deeper you go, the less the corridor obeys its own rules.",
     "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4644850/9cf107a1f0a0c0c9ed3b2005b31668abe25b8a35/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4644850/49d245f70304d5d12ce099ad2e1261c919530fd1/capsule_231x87.jpg",
@@ -2033,6 +2032,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4769940
+    ],
     "short_description": "The Blood Mage 2 is a turn-based Puzzle/Dungeon Crawler RPG hybrid. You play as a blood mage, so your health doubles as mana pool. Fight against different creatures and explore the environments to reach your goal!",
     "supported_languages": "English, German",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4644100/67bb3cd31c398a801c582d10489bf1d1f4551ac3/header.jpg",
@@ -2044,6 +2046,12 @@
     ],
     "publishers": [
       "SmokeSomeFrogs"
+    ],
+    "demos": [
+      {
+        "appid": 4769940,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3304,7 +3312,7 @@
     "steam_appid": 4646260,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Hit, fall, and try again. A hard and unforgiving golf action game where you land precisely on floating platforms to reach the top. Fall and you start over\u2014but the higher you climb, the more retries you earn. Play solo or with friends and aim for the summit!",
+    "short_description": "Hit, fall, and try again! A challenging golf action game where you aim for the top by landing precisely on platforms. Fall, and you start over... but limited Redo Shots let you try again! Land on platforms to recover Redo Shots. Push onward alone or with friends toward the distant summit!",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Spanish - Latin America, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Japanese, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4646260/238b80a12f060182e9b5994817c9f5ad14c698de/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4646260/dc2be2d934527179e91844d20fe94c24ea814e5f/capsule_231x87.jpg",
@@ -5574,7 +5582,19 @@
     "publishers": [
       "Sorontar Entertainment"
     ],
-    "package_groups": [],
+    "packages": [
+      1618041
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Necroforge: Outbreak",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5594,7 +5614,7 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "1 Jun, 2026"
     },
     "support_info": {
@@ -6281,6 +6301,57 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "4645800": {
+    "type": "game",
+    "name": "The Boss is Cumming",
+    "steam_appid": 4645800,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A choice\u2011driven life\u2011sim mixing visual novel storytelling, character progression, and sandbox exploration where your decisions shape every storyline.",
+    "supported_languages": "English, French, Italian, Spanish - Spain, Simplified Chinese, Spanish - Latin America, Portuguese - Portugal, Russian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4645800/bdc0b73af0664fc74aa7305f2c4bbcd919eec93e/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4645800/1d10071f1c82e570f56defbbeff990f8129e97a6/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4645800/1d10071f1c82e570f56defbbeff990f8129e97a6/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "BossGames"
+    ],
+    "publishers": [
+      "BossGames "
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "May 2027"
+    },
+    "support_info": {
+      "url": "",
+      "email": "lemelonjay@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4645800",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4645800/65d080bcac6a3db65708391b6db5f7965ebf7cf6/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "notes": "The game features mature content aimed at an adult audience. It includes romantic interactions, suggestive situations, and themes related to adult relationships, seduction, and personal choices. \r\nAll intimate content involves consenting adults.\r\nThe story does not include depictions of sexual violence, non\u2011consensual acts, minors in mature contexts, self\u2011harm, or drug abuse.\r\nContains narrative themes of manipulation and peer pressure, this  content is fully avoidable by player choice.\r\nContains fictional in\u2011game economy systems (stock market & real\u2011estate), but no real\u2011money gambling or betting."
     }
   }
 }

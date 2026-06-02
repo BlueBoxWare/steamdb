@@ -748,6 +748,12 @@
     "publishers": [
       "KuzziGames"
     ],
+    "demos": [
+      {
+        "appid": 4762480,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -3570,7 +3576,19 @@
     "publishers": [
       "Myers"
     ],
-    "package_groups": [],
+    "packages": [
+      1594131
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy King of Exams",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3587,8 +3605,11 @@
       3,
       4
     ],
+    "achievements": {
+      "total": 24
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "2 Jun, 2026"
     },
     "support_info": {
@@ -4727,6 +4748,9 @@
     "steam_appid": 4573090,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4780080
+    ],
     "short_description": "A cozy, chaotic idle-incremental clicker about growing a civilisation of tiny creatures called Pibbles in a giant tree, set in a post-human world. Gather resources, build wacky structures and play mini-games to push your production to its absolute limits!",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4573090/eed3fc92c6e60f7ca078418e25e3f7329f5b85fe/header.jpg",
@@ -5112,7 +5136,7 @@
   },
   "4572240": {
     "type": "game",
-    "name": "\u65e5\u5e38\u4e4b\u5916",
+    "name": "The Other Side of Everyday",
     "steam_appid": 4572240,
     "required_age": 0,
     "is_free": false,
