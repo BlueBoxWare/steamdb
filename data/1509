@@ -2580,7 +2580,7 @@
     "steam_appid": 4529510,
     "required_age": 0,
     "is_free": false,
-    "short_description": "She lives on your desktop, remembers you, and reacts to what you are doing. Local-first AI companion with voice chat, vision, multiplayer, tools, stream integrations, and optional cloud providers.",
+    "short_description": "She lives on your desktop and reacts to what you're doing. Local-first AI companion with voice chat, vision, multiplayer, tools, stream integrations, and optional cloud providers.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Simplified Chinese<strong>*</strong>, Hindi<strong>*</strong>, Dutch<strong>*</strong>, Russian<strong>*</strong>, Turkish<strong>*</strong>, German<strong>*</strong>, Ukrainian<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4529510/27dc0f8e231fd397b9f3b8355924ceef1c8cc117/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4529510/7aace01a5fcac98727d5775a297c713512dcb218/capsule_231x87.jpg",
@@ -6066,6 +6066,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4771730
+    ],
     "short_description": "Play as a powerful ghost in a fast-paced cyberpunk action platformer RPG. Summon allies, fire missiles, and battle enemies while customizing your build with Charms and growing stronger across story and Zombie Mode.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4527560/86dedaff924001cf47ac71e3cdde0a1922cb7a78/header.jpg",
@@ -6077,6 +6080,12 @@
     ],
     "publishers": [
       "Electronic Overthrow LLC"
+    ],
+    "demos": [
+      {
+        "appid": 4771730,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -7391,7 +7400,19 @@
     "publishers": [
       "XingYao"
     ],
-    "package_groups": [],
+    "packages": [
+      1579830
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Kacha Fruit Cut",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7414,9 +7435,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 10
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "3 Jun, 2026"
     },
     "support_info": {
       "url": "",

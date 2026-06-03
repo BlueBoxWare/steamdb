@@ -2361,8 +2361,7 @@
     ],
     "genres": [
       4,
-      23,
-      28
+      23
     ],
     "release_date": {
       "coming_soon": true,
@@ -3335,7 +3334,7 @@
   },
   "4635380": {
     "type": "game",
-    "name": "\u5929\u673a\u00b7\u5927\u5510\u91cd\u6784",
+    "name": "\u5929\u673a\uff1a\u5927\u5510\u91cd\u6784",
     "steam_appid": 4635380,
     "required_age": 0,
     "is_free": false,
@@ -3360,7 +3359,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": false
     },
     "categories": [
@@ -4019,7 +4018,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1614890
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy I Am Better Than You",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4044,8 +4055,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "2 Jun, 2026"
     },
     "support_info": {
