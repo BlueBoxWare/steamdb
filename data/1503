@@ -4266,8 +4266,17 @@
     "steam_appid": 4511140,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4511160,
+      4511170,
+      4511520,
+      4529880,
+      4529890,
+      4529900,
+      4529910
+    ],
     "short_description": "You survived a drowning accident but lost all your memories. As \u201cPe Luem,\u201d you must slowly piece together your past. Along the way, you will meet five women with their own dreams and secrets. Build relationships and uncover the truth, Who is the one that still remains in your memory?",
-    "supported_languages": "English, Thai<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English, Thai<strong>*</strong>, French, Spanish - Spain, Japanese, Korean, Portuguese - Portugal, Russian, Simplified Chinese, Traditional Chinese, Vietnamese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4511140/a9c095f938d24f6612e9078305ab8dc0d2848f69/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4511140/1f6f1010f5a102900650b3dcb43fa81bfdc06f29/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4511140/1f6f1010f5a102900650b3dcb43fa81bfdc06f29/capsule_184x69.jpg",
@@ -4278,7 +4287,19 @@
     "publishers": [
       "NANA Stories"
     ],
-    "package_groups": [],
+    "packages": [
+      1573671
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Unforgettable Love",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4287,13 +4308,17 @@
     "categories": [
       2,
       22,
+      23,
       62
     ],
     "genres": [
       28
     ],
+    "achievements": {
+      "total": 35
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "3 Jun, 2026"
     },
     "support_info": {
@@ -5255,6 +5280,7 @@
     "steam_appid": 4509600,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Super Football Tactics Pro drops you into the high-energy chaos of a wild football league where classic checkers meets hard-hitting strategy. Plan your moves, outsmart your opponent, and unleash game-changing special powers that can flip the match in an instant.",
     "supported_languages": "English, French",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4509600/7e0b7eee991be151ed0f10037b0a3998ef158d86/header.jpg",
@@ -5278,6 +5304,7 @@
       2,
       23,
       24,
+      28,
       36,
       37,
       44,
@@ -5825,6 +5852,136 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4511660",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4511660",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4511170": {
+    "type": "dlc",
+    "name": "Unforgettable Love - Photobook",
+    "steam_appid": 4511170,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A digital photobook featuring character profiles, never-before-seen exclusive images, and behind-the-scenes moments from Unforgettable Love.",
+    "fullgame": {
+      "appid": "4511140",
+      "name": "Unforgettable Love"
+    },
+    "supported_languages": "English, Simplified Chinese, Thai",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4511170/8f9e28e703620b77c9bc91001f18fc5b6c03b69b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4511170/212ead3fd6f21ebce940fef6c09a7b7f0c6b9b49/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4511170/212ead3fd6f21ebce940fef6c09a7b7f0c6b9b49/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "LuminDrive"
+    ],
+    "publishers": [
+      "NANA Stories"
+    ],
+    "packages": [
+      1573680
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Unforgettable Love - Photobook",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      62
+    ],
+    "genres": [
+      3,
+      4,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Jun, 2026"
+    },
+    "support_info": {
+      "url": "https://www.lumindrivegame.com",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4511170",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4511170",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4511520": {
+    "type": "dlc",
+    "name": "Unforgettable Love - Can ING-DAO help u?",
+    "steam_appid": 4511520,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Master Ing-Dao's route. Instantly reveal the exact affection scores behind every dialogue choice and unlock her complete in-game IG photo album.",
+    "fullgame": {
+      "appid": "4511140",
+      "name": "Unforgettable Love"
+    },
+    "supported_languages": "English, Thai<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4511520/9a1b7ff11ac0df66f5f137c7220b8cbf69fb13a9/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4511520/77aa870f80199d8c4dd80639cdf0ab8e836c2699/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4511520/77aa870f80199d8c4dd80639cdf0ab8e836c2699/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "LuminDrive"
+    ],
+    "publishers": [
+      "NANA Stories"
+    ],
+    "packages": [
+      1573791
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Unforgettable Love - Can ING-DAO help u?",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      62
+    ],
+    "genres": [
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "3 Jun, 2026"
+    },
+    "support_info": {
+      "url": "https://www.lumindrivegame.com/contact-us",
+      "email": "admin@lumindrivestudio.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4511520",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4511520",
     "content_descriptors": {
       "ids": [],
       "notes": null

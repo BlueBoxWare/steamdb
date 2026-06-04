@@ -3071,8 +3071,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -5632,7 +5632,7 @@
     "steam_appid": 4605400,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Legendary Gold Card is a lightweight idle card-drawing game. Players can earn draw chances while idling, draw different cat cards, and view the cats they have collected in their inventory.",
+    "short_description": "Legendary Gold Card is an idle gacha card-collecting game designed specifically for AI Agents. Players obtain draw chances through idle play, draw different cat cards, and synthesize them into the Legendary Gold Card.",
     "supported_languages": "English, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4605400/424032e530e7808605045729c35a25699bc14918/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4605400/abb307f259dd0f036d3c36e4cfba6a5bceb70cdc/capsule_231x87.jpg",
@@ -5644,10 +5644,22 @@
     "publishers": [
       "Kanshan Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1604728
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Legendary Gold Card",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -5661,9 +5673,12 @@
       2,
       4
     ],
+    "achievements": {
+      "total": 14
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "3 Jun, 2026"
     },
     "support_info": {
       "url": "",
@@ -5930,11 +5945,11 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Endangered is a brutal hack and slash roguelike in the distant future. Choose your evolved animal to hunt down humans! Rip humanity to shreds for endangering your species and ruining the earth. Gather all the nuclear codes from bosses to end the fight... permanently.",
+    "short_description": "Humanity wiped out your species. Now you're fighting back. Play as evolved animals in a brutal third-person roguelike - hunt down humans, adapt to a collapsing world, and collect nuclear launch codes to end the fight... permanently.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4607200/4769c591c8cc7bf5c690be5a1a7a570ff0b85f6e/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4607200/74e4362365d71d8b9b2736244bc48e23356510a9/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4607200/74e4362365d71d8b9b2736244bc48e23356510a9/capsule_184x69.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4607200/8b3f9af18181389016aecb82dd259174b053ca2b/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4607200/8b3f9af18181389016aecb82dd259174b053ca2b/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Christopher Considine"
@@ -5955,7 +5970,8 @@
       78
     ],
     "genres": [
-      1
+      1,
+      23
     ],
     "release_date": {
       "coming_soon": true,
