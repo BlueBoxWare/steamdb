@@ -966,12 +966,12 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "If Hole.io was a fully-fledged 3D-Platformer. Consume &amp; collect everything. Grow. Morph between a void that swallows the world and a rolling sphere that bounces, dashes, and wall-jumps across themed diorama levels.",
+    "short_description": "Suck up the world. Consume &amp; collect everything. Grow in size and power.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Japanese, Korean, Portuguese - Portugal, Russian, Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4598190/382a5c9a7a5721c5611b6f88abdbce148206b3a3/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4598190/c6ab39dc3785fc5c5def078323524044e7a2b8ab/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4598190/c6ab39dc3785fc5c5def078323524044e7a2b8ab/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://morph.land",
     "developers": [
       "Morph"
     ],
@@ -3655,7 +3655,7 @@
     "steam_appid": 4598120,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A Cold War strategy incremental game where you build a global intelligence network from your desk. Complete covert operations, expand into new cities, automate your agents, unlock powerful upgrades, and contain lockdowns, riots, and blackouts.",
+    "short_description": "A Cold War incremental game where every order runs through your physical command board. Take over cities, complete operations, automate your agents, and expand your influence until your desk controls a global spy network.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Dutch, Indonesian, Japanese, Korean, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America, Thai, Turkish, Vietnamese, Czech<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4598120/c5e7d1d5a96dfcfec234e52778920d38bfabce26/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4598120/d784af3e335380907688eeef2b4f5b05ad4a057b/capsule_231x87.jpg",
@@ -4847,7 +4847,19 @@
     "publishers": [
       "Take A Hike Studios LLC"
     ],
-    "package_groups": [],
+    "packages": [
+      1602264
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Spacefield",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4864,8 +4876,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "5 Jun, 2026"
     },
     "support_info": {
       "url": "",
@@ -5919,7 +5931,7 @@
     "dlc": [
       4781410
     ],
-    "short_description": "Start and grow the craze for catnip until it gets out of hand! A tiny incremental/idler game.",
+    "short_description": "A tiny incremental/idler game about cats and catnip. Start the craze, watch it grow, and witness its inevitable conclusion.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4596690/3d9a5471b29b5f41b4892e422fb8fecbb09246c5/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4596690/4432cf6ee460f35771e0bd1af705195040684c9b/capsule_231x87.jpg",
@@ -6494,6 +6506,70 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4596250",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4596250",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4596600": {
+    "type": "dlc",
+    "name": "You Know The Drill - Supporter Pack",
+    "steam_appid": 4596600,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A Supporter Pack for those who want to show their support for You Know The Drill.",
+    "fullgame": {
+      "appid": "3833760",
+      "name": "You Know The Drill"
+    },
+    "supported_languages": "English, Portuguese - Brazil, Turkish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4596600/42a3daf35a725cd08b0df020a26d4a9117df6a59/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4596600/21a0e0219349769c78247e4a9ebb89d69762755a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4596600/21a0e0219349769c78247e4a9ebb89d69762755a/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "ludokai"
+    ],
+    "packages": [
+      1601872
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy You Know The Drill - Supporter Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      62,
+      74
+    ],
+    "genres": [
+      2,
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "4 Jun, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "youknowthedrill@catoptricgames.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4596600",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4596600",
     "content_descriptors": {
       "ids": [],
       "notes": null
