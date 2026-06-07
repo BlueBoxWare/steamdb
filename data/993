@@ -13186,7 +13186,7 @@
     "name": "Electro Havoc",
     "steam_appid": 2980110,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "controller_support": "full",
     "short_description": "Electro Havoc: A retro twin-stick shooter set in a neon-charged battleground where you'll face waves of geometric foes across 3 worlds. Lure more enemies into debris fields to trigger chain reactions, and grab power-ups to boost your multipliers.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
@@ -13200,7 +13200,19 @@
     "publishers": [
       "Ryan Matthews"
     ],
-    "package_groups": [],
+    "packages": [
+      1664175
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Electro Havoc",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13213,22 +13225,21 @@
       23,
       25,
       28,
+      62,
       68,
       74
     ],
     "genres": [
       1,
       4,
-      23,
-      37,
-      70
+      23
     ],
     "achievements": {
       "total": 23
     },
     "release_date": {
       "coming_soon": false,
-      "date": "18 Apr, 2025"
+      "date": "6 Jun, 2026"
     },
     "support_info": {
       "url": "https://app.betahub.io/projects/pr-1656078273",
