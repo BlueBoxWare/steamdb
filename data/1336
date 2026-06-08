@@ -3188,7 +3188,7 @@
     "steam_appid": 4010900,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Retro Arcade Shop Simulator lets you design and run your own classic arcade: buy and place vintage machines\u2014from Atari cabinets and air hockeys to gaming console \u2014then greet customers, handle payments and cafe orders",
+    "short_description": "Build and manage your ultimate retro arcade! Buy classic Arcade Machines, Galaxy Pinball, and Gift Claw games, or invest in Cinema 8D, Go-Karts, and Racing Simulators. Manage the economy, hire staff, and play the games yourself!",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Turkish<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4010900/705eea09a44aa3cf9e921824351cd4be82368a2c/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4010900/65a70d359c90fa382f63466b3e886aeeb93fcdd8/capsule_231x87.jpg",
@@ -9652,7 +9652,7 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4008960/989c9dc0074e982a4a85f26c3a421389aab9ecba/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4008960/d321006d7ec98d38bab47d9850476a147e453c1c/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4008960/d321006d7ec98d38bab47d9850476a147e453c1c/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://velmirestudios.com",
     "developers": [
       "Velmire Studios"
     ],
@@ -9930,11 +9930,11 @@
     "steam_appid": 4009480,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Morbus is a 4-player co-op horror game where one member of your squad takes on the role of the Hunter, while the others play as Victims. Explore various procedurally generated locations, unlock new perks, and have fun! And most importantly \u2014 DON'T FORGET ABOUT THE CHICKEN!",
+    "short_description": "Morbus is a 4-player cooperative horror game. You'll need to explore various abandoned and dangerous areas to rescue all the CHICKENS that have escaped from you. Explore locations, try to find the chickens, and make your way out.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009480/d9d5d0b2741db74d080b2578de9e7745eff3b43d/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009480/a2ae97cb8dfb7f8cf506d7249556e898c1ed560d/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009480/a2ae97cb8dfb7f8cf506d7249556e898c1ed560d/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009480/25543c330ef5e620a04063c8af9dccddc972acfa/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009480/b3167b2894e2c813cbad74071c3aee26aea8ac45/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009480/b3167b2894e2c813cbad74071c3aee26aea8ac45/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Crimson Rain Std."
@@ -12078,17 +12078,26 @@
     "steam_appid": 4009170,
     "required_age": 0,
     "is_free": false,
-    "short_description": "OBRUM is a roguelite puzzle game about controlled chaos. Build unstable chain reactions across a 4\u00d74 grid, draft (and leverage) powerful Rules, survive the rising Overcharge, and push this collapsing system to its limit in a high-pressure battle for mastery.",
+    "dlc": [
+      4798990
+    ],
+    "short_description": "OBRUM is a strategic logical puzzle roguelite where you manage an unstable system, trigger devastating chain reactions, and fight to keep the board from collapsing. OBRUM rewards pattern recognition &amp; long-term planning. You are not solving a puzzle, you are engineering outcomes.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009170/a6f4bfc62542e24f76da65ab7e00006fc101e480/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009170/9fd219fc01eaf0db5cc779908afa518df841b937/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009170/9fd219fc01eaf0db5cc779908afa518df841b937/capsule_184x69.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009170/c45b241dfa3dc27d5db7997d599ac36ff29ee957/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009170/c45b241dfa3dc27d5db7997d599ac36ff29ee957/capsule_184x69.jpg",
     "website": "https://www.obrum.io/",
     "developers": [
       "Lars-Peter Eriksson"
     ],
     "publishers": [
       "Just me!"
+    ],
+    "demos": [
+      {
+        "appid": 4798990,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -12309,6 +12318,68 @@
         5
       ],
       "notes": null
+    }
+  },
+  "4009220": {
+    "type": "game",
+    "name": "Gone Feral",
+    "steam_appid": 4009220,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Stalk your victims through 1980s America in this co-op roguelike assassination game. Improvise brutal kills with everyday objects, terrorize your targets, and get revenge solo or with friends. Hunt across iconic horror locations such as a summer camp, small town, farm, and a sprawling mansion.",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009220/e34f5549423c12cbdadbf10fa0b9236decde9998/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009220/7e39cc568f7ef18ded599b1b895ba6239b58dda6/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009220/7e39cc568f7ef18ded599b1b895ba6239b58dda6/capsule_184x69.jpg",
+    "website": "https://www.justpurkeygames.com/",
+    "developers": [
+      "Just Purkey Games"
+    ],
+    "publishers": [
+      "Just Purkey Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      13,
+      23,
+      28,
+      38,
+      62,
+      67,
+      68,
+      69,
+      74
+    ],
+    "genres": [
+      1,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "https://www.justpurkeygames.com/sendfeedback",
+      "email": "justpurkeygamesllc@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4009220",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4009220",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game contains voxelized depictions of violence including murder and dismemberment."
     }
   }
 }
