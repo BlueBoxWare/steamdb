@@ -731,6 +731,9 @@
     "steam_appid": 4640280,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4803830
+    ],
     "short_description": "A roguelite management game blending deckbuilding and shop sim elements. Recruit workers, arrange buildings, craft powerful builds, and maximise profit each run.",
     "supported_languages": "English, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4640280/5ccc7e41e0762e0b4e18e02eeaf67544b4b5387f/header.jpg",
@@ -742,6 +745,12 @@
     ],
     "publishers": [
       "Team Sosobar"
+    ],
+    "demos": [
+      {
+        "appid": 4803830,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -760,7 +769,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "To be announced"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -4909,7 +4918,19 @@
       "Dark Jay Studio",
       "Galaktus Publishing"
     ],
-    "package_groups": [],
+    "packages": [
+      1616004
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Arms of God - Supporter Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4920,7 +4941,8 @@
       15,
       21,
       22,
-      28
+      28,
+      62
     ],
     "genres": [
       1,
@@ -4929,8 +4951,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "June 2026"
+      "coming_soon": false,
+      "date": "8 Jun, 2026"
     },
     "support_info": {
       "url": "",

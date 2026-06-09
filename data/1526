@@ -1307,7 +1307,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Spy Carnival is a 2-10 player social deception game set in a vibrant, chaotic funfair. Spies hide among the crowd, sabotaging rides and eliminating visitors while blending in with NPCs. Officers must stay sharp, read the crowd and take down the spies before the carnival turns into complete chaos.",
-    "supported_languages": "English, French, German, Spanish - Spain, Turkish, Korean, Simplified Chinese, Portuguese - Brazil",
+    "supported_languages": "English, French, German, Spanish - Spain, Turkish, Korean, Simplified Chinese, Portuguese - Brazil, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4580330/308fcfbf04506d053f0c2580400218099d905ca4/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4580330/274e4985eaa32dfbb959df1f305985f96c2b327e/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4580330/274e4985eaa32dfbb959df1f305985f96c2b327e/capsule_184x69.jpg",
@@ -2398,6 +2398,9 @@
     "steam_appid": 4580690,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4795950
+    ],
     "short_description": "Trade by day. Eat, sleep, and survive by night. Lose everything with a single bad decision. Neo Capitalist is a financial survival roguelite where the richer you get, the harder the system fights back. Play in a realistic stock market simulation or in a dystopian cyber-punk world.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Polish, Russian, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4580690/b81ae233fd2b005e3f2ac830636578927e701173/header.jpg",
@@ -2409,6 +2412,16 @@
     ],
     "publishers": [
       "Paper Plane Logic"
+    ],
+    "demos": [
+      {
+        "appid": 4795950,
+        "description": ""
+      },
+      {
+        "appid": 4795950,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4608,7 +4621,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1595794
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Regeneration Engine",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -4628,9 +4653,12 @@
     "genres": [
       3
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "8 Jun, 2026"
     },
     "support_info": {
       "url": "",
@@ -4880,6 +4908,12 @@
     "publishers": [
       "Crab Attack Games"
     ],
+    "demos": [
+      {
+        "appid": 4677550,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -4911,7 +4945,7 @@
         2,
         5
       ],
-      "notes": "Contains depictions of alcohol abuse, violence (stabbing, strangling, mutilation, etc) and gore in a semi-realistic monochrome pixel art style."
+      "notes": "Contains depictions of alcohol abuse, suicide, violence (stabbing, strangling, mutilation, etc) and gore in a semi-realistic monochrome pixel art style."
     }
   },
   "4580910": {
@@ -6846,6 +6880,66 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4579310",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4579310",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4580810": {
+    "type": "game",
+    "name": "Can I Take Your Order",
+    "steam_appid": 4580810,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "dlc": [
+      4769510
+    ],
+    "short_description": "You and your friends play as part time waiters in different restaurants. Use your bare hands to deliver food, taze a raging cowboy who just shot someone and dispose of the body before it starts to stink. Keep your customers happy on your own, or with up to 3 friends in online co-op.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4580810/f4519b2298a5ed7652b6bf9e1c9bc1ffbc8ee70c/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4580810/30017aa9525dd0ce2ded4d879ed28346f01b2d3d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4580810/30017aa9525dd0ce2ded4d879ed28346f01b2d3d/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "CORNER STACK"
+    ],
+    "publishers": [
+      "CORNER STACK"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      28,
+      38,
+      62,
+      66,
+      68,
+      69,
+      74
+    ],
+    "genres": [
+      1,
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q3 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support@cornerstack.se"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4580810",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4580810/e0b058326b7f587f673bc96e04fc52759cb85c4a/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

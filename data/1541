@@ -560,7 +560,19 @@
     "publishers": [
       "\u8282\u594f\u4e92\u5a31"
     ],
-    "package_groups": [],
+    "packages": [
+      1611113
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u957f\u5b89\u9996\u5bcc\u6a21\u62df\u5668",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -577,8 +589,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "8 Jun, 2026"
     },
     "support_info": {
       "url": "",
@@ -587,8 +599,11 @@
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4625240",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4625240/f0c61f7937c22eb8cf0bd47385fb29f6fa4ecc2b/page_bg_raw.jpg",
     "content_descriptors": {
-      "ids": [],
-      "notes": null
+      "ids": [
+        1,
+        5
+      ],
+      "notes": "This game contains mild mature content, including suggestive character artwork, partially revealing costumes, and occasional depictions of non-explicit nudity. No explicit sexual acts, genital exposure, or graphic sexual content are depicted.\r\n"
     }
   },
   "4625480": {
@@ -1045,7 +1060,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "A massive whale named Mr. Blue has pulled into your deep-sea station \u2014 and he's filthy! Scrape off barnacles, peel away toxic jellyfish, and get him spotless before your grumpy Boss, Mr. Claw, docks your pay! A relaxing cleaning experience in an atmospheric bio-industrial underwater world.",
-    "supported_languages": "English, Spanish - Spain, Russian",
+    "supported_languages": "English, Spanish - Spain, Russian, German, Simplified Chinese, Portuguese - Brazil",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4624230/97171b00ef2c918d2dd5e7bea2c0733f4e4e6584/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4624230/7d2307b41e38c3ed6f2974b34fa07ecd9cb38ca8/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4624230/7d2307b41e38c3ed6f2974b34fa07ecd9cb38ca8/capsule_184x69.jpg",
@@ -4252,16 +4267,18 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      23
     ],
     "genres": [
       2,
       23,
-      37
+      37,
+      70
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -5103,6 +5120,9 @@
     "steam_appid": 4623580,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4759560
+    ],
     "short_description": "You are trapped in a bureaucratic purgatory. Judge souls, gamble on slots, buy upgrades and try to escape.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4623580/73832a53a26987b55170bc9803e8ff1fadf9dfd2/header.jpg",
@@ -5114,6 +5134,12 @@
     ],
     "publishers": [
       "Null Loop interactive"
+    ],
+    "demos": [
+      {
+        "appid": 4759560,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -5131,7 +5157,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q3 2026"
+      "date": "July 2026"
     },
     "support_info": {
       "url": "",
@@ -5744,6 +5770,67 @@
         5
       ],
       "notes": "\u542b\u6709\u5973\u4e3b\u89d2\u88f9\u6d74\u5dfe\u7684\u5185\u5bb9"
+    }
+  },
+  "4624180": {
+    "type": "game",
+    "name": "Animation VERSUS",
+    "steam_appid": 4624180,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Animation VERSUS is an action-fighting game based on Animator vs. Animation, the hit YouTube series. Play locally with friends, test your skills in Online VS, and explore the world of Internet Space in a single-player or co-op Story Mode - plus a challenging Roguelite gauntlet!",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4624180/69c3d2dbf7c02c900c0b893182ec6b90708354eb/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4624180/fdb8d87bd751d1d302e36c9b740e4805d1ada9f8/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4624180/fdb8d87bd751d1d302e36c9b740e4805d1ada9f8/capsule_184x69.jpg",
+    "website": "https://animationversus.com",
+    "developers": [
+      "AvG Studios"
+    ],
+    "publishers": [
+      "AvG Studios"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      28,
+      49,
+      62,
+      66,
+      67,
+      68,
+      69,
+      74,
+      75,
+      78,
+      79
+    ],
+    "genres": [
+      1,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "animationversussupport@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4624180",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4624180",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }
