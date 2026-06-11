@@ -736,7 +736,7 @@
     "steam_appid": 4428210,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Build, manage, and optimize the coziest supermarket simulator! Set in a vibrant town filled with quirky animal, every business decision matters. From placing the very first shelf to dodging bankruptcy, your goal is simple: turn a humble corner shop into the ultimate animal shopping paradise.",
+    "short_description": "Run your dream shop in a town full of quirky animal neighbors. Stock 400+ products, hire staff, catch shoplifters, and build a cozy supermarket empire from humble corner store to community heart.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4428210/745f87f4b6a9e38d8b1541cbebc89f32f757b9af/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4428210/e379ec0af47d45dba44036db64e0dfd049aaa3b6/capsule_231x87.jpg",
@@ -2567,6 +2567,9 @@
     "steam_appid": 4428150,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4791650
+    ],
     "short_description": "A horror experience where a simple dare leads you into an abandoned construction site hiding something far darker. Explore, solve environmental puzzles, and survive using stealth as every sound and decision shapes your fate.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4428150/38224b2b0f26773e84d042315ba2efff86bf790f/header.jpg",
@@ -7508,8 +7511,11 @@
     "steam_appid": 4428430,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4773150
+    ],
     "short_description": "Dig for ore, discover new resources, smelt ingots, and unlock hundreds of upgrades in this fantasy mining idle game. Mine faster, dig deeper, and watch your progress grow.",
-    "supported_languages": "English",
+    "supported_languages": "English, French, German, Spanish - Spain, Simplified Chinese, Korean, Portuguese - Brazil, Russian, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4428430/39a5ec44f9c0572e06a914e7f6b683898704da52/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4428430/312861df210f65bf6e3d48feeaff624a6d9de3dd/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4428430/312861df210f65bf6e3d48feeaff624a6d9de3dd/capsule_184x69.jpg",
@@ -7520,6 +7526,12 @@
     ],
     "publishers": [
       "Kai"
+    ],
+    "demos": [
+      {
+        "appid": 4773150,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -8007,7 +8019,19 @@
     "publishers": [
       "\u3075\u3049\u308b\u3066\u30bd\u30d5\u30c8"
     ],
-    "package_groups": [],
+    "packages": [
+      1546535
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u30ce\u30b9\u30d5\u30a7\u30e9\u30c8\u30a5\u306e\u4e59\u5973\u305f\u3061",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8021,7 +8045,7 @@
       4
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "10 Jun, 2026"
     },
     "support_info": {
