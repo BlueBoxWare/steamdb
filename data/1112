@@ -817,7 +817,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1181395
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Tabletop Tavern",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -839,8 +851,11 @@
     "genres": [
       2
     ],
+    "achievements": {
+      "total": 25
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "11 Jun, 2026"
     },
     "support_info": {
@@ -1805,11 +1820,14 @@
     "steam_appid": 3337770,
     "required_age": 0,
     "is_free": true,
+    "dlc": [
+      4845080
+    ],
     "short_description": "In Frontiers of Ruin, enter a post-apocalyptic world on the brink of chaos, where survival depends on cunning, alliances, and strategy. Choose your faction and battle across a 5x7 board, shaping the future of Othren in this gripping trading card game. Will you conquer or save a shattered world?",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337770/header.jpg?t=1731567911",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337770/836e423ce0fd9076cb0e009e1fa053a80589f2b6/capsule_231x87.jpg?t=1731567911",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337770/836e423ce0fd9076cb0e009e1fa053a80589f2b6/capsule_184x69.jpg?t=1731567911",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337770/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337770/836e423ce0fd9076cb0e009e1fa053a80589f2b6/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337770/836e423ce0fd9076cb0e009e1fa053a80589f2b6/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Big Tic-it Studios"
@@ -1848,29 +1866,11 @@
       "url": "",
       "email": "sales@bigtic-it.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3337770?t=1731567911",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3337770?t=1731567911",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3337770",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3337770",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "10",
-        "required_age": "10",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "12",
-        "required_age": "12",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Gewalt"
-      }
     }
   },
   "3337800": {
@@ -3122,11 +3122,11 @@
     "steam_appid": 3337100,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Defend your computer's firewall in this fast-paced typing game, battling waves of word-based viruses in Endless or Survival mode, where speed and accuracy are your only weapons against defeat.",
+    "short_description": "Typo! is a fast-paced arcade typing defense game where you destroy word-based viruses, protect your firewall, survive escalating waves, and chase high scores through speed, accuracy, and focus.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337100/header.jpg?t=1735843370",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337100/7abfbf2ac5aec5d22aecb33c8e7a50cad8941612/capsule_231x87.jpg?t=1735843370",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337100/7abfbf2ac5aec5d22aecb33c8e7a50cad8941612/capsule_184x69.jpg?t=1735843370",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337100/c2bd0d5f1cb9da1891c0e7cfda58c8b6da8784c9/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337100/238f1c8e2fa0c9853d58ff2ed1c718263ed6eba1/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337100/238f1c8e2fa0c9853d58ff2ed1c718263ed6eba1/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "unNamed"
@@ -3142,7 +3142,6 @@
         "name": "default",
         "title": "Buy Typo!",
         "description": "",
-        "selection_text": "Select a purchase option",
         "save_text": "",
         "display_type": 0,
         "is_recurring_subscription": "false"
@@ -3150,8 +3149,8 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -3164,7 +3163,7 @@
       23
     ],
     "achievements": {
-      "total": 100
+      "total": 35
     },
     "release_date": {
       "coming_soon": false,
@@ -3174,29 +3173,11 @@
       "url": "https://majin.dev/games/typo",
       "email": "support.davidgy@icloud.com"
     },
-    "background": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337100/page_bg_generated_v6b.jpg?t=1735843370",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337100/page.bg.jpg?t=1735843370",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3337100",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337100/232333d223c3de944644b9e1b6721b19ffc565c3/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "3338480": {
