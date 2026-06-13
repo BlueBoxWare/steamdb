@@ -13802,6 +13802,9 @@
     "steam_appid": 3547880,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4789290
+    ],
     "short_description": "Flip fake trading cards for real profit in FeeBay Simulator, a comedic marketplace tycoon game. Snipe underpriced cards from clueless and scammy sellers, grade your best pulls, crack open mystery lots, and run your own storefront to build a reselling empire.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3547880/89bc6ca2e76ea9954d8ccd0ea5f2cacb4261e0f6/header.jpg",
@@ -13814,7 +13817,25 @@
     "publishers": [
       "Lake Country Games"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 4789290,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1252117
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy FeeBay Simulator",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13833,8 +13854,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 86
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "12 Jun, 2026"
     },
     "support_info": {

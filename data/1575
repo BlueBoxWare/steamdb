@@ -2152,6 +2152,9 @@
     "steam_appid": 4726580,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4820750
+    ],
     "short_description": "Cielle is Not Happy is a Psychological Horror RPG that redefines the adventure genre through a deep, haunting narrative and unconventional combat mechanics, delivering a masterfully immersive experience.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese, Afrikaans, Albanian, Amharic, Armenian, Assamese, Azerbaijani, Bangla, Basque, Belarusian, Bosnian, Catalan, Cherokee, Croatian, Dari, Estonian, Filipino, Galician, Georgian, Gujarati, Hausa, Hebrew, Hindi, Icelandic, Igbo, Irish, K'iche', Kannada, Kazakh, Khmer, Kinyarwanda, Konkani, Kyrgyz, Latvian, Lithuanian, Luxembourgish, Macedonian, Malay, Malayalam, Maltese, Maori, Marathi, Mongolian, Nepali, Odia, Persian, Punjabi (Gurmukhi), Punjabi (Shahmukhi), Quechua, Scots, Serbian, Sindhi, Sinhala, Slovak, Slovenian, Sorani, Sotho, Swahili, Tajik, Tamil, Tatar, Telugu, Tigrinya, Tswana, Turkmen, Urdu, Uyghur, Uzbek, Valencian, Welsh, Wolof, Xhosa, Yoruba, Zulu",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4726580/c58caf065e9e19d9bd28604ae228268c7b1149c1/header.jpg",
@@ -2163,6 +2166,12 @@
     ],
     "publishers": [
       "ShivanGames"
+    ],
+    "demos": [
+      {
+        "appid": 4820750,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3905,7 +3914,7 @@
     "steam_appid": 4727060,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Arcade Fitness. Highscores. Trophies. Pain. Can you beat the Street Workout Challenge?",
+    "short_description": "Arcade Fitness. Highscores. Trophies. Can you beat the Street Workout Challenge? Master 8 street workout exercises, chase highscores, unlock trophies, and prove your skills in fast arcade-style fitness challenges and compete against other Steam players on the leaderboard.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4727060/cd264299de25e5ef84087dcc996bdf4dd5fe3b06/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4727060/b2e7200770f58bfed8bd10971c6c6cc3a3bfac1c/capsule_231x87.jpg",
@@ -4321,7 +4330,19 @@
     "publishers": [
       "DBH Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1644712
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Sudoku Infinity",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4344,8 +4365,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 59
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "12 Jun, 2026"
     },
     "support_info": {
@@ -5654,8 +5678,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -5675,6 +5699,55 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4725220",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4725220",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4726020": {
+    "type": "game",
+    "name": "YEET! The Elite",
+    "steam_appid": 4726020,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Play as Earth itself in this chaotic arcade action game where you grab elite figures and YEET them into the Sun while dodging UFOs and surviving frantic planetary swats from the Moon, Venus, and Mercury.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4726020/f5673ce1e51bafd8277c9bd136156a82961df422/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4726020/1af427230c1b6dd44560dc2df61fbf81e2701265/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4726020/1af427230c1b6dd44560dc2df61fbf81e2701265/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "LunaticRetrocade"
+    ],
+    "publishers": [
+      "LunaticRetrocade"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      18,
+      62
+    ],
+    "genres": [
+      1,
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "30 Jul, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "lunaticretrocade@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4726020",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4726020",
     "content_descriptors": {
       "ids": [],
       "notes": null
