@@ -121,7 +121,9 @@
     "steam_appid": 4299260,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
+    "dlc": [
+      4822180
+    ],
     "short_description": "Awaken as a fragile porcelain salt shaker in a colossal, shadowy kitchen. Guided by your grandmother\u2019s spirit, retrieve the key ingredient and master manual cooking mechanics to revive lost recipes. In this atmospheric adventure, every jump is a risk, and every dish tells a story.",
     "supported_languages": "English<strong>*</strong>, Italian, Turkish<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4299260/465945a5d80d2bd3b05bd646bc9e80bc517b8a86/header.jpg",
@@ -134,6 +136,12 @@
     "publishers": [
       "Opus Mechanica Studios"
     ],
+    "demos": [
+      {
+        "appid": 4822180,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -143,7 +151,6 @@
     "categories": [
       2,
       23,
-      28,
       62,
       69
     ],
@@ -3637,7 +3644,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2026"
+      "date": "To be announced"
     },
     "support_info": {
       "url": "",
@@ -6000,7 +6007,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1503510
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Atomic Synthesis",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6019,9 +6038,12 @@
     "genres": [
       4
     ],
+    "achievements": {
+      "total": 79
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "14 Jun, 2026"
     },
     "support_info": {
       "url": "",
@@ -7482,6 +7504,55 @@
         5
       ],
       "notes": "Bodies of people who were attacked by creatures, as well as blood splatter, can be found throughout the stages."
+    }
+  },
+  "4299250": {
+    "type": "game",
+    "name": "Plenty of Cards in the Sea",
+    "steam_appid": 4299250,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "Gather around the table and play a variety of card games with your friends!",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4299250/9385097a7d6db2fb9a12b946d1afcc6803d6014b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4299250/ee66fdb0abe150a77646105493588916c1afb3a6/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4299250/ee66fdb0abe150a77646105493588916c1afb3a6/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "transgwender"
+    ],
+    "publishers": [
+      " Code Spectrum"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      1,
+      27,
+      36,
+      49
+    ],
+    "genres": [
+      4,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "September 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "media@codespectrum.ca"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4299250",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4299250",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }
