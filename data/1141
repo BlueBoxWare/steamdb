@@ -9965,7 +9965,6 @@
     "steam_appid": 3424990,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "Two souls, one destiny. Embark on a co-op adventure through a forgotten land, where teamwork and wit are the only way to navigate the wonders and dangers of a magical cave.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Simplified Chinese, Dutch, Japanese, Korean, Norwegian, Portuguese - Portugal, Russian, Turkish, Swedish, Hindi, Spanish - Spain, Portuguese - Brazil, Finnish, Spanish - Latin America, Polish, Czech<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3424990/9a409ba97ab18f312a90f526d3f468d73152f8fa/header.jpg",
@@ -9977,12 +9976,6 @@
     ],
     "publishers": [
       "Vellichor Games"
-    ],
-    "demos": [
-      {
-        "appid": 4090590,
-        "description": ""
-      }
     ],
     "package_groups": [],
     "platforms": {
@@ -9996,7 +9989,6 @@
       15,
       22,
       23,
-      28,
       38,
       62,
       65,
@@ -13080,7 +13072,19 @@
     "publishers": [
       "Pixgital Art"
     ],
-    "package_groups": [],
+    "packages": [
+      1210645
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy My Donut",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13103,7 +13107,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "15 Jun, 2026"
     },
     "support_info": {

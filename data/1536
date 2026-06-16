@@ -760,9 +760,6 @@
     "steam_appid": 4609140,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      4772490
-    ],
     "short_description": "A dark roguelike where you bet everything on a cursed roulette. Drink, smoke, break the rules, build insane synergies, meet brutal quotas \u2014 and survive the spin. Did I mention you smoke?",
     "supported_languages": "English, Spanish - Spain",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4609140/e1dd7d42cb4b99f54424860589db1c29385eb8c3/header.jpg",
@@ -774,6 +771,16 @@
     ],
     "publishers": [
       "oscahrdev"
+    ],
+    "demos": [
+      {
+        "appid": 4772490,
+        "description": ""
+      },
+      {
+        "appid": 4772490,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3318,7 +3325,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -4012,11 +4019,11 @@
     ],
     "genres": [
       2,
-      23
+      4
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "To be announced"
+      "date": "September 2026"
     },
     "support_info": {
       "url": "",
@@ -6509,6 +6516,7 @@
     },
     "categories": [
       2,
+      22,
       62,
       68,
       69
@@ -6587,6 +6595,9 @@
     "steam_appid": 4609780,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4841150
+    ],
     "short_description": "Embark on a cozy RPG adventure through Sclavinia, a realm long abandoned by ancient gods. Let living cards guide you through myths, treacherous intrigue, and turn-based battles as you befriend colorful companions, face mythical beasts, and shape the destiny of an entire nation!",
     "supported_languages": "English, French, Simplified Chinese, Polish, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4609780/b4db0e6f10b96e6e9d01b1e877e1d561dd8f0b0e/header.jpg",
@@ -6683,6 +6694,78 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4610520",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4610520",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4609350": {
+    "type": "dlc",
+    "name": "SITL Forge \u2013 External FC: iNAV",
+    "steam_appid": 4609350,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Adds a software-in-the-loop bridge to iNAV firmware. Replaces the built-in flight controller with the real firmware running on your PC, with simulated GPS and compass \u2014 so you can test navigation modes (position hold, return-to-home, waypoints) and tune PIDs and rates without risking real hardware.",
+    "fullgame": {
+      "appid": "4533290",
+      "name": "SITL Forge - FPV Laboratory"
+    },
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4609350/7bacdf6ca7157ab4f4483d032e4dd5cecff3b3de/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4609350/b82ca8a7983f3bb46c75591211544670aa02a575/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4609350/b82ca8a7983f3bb46c75591211544670aa02a575/capsule_184x69.jpg",
+    "website": "https://sitlforge.com/",
+    "developers": [
+      "SITL Forge"
+    ],
+    "publishers": [
+      "SITL Forge"
+    ],
+    "packages": [
+      1606034
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy SITL Forge \u2013 External FC: iNAV",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      28,
+      62,
+      64,
+      66,
+      67,
+      68,
+      74,
+      78,
+      79
+    ],
+    "genres": [
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "15 Jun, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support@sitlforge.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4609350",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4609350",
     "content_descriptors": {
       "ids": [],
       "notes": null
