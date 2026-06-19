@@ -900,7 +900,7 @@
       57
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "18 Jun, 2026"
     },
     "support_info": {
@@ -1788,7 +1788,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q3 2026"
+      "date": "24 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -1923,6 +1923,9 @@
     "steam_appid": 4765950,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4806000
+    ],
     "short_description": "Waiting for Heaven is a psychological first-person-horror experience about waiting at a lonely bus stop between life and death. Every decision counts. Your actions, patience, and behavior determine whether the final bus takes you to Heaven, Hell, or somewhere far worse.",
     "supported_languages": "English, German, Spanish - Spain, French, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4765950/481c2597a79700248ecb5eb0f575d1746e839c1f/header.jpg",
@@ -1934,6 +1937,12 @@
     ],
     "publishers": [
       "ZwiebelGames"
+    ],
+    "demos": [
+      {
+        "appid": 4806000,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3894,7 +3903,19 @@
     "publishers": [
       "Dongrenran"
     ],
-    "package_groups": [],
+    "packages": [
+      1657625
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Fury Journey",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3904,7 +3925,11 @@
       2,
       22,
       23,
-      62
+      62,
+      68,
+      74,
+      76,
+      79
     ],
     "genres": [
       2,
@@ -3913,9 +3938,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 62
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "18 Jun, 2026"
+      "coming_soon": false,
+      "date": "19 Jun, 2026"
     },
     "support_info": {
       "url": "",
@@ -4064,6 +4092,7 @@
       2,
       22,
       28,
+      62,
       68,
       69,
       74
@@ -4424,10 +4453,10 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4764360/8bf9870ca0dac2cc5397bffc135247513222584f/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Burak Bayraktar"
+      "Baypand"
     ],
     "publishers": [
-      "Baypand"
+      "Baypand Tech"
     ],
     "package_groups": [],
     "platforms": {
@@ -4755,7 +4784,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "A Portal-esque puzzler set in a supernatural forest that shifts and changes around you.",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America, Traditional Chinese",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4766800/16106d6393da50619fb08b7aa7ea7cad9f4432c5/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4766800/04bd0ceea2022b9003cd41214b5793f5ba5327d8/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4766800/04bd0ceea2022b9003cd41214b5793f5ba5327d8/capsule_184x69.jpg",
@@ -4848,6 +4877,58 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4766810",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4766810/adf53fd3f6d638e0ef9ffd99b3d1e86fdd32e13b/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4766820": {
+    "type": "game",
+    "name": "Pandora's Arcade",
+    "steam_appid": 4766820,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A collection of bite sized arcade-style games with a frantic pace and game-changing modifiers.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4766820/29925914f199758aa46ca88e24ed3d661bf9a2f4/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4766820/a96b3d25d07358bf109abe2c220cb10176f7a2a3/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4766820/a96b3d25d07358bf109abe2c220cb10176f7a2a3/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "SSJMarx"
+    ],
+    "publishers": [
+      "SSJMarx"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      18,
+      62,
+      69,
+      74,
+      75
+    ],
+    "genres": [
+      1,
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "October 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "ssjmarx.sway705@passinbox.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4766820",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4766820",
     "content_descriptors": {
       "ids": [],
       "notes": null
