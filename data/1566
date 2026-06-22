@@ -417,7 +417,7 @@
     "steam_appid": 4699200,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Automate your way from one ratty laptop to a galaxy eating computer empire. An idle clicker with a real ending, offline progress, and 100 achievements.",
+    "short_description": "An idle game about automating compute hardware, from simple builds to massive scale. Collect and complete puzzles, train an ML for powerful rewards, and prestige to open new rooms that complete the automation flywheel. Compete on leaderboards for the fastest time, or just play for fun.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Polish, Japanese, Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4699200/6e6bc6d93bb6ce786ff3d0ebf12b77fc939bdd6a/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4699200/c8b70f3915b35b192cb13b5be1220d7ba20e5339/capsule_231x87.jpg",
@@ -1430,7 +1430,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "An urban legend says there are alligators living in the sewers of New York. Go down there\u2026 and see for yourself. A 90s-style comedy horror game featuring classic single-voice VHS dubbing.",
-    "supported_languages": "English, Portuguese - Brazil, Russian<strong>*</strong>, Spanish - Spain<br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English, Portuguese - Brazil, Russian<strong>*</strong>, Spanish - Spain, Italian, Turkish<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4699110/b67a4717c1b6347043cef6f7bbe4e7b5b3160a97/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4699110/ea6e22f581ff70486e661e9898b685ced6b8b1bf/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4699110/ea6e22f581ff70486e661e9898b685ced6b8b1bf/capsule_184x69.jpg",
@@ -2239,7 +2239,7 @@
     "steam_appid": 4700370,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Welcome to Worlda! Worlda is a 2D topdown pixel art sandbox adventure where you play as grizzly bear cub Jonas as he sets forth into a large, infinite world, starting with nothing but a special staff.",
+    "short_description": "Jonas the bear cub. That's you, the expert builder, miner, gardener, and serial killer of bunnies (with a shotgun). You have been given a special staff, Stonebreaker, which can break anything: stone, trees, wild boars, flowers, the lot. The only thing it can't break are those honey hives! Grrr.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4700370/bacc1caa9cc3f409c6c4514aefef706d6cafbffb/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4700370/ad02b122142edaec48b67c7ab169e659eeaf5a06/capsule_231x87.jpg",
@@ -3791,6 +3791,7 @@
     },
     "categories": [
       2,
+      62,
       69,
       74
     ],
@@ -3844,7 +3845,7 @@
     },
     "categories": [
       2,
-      22,
+      62,
       69,
       74,
       75,
@@ -3856,8 +3857,11 @@
       23,
       37
     ],
+    "achievements": {
+      "total": 4
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "21 Jun, 2026"
     },
     "support_info": {
@@ -4718,6 +4722,7 @@
     },
     "categories": [
       2,
+      25,
       62
     ],
     "genres": [
@@ -5011,7 +5016,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Relay Protocol is a logic-based puzzle game built around experimentation, spatial reasoning, and energy-based mechanics. Redirect lasers, manipulate energy signals, and use specialized characters to solve interconnected test chambers inside a mysterious industrial facility.",
-    "supported_languages": "English<strong>*</strong>, Portuguese - Brazil, French, Italian, German, Polish, Spanish - Latin America<br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Portuguese - Brazil, French, Italian, German, Polish, Spanish - Latin America, Japanese, Korean, Russian, Simplified Chinese, Traditional Chinese, Turkish<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4698020/11e79c0155e8d695adcc8346f822bfa0055d50c8/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4698020/7585f8ed45312d137a9cd0ae2b19b562c1195941/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4698020/7585f8ed45312d137a9cd0ae2b19b562c1195941/capsule_184x69.jpg",
@@ -5062,7 +5067,7 @@
     "steam_appid": 4698150,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Support the Developer directly!",
+    "short_description": "Support the Developer Directly!",
     "fullgame": {
       "appid": "4698120",
       "name": "FAST FOOD FUNKIN'"
@@ -5078,7 +5083,19 @@
     "publishers": [
       "Milktoast Stuff"
     ],
-    "package_groups": [],
+    "packages": [
+      1635067
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy FAST FOOD FUNKIN' (Support the Developer!)",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5086,7 +5103,8 @@
     },
     "categories": [
       2,
-      21
+      21,
+      62
     ],
     "genres": [
       4,
@@ -5094,8 +5112,8 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "21 Jun, 2026"
     },
     "support_info": {
       "url": "https://brandondriesse.com/",
@@ -5283,6 +5301,12 @@
     ],
     "publishers": [
       "Broken Toilet Games"
+    ],
+    "demos": [
+      {
+        "appid": 4802030,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
