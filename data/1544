@@ -2370,6 +2370,9 @@
     "steam_appid": 4633760,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4836010
+    ],
     "short_description": "Deskdragora is a desktop companion game designed to live in the corner of your screen. Split your time between taking care of a little plant monster (or is it a monster plant?) while you work, study, or pretend to be productive.",
     "supported_languages": "English, Portuguese - Brazil",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4633760/e397c299397faaa46bc97adef0bcdb45e5c70425/header.jpg",
@@ -2381,6 +2384,12 @@
     ],
     "publishers": [
       "Monk Monkey"
+    ],
+    "demos": [
+      {
+        "appid": 4836010,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2768,7 +2777,7 @@
       4777870
     ],
     "short_description": "Build a wild fantasy lumber empire that bombards a forest across the valley with axes, ballistas, cannons, and magic. Harvest flying logs, stack absurd upgrades, and automate your way to unstoppable woodcutting power.",
-    "supported_languages": "English",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4632540/e1d54393d6f61fef45e15e6f9a7b5395eb83a758/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4632540/c87b93273f6e9d77040d10f29c2e09722bd5798b/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4632540/c87b93273f6e9d77040d10f29c2e09722bd5798b/capsule_184x69.jpg",
@@ -3591,7 +3600,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1613510
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Hanox",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3617,8 +3638,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 49
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "23 Jun, 2026"
     },
     "support_info": {
@@ -5451,7 +5475,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q3 2026"
+      "date": "10 Jul, 2026"
     },
     "support_info": {
       "url": "http://www.umbugames.com",
@@ -5879,8 +5903,8 @@
     "dlc": [
       4833200
     ],
-    "short_description": "Breakaway's version of soccer blends physics-based gameplay with simulations of world-class ball control: juggling, kicking, and curving the ball to victory.. or test your hands as goalkeeper! Play offline or online with friends in a dystopian robotic universe.",
-    "supported_languages": "English",
+    "short_description": "Soccer in Space. Bring friends (bots included!)",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4632730/e7de004e2f623cf00036b2007920fc2fe60da2ca/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4632730/a410160f867d666716ce632ed8a680162e7b8b15/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4632730/a410160f867d666716ce632ed8a680162e7b8b15/capsule_184x69.jpg",
@@ -6088,7 +6112,6 @@
     "categories": [
       2,
       15,
-      22,
       23,
       62,
       64,
@@ -6105,7 +6128,6 @@
       4,
       23,
       28,
-      37,
       70
     ],
     "release_date": {
@@ -7247,6 +7269,54 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4634510",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634510/e9db80db1b2f38ff13a3ca382167933a6c229b40/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4633560": {
+    "type": "game",
+    "name": "CRABRUN",
+    "steam_appid": 4633560,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Face an unforgiving arcade ecosystem made up of simple rules and filled with subtle interactions. Learn to walk sideways, dash through danger, and combo your way to an absurdly high score. The gods of the sea reward persistence and style in CRABRUN.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4633560/23f9b7fb68d6e81d23546c7b854ece17f18cdc26/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4633560/64a5f7d2fd54d6c22137d0d420cce730ffffeeca/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4633560/64a5f7d2fd54d6c22137d0d420cce730ffffeeca/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "almbkn"
+    ],
+    "publishers": [
+      "almbkn"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      18,
+      62,
+      75
+    ],
+    "genres": [
+      1
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q3 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support.almbkn@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4633560",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4633560",
     "content_descriptors": {
       "ids": [],
       "notes": null

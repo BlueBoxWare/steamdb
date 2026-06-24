@@ -12338,7 +12338,7 @@
     "name": "Lux",
     "steam_appid": 2795150,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "Lux is a 2D platformer that follows Lou, a girl who discovers a magic lantern in her attic. Full of quirky characters and a whole lot of puns, explore the town of Idelham, and discover the darkness that lurks under the surface.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2795150/c10de3674f800c9284e76b6e5242678ac3f2ae88/header.jpg",
@@ -12354,20 +12354,32 @@
     "publishers": [
       "Youth Dimension"
     ],
-    "package_groups": [],
+    "packages": [
+      1693416
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Lux",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       3,
       23,
-      25,
-      37
+      25
     ],
     "release_date": {
       "coming_soon": false,
