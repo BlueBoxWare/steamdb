@@ -1215,6 +1215,9 @@
     "steam_appid": 4653610,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4816110
+    ],
     "short_description": "You made a demonic deal to open your bar. With your friends, prepare cocktails, manage the chaos, and pay off your debt as you build your own bar empire.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Portuguese - Brazil, Japanese, Russian, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4653610/268c83cb4f148c9568e9f5c621e7f05155a979c8/header.jpg",
@@ -1226,6 +1229,12 @@
     ],
     "publishers": [
       "Co's Studios"
+    ],
+    "demos": [
+      {
+        "appid": 4816110,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -1277,13 +1286,19 @@
     "publishers": [
       "Mingo Games"
     ],
-    "demos": [
+    "packages": [
+      1620535
+    ],
+    "package_groups": [
       {
-        "appid": 4673540,
-        "description": ""
+        "name": "default",
+        "title": "Buy Mellow's Garden",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1299,8 +1314,11 @@
       28,
       70
     ],
+    "achievements": {
+      "total": 7
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "24 Jun, 2026"
     },
     "support_info": {
@@ -6005,7 +6023,7 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": true
     },
     "categories": [
