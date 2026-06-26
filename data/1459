@@ -725,7 +725,7 @@
     "steam_appid": 4379940,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A cursed slot machine decides if your family lives. Every round, pay your debt \u2014 or they die. The machine only pays on 8+ matching symbols, and it never forgives. Smoke cigarettes to bend the odds in this psychological-horror rogue-lite.",
+    "short_description": "A roguelike slot machine nightmare. The cursed machine has your family's lives in its grip: pay your debt every round, or they die. Bend the odds with cigarettes, line up 8 symbols, and force your way out of this hell. Losing is not an option.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Simplified Chinese<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Danish<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Russian<strong>*</strong>, Thai<strong>*</strong>, Turkish<strong>*</strong>, Czech<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4379940/2d6d5549029403776ee3534b234255ce99833b27/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4379940/1f433e7ddba0098c4a9fa8c31d0fa7e43637b6c9/capsule_231x87.jpg",
@@ -753,6 +753,7 @@
       2,
       18,
       22,
+      55,
       61,
       62
     ],
@@ -2980,7 +2981,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "3D action in multiplayer or solo. Defeat your opponent in various modes, gain or lose points in direct duels. Blik Ball, a fast-paced 3D action game with lots of fast balls and two paddles.",
-    "supported_languages": "English",
+    "supported_languages": "English, German",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4379890/2faaa78b7a521438b48e20ef197d65bd75add2a4/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4379890/baa2878c50378902a88a7b348af95824d5ab4a8a/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4379890/baa2878c50378902a88a7b348af95824d5ab4a8a/capsule_184x69.jpg",
@@ -4910,7 +4911,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1530199
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy A Lost Man",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4931,9 +4944,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 17
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "26 Jun, 2026"
+      "coming_soon": false,
+      "date": "25 Jun, 2026"
     },
     "support_info": {
       "url": "",
