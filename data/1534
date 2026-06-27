@@ -2590,6 +2590,9 @@
     "steam_appid": 4602730,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4673430
+    ],
     "short_description": "&quot;This One Doesn't Count&quot;\u2014You lived to 40, buying lottery tickets every single day, never winning once. On your deathbed, God reveals: &quot;Everyone who won was cheating.&quot; Reborn for one more try, do whatever it takes to pay your daughter's tuition before exam day. Scratch-card \u00d7 Roguelite.",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Simplified Chinese, Traditional Chinese, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4602730/e7d995d9b0e3fc5518ac28d9b589dcd945f97e85/header.jpg",
@@ -2608,7 +2611,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1603841
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u8fd9\u5f20\u4e0d\u7b97 This One Doesn't Count",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2617,6 +2632,7 @@
     "categories": [
       2,
       22,
+      23,
       62,
       74,
       76,
@@ -2630,9 +2646,12 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 35
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "July 2026"
+      "coming_soon": false,
+      "date": "26 Jun, 2026"
     },
     "support_info": {
       "url": "",
@@ -4658,6 +4677,7 @@
     "categories": [
       2,
       28,
+      60,
       62,
       68,
       69,
@@ -6931,6 +6951,57 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "4602280": {
+    "type": "game",
+    "name": "Eldritch Cards: The Lovecraftian Dungeon Crawler Game",
+    "steam_appid": 4602280,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Explore forbidden places, survive deadly encounters, and protect your fading sanity in a Lovecraftian card roguelike where every flipped card can change your fate.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4602280/d445bd6edcfbe4d8655d5ca6d2350bdeb210fd13/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4602280/774e7d649178d4acac8aebc4e5de7c6290814297/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4602280/774e7d649178d4acac8aebc4e5de7c6290814297/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Winstuck Games"
+    ],
+    "publishers": [
+      "Winstuck Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      62
+    ],
+    "genres": [
+      2,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "winstuckgames@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4602280",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4602280",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "Contains fantasy violence, blood, depictions of death, and dark themes. "
     }
   }
 }

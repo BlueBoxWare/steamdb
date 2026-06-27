@@ -2755,7 +2755,7 @@
     "name": "Free MP3 Cutter Joiner",
     "steam_appid": 2630010,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "MP3 Cutter Joiner is a tailor-made audio cutting and merging tool for Windows users. It perfectly integrates a professional-grade lossless processing engine with a popular minimalist design philosophy, allowing you to enjoy near-instant, zero-loss audio editing without facing any complex interfaces",
     "supported_languages": "Simplified Chinese<strong>*</strong>, English, French, Italian, German, Spanish - Spain, Hungarian, Turkish, Japanese, Traditional Chinese, Romanian, Arabic<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2630010/header.jpg",
@@ -2768,14 +2768,25 @@
     "publishers": [
       "dvdvideomedia"
     ],
-    "package_groups": [],
+    "packages": [
+      1699867
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Free MP3 Cutter Joiner",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
       "linux": false
     },
     "genres": [
-      37,
       52
     ],
     "release_date": {
