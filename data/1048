@@ -9432,7 +9432,7 @@
     "controller_support": "full",
     "short_description": "Sport meets slaughter in this roguelite arena FPS. Use lethal sports equipment to crush B-movie monsters. Combine upgrades, perfect your build, perfect your skills, and face the ultimate evil bosses. Play ball... or die trying.",
     "supported_languages": "English, French, German, Spanish - Spain, Simplified Chinese, Spanish - Latin America, Polish, Russian, Portuguese - Brazil",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3146440/a9ab6c68f609be7cdcf360280c1ea7b5d3ad6040/header_alt_assets_2.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3146440/fed0cd14e1afa704d0203b9c941178074286c53b/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3146440/6d83972d7a7e2d0d42a736e20ebd40359257ac10/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3146440/6d83972d7a7e2d0d42a736e20ebd40359257ac10/capsule_184x69.jpg",
     "website": null,
@@ -9471,6 +9471,8 @@
       22,
       23,
       28,
+      55,
+      57,
       62,
       68,
       69,
@@ -11326,7 +11328,7 @@
     "name": "Reaper Rules",
     "steam_appid": 3144440,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "controller_support": "full",
     "short_description": "Mix 2D platforming, action, and mystery in a compact adventure designed to be played in a single sitting. Reaper Rules is short, challenging, and full of personality.",
     "supported_languages": "English, Portuguese - Brazil, French, Italian, German, Spanish - Spain, Russian, Simplified Chinese, Traditional Chinese, Korean, Japanese",
@@ -11340,7 +11342,19 @@
     "publishers": [
       "DIG Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1701735
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Reaper Rules",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -11358,8 +11372,7 @@
     "genres": [
       1,
       23,
-      25,
-      37
+      25
     ],
     "achievements": {
       "total": 8
