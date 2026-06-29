@@ -1654,6 +1654,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4810010
+    ],
     "short_description": "Professional Cats is a cozy collection of 4 mini-games where cats dressed in different professions challenge your observation and memory skills. Find, match, and organize them while competing on global leaderboards!",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Korean, Japanese, Portuguese - Brazil",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4440360/9288c62c401042f99a1b813530d0e95b730e057f/header.jpg",
@@ -1666,7 +1669,25 @@
     "publishers": [
       "Rebeli\u00e3o Studio"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 4810010,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1550320
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Professional Cats",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1677,6 +1698,10 @@
       22,
       25,
       28,
+      55,
+      56,
+      57,
+      58,
       62,
       68,
       74,
@@ -1686,8 +1711,11 @@
     "genres": [
       4
     ],
+    "achievements": {
+      "total": 10
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "29 Jun, 2026"
     },
     "support_info": {
