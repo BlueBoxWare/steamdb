@@ -5651,6 +5651,10 @@
       22,
       28,
       38,
+      55,
+      56,
+      57,
+      58,
       62
     ],
     "genres": [
@@ -6627,7 +6631,7 @@
     "name": "Keep It Rolling",
     "steam_appid": 4655910,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "Roll the dice and match the cards in Keep It Rolling! Test your luck and strategy as you build winnings, manage risks, and push your luck in this exciting casino style card and dice game.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4655910/815659201e2ce88acaedbb9835a5fd1a65ae275c/header.jpg",
@@ -6640,23 +6644,35 @@
     "publishers": [
       "Nick Pace"
     ],
-    "package_groups": [],
+    "packages": [
+      1621124
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Keep It Rolling",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       2,
-      4,
-      37
+      4
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "30 Jun, 2026"
     },
     "support_info": {
       "url": "",
