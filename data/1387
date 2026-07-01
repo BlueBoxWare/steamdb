@@ -3357,7 +3357,7 @@
     "steam_appid": 4161380,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Assemble your squad, load up your weapons, and fight your way through chaos to reach freedom!",
+    "short_description": "A peaceful calm game where you shoot your way to safety. Skeletons, Robots, Flame Throwers! You get to control a squad of weaponized soldiers. Obviously, you can earn coins to update the squad.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161380/bded6d55ced3ddae3ec7aada30848da30b48dd09/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161380/c9409c8c60665f52756d27422ffa99b68994ad0c/capsule_231x87.jpg",
@@ -5661,7 +5661,7 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
@@ -8448,7 +8448,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1458242
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy ALYUP",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8466,6 +8478,10 @@
       39,
       44,
       49,
+      55,
+      56,
+      57,
+      58,
       62
     ],
     "genres": [
@@ -8474,8 +8490,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 9
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "30 Jun, 2026"
     },
     "support_info": {
@@ -8865,9 +8884,9 @@
     "name": "Steppe: The Last Defence",
     "steam_appid": 4162470,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
     "controller_support": "full",
-    "short_description": "Steppe is a side-scrolling tower defense game with a unique dynamic quest system. Build your tribe, assign your people, raise walls by day, and defend your realm against enemies that test your decisions every night.",
+    "short_description": "",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4162470/201a9bffbb65614f2fa2e70175afb25b5576a8a8/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4162470/5beaab3bc7fa1fe8e1bd4350b0f3c936aa5612c1/capsule_231x87.jpg",
@@ -8887,10 +8906,13 @@
     },
     "categories": [
       2,
-      22,
       23,
       28,
       35,
+      55,
+      56,
+      57,
+      58,
       62,
       65,
       68,
@@ -8902,7 +8924,8 @@
     "genres": [
       2,
       25,
-      28
+      28,
+      37
     ],
     "release_date": {
       "coming_soon": true,
@@ -8910,7 +8933,7 @@
     },
     "support_info": {
       "url": "",
-      "email": "berke.kanlikilic@pixelbirdgames.com"
+      "email": ""
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4162470",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4162470",

@@ -392,7 +392,7 @@
     "is_free": true,
     "controller_support": "full",
     "short_description": "A 2D pixel-art platformer where you choose which armor to wear. Full armor makes you invincible - anyone can win. Leave some behind and the game becomes a very different challenge.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Traditional Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4807600/bba4b0c3438f8372898e7d5dcba07ecf222e6cc2/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4807600/3b1c70f7a69f123a5a4e2d1366ccba098e5c4012/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4807600/3b1c70f7a69f123a5a4e2d1366ccba098e5c4012/capsule_184x69.jpg",
@@ -413,6 +413,12 @@
       2,
       22,
       28,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
       62,
       69,
       75
@@ -2065,7 +2071,19 @@
     "publishers": [
       "Fortuna Lectiones"
     ],
-    "package_groups": [],
+    "packages": [
+      1671204
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Castaway: Lost Horizon",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2084,7 +2102,7 @@
       4
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "30 Jun, 2026"
     },
     "support_info": {
@@ -2139,7 +2157,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "To be announced"
+      "date": "9 Jul, 2026"
     },
     "support_info": {
       "url": "",
@@ -2833,7 +2851,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "June 2026"
+      "date": "2026"
     },
     "support_info": {
       "url": "",
@@ -3496,7 +3514,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Pixel Extraction is a 2D pixel-art top-down extraction shooter. Scavenge hostile zones, fight enemies, manage ammo, injuries, and limited inventory space, then extract with your loot. Return to base to organize your stash, craft supplies, repair gear, and prepare for the next run.",
+    "short_description": "Ember: Symbiotic Wilderness is a 2D pixel-art co-op survival game set in a living wilderness shaped by temperature, weather, seasons, and ecology. Start with a single fire, divide the work with your team, and build a camp that can endure.",
     "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4808490/236ad8926ba9f6fa4f94396306873cb982572b15/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4808490/c50805d05ee1d029598f6daf0a6a477edb601c78/capsule_231x87.jpg",
@@ -3524,12 +3542,8 @@
       23,
       28,
       30,
-      36,
       38,
-      47,
       48,
-      49,
-      51,
       55,
       56,
       57,
@@ -3545,10 +3559,13 @@
       79
     ],
     "genres": [
+      1,
+      2,
       3,
       4,
       23,
-      25
+      25,
+      28
     ],
     "release_date": {
       "coming_soon": true,
@@ -5077,6 +5094,60 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4808010",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4808010",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4808500": {
+    "type": "game",
+    "name": "Global Supremacy",
+    "steam_appid": 4808500,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A vast, real-time geopolitical simulation where 196 nations live and breathe at once. Economy, finance, monetary policy, trade, energy, military, diplomacy, nuclear strategy, politics, society \u2014 every lever that moves a nation is in your hands. The clock never stops \u2014 until you stop it.",
+    "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4808500/70e6d25dfe78ad425735d45300ecea75a433cb2c/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4808500/bca088312a94485813182ab50c962c4d635d9215/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4808500/bca088312a94485813182ab50c962c4d635d9215/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Glory Media"
+    ],
+    "publishers": [
+      "SJ co."
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      30,
+      62,
+      68,
+      74,
+      78,
+      79
+    ],
+    "genres": [
+      2,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "globalsupremacy26@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4808500",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4808500/adc4aa12141c7e31d6f032126449411cf534bbc9/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

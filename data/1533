@@ -2084,7 +2084,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Rotate hex tiles, create powerful combos, and chase high scores in this fast-paced puzzle game. Simple to learn, hard to master, with endless replayability and global leaderboards.",
+    "short_description": "Rotate hex tiles, create powerful combos, and chase high scores in this fast-paced puzzle game. Simple to learn, hard to master, with endless replayability and global leaderboards. Play solo or versus a friend/stranger!",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese, Filipino, Hindi, Malay",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4600140/64ca765abd75d858413d89e93364c533fc028906/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4600140/4b3c48a935c40b3a6d22ad6d855e71c15df8d6b8/capsule_231x87.jpg",
@@ -2115,10 +2115,17 @@
       "linux": false
     },
     "categories": [
+      1,
       2,
       22,
       25,
       28,
+      36,
+      49,
+      55,
+      56,
+      57,
+      58,
       62,
       67,
       68,
@@ -2188,6 +2195,8 @@
     },
     "categories": [
       2,
+      15,
+      22,
       23,
       25,
       62,
@@ -3034,7 +3043,6 @@
       1,
       22,
       36,
-      47,
       49,
       62,
       67,
@@ -3465,7 +3473,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Survive in futuristic 2046 USA where a ruthless megacorporation owns your debt. Mine cobalt, automate production, craft machines, explore a dying world, and ride your electric bike across vast pixel-art wastelands. Pay what you owe\u2026 or disappear.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, German, Spanish - Spain, Polish<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4601880/50f066fec87fa286bd27eee520a89a5330674a1e/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4601880/f46723ebb8e9b94db81899f3f98191d4c84009b5/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4601880/f46723ebb8e9b94db81899f3f98191d4c84009b5/capsule_184x69.jpg",
@@ -3809,6 +3817,13 @@
     "steam_appid": 4599500,
     "required_age": 0,
     "is_free": true,
+    "dlc": [
+      4872040,
+      4876230,
+      4876300,
+      4878320,
+      4878350
+    ],
     "short_description": "A super soothing coloring game! 50 levels of rich content, glass-like luminous dots + embossed 3D visuals. Auto-playback your coloring process after completing each level. Pick up anytime, put down anytime\u2014perfect relaxation for all ages.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Danish, Ukrainian, Russian, Bulgarian, Hungarian, Indonesian, Turkish, Greek, Norwegian, Czech, Japanese, Polish, Thai, Swedish, Simplified Chinese, Traditional Chinese, Romanian, Finnish, Dutch, Portuguese - Brazil, Portuguese - Portugal, Spanish - Latin America, Vietnamese, Arabic, Korean, Uzbek, Urdu, Armenian, Igbo, Sindhi, Sinhala, Croatian, Icelandic, Cherokee, Galician, Catalan, Afrikaans, Kannada, Luxembourgish, Hindi, Gujarati, Kyrgyz, Kazakh, Turkmen, K'iche', Kinyarwanda, Tajik, Serbian, Odia, Welsh, Konkani, Bangla, Nepali, Basque, Hebrew, Latvian, Tigrinya, Slovak, Slovenian, Swahili, Punjabi (Gurmukhi), Punjabi (Shahmukhi), Georgian, Maori, Wolof, Bosnian, Persian, Telugu, Tamil, Irish, Estonian, Valencian, Belarusian, Quechua, Zulu, Xhosa, Lithuanian, Sotho, Sorani, Yoruba, Uyghur, Scots, Tswana, Filipino, Mongolian, Hausa, Dari, Azerbaijani, Amharic, Albanian, Assamese, Tatar, Macedonian, Marathi, Malayalam, Malay, Maltese, Khmer",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599500/b10eba6eb1d173d980c71a23ac6f48914eb2c148/header.jpg",
@@ -3850,7 +3865,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "2 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -7016,10 +7031,22 @@
     "publishers": [
       "Drunk Hogs Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1602867
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Magic Puzzles: Twins",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": false
     },
     "categories": [
@@ -7031,8 +7058,8 @@
       4
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q2 2026"
+      "coming_soon": false,
+      "date": "1 Jul, 2026"
     },
     "support_info": {
       "url": "",
@@ -7112,7 +7139,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "A deep-space traffic control roguelite. Route ships, scan contraband, and fight escalating threats\u2014from smugglers to warlords to phase-jumping aliens\u2014while keeping one remote station alive. One bad call and your hull pays the price.",
-    "supported_languages": "English<strong>*</strong>, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Turkish<br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Turkish<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599580/49ca321ba4a6bc4e1152c2a74acd170e9e928de7/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599580/65b083b0f7b0316eea0a74be92ff175c41c3862a/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599580/65b083b0f7b0316eea0a74be92ff175c41c3862a/capsule_184x69.jpg",
