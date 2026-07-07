@@ -8964,7 +8964,7 @@
     "name": "Timber!",
     "steam_appid": 2731400,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "Dementia, tragedy and fun \u2013 all in the same taste of a potato! Timber! is a 2D point-and-click storydriven game that takes you on an emotional journey. Explore a mix of feelings, from the heart-wrenching struggles of dementia to the unraveling of a tragic story.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2731400/header.jpg",
@@ -8983,7 +8983,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1012124
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Timber!",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8996,8 +9008,7 @@
     "genres": [
       4,
       23,
-      25,
-      37
+      25
     ],
     "release_date": {
       "coming_soon": false,

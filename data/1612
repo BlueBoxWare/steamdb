@@ -2184,7 +2184,7 @@
     "required_age": 0,
     "is_free": true,
     "short_description": "Embody your avatar. GenderShift is a push-to-talk voice changer that rebuilds your words in a real, natural feminine voice (or masculine, your call), so you pass in VRChat, Discord, anywhere you talk online. Your own voice, shifted.",
-    "supported_languages": "English<strong>*</strong>, Korean<strong>*</strong>, Simplified Chinese<strong>*</strong>, Russian<strong>*</strong>, Japanese<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Korean<strong>*</strong>, Simplified Chinese<strong>*</strong>, Russian<strong>*</strong>, Japanese<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4838620/eb1469799adce5fa2c461e14a142136e3e327a2f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4838620/06621203419d792af8e08491104bc733c58ae13b/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4838620/06621203419d792af8e08491104bc733c58ae13b/capsule_184x69.jpg",
@@ -6275,7 +6275,7 @@
     "steam_appid": 4836100,
     "required_age": 0,
     "is_free": false,
-    "short_description": "An easy to use, fully adjustable space lab with Einstein's special relativity equations in a three-spacecraft configuration. Play around with time dilation and relativistic Doppler effects in space at your own pace. Multiple viewpoints in 3D, real-time, with exportable data functions.",
+    "short_description": "An easy to use, fully adjustable space lab with Einstein's special relativity equations in a three-spacecraft configuration. Play around with time dilation and relativistic Doppler effects in space at your own pace. Multiple viewpoints in 3D, real-time, with data export functionality.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4836100/fe9fa08c269f136fd91d0e015d7396d84fab8884/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4836100/7a893d18d2a92c069d6dad95ba3cc72b0e3b71ae/capsule_231x87.jpg",
@@ -6302,10 +6302,10 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "June 2026"
+      "date": "Coming soon"
     },
     "support_info": {
-      "url": "discourse.panda3d.org",
+      "url": "https://discourse.panda3d.org",
       "email": ""
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4836100",
@@ -7130,6 +7130,9 @@
     "steam_appid": 4838060,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4856290
+    ],
     "short_description": "A lottery roguelike. Move animals to create winning tickets, then combine powerful synergies and unique relics to build massive jackpots!",
     "supported_languages": "English, Korean, French, Italian, German, Spanish - Spain, Greek, Dutch, Norwegian, Danish, Russian, Romanian, Malay, Vietnamese, Bulgarian, Swedish, Spanish - Latin America, Arabic, Ukrainian, Indonesian, Japanese, Simplified Chinese, Traditional Chinese, Czech, Thai, Turkish, Portuguese - Brazil, Portuguese - Portugal, Polish, Finnish, Hungarian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4838060/39823efe7158021d4ec6d3f468dfbda5c4e3487c/header.jpg",
@@ -7141,6 +7144,12 @@
     ],
     "publishers": [
       "NextBuff"
+    ],
+    "demos": [
+      {
+        "appid": 4856290,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -7159,7 +7168,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2026"
+      "date": "10 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -7255,6 +7264,8 @@
     },
     "categories": [
       2,
+      22,
+      23,
       62,
       65,
       66,
@@ -7712,7 +7723,19 @@
     "publishers": [
       "Minimum Studio Corp."
     ],
-    "package_groups": [],
+    "packages": [
+      1680835
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Slime Tempest - \"Catgirl Survivor\" Character Unlocked! \"Akane\" & \"Koro\"",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7726,7 +7749,10 @@
       56,
       57,
       58,
-      62
+      62,
+      67,
+      68,
+      74
     ],
     "genres": [
       1,
@@ -7734,8 +7760,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "7 Jul, 2026"
     },
     "support_info": {
       "url": "https://home.minimumstudio.net/",
@@ -7957,6 +7983,109 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4836870",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4836870/56132126d2cce499f1bdacea00c508b5ffd51914/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4836860": {
+    "type": "game",
+    "name": "Beguiled Egress",
+    "steam_appid": 4836860,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Beguiled Egress is a first-person psychological horror experience focused on exploration, environmental storytelling, and puzzle solving.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4836860/3eb635d1d68beecc9829f4b73d47dad166ae19f8/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4836860/0aa91a07e2a9f3d3cd2886f9d9b31dff59e887e2/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4836860/0aa91a07e2a9f3d3cd2886f9d9b31dff59e887e2/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Gregory Montoya"
+    ],
+    "publishers": [
+      "Gregory Montoya"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      69,
+      70,
+      74
+    ],
+    "genres": [
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "21 Aug, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "gregomon8706@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4836860",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4836860/9f527ad66d5d1db852c7c79842424dfc8435fafe/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4838680": {
+    "type": "game",
+    "name": "Who Am I Next? : Animals",
+    "steam_appid": 4838680,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Who Am I Next? : Animals is a fast-paced, 7-player brawler where you must survive ever-changing chaos. Clear your animal's missions and claim the #1 spot!",
+    "supported_languages": "English, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4838680/eeaad270fa25f3d9042e4d8f50b537d513bb553e/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4838680/86065cf712d66b507b413395077d10293316f666/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4838680/86065cf712d66b507b413395077d10293316f666/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "OFFMOON Inc."
+    ],
+    "publishers": [
+      "OFFMOON Inc."
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      23,
+      36,
+      38,
+      49,
+      62
+    ],
+    "genres": [
+      1,
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://discord.gg/ME5HzPqvnQ",
+      "email": "gon@111percent.net"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4838680",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4838680",
     "content_descriptors": {
       "ids": [],
       "notes": null
