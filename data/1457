@@ -2319,7 +2319,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "A 3D capture-the-flag party game where teams compete to steal the rival team\u2019s ball, score points, and win fast-paced matches. Choose from a wide roster of characters with unique abilities, create powerful team combinations, and outplay the other team in chaotic local co-op action.",
+    "short_description": "A 3D party game where every match revolves around one goal: steal the rival team's ball before they steal yours. Choose from a roster of unique characters, combine abilities, and outsmart the opposing team in chaotic local co-op battles.",
     "supported_languages": "English, Spanish - Spain, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4373500/50468be995a58c123cefcac471a232740e342f8d/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4373500/e68810288bc57b81ec6b4668d28b44780d9e7658/capsule_231x87.jpg",
@@ -2345,6 +2345,10 @@
       28,
       39,
       43,
+      55,
+      56,
+      57,
+      58,
       62,
       64,
       66,
@@ -5380,7 +5384,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1527941
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Nerds Revenge",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5407,8 +5423,11 @@
       28,
       70
     ],
+    "achievements": {
+      "total": 17
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "7 Jul, 2026"
     },
     "support_info": {
