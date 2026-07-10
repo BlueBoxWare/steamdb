@@ -13630,6 +13630,9 @@
     "steam_appid": 3534790,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4752360
+    ],
     "short_description": "MESMALIE is an occult visual novel with point and click mechanics. A magickal incident in your personal life brings you to a small witches' coven in the middle of nowhere. Here, you'll learn to tame your ability... though, not without some bumps along the way.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3534790/555fe109b7ffc548bea016a60df6f9e642d78cd1/header.jpg",
@@ -13648,7 +13651,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1247785
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Mesmalie",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13668,8 +13683,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 13
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Jul, 2026"
     },
     "support_info": {
