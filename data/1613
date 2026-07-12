@@ -365,6 +365,9 @@
     "steam_appid": 4840020,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4955210
+    ],
     "short_description": "Build a team, loot gear in turn-based tactical combat, then extract or push deeper and risk losing it all. Forge, craft and trade your haul on a real player-driven market. A tactical roguelite where your loot actually has value.",
     "supported_languages": "English, French",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4840020/cd772025c00fa242d05ed5df65490bb70201aeb2/header.jpg",
@@ -469,7 +472,7 @@
     "steam_appid": 4839050,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A short horror game where you pilot an old hot air balloon through ghostly and desolate canyons on an agonizing and claustrophobic journey.",
+    "short_description": "A minimalist horror game where you pilot an old hot air balloon through ghostly and desolate canyons on an agonizing and claustrophobic journey.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Korean, Japanese, Polish, Portuguese - Brazil, Russian, Spanish - Latin America, Turkish, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4839050/78a9931e7661e11776faefb93fe01e6e159aa195/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4839050/a7e536eae49b2e710a5f7ff39d487fadff65bd27/capsule_231x87.jpg",
@@ -1349,7 +1352,6 @@
       "Erak_Dev"
     ],
     "publishers": [
-      "SGames",
       "AenyeGames"
     ],
     "demos": [
@@ -3551,7 +3553,19 @@
     "publishers": [
       "Hata  "
     ],
-    "package_groups": [],
+    "packages": [
+      1681339
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Abyrith",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3566,8 +3580,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "11 Jul, 2026"
     },
     "support_info": {
       "url": "",
