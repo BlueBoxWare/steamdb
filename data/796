@@ -5,6 +5,7 @@
     "steam_appid": 2388580,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "A STORM IS COMING. If you can\u2019t build shelter in a matter of days your entire group will perish. But the forest is cursed, and is driving some of your friends mad - now they\u2019re trying to get you all killed. Find the Traitors in Forest of Deceit, a social deduction Jackbox-esque game for 4-8 players.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2388580/015e76ce81ae8a970cb58cf22e8205c1c970fe75/header.jpg",
@@ -17,7 +18,19 @@
     "publishers": [
       "Ghost Camp"
     ],
-    "package_groups": [],
+    "packages": [
+      859321
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Forest of Deceit",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -28,10 +41,15 @@
       13,
       22,
       24,
+      28,
       36,
       37,
       44,
       49,
+      55,
+      56,
+      57,
+      58,
       62,
       66,
       68,
@@ -44,8 +62,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 24
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "13 Jul, 2026"
     },
     "support_info": {

@@ -12678,7 +12678,7 @@
     "name": "Cybercontrol",
     "steam_appid": 2186460,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "A third-person game",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186460/header.jpg",
@@ -12691,7 +12691,19 @@
     "publishers": [
       "DIG Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1722204
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cybercontrol",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12704,8 +12716,7 @@
     "genres": [
       1,
       23,
-      28,
-      37
+      28
     ],
     "release_date": {
       "coming_soon": false,
@@ -13354,6 +13365,7 @@
       28,
       55,
       57,
+      58,
       62
     ],
     "genres": [

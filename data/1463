@@ -360,6 +360,7 @@
     },
     "categories": [
       2,
+      18,
       22,
       23,
       62,
@@ -386,8 +387,10 @@
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4389170",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4389170/5e04a0d6ae92677d354b1aa4ea0a77df4f236e7f/page_bg_raw.jpg",
     "content_descriptors": {
-      "ids": [],
-      "notes": null
+      "ids": [
+        5
+      ],
+      "notes": "The game suggests some sensitive psychological topics through symbolism and allegories on its dialogues and puzzles."
     }
   },
   "4391560": {
@@ -3696,7 +3699,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1533196
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Edd Skeleton VR",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3713,8 +3728,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 60
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "14 Jul, 2026"
     },
     "support_info": {

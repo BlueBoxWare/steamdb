@@ -4165,7 +4165,7 @@
     "steam_appid": 3349560,
     "required_age": 0,
     "is_free": true,
-    "short_description": "3 dungeons, 3 days, 3 power sources. Princess of Frozen Flowers is a time management dungeon RPG where you are tasked with finishing each dungeon on time as each day gets increasingly more difficult.",
+    "short_description": "Princess of Frozen Flowers is a boss-heavy dungeon exploration RPG where you are tasked with completing one dungeon each day as the game gets increasingly more difficult.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3349560/60a54b1078935f3b71c242429e083907e5d04756/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3349560/a54efda5b6de359aa1683c58f99bdb119935f8a7/capsule_231x87.jpg",
@@ -4175,7 +4175,7 @@
       "Bloodkin"
     ],
     "publishers": [
-      "Bloodkin Fantasy Works"
+      "Bloodkin"
     ],
     "package_groups": [],
     "platforms": {
@@ -4184,7 +4184,8 @@
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       2,
@@ -4195,7 +4196,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "To be announced"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -4206,10 +4207,9 @@
     "content_descriptors": {
       "ids": [
         1,
-        2,
         5
       ],
-      "notes": "Frequent killing of both creatures and humans in combat. Implied heavy violence through sound effects and descriptions \"broken limbs\",  \"gouged eyes\", \"choking\". Corpse gore in the overworld such as decapitations, implied spine ripping, and corpse kicking. Scenes of impalement, poisoning, and falling to death. Sound only game over scenes that implicate intense violence. "
+      "notes": "Death scenes include: decapitation, impalement, strangulation. Overworld mechanics include: enemy corpse kicking and killing of NPC's.  "
     }
   },
   "3350030": {
@@ -13073,7 +13073,9 @@
     "steam_appid": 3349910,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
+    "dlc": [
+      4938710
+    ],
     "short_description": "Chaotic car brawler where you collect items, spam unique abilities, and trash talk your friends. Knock opponents off the platform or keep them out of the circle to win!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3349910/afa94a651496992d4860ce6d8e36705310f0d3f3/header.jpg",
@@ -13086,6 +13088,12 @@
     "publishers": [
       "Bouka Dev"
     ],
+    "demos": [
+      {
+        "appid": 4938710,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -13094,11 +13102,8 @@
     },
     "categories": [
       1,
-      28,
       36,
       49,
-      55,
-      57,
       62
     ],
     "genres": [

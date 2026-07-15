@@ -1082,10 +1082,10 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4802270/c533a801d99e02b31163b01ae19590889df8a3f0/capsule_184x69.jpg",
     "website": "https://www.seekinghomegame.com/",
     "developers": [
-      "Enlightale"
+      "Seeking Home"
     ],
     "publishers": [
-      "Enlightale"
+      "Seeking Home"
     ],
     "package_groups": [],
     "platforms": {
@@ -1097,6 +1097,11 @@
       2,
       13,
       28,
+      55,
+      56,
+      57,
+      58,
+      59,
       62
     ],
     "genres": [
@@ -3590,6 +3595,9 @@
     "steam_appid": 4800390,
     "required_age": 0,
     "is_free": true,
+    "dlc": [
+      4955310
+    ],
     "short_description": "Battle amongst the gods in this free-to-play anime trading card game. Starting as a fledgling deity, collect followers from fantasy, sci-fi, and post-apocalyptic realms. Build and try out distinct decks, earn belief, open packs, and challenge rival gods in tactical PvE and online PvP duels.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800390/6364d52b8327c200d9fe9da1f7bc3dd77a4d966c/header.jpg",
@@ -3636,7 +3644,7 @@
         1,
         5
       ],
-      "notes": "Absolute Territory: Duels of the Gods contains fantasy/card-battle violence, including attacks, spells, monsters, weapons, explosions, and implied defeat or death during duels. Some character designs may include mildly suggestive anime-style outfits or poses.\r\n\r\nThe game does not contain depictions of sexual acts, sexual assault/non-consensual sex, explicit nudity, self-harm, or drug/alcohol abuse."
+      "notes": "Absolute Territory: Duels of the Gods contains fantasy/card-battle violence, including attacks, spells, monsters, weapons, explosions, and implied defeat or death during duels. Some character designs may include mildly suggestive anime-style outfits or poses."
     }
   },
   "4802350": {
@@ -3661,11 +3669,12 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
       22,
+      23,
       62
     ],
     "genres": [
@@ -3673,7 +3682,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "30 Jul, 2026"
     },
     "support_info": {
       "url": "",
@@ -3830,7 +3839,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1668361
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Figryne Cast Studio Engine - Cinematic LUT Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3845,8 +3866,8 @@
       58
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "13 Jul, 2026"
+      "coming_soon": false,
+      "date": "14 Jul, 2026"
     },
     "support_info": {
       "url": "https://figryne.com/contact",
@@ -3895,8 +3916,8 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "13 Jul, 2026"
+      "coming_soon": false,
+      "date": "15 Jul, 2026"
     },
     "support_info": {
       "url": "",
@@ -4119,7 +4140,7 @@
     "steam_appid": 4801500,
     "required_age": 0,
     "is_free": false,
-    "short_description": "SWIFTALE PLAYER is a solo text RPG where an AI game master runs your adventure. Bring your own LLM, create worlds and characters, and play branching stories with structured rules, resources, and consequences.",
+    "short_description": "[Japanese language only] Solo TTRPG powered by your own LLM. All in-game text and player input are in Japanese; there is no English support.",
     "supported_languages": "Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4801500/28a54fb7db62f5f26a4055305af443b2a23e064f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4801500/d526d2c5e4b4faa4fe4265e7d4b35799d341f039/capsule_231x87.jpg",
@@ -4402,10 +4423,10 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800620/64138522061062519e37e89fd3850f49f96486d7/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Everlifelab"
+      "EverLifeLab"
     ],
     "publishers": [
-      "Everlifelab"
+      "EverLifeLab"
     ],
     "package_groups": [],
     "platforms": {
@@ -4662,6 +4683,165 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4801600",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4801600",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4800270": {
+    "type": "game",
+    "name": "Temp Job",
+    "steam_appid": 4800270,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Temp Job: Sort boxes. Explore restricted rooms. Don\u2019t get fired\u2026or worse.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800270/3ab33dcf61bdf7a4ec51f18380f8b2eb6655fe63/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800270/6568f26c06dc86462c499065664c2b0b867aa446/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800270/6568f26c06dc86462c499065664c2b0b867aa446/capsule_184x69.jpg",
+    "website": "https://lhstudios.io/temp-job-the-game/",
+    "developers": [
+      "LH Studios"
+    ],
+    "publishers": [
+      "LH Studios"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      28,
+      59,
+      62
+    ],
+    "genres": [
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "contact@lhstudios.io"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4800270",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800270/f8c0aebf26df117e69d3e36726866b05502b9830/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4801270": {
+    "type": "game",
+    "name": "Ashes of Macedonia",
+    "steam_appid": 4801270,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Survive the chaos of the Greek Macedonian Front in a brutal WW1 first-person shooter. Hold the line against overwhelming assaults, manage dwindling resources, and fight to stay alive. Death is permanent. One life. One soldier. One chance.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4801270/9c5420082d69e70f8f03a57943e45d19a7be6333/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4801270/f768c03c9c0f87ca4401633f793552f94a8a227f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4801270/f768c03c9c0f87ca4401633f793552f94a8a227f/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Filios Christou"
+    ],
+    "publishers": [
+      "Filios Christou"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      62,
+      67,
+      68,
+      69,
+      70,
+      74
+    ],
+    "genres": [
+      1,
+      25,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "1 Oct, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "spiretakk@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4801270",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4801270",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game contains depictions of war and combat, including gunfire, explosions, and death during World War I battles. Players fight enemy soldiers in realistic battlefield scenarios. "
+    }
+  },
+  "4801790": {
+    "type": "game",
+    "name": "Hello,Hollow Town",
+    "steam_appid": 4801790,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Spend your life savings on an old farm in an island town where everyone has a secret. Farm, fish, raise animals, hunt, decorate, dress up, make friends, and pretend to live a normal life while uncovering the truth behind your grandmother\u2019s disappearance.",
+    "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4801790/2ddbc21121ed5fa4e480886791d69e85055c20e5/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4801790/4e99582f4c31a6155af18486ad76267e14bb0cfe/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4801790/4e99582f4c31a6155af18486ad76267e14bb0cfe/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Pink Pony Pixel"
+    ],
+    "publishers": [
+      "Pink Pony Pixel"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      68,
+      69,
+      74,
+      79
+    ],
+    "genres": [
+      3,
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "pinkponypixel@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4801790",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4801790/64aa816622a0b25d8ab2ebe8d88ddfcbf20381bd/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
