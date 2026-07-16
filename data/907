@@ -7246,7 +7246,7 @@
     "name": "Gloomsday",
     "steam_appid": 2721710,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "Gloomsday is an action-packed roguelite platformer with a unique spellcasting mechanic. Your spellcasting resource is in the world around you--no mana bars here! As you cast your &quot;gloomspells&quot;, you'll find the serene, yet gloomy landscape go dark and grey... but the magic will return soon enough.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2721710/header.jpg",
@@ -7259,14 +7259,27 @@
     "publishers": [
       "Team Nabla"
     ],
-    "package_groups": [],
+    "packages": [
+      1714929
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Gloomsday",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
@@ -7280,8 +7293,8 @@
       "date": "1 Jan, 2024"
     },
     "support_info": {
-      "url": "",
-      "email": "https://teamnabla.com/"
+      "url": "https://teamnabla.com/",
+      "email": "contact@teamnabla.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2721710",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2721710",

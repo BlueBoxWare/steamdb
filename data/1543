@@ -4942,6 +4942,9 @@
     "steam_appid": 4631100,
     "required_age": 0,
     "is_free": true,
+    "dlc": [
+      4834940
+    ],
     "short_description": "Arcany is a cozy persistent online world set in the mysterious Realm of Gravenmoor. Train skills, explore a magical land, craft powerful items, and uncover the story behind the forgotten cataclysme.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4631100/9087411e6b8c2fbd241b1804a42d8b619b076545/header.jpg",
@@ -4955,6 +4958,12 @@
     ],
     "publishers": [
       "Polypoode"
+    ],
+    "demos": [
+      {
+        "appid": 4834940,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4970,6 +4979,7 @@
       36,
       38,
       49,
+      62,
       68,
       74,
       79
@@ -4984,7 +4994,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "July 2026"
+      "date": "Q3 2026"
     },
     "support_info": {
       "url": "https://arcanygame.com/contact",
@@ -5078,7 +5088,25 @@
     "publishers": [
       "Old Retina Museum"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 4927570,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1613149
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Crimsooon Sun",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5097,9 +5125,12 @@
       4,
       25
     ],
+    "achievements": {
+      "total": 8
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "17 Jul, 2026"
+      "coming_soon": false,
+      "date": "16 Jul, 2026"
     },
     "support_info": {
       "url": "",
@@ -8083,7 +8114,19 @@
     "publishers": [
       "zawascript"
     ],
-    "package_groups": [],
+    "packages": [
+      1612549
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy PLUS ULTRA",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -8102,9 +8145,12 @@
       1,
       4
     ],
+    "achievements": {
+      "total": 5
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "July 2026"
+      "coming_soon": false,
+      "date": "15 Jul, 2026"
     },
     "support_info": {
       "url": "",
@@ -8313,6 +8359,123 @@
         5
       ],
       "notes": "This game features intense violence, blood and gore."
+    }
+  },
+  "4629760": {
+    "type": "game",
+    "name": "Elsewar",
+    "steam_appid": 4629760,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Elsewar is a fantasy roguelike deck builder about creating powerful synergies and mitigating the attrition of fighting Monsters with your Army of varied Units.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Czech, Danish, Dutch, Finnish, Greek, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese, Bangla, Croatian, Estonian, Hebrew, Hindi, Latvian, Lithuanian, Malay, Urdu",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4629760/6f33510c7be38a0d5e71918b72ce87ca64034f10/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4629760/8d45d1e86545a241663a2a2058e32f404be89952/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4629760/8d45d1e86545a241663a2a2058e32f404be89952/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Sannatorium Studios"
+    ],
+    "publishers": [
+      "Sannatorium Studios"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      62,
+      68,
+      74,
+      76,
+      79
+    ],
+    "genres": [
+      2,
+      4,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "July 2026"
+    },
+    "support_info": {
+      "url": "https://sannatoriumstudios.com/",
+      "email": "admin@sannatoriumstudios.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4629760",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4629760/0a18198f33101190b044ea2117b0a2fe10099f82/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4630720": {
+    "type": "dlc",
+    "name": "KYOTO XANADU -the Blooming Phantom- - Support Card: LinoN",
+    "steam_appid": 4630720,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "This item allows you to obtain the Support Card: LinoN.",
+    "fullgame": {
+      "appid": "4449410",
+      "name": "KYOTO XANADU -the Blooming Phantom-"
+    },
+    "supported_languages": "Japanese<strong>*</strong>, Simplified Chinese, Traditional Chinese, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4630720/c772e4a38a4145c4d7905626d46dc330a06dfc52/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4630720/ac15c3ce7cc528e66a05558a29fbeb1f4ce1a8c1/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4630720/ac15c3ce7cc528e66a05558a29fbeb1f4ce1a8c1/capsule_184x69.jpg",
+    "website": "https://www.falcom.co.jp/kyoxana/",
+    "developers": [
+      "Nihon Falcom"
+    ],
+    "publishers": [
+      "Nihon Falcom",
+      "Clouded Leopard Entertainment"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      23,
+      28,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
+    ],
+    "genres": [
+      1,
+      3
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "15 Jul, 2026"
+    },
+    "support_info": {
+      "url": "https://www.falcom.co.jp/kyoxana/support/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4630720",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4630720",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }
