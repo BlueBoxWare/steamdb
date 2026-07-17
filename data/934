@@ -15366,6 +15366,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4926280
+    ],
     "short_description": "Get a grip, it\u2019s Heave Ho 2! The insane 2-4 player party game sequel takes the couch co-op mayhem online for the first time. Grab what you can and swing to win!",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2802740/829d9cf1b2dc94d98d2df66cf91ecec316e55802/header.jpg",
@@ -15384,7 +15387,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1001010
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Heave Ho 2",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -15419,8 +15434,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 21
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "16 Jul, 2026"
     },
     "support_info": {

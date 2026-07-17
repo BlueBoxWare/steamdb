@@ -1383,6 +1383,9 @@
     "steam_appid": 4676800,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4733290
+    ],
     "short_description": "Do you think solving puzzles is easy? &quot;Inscrutable FourDC&quot; is a game of extreme difficulty focused on one goal: deriving a 4-Digit Code (4DC). There is no time limit, but five wrong guesses will force you to the next problem. You will reach the ending\u2014even if you fail to solve a single riddle.",
     "supported_languages": "English, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4676800/de3dc31940961d1b9ab7ab3173303dee092ec631/header.jpg",
@@ -1395,7 +1398,25 @@
     "publishers": [
       "Maruno Games"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 4730110,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1628040
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Inscrutable FourDC -Imprisonment-",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1416,9 +1437,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 5
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q3 2026"
+      "coming_soon": false,
+      "date": "16 Jul, 2026"
     },
     "support_info": {
       "url": "https://game.marunokan.com/Steam/I4DC/",
