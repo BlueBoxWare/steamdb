@@ -1001,6 +1001,13 @@
     "required_age": 0,
     "is_free": true,
     "controller_support": "full",
+    "dlc": [
+      4876510,
+      4876520,
+      4876530,
+      4876540,
+      4876550
+    ],
     "short_description": "There is war going on. But you need to buy bread.\u00a0",
     "supported_languages": "English<strong>*</strong>, Ukrainian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4860480/bb3bd80fed0e04ec381a29ce7f65e7817376a13e/header.jpg",
@@ -1032,8 +1039,11 @@
       25,
       37
     ],
+    "achievements": {
+      "total": 33
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "17 Jul, 2026"
     },
     "support_info": {
@@ -3249,7 +3259,7 @@
     "steam_appid": 4862570,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Lead a squad of agents and psychics in a drama-based JRPG against an extra-dimensional cult as you explore surreal architecture and investigate paranormal crimes. Master turn-based combat where emotional states and hidden enemy intentions demand constant adaptation.",
+    "short_description": "In this dynamic drama-based JRPG you lead a squad of special agents and mediums against the global occult conglomerate as you investigate paranormal crimes and navigate surreal spaces. Turn-based battles defined by personal traumas, emotional states, block arithmetic and hidden intentions.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4862570/6e7263cb505eaf431ef76c7a0bec7b481f647edd/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4862570/c69b48a6cc8024d1ecca89a47fe8b20bcb44aacc/capsule_231x87.jpg",
@@ -3281,7 +3291,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "September 2027"
+      "date": "To be announced"
     },
     "support_info": {
       "url": "",
@@ -3768,7 +3778,19 @@
     "publishers": [
       "Pat Bouchard"
     ],
-    "package_groups": [],
+    "packages": [
+      1688538
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Timekeeper",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3793,8 +3815,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "18 Jul, 2026"
     },
     "support_info": {
       "url": "",
@@ -4877,6 +4899,108 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4862350",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4862350",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4860940": {
+    "type": "game",
+    "name": "Typo Royale",
+    "steam_appid": 4860940,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Think you're a fast typer? What if you couldn't see the words you need to type? Typo Royale is a competitive speed typing and spelling game where phrases are read aloud by an announcer. To secure a win, you'll need to both spell the phrase correctly and submit it faster than your opponents.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4860940/8a99db9d2c0f630d2e6e1bdf5a14db5910a82334/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4860940/941f8028271114d6c6f3f19b50c105ca96b496f2/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4860940/941f8028271114d6c6f3f19b50c105ca96b496f2/capsule_184x69.jpg",
+    "website": "https://www-dev.typoroyale.com",
+    "developers": [
+      "House Matzke"
+    ],
+    "publishers": [
+      "House Matzke"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      36,
+      49,
+      62,
+      68,
+      74,
+      75,
+      78
+    ],
+    "genres": [
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "November 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "info@housematzke.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4860940",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4860940",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4862380": {
+    "type": "game",
+    "name": "ServerSync: Dedicated Game Server Made Easy",
+    "steam_appid": 4862380,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "Host your own dedicated game servers, the easy way. Get your server running in minutes. No port forwarding or technical setup required.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4862380/cc3fbdf7baa1c68888e79aab08d60259f6419807/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4862380/05d85f9c9807f03a478b837e4a0830c54f242910/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4862380/05d85f9c9807f03a478b837e4a0830c54f242910/capsule_184x69.jpg",
+    "website": "https://serversync.games/",
+    "developers": [
+      "SaveSync"
+    ],
+    "publishers": [
+      "SaveSync"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      35
+    ],
+    "genres": [
+      23,
+      37,
+      57,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://savesync.games/contact-us",
+      "email": "support@savesync.games"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4862380",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4862380/38d15373b12edc45288fedd850aea48c32931c3b/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
