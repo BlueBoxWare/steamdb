@@ -559,6 +559,9 @@
     },
     "categories": [
       2,
+      15,
+      22,
+      23,
       62
     ],
     "genres": [
@@ -2994,7 +2997,7 @@
     "name": "Chessferatu",
     "steam_appid": 4862920,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "Chessferatu is a chess opening training game where you study, battle, and improve by playing real opening lines against themed opponents, then keep fighting when theory ends with live move evaluation and engine refutations.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Czech, Danish, Dutch, Finnish, Greek, Indonesian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian<strong>*</strong>, Spanish - Latin America, Swedish, Thai, Turkish, Ukrainian, Vietnamese, Afrikaans, Albanian, Amharic, Armenian, Azerbaijani, Bangla, Belarusian, Bosnian, Catalan, Croatian, Estonian, Filipino, Georgian, Gujarati, Hebrew, Hindi, Icelandic, Kannada, Kazakh, Khmer, Latvian, Malayalam, Marathi, Nepali, Punjabi (Gurmukhi), Punjabi (Shahmukhi), Serbian, Swahili, Tamil, Telugu, Zulu<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4862920/606c8e68ab97ceda07c1bef8cdbecc97be300a4b/header.jpg",
@@ -3007,7 +3010,19 @@
     "publishers": [
       "Half-Cocked Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1688917
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Chessferatu",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3021,12 +3036,11 @@
       78
     ],
     "genres": [
-      4,
-      37
+      4
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "18 Jul, 2026"
     },
     "support_info": {
       "url": "http://halfcockedtales.com/chessferatu/support.html",
@@ -5004,6 +5018,54 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "4862150": {
+    "type": "game",
+    "name": "Radiant Ruins RTS",
+    "steam_appid": 4862150,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Experience a post-apocalyptic World War II-inspired non linear global campaign that combines hand-crafted story missions and procedurally generated operations. Control a selection of units from squads &amp; team weapons to super-heavy tanks and VTOL aircraft. Upgrade your army to suit your playstyle",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4862150/eb3b3cb8c8c2a1c245595eec044e5f0cfcae9613/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4862150/b84307121156e545994a4debf971df5372a76f92/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4862150/b84307121156e545994a4debf971df5372a76f92/capsule_184x69.jpg",
+    "website": "https://www.playradiantruins.com/",
+    "developers": [
+      "CoreMinimal Software"
+    ],
+    "publishers": [
+      "CoreMinimal Software"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      2
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "2027"
+    },
+    "support_info": {
+      "url": "https://www.playradiantruins.com/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4862150",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4862150/b98104a75320bee927d31c8a9b5a6b899fd0d2ae/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "Contains frequent vehicle and infantry combat, explosions, flamethrowers, and large-scale destruction. Soldiers can die with minimal blood effects."
     }
   }
 }
