@@ -4500,6 +4500,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4816090
+    ],
     "short_description": "A difficult parkour game about riding a sea scooter upstream to reach the top of the Hydro Mountain.",
     "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Dutch, Japanese, Korean, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America, Traditional Chinese, Turkish, Vietnamese, Polish<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4743640/30105ffbe86a14ef91d238347a8d96d1d2025e98/header.jpg",
@@ -4512,7 +4515,19 @@
     "publishers": [
       "Glenn Verheij"
     ],
-    "package_groups": [],
+    "packages": [
+      1650012
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Hydro Chicks",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4524,6 +4539,10 @@
       23,
       25,
       28,
+      55,
+      56,
+      57,
+      58,
       62,
       67,
       68,
@@ -4537,8 +4556,11 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 4
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "20 Jul, 2026"
     },
     "support_info": {

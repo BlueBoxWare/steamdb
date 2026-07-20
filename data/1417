@@ -5414,6 +5414,9 @@
     "steam_appid": 4252290,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4913150
+    ],
     "short_description": "A co-op fantasy adventure where your voice is magic. Play as cat wizards, cast spells by shouting into your mic, explore fairy-tale worlds, fight monsters, and return to your hot-air balloon loaded with loot.",
     "supported_languages": "English, German, Spanish - Spain, Japanese, Korean, Russian, Simplified Chinese, French, Italian, Polish, Portuguese - Brazil, Portuguese - Portugal",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4252290/b883c77dec337d5cb31e55e5de18e1d1c1183f9a/header.jpg",
@@ -5426,7 +5429,19 @@
     "publishers": [
       "Polden Publishing"
     ],
-    "package_groups": [],
+    "packages": [
+      1488394
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Meowgic",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5446,8 +5461,11 @@
       1,
       25
     ],
+    "achievements": {
+      "total": 25
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "20 Jul, 2026"
     },
     "support_info": {
@@ -8512,7 +8530,7 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4252270/1614b0b086a7f616e76513d72f0288b289e1b78b/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "NOSUGAR GAMES"
+      "NoSugar Games"
     ],
     "publishers": [
       "Polden Publishing"
