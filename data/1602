@@ -1740,12 +1740,12 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Clean space stations in this unique blend of turn-based strategy and time-sensitive action. Navigate hand-crafted stations with a finite amount of moves, manage your energy economy, decide whether to help your tenants, upgrade your inventory, die a lot and recycle your own corpse in the next run.",
+    "short_description": "Survive as a humble janitor in this roguelite cleaning-sim and keep your humanity in a world where it's either rent or death. How long can you last?",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4808600/1c4e5bcf3cbdeacda2ab15fd5aa039d54714ec80/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4808600/db2c81e0783f9ebd5edf5b809724bc7fd3887783/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4808600/db2c81e0783f9ebd5edf5b809724bc7fd3887783/capsule_184x69.jpg",
-    "website": "https://geomazing.com",
+    "website": "https://geomazing.com/jntr",
     "developers": [
       "Geomazing Games"
     ],
@@ -1761,10 +1761,13 @@
     "categories": [
       2,
       28,
+      60,
       62
     ],
     "genres": [
+      1,
       2,
+      4,
       23
     ],
     "release_date": {
@@ -1772,7 +1775,7 @@
       "date": "To be announced"
     },
     "support_info": {
-      "url": "https://geomazing.com",
+      "url": "https://geomazing.com/jntr",
       "email": "support@geomazing.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4808600",
@@ -2752,7 +2755,19 @@
     "publishers": [
       "GSS Interactive"
     ],
-    "package_groups": [],
+    "packages": [
+      1670998
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Toll Plaza Simulator",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2769,8 +2784,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 30
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "20 Jul, 2026"
     },
     "support_info": {
@@ -3444,8 +3462,8 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -4968,10 +4986,11 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
-      4808190
+      4808190,
+      4887320
     ],
     "short_description": "Start with a humble pancake stand, purchase ingredients, cook pancakes, serve customers, and upgrade your equipment as you grow your business day by day.",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Czech",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4808180/f7264b143ee6daf4797da325e95f1b8651bbb13f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4808180/9f840a1b4d592269ecf02b3311db64b3d55afc2b/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4808180/9f840a1b4d592269ecf02b3311db64b3d55afc2b/capsule_184x69.jpg",
@@ -4982,6 +5001,12 @@
     "publishers": [
       "Furnace Hound Games",
       "True Blue Game"
+    ],
+    "demos": [
+      {
+        "appid": 4887320,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -5907,6 +5932,54 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4807910",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4807910",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4806510": {
+    "type": "game",
+    "name": "Island Miner",
+    "steam_appid": 4806510,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Island Miner is a relaxing automation game set on beautiful, colorful islands. Mine, refine and combine resources within each island's footprint, connect islands and build advanced production chains at your own pace. No enemies, no timers, no pressure \u2014 just don't let pollution get out of control.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4806510/9f18b64b9cc456e6434edb6c793dfee24b46d05f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4806510/e9548d7f4ddad3d7049d259ccb3c7e699529d9e0/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4806510/e9548d7f4ddad3d7049d259ccb3c7e699529d9e0/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Robot Snail"
+    ],
+    "publishers": [
+      "Judatone Studios"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      2,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "info@judatonestudios.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4806510",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4806510",
     "content_descriptors": {
       "ids": [],
       "notes": null

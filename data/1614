@@ -1556,6 +1556,9 @@
     "steam_appid": 4842470,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4898440
+    ],
     "short_description": "In real-time action games controlled by mouse and keyboard, players defeat enemies to level up and learn skills, collect equipment to enhance their strength, and complete objectives within levels. After defeating all bosses, they can successfully save the world and complete the game.",
     "supported_languages": "Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4842470/612ed356b50a524b1a6784b6185db8f62631b5c9/header.jpg",
@@ -1597,8 +1600,11 @@
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4842470",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4842470",
     "content_descriptors": {
-      "ids": [],
-      "notes": null
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "The game content includes violent scenes where players use weapons, fists, and kicks to kill enemies, as well as violent scenes where players are killed by enemies."
     }
   },
   "4842490": {
@@ -4231,11 +4237,10 @@
     "platforms": {
       "windows": true,
       "mac": true,
-      "linux": true
+      "linux": false
     },
     "categories": [
       2,
-      18,
       22,
       23,
       62
@@ -4341,7 +4346,19 @@
     "publishers": [
       "BlackTokkiWhiteTokki"
     ],
-    "package_groups": [],
+    "packages": [
+      1682267
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Groovy Loop",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4359,9 +4376,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 3
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q3 2026"
+      "coming_soon": false,
+      "date": "21 Jul, 2026"
     },
     "support_info": {
       "url": "",
@@ -4913,6 +4933,12 @@
     ],
     "publishers": [
       "Seneku Design"
+    ],
+    "demos": [
+      {
+        "appid": 4943580,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -5519,6 +5545,107 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "4842670": {
+    "type": "game",
+    "name": "PC FISH: Taskbar Aquarium",
+    "steam_appid": 4842670,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "Raise, Collect, Trade! Discover rare fish, grow your collection, and build a living aquarium right on your desktop.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Thai, Traditional Chinese, Turkish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4842670/4b420fc69dc4383d6518956d1cd0793c346e885b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4842670/d48237774a9bb92e132f5a3d2574450c58ed6584/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4842670/d48237774a9bb92e132f5a3d2574450c58ed6584/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "NANOO"
+    ],
+    "publishers": [
+      "NANOO"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      35,
+      62
+    ],
+    "genres": [
+      28,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "August 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "game@nanoocompany.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4842670",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4842670",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4844410": {
+    "type": "game",
+    "name": "Dream Disorder",
+    "steam_appid": 4844410,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A 2.5D psychological horror platformer. Play as Milo, a mysophobic man whose fears come alive in his dreams. Face 15 levels of trauma, uncover hidden threats with a UV torch and survive the night.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4844410/df2a09cbf0e510042a305910ec8c90cfd2928f05/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4844410/19a6ff0abf6e98605565509b635b2c870cad3aee/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4844410/19a6ff0abf6e98605565509b635b2c870cad3aee/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Mosquito"
+    ],
+    "publishers": [
+      "Mosquito"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      1,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "dreamsdisordergame@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4844410",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4844410",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game contains psychological horror themes, frightening imagery and occasional strong language. Violence is stylized and non-realistic. No sexual content."
     }
   }
 }
