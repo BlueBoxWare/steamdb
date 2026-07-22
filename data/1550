@@ -1103,12 +1103,6 @@
     "publishers": [
       "Clementine Wolf Games"
     ],
-    "demos": [
-      {
-        "appid": 4673090,
-        "description": ""
-      }
-    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -2336,7 +2330,19 @@
     "publishers": [
       "LIGHTWORKER GAMES"
     ],
-    "package_groups": [],
+    "packages": [
+      1619945
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cloudrooms",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2356,8 +2362,11 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 3
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "21 Jul, 2026"
     },
     "support_info": {

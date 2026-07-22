@@ -11928,7 +11928,7 @@
     "name": "Flipper Frenzy",
     "steam_appid": 3305770,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "controller_support": "full",
     "short_description": "Race physics-driven seals across chaotic tracks where mastering land and water movement is the key to victory. Play solo, split-screen, or online, customize your seal, and compete in wild races and time trials.",
     "supported_languages": "English, Japanese, Russian",
@@ -11942,7 +11942,19 @@
     "publishers": [
       "RolandStudios"
     ],
-    "package_groups": [],
+    "packages": [
+      1732084
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Flipper Frenzy",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -11969,7 +11981,6 @@
       4,
       9,
       23,
-      37,
       70
     ],
     "achievements": {
