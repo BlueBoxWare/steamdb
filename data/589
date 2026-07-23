@@ -10226,7 +10226,7 @@
     "name": "Killer Worm 2",
     "steam_appid": 1768260,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "dlc": [
       1769250
     ],
@@ -10244,14 +10244,27 @@
     "publishers": [
       "JOZGames"
     ],
-    "package_groups": [],
+    "packages": [
+      1683056
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Killer Worm 2",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": false
     },
     "categories": [
-      2
+      2,
+      62
     ],
     "genres": [
       1,
