@@ -316,7 +316,7 @@
   },
   "2251220": {
     "type": "game",
-    "name": "High Times - Dating/Cooking Sim",
+    "name": "High Times",
     "steam_appid": 2251220,
     "required_age": 0,
     "is_free": false,
@@ -344,7 +344,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      807192
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy High Times",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -352,6 +364,7 @@
     },
     "categories": [
       2,
+      22,
       28,
       55,
       57,
@@ -365,8 +378,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 232
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "23 Jul, 2026"
     },
     "support_info": {

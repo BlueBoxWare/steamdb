@@ -722,8 +722,7 @@
     "name": "Secho",
     "steam_appid": 4571000,
     "required_age": 0,
-    "is_free": false,
-    "controller_support": "full",
+    "is_free": true,
     "dlc": [
       4738840
     ],
@@ -753,12 +752,14 @@
     },
     "categories": [
       2,
-      28,
+      23,
       62
     ],
     "genres": [
       1,
-      25
+      25,
+      37,
+      70
     ],
     "release_date": {
       "coming_soon": true,
@@ -2043,6 +2044,7 @@
       4786220,
       4786230,
       4786240,
+      4786250,
       4786270,
       4785980,
       4785990,
@@ -2050,6 +2052,7 @@
       4786010,
       4786020,
       4786030,
+      4786040,
       4786050,
       4872640,
       4872650
@@ -4607,7 +4610,19 @@
     "publishers": [
       "Flat Cat Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1593003
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Super Jigsaw Puzzle: Generations - Denmark",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4619,7 +4634,8 @@
       21,
       22,
       23,
-      25
+      25,
+      62
     ],
     "genres": [
       2,
@@ -4628,8 +4644,8 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "24 Jul, 2026"
     },
     "support_info": {
       "url": "",
