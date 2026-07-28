@@ -408,6 +408,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4641790
+    ],
     "short_description": "In this first-person extraction roguelite adventure, strap on your gloves, grab your Battlemallet, and explore randomly-generated mines as a new Delveling. Gather riches, avoid deadly hazards and try to make it out with your beard intact!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2237320/689c02a25e5ffdf26fca101b016c8bdcb7634d34/header.jpg",
@@ -426,7 +429,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      802103
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Dwarf Delve",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -442,7 +457,12 @@
       56,
       57,
       58,
-      62
+      62,
+      65,
+      67,
+      68,
+      69,
+      74
     ],
     "genres": [
       1,
@@ -451,8 +471,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 21
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "27 Jul, 2026"
     },
     "support_info": {

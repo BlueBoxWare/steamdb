@@ -1191,8 +1191,10 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
+      4962060,
       4768520,
-      4768550
+      4768550,
+      4962050
     ],
     "short_description": "Survive a week at the last human-run store in Mech City. Melee, multi-task and manage your stress to meet your boss' crushing standards - and stop the revolution.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
@@ -1216,7 +1218,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1601855
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Aisle Survive",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1224,6 +1238,7 @@
     },
     "categories": [
       2,
+      23,
       62
     ],
     "genres": [
@@ -1231,7 +1246,7 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "28 Jul, 2026"
     },
     "support_info": {
@@ -5883,7 +5898,7 @@
     "steam_appid": 4598280,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Build up your castle in this is a roguelike twist on the block-dropping puzzler! Place your rooms strategically to reach greater heights. Will you be able to build a fortress to stand the test of time, or will that pesky hero send your work crumbling to the ground?",
+    "short_description": "Build up your castle in this roguelike twist on the block-dropping puzzler! Place your rooms strategically to reach greater heights. Will you be able to build a fortress to stand the test of time, or will that pesky hero send your work crumbling to the ground?",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4598280/ccd3fb19f0bb28cc51978ba4bb9cbee58ed5faa7/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4598280/94caf68f7d5bebd36026c649d787c2de4ff026b5/capsule_231x87.jpg",
@@ -5894,6 +5909,12 @@
     ],
     "publishers": [
       "Team Draftula"
+    ],
+    "demos": [
+      {
+        "appid": 4682930,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
