@@ -4885,7 +4885,8 @@
     "is_free": false,
     "controller_support": "full",
     "dlc": [
-      4910560
+      4910560,
+      4911510
     ],
     "short_description": "Rita is a cozy adventure where a little chicklet solves word-based puzzles to transform the world around her. Follow her story across generations, meet her grandchicklet, and be a part of her legacy.",
     "supported_languages": "English",
@@ -4905,7 +4906,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1062138
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Rita",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -4924,16 +4937,21 @@
       68,
       69,
       70,
+      74,
       75,
-      78
+      78,
+      79
     ],
     "genres": [
       4,
       23,
       25
     ],
+    "achievements": {
+      "total": 26
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "30 Jul, 2026"
     },
     "support_info": {

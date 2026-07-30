@@ -2426,7 +2426,7 @@
     "platforms": {
       "windows": true,
       "mac": true,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
@@ -5103,9 +5103,9 @@
     "is_free": false,
     "short_description": "Rogue Ninja ARPG",
     "supported_languages": "English, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4252890/fbe2fd5c63d51d72d84c9e58d4d762effc00d481/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4252890/9d4fb3e450db6d4fab7073d55261caff1c27e49f/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4252890/9d4fb3e450db6d4fab7073d55261caff1c27e49f/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4252890/af39eff50cef65786e91e7e3bf522ea7b729e7ce/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4252890/6c180268c939109654a9d29d6f3a402648297c33/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4252890/6c180268c939109654a9d29d6f3a402648297c33/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Wildbus Studio"
@@ -8157,6 +8157,10 @@
     "steam_appid": 4251710,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4358110,
+      4559740
+    ],
     "short_description": "The only way to save the world is a kiss\u2014\u2014. \u300aEXSTETRA\u300b is a fantasy RPG set in \u201cAmazia,\u201d a Tokyo fused with another world and burdened with a doomed fate, where you rise as the chosen savior, a \u201cPrisma,\u201d to confront the threat of the world\u2019s destruction.",
     "supported_languages": "English, Japanese<strong>*</strong>, Simplified Chinese, Traditional Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4251710/541a9fb52daf490826151e9c463448a2a7365e62/header.jpg",
@@ -8169,7 +8173,19 @@
     "publishers": [
       "FURYU CORPORATION"
     ],
-    "package_groups": [],
+    "packages": [
+      1488200
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy EXSTETRA",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8183,13 +8199,17 @@
       68,
       74,
       75,
-      78
+      78,
+      80
     ],
     "genres": [
       3
     ],
+    "achievements": {
+      "total": 45
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "29 Jul, 2026"
     },
     "support_info": {
