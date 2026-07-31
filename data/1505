@@ -4183,7 +4183,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -4197,7 +4197,8 @@
       62,
       68,
       69,
-      74
+      74,
+      80
     ],
     "genres": [
       23,
@@ -4554,13 +4555,11 @@
       74,
       76,
       77,
-      79
+      79,
+      80
     ],
     "genres": [
-      3,
-      23,
-      25,
-      28
+      23
     ],
     "release_date": {
       "coming_soon": true,
@@ -5074,8 +5073,8 @@
     "dlc": [
       4895460
     ],
-    "short_description": "Imagine QWOP for weight lifting. It's a physics ragdoll gym simulator where every rep is a fight between you and gravity. Lift weights. Build muscle. Fail hilariously. Unlock new &quot;awesome&quot; exercises. Compete in weight lifting championships.",
-    "supported_languages": "English<strong>*</strong>, Korean, Simplified Chinese<br><strong>*</strong>languages with full audio support",
+    "short_description": "A physics-driven lifting career sim where you physically control every rep. Train hard, train smart, manage your work-life balance and diet, and become the next lifting champion.",
+    "supported_languages": "English<strong>*</strong>, Korean, Simplified Chinese, Japanese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4516970/8c8096f6cb98836174f1f85d35f9d6b1244a71bc/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4516970/42cc7c8cf6dea9a3d4a80d792e9d66c262ba4f6d/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4516970/42cc7c8cf6dea9a3d4a80d792e9d66c262ba4f6d/capsule_184x69.jpg",
@@ -5085,6 +5084,12 @@
     ],
     "publishers": [
       "LiberateGames"
+    ],
+    "demos": [
+      {
+        "appid": 4895460,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -6317,9 +6322,9 @@
     "controller_support": "full",
     "short_description": "Welcome to the Grant Wish Hotel! Take the role of a Staffling, and create beautiful and meaningful rooms for mystical guests. Paint, decorate, and fulfill all of your guests' wishes in this cozy room builder.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4515140/4ec2786a2a41dfc88e2cdb4c3ac4307ac8301303/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4515140/a0ee7e62294f97034d951cfa6b525dd50d6e5f3f/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4515140/a0ee7e62294f97034d951cfa6b525dd50d6e5f3f/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4515140/1da2c7a60c07f145691990de9d2af37c62b86275/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4515140/b4353f26a21d603018643c467a4f95dc22770c90/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4515140/b4353f26a21d603018643c467a4f95dc22770c90/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Hex Foundry"
@@ -6347,7 +6352,8 @@
       67,
       68,
       69,
-      74
+      74,
+      80
     ],
     "genres": [
       4,
@@ -6363,7 +6369,7 @@
       "email": "support@hexfoundry.se"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4515140",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4515140/fe1137bff9399213f2be6af40b70bf92f1d6b3cd/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4515140/b5084c95b489157aafa4937ca1b14b7260c89ab6/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -6906,7 +6912,19 @@
     "publishers": [
       "Frozen Way"
     ],
-    "package_groups": [],
+    "packages": [
+      1575863
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Builder Simulator - American Houses DLC",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6931,7 +6949,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "30 Jul, 2026"
     },
     "support_info": {
@@ -7214,11 +7232,13 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
+      15,
       22,
+      23,
       28,
       55,
       56,

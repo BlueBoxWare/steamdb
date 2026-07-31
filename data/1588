@@ -1165,6 +1165,9 @@
     "steam_appid": 4766230,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4979830
+    ],
     "short_description": "Pong... But it's a roguelite! Pick a class, pick a ball blessing, then paddle your way through three acts of devious enemy paddles. Stack relics, find synergies, survive floor modifiers warping the ball mid-rally. PONG! IT! UP!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4766230/5606cd66e2f4a8d07bd757350b43fd1efd17824d/header_alt_assets_0.jpg",
@@ -1176,6 +1179,12 @@
     ],
     "publishers": [
       "Phoenix Feather Studios"
+    ],
+    "demos": [
+      {
+        "appid": 4979830,
+        "description": ""
+      }
     ],
     "packages": [
       1657384
@@ -1192,7 +1201,7 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -2397,6 +2406,12 @@
     "publishers": [
       "ASyun"
     ],
+    "demos": [
+      {
+        "appid": 4786320,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -2405,10 +2420,12 @@
     },
     "categories": [
       2,
+      23,
       62,
       68,
       74,
-      76
+      76,
+      80
     ],
     "genres": [
       4,
@@ -5975,7 +5992,19 @@
     "publishers": [
       "Oulixeus"
     ],
-    "package_groups": [],
+    "packages": [
+      1656843
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Spreadsheet Survivors",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -5983,10 +6012,13 @@
     },
     "categories": [
       2,
+      22,
+      23,
       62,
       67,
       68,
-      74
+      74,
+      82
     ],
     "genres": [
       1,
@@ -5994,9 +6026,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 70
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "July 2026"
+      "coming_soon": false,
+      "date": "31 Jul, 2026"
     },
     "support_info": {
       "url": "",

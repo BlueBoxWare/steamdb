@@ -11269,7 +11269,7 @@
     "steam_appid": 4031480,
     "required_age": 0,
     "is_free": false,
-    "short_description": "&quot;Combined Arms Brigade&quot; is a military-themed FPS game made with Unreal Engine 5, focusing on allowing players to experience infantry squad/platoon combat through advanced AI and detailed tutorial systems, with plans to add vehicles and mechanized infantry gameplay in the future.",
+    "short_description": "Combined Arms Brigade is a military-themed first-person shooter developed with Unreal Engine 5. Featuring advanced game AI and a four-class system, it lets players experience the excitement of squad/platoon-level combat. More gameplay options, including more gamemodes planned for the future.",
     "supported_languages": "English<strong>*</strong>, Simplified Chinese, French, German, Japanese, Russian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4031480/3e7f0b02b914cd87d74e4f8c7541b273d9762362/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4031480/0ed1a462c2cf0109a7a3ddac6a9526fa8d00f7d7/capsule_231x87.jpg",
@@ -11718,6 +11718,10 @@
     "steam_appid": 4029590,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4029640,
+      4029650
+    ],
     "short_description": "A Brazilian dating sim set during the Minas Gerais Conspiracy of 1789, an attempted revolution in Colonial Brazil. Date five unique rebels, choose your gender, and uncover a surprising story where love and revolution collide.",
     "supported_languages": "English, Portuguese - Brazil",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029590/6e33cd0fba93e3a7a2ae6007017bca30e662bafa/header.jpg",
@@ -11730,7 +11734,19 @@
     "publishers": [
       "Witz Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1413628
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Between Love & Uprising: A Cheaters Dating Simulator",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -11746,9 +11762,12 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 14
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "2026"
+      "coming_soon": false,
+      "date": "30 Jul, 2026"
     },
     "support_info": {
       "url": "",
@@ -11757,8 +11776,10 @@
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4029590",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029590/d541d17e84490f3c11206b3ed7d594abd4bdcbe6/page_bg_raw.jpg",
     "content_descriptors": {
-      "ids": [],
-      "notes": null
+      "ids": [
+        5
+      ],
+      "notes": "Between Love & Uprising: A Cheaters Dating Simulator contains:\r\n\r\n- Gay and lesbian relationships with draw CG kissing scenes\r\n- Non-binary character\r\n- Discussion about betrayal without visual representation on screen\r\n- Espionage\r\n- References to a historical moment in Brazil related to slavery and revolt that occurred with violence\r\n- Reference to death\r\n- Mild homophobic representation condemned in the narrative without graphic representation\r\n- False testimony leading to a character's arrest\r\n- Use of violence during the arrest of a character, such as grabbing by the arms, punching, and throwing to the ground\r\n- Graphic representation of a firearm with the murder of a character, only a textual description that a character was shot"
     }
   },
   "4029240": {
@@ -12304,6 +12325,132 @@
         1,
         5
       ],
+      "notes": null
+    }
+  },
+  "4029640": {
+    "type": "dlc",
+    "name": "Between Love & Uprising: Guide",
+    "steam_appid": 4029640,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A spoiler document with all the detailed information you need to complete the game and unlock all Steam achievements.",
+    "fullgame": {
+      "appid": "4029590",
+      "name": "Between Love & Uprising: A Cheaters Dating Simulator"
+    },
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029640/0ba2ec9fb42c3ce310589e830c87c7015d48fc74/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029640/1610c088881a08501f1887691900c7927ddef801/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029640/1610c088881a08501f1887691900c7927ddef801/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Witz Games"
+    ],
+    "publishers": [
+      "Witz Games"
+    ],
+    "packages": [
+      1413643
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Between Love & Uprising: Guide",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      62
+    ],
+    "genres": [
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "30 Jul, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "maledollstudio@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4029640",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029640/5ddc1295831990483887a6f019f24dc77c6d768b/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4029650": {
+    "type": "dlc",
+    "name": "Between Love & Uprising: Art Pack",
+    "steam_appid": 4029650,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Wanna &quot;Between Love &amp; Uprising: A Cheaters Dating Simulator&quot; scenes in your pocket and check the game's backstage?",
+    "fullgame": {
+      "appid": "4029590",
+      "name": "Between Love & Uprising: A Cheaters Dating Simulator"
+    },
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029650/046c69de3126d7d99c6608a2cdd7ab33402c1820/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029650/ad973c336e40a7a05146833793ded0466b977a4f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029650/ad973c336e40a7a05146833793ded0466b977a4f/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Witz Games"
+    ],
+    "publishers": [
+      "Witz Games"
+    ],
+    "packages": [
+      1413646
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Between Love & Uprising: Art Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      62
+    ],
+    "genres": [
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "30 Jul, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "maledollstudio@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4029650",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029650/5ddc1295831990483887a6f019f24dc77c6d768b/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
       "notes": null
     }
   }
