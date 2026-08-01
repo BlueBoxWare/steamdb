@@ -5700,10 +5700,10 @@
     "name": "Cotimero",
     "steam_appid": 4710550,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "Cotimero is a desktop idle game, A new adventure awaits\u2014choose your hero, defeat fierce monsters, and claim treasures. Every keystroke shapes the world of Cotimero. Step in and write an eternal legend!",
-    "supported_languages": "English, Japanese, Simplified Chinese, Traditional Chinese, Korean, French, German, Russian",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4710550/7107b1546593837cf2a119d5bd46d75e55d2aed1/header.jpg",
+    "supported_languages": "English, Japanese, Simplified Chinese, Korean, French, German, Russian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4710550/ad515dd71ceeaaf2b8725106a1cb7ef66c0a0c58/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4710550/1cead2e2cae1eb31c41bf8c9b5257176edffb97c/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4710550/1cead2e2cae1eb31c41bf8c9b5257176edffb97c/capsule_184x69.jpg",
     "website": null,
@@ -5713,7 +5713,25 @@
     "publishers": [
       "\u5317\u8c0a\u6c38\u9053"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 4710790,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1639174
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cotimero",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5723,19 +5741,20 @@
       1,
       9,
       38,
+      62,
       74,
-      79
+      79,
+      80
     ],
     "genres": [
       3,
       4,
       23,
-      25,
-      37
+      25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "31 Jul, 2026"
     },
     "support_info": {
       "url": "",
@@ -6139,7 +6158,19 @@
     "publishers": [
       "VECTRA"
     ],
-    "package_groups": [],
+    "packages": [
+      1639874
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Musica",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6159,8 +6190,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "1 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -6359,7 +6390,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Beneath the waves, the world of Atlantis awaits. Build your home base on sunlit Mediterranean shores, then dive into sunken ruins to uncover secrets of the deep. Get stronger, dive deeper, and battle dark forces with up to 3 friends in this underwater survival crafting odyssey!",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Japanese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4712440/e5246a305f4b8b95f9037d589b5f9bdbac62a9d1/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4712440/339c03366ec560031977b20419ea05aad1ee5761/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4712440/339c03366ec560031977b20419ea05aad1ee5761/capsule_184x69.jpg",
@@ -6559,6 +6590,132 @@
         5
       ],
       "notes": "Contains high levels of violence and blood."
+    }
+  },
+  "4712050": {
+    "type": "game",
+    "name": "VN Engine 2D",
+    "steam_appid": 4712050,
+    "required_age": 0,
+    "is_free": true,
+    "dlc": [
+      4712400
+    ],
+    "short_description": "2D visual novel + minigame engine. Node-based editor + interactive timeline scrubbing, with Live2D . Free includes full editor and preview. Indie or Pro DLC unlocks export and commercial release.",
+    "supported_languages": "English, Japanese, Traditional Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4712050/c758b067fcc6e4de6ba39cd35732dfb99cca7ba4/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4712050/0827678d4f1796122f3bb1c07c647743f99d9bbf/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4712050/0827678d4f1796122f3bb1c07c647743f99d9bbf/capsule_184x69.jpg",
+    "website": "https://vnengine2d.com/",
+    "developers": [
+      "AlphaCore"
+    ],
+    "publishers": [
+      "VN Engine 2D"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      69,
+      74,
+      76,
+      79,
+      80
+    ],
+    "genres": [
+      37,
+      53,
+      57,
+      59,
+      60
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://vnengine2d.com/index.html#faq",
+      "email": "vnengine2d@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4712050",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4712050",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4712400": {
+    "type": "dlc",
+    "name": "VN Engine 2D \u2014 Indie License",
+    "steam_appid": 4712400,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Unlocks HTML5 web export, Windows desktop export, and commercial release license for the VN Engine 2D editor. One-time purchase, owned forever.",
+    "fullgame": {
+      "appid": "4712050",
+      "name": "VN Engine 2D"
+    },
+    "supported_languages": "English, Japanese, Traditional Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4712400/70593a80bb263c3c50d9a3aa12bb9b50bebf393a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4712400/e0219c324ca38040eeab7756039c32684d05c4d7/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4712400/e0219c324ca38040eeab7756039c32684d05c4d7/capsule_184x69.jpg",
+    "website": "https://vnengine2d.com/",
+    "developers": [
+      "AlphaCore"
+    ],
+    "publishers": [
+      "VN Engine 2D"
+    ],
+    "packages": [
+      1639773
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy VN Engine 2D \u2014 Indie License",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      21,
+      69,
+      74,
+      76,
+      79,
+      80
+    ],
+    "genres": [
+      37,
+      53,
+      57,
+      59,
+      60
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "31 Jul, 2026"
+    },
+    "support_info": {
+      "url": "https://vnengine2d.com/index.html#faq",
+      "email": "vnengine2d@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4712400",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4712400",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }

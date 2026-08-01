@@ -149,7 +149,7 @@
     "platforms": {
       "windows": true,
       "mac": true,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
@@ -5985,7 +5985,8 @@
       62,
       68,
       74,
-      79
+      79,
+      80
     ],
     "genres": [
       25,
@@ -6807,7 +6808,19 @@
     "publishers": [
       "Cenrellia Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1588836
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Stellar Hustler",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -6834,8 +6847,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "31 Jul, 2026"
     },
     "support_info": {

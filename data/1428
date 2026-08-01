@@ -1207,7 +1207,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": false
     },
     "categories": [
@@ -6246,7 +6246,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1499488
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Defrag Incremental",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6257,13 +6269,17 @@
       22,
       62,
       74,
-      76
+      76,
+      80
     ],
     "genres": [
       23
     ],
+    "achievements": {
+      "total": 10
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "31 Jul, 2026"
     },
     "support_info": {
