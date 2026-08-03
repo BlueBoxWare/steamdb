@@ -14805,6 +14805,7 @@
     "steam_appid": 3039180,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Dig deep with friends. Share a wallet and go as deep as you can. Mine ore, haul loot, and buy better drills, lights and ladders. Beware the dark - your lamp is all that stands between you and the gas pockets below. Something hums at the bottom. Just one more layer...",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3039180/0a73ea3e7c3c4123b85e43e72d207e00037b769c/header.jpg",
@@ -14817,7 +14818,19 @@
     "publishers": [
       "Wolf Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1080434
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy DeepDig: Together",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -14829,6 +14842,7 @@
       9,
       22,
       23,
+      28,
       38,
       62
     ],
@@ -14838,9 +14852,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 31
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "31 Jul, 2026"
+      "coming_soon": false,
+      "date": "2 Aug, 2026"
     },
     "support_info": {
       "url": "https://playwolfstudios.com/",

@@ -2924,8 +2924,8 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       1,
@@ -4450,7 +4450,6 @@
     "steam_appid": 4803440,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "Pop bubbles to escape your fate in this psychological horror clicker incremental game experience.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4803440/da47c12d08f6b46b92ee28c15f2c36852e8aa49d/header.jpg",
@@ -4473,7 +4472,6 @@
       2,
       22,
       23,
-      28,
       62,
       68,
       69,
@@ -4651,7 +4649,19 @@
     "publishers": [
       "Pigeon-G"
     ],
-    "package_groups": [],
+    "packages": [
+      1670174
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Karakulo 21",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4666,9 +4676,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 9
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "31 Jul, 2026"
+      "coming_soon": false,
+      "date": "2 Aug, 2026"
     },
     "support_info": {
       "url": "",
