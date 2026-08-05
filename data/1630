@@ -5,6 +5,10 @@
     "steam_appid": 4890150,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5005600,
+      5007390
+    ],
     "short_description": "In a near-future city ruled by AI system EDEN, you become a Memory Restorer, entering the past to fix events deemed wrong. But each restoration changes reality. When the optimal solution demands you abandon her, will you save the world, or save the one who should not remain?",
     "supported_languages": "English, Japanese, Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890150/9970bad2e2d34f769873ef279a97b43bc99469d6/header.jpg",
@@ -16,6 +20,12 @@
     ],
     "publishers": [
       "LuLuLuna Studio"
+    ],
+    "demos": [
+      {
+        "appid": 5007390,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -1674,14 +1684,13 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
       15,
       22,
       23,
-      25,
       28,
       55,
       56,
@@ -1697,8 +1706,7 @@
     "genres": [
       1,
       4,
-      23,
-      70
+      23
     ],
     "release_date": {
       "coming_soon": true,
@@ -3475,7 +3483,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "October 2026"
     },
     "support_info": {
       "url": "",
@@ -4516,7 +4524,19 @@
     "publishers": [
       "Kuukkeli Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1698567
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Mooncall",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -4549,9 +4569,12 @@
       1,
       23
     ],
+    "achievements": {
+      "total": 95
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "5 Aug, 2026"
     },
     "support_info": {
       "url": "https://mooncall.net/",
@@ -4965,6 +4988,76 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "4890890": {
+    "type": "game",
+    "name": "Split Screen Shooter",
+    "steam_appid": 4890890,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "It's 2009. You are at your bestfriends home, playing on the console of their big brother. A game you are too young to play, at a time where you should be doing your homework. Thats this game, a generic shooter, but split screen!",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Bulgarian, Traditional Chinese, Simplified Chinese, Finnish, Japanese, Korean, Polish, Portuguese - Portugal, Romanian, Russian, Spanish - Latin America, Czech, Turkish, Ukrainian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890890/11209bb7b87ce8a672806f5a9725673593a38d89/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890890/79840ecb7e4238e506a3833cab15e999f5f17c0a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890890/79840ecb7e4238e506a3833cab15e999f5f17c0a/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Unechte Sachen"
+    ],
+    "publishers": [
+      "Unechte Sachen"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      22,
+      23,
+      24,
+      28,
+      37,
+      39,
+      44,
+      49,
+      55,
+      56,
+      57,
+      58,
+      62,
+      68,
+      69,
+      74,
+      78,
+      80
+    ],
+    "genres": [
+      1,
+      4
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "puppetplayvr@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4890890",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4890890",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "Using guns to kill other players and or NPCs in a semi realistic artstyle."
     }
   }
 }

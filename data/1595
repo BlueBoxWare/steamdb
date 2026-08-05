@@ -846,9 +846,9 @@
     "controller_support": "full",
     "short_description": "HARROWGATE ASYLUM is a first-person survival horror where fighting back is not an option. Study patrol routes, slip between hiding spots, and hold your breath while something walks past you in the dark. If you are seen, running is all you have left.",
     "supported_languages": "English<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4787530/af202e971d467af3849fae315b1501fb061f3258/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4787530/b25dd08163ef8a55731816bad241213fc917a770/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4787530/b25dd08163ef8a55731816bad241213fc917a770/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4787530/0ad9c726d9cd5184b6efd25571244de5552aae70/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4787530/44388e12a0ac73abd056cc2321dc9fcdd1c816bf/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4787530/44388e12a0ac73abd056cc2321dc9fcdd1c816bf/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "GRS Studio"
@@ -1753,7 +1753,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "SquareSlicer is a short, incremental game where you slice cubes to unlock abilities that let you slice even more!",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Spanish - Latin America, Portuguese - Brazil",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Portuguese - Brazil",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4787050/705db7187f4b2572593e4a62073083666bc190e9/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4787050/0cda50848429a3a26f5cfc2d07adbacb4a0426c6/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4787050/0cda50848429a3a26f5cfc2d07adbacb4a0426c6/capsule_184x69.jpg",
@@ -3052,7 +3052,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1663606
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy The Missing Rune",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3074,8 +3086,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 3
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "4 Aug, 2026"
     },
     "support_info": {
