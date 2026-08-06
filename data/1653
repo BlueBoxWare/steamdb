@@ -735,7 +735,7 @@
     "steam_appid": 4961460,
     "required_age": 0,
     "is_free": false,
-    "short_description": "MarginCall is the most deeply simulated economic trading game ever made. A living market with no scripted prices, where thousands of individually simulated investors trade a real order book atop a fully simulated economy. Build a fortune, raid rivals, or get margin-called into ruin.",
+    "short_description": "MarginCall is a market with no scripted prices. Thousands of individually simulated investors trade a real order book atop a fully simulated economy. Every tick is a real trade, not a formula. Build a fortune, raid rivals, or get margin-called into ruin.",
     "supported_languages": "English<strong>*</strong>, German<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, French<strong>*</strong>, Spanish - Spain<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961460/36f6e824bcc4e040c2fcf0a581c7c842e208aabc/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961460/905cd056e57e6094f6d3daf9362c4d673131a3d9/capsule_231x87.jpg",
@@ -770,6 +770,8 @@
       82
     ],
     "genres": [
+      2,
+      23,
       28
     ],
     "release_date": {
@@ -974,7 +976,11 @@
       2,
       22,
       23,
+      24,
       25,
+      37,
+      44,
+      49,
       62,
       68,
       74,
@@ -1678,7 +1684,19 @@
     "publishers": [
       "SAT-BOX"
     ],
-    "package_groups": [],
+    "packages": [
+      1721237
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Blast Off! Summer Showdown",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1703,7 +1721,7 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "5 Aug, 2026"
     },
     "support_info": {
@@ -2020,7 +2038,19 @@
     "publishers": [
       "RLG Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1721174
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Capivara Clicker",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2036,9 +2066,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 80
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "27 Jul, 2026"
+      "coming_soon": false,
+      "date": "5 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -2940,7 +2973,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Trading Terminal Hub is a professional backtesting environment and multi-chart terminal for crypto. Practice trading in past time using historical candles, analyze how news events impact the order book, and test your strategies with an advanced simulator without risking real capital!",
-    "supported_languages": "English, Russian, French, Italian, German, Spanish - Spain, Arabic, Japanese, Korean, Portuguese - Brazil, Simplified Chinese, Traditional Chinese, Turkish, Ukrainian",
+    "supported_languages": "English, Russian, French, Italian, German, Spanish - Spain, Arabic, Japanese, Korean, Portuguese - Brazil, Simplified Chinese, Traditional Chinese, Turkish, Ukrainian, Polish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961950/1eae29053a92c229ef1b19c88827a69dec941188/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961950/eb80a919ddfe44f182672144224d72d6772aabce/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961950/eb80a919ddfe44f182672144224d72d6772aabce/capsule_184x69.jpg",
@@ -2957,6 +2990,10 @@
       "mac": false,
       "linux": false
     },
+    "categories": [
+      23,
+      25
+    ],
     "genres": [
       28,
       50,
@@ -5257,10 +5294,10 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4959850/938472f3ad5f8f04ccfdef1ce087fa5db65a0486/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "rcreations"
+      "randomcreations"
     ],
     "publishers": [
-      "rcreations"
+      "randomcreations"
     ],
     "package_groups": [],
     "platforms": {
@@ -5710,6 +5747,351 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4961850",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4961850",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4959600": {
+    "type": "game",
+    "name": "Path to Catakombs",
+    "steam_appid": 4959600,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Build and defend an armored train through ever-changing underground routes. Recruit gunners, alchemists, and mechanics, upgrade your wagons, choose your path, and survive relentless kobold raids and colossal bosses.",
+    "supported_languages": "English, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4959600/b4a313843ea6179320b93f2ffa38775b79952d07/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4959600/4b0a2898d10594fe748bbd30651e5fba7c3abd1a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4959600/4b0a2898d10594fe748bbd30651e5fba7c3abd1a/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Catakombs"
+    ],
+    "publishers": [
+      "Catakombs"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      15,
+      22,
+      23,
+      62,
+      68,
+      69,
+      74,
+      75,
+      76,
+      80
+    ],
+    "genres": [
+      1,
+      2,
+      23,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "catakombs@outlook.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4959600",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4959600",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4961330": {
+    "type": "game",
+    "name": "StackOn",
+    "steam_appid": 4961330,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A card strategy game combining town building and dungeon adventures. Stack cards to manage your settlement, produce resources, battle enemies, and explore the unknown. Expand your floating island, collect treasures from the abyss, and lead your town toward greater prosperity.",
+    "supported_languages": "English, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961330/3c06b56f1904fa100d2732a76be57d94ba139ebb/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961330/2df9cf7812f201393c28d68c0fcf45aab2216d25/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961330/2df9cf7812f201393c28d68c0fcf45aab2216d25/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "IntoGames"
+    ],
+    "publishers": [
+      "IntoGames"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      2,
+      4,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "steam_into@intogames.cn"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4961330",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961330/fce09fd747c3ced9cf12e1b7a619b366ef4f86a7/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4961620": {
+    "type": "game",
+    "name": "Dawnkeep",
+    "steam_appid": 4961620,
+    "required_age": 0,
+    "is_free": false,
+    "dlc": [
+      4962270
+    ],
+    "short_description": "Raise a fallen keep by day, and hold it through the dark. Villagers with names and tempers fell timber and work the fields \u2014 then take up spears when night comes. A dark fantasy settlement-builder defense game.",
+    "supported_languages": "Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961620/5643817d6d91869f5d298a1e9c23a79d876501e6/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961620/bb478c86eb3cf2119bf9f82bbed340a85805814c/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961620/bb478c86eb3cf2119bf9f82bbed340a85805814c/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Zang"
+    ],
+    "publishers": [
+      "Zang"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      2
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "whjang09@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4961620",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961620/a5450cd57adcca314a3129e76622934593541bbe/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4961740": {
+    "type": "game",
+    "name": "Puzzles Flowers",
+    "steam_appid": 4961740,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961740/293c8afb09a198848945c1df7cd88c85fca13b64/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961740/d3e8fff60d8abb2b88fdf8b6432a24894ef622b7/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961740/d3e8fff60d8abb2b88fdf8b6432a24894ef622b7/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "IR Studio"
+    ],
+    "publishers": [
+      "IR Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "irstudio2016@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4961740",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4961740",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4961760": {
+    "type": "game",
+    "name": "Puzzles Snow",
+    "steam_appid": 4961760,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961760/9153ed4df5e1494eba09eea94a67fe9af31dbc1a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961760/32d3bc23ae2276e39c94cb3b1ccdc527122faedc/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961760/32d3bc23ae2276e39c94cb3b1ccdc527122faedc/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "IR Studio"
+    ],
+    "publishers": [
+      "IR Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "irstudio2016@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4961760",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4961760",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4961790": {
+    "type": "game",
+    "name": "Puzzles Fishing",
+    "steam_appid": 4961790,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961790/a5a62d77f701e4bbfe40e1543257eb985d8a79fe/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961790/91943358384845a7297286169fc339106d6facf4/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961790/91943358384845a7297286169fc339106d6facf4/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "IR Studio"
+    ],
+    "publishers": [
+      "IR Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "irstudio2016@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4961790",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4961790",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4961830": {
+    "type": "game",
+    "name": "Puzzles Raccoons",
+    "steam_appid": 4961830,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961830/64b33fb2880afda67e47d0f638d0dc7eee49b01d/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961830/cac924f32a9e3c8f5425274c50c4c7ce7b62d64a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961830/cac924f32a9e3c8f5425274c50c4c7ce7b62d64a/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "IR Studio"
+    ],
+    "publishers": [
+      "IR Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "irstudio2016@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4961830",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4961830",
     "content_descriptors": {
       "ids": [],
       "notes": null
