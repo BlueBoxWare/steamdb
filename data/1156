@@ -12887,6 +12887,10 @@
     "steam_appid": 3470550,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4789910,
+      4885380
+    ],
     "short_description": "A &quot;collage-and-guess&quot; multiplayer game for up to 6 players. Enjoy collaging ordinary items into outside-the-box &quot;masterpieces,&quot; guess each other's creations, and unleash your wild imagination around the campfire. Here, everyone is an artist!",
     "supported_languages": "Simplified Chinese, English, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470550/f19b8eb2ac462f0a7008d3401cae7074a232e9fa/header.jpg",
@@ -12899,7 +12903,19 @@
     "publishers": [
       " Spiral Up Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1226048
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy We, Junk Artists",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12911,6 +12927,7 @@
       9,
       22,
       23,
+      29,
       36,
       38,
       49,
@@ -12920,8 +12937,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 27
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "6 Aug, 2026"
     },
     "support_info": {

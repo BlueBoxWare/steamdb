@@ -381,9 +381,9 @@
     "is_free": false,
     "short_description": "&quot;Take Care of My Heifer,&quot; reads the job listing. Sounds simple... until you step inside the house.",
     "supported_languages": "English, Russian, Italian, German, Spanish - Spain, Spanish - Latin America, Portuguese - Brazil, Turkish",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924360/8f2ce16d422e076b474b7921252d589b5efb2e2c/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924360/aec2b5dc91860d558b1183d46112efba5f21bcc6/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924360/aec2b5dc91860d558b1183d46112efba5f21bcc6/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924360/768c36c594f3a59a119842bdc5bb56ec087d572a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924360/33859b620cf225b45b41ad1a77316d6ee4177364/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924360/33859b620cf225b45b41ad1a77316d6ee4177364/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "REVVALUTION Studio"
@@ -1849,6 +1849,9 @@
     "steam_appid": 4923140,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4999550
+    ],
     "short_description": "Strategize your base to build and defend off waves of enemies in an on going battle. Plan, Attack, Defend and Grow! In the stratigic tower defense shooter.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4923140/91a73999024279e1cdfa15e305c6c6e227144be4/header.jpg",
@@ -1861,7 +1864,19 @@
     "publishers": [
       "Coffee Code"
     ],
-    "package_groups": [],
+    "packages": [
+      1708974
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Shapes: The Tower Defense Game",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1874,14 +1889,19 @@
       62,
       68,
       69,
-      74
+      74,
+      80
     ],
     "genres": [
       1,
-      2
+      2,
+      23
     ],
+    "achievements": {
+      "total": 17
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "7 Aug, 2026"
     },
     "support_info": {
@@ -1974,6 +1994,9 @@
     "steam_appid": 4923080,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5041760
+    ],
     "short_description": "A roguelike match-3 puzzle game where you continuously swap gems to build combos and use relic effects to boost your score. Create a different build each run and clear each stage.",
     "supported_languages": "English, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4923080/51c8a45a497e4a21b7e3fac8e89f3c0d4063ee63/header.jpg",
@@ -2024,6 +2047,9 @@
     "steam_appid": 4923790,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5037450
+    ],
     "short_description": "Play your harp. Win their hearts. An erotic rhythm game where you serenade 15 elven women across a sprawling fantasy city. 90 songs, 5 districts, and artwork that reveals more the better you play. One summer to go from Stranger to &quot;Soulmate&quot;.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4923790/f00c24bc345d3c7f99c1be18b353b477b8413b5d/header.jpg",
@@ -2035,6 +2061,12 @@
     ],
     "publishers": [
       "NPolish"
+    ],
+    "demos": [
+      {
+        "appid": 5037450,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3109,7 +3141,7 @@
     "steam_appid": 4923370,
     "required_age": 0,
     "is_free": false,
-    "short_description": "First-person football game where you control the movement of your dominant foot. No scripted animations deciding where the ball goes. Play 1v1 to 4v4 online, or practice in freeplay. Dive as a goalkeeper, slide tackle for the ball, and settle draws with a penalty shootout",
+    "short_description": "First-person football game where you control the movement of your dominant foot. No scripted animations deciding where the ball goes. Play 1v1 to 5v5 online, or practice in freeplay. Dive as a goalkeeper, slide tackle for the ball, and settle draws with a penalty shootout",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4923370/f18d74079362688d8bf4443300c441990da125e4/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4923370/7a70f87ddfbdd67a6ff56c2dc6caee6ecb520bba/capsule_231x87.jpg",
@@ -4700,6 +4732,7 @@
       9,
       18,
       22,
+      23,
       35,
       38,
       48,
@@ -4713,9 +4746,12 @@
       25,
       37
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "6 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -5374,7 +5410,8 @@
       "ShiftWorks Games"
     ],
     "publishers": [
-      "ShiftWorks Games"
+      "ShiftWorks Games",
+      "True Blue Game Studios"
     ],
     "package_groups": [],
     "platforms": {
@@ -5697,6 +5734,114 @@
         5
       ],
       "notes": "Due to the nature of the game, certain mature concepts, such as murder, death and alcohol are mildly mentioned at certain points.  Discretion advised. "
+    }
+  },
+  "4925590": {
+    "type": "game",
+    "name": "Hell Rite",
+    "steam_appid": 4925590,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Fight your way through hordes of enemies in fast-paced hack-and-slash combat, explore dungeons, bosses, and collect weapons, armor, and valuable loot. Complete quests, grow stronger, develop your character through powerful skills and abilities, and uncover the secrets buried within Ashenreach.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4925590/7851b65b7064b77d5336d4cc4ef490f36f17943d/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4925590/998416b7dbc5da19692f7fc5fc0e61b500237c2a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4925590/998416b7dbc5da19692f7fc5fc0e61b500237c2a/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "HellriteStudio"
+    ],
+    "publishers": [
+      "HellriteStudio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      79
+    ],
+    "genres": [
+      1,
+      3,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "support@hellritestudios.com",
+      "email": "support@hellritestudios.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4925590",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4925590",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4925810": {
+    "type": "game",
+    "name": "Cricket Manager",
+    "steam_appid": 4925810,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Take control of your favorite franchise or international squad in this ultra-deep cricket management simulation. Out-tactic opponents with a ball-by-ball 4-step physics engine, discover next-gen talent, and build a multi-season dynasty offline.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4925810/d7a7f3f5c73ee21e65c7076dbdc0d2423475d772/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4925810/6ca7b1e57751eb50ce38600fb8ec31631a2b3287/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4925810/6ca7b1e57751eb50ce38600fb8ec31631a2b3287/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Cricket Manager"
+    ],
+    "publishers": [
+      "Cricket Manager"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      64,
+      66,
+      68,
+      71,
+      74,
+      76,
+      78,
+      79,
+      80
+    ],
+    "genres": [
+      2,
+      18,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "August 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "prahaladvatsan@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4925810",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4925810",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }

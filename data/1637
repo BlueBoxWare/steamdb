@@ -746,7 +746,7 @@
     "required_age": 0,
     "is_free": true,
     "short_description": "UNLOAD is an interception-focused top-down shooter where ammo is life. Intercept lethal projectiles to reload and survive by a thread. As a Visitor who lost everything in an explosion, hunt down those tied to the incident and uncover the truth behind that day.",
-    "supported_languages": "English, Korean, Japanese, Simplified Chinese, Traditional Chinese",
+    "supported_languages": "English, Korean, Japanese, Simplified Chinese, Traditional Chinese, Russian, Spanish - Latin America, Portuguese - Brazil",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4911370/505922a750d12b36924c28fdf10361964cc37023/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4911370/2bf154de7affa5054a860080202159c618ec450b/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4911370/2bf154de7affa5054a860080202159c618ec450b/capsule_184x69.jpg",
@@ -1305,6 +1305,9 @@
     "steam_appid": 4912000,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5027730
+    ],
     "short_description": "A cozy-spooky roguelite deckbuilder where you play as a household pet exploring a home full of mysterious encounters after dark.",
     "supported_languages": "English<strong>*</strong>, Ukrainian<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4912000/69ce370b4f2dfbe4cec23068e3823963685f8bcd/header.jpg",
@@ -1316,6 +1319,12 @@
     ],
     "publishers": [
       "TessaraOxygen"
+    ],
+    "demos": [
+      {
+        "appid": 5027730,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -1590,7 +1599,19 @@
     "publishers": [
       "Phocus Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1705025
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Final Table",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1608,16 +1629,19 @@
     "genres": [
       2
     ],
+    "achievements": {
+      "total": 17
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "7 Aug, 2026"
     },
     "support_info": {
       "url": "https://steamcommunity.com/app/4911260/discussions/",
       "email": "support@phocusgames.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4911260",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4911260",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4911260/ab168413ef0501b428a250d0703377522352162e/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -4504,7 +4528,19 @@
     "publishers": [
       "Porto Inc."
     ],
-    "package_groups": [],
+    "packages": [
+      1705754
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Miranza Futebol Clube",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4518,14 +4554,18 @@
       74,
       75,
       76,
-      79
+      79,
+      80
     ],
     "genres": [
       28
     ],
+    "achievements": {
+      "total": 25
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q3 2026"
+      "coming_soon": false,
+      "date": "7 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -5715,6 +5755,139 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "4911710": {
+    "type": "dlc",
+    "name": "Sovereign Tower: Artbook",
+    "steam_appid": 4911710,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Filled to the brim with gorgeous illustrations from the world of Sovereign Tower, this digital artbook will have you poring over the illustrious Knights, Servants, Counts and beautiful rooms of the Tower.",
+    "fullgame": {
+      "appid": "4113940",
+      "name": "Sovereign Tower"
+    },
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4911710/958cf16bbe22404ba2de8de801a22f8ebb374023/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4911710/d7868a89e13292cda82fc76bed69e965ff2047c9/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4911710/d7868a89e13292cda82fc76bed69e965ff2047c9/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "WILD WITS GAMES"
+    ],
+    "publishers": [
+      "Curve Games"
+    ],
+    "packages": [
+      1705175
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Sovereign Tower: Artbook",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      23,
+      28,
+      55,
+      56,
+      57,
+      58,
+      62,
+      68,
+      74,
+      79,
+      80
+    ],
+    "genres": [
+      3,
+      23
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "6 Aug, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support@curvegames.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4911710",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4911710",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4911730": {
+    "type": "game",
+    "name": "Jubaku",
+    "steam_appid": 4911730,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A First-Person Psychological Horror With Branching Choices And Multiple Endings. Investigate A Haunted House, Document Paranormal Events, Uncover Hidden Recordings, And Decide Whether To Confront Or Escape The Horrors Lurking Within.",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Indonesian<strong>*</strong>, Japanese<strong>*</strong>, Malay<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4911730/676751738325a3563b04b9e9580a4fc713546e58/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4911730/eb31122f9d25b9b10d9a49ba0d8a63b8c53f5e1a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4911730/eb31122f9d25b9b10d9a49ba0d8a63b8c53f5e1a/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "BabGamesStudio"
+    ],
+    "publishers": [
+      "BabGamesStudio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      13,
+      22,
+      30,
+      62,
+      65,
+      67,
+      68,
+      74,
+      75,
+      76,
+      78
+    ],
+    "genres": [
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q4 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "bchopra2004@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4911730",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4911730/b83283d1da85f17815939d9eed1e2e6975a600d3/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": "This game contains psychological horror and mature themes, including depictions and references to child abuse, domestic abuse, illness, disability, death, suicide, murder, trauma, and disturbing supernatural events. The game also contains frightening imagery, intense scenes, jump scares, and themes involving psychological distress and parental abuse. The game does not contain sexual content or explicit nudity."
     }
   }
 }
