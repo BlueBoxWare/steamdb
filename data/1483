@@ -4250,9 +4250,7 @@
       39,
       49,
       55,
-      56,
       57,
-      58,
       62,
       67,
       74
@@ -6677,6 +6675,7 @@
     "steam_appid": 4450820,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Swarmbreak is a twin-stick roguelike shooter where you aim every bullet, stack every perk, and push every run to its breaking point. All that stands between you and oblivion is the ridiculous build you cobbled together from 27 perks, 14 weapons, and a character passive that bends the rules.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450820/cef3b75b2e109c01e766784633eb88009e33b9a7/header.jpg",
@@ -6692,12 +6691,17 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
       2,
       22,
+      28,
+      55,
+      56,
+      57,
+      58,
       62
     ],
     "genres": [
@@ -7602,7 +7606,7 @@
     "controller_support": "full",
     "short_description": "A horror co-op extraction builder set in a scorched wasteland where everything burns. Descend with your friends into shifting ruins, rip out furniture, and scavenge for loot before the Corrupted close in. Make it back alive, then rebuild the Outpost to better your chances for the next run.",
     "supported_languages": "English<strong>*</strong>, German, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Ukrainian, French, Spanish - Latin America, Traditional Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/697974067797577ee1803c37a44b4217d886502a/header.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/4731734487b93af4b7edaecab28a6ac348ee5f02/header_alt_assets_0.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/4cbcd93991fb6ca72c0fdc637c6f7580453c55c3/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/4cbcd93991fb6ca72c0fdc637c6f7580453c55c3/capsule_184x69.jpg",
     "website": null,
@@ -7612,7 +7616,19 @@
     "publishers": [
       "Neem Interactive"
     ],
-    "package_groups": [],
+    "packages": [
+      1553774
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy GRAIN ROT",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7636,7 +7652,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "7 Aug, 2026"
     },
     "support_info": {
