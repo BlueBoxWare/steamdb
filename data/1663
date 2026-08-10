@@ -223,6 +223,9 @@
     "steam_appid": 4990600,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5012010
+    ],
     "short_description": "A realistic first-person horror game where you explore a dark underground basement, solve puzzles, uncover hidden clues, and escape from a ruthless killer who could be lurking around every corner.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4990600/026e4d55c7764c7afcdbcf21cf934a622ba92e6e/header.jpg",
@@ -236,7 +239,25 @@
     "publishers": [
       "Velvet"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5012010,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1731296
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Blackforest",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -251,9 +272,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 1
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "9 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -1959,7 +1983,7 @@
     ],
     "short_description": "Choose the enemies you\u2019ll face in a reverse-draft tower defense. Take greedier cards for more gold, build and upgrade your defenses, shape enemy routes, and ride between towers to turn the battle across a fantasy campaign.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4990780/084e1da6a4c972f752838ba7b682bddfd9a219ab/header.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4990780/ba5844720f66c43b0c6e725e7523f6c68ce63b64/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4990780/3ee06b68b954b3c079f794e388fd7e9e39ba6ed6/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4990780/3ee06b68b954b3c079f794e388fd7e9e39ba6ed6/capsule_184x69.jpg",
     "website": null,

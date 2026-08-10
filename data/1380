@@ -6574,6 +6574,9 @@
     "steam_appid": 4142610,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4907000
+    ],
     "short_description": "The game is a strategy simulation game where you start a family, raise children, infiltrate various industries in the city (13 industries, 70 professions), run for mayor to control the city's destiny, manufacture weapons to wage city wars, and ultimately establish your family empire.",
     "supported_languages": "English, Simplified Chinese, French, Italian, German, Russian, Japanese, Traditional Chinese, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4142610/053d63e03eda71996bb9661fa306dab1a13b49a0/header.jpg",
@@ -6586,13 +6589,19 @@
     "publishers": [
       " Wise Games"
     ],
-    "demos": [
+    "packages": [
+      1451408
+    ],
+    "package_groups": [
       {
-        "appid": 4267130,
-        "description": ""
+        "name": "default",
+        "title": "Buy Clan and Crown",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6611,8 +6620,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 51
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Aug, 2026"
     },
     "support_info": {
