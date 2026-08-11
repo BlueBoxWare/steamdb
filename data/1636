@@ -309,7 +309,7 @@
     "steam_appid": 4909990,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A sabotaged time machine shattered the world. You are Taori, humanity's final grudge in a co-op super-roguelike with endless augments, unreasonable enemies, and limitless growth.",
+    "short_description": "A sabotaged time machine shattered the world. You are the culmination of humanity in a co-op super-roguelike with endless augments, unreasonable enemies, and limitless growth.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4909990/045c68526984a625e12612269b0088bda93d14f1/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4909990/3890ac134770eebbaeb6187df059b8a295170ada/capsule_231x87.jpg",
@@ -354,7 +354,7 @@
       "ids": [
         5
       ],
-      "notes": "Taori has stylized fantasy violence against (mostly) non-human enemies, including combat with weapons, magic, explosions, and monster-like creatures. The game also has dark themes, demons, cults, psychological horror elements, and hidden/easter egg content that some players may find unsettling.\r\n\r\nDarker story material may appear in optional lore entries and unlockable short stories.\r\n\r\nTaori also contains gambling themed environments and chance-based risk/reward mechanics, but does not have real-money gambling, in-app purchases, sexual content, drug use, or alcohol use."
+      "notes": "Taori has stylized fantasy violence against various entities, mostly non human. There are darker themes such as demons, cults, and other various horror elements.\r\n\r\nTaori also has some gambling themed environments and chance based mechanics, but does not contain real-money gambling, in-app purchases, or sexual content."
     }
   },
   "4910280": {
@@ -1984,7 +1984,19 @@
     "publishers": [
       "Zyneros Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1704138
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Circulo",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1999,14 +2011,18 @@
       67,
       68,
       78,
-      79
+      79,
+      82
     ],
     "genres": [
       1,
       23
     ],
+    "achievements": {
+      "total": 29
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "10 Aug, 2026"
     },
     "support_info": {
@@ -3183,7 +3199,6 @@
     },
     "categories": [
       2,
-      23,
       62,
       74
     ],
@@ -6374,7 +6389,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "A fantasy roguelike adventure with unique card battles. Recruit companions and battle enemies using Companion Cards, where each round compares a random stat. Every companion has unique abilities that change the rules of combat. Build your team, adapt your strategy, and shape your own adventure.",
-    "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, French<strong>*</strong>, German, Spanish - Spain<strong>*</strong>, Russian<strong>*</strong>, Japanese<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Korean<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910300/e4830aeadafc9068c4cb708ec539116ad730e1a3/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910300/e30a367e0b6dbe55791f8d30300260164159aa7c/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910300/e30a367e0b6dbe55791f8d30300260164159aa7c/capsule_184x69.jpg",
@@ -6464,7 +6479,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q4 2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -6863,6 +6878,58 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4910970",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4910970",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4908560": {
+    "type": "game",
+    "name": "Setter: Volleyball Manager 27",
+    "steam_appid": 4908560,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Setter is a volleyball management game where every decision shapes your club. Build and develop your squad in a competitive transfer market where rivals can bid for your players, prepare your lineup and tactics, and watch every rally unfold as you compete for domestic titles and continental success.",
+    "supported_languages": "English, Spanish - Spain",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4908560/c49ed919b90f7c319a8f0df2f5d96835349b99ae/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4908560/a4f8727b25180f161543ecf1cdf56bd393349939/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4908560/a4f8727b25180f161543ecf1cdf56bd393349939/capsule_184x69.jpg",
+    "website": "https://setter.gg/",
+    "developers": [
+      "Setter"
+    ],
+    "publishers": [
+      "Setter"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      67,
+      74,
+      79,
+      80
+    ],
+    "genres": [
+      2,
+      18,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "November 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "hello@setter.gg"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4908560",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4908560/acaadca3b2100e84a70ce4bea6dbb5df933d131f/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

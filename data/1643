@@ -1046,7 +1046,10 @@
     "steam_appid": 4929280,
     "required_age": 0,
     "is_free": false,
-    "short_description": "In Act Normal, you aren't just playing, you're performing. Thieves must blend in, mimic NPC behavior, and steal as much loot as possible, while the Guard watches every movement to catch anyone acting suspicious. Can you stay normal under pressure?",
+    "dlc": [
+      5055350
+    ],
+    "short_description": "Every minute, the player with the lowest score is eliminated. Everyone looks like an NPC, but every player carries a hidden gun. Nobody knows who the other players are or how much they've scored. Blend in, steal everything you can, and survive.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4929280/e69bc532a352a89e5e58e5191aea3201d4bb461b/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4929280/b47c0843b453ce0554aa65f2765f7b2ea578fd19/capsule_231x87.jpg",
@@ -1999,9 +2002,6 @@
     "steam_appid": 4929930,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      4930090
-    ],
     "short_description": "This is a wacky and funny football evasion survival mini-game with ultra-simple controls\u2014you only need to move your character. Hordes of enemies will rush toward your soccer ball relentlessly; do not let them touch it. The longer you survive, the higher your score. How long can you last?",
     "supported_languages": "English, French, German, Spanish - Spain, Russian, Japanese, Simplified Chinese, Traditional Chinese, Portuguese - Portugal, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4929930/9b95f2392d56dfdf3322d25c21bc1a222630ef4b/header.jpg",
@@ -2014,12 +2014,6 @@
     "publishers": [
       "86\u5c81\u6309\u65f6\u5403\u996d"
     ],
-    "demos": [
-      {
-        "appid": 4930090,
-        "description": ""
-      }
-    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -2028,9 +2022,11 @@
     },
     "categories": [
       2,
+      22,
       62,
       67,
-      68
+      68,
+      82
     ],
     "genres": [
       1,
@@ -2038,7 +2034,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "3 Aug, 2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -3269,7 +3265,7 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       1,
@@ -3294,7 +3290,7 @@
     },
     "support_info": {
       "url": "https://starbreaker.yellow51.dev",
-      "email": "admin@yellow51.dev"
+      "email": "support@vyrexinteractive.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4929800",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4929800/faa3428e496145da45896d2b5410fa8322e1d8aa/page_bg_raw.jpg",
@@ -3594,6 +3590,8 @@
       1,
       2,
       9,
+      36,
+      38,
       49,
       52,
       53,
@@ -3837,7 +3835,7 @@
   },
   "4930750": {
     "type": "game",
-    "name": "Just Five More Minutes",
+    "name": "Hexhorde",
     "steam_appid": 4930750,
     "required_age": 0,
     "is_free": false,
@@ -3853,7 +3851,19 @@
     "publishers": [
       "Meridian Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1711599
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Hexhorde",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3878,9 +3888,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 56
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q3 2026"
+      "coming_soon": false,
+      "date": "10 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -4855,9 +4868,9 @@
     "controller_support": "full",
     "short_description": "Survive the deadliest future game show in The Survival Show! Jump over razor-sharp lasers, dodge killer robots, and hurl live bombs before the clock runs out. Test your reflexes in a top-down arena, entertain the crowd, and claim the billionaire grand prize!",
     "supported_languages": "English, Portuguese - Brazil",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4929940/1bca44c9386e71662d394b52eb3dbf54a001f292/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4929940/23f0705f95cf1d1b8979e277880749d3a809fd99/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4929940/23f0705f95cf1d1b8979e277880749d3a809fd99/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4929940/61ce6769ba6666aacf48d287d6833ff53d338632/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4929940/eb6c1c32061e099def3f015af4da5e5bfefcb59a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4929940/eb6c1c32061e099def3f015af4da5e5bfefcb59a/capsule_184x69.jpg",
     "website": "https://www.qubytegames.store",
     "developers": [
       "Nato Games"
@@ -4873,9 +4886,13 @@
     },
     "categories": [
       2,
+      9,
       22,
       23,
+      24,
       28,
+      39,
+      44,
       55,
       57,
       62
