@@ -182,17 +182,26 @@
     "steam_appid": 4462580,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4905910
+    ],
     "short_description": "BLIGHTEN is a survival horror fps set in an abandoned facility overrun by mindless creatures infected by the Blight. Scavenge for resources and do whatever it takes to survive the industrial hellscape you're isolated within.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4462580/0440fb4f0ed5fbdbbdf86058cbb0d5fbfe46a183/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4462580/0938306e7932a6c9c7a9a0df26cb2d61a71afd62/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4462580/0938306e7932a6c9c7a9a0df26cb2d61a71afd62/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4462580/7d86417ed95ebce422c69c70aa7890e98a57ae56/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4462580/4e59e74197a342e3118d619f57fd08563557a538/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4462580/4e59e74197a342e3118d619f57fd08563557a538/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Blight Software"
     ],
     "publishers": [
       "Blight Software"
+    ],
+    "demos": [
+      {
+        "appid": 4905910,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2082,7 +2091,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1558101
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Dorts : A Darts Roguelike",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2113,8 +2134,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 55
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "12 Aug, 2026"
     },
     "support_info": {
@@ -8587,8 +8611,11 @@
     "categories": [
       2,
       15,
+      18,
       22,
+      23,
       25,
+      55,
       62
     ],
     "genres": [
@@ -8886,6 +8913,55 @@
         5
       ],
       "notes": "Contains cartoon violence"
+    }
+  },
+  "4462100": {
+    "type": "game",
+    "name": "Rest Without Peace",
+    "steam_appid": 4462100,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Rest Without Peace is a first-person psychological horror game set in 1992. Complete late-night work orders, repair failing equipment, restore power, inspect Westbrook\u2019s basement, and explore sealed asylum spaces as fractured memories expose a truth Tom buried.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4462100/17e9839cefcc5f7e5ff8f947de17153473267da7/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4462100/1a0ac0ede68326e494f5878aeda2a2fa06cab105/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4462100/1a0ac0ede68326e494f5878aeda2a2fa06cab105/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Black Creek Studios"
+    ],
+    "publishers": [
+      "Black Creek Studios"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "blackcreekgamestudios@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4462100",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4462100/9f5696b3e4a6ee91f22a7ec3f260e569ec363082/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "Rest Without Peace contains themes of psychological distress, trauma, alcohol abuse, and death. The narrative centers on guilt and explores mature subject matter including implied violence, references to drunk driving, and self-harm themes. There is no graphic gore or sexual content."
     }
   }
 }

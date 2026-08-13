@@ -311,6 +311,9 @@
     "steam_appid": 4968650,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5021330
+    ],
     "short_description": "You are a QA tester for a game company working late at night. Your job is to look out for anomalies and glitches in their upcoming top-down adventure game. Will you play the game, or will the game play you?",
     "supported_languages": "English, Portuguese - Brazil",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968650/57365c4e611eb792c1bf8e01725c8cb4ab7e4e88/header.jpg",
@@ -322,6 +325,12 @@
     ],
     "publishers": [
       "LucaZ"
+    ],
+    "demos": [
+      {
+        "appid": 5021330,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -667,9 +676,9 @@
     "is_free": false,
     "short_description": "The Angel spoke. I listened. A brutal retro FPS descent through the spawn of hell \u2014 three callings, many weapons, a loyal hound and an armored warhorse. Ride, cleave, conjure and repent. Forgive them all.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4970270/28302d240840a90ba8c12ef7431588b938b942f7/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4970270/d2c4e11d0d610c326a980f12972f466777f79c1a/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4970270/d2c4e11d0d610c326a980f12972f466777f79c1a/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4970270/ca657b1a0c8d1fcacff346afe6b8f76565f482c6/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4970270/889930af608edc3bd1bcd7360461ee82a8b954ee/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4970270/889930af608edc3bd1bcd7360461ee82a8b954ee/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Filip Suta"
@@ -2127,7 +2136,19 @@
     "publishers": [
       "Flytel"
     ],
-    "package_groups": [],
+    "packages": [
+      1724693
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy The Long Way Up",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -2144,13 +2165,18 @@
       75,
       76,
       77,
-      79
+      79,
+      80,
+      82
     ],
     "genres": [
       70
     ],
+    "achievements": {
+      "total": 31
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "12 Aug, 2026"
     },
     "support_info": {
@@ -4692,6 +4718,180 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4968420",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4968420",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4968530": {
+    "type": "game",
+    "name": "Twister City",
+    "steam_appid": 4968530,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Twister City is an online co-op game featuring proximity chat, where you and up to 5 friends try to survive in a city plagued by tornadoes. Collect debris to research for points and unlock new items and upgrades that will hopefully increase your chances to survive Twister City.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968530/654ed1ea17bdb95f38b5cad2ed45d5cca76d3710/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968530/da100204faf754be40db03d7a3bd32ca72fd286c/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968530/da100204faf754be40db03d7a3bd32ca72fd286c/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "T5aDev"
+    ],
+    "publishers": [
+      "T5aDev"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      18,
+      38,
+      55,
+      56,
+      57,
+      58,
+      62
+    ],
+    "genres": [
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "contact.t5adev@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4968530",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968530/ec27412304ddd4333bffb61d15c3fb5116707f17/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4969170": {
+    "type": "dlc",
+    "name": "Ministry of Truth: False Memory - Supporter Pack",
+    "steam_appid": 4969170,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Support the development of Ministry of Truth: False Memory with this digital bonus pack featuring 6 UltraWide 5K2K wallpapers and an exclusive PDF covering the game's development and dystopian setting. Contains no gameplay content.",
+    "fullgame": {
+      "appid": "3492150",
+      "name": "Ministry of Truth: False Memory"
+    },
+    "supported_languages": "English<strong>*</strong>, Ukrainian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4969170/19dac46266645c0b086c35ed9005065bbd419664/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4969170/c7c717bb5553e7717c0e3515a52e7fa2bd61b4f0/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4969170/c7c717bb5553e7717c0e3515a52e7fa2bd61b4f0/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "IKKOSAMA",
+      "False Memory Dept."
+    ],
+    "publishers": [
+      "Two Cakes Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      23,
+      28,
+      55,
+      56,
+      57,
+      58,
+      67,
+      68,
+      74,
+      79
+    ],
+    "genres": [
+      23,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "19 Aug, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "falsememorydept@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4969170",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4969170",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4970000": {
+    "type": "game",
+    "name": "Taskbar Chickens",
+    "steam_appid": 4970000,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Cute little chickens are wandering around on your taskbar! Play with them, pet them and use their products to craft new tools, unlock new skills and get richer! While you're working on other stuff, they will accompany you on your taskbar.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Simplified Chinese, Portuguese - Brazil, Bulgarian, Danish, Indonesian, Dutch, Finnish, Traditional Chinese, Japanese, Korean, Spanish - Latin America, Polish, Hungarian, Malay, Norwegian, Portuguese - Portugal, Romanian, Russian, Thai, Turkish, Ukrainian, Vietnamese, Greek, Czech, Swedish, Azerbaijani",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4970000/b0c9a2b478f4486b521ddd89ffc89a2d78a4c383/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4970000/0881c9dbbc9c515f8b15966d2a0666b8c4963412/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4970000/0881c9dbbc9c515f8b15966d2a0666b8c4963412/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Babs Games"
+    ],
+    "publishers": [
+      "Babs Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      62,
+      68,
+      74,
+      76,
+      80
+    ],
+    "genres": [
+      2,
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "2 Sep, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "babsgamestr@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4970000",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4970000",
     "content_descriptors": {
       "ids": [],
       "notes": null
