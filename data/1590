@@ -317,7 +317,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "The Hidden Camp is a multiplayer social deduction survival game for 9 players. Work together, complete tasks, identify the hidden traitors, and survive tense rounds filled with suspicion, strategy, and betrayal.",
-    "supported_languages": "English, French, German, Simplified Chinese, Portuguese - Brazil, Japanese, Korean, Polish, Russian, Turkish",
+    "supported_languages": "English, French, German, Simplified Chinese, Portuguese - Brazil, Japanese, Korean, Polish, Russian, Turkish, Arabic, Spanish - Spain",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771610/8b1b74777387f16c4f3dd450f082316490bb3889/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771610/049419b54e077bfe8c30433b1951e825fd931dc4/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771610/049419b54e077bfe8c30433b1951e825fd931dc4/capsule_184x69.jpg",
@@ -1406,7 +1406,19 @@
     "publishers": [
       "Kailo"
     ],
-    "package_groups": [],
+    "packages": [
+      1659412
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Sector Null",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1424,8 +1436,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "13 Aug, 2026"
     },
     "support_info": {
       "url": "https://fathomgames.org/",
@@ -5833,6 +5845,9 @@
     "steam_appid": 4770790,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4900100
+    ],
     "short_description": "Orbital Margins is a hard Science-Fiction small-business dicerolling RPG putting you into the shoes of an independent spacecraft operator in earth orbital space of a potential mid-future, where your most dangerous enemies are running costs, the rigors of space and customs clerks having a bad day.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4770790/c2122b7412a4980e3665b2559e5c14fb03096188/header.jpg",
@@ -5844,6 +5859,12 @@
     ],
     "publishers": [
       "random acts of construction"
+    ],
+    "demos": [
+      {
+        "appid": 4900100,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {

@@ -1417,6 +1417,7 @@
     "steam_appid": 4395950,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Island Restoration is a cleaning game where you heal a scarred world, one island at a time. Clean up hazards, rescue cute wildlife, uncover secrets, and upgrade your equipment as you explore diverse regions and transform ever-changing islands into beautiful paradises.",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4395950/0bf04b0203970991fcda849b6e799877b2776fc1/header.jpg",
@@ -1443,6 +1444,8 @@
     },
     "categories": [
       2,
+      22,
+      28,
       62,
       67,
       68,
@@ -4689,8 +4692,11 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4940540
+    ],
     "short_description": "Speed or firepower? Survive or dominate? Build your armored convoy car by car in this survivors-like auto-shooter. The fate of the planet rides on your choices \u2014 and your convoy.",
-    "supported_languages": "English, French, German, Spanish - Spain, Portuguese - Brazil, Russian",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4396640/249bf748677f3b823679c4652ce5f758bacc1650/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4396640/9bb2eae5ede7be4a82147303ed833a9178af519a/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4396640/9bb2eae5ede7be4a82147303ed833a9178af519a/capsule_184x69.jpg",
@@ -4700,6 +4706,12 @@
     ],
     "publishers": [
       "Twohuyak Production"
+    ],
+    "demos": [
+      {
+        "appid": 4940540,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4899,7 +4911,8 @@
       68,
       74,
       75,
-      76
+      76,
+      80
     ],
     "genres": [
       2,
@@ -4908,7 +4921,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "https://omnivorian.com",
@@ -5778,13 +5791,19 @@
     "publishers": [
       "Camel 101"
     ],
-    "demos": [
+    "packages": [
+      1535558
+    ],
+    "package_groups": [
       {
-        "appid": 4694080,
-        "description": ""
+        "name": "default",
+        "title": "Buy Dead Stop - No Vacancy",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5799,8 +5818,11 @@
     "genres": [
       25
     ],
+    "achievements": {
+      "total": 6
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "13 Aug, 2026"
     },
     "support_info": {
@@ -7886,7 +7908,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2026"
+      "date": "27 Oct, 2026"
     },
     "support_info": {
       "url": "",
