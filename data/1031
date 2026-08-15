@@ -5413,7 +5413,7 @@
   },
   "3093750": {
     "type": "game",
-    "name": "Gamble Lair",
+    "name": "Rock Paper Gamba!",
     "steam_appid": 3093750,
     "required_age": 0,
     "is_free": false,
@@ -14294,7 +14294,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1099463
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Wish Creatures",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -14303,6 +14315,7 @@
     "categories": [
       2,
       18,
+      22,
       62,
       68,
       69,
@@ -14314,9 +14327,12 @@
       3,
       23
     ],
+    "achievements": {
+      "total": 8
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "14 Aug, 2026"
     },
     "support_info": {
       "url": "",
