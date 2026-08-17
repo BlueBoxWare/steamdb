@@ -804,7 +804,7 @@
     "steam_appid": 4966660,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A idle RPG that respects your time. Master 12 skills and combat, forge legendary gear, sail the seas, and battle through 12 cursed zones and 4 raids \u2014 from the Rat Warrens to the Demon Sanctum. Deep systems, passive skill trees, one-click progression, and embers that never die while you're away.",
+    "short_description": "A idle RPG that respects your time. Master 12 skills and combat, forge legendary gear, sail the seas, and battle through 12 cursed zones and 4 raids - from the Rat Warrens to the Demon Sanctum. Deep systems, passive skill trees, one-click progression, and embers that never die while you're away.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4966660/b030a4431f8e166bec4180e8d4c040d3943497bd/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4966660/474617a0301be5c319c5362e4c5ed90b3d12124f/capsule_231x87.jpg",
@@ -2621,6 +2621,10 @@
       44,
       47,
       49,
+      55,
+      56,
+      57,
+      58,
       62
     ],
     "genres": [
@@ -4020,8 +4024,8 @@
     "short_description": "Fight your way through a corporate-controlled skyscraper, one floor at a time. Chain together brutal combos, launch enemies across the room, and collect powerful upgrades as you climb toward the top. Floors of Fury is a fast-paced beat \u2019em up roguelite built around hard-hitting melee combat.",
     "supported_languages": "English, Japanese, Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4967240/d0a710b688a067749ba1b2e3e71e0062abab07d5/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4967240/908bcaac16e2626cb11f26d2543e0e3d692e9b6b/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4967240/908bcaac16e2626cb11f26d2543e0e3d692e9b6b/capsule_184x69.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4967240/70aeab51443d022acf0904e9c3749db6efa3b682/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4967240/70aeab51443d022acf0904e9c3749db6efa3b682/capsule_184x69.jpg",
     "website": "https://almostorbit.com/floors-of-fury",
     "developers": [
       "Almost Orbit"
@@ -4135,7 +4139,19 @@
     "publishers": [
       "Michael Warren"
     ],
-    "package_groups": [],
+    "packages": [
+      1722930
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy P.U.P",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4150,8 +4166,11 @@
     "genres": [
       4
     ],
+    "achievements": {
+      "total": 31
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "17 Aug, 2026"
     },
     "support_info": {
@@ -4417,12 +4436,12 @@
     "developers": [
       "ABlaskov",
       "SupercapeSteve",
-      "Sparky17",
+      "CosmicCrow",
       "squidypal"
     ],
     "publishers": [
       "ABlaskov",
-      "Sparky17",
+      "CosmicCrow",
       "SupercapeSteve",
       "squidypal"
     ],
