@@ -133,8 +133,9 @@
     "steam_appid": 4903960,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Chaotic World is a top-down PvE arena shooter where your objective is to clear waves of different and unique enemies until you destroy them all. Set across colorful maps, you will have the opportunity to make yourself stronger by leveling up and finding loot on your way to the last wave!",
-    "supported_languages": "English, Italian, Simplified Chinese, Spanish - Latin America",
+    "supported_languages": "English, Italian, Simplified Chinese, Spanish - Latin America, French",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4903960/5525eede04a5ba49d6da7e4a9c2cdda0b2b05bde/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4903960/64d95835d9f76664d035815da2b3a085fa37a8e8/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4903960/64d95835d9f76664d035815da2b3a085fa37a8e8/capsule_184x69.jpg",
@@ -154,9 +155,10 @@
     "categories": [
       2,
       22,
+      28,
       62,
       67,
-      69
+      78
     ],
     "genres": [
       1,
@@ -1836,7 +1838,7 @@
     "steam_appid": 4902600,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Re:Store the Record Store is a game about tidying up an indie record store after the owner had to run off to chase down his escaped monkey. Featuring over 800 items to pick up, sort through and return back into the crates where they belong. Take your time to look through everything or speedrun it!",
+    "short_description": "Re:Store the Record Store is a game about tidying up an indie record store after the owner had to run off to chase down his escaped monkey. Featuring over 1000 items to pick up, sort through and return back into the crates where they belong. Take your time to look through everything or speedrun it!",
     "supported_languages": "English, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4902600/2fb53b6bb8040cdbaac71f1b60f8ce61c9f9fb8c/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4902600/b05343cd670ae2cd54f8fa7e6e49962e2f81db11/capsule_231x87.jpg",
@@ -1857,6 +1859,7 @@
     "categories": [
       2,
       18,
+      22,
       62
     ],
     "genres": [
@@ -2365,6 +2368,9 @@
     "steam_appid": 4904080,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4908530
+    ],
     "short_description": "Feastfall is a cooking roguelike deckbuilder. Plate ingredient cards into recipes, stack game-breaking charm synergies, and feed ravenous monsters. This is not a kitchen sim. It's a life-or-death gamble at the dinner table \u2014 and the house is starving.",
     "supported_languages": "English<strong>*</strong>, Turkish<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4904080/ca316c858290d64db10284921c8528200f8bd09b/header.jpg",
@@ -4163,7 +4169,19 @@
     "publishers": [
       "Lilith Guild"
     ],
-    "package_groups": [],
+    "packages": [
+      1702810
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Blooming Faith",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4177,8 +4195,11 @@
     "genres": [
       4
     ],
+    "achievements": {
+      "total": 5
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "18 Aug, 2026"
     },
     "support_info": {

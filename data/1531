@@ -496,8 +496,8 @@
     "name": "Simulation Simulator",
     "steam_appid": 4594070,
     "required_age": 0,
-    "is_free": true,
-    "short_description": "A freeform chat simulator where you attempt to convince a built-in LLM that it does not exist.",
+    "is_free": false,
+    "short_description": "a freeform conversation experience where you debate the nature of reality with your AI-powered best friend around a campfire in the woods.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4594070/54214a8e595b5f6832b188050b5341d1008574d3/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4594070/c2fb62cad7d7ada127dcfed4d5e82b6fbda70cfa/capsule_231x87.jpg",
@@ -509,7 +509,19 @@
     "publishers": [
       "Morph"
     ],
-    "package_groups": [],
+    "packages": [
+      1773894
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Simulation Simulator",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -519,13 +531,13 @@
       2,
       62,
       69,
-      74
+      74,
+      80
     ],
     "genres": [
       4,
       23,
-      28,
-      37
+      28
     ],
     "achievements": {
       "total": 6
@@ -1314,6 +1326,9 @@
     "steam_appid": 4594500,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5044810
+    ],
     "short_description": "Sk\u00f6llorn is a fast-paced, minimalist RTS where the map itself is your weapon. Sever supply lanes, forge new fronts, and wield one of five asymmetric commander doctrines across procedurally generated galaxies. Solo or up to 8-player skirmishes \u2014 no two wars are ever the same.",
     "supported_languages": "English, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4594500/3745e41b0e0896dcf6a2043e580fb0ed9a98bf54/header.jpg",
@@ -3693,7 +3708,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1601461
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Platon\u00b3",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3707,8 +3734,11 @@
       2,
       23
     ],
+    "achievements": {
+      "total": 18
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "17 Aug, 2026"
     },
     "support_info": {
@@ -3740,6 +3770,16 @@
     "publishers": [
       "Viktor Martynovsky"
     ],
+    "demos": [
+      {
+        "appid": 4596880,
+        "description": ""
+      },
+      {
+        "appid": 4596880,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -3756,7 +3796,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "To be announced"
+      "date": "Q4 2026"
     },
     "support_info": {
       "url": "",
@@ -5141,7 +5181,6 @@
     ],
     "genres": [
       2,
-      4,
       23,
       28,
       70
