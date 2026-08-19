@@ -653,6 +653,9 @@
     "steam_appid": 5024220,
     "required_age": 0,
     "is_free": true,
+    "dlc": [
+      5029470
+    ],
     "short_description": "Shape complex sounds across 8 independent synth blocks, combine high-fidelity oscillators with custom samples, route MIDI creatively, and activate dynamic movement using advanced LFOs, arpeggiators, a massive modulation matrix, and a flexible multi-FX chain.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5024220/994b1ede14d7a5110874e53a9772e959eb51cd3f/header.jpg",
@@ -684,8 +687,8 @@
       52
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "13 Aug, 2026"
+      "coming_soon": false,
+      "date": "18 Aug, 2026"
     },
     "support_info": {
       "url": "https://tatreal.pro/contact",
@@ -704,6 +707,7 @@
     "steam_appid": 5024760,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "The City of Cherrywood has a new food-delivery app, and needs drivers like you! Be your own boss and earn your way to new cars and upgrades, one order at a time.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5024760/f6530709208b03dbcbe9d7db32bbfb63d70baf41/header.jpg",
@@ -720,10 +724,11 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
+      28,
       62,
       64,
       68,
@@ -815,7 +820,19 @@
     "publishers": [
       "Perilla Devon"
     ],
-    "package_groups": [],
+    "packages": [
+      1741577
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Casual Maze Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -835,9 +852,12 @@
     "genres": [
       4
     ],
+    "achievements": {
+      "total": 10
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "August 2026"
+      "coming_soon": false,
+      "date": "19 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -1722,7 +1742,7 @@
     },
     "support_info": {
       "url": "",
-      "email": "keyscammers@wylderzone.com"
+      "email": "Linktr.ee/LetsTidyUp"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5023770",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5023770",
@@ -2088,7 +2108,6 @@
     "steam_appid": 5022820,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "dlc": [
       5023100
     ],
@@ -2116,14 +2135,9 @@
       9,
       22,
       24,
-      28,
       38,
       39,
       44,
-      55,
-      56,
-      57,
-      58,
       62,
       78
     ],
@@ -2422,6 +2436,9 @@
     "steam_appid": 5022480,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5064280
+    ],
     "short_description": "Our Imperfect Romantic Comedy, \u300cFill the Blank\u300d1st Story. Love Comedy Visual Novel.",
     "supported_languages": "Korean<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022480/13356a550d9b6f9a48910f7d3f9c79df07f21a6c/header.jpg",
@@ -2437,7 +2454,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": false
     },
     "categories": [
@@ -4232,6 +4249,323 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5024830",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5024830/1bee3ae5c8495bcd82b39743637ad8bf2d7a6ca3/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5022030": {
+    "type": "game",
+    "name": "No Trace",
+    "steam_appid": 5022030,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "A cozy cleaning game made out of real pieces of paper. Recycle litter, clean oil spills, and tear down statues. When you complete a region, origami animals will return to the island.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022030/17fcb3b6f82df9f7c19aa7bb52fcc50a1644f9c9/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022030/f139c54d3d3f53b9ce0fbc631e35a49d41777d1e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022030/f139c54d3d3f53b9ce0fbc631e35a49d41777d1e/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Ifni"
+    ],
+    "publishers": [
+      "Demonym"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      28,
+      55,
+      57,
+      62
+    ],
+    "genres": [
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support@demonym.net"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5022030",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5022030",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5022080": {
+    "type": "game",
+    "name": "CACTBOY",
+    "steam_appid": 5022080,
+    "required_age": 0,
+    "is_free": false,
+    "dlc": [
+      5023650
+    ],
+    "short_description": "Put on your sheriff hat and load your revolver! CACTBOY is a hilarious and chaotic Western multiplayer party game for up to 4 players. From split-second quick-draw duels to absurd brawls, master a variety of minigames and prove who the true CACTBOY is!",
+    "supported_languages": "English, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022080/a6c039b5e29015103e61243b1362a4214f23bf02/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022080/b312779eed0cba9ceb33d34b614196fb98cc8bc2/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022080/b312779eed0cba9ceb33d34b614196fb98cc8bc2/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "LOWBORN"
+    ],
+    "publishers": [
+      "LOWBORN"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      36,
+      49,
+      62,
+      68
+    ],
+    "genres": [
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "lowborn.co@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5022080",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022080/2d616e014149580b2324390d7d0817d48c006392/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5022140": {
+    "type": "game",
+    "name": "Quantum Covenant",
+    "steam_appid": 5022140,
+    "required_age": 0,
+    "is_free": false,
+    "dlc": [
+      5022510
+    ],
+    "short_description": "A high-octane bullet hell roguelike where movement is your greatest weapon. Pick your hovercraft - each with its own unique abilities - and survive waves of diverse enemies and bosses, stacking upgrades to become an unstoppable killing machine, either alone or with friends. How long can you survive?",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022140/31b0b8212805bb64bed96d8c7875edf92848e433/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022140/ac878cb4109a60d57d2760eff8ef03a4971054da/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022140/ac878cb4109a60d57d2760eff8ef03a4971054da/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Martyr Games Inc."
+    ],
+    "publishers": [
+      "Martyr Games Inc."
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      18,
+      38,
+      48,
+      62
+    ],
+    "genres": [
+      1,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "contactmartyrgames@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5022140",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5022140",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5022800": {
+    "type": "game",
+    "name": "Raven Errant",
+    "steam_appid": 5022800,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Where battle rages, the Ravens wander. Scavenge the victims of battle for loot to upgrade your stats and equipment. Become the strongest warrior on the battlefield in this third person medieval hack and slash.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022800/1487c64ec1dbd558bfc331706ada14b1962909aa/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022800/78e97aa2b2eb822b17303b26b41ce93808186ce6/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022800/78e97aa2b2eb822b17303b26b41ce93808186ce6/capsule_184x69.jpg",
+    "website": "https://yorkshirerifles.com/",
+    "developers": [
+      "YorkshireRifles"
+    ],
+    "publishers": [
+      "YorkshireRifles"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      15,
+      22,
+      23,
+      28,
+      55,
+      56,
+      62
+    ],
+    "genres": [
+      3,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://yorkshirerifles.com/webpages/support.html",
+      "email": "tech@yorkshirerifles.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5022800",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022800/552592d40578731003b30d3dc56f9749ffae81ed/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "Weapon impacts display red particle FX and decals for blood."
+    }
+  },
+  "5024370": {
+    "type": "game",
+    "name": "\u5f85\u5230\u6765\u65f6\uff0c\u8d74\u7ea6\u800c\u81f3\uff08The Appointed Day\uff09",
+    "steam_appid": 5024370,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "Reuniting with a childhood friend long gone. When those promises once brushed off with 'we were too young back then' come back into view, can he still summon the courage to face her and himself?",
+    "supported_languages": "Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5024370/0376c4f33b8bcb4fa065a80f39508371cc5febf0/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5024370/b34cf541283dddf37031bb545fe454d0e8cdd043/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5024370/b34cf541283dddf37031bb545fe454d0e8cdd043/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "\u767d\u4e91\u793e\uff08Bai Yun Works\uff09"
+    ],
+    "publishers": [
+      "\u7cd5\u85af\u79d1\u6280"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      3,
+      4,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "2759742805@qq.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5024370",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5024370",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5024850": {
+    "type": "game",
+    "name": "PIYO PIYO CHICKEN",
+    "steam_appid": 5024850,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Launch a chicken into the sky and stay airborne with limited Egg Bursts. Choose your angle and power, preserve speed and altitude, and adapt to boosts, random events, and upgrades. Simple controls meet physics-driven timing and resource choices in an arcade challenge about beating your record.",
+    "supported_languages": "Japanese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5024850/751a666a6a492b6df66994b6ad7a8386487003bd/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5024850/0ec985aabfcf169ce68642be6922418730feda2e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5024850/0ec985aabfcf169ce68642be6922418730feda2e/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Ferdy Fennec"
+    ],
+    "publishers": [
+      "Ferdy Fennec"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      68,
+      74,
+      76,
+      77
+    ],
+    "genres": [
+      1,
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "ferdyfennec@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5024850",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5024850",
     "content_descriptors": {
       "ids": [],
       "notes": null
