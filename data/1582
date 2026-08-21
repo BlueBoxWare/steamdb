@@ -4285,7 +4285,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "The Threshold is a psychological horror game. Trapped in an endless time loop, your only goal is to escape. However, with each new attempt, the environment fractures.",
-    "supported_languages": "English<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Simplified Chinese, Spanish - Latin America, Traditional Chinese<br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Simplified Chinese, Spanish - Latin America, Traditional Chinese, Japanese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4746650/65875fb4eec60a629d8f7e8567423931977c39df/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4746650/37c4f9e62d74425679a4e073a79e480778f360ae/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4746650/37c4f9e62d74425679a4e073a79e480778f360ae/capsule_184x69.jpg",
@@ -5900,7 +5900,19 @@
     "publishers": [
       "Fat Samurai Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1651212
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Fedorable Life",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5914,14 +5926,18 @@
       68,
       74,
       76,
-      79
+      79,
+      80
     ],
     "genres": [
       23,
       28
     ],
+    "achievements": {
+      "total": 20
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "20 Aug, 2026"
     },
     "support_info": {

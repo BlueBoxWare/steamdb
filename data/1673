@@ -381,7 +381,7 @@
     "steam_appid": 5020100,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A relaxing automation game focused on making factory building simple. Create production lines, connect buildings, and unlock new technologies without questioning ratios or optimizing everything, but only asking: what does this object need to be created ?",
+    "short_description": "Un jeu d\u2019automatisation relaxant o\u00f9 construire une usine reste simple. Cr\u00e9ez des lignes de production, connectez vos b\u00e2timents et d\u00e9bloquez de nouvelles technologies sans vous soucier des ratios. Posez-vous simplement une question : de quoi cet objet a-t-il besoin ?",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020100/68a671ad770f7047e34d22a752bb22be04a200b0/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020100/86d8ae963737dbb20ff7988334175b6cb27f8296/capsule_231x87.jpg",
@@ -827,7 +827,19 @@
     "publishers": [
       "Fortytwo"
     ],
-    "package_groups": [],
+    "packages": [
+      1740993
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy White Dwarf",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -854,9 +866,12 @@
       23,
       70
     ],
+    "achievements": {
+      "total": 98
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "19 Aug, 2026"
+      "coming_soon": false,
+      "date": "20 Aug, 2026"
     },
     "support_info": {
       "url": "https://fortytwo.page/white-dwarf",
@@ -3843,7 +3858,10 @@
     "steam_appid": 5021760,
     "required_age": 0,
     "is_free": false,
-    "short_description": "FOIL QUEST - a fantasy miniatures deck builder! Choose a hero, collect, upgrade, summon your minis, complete quests, build a &quot;broken&quot; deck... or die trying! Then break it all again with new unlocks!",
+    "dlc": [
+      5026650
+    ],
+    "short_description": "FOIL QUEST: is an RPG roguelike deck builder! Choose a hero, build your deck as you go. Complete quests, face final bosses. Win or lose, your card collection keeps growing! If you've been wanting a new deckbuilder roguelike with a focus on combos and synergies, give FOIL QUEST a try!",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5021760/934e0820ad2d5fff44a6a790ce722efad7047d8c/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5021760/1b6112bec6759d0fe60b9dd273fcc9c43f7671ff/capsule_231x87.jpg",
@@ -3854,6 +3872,12 @@
     ],
     "publishers": [
       "House of Tactics LLC"
+    ],
+    "demos": [
+      {
+        "appid": 5026650,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4806,6 +4830,115 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5021180",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5021180",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5020610": {
+    "type": "game",
+    "name": "Record of Chaos - Korean Chapter",
+    "steam_appid": 5020610,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Record of Chaos is a solo-developed roguelike deckbuilding card game inspired by Korean folklore and traditional imagery. Chaos and Curse Cards, Talismans, Relics, Ultimate Techniques, and the Chronicle of Great Figures create different choices and combat flows in every run.",
+    "supported_languages": "English, Japanese, Simplified Chinese, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020610/f98ba03d69c50819088af75debe948d731173ab7/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020610/42acb55ed0b07d0b0f42437f9c550d17ccc9ec7d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020610/42acb55ed0b07d0b0f42437f9c550d17ccc9ec7d/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Sixstone Games"
+    ],
+    "publishers": [
+      "Sixstone Games"
+    ],
+    "demos": [
+      {
+        "appid": 5020890,
+        "description": ""
+      }
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      68,
+      74,
+      76,
+      78,
+      79,
+      80
+    ],
+    "genres": [
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "September 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "sixstonegames@naver.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5020610",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5020610",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5021740": {
+    "type": "game",
+    "name": "Starworks Inc.",
+    "steam_appid": 5021740,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Harness the riches of a star system in this incremental idle game. Unlock new technologies, transform raw materials, build warships and win an interstellar war !",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5021740/e64db4cc7dbaf85a7009d03172489ef421d79a98/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5021740/143fd998698573b57a1623c8f8f732476b809f42/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5021740/143fd998698573b57a1623c8f8f732476b809f42/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Shiny Pixels Interactive"
+    ],
+    "publishers": [
+      "Shiny Pixels Interactive"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      2,
+      62,
+      68,
+      74,
+      76,
+      79,
+      80
+    ],
+    "genres": [
+      4
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q1 2027"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support@shinypixelsinteractive.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5021740",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5021740",
     "content_descriptors": {
       "ids": [],
       "notes": null

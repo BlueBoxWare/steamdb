@@ -4554,6 +4554,10 @@
     "steam_appid": 3312250,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5055480,
+      5055510
+    ],
     "short_description": "FEAR OF FAITH is a 1-4 player co-op survival horror game where cloned soldiers raid cursed WWII bunkers. Choose your class, combine spells and drink BEER to keep your FEAR away, or face a fate worse than DEATH",
     "supported_languages": "English<strong>*</strong>, Ukrainian, German, Spanish - Spain, Polish, Simplified Chinese, Portuguese - Brazil<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3312250/409d279687c546b6ed2b062b18d8c380426a02f7/header.jpg",
@@ -4566,7 +4570,19 @@
     "publishers": [
       "UNBREAKABLE ARK"
     ],
-    "package_groups": [],
+    "packages": [
+      1182730
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy FEAR OF FAITH",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4590,8 +4606,11 @@
       25,
       70
     ],
+    "achievements": {
+      "total": 19
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "21 Aug, 2026"
     },
     "support_info": {
