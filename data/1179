@@ -10154,7 +10154,7 @@
     "name": "Friday Night",
     "steam_appid": 3537620,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "Investigate the abandoned mansion where your family died, use your voice to speak to the spirit and collect evidence about the truth. Keep the camera rolling, no matter what you encounter.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3537620/30e094df3691d29a053a14ec063180b95eb6309f/header.jpg",
@@ -10167,7 +10167,19 @@
     "publishers": [
       "Priskon"
     ],
-    "package_groups": [],
+    "packages": [
+      1248728
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Friday Night",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -10181,12 +10193,14 @@
     "genres": [
       23,
       25,
-      28,
-      37
+      28
     ],
+    "achievements": {
+      "total": 4
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "21 Aug, 2026"
     },
     "support_info": {
       "url": "https://ejetagames.com/",

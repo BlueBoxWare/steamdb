@@ -1870,7 +1870,8 @@
       68,
       74,
       76,
-      79
+      79,
+      80
     ],
     "genres": [
       4,
@@ -5961,7 +5962,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "August 2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -6461,7 +6462,19 @@
     "publishers": [
       "5Aces"
     ],
-    "package_groups": [],
+    "packages": [
+      1661659
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy BattleDeck",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6482,8 +6495,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "28 Aug, 2026"
+      "coming_soon": false,
+      "date": "21 Aug, 2026"
     },
     "support_info": {
       "url": "www.5aces.co.uk",
@@ -6726,7 +6739,7 @@
   },
   "4779090": {
     "type": "game",
-    "name": "Unspoken",
+    "name": "UNSPOKEN: A Linguistic Adventure",
     "steam_appid": 4779090,
     "required_age": 0,
     "is_free": false,
@@ -6794,12 +6807,14 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
       2,
       28,
+      57,
+      58,
       62
     ],
     "genres": [

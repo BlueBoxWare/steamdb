@@ -1784,8 +1784,11 @@
     "steam_appid": 4832290,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Three students record future-self videos in a classroom room that shouldn\u2019t exist... The next morning, one of them is gone, and only corrupted marks prove she was ever there. A short psychological horror VN about memory, proof, and erasure.",
-    "supported_languages": "English",
+    "dlc": [
+      4832300
+    ],
+    "short_description": "Three students record themselves in a classroom room that shouldn\u2019t exist... The next morning, one of them is gone forever... A short psychological horror VN about memory, proof, and erasure.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832290/d134a92972487a6a382e93dfc61a549e2d2355fa/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832290/c148ca70a8a32287ba3877e2ecf79730308e9547/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832290/c148ca70a8a32287ba3877e2ecf79730308e9547/capsule_184x69.jpg",
@@ -1796,7 +1799,25 @@
     "publishers": [
       "VAINSANE"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 4832300,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1678889
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Mado Marks",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -1804,19 +1825,25 @@
     },
     "categories": [
       2,
+      22,
+      23,
       62,
       68,
       74,
       76,
-      79
+      79,
+      80
     ],
     "genres": [
       23,
       25
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "21 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -5429,7 +5456,7 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832480/b7b6ad8977acf4b031b1a62e58376f0f4c5f0cbe/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832480/7b7fc0df81cf8d36a982ccc2fb09f02f3f5a674a/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832480/7b7fc0df81cf8d36a982ccc2fb09f02f3f5a674a/capsule_184x69.jpg",
-    "website": "https://potuselectionsim.netlify.app/",
+    "website": "https://potuselectionsim.com",
     "developers": [
       "Dackers Studios"
     ],
@@ -5457,6 +5484,7 @@
     "categories": [
       2,
       22,
+      30,
       62
     ],
     "genres": [

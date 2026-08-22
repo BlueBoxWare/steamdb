@@ -3790,8 +3790,8 @@
     "is_free": false,
     "controller_support": "full",
     "dlc": [
-      4905560,
-      4905590
+      4905590,
+      4905560
     ],
     "short_description": "A dark visual novel. By day, you monetize insomniacs\u2019 pain and privacy. By night, you seek help in a real insomnia club, only to find those you treated as collateral sitting beside you. The closer you get, the harder it is to tell whether you\u2019re protecting them\u2014or turning them into better products.",
     "supported_languages": "Simplified Chinese, English",
@@ -3804,6 +3804,12 @@
     ],
     "publishers": [
       "Memo Studio"
+    ],
+    "demos": [
+      {
+        "appid": 4905590,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4315,7 +4321,19 @@
     "publishers": [
       "The Axolotl Sun"
     ],
-    "package_groups": [],
+    "packages": [
+      1642634
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy ScagJPT",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4338,7 +4356,7 @@
       57
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "21 Aug, 2026"
     },
     "support_info": {
