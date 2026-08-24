@@ -10150,7 +10150,7 @@
     "name": "First-Person Data Explorer",
     "steam_appid": 3683750,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "In First-Person Data Explorer, datasets become immersive 3D environments where numbers shape color, size, movement, and more. Load, generate, or edit your data during gameplay, and turn raw values into something you can see, experience - and explore.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3683750/8d931040a7b0e57cdbae7f68d0c4f5a111d8addd/header.jpg",
@@ -10163,7 +10163,19 @@
     "publishers": [
       "Star Weaver's Production"
     ],
-    "package_groups": [],
+    "packages": [
+      1769204
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy First-Person Data Explorer",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -10176,7 +10188,6 @@
     ],
     "genres": [
       28,
-      37,
       70
     ],
     "release_date": {
