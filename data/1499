@@ -837,7 +837,7 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -1391,6 +1391,7 @@
       80
     ],
     "genres": [
+      1,
       4,
       23
     ],
@@ -4239,7 +4240,7 @@
     "name": "Luminous Jigsaw Puzzles",
     "steam_appid": 4498280,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
     "dlc": [
       4744770
     ],
@@ -4273,7 +4274,6 @@
       22,
       23,
       25,
-      35,
       62
     ],
     "genres": [
@@ -5577,7 +5577,19 @@
     "publishers": [
       "pengjianNiu"
     ],
-    "package_groups": [],
+    "packages": [
+      1569857
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Descendants of the Dragon",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5586,6 +5598,11 @@
     "categories": [
       2,
       28,
+      55,
+      56,
+      57,
+      58,
+      60,
       62
     ],
     "genres": [
@@ -5594,9 +5611,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 14
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "25 Aug, 2026"
+      "coming_soon": false,
+      "date": "24 Aug, 2026"
     },
     "support_info": {
       "url": "",

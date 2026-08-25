@@ -579,7 +579,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Push and kill waves of enemies off the ancient pillar of sacrifice to become the only one left standing. Wishlist to follow updates and get notified at launch",
+    "short_description": "Push and kill waves of enemies off the ancient pillar of sacrifice to become the only one left standing",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315910/d4f562b3bb865b580027015d5f9768f91f776366/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315910/1d4d6c7ee5168601bdeb03ee42931d8f0e2c906a/capsule_231x87.jpg",
@@ -591,7 +591,19 @@
     "publishers": [
       "RebelBinary"
     ],
-    "package_groups": [],
+    "packages": [
+      1509125
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Only One",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -613,7 +625,7 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "25 Aug, 2026"
     },
     "support_info": {
