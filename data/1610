@@ -5989,7 +5989,7 @@
     "name": "From BELOW",
     "steam_appid": 4832070,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
     "short_description": "A first-person mystery horror game where you explore a mysterious mansion, interact with objects, collect evidence and records, and uncover the truth behind a past incident.",
     "supported_languages": "English<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832070/6bcda657c0a6cb1dfc33aff5f2aedd992bac03aa/header.jpg",
@@ -6014,11 +6014,12 @@
     ],
     "genres": [
       23,
-      25
+      25,
+      37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "25 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -6087,6 +6088,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4988870
+    ],
     "short_description": "Mowties is a combo-crafting roguelite taking place on weird boards! Build unique properties and arrange them into combo cascades to beat an ever-growing payment. Manipulate dice rolls, break the game rules with legendary items, gain a tactical advantage with secret cards - and win another run!",
     "supported_languages": "English, Russian, German, Spanish - Spain, Traditional Chinese, Korean, Japanese, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832870/3af212bfd88d1ce63c2913094342167ac4d6919c/header.jpg",
@@ -6098,6 +6102,12 @@
     ],
     "publishers": [
       "MogMek"
+    ],
+    "demos": [
+      {
+        "appid": 4988870,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -6632,7 +6642,19 @@
       "Megabit Publishing",
       "rokaplay"
     ],
-    "package_groups": [],
+    "packages": [
+      1678564
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Lou's Lagoon Deluxe Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6649,6 +6671,7 @@
       56,
       57,
       58,
+      62,
       68,
       74
     ],
@@ -6657,7 +6680,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "27 Aug, 2026"
     },
     "support_info": {
@@ -7091,15 +7114,15 @@
     "is_free": false,
     "short_description": "Hold the line for 30 days! In Farm Survivors, a roguelike defense game, you'll fight alongside adorable gnomes to protect your farm. Strategically place plants, unlock dynamic evolution trees, and fend off relentless enemy waves. Master your tech tree with limited daily resources to survive!",
     "supported_languages": "English, Korean, Italian, Spanish - Spain, Russian, Spanish - Latin America, Japanese, Simplified Chinese, Traditional Chinese, Thai, Portuguese - Brazil, Portuguese - Portugal, French, German",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4830450/85abff9ff6b91f89dc2e66c96622ec94cd226919/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4830450/e85b61990a769f7a3b078e086be8210fc3630859/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4830450/e85b61990a769f7a3b078e086be8210fc3630859/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4830450/02bb586d71d4c12bd050de1afbd535324be1005f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4830450/7bc1930549c264c34adef899d2529b25836c7cc0/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4830450/7bc1930549c264c34adef899d2529b25836c7cc0/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Gamsters Inc."
+      "GAMSTERS Inc."
     ],
     "publishers": [
-      "Gamsters Inc."
+      "GAMSTERS Inc."
     ],
     "package_groups": [],
     "platforms": {
@@ -7275,7 +7298,6 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4830660/d24fd281c6c3b4735ffa5cda33839134776e66b2/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Vaka Game Magazine",
       "ImCyan"
     ],
     "publishers": [
@@ -7332,6 +7354,9 @@
     "steam_appid": 4831980,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5119270
+    ],
     "short_description": "A first-person survival-horror game where you are hunted by a ruthless, deranged witch. Unravel the secrets of a sealed European manor, overcome ancient puzzles using the dark arts, and face the sins of the past.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Arabic, Japanese, Korean, Russian, Turkish, Greek<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4831980/5d03f5ed92b181bd545aba34a8e8202860d7f2b4/header.jpg",
@@ -7442,6 +7467,63 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "4830110": {
+    "type": "game",
+    "name": "Did You See That?",
+    "steam_appid": 4830110,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A co-op psychological horror game where not every player sees the same reality. Explore a carnival trapped in an endless transformation, detect anomalies and make the right decisions before the clown Bobby loses his temper...",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4830110/b1c8ca340456fe16c702f3ea6d0b338064149965/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4830110/a4f422e46ff3b5ac2a83c65659c31458a7d664fe/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4830110/a4f422e46ff3b5ac2a83c65659c31458a7d664fe/capsule_184x69.jpg",
+    "website": "https://ashenstudios.com/did-you-see-that",
+    "developers": [
+      "Ashen Studios",
+      "IURAS Studios"
+    ],
+    "publishers": [
+      "Ashen Studios"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      9,
+      18,
+      22,
+      23,
+      38,
+      61,
+      62
+    ],
+    "genres": [
+      23,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "October 2026"
+    },
+    "support_info": {
+      "url": "https://discord.gg/Mp4ZmUuH4R",
+      "email": "dystthegame@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4830110",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4830110",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "The game contains occasional blood and disturbing imagery. Some anomalies depict corpses or dead bodies. One scene/anomaly features a clown on fire while waving goodbye. There is no sexual content, sexual violence, drug abuse, or self-harm"
     }
   }
 }

@@ -216,7 +216,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "To be announced"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -871,8 +871,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -1333,7 +1333,7 @@
       "ids": [
         5
       ],
-      "notes": "This game contains non\u2011explicit romantic intimacy, dark romantic themes, possessive relationship dynamics, emotional dependency, exploration of trauma, references to parental abuse, psychological horror, depictions of violence and killing, corpses, ritual sacrifice, body horror, and intense supernatural combat."
+      "notes": "This game contains non\u2011explicit romantic intimacy, dark romantic themes, possessive relationship dynamics, emotional dependency, exploration of trauma, references to parental abuse, psychological horror, depictions of violence and killing, corpses, and body horror."
     }
   },
   "5042210": {
@@ -1918,6 +1918,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      5118900
+    ],
     "short_description": "Mars is overrun and you're the cleanup crew. A comic book twin stick rogue lite, mow down thousands, stack game breaking perks, roll the enemy's dice, and detonate everything on the map. Die, bank your gold, build a nastier deck, drop again.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5041990/b3dd8895a980fbde8f098e62944f3aded1d08248/header.jpg",
@@ -2237,6 +2240,9 @@
     "steam_appid": 5040040,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5109750
+    ],
     "short_description": "An isometric co-op RPG with constrained builds. Gather your party. Choose two professions to access a pool of skills, but your bar holds only eight. Venture beyond the outposts into an unknown world as a party of up to eight, whether friends or AI heroes under your command.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040040/bd11edcfd864dff56c858ce7478318fa98ec2256/header.jpg",
@@ -2360,7 +2366,19 @@
     "publishers": [
       "YesNine"
     ],
-    "package_groups": [],
+    "packages": [
+      1747662
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy CydonMan",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2383,8 +2401,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "August 2026"
+      "coming_soon": false,
+      "date": "27 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -2565,6 +2583,10 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      5159140,
+      5182850
+    ],
     "short_description": "Octbuster is a cozy organization game about closing up an 80s video rental store after hours as an octopus. With the help of your kitten pals, scoop up piles of procedurally placed VHS tapes with real tentacle arms and sort over 10,000 of them however you want.\u00a0No timer, no score, no way to lose.",
     "supported_languages": "English, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5042370/22294f6e48759f6938e86ae6c92c91be3ef9df26/header.jpg",
@@ -2636,7 +2658,7 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5042570/d53a27bc096fad0f4d34f3fdfff25f6c1281c9f4/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5042570/21ae63e03f11679bb2a283f950d0b7de99ded529/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5042570/21ae63e03f11679bb2a283f950d0b7de99ded529/capsule_184x69.jpg",
-    "website": "https://uwirrldent.com/",
+    "website": "https://uwirrldent.com/brick-survival-game/",
     "developers": [
       "UndaWirrld Arcade"
     ],
@@ -2668,9 +2690,12 @@
       1,
       37
     ],
+    "achievements": {
+      "total": 16
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "August 2026"
+      "coming_soon": false,
+      "date": "26 Aug, 2026"
     },
     "support_info": {
       "url": "https://uwirrldent.com/",
@@ -2963,6 +2988,9 @@
     "steam_appid": 5041450,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5091560
+    ],
     "short_description": "Build a drug empire across Amsterdam in a single-player open-world crime game. Exploit volatile markets, buy and stash merchandise, and manage your couriers. Tail targets, steal cars and evade the police. When a job goes wrong, get behind the wheel and finish it yourself.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5041450/28c3e235d2314cf62648af8d771b11d9cf7ecbcf/header.jpg",
@@ -2975,7 +3003,25 @@
     "publishers": [
       "Sitix"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5091560,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1747985
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Lying Thieves: Amsterdam",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2994,8 +3040,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "31 Aug, 2026"
+      "coming_soon": false,
+      "date": "28 Aug, 2026"
     },
     "support_info": {
       "url": "https://lyingthieves.com",
@@ -3075,7 +3121,19 @@
     "publishers": [
       "HitoGame"
     ],
-    "package_groups": [],
+    "packages": [
+      1748218
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Zombie Town",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3091,8 +3149,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q3 2026"
+      "coming_soon": false,
+      "date": "28 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -3583,7 +3641,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q3 2026"
+      "date": "Q4 2026"
     },
     "support_info": {
       "url": "https://x.com/podoba_interact",
@@ -3851,7 +3909,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2026"
+      "date": "30 Oct, 2026"
     },
     "support_info": {
       "url": "discord.gg/WSwEQyx",
@@ -4681,17 +4739,23 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "The rhythm game that writes a brand-new song every time you press play. 50 genres synthesized live. Tap it, remix it, or build your own: you are the DJ and the producer, no music knowledge needed. Fully offline.",
+    "short_description": "The rhythm game that writes a brand-new song every time you press play. 50+ genres synthesized live. Tap it, remix it, or build your own: you are the DJ and the producer, no music knowledge needed. Fully offline.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese, Hindi",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5042870/b5ea4b223f4fc95e890c1e000b501373f3600f53/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5042870/0965a0a99442bb60651ef3e3960fd50e98799b07/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5042870/0965a0a99442bb60651ef3e3960fd50e98799b07/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5042870/5b4e1d95c87942a2cf72bab42a9bbfc084872325/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5042870/34e0a6ef005298296f3ad1694e911a3fd3424477/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5042870/34e0a6ef005298296f3ad1694e911a3fd3424477/capsule_184x69.jpg",
     "website": "https://randommix.app",
     "developers": [
       "InternalErrorX"
     ],
     "publishers": [
       "InternalErrorX"
+    ],
+    "demos": [
+      {
+        "appid": 5124260,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4810,9 +4874,9 @@
     ],
     "short_description": "Fall into the Mirror Backrooms, alone or with up to 3 friends. Two corridors look identical, but something is always wrong. More than 100 Crawlers and ever-changing room laws make your eyes, your memory\u2014even \u201cidentical\u201d itself\u2014impossible to trust. The exit is ahead. Where does it lead?",
     "supported_languages": "English, Simplified Chinese, Japanese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040820/24181b33b611cf0558dde4a5c2f1836d240c6381/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040820/a2bff21c7d3b4031b192987ba9230d61fc76340f/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040820/a2bff21c7d3b4031b192987ba9230d61fc76340f/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040820/06641503cc25d06b1403488d2d9e5a74c65bb86f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040820/7090e9f14733825ac3784172bc0f5c088d044d45/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040820/7090e9f14733825ac3784172bc0f5c088d044d45/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Funcity"
@@ -5364,6 +5428,607 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5042360",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5042360",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5040070": {
+    "type": "dlc",
+    "name": "DOA6LR Nyotengu Enigmatic Tengu Princess Bundle",
+    "steam_appid": 5040070,
+    "required_age": "16",
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Bring the pain... in style!\u3000Nyotengu dazzles in this special costume set! Includes the following Nyotengu Costumes: Enigmatic Tengu Princess: Silver Plate Enigmatic Tengu Princess: Ruby Plate Enigmatic Tengu Princess: Golden Plate Enigmatic Tengu Princess: Onyx Plate",
+    "fullgame": {
+      "appid": "4144680",
+      "name": "DEAD OR ALIVE 6 Last Round"
+    },
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Russian, Simplified Chinese, Traditional Chinese, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040070/2f7f5793d7dc40f73656d2e37549877562f71656/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040070/77fbf6f99c7e08173f7167d323e8f050b35d6c88/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040070/77fbf6f99c7e08173f7167d323e8f050b35d6c88/capsule_184x69.jpg",
+    "website": "https://teamninja-studio.com/doa6/lastround/us/",
+    "developers": [
+      "KOEI TECMO GAMES CO., LTD."
+    ],
+    "publishers": [
+      "KOEI TECMO GAMES CO., LTD."
+    ],
+    "packages": [
+      1747546
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy DOA6LR Nyotengu Enigmatic Tengu Princess Bundle",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      21,
+      22,
+      23,
+      24,
+      25,
+      28,
+      36,
+      37,
+      49,
+      60,
+      62,
+      75
+    ],
+    "genres": [
+      1
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "26 Aug, 2026"
+    },
+    "support_info": {
+      "url": "https://www.koeitecmoamerica.com/support/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5040070",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5040070",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5040080": {
+    "type": "dlc",
+    "name": "DOA6LR Nyotengu Enigmatic Tengu Princess: Silver Plate",
+    "steam_appid": 5040080,
+    "required_age": "16",
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Bring the pain... in style!\u3000Nyotengu dazzles in this special costume! Item: Nyotengu Costume, Enigmatic Tengu Princess: Silver Plate",
+    "fullgame": {
+      "appid": "4144680",
+      "name": "DEAD OR ALIVE 6 Last Round"
+    },
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Russian, Simplified Chinese, Traditional Chinese, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040080/b7b01d018a0bb4b7c0dc81444c6234b789c24629/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040080/7b51a2f88a607cb03441b50840cd0402f4c83b11/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040080/7b51a2f88a607cb03441b50840cd0402f4c83b11/capsule_184x69.jpg",
+    "website": "https://teamninja-studio.com/doa6/lastround/us/",
+    "developers": [
+      "KOEI TECMO GAMES CO., LTD."
+    ],
+    "publishers": [
+      "KOEI TECMO GAMES CO., LTD."
+    ],
+    "packages": [
+      1747549
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy DOA6LR Nyotengu Enigmatic Tengu Princess: Silver Plate",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      21,
+      22,
+      23,
+      24,
+      25,
+      28,
+      36,
+      37,
+      49,
+      60,
+      62,
+      75
+    ],
+    "genres": [
+      1
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "26 Aug, 2026"
+    },
+    "support_info": {
+      "url": "https://www.koeitecmoamerica.com/support/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5040080",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5040080",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5040090": {
+    "type": "dlc",
+    "name": "DOA6LR Nyotengu Enigmatic Tengu Princess: Ruby Plate",
+    "steam_appid": 5040090,
+    "required_age": "16",
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Bring the pain... in style!\u3000Nyotengu dazzles in this special costume! Item: Nyotengu Costume, Enigmatic Tengu Princess: Ruby Plate",
+    "fullgame": {
+      "appid": "4144680",
+      "name": "DEAD OR ALIVE 6 Last Round"
+    },
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Russian, Simplified Chinese, Traditional Chinese, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040090/feafbd279c498e5e92d899025c7af614d38ffa38/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040090/6ea8eaadcb17e5dde4a7b0931280ba2be4fc26fa/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040090/6ea8eaadcb17e5dde4a7b0931280ba2be4fc26fa/capsule_184x69.jpg",
+    "website": "https://teamninja-studio.com/doa6/lastround/us/",
+    "developers": [
+      "KOEI TECMO GAMES CO., LTD."
+    ],
+    "publishers": [
+      "KOEI TECMO GAMES CO., LTD."
+    ],
+    "packages": [
+      1747552
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy DOA6LR Nyotengu Enigmatic Tengu Princess: Ruby Plate",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      21,
+      22,
+      23,
+      24,
+      25,
+      28,
+      36,
+      37,
+      49,
+      60,
+      62,
+      75
+    ],
+    "genres": [
+      1
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "26 Aug, 2026"
+    },
+    "support_info": {
+      "url": "https://www.koeitecmoamerica.com/support/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5040090",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5040090",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5040100": {
+    "type": "dlc",
+    "name": "DOA6LR Nyotengu Enigmatic Tengu Princess: Golden Plate",
+    "steam_appid": 5040100,
+    "required_age": "16",
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Bring the pain... in style!\u3000Nyotengu dazzles in this special costume! Item: Nyotengu Costume, Enigmatic Tengu Princess: Golden Plate",
+    "fullgame": {
+      "appid": "4144680",
+      "name": "DEAD OR ALIVE 6 Last Round"
+    },
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Russian, Simplified Chinese, Traditional Chinese, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040100/3e9e86ff1d0f143c4d1c25273d8588669d0da728/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040100/8c8d7c398e008fc347ad21cb7e50b2958755c7a2/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040100/8c8d7c398e008fc347ad21cb7e50b2958755c7a2/capsule_184x69.jpg",
+    "website": "https://teamninja-studio.com/doa6/lastround/us/",
+    "developers": [
+      "KOEI TECMO GAMES CO., LTD."
+    ],
+    "publishers": [
+      "KOEI TECMO GAMES CO., LTD."
+    ],
+    "packages": [
+      1747555
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy DOA6LR Nyotengu Enigmatic Tengu Princess: Golden Plate",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      21,
+      22,
+      23,
+      24,
+      25,
+      28,
+      36,
+      37,
+      49,
+      60,
+      62,
+      75
+    ],
+    "genres": [
+      1
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "26 Aug, 2026"
+    },
+    "support_info": {
+      "url": "https://www.koeitecmoamerica.com/support/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5040100",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5040100",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5040110": {
+    "type": "dlc",
+    "name": "DOA6LR Nyotengu Enigmatic Tengu Princess: Onyx Plate",
+    "steam_appid": 5040110,
+    "required_age": "16",
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Bring the pain... in style!\u3000Nyotengu dazzles in this special costume! Item: Nyotengu Costume, Enigmatic Tengu Princess: Onyx Plate",
+    "fullgame": {
+      "appid": "4144680",
+      "name": "DEAD OR ALIVE 6 Last Round"
+    },
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Russian, Simplified Chinese, Traditional Chinese, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040110/bcfd927f8d9a9afe9d244e83d1bf3b56f282cd6d/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040110/d07123be6d26e2aeaf103d3b4768443bfaae7bf1/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040110/d07123be6d26e2aeaf103d3b4768443bfaae7bf1/capsule_184x69.jpg",
+    "website": "https://teamninja-studio.com/doa6/lastround/us/",
+    "developers": [
+      "KOEI TECMO GAMES CO., LTD."
+    ],
+    "publishers": [
+      "KOEI TECMO GAMES CO., LTD."
+    ],
+    "packages": [
+      1747558
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy DOA6LR Nyotengu Enigmatic Tengu Princess: Onyx Plate",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      21,
+      22,
+      23,
+      24,
+      25,
+      28,
+      36,
+      37,
+      49,
+      60,
+      62,
+      75
+    ],
+    "genres": [
+      1
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "26 Aug, 2026"
+    },
+    "support_info": {
+      "url": "https://www.koeitecmoamerica.com/support/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5040110",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5040110",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5040200": {
+    "type": "dlc",
+    "name": "Desktop Mate Tsurumaki Maki DLC",
+    "steam_appid": 5040200,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Tsurumaki Maki, the speech synthesis software character from AHS Co. Ltd., joins Desktop Mate! Watch her strum and tune her trademark guitar &quot;Musutan,&quot; offer you tea when the alarm rings, and burst into star and heart effects when patted. Featuring a newly recorded voice by Manami Tanaka.",
+    "fullgame": {
+      "appid": "3301060",
+      "name": "Desktop Mate"
+    },
+    "supported_languages": "Japanese<strong>*</strong>, English<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040200/32eb0a735d3326df78d7da0bfc6d19a7d32c8a34/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040200/72e6193c0bcfa20858b919c1c5d288cb4264e600/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040200/72e6193c0bcfa20858b919c1c5d288cb4264e600/capsule_184x69.jpg",
+    "website": "https://www.infiniteloop.co.jp/desktopmate/",
+    "developers": [
+      "infiniteloop"
+    ],
+    "publishers": [
+      "infiniteloop"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      21
+    ],
+    "genres": [
+      37,
+      51,
+      57
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "14 Sep, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "desktopmate@infiniteloop.co.jp"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5040200",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5040200",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5040300": {
+    "type": "game",
+    "name": "Blargle and the Quest for the Nothing Burger",
+    "steam_appid": 5040300,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Join Blargle on his quest in this arcade-inspired runner and retrieve his stolen Nothing Burger. Avoid obstacles, collect quotes, and destroy anything in your path to the notorious pirate Captain Raqet!",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040300/b2b7f99d1ccb88af1ba768996ef77f00c2143655/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040300/23743c038f31817b862a0bd1334da2bd9f8ae5d8/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040300/23743c038f31817b862a0bd1334da2bd9f8ae5d8/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Windfelt Studios"
+    ],
+    "publishers": [
+      "Windfelt Studios"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      25,
+      28,
+      55,
+      56,
+      57,
+      58,
+      62,
+      68,
+      74
+    ],
+    "genres": [
+      9
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "September 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "windfeltstudios@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5040300",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5040300",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5041690": {
+    "type": "game",
+    "name": "DOG LIVES: Space Pirates War",
+    "steam_appid": 5041690,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "The year is 2083. As the galactic space pirate crisis reaches its breaking point, you\u2014a &quot;dog of the military&quot;\u2014must pilot a humanoid Powered Metal Frame (MF), subdue rival captains, unite them under your banner, and emerge victorious in the ultimate Pirate War!",
+    "supported_languages": "English, Japanese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5041690/2065a722c7399789e052970d33bff8debc94f403/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5041690/73a49b8a4d6bae5bb158c74fcf92c7db40a209ef/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5041690/73a49b8a4d6bae5bb158c74fcf92c7db40a209ef/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Space Corgi Games"
+    ],
+    "publishers": [
+      "Space Corgi Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      68,
+      69,
+      74,
+      76
+    ],
+    "genres": [
+      3,
+      23,
+      28,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "December 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "space.corgi.games@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5041690",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5041690/d16ee9cf8a5c20b6c0753c59bfa90735bf9d34cb/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5042890": {
+    "type": "game",
+    "name": "RuneEra",
+    "steam_appid": 5042890,
+    "required_age": 0,
+    "is_free": false,
+    "dlc": [
+      5062040
+    ],
+    "short_description": "RuneEra is a fantasy colony-management RPG where you build a guild settlement, automate work and production, equip powerful runes, and lead parties through a procedurally generated world of quests, factions, dangerous biomes, and dungeons.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5042890/ba7b6e11081ba0136ca2b237b4933783cf2cc787/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5042890/3327419d9da2633116ae36f47a3e2240d9678996/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5042890/3327419d9da2633116ae36f47a3e2240d9678996/capsule_184x69.jpg",
+    "website": "https://www.runeera.com",
+    "developers": [
+      "Spellstead Games"
+    ],
+    "publishers": [
+      "Spellstead Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      23,
+      62,
+      64,
+      66,
+      67,
+      68,
+      74,
+      76,
+      78,
+      79,
+      80,
+      82
+    ],
+    "genres": [
+      2,
+      3,
+      23,
+      25,
+      28,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q4 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "info@runeera.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5042890",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5042890",
     "content_descriptors": {
       "ids": [],
       "notes": null

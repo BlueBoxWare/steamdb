@@ -107,7 +107,10 @@
     "steam_appid": 5046240,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Real-time strategy stripped to the decision. Every shipyard you hold builds without pause - you choose where those ships go, and can turn them in mid-flight. Split fleets by exact percentage, dig in behind shields, and turn the enemy's production against them. Up to eight online. Minutes, not hours.",
+    "dlc": [
+      5096430
+    ],
+    "short_description": "Real-time strategy stripped to the decision. Every factory you hold builds without pause - you choose where those ships go, and can turn them in mid-flight. Commander mode adds the war economy: iron and gold networks, turrets, satellites, orbital strikes. Up to eight online.",
     "supported_languages": "English, German, French, Italian, Spanish - Spain, Finnish, Dutch, Norwegian, Portuguese - Portugal, Swedish, Traditional Chinese, Simplified Chinese, Japanese, Korean, Russian, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046240/7e49bc445cb68fa5c4da90de0d42fba2b8654079/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046240/a7b04d6aca85df6570ced74e9e4073ef18f4a473/capsule_231x87.jpg",
@@ -381,17 +384,26 @@
     "steam_appid": 5047110,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5125730
+    ],
     "short_description": "Arrows won't stop a draugr. Fire won't stop a giant. Every wave in Wardspire demands a different answer \u2014 and the tower you love most is the one that gets you killed. Norse tower defense with hard counters, permanent progression and an endless mode.",
-    "supported_languages": "English, French, German, Spanish - Spain, Russian",
+    "supported_languages": "English, French, German, Spanish - Spain, Russian, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5047110/1b1b89b0ce3942db0584a7286c4025ef5334151f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5047110/b540de574f19b12987c9ed82f6eb80b7786897c5/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5047110/b540de574f19b12987c9ed82f6eb80b7786897c5/capsule_184x69.jpg",
-    "website": "https://playwardspire.com/",
+    "website": "https://wardspire.com/",
     "developers": [
       "SoftForge IT Kft."
     ],
     "publishers": [
       "SoftForge IT Kft."
+    ],
+    "demos": [
+      {
+        "appid": 5125730,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -419,7 +431,7 @@
       "date": "November 2026"
     },
     "support_info": {
-      "url": "https://playwardspire.com/imprint",
+      "url": "https://wardspire.com/imprint",
       "email": "info@softforge-it.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5047110",
@@ -501,8 +513,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -1007,7 +1019,7 @@
     "steam_appid": 5048730,
     "required_age": 0,
     "is_free": false,
-    "short_description": "InFlood is a post-apocalyptic open-world RPG. Explore a flooded Earth by ship, visit remote settlements, complete quests, and battle pirates. Change vessels and equip them with engines, sails, weapons, and defensive modules.",
+    "short_description": "Raise your sails and set forth across an endless ocean, vast and perilous, filled with submerged mysteries and unexpected adventures. Fight your way through danger, upgrade your ship, recruit a crew, explore the world, and decide which coalitions to support\u2014and what will be built upon the ruins.",
     "supported_languages": "English<strong>*</strong>, Simplified Chinese, Russian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5048730/2ca4079f6c595d6836d5d2cb0c0832bd7bff683f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5048730/fa16c43e9261d5512321e1c421f2e4650ac01a23/capsule_231x87.jpg",
@@ -1588,7 +1600,19 @@
     "publishers": [
       "Meridian Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1749471
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Neon Cadence",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1606,9 +1630,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 18
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "24 Aug, 2026"
+      "coming_soon": false,
+      "date": "26 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -1732,7 +1759,7 @@
     "steam_appid": 5046040,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A chill synthwave driving game. Cruise glowing wireframe highways beneath an endless neon sunset \u2014 unlock routes, build your own soundtrack, and drift through the night. No pressure, no timers to fear: just you, the road, and the music.",
+    "short_description": "A chill night drive with a synthwave soundtrack. Cruise glowing wireframe highways beneath an endless neon sunset \u2014 unlock routes, build your own soundtrack, and drift through the night. No pressure, no timers to fear: just you, the road, and the music.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Turkish, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046040/b82ef569879296489170f976b5943a0ccff8182f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046040/671ff3515301f4271b05a07b7862f5d73f980040/capsule_231x87.jpg",
@@ -1744,14 +1771,25 @@
     "publishers": [
       "Meridian Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1749474
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Neon Highway",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
       "linux": true
     },
     "categories": [
-      18,
       22,
       23,
       62,
@@ -1766,9 +1804,12 @@
       9,
       23
     ],
+    "achievements": {
+      "total": 18
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "26 Aug, 2026"
+      "coming_soon": false,
+      "date": "27 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -1847,6 +1888,9 @@
     "steam_appid": 5046850,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5118130
+    ],
     "short_description": "Reignite a dead sun. Rebuild its worlds. Your only companion is P.O.R.T.I.A., a caretaker AI who has been alone for a very long time, and who remembers more than she should. A story rich idle game about grief, patience, and second chances, told over generations of stars.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046850/d09d0375eb729ccfddc7bc09aea9be3c62a2090d/header.jpg",
@@ -1858,6 +1902,12 @@
     ],
     "publishers": [
       "Portias Publishing LLC"
+    ],
+    "demos": [
+      {
+        "appid": 5118130,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2093,9 +2143,12 @@
       23,
       37
     ],
+    "achievements": {
+      "total": 24
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "28 Aug, 2026"
     },
     "support_info": {
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSe6A54lMG7a0LVAADbSALKukSLyGrj3_ast-NOHO_6BCAY59w/viewform",
@@ -2272,6 +2325,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      5050030
+    ],
     "short_description": "Build something broken enough to break every enemy - and the game itself. Your hero runs the dungeon alone; the skill tree is your entire game! A roguelike in short runs: the tree is generated fresh every time, and new nodes unlock between them.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Traditional Chinese<strong>*</strong>, Simplified Chinese<strong>*</strong>, Korean<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Turkish<strong>*</strong>, Ukrainian<strong>*</strong>, Czech<strong>*</strong>, Japanese<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046870/9b8f18713aa02941e5264eb0edf33654207ad3c1/header.jpg",
@@ -2579,7 +2635,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "COSMOS is an atmospheric VR puzzle adventure following Nora Voss, a young scientist sent on a mission to Venus. A mysterious alien transmission will bring her to the edge of the known universe.",
-    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Spanish - Spain<br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046370/2e57e44cda1e8d682b6327893feb0f50b83bf8e4/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046370/a2c37203ad77e3c939485de6f7f721a7c06656fc/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046370/a2c37203ad77e3c939485de6f7f721a7c06656fc/capsule_184x69.jpg",
@@ -2650,6 +2706,12 @@
     "publishers": [
       "HAEMOSU"
     ],
+    "demos": [
+      {
+        "appid": 5129070,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -2692,7 +2754,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "A kaleidoscope shatters reality into fragments \u2014 your job is to put it back together in FUTASCOPE. 15 unique levels, 15 alluring futanari heroines, animated scenes for every completed level, and 5 secret scenes for the most attentive.",
-    "supported_languages": "English, French, Spanish - Spain, Traditional Chinese, Simplified Chinese, Korean, Portuguese - Brazil, Portuguese - Portugal, Russian, Japanese",
+    "supported_languages": "English, French, Spanish - Spain, Traditional Chinese, Simplified Chinese, Korean, Portuguese - Brazil, Russian, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5047310/c1d52f3b85082e1e08d358e254115436c552e39f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5047310/0c025295d360b21cea95d6219ae307175d6300d7/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5047310/0c025295d360b21cea95d6219ae307175d6300d7/capsule_184x69.jpg",
@@ -3538,6 +3600,7 @@
     },
     "categories": [
       21,
+      35,
       64,
       66,
       68,
@@ -3668,7 +3731,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "September 2026"
+      "date": "8 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -3907,7 +3970,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "You wake up shackled to a bamboo stalk in an unfamiliar forest. In the distance, something seems to be moving through the grove. You look closer... until you realize... it isn\u2019t alive at all. One bizarre and horrifying event follows another. Under unbearable pressure, can you find a way out alive?",
-    "supported_languages": "English, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, Japanese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5048280/3a04f8e3b28f5704c95f408ec2698456426b7f35/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5048280/b59e9495788e803875f15e765aa43cded9663444/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5048280/b59e9495788e803875f15e765aa43cded9663444/capsule_184x69.jpg",
@@ -3981,7 +4044,6 @@
       1,
       2,
       9,
-      18,
       38,
       62,
       66,
@@ -4493,6 +4555,322 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5047990",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5047990",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5046350": {
+    "type": "game",
+    "name": "Manabound Syndicate",
+    "steam_appid": 5046350,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Command elemental towers. Forge mystical gems. Build a thriving camp. Manabound Syndicate blends strategic tower defence with RPG progression, where victory fuels your strength for the battles ahead. Recruit workers, master powerful spells, customize towers with gems, and unlock permanent upgrades.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046350/e98c1c1bd10f8d7e0b28b46f6313c0ff705c9324/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046350/8b6510b58f2d5d00c99300d18f8c50c512124a91/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046350/8b6510b58f2d5d00c99300d18f8c50c512124a91/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Markos Resvanis , Daniel Davidson"
+    ],
+    "publishers": [
+      "Markos Resvanis"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      68,
+      69,
+      74
+    ],
+    "genres": [
+      2,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "Danmarkgames.dmg@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5046350",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5046350",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5046690": {
+    "type": "game",
+    "name": "INKTRICK",
+    "steam_appid": 5046690,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "INKTRICK is a handcrafted, cozy roguelike card game made of cards, ink and stamps. Win tricks, turn a weak 8 into a trump and unlock new possibilities hand after hand, such as stamp upgrades and mystery packs. Fibus deals, cheers you on and plays against you.",
+    "supported_languages": "English, French, German, Spanish - Spain, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046690/c67c087c8c74b12a8c3a65f8e73ac8f66c2442c1/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046690/fd61c75717b3cafba754d6d9de7144792ec33eef/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046690/fd61c75717b3cafba754d6d9de7144792ec33eef/capsule_184x69.jpg",
+    "website": "https://www.zweipilot.de",
+    "developers": [
+      "zweipilot"
+    ],
+    "publishers": [
+      "zweipilot"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      2,
+      18,
+      62,
+      68,
+      74,
+      76,
+      78,
+      80
+    ],
+    "genres": [
+      2,
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q1 2027"
+    },
+    "support_info": {
+      "url": "https://zweipilot.de/contact/",
+      "email": "info@zweipilot.de"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5046690",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5046690",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5046170": {
+    "type": "game",
+    "name": "Abyssal Descent",
+    "steam_appid": 5046170,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Returned alive from the Abyss, choose your class and venture alone or online with other adventurers. Explore the depths, rescue the missing, face deadly creatures, uncover rare loot, and hunt down your tormentor. Will you have the courage to descend into the Abyss once more?",
+    "supported_languages": "French, Italian, German, Spanish - Spain, Simplified Chinese, Korean, Spanish - Latin America, Japanese, Portuguese - Brazil, Russian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046170/107882e6c9b21ff17bec87f98c22819cbb5f3c6e/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046170/9f32c08894adfaf84a50747016ef40051ed7cfb3/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046170/9f32c08894adfaf84a50747016ef40051ed7cfb3/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Trident Studio"
+    ],
+    "publishers": [
+      "Trident Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      22,
+      23,
+      38,
+      48,
+      62,
+      64,
+      65,
+      67,
+      68,
+      69,
+      71,
+      74,
+      78,
+      79,
+      80
+    ],
+    "genres": [
+      1,
+      3,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "27 Nov, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "abyssaldescent.trident@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5046170",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5046170",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5046490": {
+    "type": "game",
+    "name": "Sarukuji",
+    "steam_appid": 5046490,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Global warming has flooded the earth. Only the monke survived. Build your sand castle and fight to the death with random items against your friends!",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046490/5d18f78db60a641c5067388e7e17b1fdb58cd7e8/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046490/135e48a40e390f8709c43aa7ac4d6b14b335f607/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046490/135e48a40e390f8709c43aa7ac4d6b14b335f607/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Sarukuji Team"
+    ],
+    "publishers": [
+      "Sarukuji Team"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      1,
+      15,
+      22,
+      23,
+      62
+    ],
+    "genres": [
+      1,
+      2,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q3 2026"
+    },
+    "support_info": {
+      "url": "sarukuji.com",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5046490",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5046490",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5046630": {
+    "type": "game",
+    "name": "Counterstep Arena",
+    "steam_appid": 5046630,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A turn\u2011based fighter with roguelike progression where you fight through a series of enemies. Gain upgrades, learn new techniques and expand your moveset as you progress. Craft your unique moveset as you advance towards the final boss and prove your mastery.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046630/e20f5c5ffc56912a9fc574d954af7aa551575c64/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046630/b660189c852179220ceca50f8de8426da035a51e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046630/b660189c852179220ceca50f8de8426da035a51e/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "LeRemoraid"
+    ],
+    "publishers": [
+      "LeRemoraid"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      1,
+      2,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "leremoraid@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5046630",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046630/c2e37b658e6208cadc10ee4087b2ff3fadc12b39/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5048100": {
+    "type": "game",
+    "name": "Zoocard",
+    "steam_appid": 5048100,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Zoocard is a zoo-themed roguelike deck-building game. Build a powerful deck of animals, pair them with food and toys, and create chain combos through species synergies. Listen to the animals\u2019 delightfully goofy sounds as your zoo flourishes and your pile of coins keeps growing!",
+    "supported_languages": "English, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5048100/91f3b844c528696cc87f978be90ed70985c584fd/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5048100/a9f5d0cb31ffecc2f83bc39ef7caceccfeb02c13/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5048100/a9f5d0cb31ffecc2f83bc39ef7caceccfeb02c13/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Lemonova Games"
+    ],
+    "publishers": [
+      "Lemonova Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      2,
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "3836243245@qq.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5048100",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5048100",
     "content_descriptors": {
       "ids": [],
       "notes": null
