@@ -677,9 +677,9 @@
     "controller_support": "full",
     "short_description": "THE PHANTOM OF THE OPERA: SEX &amp; REQUIEM is a story-driven adult visual novel about obsession, desire, music, and buried secrets. Enter a haunted opera house filled with romance, mystery, psychological horror, animated NSFW scenes, and dangerous attraction.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Simplified Chinese, Portuguese - Brazil, Bulgarian, Danish, Indonesian, Dutch, Finnish, Traditional Chinese, Japanese, Korean, Spanish - Latin America, Polish, Hungarian, Malay, Norwegian, Portuguese - Portugal, Romanian, Russian, Thai, Turkish, Ukrainian, Vietnamese, Greek, Czech, Swedish, Hindi, Kazakh",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126800/1827c51a5674454e8e5ea4228aa6c6b36ec5d48f/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126800/a45c5b070a577d754af75c9799938c0958d5bdcd/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126800/a45c5b070a577d754af75c9799938c0958d5bdcd/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126800/0854adc2b894ff29e003c66ab4e5ce8be3400b15/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126800/40aa6b1f2883a63c161454c3c9250dd49a09ec12/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126800/40aa6b1f2883a63c161454c3c9250dd49a09ec12/capsule_184x69.jpg",
     "website": "https://store.steampowered.com/dev/AfterHours",
     "developers": [
       "AfterHours Interactive"
@@ -901,6 +901,7 @@
     "steam_appid": 5124920,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "KOLUN - the machine. You are WORKER 1331. Your job is to work. Grab the stumps, split them, load the logs onto the cart, and earn Tickets.",
     "supported_languages": "English, French, German, Simplified Chinese, Korean, Russian, Swedish, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5124920/bb79b54f04f85e3e18fce8a3feb12c6aa4b6b858/header.jpg",
@@ -921,6 +922,7 @@
     },
     "categories": [
       2,
+      28,
       62
     ],
     "genres": [
@@ -1109,6 +1111,9 @@
     "steam_appid": 5126560,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5164150
+    ],
     "short_description": "Fold, turn, split and reassemble paper chain pieces. Every fastener is a hinge. Bend a flat chain into exactly the shape the cardboard still needs. 120+ level set in a small paper workshop.",
     "supported_languages": "English, German",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126560/ba57db2269ca5713dfb7c2585444472ab3cee5f6/header.jpg",
@@ -1116,10 +1121,16 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126560/5a87f3e471afabed65416e53f74d121c6c4528a8/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Sebastian Stolz"
+      "Proud Labs"
     ],
     "publishers": [
-      "Sebastian Stolz"
+      "Proud Labs"
+    ],
+    "demos": [
+      {
+        "appid": 5164150,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2210,7 +2221,19 @@
     "publishers": [
       "RimmindGame"
     ],
-    "package_groups": [],
+    "packages": [
+      1774907
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Bomb Vehicle The Idle Clicker - War Maid",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2235,8 +2258,8 @@
       4
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "27 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -2369,7 +2392,7 @@
     "dlc": [
       5149120
     ],
-    "short_description": "pilot a customizable spaceship, battle through procedurally generated arenas, and adapt your build with modular abilities to survive escalating enemy waves in this fast-paced 2D top-down roguelike shoot \u2019em up",
+    "short_description": "A bullet-hell roguelite where your weapons wear out. Every module burns through its own durability, and when it breaks, it's gone for good. Loot, trade and rebuild your loadout between waves, adapt to whatever the next arena throws at you, and see how long you will last in the endless battle.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5124870/d03669021fd876dae2ee9eaf17166f2ad71569a7/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5124870/d0542f32fc3639358ac66ac2470f2b166bead19b/capsule_231x87.jpg",
@@ -2956,6 +2979,394 @@
       "ids": [
         5
       ],
+      "notes": null
+    }
+  },
+  "5124960": {
+    "type": "game",
+    "name": "Wulfrot",
+    "steam_appid": 5124960,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Wulfrot is a First Person Medieval Horror set in the Great Famine of 1315. Return to the village you once fled as a child and face what never forgot you left.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5124960/5be826f884b1b68cf9e66eafd47649d58366b5ee/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5124960/6b3806df22d2beeed3044c53a29ba0e230d5c6b5/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5124960/6b3806df22d2beeed3044c53a29ba0e230d5c6b5/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "SCH GAMING"
+    ],
+    "publishers": [
+      "SCH GAMING"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      28,
+      62,
+      65,
+      68,
+      69,
+      70,
+      74,
+      80
+    ],
+    "genres": [
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "schgamingsteam@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5124960",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5124960",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "Dark and scary setting, jumpscares and cult themes"
+    }
+  },
+  "5125020": {
+    "type": "game",
+    "name": "\u4f9d\u7075\u9910\u5385",
+    "steam_appid": 5125020,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Casual single\u2011player restaurant management game. Watch customers and staff bustle in your eatery. As operator, check data, hire staff, manage inventory and create new dishes. Meet special customers: some sell goods, others need help. Learn their stories to befriend them, gain gifts or recruit them.",
+    "supported_languages": "Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5125020/e29bac1e6ab382af9b7e748d908cba7f54ab2c1f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5125020/cb921d816b10866401f87ad65ea53e64f290cefb/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5125020/cb921d816b10866401f87ad65ea53e64f290cefb/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "\u4f9d\u7075\u5de5\u4f5c\u5ba4"
+    ],
+    "publishers": [
+      "\u4f9d\u7075\u5de5\u4f5c\u5ba4"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      4,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "August 2026"
+    },
+    "support_info": {
+      "url": "https://www.yilingstudio.com/",
+      "email": "yilingcanting@163.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5125020",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5125020",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5125670": {
+    "type": "game",
+    "name": "RapOrDie",
+    "steam_appid": 5125670,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Write lyrics, build beats, record vocals, and mix anything in this unpredictable hip-hop career simulator. Collaborate with producers, artists, and internet personalities, release your music, chase viral moments, and rebuild your underground label from the ground up.",
+    "supported_languages": "English, Japanese, Simplified Chinese, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5125670/929ace331acd1e141c02e9970292f6ac3435a9af/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5125670/843dae22ec9b3ad01109972956131e705476104d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5125670/843dae22ec9b3ad01109972956131e705476104d/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "axis"
+    ],
+    "publishers": [
+      "axis"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      3,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q4 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "axisundergo@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5125670",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5125670",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5126150": {
+    "type": "game",
+    "name": "Cats Must Be Petted! - An Incremental Game About Petting Cats",
+    "steam_appid": 5126150,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Cats have one simple demand. They must be petted. Step onto a little patch of grass, find a cat, and give it some attention. Tap to get a cat's attention, then keep petting when it rolls over and reveals its belly. Fill its satisfaction meter and watch it happily run off...",
+    "supported_languages": "English, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126150/4017a3b5a7d74b16a2c81c5cf80d759bc1e1ed12/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126150/03eb30d878555059db5b280e86a7b411a94d877a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126150/03eb30d878555059db5b280e86a7b411a94d877a/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Playsect"
+    ],
+    "publishers": [
+      "Playsect"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      62,
+      68,
+      76,
+      79
+    ],
+    "genres": [
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q4 2026"
+    },
+    "support_info": {
+      "url": "kerlin.j@gmail.com",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5126150",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126150/958e9f6648e5f2b02f76d7f5c95dbdd3031c70eb/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5126170": {
+    "type": "game",
+    "name": "Phasewright",
+    "steam_appid": 5126170,
+    "required_age": 0,
+    "is_free": true,
+    "dlc": [
+      5133860
+    ],
+    "short_description": "A puzzle game about timing: you build machines out of light. A pulse crosses one cell per tick, so a longer route arrives later \u2014 distance is time. Lay conduits, split and merge colours, and beat your own count of ticks, cost and area.",
+    "supported_languages": "English, German",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126170/8fd2b0aac2227390af5a014ecc3664501abcd591/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126170/083a6ee8981da195196943d0130eab12315832b4/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126170/083a6ee8981da195196943d0130eab12315832b4/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Lucaren"
+    ],
+    "publishers": [
+      "Lucaren"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      15,
+      17,
+      18,
+      22,
+      23,
+      25,
+      30,
+      36,
+      38,
+      49,
+      57,
+      58,
+      62,
+      64,
+      66,
+      67,
+      68,
+      69,
+      74,
+      75,
+      76,
+      78,
+      79,
+      80,
+      82
+    ],
+    "genres": [
+      2,
+      23,
+      28,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q4 2026"
+    },
+    "support_info": {
+      "url": "https://discord.gg/WTJNqmFypc",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5126170",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126170/509d39782e9ab890e31a1d632c3b9b62854a3049/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5126230": {
+    "type": "game",
+    "name": "Drawmi: Creature Collector",
+    "steam_appid": 5126230,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "A creature collector auto-battler where you can draw all the creatures you collect while battling your way to a Scribble Fighting art degree.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126230/5d57ce65819732b69688c422daa0b6bf86b81e5e/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126230/96f63319e292abb0a9253284410e8465cc89c089/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126230/96f63319e292abb0a9253284410e8465cc89c089/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "HearMeOutKyle"
+    ],
+    "publishers": [
+      "Doonamai Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      17,
+      22,
+      28,
+      62
+    ],
+    "genres": [
+      3,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "November 2026"
+    },
+    "support_info": {
+      "url": "https://www.doonamai.com",
+      "email": "submit@doonamai.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5126230",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5126230",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5126930": {
+    "type": "game",
+    "name": "Arcanefall : Darklands",
+    "steam_appid": 5126930,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Arcanefall: Darklands is a dark fantasy survivor-like game where you take on the role of a spellcaster fighting to survive endless waves of undead horrors in a cursed, crumbling world.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126930/ce65710f3c78ff72b22c9c249164e9f55775cb06/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126930/d7c3053d6f9c9fb93132de7f8c4b9db14e8c058c/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126930/d7c3053d6f9c9fb93132de7f8c4b9db14e8c058c/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "zak1aN"
+    ],
+    "publishers": [
+      "Arcanefall Studios"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      68,
+      74
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "1 Sep, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": " arcanefalldarklands@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5126930",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126930/6d2c97a6d981128d6f66034144178d86f6d046ce/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
       "notes": null
     }
   }

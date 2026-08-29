@@ -1062,11 +1062,11 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "An arcade game that oscillates between shooting, brick-breaking and reflection.",
-    "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2587940/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2587940/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2587940/capsule_184x69.jpg",
+    "short_description": "An arcade game that oscillates between shooting, brick-breaking and reflection... with a single projectile!",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2587940/d4f916827673b17fdfcfc53c760f42e227f05f91/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2587940/e8d43c8955c7d7fd3f49620c03e9b08b43e51c21/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2587940/e8d43c8955c7d7fd3f49620c03e9b08b43e51c21/capsule_184x69.jpg",
     "website": "https://www.arcadermx.fr/photophore",
     "developers": [
       "ArcadeRmx - Michael Clauss"
@@ -7621,7 +7621,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      928525
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy House 2",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7639,9 +7651,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 30
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "2026"
+      "coming_soon": false,
+      "date": "28 Aug, 2026"
     },
     "support_info": {
       "url": "https://www.glowstickentertainment.com",

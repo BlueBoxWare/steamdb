@@ -926,7 +926,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "You are a taxi service algorithm. Balance the corporates, the regulator, the passengers, and the drivers to squeeze out maximum profit \u2014 and save yourself from being deleted.",
-    "supported_languages": "English, Japanese, Korean, Russian, Simplified Chinese, Spanish - Spain, Portuguese - Brazil, Traditional Chinese",
+    "supported_languages": "English, Japanese, Korean, Russian, Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4982640/af126fbc94156807c66bdea5568b0e130256cec9/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4982640/18a9256b9bcaaf81a55c43fce78057da9016d987/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4982640/18a9256b9bcaaf81a55c43fce78057da9016d987/capsule_184x69.jpg",
@@ -1380,8 +1380,8 @@
     "short_description": "The lost puzzle-platformer of ancient Babylon \u2014 made in Baghdad in 1993, remastered in 2026. Freeze one twin to stone while the other dashes, drills and battles through five worlds. Includes the original 1993 Amiga game, fully playable \u2014 only on Steam.",
     "supported_languages": "English, French, German, Spanish - Spain, Arabic, Japanese, Korean, Russian, Italian, Portuguese - Brazil, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4981370/d16c949fe7dc524290b832378e54b37c5151e2ee/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4981370/a68174299fad0cbfb994b142a2a81dc521455c22/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4981370/a68174299fad0cbfb994b142a2a81dc521455c22/capsule_184x69.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4981370/9c1448c5cfd48cc58ad4e20a38786fccd02d86e4/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4981370/9c1448c5cfd48cc58ad4e20a38786fccd02d86e4/capsule_184x69.jpg",
     "website": "https://www.babyloniantwins.com",
     "developers": [
       "BitHunch LLC"
@@ -2284,7 +2284,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -4414,7 +4414,19 @@
     "publishers": [
       "ZETACORE INC."
     ],
-    "package_groups": [],
+    "packages": [
+      1728076
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy TDM : Task Drill Maniac",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4434,9 +4446,12 @@
       28,
       70
     ],
+    "achievements": {
+      "total": 5
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "28 Aug, 2026"
     },
     "support_info": {
       "url": "https://zetacore.io",

@@ -405,6 +405,9 @@
     "steam_appid": 4963920,
     "required_age": 0,
     "is_free": true,
+    "dlc": [
+      4995560
+    ],
     "short_description": "Play LAN and self-hosted games with faraway friends. Porthole is a proxy that forwards a port you pick to your Steam friends, so they connect as if on your LAN. No port forwarding, no public IP, no router setup. A Steam-based take on Hamachi and Radmin.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4963920/ce84efea650deec876b695490b5ca8d095b92931/header.jpg",
@@ -2543,7 +2546,7 @@
       2,
       62,
       69,
-      74
+      70
     ],
     "genres": [
       1
@@ -4105,7 +4108,6 @@
     },
     "categories": [
       2,
-      18,
       22,
       62,
       64,
@@ -5128,6 +5130,10 @@
     "steam_appid": 4964790,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5121570,
+      5121580
+    ],
     "short_description": "This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4964790/fe936dce2b992dd6323367243663809101c58b4e/header.jpg",
@@ -5140,7 +5146,19 @@
     "publishers": [
       "IR Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1722834
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Puzzles Fruit",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5155,9 +5173,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 1
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "28 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -5627,12 +5648,10 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4963310/34d54baaca148f213991ec89a72719169bb21608/capsule_184x69.jpg",
     "website": "https://maybedead.com",
     "developers": [
-      "zitong",
-      "Sai"
+      "DiBaDo Studio"
     ],
     "publishers": [
-      "zitong",
-      "Sai"
+      "DiBaDo Studio"
     ],
     "package_groups": [],
     "platforms": {

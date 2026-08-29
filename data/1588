@@ -5471,7 +5471,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Mining Away! is a short incremental game in which you mine ores, collect resources, progress through the vast skill tree, find rare relics, and unlock powerful pickaxes!",
-    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Spanish - Latin America<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4764110/b1ea405094a45ad4055664855ebef2f765e2758e/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4764110/f4e2393514c039b652ccb46b2ddb32abec7c1e2d/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4764110/f4e2393514c039b652ccb46b2ddb32abec7c1e2d/capsule_184x69.jpg",
@@ -5482,11 +5482,17 @@
     "publishers": [
       "Tiny Knight Games"
     ],
+    "demos": [
+      {
+        "appid": 4890300,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
-      "linux": true
+      "mac": false,
+      "linux": false
     },
     "categories": [
       2,
@@ -6451,7 +6457,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1657340
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Great Northern War",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6476,7 +6494,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "28 Aug, 2026"
     },
     "support_info": {

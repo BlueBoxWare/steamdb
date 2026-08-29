@@ -882,6 +882,7 @@
     "steam_appid": 5071520,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "A colony survival strategy game on a fungal exoplanet, crossing colony sim, base building and territory control. Survey the fog, claim the ground under it, raise an outpost, and hold the line as the bloom and its ferals close in.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5071520/1fca1447da3a7d5ae1040b73972d624c5d59ddcb/header.jpg",
@@ -904,7 +905,21 @@
       2,
       22,
       23,
-      62
+      28,
+      55,
+      56,
+      57,
+      58,
+      62,
+      64,
+      66,
+      68,
+      74,
+      76,
+      77,
+      78,
+      79,
+      80
     ],
     "genres": [
       2
@@ -1685,7 +1700,19 @@
     "publishers": [
       "Gensart"
     ],
-    "package_groups": [],
+    "packages": [
+      1757798
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Carnage Mania",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1712,9 +1739,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 21
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "August 2026"
+      "coming_soon": false,
+      "date": "28 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -2379,9 +2409,9 @@
     "is_free": false,
     "short_description": "Forge magic swords as an undying elven smith, then choose who wields them. Every blade you sell reshapes a life: into a hero, or into ruin. In time the wielder dies and the sword returns to your anvil, to be melted into the next. A quiet craft-and-consequence sim about what a blade leaves behind.",
     "supported_languages": "English, Japanese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5070640/5feeaf2411001935e5234962c08b0a9fbc55d2f8/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5070640/eb2c7dad6186987ee02ea9edfda574979d652ce9/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5070640/eb2c7dad6186987ee02ea9edfda574979d652ce9/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5070640/4cfb0611c48d100c4d902f041b11f5ec5eaa0d68/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5070640/fbcf433e0ab562c56d7a778b48c01e5a8b3c95a3/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5070640/fbcf433e0ab562c56d7a778b48c01e5a8b3c95a3/capsule_184x69.jpg",
     "website": "https://sasoriken-games.com/games/magic-sword-smith/",
     "developers": [
       "sasoriken-games"
@@ -2950,7 +2980,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "29 Oct, 2026"
+      "date": "30 Nov, 2026"
     },
     "support_info": {
       "url": "https://cricketmanagergame.com",
@@ -3569,7 +3599,7 @@
     "steam_appid": 5072430,
     "required_age": 0,
     "is_free": true,
-    "short_description": "Somebody reported the fire fourteen minutes before it started. Prove it in real SQL. Learn the language from your first line, question a live evidence database, and let the records name the culprit for you.",
+    "short_description": "Somebody reported the fire fourteen minutes before it started. Prove it in SQL by exploring the call centre data.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5072430/51f9c7715c2f874443595ae9e76269b02444c496/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5072430/68f0d273de2d8da9c13f6cf314089ec320eb377d/capsule_231x87.jpg",
@@ -4536,6 +4566,9 @@
     "steam_appid": 5071780,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5084900
+    ],
     "short_description": "CLICK BAIT is a rhythm roguelite where the worst monsters of the internet finally face justice, requiring you to master the art of timing your clicks around a continuous spinning wheel to defeat these online threats.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5071780/a603b8a8ccd844c9dedbf46a7bf3028962fe7764/header.jpg",
@@ -4547,6 +4580,12 @@
     ],
     "publishers": [
       "Benjamin Adams"
+    ],
+    "demos": [
+      {
+        "appid": 5084900,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -5127,6 +5166,64 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "5071920": {
+    "type": "game",
+    "name": "Temple 13 - Time Collapse",
+    "steam_appid": 5071920,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "A first-person game where you explore a mysterious ancient temple and search for anomalies. Carefully observe your surroundings, spot changes, and determine what has changed. As you progress, the anomalies become increasingly dangerous, leading you deeper into a mysterious labyrinth.",
+    "supported_languages": "English, Russian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5071920/6172fa1d826e4e951dc760af3addca8451820f1c/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5071920/96ac8e4e46037c9965496a4b5ba2cf9b663a037a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5071920/96ac8e4e46037c9965496a4b5ba2cf9b663a037a/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Myhail Systems Studio"
+    ],
+    "publishers": [
+      "Myhail Systems Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      67,
+      68,
+      69,
+      70,
+      74,
+      80
+    ],
+    "genres": [
+      1,
+      23,
+      25,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "September 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "https://thecodefather13.itch.io/temple-13-time-collapse"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5071920",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5071920/a418639e4fca155b3d98fa81099cbb30be2316fa/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game contains:\r\n\r\n1) Jump scares;\r\n2) Loud sound effects;\r\n3) Disturbing and frightening scenes;\r\n4) Flashing lights and visual effects that may affect people with photosensitive epilepsy.\r\n\r\nAll characters, names, events, and organizations depicted in this game are fictional. Any resemblance to actual persons, living or dead, or real events is purely coincidental."
     }
   }
 }
