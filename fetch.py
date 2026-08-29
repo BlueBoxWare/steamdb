@@ -332,7 +332,7 @@ else:
                 apps[item["appid"]] = item["last_modified"]
 progress(" Done.")
 
-for appid, stamp in apps.items():
+for appid in apps:
     if appid in state:
         if state[appid] < apps[appid]:
             outdated_apps.add(appid)
@@ -399,15 +399,16 @@ for index, appid in enumerate(queue):
             if retry >= len(BACKOFF):
                 error("Too many failures. Aborting.\n")
                 save()
-                raise
+                sys.exit(1)
 
-    if not response:
-        sys.exit(1)
+    text = ""
+    if response:
+        text = response.read()
 
-    text = response.read()
     if not text:
         progress(f"Empty response for {appid}.")
         response_text = "{}"
+
     json_obj = json.loads(text)
     try:
         data = json_obj[str(appid)]["data"]
