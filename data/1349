@@ -13617,6 +13617,7 @@
     "steam_appid": 4048540,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "A first-person voxel survival crafting game. Land on a strange new planet with your friends and dig up what you need, build better tools, watch out for the wildlife, and put together the rocket that takes you home.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Swedish, Traditional Chinese, Turkish, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4048540/799b089b8a5cff2f52816ef2effd3310eaa6d471/header.jpg",
@@ -13629,7 +13630,19 @@
     "publishers": [
       "GOOD BUILD"
     ],
-    "package_groups": [],
+    "packages": [
+      1419999
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Victor Space Program",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13639,6 +13652,7 @@
       1,
       2,
       9,
+      28,
       38,
       62
     ],
@@ -13648,8 +13662,8 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "30 Aug, 2026"
     },
     "support_info": {
       "url": "https://victorgamestudio.com/contact",

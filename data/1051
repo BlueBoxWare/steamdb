@@ -12715,6 +12715,7 @@
     "steam_appid": 3154550,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Aegis Force is a story-driven tactical RPG that blends turn-based strategic combat with full world and town exploration. It captures the essence of genre-defining JRPG classics with colorful pixel art 2.5D visuals, a morally complex story, and an intricately detailed world with secrets to discover.",
     "supported_languages": "English, Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3154550/487f53a169030ff2686e316f666ae59c806202fe/header.jpg",
@@ -12735,7 +12736,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1119662
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Aegis Force: The Scorian War",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12743,6 +12756,7 @@
     },
     "categories": [
       2,
+      28,
       62,
       67,
       68,
@@ -12759,7 +12773,7 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "31 Aug, 2026"
     },
     "support_info": {
