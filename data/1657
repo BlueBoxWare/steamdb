@@ -463,11 +463,11 @@
     "steam_appid": 4972400,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A AAA production on a case-of-beer budget. You're a support agent at DrumWorks, approving or denying game refund requests. Hit your corporate quota, keep grandma's apartment livable, look after her fish (or flush them\u2014they don't care), and go easy on the coffee.",
-    "supported_languages": "English, Polish, German, Simplified Chinese, Japanese, French, Spanish - Latin America, Portuguese - Brazil, Russian",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4972400/232b63c6f84e8f44bf721bcbb49ba9faaeb298f5/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4972400/8de10c29c66da9b1abdb21fa0baab593a6558387/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4972400/8de10c29c66da9b1abdb21fa0baab593a6558387/capsule_184x69.jpg",
+    "short_description": "You're a support agent at DrumWorks, approving or denying game refund requests by a 16-rule policy. Hit quota. Pay the water bill. Feed grandma's fish. Then the terminal starts showing you things it shouldn't \u2014 and you find out what else she left you.",
+    "supported_languages": "English, Polish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4972400/4a0540d3edc367791ff66a4de907b9b641b3c3d4/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4972400/0b23f38880005bf05a5531b059fef5bff1cdea72/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4972400/0b23f38880005bf05a5531b059fef5bff1cdea72/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Tigran"
@@ -498,7 +498,7 @@
       "email": "refundspeedrun@gmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4972400",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4972400/3fb9d0678bcb0dad1f029f6f89815677bc8b0048/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4972400/5e2efd2f30bdf1037bd29985d45cb93b90aeab1e/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -4215,6 +4215,9 @@
     "steam_appid": 4972050,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5014150
+    ],
     "short_description": "Resettle is a deep incremental city builder where you develop settlements on islands. Strategically place buildings to maximize resource production, explore 10 different upgrade systems, and create a thriving island city.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4972050/6432494de86ae46546c59433b959786103f4adf8/header.jpg",
@@ -4392,6 +4395,7 @@
     "steam_appid": 4973920,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Launch glowing neon shapes across a floating grid arena and sink them into matching holes, pinball-style. Chase a high score in frantic five-minute runs or play a course of handcrafted neon crazy golf. Two games in one, all using the same shapes and physics. Easy to learn, endlessly masterable.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4973920/a7c26780830a120b5a5b8236d015d8a82d8bc042/header.jpg",
@@ -4415,6 +4419,8 @@
       22,
       23,
       25,
+      28,
+      59,
       62,
       68,
       74
@@ -4927,7 +4933,19 @@
       "Aaron Nelsen",
       "Anthology Group"
     ],
-    "package_groups": [],
+    "packages": [
+      1725661
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Flashpaper",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -4946,9 +4964,12 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 23
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "August 2026"
+      "coming_soon": false,
+      "date": "31 Aug, 2026"
     },
     "support_info": {
       "url": "http://anthologygroup.llc",

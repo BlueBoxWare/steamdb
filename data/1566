@@ -3191,6 +3191,9 @@
     "steam_appid": 4699020,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5088630
+    ],
     "short_description": "Rent an apartment to finish your work and survive a night that grows increasingly strange. A first-person psychological horror game where routine, silence, and paranoia turn an ordinary place into somewhere impossible to leave.",
     "supported_languages": "English<strong>*</strong>, Spanish - Spain, French, German, Simplified Chinese, Japanese, Russian, Korean, Polish, Portuguese - Brazil<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4699020/d8462fa95f0d179b9e8af75a8a09fb122e843fc7/header.jpg",
@@ -3248,7 +3251,7 @@
     "steam_appid": 4699320,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A first-person psychological horror game about a boy traveling between a peaceful secret base and a home that slowly begins to change.",
+    "short_description": "A boy discovers a quiet, peaceful secret hideout. Follow the small inconsistencies as you explore, and uncover the hidden truth in this short walking simulator.",
     "supported_languages": "English, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4699320/aec27a6c83a98b40d5c2c80ae5b46bc1e94bebbc/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4699320/cb042260746b2ac1cc77c24984a959555d0dd9d9/capsule_231x87.jpg",
@@ -3260,7 +3263,19 @@
     "publishers": [
       "Gattorocco"
     ],
-    "package_groups": [],
+    "packages": [
+      1635442
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Secret Base",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3273,9 +3288,12 @@
     "genres": [
       23
     ],
+    "achievements": {
+      "total": 2
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "31 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -4175,7 +4193,19 @@
     "publishers": [
       "Dark Dome Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1635847
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy The Girl in the Window",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4187,7 +4217,8 @@
       74,
       76,
       77,
-      79
+      79,
+      80
     ],
     "genres": [
       4,
@@ -4195,7 +4226,7 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "31 Aug, 2026"
     },
     "support_info": {
@@ -7522,6 +7553,12 @@
     ],
     "publishers": [
       "Panda Paw"
+    ],
+    "demos": [
+      {
+        "appid": 4706490,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {

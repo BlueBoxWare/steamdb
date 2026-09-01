@@ -131,7 +131,7 @@
     "steam_appid": 4776470,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A 2D point-and-click mystery set in the wild 1990s of Slovakia and Czechia. As two young reporters, follow a dead straw man, missing files, locked doors, and paper trails into a case that was never meant to be opened.",
+    "short_description": "1993, just after Czechoslovakia split in two. Play as reporter Marek and investigate the death of a company director in name only. In Prague, journalist Eva pursues a case of her own. Explore locations, read documents, and uncover where their cases meet in a classic 2D point-and-click mystery.",
     "supported_languages": "English<strong>*</strong>, Czech<strong>*</strong>, Slovak<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4776470/469c8e76464d083c3ae563a0c51a9d62d4cae9d6/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4776470/f6a62733bf607630299d1bf2415462d0549a984d/capsule_231x87.jpg",
@@ -1528,6 +1528,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4806760
+    ],
     "short_description": "In HYPERCUT, dice through hordes of enemies with agile swordplay, lightning fast movement, instant-kill combat and immeasurable gore.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4777530/cf79b57c6234c5feeba9b03d8b7c747685b8d3a2/header.jpg",
@@ -1543,12 +1546,13 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
       2,
       28,
+      60,
       62,
       67,
       68,
@@ -4988,7 +4992,19 @@
     "publishers": [
       "Anarch Entertainment"
     ],
-    "package_groups": [],
+    "packages": [
+      1661053
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy PROJEKT GODHAND act 2 \"purgatorio\"",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5004,8 +5020,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "August 2026"
+      "coming_soon": false,
+      "date": "31 Aug, 2026"
     },
     "support_info": {
       "url": "",
@@ -5382,7 +5398,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "A cozy roguelike memory deckbuilder where you flip tiles, build multis, and stack strategy-changing hats on a variety of oddly compliant cats.",
+    "short_description": "Stack Hats on adorable Cats. A cozy roguelike memory deckbuilder where you flip tiles, build multis, and stack hats on a variety of oddly compliant cats.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4777960/9235250cf14e1b1146c37afe986ffe6691c320c4/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4777960/b52349d2d8913219c195a81b2a10899c0497c837/capsule_231x87.jpg",
@@ -6522,8 +6538,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": false,
-      "date": ""
+      "coming_soon": true,
+      "date": "To be announced"
     },
     "support_info": {
       "url": "",
@@ -6532,7 +6548,9 @@
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4777280",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4777280",
     "content_descriptors": {
-      "ids": [],
+      "ids": [
+        5
+      ],
       "notes": "This game explores existential questions and addresses grief."
     }
   }

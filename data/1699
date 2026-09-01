@@ -359,6 +359,9 @@
     "steam_appid": 5099760,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5185290
+    ],
     "short_description": "You triage requests inside a corporate OS that lies by omission: cover a window and it keeps showing yesterday's data, perfectly confident. Every case hides in the gap between two windows, and someone in this building is counting on you not to look. Meridian is delighted with your progress.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5099760/4e5de62bc195a440462da4b218d6db211c38d360/header.jpg",
@@ -598,9 +601,12 @@
       4,
       37
     ],
+    "achievements": {
+      "total": 53
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "September 2026"
+      "coming_soon": false,
+      "date": "1 Sep, 2026"
     },
     "support_info": {
       "url": "https://vector.cytrax.net/",
@@ -647,10 +653,13 @@
       "linux": false
     },
     "categories": [
+      1,
       2,
+      9,
       18,
       22,
       23,
+      48,
       62,
       67,
       68,
@@ -899,7 +908,25 @@
     "publishers": [
       "Two-Sun Studio"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5172680,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1766657
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Oh My Hat",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -917,9 +944,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 15
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "31 Aug, 2026"
+      "coming_soon": false,
+      "date": "1 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -4131,6 +4161,9 @@
     "steam_appid": 5099140,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5099150
+    ],
     "short_description": "Choose a faction, recruit officers, raise troops, and conquer rival strongholds across board-style maps in large-scale real-time battles.",
     "supported_languages": "English, Spanish - Spain, Japanese, Korean, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5099140/3bc0f506af06a4830a089e7b0826e9878bb16c77/header.jpg",
@@ -4232,6 +4265,233 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5098270",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5098270/cd353ea831f7947d452aec0f3536e8a8df7befc5/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5097630": {
+    "type": "game",
+    "name": "Swarm Idle",
+    "steam_appid": 5097630,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Swarm Idle is a prestige idle/incremental game where you command an alien queen and her swarm: devour 100 cities, develop eight lineages, optimize your Mutations, and progress even while offline until the whole Earth is ravaged.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Traditional Chinese, Korean, Spanish - Latin America, Japanese, Dutch, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Ukrainian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5097630/65995534c80b0412e46c90df841d5234db902205/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5097630/bcb289ccde6677eddffb04951ef30ffb82ba4b35/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5097630/bcb289ccde6677eddffb04951ef30ffb82ba4b35/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Omicra Lyrae"
+    ],
+    "publishers": [
+      "Omicra Lyrae"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      23,
+      62
+    ],
+    "genres": [
+      2,
+      4,
+      23,
+      28,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "30 Sep, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "omicralyrae@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5097630",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5097630/22b90b40c182ab8315a183616af509f4fc873724/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "Swarm Idle contains stylized fantasy violence in which an alien swarm attacks and kills human civilians and defenders. Violence is shown abstractly from a top-down perspective, without realistic blood, gore, or graphic injuries. The game also features dark body-horror themes and an oppressive alien atmosphere."
+    }
+  },
+  "5097830": {
+    "type": "game",
+    "name": "Shattersight",
+    "steam_appid": 5097830,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "Shattersight is a fast-paced online arcade FPS featuring sliding, dashing, double jumping, wall running, killstreaks, Team Deathmatch, and Capture the Flag.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5097830/9abc1e6c44f94da2dd27cbd6e2791f0095402122/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5097830/8e87b4e891f648e2d162e960bf0f8fee77cc5d10/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5097830/8e87b4e891f648e2d162e960bf0f8fee77cc5d10/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Derek Bancarz"
+    ],
+    "publishers": [
+      "Shattersight Studios"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      36,
+      47,
+      49,
+      62
+    ],
+    "genres": [
+      1,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "shattersightctf@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5097830",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5097830",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5098220": {
+    "type": "dlc",
+    "name": "Idle Champions - Founder's Pack IX",
+    "steam_appid": 5098220,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This EPIC Founder's Pack is packed full of exclusive content, rare buffs, and premium content to begin adventuring deep into the Forgotten Realms!",
+    "fullgame": {
+      "appid": "627690",
+      "name": "Idle Champions of the Forgotten Realms"
+    },
+    "supported_languages": "English, French, German, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5098220/52c7a3c4e007e29378816d9fa91e4f7657223245/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5098220/4a5d327935829958629c9eb323570fdb94701a07/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5098220/4a5d327935829958629c9eb323570fdb94701a07/capsule_184x69.jpg",
+    "website": "http://www.idlechampions.com",
+    "developers": [
+      "Codename Entertainment Inc."
+    ],
+    "publishers": [
+      "Codename Entertainment Inc."
+    ],
+    "packages": [
+      1766253
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Idle Champions - Founder's Pack IX",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      29,
+      35,
+      42
+    ],
+    "genres": [
+      1,
+      2,
+      23,
+      25,
+      37
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "31 Aug, 2026"
+    },
+    "support_info": {
+      "url": "www.codenameentertainment.com",
+      "email": "idlechampions@codenameentertainment.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5098220",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5098220",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5099860": {
+    "type": "game",
+    "name": "ChessTan",
+    "steam_appid": 5099860,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "Settle a kingdom, roll for resources, and build an army with real chess movesets on a hex battlefield. ChessTan fuses Catan-style economy with chess-style combat for 2-4 players \u2014 outbuild your rivals, then checkmate the last Nexus standing. Play locally, online with friends, or through Steam.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5099860/c5758c4bf937d4b331cd707b0aa385775d485b0d/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5099860/28b59141fd406a16413ce64e957c6afefcc32c40/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5099860/28b59141fd406a16413ce64e957c6afefcc32c40/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Darren Huai"
+    ],
+    "publishers": [
+      "Darren Huai"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      23,
+      24,
+      36,
+      37,
+      44,
+      49,
+      62
+    ],
+    "genres": [
+      2,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "18 Sep, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "darrenhuai@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5099860",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5099860",
     "content_descriptors": {
       "ids": [],
       "notes": null
