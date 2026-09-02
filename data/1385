@@ -4790,7 +4790,7 @@
     "is_free": false,
     "short_description": "Weed Supermarket Simulator is a chill store sim where you grow weed, develop new strains, set prices, and keep your shelves stocked. Expand your business and optimize it for maximum profit. Manage employees, handle inventory, and turn your shop into a high-performing business.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Dutch, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Turkish<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4156580/cf4aeb1fff01cb2bd05bc1b9361b819bd7de5139/header_alt_assets_0.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4156580/d406302a0dee9554db1097ba98266bc412370d4b/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4156580/920b789559b0cf10025b4e8e18728dcc0e00ffac/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4156580/920b789559b0cf10025b4e8e18728dcc0e00ffac/capsule_184x69.jpg",
     "website": "http://www.dreamwaygames.com",
@@ -9819,6 +9819,10 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4157880,
+      4157890
+    ],
     "short_description": "You play as Lucien, Dracula's son, and your goal is to free people from the magical good manners the angel Angelo has casted to people. Reveal the pleasures of life to humans, monsters, and angels through the way of 4 unique levels with 16 NSFW animations. Unlock 4 CGs in your gallery.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4157860/fadb8d68331a51f8f1e8be87d1f3c711fd74e0c3/header.jpg",
@@ -9831,7 +9835,25 @@
     "publishers": [
       "Male Doll Adventures"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 4157870,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1456651
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Bara Blood - The Crimson Heir",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -9848,9 +9870,12 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 5
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "2026"
+      "coming_soon": false,
+      "date": "2 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -10528,6 +10553,146 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "4157880": {
+    "type": "dlc",
+    "name": "Bara Blood - Adult Art Pack",
+    "steam_appid": 4157880,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Wanna &quot;Bara Blood - The Crimson Heir&quot;\u00a0NSFW GIFs in your pocket and extra pixel art scenes?",
+    "fullgame": {
+      "appid": "4157860",
+      "name": "Bara Blood - The Crimson Heir"
+    },
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4157880/034caa354bc6c2bb2dd95b557a86dcc67f1172be/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4157880/99c8ca1eb17332a8670fe7f0e34a5f9a3e20f0b3/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4157880/99c8ca1eb17332a8670fe7f0e34a5f9a3e20f0b3/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Male Doll Adventures"
+    ],
+    "publishers": [
+      "Male Doll Adventures"
+    ],
+    "packages": [
+      1456657
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Bara Blood - Adult Art Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      62
+    ],
+    "genres": [
+      1,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "2 Sep, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "maledollstudio@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4157880",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4157880/747b98bac398e0162835b74129cca50d0381e37b/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "notes": "Bara Blood - Adult Art Pack contains strong language, partial and full nudity, and explicit male homosexual sex (oral and anal).\r\n\r\nIncludes animated sexual encounters or unlockable CGs with monsters, mutants, and bosses, featuring anal, oral, and X-Ray penetration. Some of them may be understood as a dubious consent. This is a game for mature audiences only."
+    }
+  },
+  "4157890": {
+    "type": "dlc",
+    "name": "Bara Blood - Guide",
+    "steam_appid": 4157890,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Bara Blood Guide is a spoiler document with all the detailed information you need to complete the game and unlock all Steam achievements.",
+    "fullgame": {
+      "appid": "4157860",
+      "name": "Bara Blood - The Crimson Heir"
+    },
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4157890/32bb44a2d6fff3906d39d9c32b09147cca3c29a6/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4157890/5346e3a213cdbd9c9f21ae3e73bf41e390879254/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4157890/5346e3a213cdbd9c9f21ae3e73bf41e390879254/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Male Doll Adventures"
+    ],
+    "publishers": [
+      "Male Doll Adventures"
+    ],
+    "packages": [
+      1456660
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Bara Blood - Guide",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      62
+    ],
+    "genres": [
+      4,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "2 Sep, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "maledollstudio@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4157890",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4157890/747b98bac398e0162835b74129cca50d0381e37b/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "notes": "Bara Blood - Guide contains spoilers of Bara Blood, revealing how to unlock its content, defeat its bosses easily, and unlock Steam achievements. This document, however, doesn't have any graphic NSFW scenes or strong language."
     }
   }
 }
