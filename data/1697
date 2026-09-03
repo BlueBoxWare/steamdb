@@ -298,11 +298,8 @@
     "steam_appid": 5091780,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5109400
-    ],
     "short_description": "Run your own ice cream stand on a sunny beach, serve customers, earn money, and enjoy the coastal life. Meet adult women, flirt, build relationships, and unlock optional 18+ encounters as you explore a summer paradise filled with opportunities.",
-    "supported_languages": "English<strong>*</strong>, French, Spanish - Spain, Japanese, Russian, Simplified Chinese, Traditional Chinese<br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, French, Spanish - Spain, Japanese, Russian, Simplified Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091780/886a7214fd08e6c487de1eb838b647205a8c2e91/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091780/889a226fade7ce6eefac737019c135d0c852a576/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091780/889a226fade7ce6eefac737019c135d0c852a576/capsule_184x69.jpg",
@@ -312,12 +309,6 @@
     ],
     "publishers": [
       "DreamsPlace18"
-    ],
-    "demos": [
-      {
-        "appid": 5109400,
-        "description": ""
-      }
     ],
     "package_groups": [],
     "platforms": {
@@ -484,7 +475,7 @@
       5094140
     ],
     "short_description": "Aim Clicker is a clicker game where you click targets! Hit targets, earn money, buy upgrades, unlock skills, prestige and get a new crosshair drop every hour.",
-    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Korean<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Simplified Chinese<strong>*</strong>, Japanese<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Korean<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Simplified Chinese<strong>*</strong>, Japanese<strong>*</strong>, Russian<strong>*</strong>, Turkish<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5093280/a95004ca5d92dc352ddfaf76da3572f243c939d5/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5093280/993433e14e1b7263ce0e604f674efd6dfbd3e2b8/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5093280/993433e14e1b7263ce0e604f674efd6dfbd3e2b8/capsule_184x69.jpg",
@@ -547,7 +538,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Join this adventure and discover the hiding places of 101 dogs in Thailand \ud83d\udc3e in the hand-crafted landscape. \ud83c\udfc6 Earn tons of achievements. How many \ud83d\udc36 can you find? \ud83d\udd0e Be quick! \u23f1\ufe0f",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Bulgarian, Simplified Chinese, Traditional Chinese, Korean, Danish, Finnish, Greek, Dutch, Hungarian, Indonesian, Japanese, Norwegian, Polish, Portuguese - Brazil, Romanian, Russian, Swedish, Thai, Czech, Turkish, Ukrainian, Vietnamese, Arabic, Hindi",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Bulgarian, Simplified Chinese, Traditional Chinese, Korean, Danish, Finnish, Greek, Dutch, Hungarian, Indonesian, Japanese, Norwegian, Polish, Portuguese - Brazil, Romanian, Russian, Swedish, Thai, Czech, Turkish, Ukrainian, Vietnamese, Arabic, Hindi, Spanish - Latin America, Portuguese - Portugal",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091820/44f452ac09ce4774aeeb6537cdd37393efa27cd9/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091820/f451f7eec9ec276dcd1e027df7d16fb9e10b4592/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091820/f451f7eec9ec276dcd1e027df7d16fb9e10b4592/capsule_184x69.jpg",
@@ -558,7 +549,19 @@
     "publishers": [
       "NaipSoft"
     ],
-    "package_groups": [],
+    "packages": [
+      1764191
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy 101 Dogs Hidden in Thailand",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -578,9 +581,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 100
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "August 2026"
+      "coming_soon": false,
+      "date": "2 Sep, 2026"
     },
     "support_info": {
       "url": "https://www.naipsoft.com",
@@ -1409,6 +1415,7 @@
     "steam_appid": 5092120,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Help lost stories find their way home.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5092120/5c339135b34d59f752e09e2ddf55d6332b503751/header.jpg",
@@ -1431,10 +1438,10 @@
       1,
       2,
       9,
-      18,
       22,
       23,
       27,
+      28,
       38,
       62,
       67,
@@ -1446,6 +1453,7 @@
     ],
     "genres": [
       4,
+      28,
       70
     ],
     "release_date": {
@@ -2129,9 +2137,9 @@
     ],
     "short_description": "Build a hero and send them into battle. When you get stuck, look at what went wrong, change your gear, gems, relics, pet or tech tree and try again. Prigod Idle is an idle auto-battler with strange bosses, 22 minigames and offline progress. Buy it once, with no ads or microtransactions.",
     "supported_languages": "English, French, German, Spanish - Spain, Portuguese - Brazil, Russian, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091900/b386f057a281ee822bf6abadfa0f2dbb0e45af7f/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091900/869efc8b085dba65645c9b67c75392764679dd76/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091900/869efc8b085dba65645c9b67c75392764679dd76/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091900/98318c5b22d65e6a78689a3a8ef0ec024869b76e/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091900/203bf85837e14896c6b66f3dc919145dad63c425/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091900/203bf85837e14896c6b66f3dc919145dad63c425/capsule_184x69.jpg",
     "website": "https://prigodgames.github.io/PrigodGames/",
     "developers": [
       "Prigod Games"
@@ -2435,9 +2443,9 @@
     "is_free": false,
     "short_description": "Driven by boundless creativity, this is an idle game where every visual element\u2014from the storefront to the battlefield\u2014is yours to design. Paired with a deep strategic core that spawns endless idle and combat builds, T-Shirt Kingdom places the art of creation and warfare entirely in your hands.",
     "supported_languages": "English, French, German, Russian, Japanese, Simplified Chinese, Traditional Chinese, Portuguese - Brazil, Korean",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091570/7a079341e7235ac31ae150a2599f00808ced0aaf/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091570/19298b165e9bbe3de980a8cb5c0f226a8b031b42/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091570/19298b165e9bbe3de980a8cb5c0f226a8b031b42/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091570/7d090ed4ed448f4f32fd6af9dd9a117508f05a46/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091570/84a2f0922453b2da5d5cf3ef3bb053fa8adb002c/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091570/84a2f0922453b2da5d5cf3ef3bb053fa8adb002c/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Paralens Vision"
@@ -2473,7 +2481,7 @@
       "email": "swor9449@gmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5091570",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091570/567a3290d5887e2155b5921abe79163bc37c11bc/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091570/6ebcef447237ce57baff387c3b1e5b1eafc2e452/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -4342,6 +4350,114 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5093430",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5093430",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5091860": {
+    "type": "game",
+    "name": "101 Cats: Melbourne",
+    "steam_appid": 5091860,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Join this adventure and discover the hiding places of 101 kittens \ud83d\udc3e in the hand-crafted Melbourne landscape. \ud83c\udfc6 Earn lots of achievements. How many \ud83d\ude3a can you find? \ud83d\udd0e Be quick! \u23f1\ufe0f",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Bulgarian, Simplified Chinese, Traditional Chinese, Korean, Danish, Finnish, Greek, Dutch, Hungarian, Indonesian, Japanese, Norwegian, Polish, Portuguese - Brazil, Romanian, Russian, Swedish, Thai, Czech, Turkish, Ukrainian, Vietnamese, Arabic, Hindi",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091860/b581a4dc7ece73a3a1663079d0305efefa5f19e9/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091860/731c1768def42740762fcf7832d5cd95c4ed2891/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5091860/731c1768def42740762fcf7832d5cd95c4ed2891/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "NaipSoft"
+    ],
+    "publishers": [
+      "NaipSoft"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      62,
+      74,
+      76,
+      79,
+      80
+    ],
+    "genres": [
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "September 2026"
+    },
+    "support_info": {
+      "url": "https://www.naipsoft.com",
+      "email": "email@naipsoft.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5091860",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5091860",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5093980": {
+    "type": "game",
+    "name": "I Love Dog",
+    "steam_appid": 5093980,
+    "required_age": 0,
+    "is_free": true,
+    "controller_support": "full",
+    "short_description": "Explore, find the dogs, expand your territory by jumping on trampolines, and discover the secret of this mysterious island.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5093980/2bbc0d01060842f5f2ae50e972215152303a2d6f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5093980/5e9724f1a4eb8aec47b711aadc7538bd50d4eb83/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5093980/5e9724f1a4eb8aec47b711aadc7538bd50d4eb83/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Moon Mode"
+    ],
+    "publishers": [
+      "Moon Mode"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      28,
+      55,
+      56,
+      57,
+      58,
+      60,
+      62
+    ],
+    "genres": [
+      23,
+      25,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://www.moonmode.com/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5093980",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5093980/b707df02c642746e1912c7fba50e9379d43d9c46/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

@@ -305,9 +305,6 @@
     "steam_appid": 5038830,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5175070
-    ],
     "short_description": "A football career sim where every match is a card battle. Build joker combos, chase form, survive the press, sign transfers and fill your trophy cabinet \u2014 all from your own room. Deckbuilding meets the beautiful game.",
     "supported_languages": "English, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/8f14f32770cb8a6c14beaafd2d2aea792aab2e4a/header.jpg",
@@ -638,6 +635,7 @@
     },
     "categories": [
       2,
+      22,
       62,
       68,
       74,
@@ -1363,6 +1361,9 @@
     "steam_appid": 5039930,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5086610
+    ],
     "short_description": "DUELIKE is a PvP poker roguelike where every card can evolve with unique abilities. Build your deck, combine powerful skills, and rewrite the rules of poker. Outsmart your opponents across three zones and discover endless strategies in every run.",
     "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039930/1e7d1d8b2d1aff5a9f9eaa1581616bd5bbe6f85d/header.jpg",
@@ -1374,6 +1375,12 @@
     ],
     "publishers": [
       "Baigua Studio"
+    ],
+    "demos": [
+      {
+        "appid": 5086610,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -1399,7 +1406,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "14 Oct, 2026"
+      "date": "11 Nov, 2026"
     },
     "support_info": {
       "url": "https://discord.gg/vRGnFfgNRq",
@@ -1551,7 +1558,7 @@
       5072200
     ],
     "short_description": "Hold out against endless waves of anime yokai with up to 7 friends. Draft run-changing blossom buffs between waves, spend petals on weapons and upgrades, and face 25 hand-drawn bosses that scale to your squad.",
-    "supported_languages": "English",
+    "supported_languages": "English, French, German, Spanish - Spain, Portuguese - Brazil, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039580/c0f93d0cbcc022e16f3da9be70600467f7ac302d/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039580/6611f16718dd02db8e2a539fa35aae7b69478eba/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039580/6611f16718dd02db8e2a539fa35aae7b69478eba/capsule_184x69.jpg",
@@ -1561,6 +1568,12 @@
     ],
     "publishers": [
       "Jeremy Caudill"
+    ],
+    "demos": [
+      {
+        "appid": 5072200,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3736,10 +3749,8 @@
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5038140",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038140/b4fd4ad3dc75a8f89b6757b105a61f134fc07ce0/page_bg_raw.jpg",
     "content_descriptors": {
-      "ids": [
-        5
-      ],
-      "notes": "The game contains frequent stylized violence against voxel zombies, including the use of firearms, explosives, fire, traps and melee weapons. Combat may include pixelated blood and exaggerated impact effects.\r\n\r\nHuman survivors may be placed in danger or killed by zombies during gameplay, but the violence is presented in a deliberately retro, low-detail voxel style.\r\n\r\nThe game contains no sexual content, sexual violence, drug abuse, self-harm or suicide."
+      "ids": [],
+      "notes": null
     }
   },
   "5038500": {
@@ -3983,7 +3994,19 @@
     "publishers": [
       "Muzzle and Myth"
     ],
-    "package_groups": [],
+    "packages": [
+      1746910
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Horsin' Around",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3999,8 +4022,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "1 Sep, 2026"
+      "coming_soon": false,
+      "date": "2 Sep, 2026"
     },
     "support_info": {
       "url": "",
