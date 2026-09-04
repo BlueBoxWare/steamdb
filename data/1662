@@ -449,7 +449,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "Replace the misplaced products with your friends and step back into the Old Market universe and take control of the mess before the doors open.",
-    "supported_languages": "English, French, Japanese, Korean, Simplified Chinese, Traditional Chinese, Turkish, Spanish - Spain",
+    "supported_languages": "English, Japanese, Korean, Simplified Chinese, Traditional Chinese, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4986890/2e1781850effcdce68d1aea9ce03da663a2f98ae/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4986890/4cf36c56b0b4d2261ae9a03970809fcf6a2125f2/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4986890/4cf36c56b0b4d2261ae9a03970809fcf6a2125f2/capsule_184x69.jpg",
@@ -476,7 +476,11 @@
       56,
       57,
       58,
-      62
+      62,
+      68,
+      74,
+      79,
+      80
     ],
     "genres": [
       4,
@@ -2423,6 +2427,9 @@
     "steam_appid": 4988320,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5015850
+    ],
     "short_description": "An idle village simulation RPG where you build a thriving town, recruit unique heroes, send adventurers into dangerous dungeons, and watch your village grow into a legendary kingdom.",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Simplified Chinese, Spanish - Latin America",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4988320/d50cbc078c4e39e13043c3e32c7f7682560db3ba/header.jpg",
@@ -2434,6 +2441,12 @@
     ],
     "publishers": [
       "Renz Studios"
+    ],
+    "demos": [
+      {
+        "appid": 5015850,
+        "description": ""
+      }
     ],
     "packages": [
       1730579
@@ -4600,7 +4613,19 @@
     "publishers": [
       "KOArtist Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1730068
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Broken Front",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4618,8 +4643,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "3 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -4843,7 +4868,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "September 2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -6405,7 +6430,7 @@
     "steam_appid": 4986400,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Drawforge is a weapon-forging Roguelite where you draw each blade, choose its materials, and shape its stats through forging and quenching. Take your creation into battle, manage its durability, earn new resources, and return to the forge. No perfect weapon will drop\u2014you must make it yourself.",
+    "short_description": "Draw your weapon, forge it by hand, and take it with you on an adventure. Drawforge is a roguelite built around freeform weapon forging, buildcrafting, and turn-based combat.",
     "supported_languages": "English, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4986400/ea5d1bf5bdd97b249403a87792668c30ae5a50c5/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4986400/dfe2bbc7bf655f081b19e54ab4315039413abbd5/capsule_231x87.jpg",
@@ -6497,6 +6522,62 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4986080",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4986080/e06b70f373a33cc681e9f89c0930e00573a28b27/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4986730": {
+    "type": "game",
+    "name": "Bow Warfare: Multiplayer Combat",
+    "steam_appid": 4986730,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Step into a fast-paced archery arena where timing and precision mean everything. Outmaneuver rival players, adjust to changing battlegrounds, and make every arrow count. Ready your bow and dominate the field.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4986730/fe6f31693d3acab4ce068b4a69b1fcaf8c99fa54/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4986730/887797f97e3086e5a30759cd8dd3a76723a10916/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4986730/887797f97e3086e5a30759cd8dd3a76723a10916/capsule_184x69.jpg",
+    "website": "https://concaide.com/bow-warfare",
+    "developers": [
+      "Iron Tank Studios"
+    ],
+    "publishers": [
+      "Concaide"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      1,
+      9,
+      24,
+      27,
+      36,
+      37,
+      38,
+      44,
+      47,
+      48,
+      49,
+      62
+    ],
+    "genres": [
+      1
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "28 Oct, 2026"
+    },
+    "support_info": {
+      "url": "concaide.com",
+      "email": "support@concaide.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4986730",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4986730/40336bd6fc5236a60fb4a773ae964aa00f2e7788/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

@@ -432,7 +432,6 @@
     "steam_appid": 5052600,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "A fast top-down action roguelite. Every run: new floors, new loot, a new build. Chain hundreds of weapons and upgrades into something absurd, dodge through hazard rooms and arenas, and dethrone eight monster kings. Play solo or drop in with up to 3 friends in online co-op.",
     "supported_languages": "English, German",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5052600/cba31b61cf767b170bd123b05c94089a630016b4/header.jpg",
@@ -455,10 +454,10 @@
       1,
       2,
       9,
+      18,
       22,
       23,
       27,
-      28,
       38,
       48,
       59,
@@ -2052,7 +2051,19 @@
       "Helen Tran",
       "M81 Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1751676
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Droppy Dog",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -2069,8 +2080,11 @@
     "genres": [
       4
     ],
+    "achievements": {
+      "total": 18
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "3 Sep, 2026"
     },
     "support_info": {
@@ -2382,7 +2396,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Neon Breaker is a fun twin-stick horizontal 3d retro shoot 'em up in the legacy of the great action arcade shmup classics. Shoot, evade, and hunt down cute enemy ships to make them all explode! Push your limits playing through endless waves and unlock new high scores.",
+    "short_description": "Blast your way onto the leaderboards in a twin-stick arcade shooter built around rapid destruction, evasion, kill combos and overwhelming firepower. Fight escalating fleets, merge power-ups and face 20+ unique bosses solo or in co-op. Play roguelike Anomaly runs that stack risk-reward mutations.",
     "supported_languages": "English, French, Spanish - Spain, Japanese, Korean, Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5054650/c93e09fcf45c0bf37b9085c0b77eae6e01a393dd/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5054650/46a1e1cd44f1ae74991cb8816a9ad25afba1e8fd/capsule_231x87.jpg",
@@ -3214,7 +3228,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Mazlide is a grid-based logic puzzle game featuring a 350-level campaign across seven themed worlds, 50 000+ official puzzles, unlimited generated levels, daily challenges, online duels, leaderboards, and a weekly community boss.",
-    "supported_languages": "English, French, Spanish - Spain",
+    "supported_languages": "English, French",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053660/45207581118b514388ee539219a5b38f29dc0237/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053660/b3d2ea1a013f5c85136201c0596d16395666af1b/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053660/b3d2ea1a013f5c85136201c0596d16395666af1b/capsule_184x69.jpg",
@@ -3507,11 +3521,12 @@
       5197640
     ],
     "short_description": "Discover the traditional Japanese \ud83c\udfb4Hanafuda (\u82b1\u672d - Flower Cards) games, brought to life as a beautiful, modern 3D tabletop game. Match cards to create pairs, complete a set and collect points, or call Koi-Koi to risk it all for more. Play against the computer, or other players online.",
-    "supported_languages": "English<strong>*</strong>, Hungarian<strong>*</strong>, Japanese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Hungarian, Japanese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5052180/eb610f66051f27bc4f3a4d1e90a5b2c1ac1406e9/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5052180/95593991d97a824c210e2bce0188a2d0438f9190/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5052180/95593991d97a824c210e2bce0188a2d0438f9190/capsule_184x69.jpg",
     "website": null,
+    "ext_user_account_notice": "Microsoft Playfab (Supports Linking to Steam Account)",
     "developers": [
       "VITL Studios"
     ],
@@ -3527,6 +3542,7 @@
     "categories": [
       1,
       2,
+      15,
       22,
       27,
       28,
@@ -5759,7 +5775,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "30 Nov, 2026"
     },
     "support_info": {
       "url": "http://ccrgame.com",
@@ -5770,6 +5786,189 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "5052640": {
+    "type": "game",
+    "name": "Biodome Bastion",
+    "steam_appid": 5052640,
+    "required_age": 0,
+    "is_free": false,
+    "dlc": [
+      5185170
+    ],
+    "short_description": "Crash-land on a hostile alien world in this classic tower defense game and defend your outpost against relentless waves of evolving insectoid creatures. Build powerful defenses, unlock new technologies, and uncover the mystery behind a species capable of adapting to any environment.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5052640/ff83f3e3f53cb23968eb3388e89b7b7ca5ab13d9/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5052640/cdc9e8a27bdbf89910596a2b291de9fb1bdabc05/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5052640/cdc9e8a27bdbf89910596a2b291de9fb1bdabc05/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Tower Frequencies Interactive"
+    ],
+    "publishers": [
+      "Tower Frequencies Interactive"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      2,
+      23,
+      28,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "1 Oct, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "towerfrequenciesinteractive@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5052640",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5052640/5815cc4076a305cdeb422c49ce7895c55969b46a/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "Players use defensive structures to defeat waves of hostile alien creatures. Defeated enemies produce mild fantasy blood and splash effects. All violence is against non-human creatures and is viewed from a top-down perspective."
+    }
+  },
+  "5053640": {
+    "type": "game",
+    "name": "Free Company",
+    "steam_appid": 5053640,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "A co-op tactical RPG set on the eve of the year 1000. Lead a free company of mercenaries across a doom-haunted medieval world. Take the contracts, win the fights, and decide what your company becomes before the millennium turns.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053640/2c6cb57f1cd4b3d67a70f6c9a3e07bd43c6ed074/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053640/0a05f825a35fae0e68e15ec6749d3eb3539da11e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053640/0a05f825a35fae0e68e15ec6749d3eb3539da11e/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Refx7 Games"
+    ],
+    "publishers": [
+      "Refx7 AS"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      22,
+      23,
+      28,
+      38,
+      48,
+      55,
+      56,
+      57,
+      58,
+      62,
+      68,
+      74,
+      78,
+      80
+    ],
+    "genres": [
+      2,
+      3,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "kaijim+freecompany@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5053640",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053640/5386f82a6741115c153d73523c32f67ae9f163a2/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "Scenes of war and violence "
+    }
+  },
+  "5054990": {
+    "type": "dlc",
+    "name": "Sex-Pop Demon Hunters - Kinky Crimes",
+    "steam_appid": 5054990,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Sex-Pop Demon Hunters: Kinky Crimes continues the saga of the original game \ud83c\udfb5 \ud83d\ude08 Join our demon half-blood protagonist for brand-new challenges, captivating new beauties, and steamier encounters than ever before in this story-driven DLC \ud83d\udd25\ud83d\udd25\ud83d\udd25",
+    "fullgame": {
+      "appid": "4355490",
+      "name": "Sex-Pop Demon Hunters"
+    },
+    "supported_languages": "English<strong>*</strong>, Japanese, Traditional Chinese, Simplified Chinese, Korean, French, Italian, German, Spanish - Spain, Bulgarian, Hungarian, Vietnamese, Greek, Danish, Indonesian, Dutch, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian<strong>*</strong>, Thai, Turkish, Ukrainian, Finnish, Czech, Swedish, Malay<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5054990/0f3b87eabaf02c89037c3b786ef6cac763fb9514/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5054990/e6f6cdac450b3dd64e6ffcb310ff1e2b3ac38cf8/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5054990/e6f6cdac450b3dd64e6ffcb310ff1e2b3ac38cf8/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Sweet Buns Games"
+    ],
+    "publishers": [
+      "Horny Capybara Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      23
+    ],
+    "genres": [
+      4,
+      23,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "28 Nov, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "hornycapybara.help@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5054990",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5054990",
+    "content_descriptors": {
+      "ids": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "notes": "All characters in the game are adults. The DLC contains smoking and drinking alcohol, minor profanity, street fights.\r\n\r\nAll sex in the DLC is consensual, as are any other actions of the characters. The DLC contains adult material and scenes of a sexual nature with various fetishes: sexual acts with demons, nudity, vaginal sex, anal sex, titjob, blowjob, \u0441unnilingus, elements of BDSM and dubious consent."
     }
   }
 }

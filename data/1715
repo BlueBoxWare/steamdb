@@ -279,7 +279,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Harem in the snowy mountains! Join 4 unique girls on their snowy getaway or for some spicy warming by the fireplace.",
-    "supported_languages": "English, Russian",
+    "supported_languages": "English<strong>*</strong>, Russian, French, Italian, German, Spanish - Spain, Spanish - Latin America, Traditional Chinese, Simplified Chinese, Korean, Polish, Portuguese - Brazil, Turkish, Czech, Japanese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5146190/34a6d852332322ccdf37017dad25b984e797af63/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5146190/a0aae3624c808a51a5d27b63e9aa2ffdd5de95f1/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5146190/a0aae3624c808a51a5d27b63e9aa2ffdd5de95f1/capsule_184x69.jpg",
@@ -541,6 +541,7 @@
     "steam_appid": 5146720,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Collect and deposit every crystal to escape in this first-person multiplayer thriller game. Form shifting alliances, steal from rivals, protect your haul, or eliminate threats as you explore a mansion, subway, and abandoned facility where trust never lasts.",
     "supported_languages": "English, French, German, Spanish - Spain, Arabic, Japanese, Korean, Portuguese - Brazil, Simplified Chinese, Hindi",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5146720/8cfc0602ff8526adda91fb56e8ac0cb9a7a525e3/header.jpg",
@@ -563,9 +564,14 @@
       1,
       2,
       9,
+      28,
       36,
       38,
       49,
+      55,
+      56,
+      57,
+      58,
       62,
       67,
       68,
@@ -1583,9 +1589,9 @@
     "is_free": false,
     "short_description": "Codename: Operation Go is a turn-based strategy game that blends the rules of Go and the playstyle of strategy games. As in Go, players can deploy units directly to any available position on the battlefield, send them into action immediately, and capture enemy forces outright by surrounding them.",
     "supported_languages": "English, French, German, Japanese, Korean, Simplified Chinese, Spanish - Latin America, Traditional Chinese, Vietnamese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5147060/a8f62e45b1c4cf2c6581e32695041ac438d1c5ab/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5147060/57890848c4c7a769773c48f2573098c5e19f6eb2/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5147060/57890848c4c7a769773c48f2573098c5e19f6eb2/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5147060/ef8b644e537bd2cad5811ef8de97478239d5fca5/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5147060/ccac5d8db63648282c11e6535857ae26f68ff962/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5147060/ccac5d8db63648282c11e6535857ae26f68ff962/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Iteration Unit"
@@ -2905,6 +2911,12 @@
     "publishers": [
       "Scarratt Family Games"
     ],
+    "demos": [
+      {
+        "appid": 5150990,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -3072,6 +3084,9 @@
     "steam_appid": 5147010,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5195460
+    ],
     "short_description": "A calm four-key rhythm game with no fail state: every run plays to the last note. 40 original tracks span twelve traditions \u2014 kora, gamelan, maqam, milonga, techno \u2014 plus four Epics: ten-act suites, fifteen unbroken minutes each.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Traditional Chinese, Turkish, Greek, Indonesian, Spanish - Latin America, Vietnamese, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Hungarian, Malay, Norwegian, Romanian, Swedish, Thai, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5147010/f84a97bd730eea982496967612314638ce5e96ec/header.jpg",
@@ -3083,6 +3098,12 @@
     ],
     "publishers": [
       "Ambertide Studio"
+    ],
+    "demos": [
+      {
+        "appid": 5195460,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3212,7 +3233,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "September 2026"
+      "date": "15 Sep, 2026"
     },
     "support_info": {
       "url": "patreon/SimulationJay",
@@ -3310,7 +3331,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2027"
+      "date": "Q1 2027"
     },
     "support_info": {
       "url": "https://steamcommunity.com/app/5145720/",
@@ -4070,6 +4091,61 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5147350",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5147350",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5145290": {
+    "type": "game",
+    "name": "Incremental Woods",
+    "steam_appid": 5145290,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Incremental Woods is a short incremental game, where you work your way up to become strong enough to defeat the demon terrorizing the woods. Gather materials, hire companions and build structures to become the savior of the woods.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5145290/5ededc4cba98d4d630a75adf45cbf77da198e5af/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5145290/87209d5adeffdff44f6cbce10e3e453299a2268c/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5145290/87209d5adeffdff44f6cbce10e3e453299a2268c/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "One Tooth Games"
+    ],
+    "publishers": [
+      "One Tooth Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      62,
+      67,
+      68,
+      74,
+      76,
+      79,
+      80
+    ],
+    "genres": [
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "onetoothsupport@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5145290",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5145290",
     "content_descriptors": {
       "ids": [],
       "notes": null
