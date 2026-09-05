@@ -825,7 +825,7 @@
     "steam_appid": 4999070,
     "required_age": 0,
     "is_free": false,
-    "short_description": "You are an astronaut on a damaged ship, but there is no need to panic! Catch crates drifting in space and satisfyingly break them apart with vibrant tools to pleasant ASMR sounds. Furnish your cabin with cute decor, repair the ship's systems, and enjoy the coziest space adventure.",
+    "short_description": "Build a cozy home in the quiet void. The ship is wrecked, but there's no rush. Fly out into space to catch drifting cargo, then smash it at base with a satisfying crunch. Patch walls, arrange furniture, and turn ruins into a warm sanctuary.",
     "supported_languages": "English, Russian, French, German, Spanish - Spain, Simplified Chinese, Korean, Portuguese - Brazil, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4999070/f910a579506969143e56982620b3b9ae776f4efc/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4999070/926effdcf82542d9ff5b6f43aee6cca98774aa4d/capsule_231x87.jpg",
@@ -2805,6 +2805,9 @@
     "steam_appid": 5000560,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5191680
+    ],
     "short_description": "A semi-idle crafting sim inspired by Path of Exile, for when you still love the loot but not the grind. Forge gear, gamble on affix rolls, and equip the adventurers who quest and delve in your place. Craft their gear, seal their fate.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5000560/9ed578bf252b71b8e8e790dce82dff4b5157a949/header.jpg",
@@ -2828,9 +2831,11 @@
       62
     ],
     "genres": [
+      2,
       3,
       4,
       23,
+      25,
       28
     ],
     "release_date": {
@@ -4120,7 +4125,7 @@
     "dlc": [
       4998070
     ],
-    "short_description": "Temporal Anomaly Bureau is a puzzle game about evidence that does not belong. Investigate scenes, spot anomalies of era, profession, and technology, connect clues, and file cases across four gameplay modes.",
+    "short_description": "Investigate 200 scene-based cases, spot evidence that does not belong, explain each anomaly, and build a searchable Archive. Then test 100 challenge images across four distinct Protocol Trials in this single-player observation and reasoning puzzle.",
     "supported_languages": "English, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4998020/450894eb2394d08b4adf58e40c439f8067c6d166/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4998020/71aea8b127d29b94067657f0d44841fc155529de/capsule_231x87.jpg",
@@ -4156,8 +4161,8 @@
       "date": "Coming soon"
     },
     "support_info": {
-      "url": "",
-      "email": "nhanmakm5@gmail.com"
+      "url": "https://temporal-anomaly-bureau-privacy.nhanmakm5.chatgpt.site",
+      "email": "57727207@qq.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4998020",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4998020/e7d682edce59bf6ac48db33c923d34c0224fe43a/page_bg_raw.jpg",
@@ -4525,7 +4530,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1734181
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Moonbringer",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4546,8 +4563,11 @@
       1,
       23
     ],
+    "achievements": {
+      "total": 10
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "4 Sep, 2026"
     },
     "support_info": {
@@ -6154,6 +6174,56 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4999710",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4999710/05c3facc3c57aa6de55463a7e282d294898fcd61/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5000140": {
+    "type": "game",
+    "name": "Hollow Sector",
+    "steam_appid": 5000140,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "The corporations abandoned Kepler-11 and left its stations to the people still living in them. Somebody still has to move the cargo, mine the ore, and make what nobody else can. Nobody out here asks questions. Build a fleet in a living system that keeps turning, even when you're gone.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5000140/3736c4e7cfb50e9cf58dd85bdd4443510d8a302d/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5000140/9ecbfaa1e06775cc8b9509578e6e61148f78f345/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5000140/9ecbfaa1e06775cc8b9509578e6e61148f78f345/capsule_184x69.jpg",
+    "website": "https://www.2rocs.com/",
+    "developers": [
+      "2 Rocs"
+    ],
+    "publishers": [
+      "2 Rocs"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      68,
+      74,
+      76
+    ],
+    "genres": [
+      2,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q1 2027"
+    },
+    "support_info": {
+      "url": "https://www.2rocs.com/",
+      "email": "2rocsgames@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5000140",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5000140/ca2c52f751fc183539d152ce5584d3283b609c38/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

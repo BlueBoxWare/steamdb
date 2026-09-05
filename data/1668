@@ -194,8 +194,8 @@
     "short_description": "Constantinople, 1453. Four witnesses \u2014 a janissary, a baker's daughter, an engineer, a noble \u2014 live the same 53 days of the siege. Choices cross between their stories, and the city remembers. An illustrated, choice-driven historical novel where every ending is someone's truth.",
     "supported_languages": "English, Greek, Turkish, French, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Italian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004180/f55a126feef4c204dd955cb71ed71e206c8559b3/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004180/e93d3cc71f34804e058c817edb8768453085c2a8/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004180/e93d3cc71f34804e058c817edb8768453085c2a8/capsule_184x69.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004180/970a81dcaa90d739638531b4c8d533b1606b263b/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004180/970a81dcaa90d739638531b4c8d533b1606b263b/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "3Cats Studio"
@@ -638,7 +638,7 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
@@ -2378,7 +2378,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Dive into Runtime Terror, an action-packed roguelite where you fight through digital corruption. Master fast-paced combat, upgrade your arsenal, and purge the system before your core crashes.",
+    "short_description": "Runtime Terror is a bullet heaven roguelite where you play the malware. Auto-fire through hordes of antivirus, draft upgrades into builds that break the system, and trigger the Kill Switch when it closes in. How far can you get before you're deleted?",
     "supported_languages": "English, French, German, Japanese, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004990/25be4ec39bcfbc14f6f1c0a46d1ce502234393f2/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004990/9b937d52800bdc7fb8c5d41877269eaeb4c8c5e8/capsule_231x87.jpg",
@@ -2423,7 +2423,6 @@
     ],
     "genres": [
       1,
-      4,
       23
     ],
     "release_date": {
@@ -2621,11 +2620,11 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Live the ultimate Nordic vanlife adventure. Drive, camp, survive and embrace the chaos as everything goes wrong around you.",
+    "short_description": "Finland. A camper van. Forests, lakes and empty petrol stations. Drive, camp and keep the van running alone or with friends. Try not to hit the moose.",
     "supported_languages": "English, Finnish",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5005390/38f64405649bcd2408597b3d9a580a2fb895543b/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5005390/471d3b3bc14ce049e9ad03c73e6a9dba1b3b46eb/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5005390/471d3b3bc14ce049e9ad03c73e6a9dba1b3b46eb/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5005390/56f31442e7766eafded23574ede83f3a1b841aab/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5005390/ef03f37115823d163d9e691348b84d7f10fa6c52/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5005390/ef03f37115823d163d9e691348b84d7f10fa6c52/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Northbound Games"
@@ -3558,6 +3557,9 @@
     "steam_appid": 5004360,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5097180
+    ],
     "short_description": "Turn your desktop into a living fishing world. Drag your boat across the screen, discover 144 different fish, cast your line wherever they swim, complete timing-based fishing, upgrade your equipment, and build your collection.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004360/7d9610db1672534be7900e84ed61924300a495a6/header.jpg",
@@ -3570,7 +3572,25 @@
     "publishers": [
       "Wessi"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5097180,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1735805
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Desktop Tiny Tides",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3585,8 +3605,11 @@
       4,
       28
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "4 Sep, 2026"
     },
     "support_info": {
@@ -4816,17 +4839,26 @@
     "steam_appid": 5004290,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5188890
+    ],
     "short_description": "This is a game about the pressure of keeping ships productive. Idle ships bleed money. Late deliveries hurt your reputation. Old hulls develop histories. Captains become known quantities. A quiet ore run can suddenly become a rescue problem, a customs problem, or a piracy problem.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004290/f881d278d72f5bef389364211cd13b36585e89dc/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004290/f64518def6d24350e9b62db760377121c382deff/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004290/f64518def6d24350e9b62db760377121c382deff/capsule_184x69.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004290/5a967abb3994e3b5d25aa4239feac002fee669e2/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004290/5a967abb3994e3b5d25aa4239feac002fee669e2/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Manifest Dev"
     ],
     "publishers": [
       "Manifest Dev"
+    ],
+    "demos": [
+      {
+        "appid": 5188890,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -5222,7 +5254,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "7 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -6240,6 +6272,63 @@
         5
       ],
       "notes": "All characters in the game are over 20 years old.\r\nThis DLC contains explicit adult themes, including nudity and sexual acts. Please be aware and ensure that you are in an appropriate location before playing to avoid causing distress to others."
+    }
+  },
+  "5004860": {
+    "type": "dlc",
+    "name": "Author Sim - Supporter Pack",
+    "steam_appid": 5004860,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "This cute little cosmetic Supporter Pack contains exclusive in-game cosmetic items, desktop wallpapers from the game, and a personal thank-you letter from the developer. Please note, the contents in this pack are purely cosmetic and do not impact gameplay.",
+    "fullgame": {
+      "appid": "4168210",
+      "name": "Author Sim"
+    },
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004860/d1544d26cdb5c3a7a99462b783f9e89ab98b505f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004860/8a4a6cc5927894c4f09eaf42af4703ce330e06a2/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004860/8a4a6cc5927894c4f09eaf42af4703ce330e06a2/capsule_184x69.jpg",
+    "website": "https://authorsim.carrd.co/",
+    "developers": [
+      "EssyTheSlug"
+    ],
+    "publishers": [
+      "EssyTheSlug"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      23,
+      62,
+      68
+    ],
+    "genres": [
+      2,
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "essytheslug@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5004860",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5004860/ac0fbf539e9589b09e89005c3642d2b5b1678eee/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }
