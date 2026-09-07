@@ -7234,6 +7234,9 @@
     "steam_appid": 3084810,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5016700
+    ],
     "short_description": "Enemies have no health, push them off instead. Weaponize physics in this roguelite tower defense game. Draft a deck, chain towers into living contraptions, grow and shrink every projectile, and launch hordes of robots off the edge.",
     "supported_languages": "English, French, German, Simplified Chinese, Traditional Chinese, Japanese, Portuguese - Brazil, Russian, Spanish - Latin America, Korean, Polish, Turkish, Italian, Thai, Ukrainian, Vietnamese, Spanish - Spain",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3084810/1cb7af04cc9a87294f1eac0cdd2911532fd3e7a3/header.jpg",
@@ -7248,7 +7251,19 @@
       "Devon Powell",
       "Xueer Zhu"
     ],
-    "package_groups": [],
+    "packages": [
+      1095940
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Tower Lab",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -7277,8 +7292,11 @@
       28,
       70
     ],
+    "achievements": {
+      "total": 19
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "7 Sep, 2026"
     },
     "support_info": {
