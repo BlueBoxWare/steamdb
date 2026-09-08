@@ -569,7 +569,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "A programming puzzle game where you never control the snake directly. Instead, you build its behavior by connecting blocks, then press play and see if your logic works. Think like a programmer as you solve 70 puzzles, with 30 more coming soon.",
-    "supported_languages": "English",
+    "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5027510/0b1c71a2da53fac38d48b9a25c8bcb48bd3cae3e/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5027510/0559af753431699205f382e4b6ae35a7874b2c7b/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5027510/0559af753431699205f382e4b6ae35a7874b2c7b/capsule_184x69.jpg",
@@ -1704,6 +1704,9 @@
     "steam_appid": 5027770,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5139920
+    ],
     "short_description": "The whole game fits on one floppy disk. Write Python-style code to program repair patchers, reclaim a corrupting 1.44MB floppy sector by sector, and watch your programs bring 1,474,560 bytes back to life. Automation, unlocks, chiptunes \u2014 every byte hand-counted.",
     "supported_languages": "English, Japanese, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5027770/3b9ec2b733a628a1076c8086f5f841641e9f7458/header.jpg",
@@ -1715,6 +1718,12 @@
     ],
     "publishers": [
       "1440 Works"
+    ],
+    "demos": [
+      {
+        "appid": 5139920,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2242,8 +2251,8 @@
     "short_description": "No One Prays in Ovruch is a first-person psychological horror game where you explore abandoned locations, uncover a hidden cult, solve disturbing puzzles, and survive supernatural threats connected to a forgotten ritual.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5026670/5f77d3134d4878d2265ef095911bc685e12559e2/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5026670/8cb061fd81ae6b751a056c9fe28d9a5c80e5482b/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5026670/8cb061fd81ae6b751a056c9fe28d9a5c80e5482b/capsule_184x69.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5026670/f853934c649af366760719c2ade84cd8add952cc/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5026670/f853934c649af366760719c2ade84cd8add952cc/capsule_184x69.jpg",
     "website": "https://no-one-pray-in-ovruch.netlify.app/",
     "developers": [
       "Silent Sector Studios"
@@ -3777,7 +3786,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "September 2026"
+      "date": "October 2026"
     },
     "support_info": {
       "url": "",
@@ -5373,7 +5382,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Join the crew and show your support for Wanderburg with this cosmetic DLC. The Supporter Pack includes exclusive pirate-themed Decorations for your castle and the game's official soundtrack. No gameplay advantages, just good taste and treasure well spent.",
+    "short_description": "Join the crew and show your support for Wanderburg with this cosmetic DLC. The Supporter Pack includes exclusive pirate-themed decorations for your castle and the official soundtrack! No gameplay advantages, just good taste and treasure well spent.",
     "fullgame": {
       "appid": "3624140",
       "name": "Wanderburg"
@@ -5389,7 +5398,19 @@
     "publishers": [
       "Sidekick Publishing"
     ],
-    "package_groups": [],
+    "packages": [
+      1742983
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Wanderburg - Supporter Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5404,6 +5425,7 @@
       56,
       57,
       58,
+      62,
       67,
       68,
       69,
@@ -5420,8 +5442,8 @@
       4
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "8 Sep, 2026"
     },
     "support_info": {
       "url": "https://discord.gg/DU5Ty8HzTt",

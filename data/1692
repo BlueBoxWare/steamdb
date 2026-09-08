@@ -63,6 +63,9 @@
     "steam_appid": 5076310,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5122250
+    ],
     "short_description": "Cry Wolf is a multiplayer social deduction game inspired by Werewolf, where secret alliances, risky bets, and new roles turn the classic rules upside down. Face 5 to 19 other players over voice chat across varied maps and unmask the wolves before it's too late.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5076310/b777d85d93ea913d3dfb89abb19081cf2591905d/header.jpg",
@@ -2253,7 +2256,19 @@
     "publishers": [
       "Fossil Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1759289
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Wandering Bard",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -2279,9 +2294,12 @@
       25,
       70
     ],
+    "achievements": {
+      "total": 24
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "7 Sep, 2026"
     },
     "support_info": {
       "url": "https://steamcommunity.com/app/5076430/discussions/",
@@ -5015,8 +5033,7 @@
       "linux": false
     },
     "categories": [
-      52,
-      53
+      52
     ],
     "genres": [
       29,
@@ -5593,6 +5610,66 @@
         5
       ],
       "notes": "Ecchi Card Shop contains sexual content, nudity.\r\nNO sexualized depiction of minors.\r\nCard and character artwork is stylized anime-style illustration. \r\nSome cards and characters are depicted in outfits or poses that are sexual.\r\n"
+    }
+  },
+  "5076650": {
+    "type": "dlc",
+    "name": "Echoes of Biyaodong: Memoirs of a Michelin Employee",
+    "steam_appid": 5076650,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "Biyao Echoes: The Recollections Of a Michelin\u2019s child is a game fan fiction. This fiction fills a narrative gap in the original game script.",
+    "fullgame": {
+      "appid": "2616200",
+      "name": "Miss Peacock"
+    },
+    "supported_languages": "Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5076650/81cf2d431647a72bfeffcbc5b67ed4749518b4d8/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5076650/5eb3563427b5ef8d6410ecbefa81de54664d6eff/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5076650/5eb3563427b5ef8d6410ecbefa81de54664d6eff/capsule_184x69.jpg",
+    "website": "https://otterclub.io/",
+    "developers": [
+      "Otter Club"
+    ],
+    "publishers": [
+      "Otter Club"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      23,
+      62,
+      68,
+      74,
+      76,
+      79
+    ],
+    "genres": [
+      3,
+      25,
+      28,
+      37
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "8 Sep, 2026"
+    },
+    "support_info": {
+      "url": "https://otterclub.io/",
+      "email": "contact@otterclub.io"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5076650",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5076650",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }
