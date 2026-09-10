@@ -634,7 +634,9 @@
       9,
       22,
       23,
+      36,
       38,
+      49,
       62,
       68,
       74,
@@ -3924,6 +3926,9 @@
     "steam_appid": 5036870,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5072960
+    ],
     "short_description": "Night shift at the municipal morgue. Bodies arrive with paperwork, and the paperwork has to match the body. Weigh it, measure it, take its temperature \u2014 listen to its chest. The rulebook gains a page every night, and some of what you sign in does not stay signed in.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Polish, Portuguese - Brazil, Russian, Spanish - Latin America, Turkish, Japanese, Korean, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5036870/47c13c7f5a2381fcef1e313d21f9070d032e9959/header.jpg",
@@ -3943,6 +3948,7 @@
       "linux": false
     },
     "categories": [
+      2,
       18,
       62
     ],
@@ -5174,7 +5180,7 @@
     "steam_appid": 5036050,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Bad at drawing? Perfect. Name your doodle, register it, and it comes back as a beast with an element, stats, and moves. The name feeds the result: same drawing, different name, different beast. Raise them on your ranch, then pick three and battle the doodles other players left behind.",
+    "short_description": "Bad at drawing? Perfect. Name your doodle and it returns as a beast with an element, stats, and moves; the name feeds the result. Raise a ranch of them and battle strangers' doodles, or trade a room code, draw three to a theme on the spot, and fight a friend in real time.",
     "supported_languages": "English, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5036050/426ac5dd940009470c0d06d4ebf53ef5a4055b64/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5036050/0a3903f07034dec8be5320baa0c9f06784a1a02b/capsule_231x87.jpg",
@@ -5193,7 +5199,10 @@
       "linux": false
     },
     "categories": [
+      1,
       2,
+      36,
+      49,
       62
     ],
     "genres": [
@@ -5215,7 +5224,7 @@
       "ids": [
         5
       ],
-      "notes": "Other players' hand-drawn creatures and the names they give them can appear in your game as asynchronous battle opponents and in the ranking. All shared content passes automated moderation before it can be shown, and players can report content from the official website, but user-made drawings and names may occasionally be crude or unsuitable for younger players. The game itself contains only cartoon fantasy battles with no blood, death, sexual content, drugs, or gambling."
+      "notes": "Other players' hand-drawn creatures and the names they give them can appear in your game as asynchronous battle opponents, in the ranking, and in realtime private matches played with a friend who shares a room code. All shared content passes automated moderation before it can be shown, and players can report content from the official website, but user-made drawings and names may occasionally be crude or unsuitable for younger players. The game itself contains only cartoon fantasy battles with no blood, death, sexual content, drugs, or gambling."
     }
   },
   "5034070": {
@@ -5236,7 +5245,19 @@
     "publishers": [
       "Fugas Kitsune"
     ],
-    "package_groups": [],
+    "packages": [
+      1745537
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy LED HEARTS",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5250,7 +5271,7 @@
       4
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Sep, 2026"
     },
     "support_info": {
@@ -7027,9 +7048,9 @@
     ],
     "short_description": "A boy who trusts only what can be proven notices his childhood friend vanishing from photos and memories, one by one, in a small lakeside town. Where Stella Meets Water is a single-path youth romance visual novel with anime-style CG, no voice acting, and a 6-10 hour story that turns bittersweet.",
     "supported_languages": "Japanese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034000/e42bf758093d8a4db435e767442566f57895b64c/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034000/058199c59d4a567368b3e76616432b8ddf2cdfff/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034000/058199c59d4a567368b3e76616432b8ddf2cdfff/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034000/8c942eab7e892f8a0da7ce618697c77ba0dc55e7/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034000/e9e93447177d4044ebf0d35ea01c190ab48adbac/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034000/e9e93447177d4044ebf0d35ea01c190ab48adbac/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Yomoyama Factory"
@@ -7074,6 +7095,216 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5034000",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5034000",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5034200": {
+    "type": "game",
+    "name": "TrueHands",
+    "steam_appid": 5034200,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "TrueHands is a SteamVR overlay utility that renders your real hands and arms directly into VR in the color of your choice, so that chroma key/pass-through solutions can show your hands on your steering wheel, flight stick, or other controls while staying fully immersed in any VR experience!",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034200/9d838f240a3c410a35e48e3a20bb0a6a92ea6f5a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034200/14d3f6f34f35421be850dcf2d64f01d86e3bbde4/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034200/14d3f6f34f35421be850dcf2d64f01d86e3bbde4/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "NuggetMaster"
+    ],
+    "publishers": [
+      "NuggetMaster"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      54
+    ],
+    "genres": [
+      23,
+      28,
+      57,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "eddytechsupport@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5034200",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5034200",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5034820": {
+    "type": "game",
+    "name": "BackroomsVR:Zero",
+    "steam_appid": 5034820,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Immerse yourself in the psychological horror of the Backrooms and urban legends, in VR. No jumpscares \u2014 just the fear of truly being there. Watch your sanity\u2026 you wouldn't want to actually become one of them.",
+    "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034820/734428763f8e34450befc14dab6743166ea986ca/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034820/28750c68e758e1de54891c0f9c56fc0befd2c768/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034820/28750c68e758e1de54891c0f9c56fc0befd2c768/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Unbridled Moon"
+    ],
+    "publishers": [
+      "Unbridled Moon"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      18,
+      60,
+      62
+    ],
+    "genres": [
+      3,
+      23,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "gsw158@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5034820",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5034820",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "Blood and violence appear in a few scenes and during combat."
+    }
+  },
+  "5035820": {
+    "type": "dlc",
+    "name": "Alex & Arty - Restoring planet Earth",
+    "steam_appid": 5035820,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Restore the world of Alex &amp; Arty, and help restore the real planet Earth. By purchasing and activating this DLC, you\u2019ll support real-world environmental projects through Dots.eco.",
+    "fullgame": {
+      "appid": "2854800",
+      "name": "Alex & Arty"
+    },
+    "supported_languages": "English, Spanish - Spain, Catalan, Portuguese - Brazil, French, Italian, German, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5035820/53682543884c6ab3ce3cd31113d35305ddca09c1/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5035820/4946e5625c367e3be4cae3d2a8ed7c1439788e7f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5035820/4946e5625c367e3be4cae3d2a8ed7c1439788e7f/capsule_184x69.jpg",
+    "website": "https://rolldbox.com/games/alex-arty/",
+    "developers": [
+      "ROLLDBOX GAMES"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      18,
+      21,
+      22,
+      68,
+      69,
+      74,
+      78,
+      80
+    ],
+    "genres": [
+      1,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "16 Sep, 2026"
+    },
+    "support_info": {
+      "url": "https://rolldbox.com/games/alex-arty/",
+      "email": "support@rolldbox.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5035820",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5035820",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5036640": {
+    "type": "game",
+    "name": "Dak Quest: Year 7108",
+    "steam_appid": 5036640,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Dak Quest is a cozy, stylized top-down action runner where players race through diverse timelines as an interdimensional postal courier. A fast-paced arcade game play with precise mail deliveries, obstacle dodging, and long-term headquarters building, it offers a relaxing yet skill-based experience.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5036640/51f23b6fdc3877400ad949482b66c3bbaed61f46/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5036640/a6fe5f26ca32ed8c8c186ba373d30652508ed7d6/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5036640/a6fe5f26ca32ed8c8c186ba373d30652508ed7d6/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "CGWolf"
+    ],
+    "publishers": [
+      "Tagglabs Experiential Pvt. Ltd."
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      62,
+      68,
+      79
+    ],
+    "genres": [
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q4 2026"
+    },
+    "support_info": {
+      "url": "https://www.tagglabs.in",
+      "email": "foxtrotfoodie@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5036640",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5036640",
     "content_descriptors": {
       "ids": [],
       "notes": null

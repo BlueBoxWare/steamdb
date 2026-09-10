@@ -4110,7 +4110,7 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -5118,7 +5118,8 @@
       68,
       69,
       70,
-      74
+      74,
+      82
     ],
     "genres": [
       1,
@@ -5127,7 +5128,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "1 Oct, 2026"
+      "date": "1 Dec, 2026"
     },
     "support_info": {
       "url": "",
@@ -5827,11 +5828,11 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Wander through vast, uncanny worlds in a first-person exploration sandbox. Follow winding paths through impossible architecture, look into another realm through a portal, and cross the threshold to discover what lies beyond.",
+    "short_description": "Explore a vast seeded overworld and cross portals into 60 impossible realms. Fight hostile creatures with a revolver and eight-pellet pump shotgun, collect orbs, and play pipe organs. Play solo on desktop or in OpenXR, or join the shared Steam multiplayer world.",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4802890/4c8bbc4e0e3ac19f42580f81f38fb0a262d161d1/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4802890/7aa85de6eca32272861e0bc19ba18dd7b61f067a/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4802890/7aa85de6eca32272861e0bc19ba18dd7b61f067a/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4802890/f0ed2c937dda3442b3f51d8daf382bf3d625b78e/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4802890/bb930070f8026a49d13ddd4b99209272c4575892/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4802890/bb930070f8026a49d13ddd4b99209272c4575892/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Cole Heideman (Red Shed)"
@@ -5854,13 +5855,18 @@
     "categories": [
       1,
       2,
-      27,
       28,
+      52,
+      53,
       55,
       56,
       57,
       58,
-      62
+      62,
+      66,
+      67,
+      69,
+      74
     ],
     "genres": [
       23,
@@ -5881,7 +5887,7 @@
       "ids": [
         5
       ],
-      "notes": null
+      "notes": "LIMINAL includes firearm combat against hostile creatures, with blood, visible wounds, bodies, injury, and death. It also contains unsettling psychological-horror environments and occasional mild profanity."
     }
   },
   "4801240": {
@@ -6125,7 +6131,7 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -6188,7 +6194,7 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -6208,6 +6214,69 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4800100",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4800100",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4800080": {
+    "type": "dlc",
+    "name": "Figryne Cast Studio Engine - Stage Lighting Pack",
+    "steam_appid": 4800080,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Stage lighting for Figryne Cast Studio Engine. Place real spot and point lights in your Axis 3D scene to actually light your avatar, with volumetric beams in the air. One-click presets (3-Point, Rim, Cyber, Concert), automated sweep / pulse, and a top-down plot for drag-and-drop placement.",
+    "fullgame": {
+      "appid": "4750580",
+      "name": "Figryne Cast Studio Engine"
+    },
+    "supported_languages": "English, Indonesian, Simplified Chinese, Japanese, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800080/343c0f2197dbd9906b3b347c5890b755f4e765ed/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800080/705f090a34735a63beb138193ddabc28ad36c388/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800080/705f090a34735a63beb138193ddabc28ad36c388/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Mimizuku & co., Inc."
+    ],
+    "publishers": [
+      "Mimizuku & co., Inc."
+    ],
+    "packages": [
+      1668364
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Figryne Cast Studio Engine - Stage Lighting Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      21
+    ],
+    "genres": [
+      51,
+      52,
+      58
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "9 Sep, 2026"
+    },
+    "support_info": {
+      "url": "https://figryne.com/contact",
+      "email": "info@figryne.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4800080",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4800080",
     "content_descriptors": {
       "ids": [],
       "notes": null
