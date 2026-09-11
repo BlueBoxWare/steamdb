@@ -1449,9 +1449,9 @@
     "is_free": false,
     "short_description": "A story-driven retro FPS set in early-2000s Seattle. Dismantle the criminal empire you built in a brutal campaign of revenge behind a bulletproof mask.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816720/7157adddb5d0c490d671ac9cf50721a1230c6a6d/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816720/3031995a7c55798692a6a63c87ce25930cfa72db/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816720/3031995a7c55798692a6a63c87ce25930cfa72db/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816720/c53064b7b67c0bb031f27bb9a5ae45c321c25a50/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816720/1a54cda753ebbfb5f3b4ae46de4f5c89617b8763/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816720/1a54cda753ebbfb5f3b4ae46de4f5c89617b8763/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "BiggsDEV"
@@ -3215,6 +3215,9 @@
     "steam_appid": 4815540,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5187600
+    ],
     "short_description": "A turn-based tactical strategy game featuring a 1930s cartoon art style. Face your opponent in a tense tabletop duel, use your perks wisely, manage your resources, and try to survive each round in this suspenseful noir universe.",
     "supported_languages": "English, Spanish - Latin America, Portuguese - Brazil<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4815540/d88ff7e20a13cf9f7179f867cc8f225eba2d541c/header.jpg",
@@ -3226,6 +3229,12 @@
     ],
     "publishers": [
       "CronusDev"
+    ],
+    "demos": [
+      {
+        "appid": 5187600,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4133,7 +4142,19 @@
     "publishers": [
       "Thunder Rangers"
     ],
-    "package_groups": [],
+    "packages": [
+      1673383
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Kingdom Come",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -4148,15 +4169,16 @@
       74,
       75,
       76,
-      79
+      79,
+      80
     ],
     "genres": [
       23,
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "11 Sep, 2026"
     },
     "support_info": {
       "url": "https://x.com/Thunder_Rangers/",
@@ -4252,7 +4274,16 @@
       2,
       22,
       23,
-      62
+      62,
+      65,
+      66,
+      67,
+      68,
+      69,
+      74,
+      79,
+      80,
+      82
     ],
     "genres": [
       1,

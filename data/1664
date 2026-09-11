@@ -933,7 +933,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "Fight through a storm-wracked asteroid belt in this top-down space roguelite, solo or in online co-op. Mix ships and weapons, choose an upgrade every minute, and face the boss after ten minutes. Break through to unlock new ships, weapons, and permanent upgrades.",
-    "supported_languages": "English",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Simplified Chinese<strong>*</strong>, Spanish - Latin America<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992940/e486b638f476d149e9cebc05fcfb0692ffeffafc/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992940/13fb0ccb95b3c7f0fda9a6e144633ab2ef054020/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992940/13fb0ccb95b3c7f0fda9a6e144633ab2ef054020/capsule_184x69.jpg",
@@ -960,6 +960,7 @@
       1,
       2,
       9,
+      22,
       23,
       28,
       38,
@@ -2315,7 +2316,6 @@
       56,
       57,
       58,
-      59,
       60,
       62,
       64,
@@ -3337,7 +3337,7 @@
   },
   "4992770": {
     "type": "game",
-    "name": "OtherWorld: Infinite Loop",
+    "name": "Infinite Loop: Incremental",
     "steam_appid": 4992770,
     "required_age": 0,
     "is_free": false,
@@ -4669,7 +4669,19 @@
     "publishers": [
       "gand-tr"
     ],
-    "package_groups": [],
+    "packages": [
+      1732618
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Commit!!!",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4686,13 +4698,16 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 58
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "10 Sep, 2026"
     },
     "support_info": {
       "url": "https://commit.gand.tr",
-      "email": "arda@gand.tr"
+      "email": "support@gand.tr"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4994630",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4994630",
@@ -5820,7 +5835,7 @@
       5202210
     ],
     "short_description": "A multiplayer party game blending painting, deception, horror chases, and parkour. A fun, chaotic take on MM2-style gameplay with body painting and camouflage. Paint your disguise, blend in, deceive others, escape with parkour, and survive to the end.",
-    "supported_languages": "English<strong>*</strong>, Spanish - Spain, Japanese, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Spanish - Spain, Japanese, Simplified Chinese<strong>*</strong>, French, German, Russian, Thai, Traditional Chinese, Portuguese - Brazil, Spanish - Latin America, Korean<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992820/699dfc7e75318fefb2ba4caf4c4f2f1027635014/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992820/e87d82b330208482dd5bae74b778dea4339d1101/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992820/e87d82b330208482dd5bae74b778dea4339d1101/capsule_184x69.jpg",
@@ -7480,6 +7495,54 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4993950",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4993950/73431acf8a3a72504a770276d5846c0b1b2a1702/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4992720": {
+    "type": "game",
+    "name": "Gloombo",
+    "steam_appid": 4992720,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Gloombo is a cozy desktop companion who works while you focus. Turn your focus time into things she can craft, build up her floating island, fulfill orders, discover new blueprints, and look after a friend.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Turkish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992720/eebfb821a698bf6959daa568c4fc608138b51a0b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992720/dd94b0dc63288a44ae9e28bf4c37cb2822f4a3fb/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992720/dd94b0dc63288a44ae9e28bf4c37cb2822f4a3fb/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "House Bice"
+    ],
+    "publishers": [
+      "House Bice"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      23,
+      62
+    ],
+    "genres": [
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support@housebice.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4992720",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4992720",
     "content_descriptors": {
       "ids": [],
       "notes": null

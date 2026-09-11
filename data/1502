@@ -56,7 +56,7 @@
   },
   "4506060": {
     "type": "game",
-    "name": "Scrap Syndicate",
+    "name": "Subgrid",
     "steam_appid": 4506060,
     "required_age": 0,
     "is_free": false,
@@ -92,7 +92,8 @@
       68,
       69,
       74,
-      79
+      79,
+      80
     ],
     "genres": [
       1,
@@ -7940,9 +7941,9 @@
     "controller_support": "full",
     "short_description": "Build your very own creatures from hand-painted collage parts, grant them new abilities and reshape a scrapbook world in this dark coming-of-age adventure.",
     "supported_languages": "English, German, French, Spanish - Spain, Portuguese - Brazil, Simplified Chinese, Japanese, Korean, Russian",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4508420/af5947c3312ce303295dfa3bd5c47d8c61d92cb8/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4508420/bfb53e5fed4e9b3facc53b1f7469e0e426b56568/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4508420/bfb53e5fed4e9b3facc53b1f7469e0e426b56568/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4508420/74fa752028e516d8f5bcb5841a661f2072398d99/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4508420/19ae7f56fee476ed4e2ab18810667a8c9cefac9d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4508420/19ae7f56fee476ed4e2ab18810667a8c9cefac9d/capsule_184x69.jpg",
     "website": "https://www.studio-windspiel.de/",
     "developers": [
       "Studio Windspiel"
@@ -8050,6 +8051,7 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
+      4996420,
       5076530
     ],
     "short_description": "Succubus Nightmare is a 3D erotic puzzle game. Play as Charlotte, the older of two stepsisters, as she leads her sister out of a sprawling manor controlled by a succubus. As the story unfolds, the truth behind the mystery slowly unravels\u2014but is someone else really the mastermind behind all this?!",
@@ -8064,13 +8066,19 @@
     "publishers": [
       "Mango Party"
     ],
-    "demos": [
+    "packages": [
+      1572577
+    ],
+    "package_groups": [
       {
-        "appid": 4625590,
-        "description": ""
+        "name": "default",
+        "title": "Buy Succubus Nightmare",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8091,8 +8099,11 @@
       3,
       25
     ],
+    "achievements": {
+      "total": 20
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "11 Sep, 2026"
     },
     "support_info": {
