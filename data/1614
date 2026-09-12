@@ -742,7 +742,10 @@
     "steam_appid": 4843920,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Build a supply chain. Roll an elemental army. Survive the waves. Choose a finite hero pool, produce the resources that unlock Water, Fire, and Lightning draws, then adapt your formation to every roll and enemy threat.",
+    "dlc": [
+      5216110
+    ],
+    "short_description": "Build a supply chain. Roll an elemental army. Survive the waves. Choose a finite hero pool, produce resources for hero draws, and build deeper chains for rarer heroes. Adapt your formation to every roll and enemy threat.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4843920/aa35ba4592d808292828606aad2df60aa172f58f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4843920/328a7007b913908c10a35e0918681ddabe6bd9eb/capsule_231x87.jpg",
@@ -753,6 +756,12 @@
     ],
     "publishers": [
       "OrderlyWorld"
+    ],
+    "demos": [
+      {
+        "appid": 5216110,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -1578,7 +1587,7 @@
       4898440
     ],
     "short_description": "In real-time action games controlled by mouse and keyboard, players defeat enemies to level up and learn skills, collect equipment to enhance their strength, and complete objectives within levels. After defeating all bosses, they can successfully save the world and complete the game.",
-    "supported_languages": "Simplified Chinese",
+    "supported_languages": "Simplified Chinese, English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4842470/612ed356b50a524b1a6784b6185db8f62631b5c9/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4842470/012eb519586885eba26e201446ba64df34152542/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4842470/012eb519586885eba26e201446ba64df34152542/capsule_184x69.jpg",
@@ -1589,7 +1598,25 @@
     "publishers": [
       "rebel1999"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 4898440,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1682235
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u6b66\u9053\u4f59\u6656 The Last Glimmer of the Martial Way",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1601,15 +1628,12 @@
     ],
     "genres": [
       1,
-      2,
-      3,
-      4,
       23,
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "11 Sep, 2026"
     },
     "support_info": {
       "url": "",

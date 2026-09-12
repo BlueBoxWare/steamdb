@@ -1252,7 +1252,7 @@
     "required_age": 0,
     "is_free": true,
     "short_description": "Love Train is a side-view roguelike shooter where you race through a ruined world swarming with monstrous creatures. Defeat enemies, collect items, survive strange events at each station, and upgrade your ordinary train into a powerful, grotesque monster train.",
-    "supported_languages": "Korean",
+    "supported_languages": "Korean, English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4872690/ccec1f018552de08ce4eb87e0a0492ab62aa1014/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4872690/bbcbd384611a3233b7e80c8a0b804158e17397e6/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4872690/bbcbd384611a3233b7e80c8a0b804158e17397e6/capsule_184x69.jpg",
@@ -1894,8 +1894,6 @@
       2,
       62,
       68,
-      74,
-      79,
       80
     ],
     "genres": [
@@ -3583,6 +3581,9 @@
     "steam_appid": 4874970,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4973550
+    ],
     "short_description": "Forge a deck, carve your path. A dark-fantasy roguelike deckbuilder: distinct classes, 500+ original cards, deadly relics, and branching trails that never play out the same way twice. Every run is a new gauntlet \u2014 die, learn, build deadlier.",
     "supported_languages": "English, Spanish - Spain, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America, Portuguese - Brazil",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4874970/24a029c5b10de304adbd0702d80e4ffed2afc7e2/header.jpg",
@@ -3594,6 +3595,12 @@
     ],
     "publishers": [
       "Inverse Square Games"
+    ],
+    "demos": [
+      {
+        "appid": 4973550,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3612,7 +3619,8 @@
       62,
       68,
       74,
-      79
+      79,
+      80
     ],
     "genres": [
       4,
@@ -6213,7 +6221,19 @@
     "publishers": [
       "Basketball Legacy Manager"
     ],
-    "package_groups": [],
+    "packages": [
+      1692723
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Basketball Legacy Manager 27",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -6235,7 +6255,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "11 Sep, 2026"
     },
     "support_info": {
