@@ -5,6 +5,9 @@
     "steam_appid": 5169070,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5175410
+    ],
     "short_description": "This is an auto-chess game. By combining units' skills, passive abilities, and synergies, units can grow infinitely stronger.",
     "supported_languages": "English, French, German, Spanish - Spain, Russian, Turkish, Japanese, Simplified Chinese, Traditional Chinese, Portuguese - Brazil, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169070/e3bb40946b9a7f534b983ce414fd54ce8985807a/header.jpg",
@@ -16,6 +19,12 @@
     ],
     "publishers": [
       "heheihei"
+    ],
+    "demos": [
+      {
+        "appid": 5175410,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -184,7 +193,19 @@
     "publishers": [
       "fortunate bull"
     ],
-    "package_groups": [],
+    "packages": [
+      1789416
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy You Will Get Rich!",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -199,9 +220,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 3
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "13 Sep, 2026"
+      "coming_soon": false,
+      "date": "12 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -2742,6 +2766,7 @@
     "steam_appid": 5171060,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "A jigsurfing puzzle game combining platformer and jigsaw gameplay with video challenges.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Thai, Turkish, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171060/f8a94ded8643ed01ab0411d9288f47a93fd23c37/header.jpg",
@@ -2762,7 +2787,7 @@
     },
     "categories": [
       2,
-      18,
+      28,
       62,
       68,
       74,
