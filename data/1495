@@ -2099,7 +2099,7 @@
   },
   "4487810": {
     "type": "game",
-    "name": "Shroomanoid: breakout action roguelite",
+    "name": "Shroomanoid: breakout action roguelike",
     "steam_appid": 4487810,
     "required_age": 0,
     "is_free": false,
@@ -3702,7 +3702,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1565579
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Fantasy Bird Woods",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3716,8 +3728,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 5
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "13 Sep, 2026"
     },
     "support_info": {

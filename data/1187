@@ -2929,9 +2929,6 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "dlc": [
-      4911860
-    ],
     "short_description": "Cloudscrapers is a minimalist strategy game with a relaxing atmosphere. Build your tower, manage resources, unlock new tools, and uncover the secrets hidden in the sky.",
     "supported_languages": "English, German, French, Italian, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3562200/a653d11e0c92af2b5e52648664478dee8207814b/header.jpg",
@@ -2950,7 +2947,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1256984
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cloudscrapers",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2974,8 +2983,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 28
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "14 Sep, 2026"
     },
     "support_info": {

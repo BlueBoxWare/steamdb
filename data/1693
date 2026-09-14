@@ -297,7 +297,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": false
     },
     "categories": [
@@ -1157,7 +1157,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "A star that keeps losing heat. There is no attack button \u2014 crashing into other stars is your attack, your healing, your movement, and your exploration. Devour heat, grow heavier, and reach the galactic core before the heat death of the universe catches you.",
+    "short_description": "An action roguelite with no attack button. You are a dying star: ramming other stars is how you attack, heal, move, and grow. Steal their heat, gain mass, and outrun the heat death of the universe \u2014 across an infinite, procedurally generated galaxy.",
     "supported_languages": "English, Simplified Chinese, Japanese, French, German, Spanish - Spain, Portuguese - Brazil, Russian, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5081400/b35e5dacdf20794b903784ed4cf47335361e67a1/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5081400/282dfe1348dc8e0d9d2b8874743d7acc2bda77ca/capsule_231x87.jpg",
@@ -4722,7 +4722,19 @@
     "publishers": [
       "Morello"
     ],
-    "package_groups": [],
+    "packages": [
+      1760659
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Furry Slot",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4743,9 +4755,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 28
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "September 2026"
+      "coming_soon": false,
+      "date": "14 Sep, 2026"
     },
     "support_info": {
       "url": "",
