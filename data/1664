@@ -73,8 +73,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -2293,7 +2293,7 @@
     "dlc": [
       5241210
     ],
-    "short_description": "MOLTYN is a destructible terrain physics sandbox where every pixel is real matter that melts, floods, freezes and falls. You are a volcano born superhero with all the powers of the earth. Dig, flood, erupt and fight walking Kaiju across an 18-mission story, or wreck free-play worlds however you like",
+    "short_description": "MOLTYN: Destruction physics superhero sandbox where every pixel is simulated: rock, sand, water, lava, ice and metal that melt, flood, freeze and collapse for real. Play a superhero with every power of the earth in 18 story missions, free-play worlds and kaiju fights. Early Access 12 November 2026.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992430/7659f2f3302ebf929396c1c2237aa3366b8671c7/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992430/9a836f0a0614402b2adfecf216d98116e7d5614c/capsule_231x87.jpg",
@@ -2313,7 +2313,6 @@
     },
     "categories": [
       2,
-      17,
       28,
       55,
       56,
@@ -2341,7 +2340,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2027"
+      "date": "2026"
     },
     "support_info": {
       "url": "https://moltyn.io",
@@ -3349,7 +3348,7 @@
       5146350
     ],
     "short_description": "Stranded in a strange world. Explore. Survive. Find your way home. Death is inevitable, but every rebirth makes you stronger. In this text-based incremental game, choose your actions, plan your path, and uncover the truth behind the world.",
-    "supported_languages": "English, Simplified Chinese, Japanese, Korean",
+    "supported_languages": "English, Simplified Chinese, Japanese, Korean, French, German, Spanish - Spain, Russian, Polish, Traditional Chinese, Portuguese - Brazil, Spanish - Latin America",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992770/7904b6b353e655800236ef5a4712876417a5a86d/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992770/3db885edde3ac5efa029006852afd9c267d06a78/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992770/3db885edde3ac5efa029006852afd9c267d06a78/capsule_184x69.jpg",
@@ -3866,7 +3865,9 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
-      5116520
+      5116520,
+      5241330,
+      5251810
     ],
     "short_description": "Enter the Rift as a customized Holy Warrior in a dark, post-apocalyptic Earth. Radiated by the Apophis meteorite, you are uniquely immune to the lethal power of ancient, god-like armors. Master epic magic, unleash devastating supermoves, and smash your way through endless hordes.",
     "supported_languages": "English<strong>*</strong>, Italian<strong>*</strong><br><strong>*</strong>languages with full audio support",
@@ -4941,6 +4942,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      5036180
+    ],
     "short_description": "Stack it. Spell it. Shout it! FURKUP is a falling-block puzzle game where you arrange letters to spell FUCK and trigger massive chains. Record your own voice, battle solo or in CPU, local, and online multiplayer, and create, install, and share mods through Steam Workshop.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Indonesian, Thai, Turkish, Vietnamese, Portuguese - Brazil, Polish, Russian, Simplified Chinese, Traditional Chinese, Japanese, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992020/8ca89b969645cf6e7db4b46358e15f6a28e2f25a/header.jpg",
@@ -4953,7 +4957,25 @@
     "publishers": [
       "mayoaji"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5036180,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1731758
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy FURKUP",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4980,9 +5002,12 @@
     "genres": [
       4
     ],
+    "achievements": {
+      "total": 20
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "15 Sep, 2026"
     },
     "support_info": {
       "url": "https://mayoaji.com/contact/",
@@ -7606,6 +7631,60 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4992350",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992350/c232f853f56fc358e51ee1ae9e70147ef0846843/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4993440": {
+    "type": "game",
+    "name": "Ghost Charmer",
+    "steam_appid": 4993440,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "A spooky-cozy ghost hunting game where you investigate, identify and summon ghosts\u00a0based on their personalities in a mysterious haunted house.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4993440/2c72ada747b94a8be8e6eb46062f2a8b8c558280/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4993440/61915c6de3637aa00c46ed03279034adc0ff76a2/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4993440/61915c6de3637aa00c46ed03279034adc0ff76a2/capsule_184x69.jpg",
+    "website": "https://ghostcharmergame.carrd.co/",
+    "developers": [
+      "FrozenYetiGames"
+    ],
+    "publishers": [
+      "FrozenYetiGames"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      28,
+      55,
+      57,
+      62
+    ],
+    "genres": [
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "frozenyetigameshq@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4993440",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4993440/f7fe5804f16848ccb2985b709e0078971c26b728/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

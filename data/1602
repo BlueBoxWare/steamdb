@@ -5997,7 +5997,7 @@
     "steam_appid": 4806780,
     "required_age": 0,
     "is_free": false,
-    "short_description": "&quot;WWQM: Doom Ankara&quot; is a single-player 2D platform shooter. Upgrade your shotgun and pistol as you battle demons, zombies, and hellish creatures. The game also includes an extensive comic book titled &quot;WWQM: A Game Development Adventure.&quot;",
+    "short_description": "&quot;WWQM: Doom Ankara&quot; is a single-player 2D platform shooter. Upgrade your shotgun and pistol as you battle demons, zombies, and hellish creatures.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4806780/75e9f3234b371a653906c818d56678b19e408828/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4806780/f8f595a7f2cba9b0dece2dfd77a477a387c30e2d/capsule_231x87.jpg",
@@ -6039,10 +6039,11 @@
       "ids": [
         1,
         2,
+        3,
         4,
         5
       ],
-      "notes": "This game contains intense combat, enemy killing, horror themes, and mature dialogue. Some comic book scenes contain censored nudity and sexual content. The game also includes moderate profanity and references to smoking and alcohol use. There is no uncensored nudity or explicit sexual content.\r\n"
+      "notes": "This game contains intense combat, enemy killing, horror themes, and mature dialogue. Although the game does not contain sexual intercourse, it contains a mild amount of nudity. There are no scenes depicting genitals or sexual intercourse.\r\n\r\n"
     }
   },
   "4806670": {
@@ -6735,7 +6736,7 @@
     "name": "Hunters Origin",
     "steam_appid": 4808740,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
     "controller_support": "full",
     "short_description": "Oldshool MMORPG foundations, sprinkled with modern gameplay! Hunt dangerous beasts, claim legendary loot, and customize your build with deep skill trees. Develop your hub at Archer\u2019s Pond, craft gear, collect rare mounts, and forge your own legend alongside other players!",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Danish, Dutch, Finnish, Japanese, Korean, Norwegian, Portuguese - Portugal, Russian, Simplified Chinese, Swedish, Thai, Traditional Chinese, Turkish, Polish",
@@ -6774,7 +6775,8 @@
     "genres": [
       1,
       3,
-      25
+      25,
+      37
     ],
     "release_date": {
       "coming_soon": true,
@@ -6870,7 +6872,19 @@
     "publishers": [
       "\u305f\u308d"
     ],
-    "package_groups": [],
+    "packages": [
+      1670975
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Something in the Back",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6884,8 +6898,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "14 Sep, 2026"
     },
     "support_info": {
       "url": "https://candid-truffle-5748ba.netlify.app/",
@@ -7059,6 +7073,64 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "4808400": {
+    "type": "game",
+    "name": "The Wandering Spire",
+    "steam_appid": 4808400,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Safira's body betrays her at the worst moments: fight, flight, freeze and fawn. Burying them causes stress. Stress causes panic. The Wandering Spire is a challenging 2D hack and slash platformer where your fear responses are your worst enemy.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4808400/a601f86bcef4974e0fcfad567856f9090692ea2d/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4808400/06ea49b54d29d11177f68b268c3dc9942c7e5afd/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4808400/06ea49b54d29d11177f68b268c3dc9942c7e5afd/capsule_184x69.jpg",
+    "website": "https://www.foreverrainstudios.com/",
+    "developers": [
+      "Forever Rain Studios, LLC"
+    ],
+    "publishers": [
+      "Forever Rain Studios, LLC"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      28,
+      55,
+      57,
+      62,
+      68,
+      74,
+      78
+    ],
+    "genres": [
+      1,
+      3,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "foreverrainstudios.com",
+      "email": "julia@foreverrainstudios.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4808400",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4808400",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "Mentions of trauma, death, and loss."
     }
   }
 }
