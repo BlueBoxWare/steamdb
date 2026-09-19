@@ -315,10 +315,10 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5016220/5d00094bc748a1ef0273d500309d61cd84b44e1d/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "hans-j\u00fcrgen m\u00fcller"
+      "PAT-Studios"
     ],
     "publishers": [
-      "hans-j\u00fcrgen m\u00fcller"
+      "PAT-Studios"
     ],
     "packages": [
       1739662
@@ -630,7 +630,7 @@
     "dlc": [
       5045750
     ],
-    "short_description": "A cozy jigsaw puzzle in comic style. Sort, drag and fit 24 to 1000 pieces into 56 pictures, from busy scenes to fantasy places and retro nostalgia. Name your own sorting trays on a table without edges. No timer, no score, no ads. Your progress saves after every single piece.",
+    "short_description": "A free, cozy jigsaw puzzle: 24 to 1000 pieces, 56 comic-style pictures, trays you name yourself and a table without edges. No timer, no ads. The pictures are AI-generated. Puzzle your own photos with the optional DLC.",
     "supported_languages": "English, French, German, Spanish - Spain, Simplified Chinese, Japanese, Russian, Portuguese - Brazil",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5016920/474bfbb43ae792b2dc7b9fde33a97794c52fc3ae/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5016920/90403cd48a811ab40d0939a285e101f6d7c40e2e/capsule_231x87.jpg",
@@ -1612,7 +1612,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Not every game is meant to be fair. Not every player is meant to survive. Bluff, adapt, and outsmart your opponent in tense poker matches where the cards don't always play by the rules.",
-    "supported_languages": "English, Russian, German, Simplified Chinese, French, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Spanish - Latin America",
+    "supported_languages": "English, Russian, German, Simplified Chinese, French, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Spanish - Latin America, Italian, Czech, Finnish, Thai, Traditional Chinese, Turkish, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5016550/b92c880dc8712daba118e6753b26ccd339a3a2df/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5016550/616aa57fd855928e981e5adccaaff63fbc8b504d/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5016550/616aa57fd855928e981e5adccaaff63fbc8b504d/capsule_184x69.jpg",
@@ -1963,6 +1963,8 @@
     "categories": [
       2,
       18,
+      52,
+      53,
       62
     ],
     "genres": [
@@ -1982,8 +1984,11 @@
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5017500",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5017500",
     "content_descriptors": {
-      "ids": [],
-      "notes": null
+      "ids": [
+        1,
+        5
+      ],
+      "notes": "Some curated museum artworks contain non-explicit artistic nudity. This content is presented in a historical and artistic context and does not depict explicit sexual content."
     }
   },
   "5017520": {
@@ -3089,7 +3094,19 @@
     "publishers": [
       "Hellim Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1740189
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Hentai Warrior Supporter Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3099,14 +3116,15 @@
       1,
       2,
       9,
-      21
+      21,
+      62
     ],
     "genres": [
       1,
       23
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "16 Sep, 2026"
     },
     "support_info": {
@@ -3354,8 +3372,7 @@
     "name": "Classroom in Sora",
     "steam_appid": 5016240,
     "required_age": 0,
-    "is_free": false,
-    "controller_support": "full",
+    "is_free": true,
     "dlc": [
       5049280,
       5112260
@@ -3372,6 +3389,12 @@
     "publishers": [
       "hypo-"
     ],
+    "demos": [
+      {
+        "appid": 5049280,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -3381,12 +3404,13 @@
     "categories": [
       2,
       22,
-      28,
+      23,
       62
     ],
     "genres": [
       3,
-      25
+      25,
+      37
     ],
     "release_date": {
       "coming_soon": true,
@@ -3943,7 +3967,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -4514,7 +4538,7 @@
     "steam_appid": 5017090,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A cat\u2019s journey home from a mysterious world. Watch over the cat as it collects coins on its own in this idle incremental game. Lend a hand by charging the orb and enhancing relics to help it return home.",
+    "short_description": "A cat\u2019s journey home from the space between worlds. The cat handles the coin collecting on its own. Lend a hand from time to time by charging the Wish Orb and enhancing relics, gathering the power of wishes to help it find its way home in this idle incremental game.",
     "supported_languages": "English, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017090/7ea403b3217293503dbff3f3ede03a788e1ec2f8/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017090/585cbfa8813337c46290f0c491c58ddb9092b8c5/capsule_231x87.jpg",
@@ -4901,7 +4925,19 @@
     "publishers": [
       "Articulable LLC"
     ],
-    "package_groups": [],
+    "packages": [
+      1740337
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Duty Guvnor",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4929,9 +4965,12 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 16
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "13 Sep, 2026"
+      "coming_soon": false,
+      "date": "15 Sep, 2026"
     },
     "support_info": {
       "url": "https://dutyguvnor.com/support/",
@@ -5242,7 +5281,19 @@
     "publishers": [
       "Peaceful Life Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1739647
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Eversurf",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5265,8 +5316,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "17 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -5306,7 +5357,6 @@
     },
     "categories": [
       2,
-      15,
       22,
       23,
       28,
@@ -5545,8 +5595,7 @@
       "Paramount Games"
     ],
     "packages": [
-      1740208,
-      1764014
+      1740208
     ],
     "package_groups": [
       {
@@ -5628,7 +5677,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "27 Sep, 2026"
     },
     "support_info": {
       "url": "https://www.facebook.com/tukumopro99/",

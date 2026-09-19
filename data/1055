@@ -4513,9 +4513,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Tears Apart is an action roguelite built around consecutive dash attacks called Tear. Upgrade each one of them to create devastating combat cycles, and defeat creatures of the Void.",
+    "short_description": "Tears Apart is an action roguelite built on five consecutive dash attacks called Tears. Equip upgrades to the Tears you choose, master your combat cycle, and carve through the Decay.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3166920/74a68a6981d41ad5268c94a411431f3368b5a8fd/header.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3166920/c6a09e5eafedf697e4cf1189aed24513529f598f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3166920/bd8dc82cd5b19c5f7e88e1a6ccf060a9ee84e11e/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3166920/bd8dc82cd5b19c5f7e88e1a6ccf060a9ee84e11e/capsule_184x69.jpg",
     "website": null,
@@ -4524,6 +4524,12 @@
     ],
     "publishers": [
       "Distant Shelter"
+    ],
+    "demos": [
+      {
+        "appid": 3273320,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -7566,7 +7572,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1123519
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Oops! You're the Hero!",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7580,8 +7598,11 @@
       1,
       25
     ],
+    "achievements": {
+      "total": 14
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "15 Sep, 2026"
     },
     "support_info": {

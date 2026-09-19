@@ -412,7 +412,7 @@ for index, appid in enumerate(queue):
 
     if not text:
         progress(f"Empty response for {appid}.")
-        response_text = "{}"
+        text = "{}"
 
     json_obj = json.loads(text)
     try:

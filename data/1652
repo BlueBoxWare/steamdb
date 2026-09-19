@@ -2286,7 +2286,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "An arcade flight game built entirely around air roll, the mechanic Rocket League players spend years honing. Thread lines of glowing orbs, roll through gaps in oncoming laser walls, and race friends through a neon city.",
+    "short_description": "An arcade flight game built on Rocket League's air roll controls. Fly through a neon city threading lines of orbs, rolling through gaps in oncoming laser walls, weaving through traffic, and more. Very hard if you can't air roll yet, but we'll help you learn.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4956960/4296f1a48f0661c10278974a018450fb80a20241/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4956960/6e0f6294441e23e2fba85abf84bbeda4e5c28ece/capsule_231x87.jpg",
@@ -2305,13 +2305,10 @@
       "linux": false
     },
     "categories": [
-      1,
       2,
       23,
       25,
       28,
-      36,
-      49,
       60,
       62,
       67,
@@ -3023,6 +3020,9 @@
     "steam_appid": 4958330,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4958530
+    ],
     "short_description": "Survive on a mysterious island where every choice shapes your journey. Explore ancient ruins, gather resources, craft essential tools, battle dangerous wildlife, and uncover the secrets hidden deep within Eclipse Island in this immersive story-driven survival adventure.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4958330/82b23271b4721270e76868204901ef917a58fff3/header.jpg",
@@ -3034,6 +3034,12 @@
     ],
     "publishers": [
       "EPIC WOLF STUDIO LLP"
+    ],
+    "demos": [
+      {
+        "appid": 4958530,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3060,7 +3066,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "2026"
     },
     "support_info": {
       "url": "https://epicwolfstudio.com/support.html",
@@ -3533,6 +3539,9 @@
     "steam_appid": 4956490,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5037060
+    ],
     "short_description": "Slack off right on your desktop with your ultimate otter buds! Combing the beach for 200+ unique oddities, play the market like a pro, and rip open ticket packs to explore everything from the deep blue sea to the starry cosmos. Come leave your footprints with the otters!",
     "supported_languages": "English, Simplified Chinese, Traditional Chinese, Japanese, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4956490/dc7ee157295d31915f67fcd7efe62287683ef830/header.jpg",
@@ -4082,7 +4091,7 @@
     ],
     "short_description": "Step into the shoes of a detective trapped in a chilling psychological nightmare. Investigate dark corridors, examine cryptic clues, and crack intricate puzzles while an unseen tension hunts your every move. Can you uncover the truth before your sanity shatters?",
     "supported_languages": "English<strong>*</strong>, Turkish<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4958750/d24ea8eacfc060b140bd99fb0737588647c11448/header.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4958750/863313d7c11c3fe616711773de98c9a429e20204/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4958750/33adf1009f1d42afa3fdac7b169d515c9ef8c34a/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4958750/33adf1009f1d42afa3fdac7b169d515c9ef8c34a/capsule_184x69.jpg",
     "website": null,
@@ -4401,6 +4410,9 @@
     "steam_appid": 4958550,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5170100
+    ],
     "short_description": "Choose your cards, build your run, and let the battle play itself in this dark gothic auto-battle roguelite. Across the table sits Faro, a skeleton croupier who offers advice, twists the rules, and sometimes sets the trap himself.",
     "supported_languages": "English, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4958550/3447e929ea8f1461b2e40d2f3097de5588a5a65b/header.jpg",
@@ -4412,6 +4424,12 @@
     ],
     "publishers": [
       "Ayg Forge"
+    ],
+    "demos": [
+      {
+        "appid": 5170100,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -5483,7 +5501,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1720341
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Monster Mavericks",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5512,9 +5542,12 @@
       1,
       25
     ],
+    "achievements": {
+      "total": 29
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "16 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -6703,7 +6736,7 @@
     },
     "support_info": {
       "url": "",
-      "email": "toniyuristudios@gmail.com"
+      "email": "contact@yuristudios.net"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4957130",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4957130/9c8532d8782ea8419e795504bc3eabab3e49ae28/page_bg_raw.jpg",
@@ -6829,7 +6862,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Craft a unique set of dice, encounter monsters, and discover items of great power in Dice Knight!",
+    "short_description": "We fused dice and roguelikes together to make the greatest dice builder Roll to defeat your enemies, press your luck against bizarre creatures, discover food items of power, and become the Dice Knight!",
     "supported_languages": "English, Japanese, Portuguese - Brazil, Portuguese - Portugal, Russian, Spanish - Latin America, German, Spanish - Spain",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4956750/a53265f3fee9bab7b31af967cf42ab5f2b88ffb2/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4956750/89d3e3e9ab5f4b59b551127609ede84f9420981e/capsule_231x87.jpg",

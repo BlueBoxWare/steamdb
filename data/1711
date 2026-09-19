@@ -262,8 +262,9 @@
     "steam_appid": 5133830,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "A psychological horror roguelike set inside a warehouse worker's mind. Descend eleven floors of his life: the job, the commute, the house, and the rooms he never reopened. Every enemy used to work there. Fuse 19 weapons into 171 hybrids, pay in pills, and learn the hard way.",
-    "supported_languages": "English, Italian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Italian<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133830/63e9874ee1409a9f133df1d5cf23e5c0de4813b3/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133830/1c98701ecb357187ad431f319fbf928897658d4d/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133830/1c98701ecb357187ad431f319fbf928897658d4d/capsule_184x69.jpg",
@@ -282,6 +283,7 @@
     },
     "categories": [
       2,
+      28,
       62
     ],
     "genres": [
@@ -419,7 +421,7 @@
     "steam_appid": 5134140,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Pull Me Up! is a challenging parkour adventure where every jump takes you higher. Face your fears in Horror Mode, featuring dark environments, unexpected jumpscares, and terrifying surprises. Are you brave enough to reach the top?",
+    "short_description": "Pull Me Up! is a horror parkour game that combines terrifying environments with challenging platforming. Overcome deadly obstacles, face unexpected jumpscares, and climb higher into the unknown. Climb higher. Face your fears. Don't fall.",
     "supported_languages": "English, Turkish, French, German, Spanish - Spain",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5134140/20326b4f0f9c59cec733bfb5fb1bfda3f9276ce7/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5134140/3b76f4181885c707cc10baf3674b0d8d440eb99e/capsule_231x87.jpg",
@@ -431,7 +433,19 @@
     "publishers": [
       "Murat Akin"
     ],
-    "package_groups": [],
+    "packages": [
+      1778172
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Pull Me Up!",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -448,10 +462,14 @@
       1,
       4,
       23,
-      25
+      25,
+      28
     ],
+    "achievements": {
+      "total": 11
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "18 Sep, 2026"
     },
     "support_info": {
@@ -669,6 +687,12 @@
     "publishers": [
       "Moonlink Games"
     ],
+    "demos": [
+      {
+        "appid": 5223620,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -713,7 +737,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "CatstaC is a puzzle game where the goal is to reunite two cats with symetric movement, in as few moves as possible, while you collect very green (and shiny) stars!",
-    "supported_languages": "English",
+    "supported_languages": "English, Spanish - Latin America",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133790/e644983eec2e3550854a28a730f75aadacd1e862/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133790/bcc76abf21b3a19b152ee999f4ce8168aedc1aa9/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133790/bcc76abf21b3a19b152ee999f4ce8168aedc1aa9/capsule_184x69.jpg",
@@ -879,7 +903,7 @@
     "steam_appid": 5134100,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Enrooted is an Undertale-style bullet hell rhythm RPG. Fight to the beat in turn-based battles, collect the six petals of ARCADIA, and set out on an amazing journey to face the Rat President in a final symphony.",
+    "short_description": "Enrooted is a bullet hell rhythm RPG. Fight to the beat in turn-based battles, collect the six petals of ARCADIA, and set out on an amazing journey to face the Rat President in a final symphony.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5134100/c5c845644534b1e95965e7ba6932325fb074a3a8/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5134100/386cd993d07a2d33c08f788ecd71aa1b0230449e/capsule_231x87.jpg",
@@ -1162,6 +1186,9 @@
     "steam_appid": 5135770,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5197850
+    ],
     "short_description": "A first-person deckbuilding roguelite inspired by Chinese folklore. Defeat monsters and refine their souls to claim their abilities as your own. Build powerful combinations, shape your supernatural form, and forge a different playstyle with every expedition.",
     "supported_languages": "English, Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135770/a05113105bd5180bd6c91948e296abb9dee6c902/header.jpg",
@@ -1220,6 +1247,12 @@
     ],
     "publishers": [
       "Kaldforge Studio"
+    ],
+    "demos": [
+      {
+        "appid": 5180750,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -1433,8 +1466,11 @@
     "steam_appid": 5133290,
     "required_age": 0,
     "is_free": false,
-    "short_description": "You wake up in a twisted version of your school, where nothing is quite as it should be. The halls are empty, the familiar rooms feel wrong, and something is hunting you. Find a way out before it finds you.",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Polish, Romanian, Simplified Chinese",
+    "dlc": [
+      5166850
+    ],
+    "short_description": "A PSX-style horror game set in a Japanese high school in the 90s. You play as a lone schoolgirl trying to piece together how she ended up there. Explore the empty halls, uncover what happened, and find a way out before you get found.",
+    "supported_languages": "English, Italian, Polish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133290/1c9c4f079d85b15b6ae31521233a42dab48b4e9f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133290/ebff1d905b78ea116aeaff1774947daabd63018c/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133290/ebff1d905b78ea116aeaff1774947daabd63018c/capsule_184x69.jpg",
@@ -1444,6 +1480,12 @@
     ],
     "publishers": [
       "Bone Halo"
+    ],
+    "demos": [
+      {
+        "appid": 5166850,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -1483,11 +1525,11 @@
     "steam_appid": 5133330,
     "required_age": 0,
     "is_free": false,
-    "short_description": "LINER/TRACER is a stylish 2D action game controlled with a mouse and keyboard. Move with the keyboard, then use the mouse to dash at high speed, create platforms, and attack. Weave through waves of bullets and take down your enemies.",
+    "short_description": "LINER/TRACER is a stylish 2D action game that combines mouse and keyboard controls. Move your character with the keyboard, then use the mouse to perform high-speed dashes, create platforms, and attack enemies. Dodge a variety of incoming attacks, race freely across stage, and take down your enemies.",
     "supported_languages": "English, Japanese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133330/ea3869a3a9480065d59a932a4b61fdbea60ca0a7/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133330/3781805736629eda8528852b32bb5e6d6daafe4c/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133330/3781805736629eda8528852b32bb5e6d6daafe4c/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133330/cd24e0f89b3e0629ccf33ffa19ef44dfcfaf8c34/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133330/913d7ff11070cef7b38b7de65f9f4751cfbb6784/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133330/913d7ff11070cef7b38b7de65f9f4751cfbb6784/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "\u3044\u3044\u3044\u3044"
@@ -1596,8 +1638,8 @@
       5141130
     ],
     "short_description": "Dragons Invasion is a Souls 'Em Up. A 2D horizontal shooter where you roll like Dark Souls and swap colors like Ikaruga. Absorb shots, fill your power gauge, and destroy dragons \u2014 solo or in local co-op.",
-    "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133970/6ba5a15a38314f60dd633a2fa75eed84fd0a445a/header.jpg",
+    "supported_languages": "English, French, Spanish - Spain, Japanese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133970/baceaa380696a5f8d1bc299ebfc00975485d01cd/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133970/04fbdace986424ccc1295f520bd9a7ec8f28a5db/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133970/04fbdace986424ccc1295f520bd9a7ec8f28a5db/capsule_184x69.jpg",
     "website": "https://tencahgames.com/",
@@ -1637,8 +1679,7 @@
     ],
     "genres": [
       1,
-      23,
-      70
+      23
     ],
     "release_date": {
       "coming_soon": true,
@@ -1651,11 +1692,8 @@
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5133970",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133970/002804ec413a80cd4996da4cf44b4248a97401f5/page_bg_raw.jpg",
     "content_descriptors": {
-      "ids": [
-        2,
-        5
-      ],
-      "notes": "some corpses, with a little blood"
+      "ids": [],
+      "notes": null
     }
   },
   "5134430": {
@@ -1723,7 +1761,19 @@
     "publishers": [
       "Kirishima Shoichi"
     ],
-    "package_groups": [],
+    "packages": [
+      1778299
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Blue Hawaii Aniki's Small Celebration vol.3",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1737,8 +1787,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "18 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -2702,9 +2752,6 @@
     "steam_appid": 5135480,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5191650
-    ],
     "short_description": "Little Magic Fish Story is a pixel-art life sim and party-based action RPG. Farm, cook, fish, and raise animals in Anyu Town. Turn harvests into supplies and command companions in the Silent Forest. Amid warm days and strange disturbances, the adventurers' story begins.",
     "supported_languages": "English, Japanese, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135480/1a9e02b59197ec83f0197b2b27ed920c8192cdda/header.jpg",
@@ -2716,12 +2763,6 @@
     ],
     "publishers": [
       "III SRISLE"
-    ],
-    "demos": [
-      {
-        "appid": 5191650,
-        "description": ""
-      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3205,7 +3246,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Something is standing in the wheat. Each time you see it, it's closer \u2014 and it isn't human. Your grandmother says you shouldn't have looked at it.",
-    "supported_languages": "English",
+    "supported_languages": "English, Japanese, Polish, Traditional Chinese, Simplified Chinese, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5134280/3b0f700c77c279743937061db247389c0da3ee47/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5134280/70fce4d4c2fcfce3f5b08005b1312a64ef826d53/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5134280/70fce4d4c2fcfce3f5b08005b1312a64ef826d53/capsule_184x69.jpg",
@@ -3365,9 +3406,9 @@
     ],
     "short_description": "A tiny idle RPG that keeps running in a corner of your desktop \u2014 even when it's just an icon. Rally washed-up retired monsters, push back the human invaders, and bring back their glory days!",
     "supported_languages": "English, French, German, Russian, Vietnamese, Spanish - Latin America, Ukrainian, Indonesian, Japanese, Simplified Chinese, Traditional Chinese, Thai, Turkish, Portuguese - Brazil, Polish, Korean",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135440/58cb777e64bb68e738b29cdb1e8cbb32a109b11d/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135440/ba7d38dd9ae2152c1f328c058042564820e464f6/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135440/ba7d38dd9ae2152c1f328c058042564820e464f6/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135440/402f182a99e6c754066d556afcc46637e8f27f75/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135440/75e0f9cadeb183eec798adf49990f31d27942ead/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135440/75e0f9cadeb183eec798adf49990f31d27942ead/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "detailgames"
@@ -3745,9 +3786,9 @@
     "is_free": false,
     "short_description": "ARCADE HALL 1980 \u2014 step into a neon-lit arcade at the turn of the eighties. Walk the aisle, watch the attract screens flicker, pick a cabinet and play. Six original arcade games under one glowing marquee: racing, shooting, bombing, breaking and digging \u2014 with more machines coming soon.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135100/d1cdeca9e6e97dc3f032f130166c309081bc2108/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135100/217d84da73154072a82ccaa52aa3f58597c94c39/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135100/217d84da73154072a82ccaa52aa3f58597c94c39/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135100/7c6ded8f622575581b9f5df22a8d3bc9c4989f1e/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135100/3817b37ce9113af5c2e1ed12732f93a1ac2f6405/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135100/3817b37ce9113af5c2e1ed12732f93a1ac2f6405/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "geertvd"
@@ -3755,7 +3796,19 @@
     "publishers": [
       "geertvd"
     ],
-    "package_groups": [],
+    "packages": [
+      1778473
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Arcade Hall 1980",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3774,15 +3827,15 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "16 Sep, 2026"
     },
     "support_info": {
       "url": "",
       "email": "geertvdmusic@gmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5135100",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135100/d5cea7c062e1c669b6ceca72c1a38a64a467f5af/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135100/b105ecddf66cc560778ef1de3ae028992745405c/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -3799,14 +3852,26 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135280/95d985dec57b402288aef96ef489182fb75775ce/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135280/ddf29217f08e55a92b74675d0befcad2dec52379/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135280/ddf29217f08e55a92b74675d0befcad2dec52379/capsule_184x69.jpg",
-    "website": "https://mammothclub.com",
+    "website": null,
     "developers": [
       "Mammoth Club"
     ],
     "publishers": [
       "Mammoth Club"
     ],
-    "package_groups": [],
+    "packages": [
+      1778530
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Maze Quest Odyssey",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3821,8 +3886,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "10 Sep, 2026"
+      "coming_soon": false,
+      "date": "16 Sep, 2026"
     },
     "support_info": {
       "url": "https://mammothclub.com/contact/",
@@ -3962,7 +4027,19 @@
     "publishers": [
       "JoyForge Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1778182
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Runner Gunner",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3984,8 +4061,11 @@
       1,
       4
     ],
+    "achievements": {
+      "total": 19
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "18 Sep, 2026"
     },
     "support_info": {
@@ -4145,6 +4225,10 @@
       23,
       25,
       28,
+      55,
+      56,
+      57,
+      58,
       59,
       62,
       74,
@@ -4265,7 +4349,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q4 2026"
+      "date": "12 Nov, 2026"
     },
     "support_info": {
       "url": "https://discord.gg/N8E5Yc72Ym",
@@ -4948,7 +5032,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "To be announced"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",

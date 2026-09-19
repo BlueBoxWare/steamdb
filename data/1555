@@ -1768,6 +1768,9 @@
     "steam_appid": 4666430,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5205480
+    ],
     "short_description": "Repetitive work in the metropolis pushed you to the limit. Vacation and grandfather's inheritance \u2014 a house in Gravewood. But the closer you get, the clearer: something is wrong. The road will be your first test. Meet strangers, explore locations, and be ready: silence is only a cover.",
     "supported_languages": "English, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666430/4ccb9d5bb6fc0fed52f0441d925213e193278041/header.jpg",
@@ -3118,7 +3121,7 @@
       "email": "abitatelier@qq.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4666770",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666770/8d3f2339e07086b5d9763abd597de6cf522a94c4/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666770/b2561bb0b2ef28a37df15660827c43f68ea7a8c0/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -3698,15 +3701,21 @@
     ],
     "short_description": "Can you survive the horror of being yourself? A cute and disturbing psychological horror about identity, isolation, and the terrifying reality of being different.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665880/65fd1964bb9dafebf8af77f13a6527e22748a0e3/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665880/26e20069943eb2dd9ea6e83668adcf54c9a6fd0b/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665880/26e20069943eb2dd9ea6e83668adcf54c9a6fd0b/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665880/6c504c3ea8a249bb33fc2e09989e7921c4fbe299/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665880/68c8ffd1321a8e915ef144c6065a0e6b2c7f9154/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665880/68c8ffd1321a8e915ef144c6065a0e6b2c7f9154/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Miss Self Destruct"
     ],
     "publishers": [
       "Miss Self Destruct"
+    ],
+    "demos": [
+      {
+        "appid": 4961750,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4008,7 +4017,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "2027"
     },
     "support_info": {
       "url": "http:www.wildpeppergames.com",
@@ -5294,7 +5303,7 @@
     "is_free": true,
     "short_description": "Free to play. A flashy, bizarre competitive TPS built around suitcases. Your suitcase is a shield that blocks bullets, a weapon to slam into enemies, a bomb to throw, and a ride to fly across the battlefield. Some agents' suitcases even spew fire and poison gas. Shoot. Defend. Throw. Fly.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Traditional Chinese, Japanese, Korean",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665640/79f709236511179d0cd492f80ab096bd0ed8e46e/header.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665640/e0cb2eddeefd89c8c34ff36393758873bf14e7e9/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665640/bd13ab4fe1937e2e0e53e62b564e5c150c2ce4a3/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665640/bd13ab4fe1937e2e0e53e62b564e5c150c2ce4a3/capsule_184x69.jpg",
     "website": null,
@@ -6148,7 +6157,7 @@
     "steam_appid": 4667330,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A game made by an independent developer. You somehow find yourself at an abandoned shrine. Strange anomalies begin to appear here. And there, you meet a girl\u2026 You must spend seven days with her.",
+    "short_description": "You suddenly find yourself at an abandoned shrine. Strange anomalies occur here, and you must determine whether the surroundings have changed to move on to the next time period. There, you meet a girl\u2026 You need to spend seven days with her.",
     "supported_languages": "English, Japanese<strong>*</strong>, Simplified Chinese, Traditional Chinese, Korean<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4667330/a6ddb22bebd3ec18180b33ed649821763eb3bbaf/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4667330/2ab79002c11ab6f100a1edd4df8671ac6c00a806/capsule_231x87.jpg",
@@ -6261,7 +6270,19 @@
     "publishers": [
       "DextericGames"
     ],
-    "package_groups": [],
+    "packages": [
+      1624568
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Lander",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6269,6 +6290,8 @@
     },
     "categories": [
       2,
+      22,
+      23,
       28,
       62
     ],
@@ -6276,9 +6299,12 @@
       9,
       23
     ],
+    "achievements": {
+      "total": 22
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "18 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -6484,7 +6510,7 @@
     "controller_support": "full",
     "short_description": "Beautiful Spores is a roguelike twin-stick shooter with lots of spells to dodge and upgrades to make sure your own spells hit back harder every time.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666490/80e12e152c763e830a0b910c669cce1370de7656/header.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666490/b051ecb3da9040a82016ef137f9ed61d712647df/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666490/c31e1cc91b7d0515a51533adc06314ff910aab00/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666490/c31e1cc91b7d0515a51533adc06314ff910aab00/capsule_184x69.jpg",
     "website": null,
@@ -6502,6 +6528,7 @@
     },
     "categories": [
       2,
+      22,
       28,
       55,
       56,

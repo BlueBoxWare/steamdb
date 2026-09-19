@@ -2132,7 +2132,7 @@
     "steam_appid": 4327290,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Gotogra is a tactical roguelike deckbuilder where positioning shapes the battlefield. Choose a weapon for each run and master its unique deck, playstyle, and mechanics. Ascend the dungeons of a cursed castle and uncover the dark veil that overshadows the realm.",
+    "short_description": "Gotogra is a roguelike deckbuilder with a strategic component. You need to build a strong deck with good synergies, but that's not enough: you also need to strategically reposition yourself inside the dungeon rooms. You can move objects and enemies, and you can even make enemies hurt each other.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4327290/6a9bd35d0649a45a723371092429c9987005637c/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4327290/60ff8493cfd5e3e54e3fe1ae32c2d9a91e94e00e/capsule_231x87.jpg",
@@ -5328,7 +5328,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -5347,7 +5347,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2027"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -6027,7 +6027,19 @@
     "publishers": [
       "Winning Streak Games GmbH"
     ],
-    "package_groups": [],
+    "packages": [
+      1513303
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy WE ARE FOOTBALL 2027",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6055,8 +6067,11 @@
       18,
       28
     ],
+    "achievements": {
+      "total": 100
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "16 Sep, 2026"
     },
     "support_info": {

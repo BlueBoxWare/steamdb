@@ -1739,7 +1739,8 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3560370/a67cacb1c64ea62ee150be027dc95cca71fe9d84/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Beyond the Bark"
+      "Beyond the Bark",
+      "Orr Games"
     ],
     "publishers": [
       "Beyond the Bark"
@@ -3777,6 +3778,7 @@
     "steam_appid": 3560110,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "After years in prison, you return to a dark megacity ruled by a ruthless corporation. The only way forward is up - through countless floors of a heavily guarded skyscraper - to reach the corporation's leader and take your revenge.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3560110/07a9684731a23039f2d8cbe80679ff0310ce34b4/header.jpg",
@@ -3810,6 +3812,11 @@
     "categories": [
       2,
       22,
+      28,
+      55,
+      56,
+      57,
+      58,
       62
     ],
     "genres": [
@@ -5194,7 +5201,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Store Life Simulator is a simulation and management game where you start with a small grocery store and have to expand it until you create a true business empire! Hire employees, manage your stock, serve customers and open new stores while facing the daily challenges of an entrepreneur.",
-    "supported_languages": "Portuguese - Brazil, Portuguese - Portugal, English, French, German, Spanish - Spain, Spanish - Latin America",
+    "supported_languages": "Portuguese - Brazil, English, French, German, Spanish - Spain",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3559060/f1213803867f78d026067d8b279d88ceeb2b918e/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3559060/eee6427a8a82eb0a50e825e079a43a9ff3b44fd9/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3559060/eee6427a8a82eb0a50e825e079a43a9ff3b44fd9/capsule_184x69.jpg",
@@ -5220,6 +5227,7 @@
     "categories": [
       2,
       22,
+      23,
       62,
       74,
       79
@@ -10909,7 +10917,7 @@
     "dlc": [
       5228420
     ],
-    "short_description": "OpenFront is an intense PvP battle-royale where hundreds clash on a vast map, forging alliances, amassing wealth, and unleashing nuclear strikes to dominate the world.",
+    "short_description": "A massively multiplayer real-time strategy game pitting hundreds of players against one another. Over one million nuke each other every month.",
     "supported_languages": "English, French, Bulgarian, Japanese, Russian, Ukrainian, German, Dutch, Croatian, Serbian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3560670/b33eddb983569a4b0b4ac6ba5a23554b3dc3755f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3560670/abceed7207978dbb610bf7ae303d7283cbb0f8d8/capsule_231x87.jpg",
@@ -10922,7 +10930,19 @@
     "publishers": [
       "OpenFront Inc"
     ],
-    "package_groups": [],
+    "packages": [
+      1256476
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy OpenFront",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -10947,7 +10967,7 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "17 Sep, 2026"
     },
     "support_info": {

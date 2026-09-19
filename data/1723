@@ -125,11 +125,14 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "A top-down action roguelike about turning simple builds into screen-filling chaos. Explore procedurally generated dungeons, collect weapons and items, stack powerful interactions, and fight through hordes of enemies solo or in local co-op.",
-    "supported_languages": "English, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169370/b79880f749186e41fa4e9b5eca25417e23b074ae/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169370/1867e54215394792178b3dd85a9eea73d27bdc13/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169370/1867e54215394792178b3dd85a9eea73d27bdc13/capsule_184x69.jpg",
+    "dlc": [
+      5232940
+    ],
+    "short_description": "Dungeon: Build Unbound is an action roguelite for solo play or local co-op with up to 4 players on one screen. Collect and upgrade items to chain splitting bullets, lasers and melee into wild builds against growing hordes. Clear the campaign, then keep building as Endless mode ramps up.",
+    "supported_languages": "English, Simplified Chinese, Russian, Japanese, Traditional Chinese, Portuguese - Brazil, Spanish - Latin America, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169370/dd00c264a1f91a8059f575d063545fcb51519e1e/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169370/30e5c0a344ce2be6dcaa028b2f99d62a779b15ff/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169370/30e5c0a344ce2be6dcaa028b2f99d62a779b15ff/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Infinity Build Game"
@@ -149,10 +152,8 @@
       9,
       24,
       28,
-      38,
       39,
       44,
-      48,
       62
     ],
     "genres": [
@@ -369,7 +370,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "A chaotic 8-player party game packed with wild physics, traps, and sabotage! No permanent eliminations\u2014bounce back and keep fighting. Shove friends, get ragdolled, earn every cosmetic through play, and take on a brand-new map every two weeks. No microtransactions. Only ONE can win!",
-    "supported_languages": "English",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Traditional Chinese, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169790/f578f5ac2ca171957d5d95e2d30ec80da5ba1af8/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169790/48e18b3c0a0fb6b034410ad4bca19f699906f608/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169790/48e18b3c0a0fb6b034410ad4bca19f699906f608/capsule_184x69.jpg",
@@ -607,8 +608,8 @@
     "steam_appid": 5170690,
     "required_age": 0,
     "is_free": false,
-    "short_description": "TECHFRONT is a sci-fi RTS with tens of thousands of units. Build bases and wage war across land, air, and sea using tanks, aircraft, fleets, submarines, nuclear missiles, and gigantic combat robots.",
-    "supported_languages": "English, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "short_description": "TECHFRONT is a sci-fi RTS featuring tens of thousands of units. Build bases and wage war across land, air, and sea using tanks, aircraft, fleets, submarines, nuclear missiles, and gigantic combat robots.",
+    "supported_languages": "English, Russian<strong>*</strong>, Spanish - Spain, French, Italian, German, Spanish - Latin America, Simplified Chinese, Polish, Portuguese - Portugal, Finnish, Portuguese - Brazil, Turkish, Korean<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5170690/052322c229ac4894187ed9931558b2b510633380/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5170690/2b416fd7f23aee1b1afd7f681be3d71d62fdaad8/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5170690/2b416fd7f23aee1b1afd7f681be3d71d62fdaad8/capsule_184x69.jpg",
@@ -1628,7 +1629,6 @@
       2,
       22,
       23,
-      25,
       28,
       62,
       68,
@@ -1713,7 +1713,8 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
-      5174550
+      5174550,
+      5246840
     ],
     "short_description": "Huh? This cloud looks like... something! What do you see in a randomly generated cloud? The drawer adds clues inside the cloud, while the other players try to guess the answer from as few clues as possible. Compete using your imagination and intuition in this online drawing quiz game.",
     "supported_languages": "English, Japanese, Korean, French, Italian, German, Spanish - Spain, Russian, Romanian, Vietnamese, Ukrainian, Simplified Chinese, Czech, Turkish, Portuguese - Brazil, Portuguese - Portugal, Polish, Hungarian",
@@ -1727,7 +1728,25 @@
     "publishers": [
       "GamJangJangi"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5174550,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1790192
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy That Cloud Looks Like",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1755,9 +1774,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 8
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "September 2026"
+      "coming_soon": false,
+      "date": "18 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -1809,6 +1831,7 @@
     "genres": [
       1,
       4,
+      23,
       28
     ],
     "release_date": {
@@ -1817,7 +1840,7 @@
     },
     "support_info": {
       "url": "https://nullhypothesis.inc/",
-      "email": "support@nullhypothesis.inc"
+      "email": ""
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5169690",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5169690",
@@ -2288,7 +2311,6 @@
     "steam_appid": 5169750,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "Personal Racing is an arcade/simulator racing game where you design your own tracks piece by piece and compete solo or with a friend in local split-screen mode.",
     "supported_languages": "English, Spanish - Spain",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169750/20438f3eb63f5368f96305f5dc1ae09f8ee57cdd/header.jpg",
@@ -2301,7 +2323,19 @@
     "publishers": [
       "D\u00eddac"
     ],
-    "package_groups": [],
+    "packages": [
+      1789516
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Personal Racing",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -2311,12 +2345,10 @@
       1,
       2,
       17,
+      18,
       24,
-      28,
       37,
       49,
-      55,
-      56,
       57,
       58,
       62,
@@ -2333,8 +2365,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "September 2026"
+      "coming_soon": false,
+      "date": "17 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -2780,7 +2812,19 @@
     "publishers": [
       "Hands of Song"
     ],
-    "package_groups": [],
+    "packages": [
+      1789930
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Pirouette & Smile",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2803,8 +2847,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "20 Sep, 2026"
+      "coming_soon": false,
+      "date": "19 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -2895,7 +2939,7 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": true
+      "linux": false
     },
     "categories": [
       2,
@@ -2993,9 +3037,9 @@
     "controller_support": "full",
     "short_description": "SWARMED is a fast-paced arena roguelite where you dual wield guns, mix ammo types, dodge hostile swarms, and stack upgrades into ridiculous builds. Survive all bosses in ~15 minute runs, then keep going in Endless Mode.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171900/009b0f2f0531ede6d448a0aa58943c03e543ca67/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171900/a8ae5932e39929fd21230092bde97e27f0320891/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171900/a8ae5932e39929fd21230092bde97e27f0320891/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171900/2835e4f1d1d75f6e265fc495976a5d01e85c0526/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171900/e4a5b8454a7173f6a609c771ea5f4c56a2621236/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171900/e4a5b8454a7173f6a609c771ea5f4c56a2621236/capsule_184x69.jpg",
     "website": "https://ironpint.games/swarmed/",
     "developers": [
       "Iron Pint Games"
@@ -3007,7 +3051,7 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
@@ -3026,7 +3070,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "28 Oct, 2026"
     },
     "support_info": {
       "url": "https://ironpint.games/contact/",
@@ -3047,7 +3091,7 @@
     "is_free": false,
     "short_description": "A vengeful ex-cop slices, shoots, and grapples his way through mob-controlled streets to disarm a bomb and save the mayor and city hall before the clock runs out.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171920/1ff354d2fa25c1e424ed13578c5a9c1e56e36b26/header.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171920/39654b23cb9acec3d10f96e5176c5c508341b406/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171920/3b7cd2cce7dca2b2556fcc77630d03f4ad6549af/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171920/3b7cd2cce7dca2b2556fcc77630d03f4ad6549af/capsule_184x69.jpg",
     "website": null,
@@ -3099,7 +3143,7 @@
       5211420
     ],
     "short_description": "DEBTBOUND: Never Unplug is a FPS roguelite where you\u2019ll fight waves of enemies while building your upgrade deck, discovering new items, and exploring procedurally generated maps. Your weapon can also mutate into different combat styles.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Spanish - Spain<strong>*</strong>, Spanish - Latin America<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171720/43668b3c00b55444d2e1d9b4195872f1e2c36b30/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171720/566cd5d1234a7ce3c5bc9601c721b11a735e9c83/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171720/566cd5d1234a7ce3c5bc9601c721b11a735e9c83/capsule_184x69.jpg",
@@ -3489,7 +3533,7 @@
     "steam_appid": 5170760,
     "required_age": 0,
     "is_free": false,
-    "short_description": "The CodeJacker DLC is a reimplementation of the unreleased Terminal Insanity: CodeJacker, a game about competitive programming. It includes a vim-compatible editor, challenges, multiplayer, and an educational campaign",
+    "short_description": "The CodeJacker DLC is a reimplementation of the unreleased Terminal Insanity: CodeJacker, a game about competitive programming. It includes a Vim-compatible editor, challenges, multiplayer, and an educational campaign.",
     "fullgame": {
       "appid": "4898790",
       "name": "Crosstalk"
@@ -3972,8 +4016,8 @@
     "short_description": "Scavenge scrap, upgrade your base, hire survivors, and clear zombie-infested zones in Deadzone Cleanup Crew, a click-to-clear apocalypse incremental game with escalating waves, bosses, and big satisfying numbers!",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Polish, Portuguese - Brazil, Russian, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171580/885a2f53232e7c698aec3e27029e3aa6ce5b1408/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171580/1059a0664c741fe07dc663c931c64b155c216cd5/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171580/1059a0664c741fe07dc663c931c64b155c216cd5/capsule_184x69.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171580/d7f57fdcbdc67b2d09d200785f2671c21737fd75/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171580/d7f57fdcbdc67b2d09d200785f2671c21737fd75/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Salt Mines Studios"
@@ -4186,7 +4230,7 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169780/9ca173855a254162344c474c1e999dc0778a5d7d/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169780/7e0f393a58a118870726f214ceb7b0b093a268f9/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169780/7e0f393a58a118870726f214ceb7b0b093a268f9/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://www.downtownblast.com/",
     "developers": [
       "Downtown Blast"
     ],
@@ -4248,7 +4292,7 @@
     "platforms": {
       "windows": true,
       "mac": true,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,

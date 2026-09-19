@@ -71,7 +71,7 @@
     "required_age": 0,
     "is_free": true,
     "short_description": "Tear through waves of doodle enemies in a fast-paced FPS where the Pencil, Stapler, and Paintbrush are your weapons. Keep moving, chain kills, and finish stunned enemies by tearing them apart.",
-    "supported_languages": "English, Spanish - Spain, Portuguese - Brazil, Russian, Spanish - Latin America, Turkish",
+    "supported_languages": "English, Spanish - Spain, Portuguese - Brazil, Russian, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4632380/62e1035b9485eba429ad0e5c4b396f341d901218/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4632380/195c1643cdf9367359af127ab0559636f97af27c/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4632380/195c1643cdf9367359af127ab0559636f97af27c/capsule_184x69.jpg",
@@ -198,7 +198,7 @@
       4918240,
       5107400
     ],
-    "short_description": "A psychedelic hyper-speed racer with no speed limit and no brakes. Dodge, graze, and boost around a rotating cosmic cylinder where runs last 30 seconds and death is instant. Chase world records, race ghost replays, or play with 7 friends.",
+    "short_description": "A psychedelic hyper-speed racer with no speed limit and no brakes. Dodge, graze, and boost around a rotating cosmic cylinder where runs last 30 seconds and death is instant. Chase world records, race ghost replays, or play with up to 7 friends.",
     "supported_languages": "English, Simplified Chinese, Japanese, Polish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4633120/ddac3656d68a257db94b27cf282aa8f48ff0f347/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4633120/7bffbfd4a36d27d32985c5a9422a6fcef60abbd3/capsule_231x87.jpg",
@@ -2114,6 +2114,9 @@
     "steam_appid": 4634570,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5195830
+    ],
     "short_description": "An idle game that grows as it lives on your desktop. Fill the grid, collect the stamps, pet the nautilus, and uncover the forgotten secrets of productivity.",
     "supported_languages": "English, Simplified Chinese, French, Japanese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634570/725f6e23ccfdad1db9ce0f084f29ff728639bb15/header.jpg",
@@ -2130,7 +2133,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": true
     },
     "categories": [
@@ -6313,7 +6316,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2 Oct, 2026"
+      "date": "12 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -6518,7 +6521,7 @@
   },
   "4632780": {
     "type": "game",
-    "name": "Red Life: Soviet Village Simulator",
+    "name": "Red Life",
     "steam_appid": 4632780,
     "required_age": 0,
     "is_free": false,
@@ -7252,7 +7255,19 @@
     "publishers": [
       "Dayless Doves"
     ],
-    "package_groups": [],
+    "packages": [
+      1613894
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Petrichor: Reverie Edition",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7273,8 +7288,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 13
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "18 Sep, 2026"
     },
     "support_info": {
@@ -7719,6 +7737,7 @@
       2,
       18,
       22,
+      25,
       62,
       75
     ],
