@@ -8,8 +8,9 @@ import os
 import re
 import sys
 import time
-import urllib.request
 from collections import defaultdict
+from urllib.error import HTTPError
+import urllib.request
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Callable
@@ -392,14 +393,17 @@ for index, appid in enumerate(queue):
         try:
             response = urllib.request.urlopen(req)
             break
-        except Exception:
-            progress(f"Error fetching {appid}")
-            sleep(BACKOFF[retry])
-            retry = retry + 1
-            if retry >= len(BACKOFF):
-                error("Too many failures. Aborting.\n")
-                save()
-                sys.exit(1)
+        except Exception as e:
+            if e is HTTPError and e.code == 500:
+                progress(f"Error fetching {appid}: status code 500")
+            else:
+                progress(f"Error fetching {appid}")
+                sleep(BACKOFF[retry])
+                retry = retry + 1
+                if retry >= len(BACKOFF):
+                    error("Too many failures. Aborting.\n")
+                    save()
+                    sys.exit(1)
 
     text = ""
     if response:
