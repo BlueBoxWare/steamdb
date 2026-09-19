@@ -394,8 +394,9 @@ for index, appid in enumerate(queue):
             response = urllib.request.urlopen(req)
             break
         except Exception as e:
-            if e is HTTPError and e.code == 500:
+            if isinstance(e, HTTPError) and e.code == 500:
                 progress(f"Error fetching {appid}: status code 500")
+                break
             else:
                 progress(f"Error fetching {appid}")
                 sleep(BACKOFF[retry])
