@@ -302,7 +302,7 @@
     "required_age": 0,
     "is_free": true,
     "short_description": "A fast-paced FPS inspired by the classics of the genre. Take on hordes of monsters, master an arsenal tailored to each threat, uncover secrets and climb the global leaderboards for high scores and speedruns.",
-    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Simplified Chinese, Traditional Chinese, Korean, Danish, Spanish - Latin America, Finnish, Greek, Hungarian, Indonesian, Japanese, Malay, Norwegian, Dutch, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Swedish, Czech, Thai, Turkish, Ukrainian, Vietnamese<br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Simplified Chinese, Traditional Chinese, Korean, Danish, Spanish - Latin America, Finnish, Greek, Hungarian, Indonesian, Japanese, Malay, Norwegian, Dutch, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Swedish, Czech, Thai, Turkish, Ukrainian, Vietnamese, Afrikaans, Albanian, Amharic, Armenian, Assamese, Azerbaijani, Basque, Bangla, Belarusian, Bosnian, Catalan, Cherokee, Croatian, Dari, Estonian, Filipino, Galician, Welsh, Gujarati, Georgian, Hausa, Hindi, Hebrew, Igbo, Irish, Icelandic, K'iche', Kannada, Kazakh, Khmer, Kyrgyz, Konkani, Latvian, Lithuanian, Luxembourgish, Macedonian, Malayalam, Maltese, Maori, Marathi, Mongolian, Nepali, Odia, Urdu, Uzbek, Uyghur, Punjabi (Gurmukhi), Punjabi (Shahmukhi), Persian, Quechua, Kinyarwanda, Serbian, Sindhi, Sinhala, Slovak, Slovenian, Sorani, Sotho, Swahili, Tajik, Tamil, Tatar, Tigrinya, Tswana, Turkmen, Telugu, Valencian, Wolof, Xhosa, Yoruba, Zulu, Scots<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5010120/83dabea1b9f76eede925cb29e991a7fd68b5883f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5010120/d3caf2f596ff2d20152e164ee752de9d35547282/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5010120/d3caf2f596ff2d20152e164ee752de9d35547282/capsule_184x69.jpg",
@@ -338,8 +338,8 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "19 Sep, 2026"
     },
     "support_info": {
       "url": "https://discord.gg/MePD8XraV",
@@ -903,6 +903,9 @@
     "steam_appid": 5012330,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5147630
+    ],
     "short_description": "Wreckcore is an open-world physics sandbox. Crumple real sheet metal, blast bodies off their feet, outrun the police through two towns \u2014 every dent, shattered window and flying ragdoll comes from simulation, not scripts. Steal a V8, crank the radio, and see how much chaos physics can take.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5012330/763a030d2e2ad3027d8570a066167c5ea015fb09/header.jpg",
@@ -915,7 +918,25 @@
     "publishers": [
       "Filip Suta"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5147630,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1738409
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Wreckcore",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -936,8 +957,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "19 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -5544,7 +5565,8 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
-      5012360
+      5012360,
+      5228410
     ],
     "short_description": "CHUM Fishing is a cooperative multiplayer horror fishing game. As alien caretakers assigned to these terrifying waters, you and your friends must catch enough monstrous fish to feed the unknown beings lurking beneath the surface. But their appetites grow larger with each passing day.",
     "supported_languages": "English, Simplified Chinese, Russian, Japanese, Traditional Chinese, Korean",
@@ -5557,6 +5579,12 @@
     ],
     "publishers": [
       "Village Games"
+    ],
+    "demos": [
+      {
+        "appid": 5228410,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
