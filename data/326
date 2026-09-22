@@ -9886,7 +9886,7 @@
     "name": "Allied Nations",
     "steam_appid": 979300,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "Allied Nations is an primarily online RPG/RTS akin to games such as Dwarf Fortress and the more modern RimWorld. You are able to easily manage units, wage war, build and roleplay. Through your own wit, might, or sheer luck can you survive this experience? Probably not but give it your best try!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/979300/header.jpg",
@@ -9901,7 +9901,19 @@
       "Alex Cooper",
       "OpenACAI Inc"
     ],
-    "package_groups": [],
+    "packages": [
+      1831114
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Allied Nations",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -9915,7 +9927,8 @@
       38,
       47,
       48,
-      49
+      49,
+      62
     ],
     "genres": [
       2,
@@ -9923,7 +9936,6 @@
       23,
       28,
       29,
-      37,
       70
     ],
     "release_date": {

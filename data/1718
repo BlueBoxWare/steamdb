@@ -1133,9 +1133,9 @@
     "is_free": false,
     "short_description": "Build your transport empire in a retro-inspired strategy game. Lay railways and roads, connect cities and industries, manage trains and vehicles, optimize logistics, and grow a thriving economy.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155330/4ffd54a34caf81770769d8ada7f6b3476bd08801/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155330/f3c96d5982a5386562fdbcb225e9f6288b009065/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155330/f3c96d5982a5386562fdbcb225e9f6288b009065/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155330/940af7ac64aed67f66a39e1e008482adfca7985b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155330/edbcfa2cb4535b3306e3fe6070dd04771db3ed67/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155330/edbcfa2cb4535b3306e3fe6070dd04771db3ed67/capsule_184x69.jpg",
     "website": "https://indicatrixstudio.github.io/",
     "developers": [
       "Martin Timothy Timko"
@@ -1179,7 +1179,7 @@
       "email": "martin-timko@outlook.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5155330",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155330/22b2cad132b689ba1205617c2693703664260667/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155330/e31b6441881650a53537cc533ff7d9bf4aba9e35/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -1191,8 +1191,11 @@
     "steam_appid": 5155680,
     "required_age": 0,
     "is_free": false,
-    "short_description": "The classic pen-and-paper game of Dots \u2014 place dots, close the loop around your opponent's, claim territory \u2014 now against a neural network that taught itself from scratch over millions of self-play games and beats its own creator. Grow from beginner to master. Any board size, local 2-player.",
-    "supported_languages": "English, Russian",
+    "dlc": [
+      5266190
+    ],
+    "short_description": "The classic pen-and-paper game of Dots \u2014 place dots, close the loop around your opponent's, claim territory \u2014 now against a neural network that taught itself from scratch and beats its own creator. Grow from beginner to master. Any board size, local 2-player.",
+    "supported_languages": "English, Russian, Polish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155680/5d7ce3492a6b9eed66d44a88fa45ba3eb9cc3d44/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155680/1aed323c0827f7fb1d3f8a96924c732e9806961a/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155680/1aed323c0827f7fb1d3f8a96924c732e9806961a/capsule_184x69.jpg",
@@ -1202,6 +1205,12 @@
     ],
     "publishers": [
       "Little Cow"
+    ],
+    "demos": [
+      {
+        "appid": 5266190,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -1215,7 +1224,11 @@
       24,
       37,
       49,
-      62
+      62,
+      68,
+      76,
+      78,
+      80
     ],
     "genres": [
       2,
@@ -1416,7 +1429,7 @@
       "Benji Plus"
     ],
     "publishers": [
-      "Forgotten Comics"
+      "Shadow Lantern Studios"
     ],
     "package_groups": [],
     "platforms": {
@@ -3444,7 +3457,19 @@
     "publishers": [
       "FR Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1785337
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Packet Plague",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3468,8 +3493,11 @@
       1,
       23
     ],
+    "achievements": {
+      "total": 70
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "21 Sep, 2026"
     },
     "support_info": {

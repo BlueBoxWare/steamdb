@@ -237,6 +237,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      5275510
+    ],
     "short_description": "Turn-based tactics on pure elastic billiard physics. One impulse per turn, then everything collides: your pieces, theirs, the furniture. You don't aim at an enemy, you aim at a chain. The sim is fully deterministic, so every turn is a geometry problem \u2014 knowable, not lucky.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5240710/8fbb07e21ad34e894699f024dfd881e06631a076/header.jpg",
@@ -248,6 +251,12 @@
     ],
     "publishers": [
       "7 Towers Soft Games"
+    ],
+    "demos": [
+      {
+        "appid": 5275510,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -261,7 +270,12 @@
       23,
       25,
       28,
-      62
+      62,
+      68,
+      74,
+      75,
+      79,
+      80
     ],
     "genres": [
       2,
@@ -1751,9 +1765,9 @@
     "is_free": false,
     "short_description": "How to Chemistry is a first-person co-op chemistry simulator, where you run your own lab with no safety regulations. Get an order, use your chemistry skills and deliver.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238660/7c7f6debb49643f062251ddcfc5d21d14c824d4f/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238660/a4f2dde9452501236ec0918ffe69f4a32a9e775f/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238660/a4f2dde9452501236ec0918ffe69f4a32a9e775f/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238660/ee334b3e06a057cadf247d22be6986e2edc19462/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238660/f2bdf597eb96e2e3d5befbbd82692c76e6d1e0c6/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238660/f2bdf597eb96e2e3d5befbbd82692c76e6d1e0c6/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "maxdev"
@@ -2391,9 +2405,9 @@
     ],
     "short_description": "A living 2D fantasy sandbox where you're one resident, not its ruler. Gather supplies, commission gear, rescue captives and face dragons and giant skeletons. Villagers and monsters act on their own. With the Demon King's assault coming on day seven, whose fate will you change?",
     "supported_languages": "Japanese, English, French, German, Spanish - Spain, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Korean",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5240720/a7cb73679ac02d6ae97526032f0af5c1b6f41b81/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5240720/f54ae3e3d26a4d019ca71c0cf096090667015022/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5240720/f54ae3e3d26a4d019ca71c0cf096090667015022/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5240720/af00ef64da5cc1e7cbf6b3c29d6b1d0e271726a2/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5240720/87dce89306c769b4dd220995f2d906cb6e894cdb/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5240720/87dce89306c769b4dd220995f2d906cb6e894cdb/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "kumashin"
@@ -2487,6 +2501,307 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "5238110": {
+    "type": "game",
+    "name": "Roll N' Rage",
+    "steam_appid": 5238110,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A difficult physics-based platforming game about a golf ball's journey home. Roll, fall, rage, repeat... or quit. It's up to you.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238110/508f5c88a0ca1b8d56ac6a7b21407a483c360632/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238110/1f2fb91118fdb9bfa6ad2db946325c6daf17be76/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238110/1f2fb91118fdb9bfa6ad2db946325c6daf17be76/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Mid Net Games"
+    ],
+    "publishers": [
+      "Mid Net Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      18,
+      55,
+      56,
+      57,
+      58,
+      62,
+      67,
+      68,
+      69,
+      70,
+      74
+    ],
+    "genres": [
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q4 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "contact@midnetgames.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5238110",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238110/2dde256b47c07c0d4574b4c6a2b6af603248c11b/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5238350": {
+    "type": "dlc",
+    "name": "Forbidden Solitaire: The Discarded",
+    "steam_appid": 5238350,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "It's 2020. Robyn Cierra excavates hidden files within the remnants of a cursed 1995 CD-ROM. A bizarre graveyard of scrapped content lies entombed, deep within the code. You thought your sister was beyond saving. Until now.",
+    "fullgame": {
+      "appid": "3414580",
+      "name": "Forbidden Solitaire"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238350/d51f77312f5c57d27b750aafe97a9c026b395944/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238350/e1a82d1a561dc0ebd72a2bc1ae28174630220170/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238350/e1a82d1a561dc0ebd72a2bc1ae28174630220170/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Grey Alien Games",
+      "Night Signal Entertainment"
+    ],
+    "publishers": [
+      "Night Signal Entertainment",
+      "Grey Alien Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      23,
+      62,
+      64,
+      65,
+      67,
+      68,
+      74,
+      76,
+      77,
+      80
+    ],
+    "genres": [
+      2,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "October 2026"
+    },
+    "support_info": {
+      "url": "https://www.greyaliengames.com/",
+      "email": "info@greyaliengames.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5238350",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5238350",
+    "content_descriptors": {
+      "ids": [
+        1,
+        2,
+        5
+      ],
+      "notes": "Frequent Violence, Blood and Gore, Contains Suicide Depictions, Strong Language. A Content Warning document with more details is available under 'Guides'."
+    }
+  },
+  "5238680": {
+    "type": "game",
+    "name": "VoxPrinceps: The Political Game",
+    "steam_appid": 5238680,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Read the question. Read the electorate. Choose your answer before time runs out. VoxPrinceps is a political narrative-decision game where every debate can swing state support and your opponent gets a chance to swing it back.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Simplified Chinese, Traditional Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238680/0f68cb66eeddb63713ca16be009f3f6540353f07/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238680/a1834922510129a6ef0ae06dd9afc6efc8174f73/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238680/a1834922510129a6ef0ae06dd9afc6efc8174f73/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Magnus et Epicus LLC"
+    ],
+    "publishers": [
+      "Magnus et Epicus LLC"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      28,
+      55,
+      62,
+      66,
+      68,
+      74,
+      75,
+      76,
+      77,
+      79
+    ],
+    "genres": [
+      2
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "21 Oct, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support@magnusetepicus.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5238680",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238680/7dfd68d67afd855a0da3132322ff94150ba12df7/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5240850": {
+    "type": "dlc",
+    "name": "SimRail - The Railway Simulator: BR 285",
+    "steam_appid": 5240850,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "The BR 285 is the diesel version of the TRAXX: 2200 kW, electric traction on the bogies, 140 km/h and 4000 litres of fuel for long runs without refuelling. It pulls away from a standstill with a 3000-tonne train. Can you put 3000 mechanical horses roaring behind your back to good use?",
+    "fullgame": {
+      "appid": "1422130",
+      "name": "SimRail - The Railway Simulator"
+    },
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Polish<strong>*</strong>, Czech, Simplified Chinese, Russian, Hungarian, Traditional Chinese, Ukrainian<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5240850/646116143c9de88461a54815ad33763cc842840a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5240850/799573a10eb57919f9b3e28fc2bf6976a6d25cf7/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5240850/799573a10eb57919f9b3e28fc2bf6976a6d25cf7/capsule_184x69.jpg",
+    "website": "https://www.facebook.com/simrail2021/",
+    "developers": [
+      "SimRail S.A."
+    ],
+    "publishers": [
+      "PlayWay S.A."
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      15,
+      21,
+      22,
+      28,
+      30,
+      38,
+      62,
+      68,
+      69
+    ],
+    "genres": [
+      4,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "29 Sep, 2026"
+    },
+    "support_info": {
+      "url": "https://forum.simrail.eu/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5240850",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5240850/b5077bd470214c392c71bca0ee0d58ea2f31cc08/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5240880": {
+    "type": "dlc",
+    "name": "Love and Sex: Second Base - Cupid's game",
+    "steam_appid": 5240880,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Play matchmaker instead of Casanova. Cupid's Game adds eight new story arcs to Love &amp; Sex: Second Base, where you help the people around you reconcile with an ex, save a marriage, or finally say yes. Get them to the altar, or fumble it and watch it all fall apart.",
+    "fullgame": {
+      "appid": "1264710",
+      "name": "Love and Sex: Second Base"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5240880/ffbd48fac0bd5ec231f10da6c5ad461e5f65ce62/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5240880/66563e33698213abb98d1f469f43d29a639793d0/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5240880/66563e33698213abb98d1f469f43d29a639793d0/capsule_184x69.jpg",
+    "website": "https://www.andrealphusgames.com/games/love_and_sex-second_base",
+    "developers": [
+      "Andrealphus Games"
+    ],
+    "publishers": [
+      "Andrealphus Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      23,
+      62
+    ],
+    "genres": [
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://discord.gg/PT6VxWQ",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5240880",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5240880",
+    "content_descriptors": {
+      "ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "notes": "Frequent explicit sexual content, nudity, and adult language. All characters are adults."
     }
   }
 }
