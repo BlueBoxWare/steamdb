@@ -2544,7 +2544,7 @@
   },
   "4459930": {
     "type": "game",
-    "name": "The Aether Project",
+    "name": "The Aether Project TD",
     "steam_appid": 4459930,
     "required_age": 0,
     "is_free": false,
@@ -8909,7 +8909,19 @@
     "publishers": [
       "bulanke"
     ],
-    "package_groups": [],
+    "packages": [
+      1556706
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy FullSend",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8931,9 +8943,12 @@
       4,
       25
     ],
+    "achievements": {
+      "total": 6
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "22 Sep, 2026"
     },
     "support_info": {
       "url": "",

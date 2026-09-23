@@ -9194,7 +9194,7 @@
     "name": "Sputnika Game",
     "steam_appid": 2730270,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "controller_support": "full",
     "short_description": "A Cosmic twist on a Suika-style game with space gravity. Help our little friend Sputnik on his journey to become the Sun.",
     "supported_languages": "English<strong>*</strong>, Korean<strong>*</strong>, Japanese<strong>*</strong><br><strong>*</strong>languages with full audio support",
@@ -9208,7 +9208,19 @@
     "publishers": [
       "egunan"
     ],
-    "package_groups": [],
+    "packages": [
+      1784788
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Sputnika Game",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -9223,8 +9235,7 @@
     "genres": [
       2,
       4,
-      23,
-      37
+      23
     ],
     "achievements": {
       "total": 26
