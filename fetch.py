@@ -419,7 +419,6 @@ for index, appid in enumerate(queue):
         data = json_obj[str(appid)]["data"]
     except KeyError:
         progress(f"E: {appid}", end="")
-        print(text)
         state[appid] = timestamp
         error_count = error_count + 1
         sleep(args.sleep)
