@@ -302,9 +302,9 @@
     "controller_support": "full",
     "short_description": "Join Noctus in a top-down action-adventure and wield the power of the moon as you explore, fight the darkness, restore lost souls, and bring life back to the land.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Simplified Chinese<strong>*</strong>, Korean<strong>*</strong>, Japanese<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5082590/ae66098288994f7f88cf04b71b534285fdae567b/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5082590/ef3b274e99fee278519991cff90e40289ba9b0fb/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5082590/ef3b274e99fee278519991cff90e40289ba9b0fb/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5082590/60403fa1096d64cd24ef9b5745f05691e77d1c6b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5082590/7873c20c24ed4ef368309a8334b9d47c6487d982/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5082590/7873c20c24ed4ef368309a8334b9d47c6487d982/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Questfinity"
@@ -365,7 +365,7 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5082620/380c66ed31d47d3dd3fa6ae1475778083076d11c/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5082620/39a5b69cf6fc21fd3958d3a820c53b877763f69d/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5082620/39a5b69cf6fc21fd3958d3a820c53b877763f69d/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://lessprep.org/games",
     "developers": [
       "LackToesNTolerant"
     ],
@@ -902,6 +902,9 @@
     "steam_appid": 5083610,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5271690
+    ],
     "short_description": "Grand Snow Rider is an open-world action-adventure simulator. Clear snow-covered roads, find abandoned vehicles and their missing keys, fight off troublemakers in snowball battles, and bring the cars back to safety. Use snow-clearing machinery and unusual gadgets as the storm grows stronger.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5083610/6e586bbfd0fbb2ecd3c1e2845a3d3fe43c07bab5/header.jpg",
@@ -914,6 +917,12 @@
     "publishers": [
       "DASH"
     ],
+    "demos": [
+      {
+        "appid": 5271690,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -922,7 +931,12 @@
     },
     "categories": [
       2,
-      62
+      62,
+      68,
+      74,
+      78,
+      79,
+      80
     ],
     "genres": [
       1,
@@ -4177,7 +4191,19 @@
     "publishers": [
       " DAEKYUNG"
     ],
-    "package_groups": [],
+    "packages": [
+      1761506
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Coin Rush",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4194,8 +4220,8 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "23 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -4214,7 +4240,7 @@
     "steam_appid": 5083650,
     "required_age": 0,
     "is_free": false,
-    "short_description": "100% local AI semantic image search. Type &quot;sunset by the sea&quot; and instantly find that picture among thousands \u2014 no filenames, no tags, no internet. All AI models built in. Image-to-image search, video search &amp; AI re-ranking included. Your library never leaves your PC.",
+    "short_description": "100% local AI semantic search for images AND videos. Type &quot;sunset by the sea&quot; and find that picture instantly; deep video analysis takes you to the exact moment. Supports iPhone HEIC, camera RAW and 20+ video formats. All AI models built in, no internet \u2014 your library never leaves your PC.",
     "supported_languages": "English, Simplified Chinese, French, Italian, German, Spanish - Spain, Russian, Japanese, Traditional Chinese, Portuguese - Brazil, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5083650/e9856ae7b2496664cdcc1e6ad9da4ae3c10ea070/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5083650/1348c2b5231d570091539feb71a8aafc7bc76ef3/capsule_231x87.jpg",
@@ -4982,17 +5008,18 @@
     "steam_appid": 5084240,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A turn-based hex wargame on the 1935 Four Crossings campaign. Command 30,000 Red Army troops through 100 daily turns: scout, decrypt enemy telegrams, cross rivers under fog, deceive pursuers with fake radio orders, break out via one of three routes.",
+    "controller_support": "full",
+    "short_description": "A turn-based hex wargame on the 1935 Four Crossings campaign. Command 30,000 Red Army troops through 100+ daily turns: scout, decrypt enemy telegrams, cross rivers under fog, deceive pursuers with fake radio orders, break out via one of three routes.",
     "supported_languages": "Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, English<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5084240/f3d74edd4bd8cd3e71b9d626c25f52406d4d49c1/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5084240/08b9e00017775cb317172afb09ca9efa636f3ef9/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5084240/08b9e00017775cb317172afb09ca9efa636f3ef9/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Han"
+      "HanStudio"
     ],
     "publishers": [
-      "Han"
+      "HanStudio"
     ],
     "package_groups": [],
     "platforms": {
@@ -5004,6 +5031,7 @@
       2,
       22,
       23,
+      28,
       62,
       68,
       74,

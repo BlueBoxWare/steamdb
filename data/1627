@@ -23,8 +23,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -4146,7 +4146,19 @@
     "publishers": [
       "NewAngleStudio"
     ],
-    "package_groups": [],
+    "packages": [
+      1694791
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy OneManArmy : the rise of power",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4163,8 +4175,8 @@
       1
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "24 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -4621,9 +4633,9 @@
     "is_free": false,
     "short_description": "A first-person narrative resource management game where you gamble with your son's organs to survive. Pay your debts, manage your home, and decide how much of your family you're willing to sacrifice.",
     "supported_languages": "English, Spanish - Latin America",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4882480/074152b85825e78fab3b77ce8c21f0f1426898e6/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4882480/279f33fd000211ad731a144d73129f473ea4e865/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4882480/279f33fd000211ad731a144d73129f473ea4e865/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4882480/ff72e00ff9b819ec14d197beed0a18a24e18b815/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4882480/7779c23e71cbdcfbb8438ae42da180adb6225184/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4882480/7779c23e71cbdcfbb8438ae42da180adb6225184/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "SIPUN"
@@ -6457,6 +6469,7 @@
       1,
       2,
       9,
+      20,
       28,
       35,
       38,
@@ -6593,6 +6606,58 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "4881750": {
+    "type": "game",
+    "name": "Voxel Keeper",
+    "steam_appid": 4881750,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Voxel Keeper takes the dark and gritty foundations of classic dungeon management and rebuilds them inside a fully 3D voxel world.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4881750/4aa3a855a935007729fd0ab99d79d784d3554f2f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4881750/c7025e241195840e5a9781fe47a4ed02916430be/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4881750/c7025e241195840e5a9781fe47a4ed02916430be/capsule_184x69.jpg",
+    "website": "https://www.voxelkeeper.com/",
+    "developers": [
+      "PARANOMALOUS"
+    ],
+    "publishers": [
+      "PARANOMALOUS"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      68,
+      74,
+      79
+    ],
+    "genres": [
+      2
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "contact@paranomalous.co.uk"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4881750",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4881750",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "Features torturing, emprisonment and death animations with gore."
     }
   }
 }

@@ -8426,7 +8426,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": true
     },
     "categories": [
@@ -10834,6 +10834,8 @@
       23,
       25,
       28,
+      55,
+      57,
       62,
       68,
       69,
@@ -13690,7 +13692,19 @@
     "publishers": [
       "Crevasse"
     ],
-    "package_groups": [],
+    "packages": [
+      1280204
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Log Defense",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13711,11 +13725,12 @@
     "genres": [
       2,
       4,
+      23,
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q3 2026"
+      "coming_soon": false,
+      "date": "23 Sep, 2026"
     },
     "support_info": {
       "url": "https://www.threads.net/@gameblit?hl=ko",
