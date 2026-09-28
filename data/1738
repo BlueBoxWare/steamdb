@@ -1154,7 +1154,10 @@
     "steam_appid": 5214410,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Make your local collection a media platform of your own. Enjoy videos, audio, books, images and games, with dedicated players and viewers, automatic tags, search and recommendations. Organize your favorites and play scripts independently or in sync with media. Compatible hardware is optional.",
+    "dlc": [
+      5277050
+    ],
+    "short_description": "Turn your local files into a media platform of your own. Videos, music, audio works, books, images and games in one place \u2014 rediscovered through automatic tags, search and recommendations. Play funscripts on their own or in sync with media. Optional hardware support; a complete player without it.",
     "supported_languages": "English, Japanese, Korean, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5214410/92df4ece265bc2fa1b8019dde7361feef7dd2e02/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5214410/7684087dd42f2cb23e2c148c5718f0c5b7c6a056/capsule_231x87.jpg",
@@ -1166,7 +1169,25 @@
     "publishers": [
       "Golden Goblin Studio"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5277050,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1804019
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Golden Goblin Player",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1187,8 +1208,8 @@
       57
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "September 2026"
+      "coming_soon": false,
+      "date": "26 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -1611,6 +1632,10 @@
     "steam_appid": 5216470,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
+    "dlc": [
+      5273890
+    ],
     "short_description": "Pinball meets Platforming! Control both your ball and the environment to launch, bounce, and swing your way through electrifying neon environments. Master a satisfying momentum-forward movement system to blast through stages and go for the almighty S Rank.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5216470/0f5e1a031af3fa89d0dd89952bb45b847f886481/header.jpg",
@@ -1623,6 +1648,12 @@
     "publishers": [
       "Full Clear Ltd."
     ],
+    "demos": [
+      {
+        "appid": 5273890,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -1631,7 +1662,11 @@
     },
     "categories": [
       2,
-      18,
+      28,
+      55,
+      56,
+      57,
+      58,
       60,
       62,
       68,
@@ -1644,7 +1679,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q1 2027"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -1942,17 +1977,26 @@
     "steam_appid": 5214250,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5242960
+    ],
     "short_description": "Click the Download upgrade your skills to multiply your speed, and conquer every game out there. Become the fastest downloader alive.",
-    "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5214250/366c6949f441c4c6417553cbc72dc9cb5d45aa26/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5214250/688e423957a3280639a81f77857a841eff656229/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5214250/688e423957a3280639a81f77857a841eff656229/capsule_184x69.jpg",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Simplified Chinese, Portuguese - Brazil, Bulgarian, Danish, Indonesian, Dutch, Finnish, Traditional Chinese, Japanese, Korean, Spanish - Latin America, Polish, Hungarian, Malay, Norwegian, Portuguese - Portugal, Romanian, Russian, Thai, Turkish, Ukrainian, Vietnamese, Greek, Czech, Swedish, Afrikaans, Amharic, Albanian, Assamese, Azerbaijani, Bangla, Basque, Belarusian, Bosnian, Dari, Armenian, Estonian, Persian, Filipino, Welsh, Galician, Gujarati, Georgian, Hausa, Hindi, Croatian, Kannada, Catalan, Kazakh, Quechua, K'iche', Khmer, Konkani, Kyrgyz, Latvian, Lithuanian, Luxembourgish, Macedonian, Malayalam, Maltese, Maori, Marathi, Mongolian, Nepali, Odia, Punjabi (Gurmukhi), Punjabi (Shahmukhi), Kinyarwanda, Sinhala, Sindhi, Slovak, Slovenian, Sorani, Sotho, Swahili, Serbian, Tajik, Tamil, Tatar, Telugu, Tigrinya, Tswana, Turkmen, Urdu, Uyghur, Valencian, Wolof, Xhosa, Yoruba, Zulu, Cherokee, Uzbek, Hebrew, Igbo, Irish, Scots, Icelandic",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5214250/f0f3abc8df91aca499cd9bc16062fc258f7af16b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5214250/19b231c4532696f4b59022b5e8c2933dfde23379/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5214250/19b231c4532696f4b59022b5e8c2933dfde23379/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Royue Games"
     ],
     "publishers": [
       "Royue Games"
+    ],
+    "demos": [
+      {
+        "appid": 5242960,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -1962,7 +2006,6 @@
     },
     "categories": [
       2,
-      22,
       23,
       62
     ],
@@ -1979,7 +2022,7 @@
       "email": ""
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5214250",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5214250/2c0914187b971c971f96c1957866def3768e8728/page_bg_raw.jpg",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5214250",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -2120,7 +2163,19 @@
     "publishers": [
       "First Day Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1804768
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Deskrawl: Idle ARPG - Supporter Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2132,6 +2187,7 @@
       22,
       23,
       25,
+      62,
       67,
       68,
       74,
@@ -2148,7 +2204,7 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "28 Sep, 2026"
     },
     "support_info": {
@@ -2514,11 +2570,14 @@
     "steam_appid": 5215890,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Wang came to America with a dream: work hard, scrub harder, and buy the restaurant. Wash dishes, upgrade tools, and build your talents in Run Man: Wash the Dish, a game of absurd stories and multiple endings. Every clean plate pays. Wang has a dream. You have a sponge.",
+    "dlc": [
+      5262840
+    ],
+    "short_description": "Scrub dishes, upgrade tools and trigger cleaning chains in a pixel-art game with story choices. Show off on the in-game social feed as Runman chases his American dream\u2014one sponge, one paycheck and one stubborn bill at a time.",
     "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, French, Italian, German, Spanish - Spain, Danish, Ukrainian, Russian, Bulgarian, Hungarian, Indonesian, Turkish, Greek, Norwegian, Czech, Japanese, Polish, Thai, Swedish, Romanian, Finnish, Dutch, Portuguese - Brazil, Portuguese - Portugal, Spanish - Latin America, Vietnamese, Arabic, Korean, Malay<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5215890/78a70e34f480daa292f974b76f657b323c6a684f/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5215890/ddb687610e4bebea5b76e15f8dbf6813a5a701cd/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5215890/ddb687610e4bebea5b76e15f8dbf6813a5a701cd/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5215890/a400791c02db28ad724a19f78cc15ba4a75ebebf/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5215890/6984ce831e08655c11328c912d6200c1e4e4e5c9/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5215890/6984ce831e08655c11328c912d6200c1e4e4e5c9/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "SunDay"
@@ -2769,6 +2828,192 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "5214970": {
+    "type": "game",
+    "name": "Music Maniaz",
+    "steam_appid": 5214970,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Play the drums in a rhythm game anyone can pick up, packed with lo-fi. (Over 20 lo-fi songs alone!) 50+ original tracks across all kinds of genres! Besides drums, play Melody and All Mix at three difficulties! Add your own favorite songs, auto-generate the chart, and play as much as you want!",
+    "supported_languages": "English, Simplified Chinese, Japanese, French, German, Spanish - Spain, Korean, Portuguese - Brazil, Portuguese - Portugal, Russian, Spanish - Latin America",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5214970/bc2da51e1081c7069fa0ac6fbd8fbdaf6f0992ed/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5214970/d14a0174892236fbbebf0d2d3fe42df71eabca45/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5214970/d14a0174892236fbbebf0d2d3fe42df71eabca45/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Maniaz"
+    ],
+    "publishers": [
+      "Maniaz"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      25,
+      28,
+      55,
+      56,
+      57,
+      58,
+      59,
+      62,
+      67,
+      68,
+      69,
+      78,
+      79
+    ],
+    "genres": [
+      4,
+      23,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "29 Oct, 2026"
+    },
+    "support_info": {
+      "url": "https://forms.gle/5K7RtrgDDyaQbEsx7",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5214970",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5214970",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5215260": {
+    "type": "game",
+    "name": "Kingsward TD",
+    "steam_appid": 5215260,
+    "required_age": 0,
+    "is_free": false,
+    "dlc": [
+      5215660
+    ],
+    "short_description": "A fantasy tower-defense roguelite where the battlefield grows as you survive. Expand the map, build and upgrade your defenses, and adapt to procedurally generated waves, dangerous enemy variants, and powerful bosses.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5215260/3b105d53bccf92d9159a36f7c8abe471613f2264/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5215260/d663b6a1fb91a1f4724429590ab569548fbdec8d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5215260/d663b6a1fb91a1f4724429590ab569548fbdec8d/capsule_184x69.jpg",
+    "website": "https://discord.gg/xqn4jpD88V",
+    "developers": [
+      "SGS"
+    ],
+    "publishers": [
+      "SGS"
+    ],
+    "demos": [
+      {
+        "appid": 5215660,
+        "description": ""
+      }
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      68,
+      74,
+      75,
+      78,
+      79,
+      80
+    ],
+    "genres": [
+      2,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "contact.kingswardtd@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5215260",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5215260/4955a71047d0a91a17d439d0425f8d3228197c95/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5216270": {
+    "type": "game",
+    "name": "Night at the Fun Park",
+    "steam_appid": 5216270,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Escape a giant spider in an abandoned amusement park. Find the keys to the exit, distract her with noise and free your friends from cocoons. Co-op horror for 1-4 players: online through Steam, solo or in two-player split-screen.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Traditional Chinese, Simplified Chinese, Japanese, Korean, Dutch, Polish, Russian, Turkish, Ukrainian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5216270/2a3ed12fa7d57b4de0fd3bef692b4efbb26d1eb5/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5216270/91bf4108f55ca5c9f6c6107ef490b0c9fad071f3/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5216270/91bf4108f55ca5c9f6c6107ef490b0c9fad071f3/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Sitting Teddy"
+    ],
+    "publishers": [
+      "Sitting Teddy"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      18,
+      24,
+      38,
+      39,
+      48,
+      62,
+      68,
+      69,
+      74,
+      78
+    ],
+    "genres": [
+      1,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q1 2027"
+    },
+    "support_info": {
+      "url": "",
+      "email": "cassy@sittingteddy.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5216270",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5216270/876929cda4566c98640abba672f0ef24a5736b9b/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "The game contains a dark horror atmosphere, chases and sudden scares involving giant spiders. Characters are attacked and trapped in web cocoons. Stylized animal remains and bones may be visible. A rescue knife is used only to cut open cocoons. There is no bloody violence or dismemberment."
     }
   }
 }

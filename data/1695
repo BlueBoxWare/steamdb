@@ -5,7 +5,7 @@
     "steam_appid": 5086120,
     "required_age": 0,
     "is_free": true,
-    "short_description": "Turn any sound on your PC into real-time haptics on your Steam Controller. Fancy Haptics captures your desktop audio and drives the controller's haptic motors live, so explosions, engines and music come through in your hands. Works with every game, no per-game setup.",
+    "short_description": "Feel your games, music and videos through your controller. Fancy Haptics turns whatever your PC is playing into live haptics and rumble on Steam Controller, DualSense, Steam Deck, Xbox and 8BitDo pads, with DualSense triggers that react to your audio.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086120/85114cce0d49b86f19ad5c7d8b632c487cf352ec/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086120/6a868fd77764abdfefa68e86b239d1272e2a7383/capsule_231x87.jpg",
@@ -21,10 +21,12 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       64,
+      66,
+      68,
       74,
       76,
       77,
@@ -2446,6 +2448,7 @@
       2,
       18,
       24,
+      25,
       37,
       44,
       49,
@@ -4185,12 +4188,12 @@
     "steam_appid": 5085740,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "dlc": [
-      5158470,
       5195130
     ],
-    "short_description": "Find a needle hidden in over 10 million pieces of hay with your friends.",
-    "supported_languages": "English<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "short_description": "Find a needle hidden in over 10 million pieces of hay with up to 5 other friends.",
+    "supported_languages": "English<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic<strong>*</strong>, Bulgarian<strong>*</strong>, Czech<strong>*</strong>, Danish<strong>*</strong>, Dutch<strong>*</strong>, Finnish<strong>*</strong>, Greek<strong>*</strong>, Hungarian<strong>*</strong>, Indonesian<strong>*</strong>, Malay<strong>*</strong>, Norwegian<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Romanian<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Swedish<strong>*</strong>, Thai<strong>*</strong>, Traditional Chinese<strong>*</strong>, Turkish<strong>*</strong>, Ukrainian<strong>*</strong>, Vietnamese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085740/c4f0eebd5422df95a4dc9984eaa4304c0f1990c0/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085740/69c429a32abc7cc25e86ea421652c39859fa45e8/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085740/69c429a32abc7cc25e86ea421652c39859fa45e8/capsule_184x69.jpg",
@@ -4200,12 +4203,6 @@
     ],
     "publishers": [
       "NoGlyph"
-    ],
-    "demos": [
-      {
-        "appid": 5158470,
-        "description": ""
-      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4217,8 +4214,15 @@
       1,
       2,
       9,
+      22,
+      23,
       25,
+      28,
       38,
+      55,
+      56,
+      57,
+      58,
       62,
       67,
       68,
@@ -4915,6 +4919,12 @@
     "publishers": [
       "Juice Store Studios"
     ],
+    "demos": [
+      {
+        "appid": 5268590,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -4941,7 +4951,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2026"
+      "date": "26 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -4956,15 +4966,15 @@
   },
   "5086950": {
     "type": "game",
-    "name": " Hotel Carnivalia",
+    "name": "Hotel Carnivalia",
     "steam_appid": 5086950,
     "required_age": 0,
     "is_free": false,
     "short_description": "Hotel Carnivalia is a 15-player first-person social deduction game. Roam a gothic hotel on foot, hunt your prey as a predator, or follow the traces left behind to find the predators hiding among you.",
     "supported_languages": "English, Korean, Russian, Japanese, Simplified Chinese, Turkish, Portuguese - Brazil",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086950/892457779ff96e9c1b5120988fbcdeacf9eabde6/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086950/e9940b4b5f403cb3b064c939d4b9275e993d835f/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086950/e9940b4b5f403cb3b064c939d4b9275e993d835f/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086950/405638d63cde0f0bc2f36c8128d2f4b6bae1ebf2/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086950/259bddd04aaf210a55c22fc6ed19803aa8c5f278/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086950/259bddd04aaf210a55c22fc6ed19803aa8c5f278/capsule_184x69.jpg",
     "website": "https://linktr.ee/darelark",
     "developers": [
       "DARELARK Studio"
@@ -5000,7 +5010,7 @@
       "email": "support@darelark.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5086950",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086950/ee428eef7a00d39b83deb69f1900abd0dbdb6348/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086950/035245ab44b643dadb0d8e14d31a582932cd7c67/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5869,6 +5879,9 @@
     "steam_appid": 5087810,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5302850
+    ],
     "short_description": "Run a medieval mercenary company in a living single-player campaign. Command up to 600 of your soldiers in real-time 3D formation battles while factions wage wars, besiege towns, and reshape the realm around you.",
     "supported_languages": "English<strong>*</strong>, Simplified Chinese, French, German, Spanish - Spain<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087810/bcd31d35241a69fa96c59e103d1c174d7b4f8065/header.jpg",
@@ -6448,10 +6461,10 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087710/04801fd99a30ad9f088e13b7321fef6915bf520e/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "rgyrg"
+      "One Cell Studio"
     ],
     "publishers": [
-      "rgyrg"
+      "One Cell Studio"
     ],
     "demos": [
       {
@@ -6655,6 +6668,65 @@
         5
       ],
       "notes": "This game contains adult - oriented content, including relatively intimate interaction scenes and suggestive descriptions between some characters, which may cause discomfort. Please experience it with caution if you are an adult player."
+    }
+  },
+  "5087740": {
+    "type": "game",
+    "name": "Yakiniku!!!",
+    "steam_appid": 5087740,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Fire up the grill in this first-person yakiniku restaurant sim. Run it solo or with your friends in Career Mode, or compete directly against them as rival restaurants across the street in Competitive Mode. Prep, serve, grill, restock, and build your restaurant into the pride of the shopping street!",
+    "supported_languages": "English, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087740/9eec768c23de95d997612114c88746a9b490bf7b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087740/5d22091044a95a15d22f3fa57902b540150a69e2/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087740/5d22091044a95a15d22f3fa57902b540150a69e2/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Team Apron"
+    ],
+    "publishers": [
+      "Lime Studios"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      23,
+      36,
+      38,
+      49,
+      62,
+      68,
+      69,
+      74,
+      79,
+      80
+    ],
+    "genres": [
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "lime_studio@icloud.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5087740",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5087740",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }
