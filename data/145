@@ -12423,7 +12423,7 @@
     "name": "Party Jousting",
     "steam_appid": 437900,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "controller_support": "full",
     "dlc": [
       439450,
@@ -12441,7 +12441,19 @@
     "publishers": [
       "vikingfabian"
     ],
-    "package_groups": [],
+    "packages": [
+      1769687
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Party Jousting",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12455,7 +12467,8 @@
       37,
       43,
       44,
-      49
+      49,
+      62
     ],
     "genres": [
       4,

@@ -1312,7 +1312,7 @@
   },
   "5106200": {
     "type": "game",
-    "name": "Spot Kittens",
+    "name": "Pet Kittens",
     "steam_appid": 5106200,
     "required_age": 0,
     "is_free": false,
@@ -1532,6 +1532,9 @@
     "steam_appid": 5107900,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5154060
+    ],
     "short_description": "Set off on a 1-4 player co-op adventure on an island buried in trash! Collect garbage, grind it into useful materials, build your shelter, and clean up the island. Craft your own boat from scrap, head out to sea, and hunt for valuable debris drifting across the ocean.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Traditional Chinese, Japanese, Korean, Polish, Portuguese - Portugal, Russian, Turkish, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5107900/4586d4a643cc10bda1a814eab68c8fd768b2cb4d/header.jpg",
@@ -1542,7 +1545,7 @@
       "Tiny Disaster"
     ],
     "publishers": [
-      "Tiny Disaster"
+      "Red Axe Games"
     ],
     "package_groups": [],
     "platforms": {
@@ -4778,7 +4781,7 @@
     "steam_appid": 5108820,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Handle With Care is a chaotic co-op physics game where tiny workers transport unstable bombs through a giant world. Carry, drag, drive and work together to deliver each bomb safely, or watch everything go horribly wrong.",
+    "short_description": "Handle With Care is a chaotic 1\u20134 player co-op physics game where tiny workers transport unstable bombs through a giant world. Work together, load the van, survive the hazards, and get the bomb home before time runs out.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5108820/582c8b1e407878b06ded828bb67b288e1408101c/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5108820/5652396010b5b190d52e51ac49fd7c19fafef3d0/capsule_231x87.jpg",
@@ -4800,7 +4803,6 @@
       1,
       2,
       9,
-      22,
       38,
       62,
       66,
@@ -5083,7 +5085,19 @@
     "publishers": [
       "DREJ"
     ],
-    "package_groups": [],
+    "packages": [
+      1769367
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u8c93\u8c93\u76d2CATBOX",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5098,8 +5112,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "29 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -5897,6 +5911,72 @@
         5
       ],
       "notes": "Reference to mental health issues, abstract depictions of mental health issues, mild depictions of violence, mild psychological horror."
+    }
+  },
+  "5107320": {
+    "type": "game",
+    "name": "WHAT LURKS BELOW",
+    "steam_appid": 5107320,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "First-person hide-and-seek horror. Tag: a catch swaps Hunter and Runner. Hunt: a catch adds a Hunter. New maze each round. Online lobbies or bots, proximity voice.",
+    "supported_languages": "English<strong>*</strong>, Japanese<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5107320/a2ece44f37f3b336b571ec4e4a7233ee3d805f20/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5107320/cbb45b473154df2dd787751b573891c9339230b6/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5107320/cbb45b473154df2dd787751b573891c9339230b6/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Kyoto Video Game Concern"
+    ],
+    "publishers": [
+      "Kyoto Video Game Concern"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      22,
+      36,
+      38,
+      49,
+      62,
+      64,
+      67,
+      68,
+      69,
+      70,
+      74,
+      79,
+      80
+    ],
+    "genres": [
+      1,
+      4,
+      23,
+      29
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q4 2026"
+    },
+    "support_info": {
+      "url": "https://discord.gg/UAb9Src4Cc",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5107320",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5107320/fa990cd85ee2f16740f7902fd40dad5f57008489/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "Horror themes, frightening monsters, sudden jump scares, blood and gore. Players are chased and killed during rounds. Some environments contain disturbing imagery, including flesh-like walls and blood-stained decorations."
     }
   }
 }

@@ -2344,12 +2344,12 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4433150/e116e9fedd30a7c8fe77eac8f3edd5b40e2e8838/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4433150/e805a118f4bae86c8f4d84d6d7a2747d974e34a6/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4433150/e805a118f4bae86c8f4d84d6d7a2747d974e34a6/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://idleforgegames.com/games/idle-realms/",
     "developers": [
       "Idle Realms"
     ],
     "publishers": [
-      "Idle Realms"
+      "Idleforge Games"
     ],
     "packages": [
       1547800
@@ -2377,7 +2377,8 @@
       74,
       76,
       77,
-      79
+      79,
+      80
     ],
     "genres": [
       4,
@@ -2392,8 +2393,8 @@
       "date": "13 Mar, 2026"
     },
     "support_info": {
-      "url": "",
-      "email": "gameidle@proton.me"
+      "url": "https://idleforgegames.com/games/idle-realms/",
+      "email": "support@idleforgegames.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4433150",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4433150",
@@ -2985,16 +2986,18 @@
       4436050,
       4436060,
       4436070,
-      5038050
+      5038050,
+      5215060
     ],
     "short_description": "If she\u2019s truly gone\u2026 Then who is answering the phone?",
-    "supported_languages": "Traditional Chinese, English, French, Japanese<strong>*</strong>, Korean<br><strong>*</strong>languages with full audio support",
+    "supported_languages": "Traditional Chinese, English, French, Japanese<strong>*</strong>, Korean, Russian, Thai<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4433100/79e98c9281bd7d2688cfde70b9608315da8fc407/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4433100/caa78e682420e2eac3a50764a67fa9617a2aae5b/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4433100/caa78e682420e2eac3a50764a67fa9617a2aae5b/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Plumko"
+      "Plumko",
+      "WeissGarden"
     ],
     "publishers": [
       "WeissGarden"
@@ -6624,7 +6627,10 @@
     "steam_appid": 4433930,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A maze tower defense where you build the path enemies are forced to walk, not a fixed track. Forge kill-corridors with 15 bespoke races and branching upgrades. Climb a solo Gauntlet of AI rivals, outlast endless waves, or duel a friend 1v1 online.",
+    "dlc": [
+      4869520
+    ],
+    "short_description": "Build the maze enemies must survive in this tower defense with 15 playable races and branching upgrades. Open fifteen roads in the Story Campaign, challenge ten Gauntlet rivals, survive escalating waves, or battle friends in online 1v1 and 2\u20134 player free-for-all.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4433930/ec7bfedae78470de69c95fe6a9ded9ffccc6e6bd/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4433930/f4617883a7bf38d9dfcd62dd08e09c5a88a5d1a8/capsule_231x87.jpg",
@@ -6636,11 +6642,29 @@
     "publishers": [
       "BEAGBOI GAMES"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 4869520,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1548096
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Maul Tactics",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       1,
@@ -6654,9 +6678,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 18
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "29 Sep, 2026"
     },
     "support_info": {
       "url": "https://maultactics.gg",

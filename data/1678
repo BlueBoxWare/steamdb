@@ -1828,17 +1828,26 @@
     "steam_appid": 5035420,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5159130
+    ],
     "short_description": "A chibi AI VTuber who lives on your desktop, on top of everything you do. Pet her and feed her, and she opens up one thing at a time: monster battles, desktop soccer, a 24-fish dex, tarot readings, 11 outfits and 26 achievements.",
     "supported_languages": "English, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5035420/7c7bc37790d0bb284c8584bcc493f7ada8560a17/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5035420/6c5293f5537cb9d3f9e77c5b7fd6254184f864bd/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5035420/6c5293f5537cb9d3f9e77c5b7fd6254184f864bd/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5035420/97df1b745e7d8d56054c3e3c5eda3b7efece6c24/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5035420/f331364c135017d27657f7c17c6f693f2bc9d4f9/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5035420/f331364c135017d27657f7c17c6f693f2bc9d4f9/capsule_184x69.jpg",
     "website": "https://sia.ai.kr/",
     "developers": [
       "akarolls"
     ],
     "publishers": [
       "akarolls"
+    ],
+    "demos": [
+      {
+        "appid": 5159130,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2761,7 +2770,7 @@
     "steam_appid": 5035410,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Ascend the tower. Become Kim, a boy marked by a curse, and cut through the ruins of a vanished ether civilization, hunt down what stalks the dark, and climb toward a truth that turns everything upside down. A 2D pixel art roguelite shooter where how you fight shapes who you become.",
+    "short_description": "Ever dreamed of being a shonen manga hero? Ascendia is a pixel-art action roguelike where hidden Easter eggs grant special powers called Astra, and secret classes await discovery. Uncover secrets to grow stronger, and let your choices and actions shape your ending. Your awakening starts here.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, Korean<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5035410/c6f9925910ccc64aeaf5192dfe91dca8d8a1435b/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5035410/ff475db1dd9c509250b0c53e3937789c09484cea/capsule_231x87.jpg",
@@ -4606,6 +4615,8 @@
     },
     "categories": [
       2,
+      22,
+      23,
       62
     ],
     "genres": [
@@ -5569,7 +5580,19 @@
     "publishers": [
       "NodanioStudios"
     ],
-    "package_groups": [],
+    "packages": [
+      1746370
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy HAS With Friends",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5591,7 +5614,7 @@
       2
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "28 Sep, 2026"
     },
     "support_info": {
@@ -6919,8 +6942,11 @@
     "steam_appid": 5034300,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5301660
+    ],
     "short_description": "An emotional desktop idle game where you spend time with your own cat floating through space and record your day as constellations.",
-    "supported_languages": "English, Japanese, Korean, Simplified Chinese, Traditional Chinese, German, Russian, Spanish - Spain, Spanish - Latin America",
+    "supported_languages": "English, Japanese, Korean, Simplified Chinese, Traditional Chinese, German, Russian, Spanish - Spain, Spanish - Latin America, French, Italian, Portuguese - Brazil, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034300/764f01f98470cc2d760862cc0ed16c12d3136306/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034300/8e0ec13b6859abc6d3f2f5ff82641db2d235e779/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034300/8e0ec13b6859abc6d3f2f5ff82641db2d235e779/capsule_184x69.jpg",
@@ -6937,7 +6963,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1745612
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cosmo Cat: A Cozy Desktop Idler",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6958,11 +6996,16 @@
       80
     ],
     "genres": [
-      23
+      4,
+      23,
+      28
     ],
+    "achievements": {
+      "total": 20
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "28 Sep, 2026"
+      "coming_soon": false,
+      "date": "29 Sep, 2026"
     },
     "support_info": {
       "url": "",
@@ -7612,6 +7655,12 @@
     "publishers": [
       "Fujin"
     ],
+    "demos": [
+      {
+        "appid": 5045590,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -7622,7 +7671,6 @@
       2,
       23,
       28,
-      30,
       55,
       57,
       62,
@@ -7644,7 +7692,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q1 2027"
+      "date": "Q4 2026"
     },
     "support_info": {
       "url": "",

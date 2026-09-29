@@ -503,10 +503,10 @@
     "categories": [
       2,
       22,
+      23,
       28,
       57,
       58,
-      59,
       62,
       67,
       68,
@@ -609,7 +609,7 @@
     "steam_appid": 5086810,
     "required_age": 0,
     "is_free": true,
-    "short_description": "\u5728\u300a\u9b3c\u7262\u95dc\u300b\u9019\u7247\u6d41\u653e\u4e4b\u5730\u6536\u96c6\u7b26\u5492\u8207\u4ee4\u724c\uff0c\u6253\u9020\u5c6c\u65bc\u4f60\u5c08\u5c6c\u7684\u724c\u7d44\uff01\u63a2\u7d22\u884c\u5340\uff0c\u7d50\u8b58\u5925\u4f34\u4e00\u540c\u5192\u96aa\u3002",
+    "short_description": "\u5728\u300a\u9b3c\u7262\u95dc\u300b\u9019\u7247\u6d41\u653e\u4e4b\u5730\u6536\u96c6\u7b26\u5492\u8207\u4ee4\u724c\uff0c\u6253\u9020\u5c6c\u65bc\u4f60\u7684\u5c08\u5c6c\u724c\u7d44\uff01\u63a2\u7d22\u884c\u5340\uff0c\u7d50\u8b58\u5925\u4f34\u4e00\u540c\u5192\u96aa\u3002",
     "supported_languages": "Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086810/406b65fed0551c038ea7a8342e1d8c4be4033a10/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086810/c8792c0dce3c9f1f2c2636d6c925ad2e93242bfa/capsule_231x87.jpg",
@@ -619,7 +619,7 @@
       "hmr"
     ],
     "publishers": [
-      "hmr34"
+      "hmr"
     ],
     "package_groups": [],
     "platforms": {
@@ -1050,7 +1050,7 @@
       5120910,
       5228010
     ],
-    "short_description": "A Victorian age auction house built on deception. The auctioneer knows the real value of each item and quietly enriches partners hidden in the crowd. Bluff, pull the con, and bid before the room votes on your death",
+    "short_description": "A 4 to 8 player social deduction game set in a Victorian auction house. The Auctioneer and secret Partners in the crowd inflate prices to con the room. Everyone else is a Buyer trying to spot the lie. Make an accusation and the room drops into a deadly minigame to settle it",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085180/b446c56b62d98e0dc09e06d47be384728b726b47/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085180/67d2fb7533b3d12841f159a863bf69889240223d/capsule_231x87.jpg",
@@ -4193,7 +4193,7 @@
       5195130
     ],
     "short_description": "Find a needle hidden in over 10 million pieces of hay with up to 5 other friends.",
-    "supported_languages": "English<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic<strong>*</strong>, Bulgarian<strong>*</strong>, Czech<strong>*</strong>, Danish<strong>*</strong>, Dutch<strong>*</strong>, Finnish<strong>*</strong>, Greek<strong>*</strong>, Hungarian<strong>*</strong>, Indonesian<strong>*</strong>, Malay<strong>*</strong>, Norwegian<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Romanian<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Swedish<strong>*</strong>, Thai<strong>*</strong>, Traditional Chinese<strong>*</strong>, Turkish<strong>*</strong>, Ukrainian<strong>*</strong>, Vietnamese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, French, Italian, German, Spanish - Spain, Czech, Dutch, Hungarian, Polish, Spanish - Latin America, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085740/c4f0eebd5422df95a4dc9984eaa4304c0f1990c0/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085740/69c429a32abc7cc25e86ea421652c39859fa45e8/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085740/69c429a32abc7cc25e86ea421652c39859fa45e8/capsule_184x69.jpg",
@@ -4204,7 +4204,19 @@
     "publishers": [
       "NoGlyph"
     ],
-    "package_groups": [],
+    "packages": [
+      1762248
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Needle In A Haystack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4228,6 +4240,7 @@
       68,
       69,
       74,
+      78,
       79,
       80
     ],
@@ -4235,8 +4248,11 @@
       4,
       28
     ],
+    "achievements": {
+      "total": 35
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "29 Sep, 2026"
     },
     "support_info": {
@@ -4611,15 +4627,14 @@
     "name": "Project: Dead",
     "steam_appid": 5085680,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "controller_support": "full",
-    "short_description": "An asymmetrical multiplayer horror game in which a group of players must complete objectives and escape, whilst another player controls the monster who will try to find and eliminate them. Play with your friends, hide, run and do everything you can to survive.",
-    "supported_languages": "English<strong>*</strong>, Spanish - Spain<br><strong>*</strong>languages with full audio support",
+    "short_description": "PROJECT: DEAD is a cooperative horror game for 1\u20136 players, centred around expeditions. Explore abandoned locations, complete missions, recover valuable items and survive whatever lurks in the darkness. Work as a team, take greater risks to gain greater rewards, and make it back alive.",
+    "supported_languages": "English<strong>*</strong>, Spanish - Spain, French, Italian, German<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085680/1d4848e111cbd4c8d1ec5a588074df45c25d6ae0/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085680/7393a19e79e0ecac566c7ee6f160543e68194d41/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085680/7393a19e79e0ecac566c7ee6f160543e68194d41/capsule_184x69.jpg",
     "website": null,
-    "ext_user_account_notice": "Uses Epic Online Services (EOS) for online multiplayer features. (Supports Linking to Steam Account)",
     "developers": [
       "GaspachoWork"
     ],
@@ -4634,18 +4649,14 @@
     },
     "categories": [
       1,
+      2,
       9,
       13,
       14,
-      15,
       22,
       23,
-      25,
       28,
-      35,
-      36,
       38,
-      49,
       55,
       56,
       57,
@@ -4661,7 +4672,6 @@
       4,
       23,
       25,
-      37,
       70
     ],
     "release_date": {
@@ -4866,15 +4876,14 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
       2,
-      18,
+      15,
+      22,
       23,
-      57,
-      58,
       62,
       74,
       76,
@@ -5457,7 +5466,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "2027"
     },
     "support_info": {
       "url": "",
@@ -5884,9 +5893,9 @@
     ],
     "short_description": "Run a medieval mercenary company in a living single-player campaign. Command up to 600 of your soldiers in real-time 3D formation battles while factions wage wars, besiege towns, and reshape the realm around you.",
     "supported_languages": "English<strong>*</strong>, Simplified Chinese, French, German, Spanish - Spain<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087810/bcd31d35241a69fa96c59e103d1c174d7b4f8065/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087810/973189e1d7ddea8a402f79d9e7cb415916857d30/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087810/973189e1d7ddea8a402f79d9e7cb415916857d30/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087810/8f5bc892c263d85f815f2f8560d109a31f54f91c/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087810/59501b09098dce4a0f51db368c2192863ae48d9f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087810/59501b09098dce4a0f51db368c2192863ae48d9f/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Confus Games"
@@ -5923,7 +5932,7 @@
       "email": "confusgames@gmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5087810",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087810/c29e22bedb6bdf8c922eb983a9af9de048f98831/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087810/a891b1fd47ec058902f4a8b0b79cf70935459cc2/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
         2,
@@ -6724,6 +6733,62 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5087740",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5087740",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5087610": {
+    "type": "game",
+    "name": "DiceZ Royale",
+    "steam_appid": 5087610,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Every roll is a bluff. Every PowerUp can be countered. DiceZ Royale is a fast, psychological 1v1 dice duel where reading your opponent matters more than rolling well climb the Badge tiers in Arena, or keep it casual in Friendly mode.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087610/5eb470613a664216789ceba7c6aa3d9d6987ca19/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087610/49fd2966834efe329226e88c4ccdefd51be98770/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087610/49fd2966834efe329226e88c4ccdefd51be98770/capsule_184x69.jpg",
+    "website": "https://dicezroyale.com",
+    "developers": [
+      "Zeroot Studios"
+    ],
+    "publishers": [
+      "Zeroot Studios"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      28,
+      36,
+      49,
+      55,
+      56,
+      57,
+      58,
+      62
+    ],
+    "genres": [
+      2,
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "https://dicezroyale.com",
+      "email": "help@dicezroyale.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5087610",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5087610",
     "content_descriptors": {
       "ids": [],
       "notes": null
