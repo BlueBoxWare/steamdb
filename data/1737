@@ -183,8 +183,11 @@
     "steam_appid": 5213280,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "dlc": [
-      5259620
+      5259620,
+      5277380,
+      5306850
     ],
     "short_description": "Crash-land on an unknown world and build your settlement hex by hex across its entire globe. Then take it to the stars: a real-time grand strategy game where you zoom from one colony's roads out to a galaxy held by ancient powers that play by the same rules you do.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
@@ -207,6 +210,11 @@
     "categories": [
       2,
       22,
+      28,
+      55,
+      56,
+      57,
+      58,
       62,
       64,
       68,
@@ -1184,7 +1192,19 @@
     "publishers": [
       "MadIrish Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1803057
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Roulette Strategy Research Lab",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1209,9 +1229,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 70
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "29 Sep, 2026"
     },
     "support_info": {
       "url": "https://www.madirishstudios.com/",
@@ -3153,7 +3176,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -3978,7 +4001,19 @@
     "developers": [
       "Eastshade Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1803833
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Songs of Glimmerwick - Supporter Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4002,7 +4037,7 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "30 Sep, 2026"
     },
     "support_info": {
@@ -4025,15 +4060,14 @@
     "short_description": "NOT AN NPC GAME is a competitive skill-based game about trapping enemies, predicting their next move, and escaping situations you probably shouldn\u00e2t survive. Place walls, control the arena, pull off impossible outplays, and climb a brutal ranked ladder where every mistake matters.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Bulgarian, Simplified Chinese, Traditional Chinese, Korean, Danish, Spanish - Latin America, Finnish, Greek, Dutch, Hungarian, Indonesian, Japanese, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Swedish, Thai, Czech, Turkish, Ukrainian, Vietnamese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212280/e711b2ee626e872d2e1182bcf55c9c007ae5dbd2/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212280/9c099cc3c4b4a9206652798f137d8df870c94b57/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212280/9c099cc3c4b4a9206652798f137d8df870c94b57/capsule_184x69.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212280/3841b204ffb5878d57c16c0ada0e1fae6e406b24/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212280/3841b204ffb5878d57c16c0ada0e1fae6e406b24/capsule_184x69.jpg",
     "website": "https://notannpcgame.com",
     "developers": [
-      "Orlands",
       "rabizao"
     ],
     "publishers": [
-      "Orlands"
+      "rabizao"
     ],
     "package_groups": [],
     "platforms": {
@@ -4053,7 +4087,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "12 Oct, 2026"
+      "date": "13 Oct, 2026"
     },
     "support_info": {
       "url": "https://notannpcgame.com/",
@@ -4061,6 +4095,118 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5212280",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5212280",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5212400": {
+    "type": "game",
+    "name": "Last Stop Defence",
+    "steam_appid": 5212400,
+    "required_age": 0,
+    "is_free": false,
+    "dlc": [
+      5212420
+    ],
+    "short_description": "\u300a\u7ec8\u70b9\u9632\u7ebf\u300b\u662f\u4e00\u6b3e\u878d\u5408\u5361\u724c\u6784\u7b51\u3001\u5854\u9632\u4e0e Roguelike \u5143\u7d20\u7684\u5355\u4eba\u7b56\u7565\u6e38\u620f\u3002\u5728\u654c\u4eba\u6301\u7eed\u63a8\u8fdb\u7684\u68cb\u76d8\u4e0a\uff0c\u6d88\u8017\u80fd\u91cf\u6253\u51fa\u5361\u724c\uff0c\u653b\u51fb\u654c\u4eba\u3001\u90e8\u7f72\u4f8d\u4ece\u3001\u8c03\u6574\u7ad9\u4f4d\uff0c\u5b88\u4f4f\u9632\u7ebf\u3002\u9009\u62e9\u62e5\u6709\u4e13\u5c5e\u5361\u724c\u4e0e\u80fd\u529b\u7684\u82f1\u96c4\uff0c\u5728\u5192\u9669\u4e2d\u6536\u96c6\u5361\u724c\u6765\u6784\u7b51\u4f60\u7684\u724c\u7ec4\uff0c\u6536\u96c6\u4e0d\u540c\u80fd\u529b\u6a21\u5757\u6765\u62fc\u653e\u5f3a\u5316\u6784\u7b51\uff0c\u5e94\u5bf9\u4e00\u6ce2\u53c8\u4e00\u6ce2\u7684\u8fdb\u653b\u3002",
+    "supported_languages": "Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212400/4a14eb476dcdfa2059023b984feaa6ed859dbb4d/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212400/771adc559bb63184d8392e082468ca4a3c91590e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212400/771adc559bb63184d8392e082468ca4a3c91590e/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Folia Studio"
+    ],
+    "publishers": [
+      "Folia Studio"
+    ],
+    "demos": [
+      {
+        "appid": 5212420,
+        "description": ""
+      }
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      2,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "January 2027"
+    },
+    "support_info": {
+      "url": "",
+      "email": "15868836688@sina.cn"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5212400",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5212400",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5212700": {
+    "type": "game",
+    "name": "My Friend is a Moron",
+    "steam_appid": 5212700,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A 1-3 player tactical roguelite. Shared dice, real elemental combos, and an AI teammate who knows... thinks he is the smartest guy in the room. He has a plan. You can stop him... sometimes!",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Simplified Chinese<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Russian<strong>*</strong>, Indonesian<strong>*</strong>, Polish<strong>*</strong>, Turkish<strong>*</strong>, Ukrainian<strong>*</strong>, Vietnamese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212700/f76fed4e7452686b2aa809f40017dcb58f980317/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212700/e0dd8266e28df99f76125c81c1b29fac6035db5d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212700/e0dd8266e28df99f76125c81c1b29fac6035db5d/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "soul in a flask"
+    ],
+    "publishers": [
+      "soul in a flask"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      36,
+      38,
+      49,
+      62,
+      74,
+      80
+    ],
+    "genres": [
+      2,
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q1 2027"
+    },
+    "support_info": {
+      "url": "",
+      "email": "soul.in.a.flask@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5212700",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212700/39ceb9f9ef38961ba450727fdb4ef1b36c4644bb/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

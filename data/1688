@@ -825,7 +825,8 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
-      5202840
+      5202840,
+      5283740
     ],
     "short_description": "STRANDING ECHOES is a minimalist\u00a0colony sim. Manage the\u00a0non-corporeal creatures called echo to build your base and survive the heat.",
     "supported_languages": "English",
@@ -838,6 +839,12 @@
     ],
     "publishers": [
       "Mend Games"
+    ],
+    "demos": [
+      {
+        "appid": 5283740,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3386,7 +3393,7 @@
     "dlc": [
       5170550
     ],
-    "short_description": "Deep Trouble is a 1-6 player co-op submarine descent. Pilot your sub, swim to salvage the ocean floor and work together to haul big loot before you run out of oxygen or something eats you. Face dwindling resources, hostile creatures and massive leviathans as you uncover the secrets below.",
+    "short_description": "Dive into Deep Trouble with a crew of up to 6 and your mostly trusty submarine, slipping past massive leviathans into the mysterious depths. Pilot, swim, and salvage together to reach the bottom before your oxygen runs out, a friend blows you up, or you become a tasty treat.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066980/a542d6f1a077717e4ddb6d26f4e629ac17ea3047/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066980/f19fb9a6cf500fe916c5a1bd0c9b376f25644ec9/capsule_231x87.jpg",
@@ -5516,7 +5523,19 @@
     "publishers": [
       "Studio Megasoma"
     ],
-    "package_groups": [],
+    "packages": [
+      1755759
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Bullet Banshee",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5542,8 +5561,11 @@
       1,
       23
     ],
+    "achievements": {
+      "total": 17
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "29 Sep, 2026"
     },
     "support_info": {

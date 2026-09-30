@@ -2826,7 +2826,6 @@
     "steam_appid": 4147170,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "dlc": [
       4802290
     ],
@@ -2849,7 +2848,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1452972
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Late Order",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2857,11 +2868,7 @@
     },
     "categories": [
       2,
-      15,
       22,
-      28,
-      55,
-      56,
       62
     ],
     "genres": [
@@ -2869,9 +2876,12 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 24
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "September 2026"
+      "coming_soon": false,
+      "date": "29 Sep, 2026"
     },
     "support_info": {
       "url": "https://x.com/OrderLate",
