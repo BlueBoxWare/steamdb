@@ -899,7 +899,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Dominate the arena in this 2D Top-Down local PvP Shooter! Control your squad, complete objectives, collect power-ups, and outplay your friends in short, intense matches.",
+    "short_description": "A fast 2-player local shared-screen shooter! Battle a friend side-by-side or remotely via Steam Remote Play Together. Control your squad, grab power-ups, and outplay your rival in short, intense arena matches.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4364660/2a590183b23551bcf44edcceaa7f0ee52c78abfe/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4364660/b0a8fa016996e5f0a199cdbd3802c04f7535d8af/capsule_231x87.jpg",
@@ -945,7 +945,8 @@
       62,
       69,
       74,
-      78
+      78,
+      80
     ],
     "genres": [
       1,
@@ -7915,7 +7916,19 @@
     "publishers": [
       "Amber Lief"
     ],
-    "package_groups": [],
+    "packages": [
+      1524904
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Dreidel I Shall Spin",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7932,8 +7945,11 @@
     "genres": [
       23
     ],
+    "achievements": {
+      "total": 17
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "1 Oct, 2026"
     },
     "support_info": {

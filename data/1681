@@ -942,8 +942,6 @@
       22,
       23,
       28,
-      55,
-      57,
       62
     ],
     "genres": [
@@ -2051,14 +2049,14 @@
       62,
       68,
       70,
-      79
+      74,
+      80
     ],
     "genres": [
+      1,
       2,
-      4,
-      23,
       25,
-      28
+      29
     ],
     "release_date": {
       "coming_soon": true,
@@ -2072,9 +2070,10 @@
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5044080/ae5cbce71b1f854013e50a59ceb84737b247fc5e/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
+        1,
         5
       ],
-      "notes": "ScarryLand contains dark comedy, mild fantasy violence (skeletons, bones, no blood or gore), and horror elements including frightening scenes, tense atmosphere, and psychological horror that intensifies as the story progresses. Humor may include dark or crude jokes touching on death and other mature themes. There is no sexual content, drug use, or realistic violence."
+      "notes": "The game contains mild, cartoon-style horror with fantasy creature designs and no realistic violence, blood, or gore. Horror moments, including jump scares and psychological horror, can occur throughout the game in a dark, night-only setting. The humor includes dark comedic references to death and other mature themes. The game includes a depiction of a character's suicide. No sexual content, nudity, drug, or alcohol content."
     }
   },
   "5044460": {
@@ -5161,11 +5160,11 @@
     "steam_appid": 5045650,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A mini 4WD career racer where setup is everything \u2014 zero input once the race starts. 55 parts mapped to real physics (no fake buffs), 9 AI rivals playing by exactly your rules, an F1-style 8-round season with sponsors and paddock drama. Tune, watch, learn, win.",
+    "short_description": "A mini 4WD career racer where setup is everything \u2014 no driving once the race starts. 75 parts mapped to real physics (no fake buffs), 9 AI rivals playing by exactly your rules, an F1-style 8-round season with sponsors, paddock drama and post-race brawls. Tune, watch, learn, win.",
     "supported_languages": "English, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045650/f3576688e26e62d029fc8091e71ec4feb9302865/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045650/c6baedb25b8b4d39d07d7ce6ab40cd937dd19669/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045650/c6baedb25b8b4d39d07d7ce6ab40cd937dd19669/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045650/c849a81650b3a888a024cc0325b67ea383e62968/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045650/2fc57a7ab3d529443ba2b58a895e9d5469b778a6/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045650/2fc57a7ab3d529443ba2b58a895e9d5469b778a6/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Night Garage Games"
@@ -5176,11 +5175,12 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": false
     },
     "categories": [
       2,
+      22,
       62
     ],
     "genres": [
@@ -5845,7 +5845,19 @@
     "publishers": [
       "Astro Inc."
     ],
-    "package_groups": [],
+    "packages": [
+      1748910
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy TRAWL",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5861,8 +5873,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 7
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "30 Sep, 2026"
     },
     "support_info": {
@@ -7411,7 +7426,8 @@
       23,
       25,
       28,
-      37
+      37,
+      70
     ],
     "release_date": {
       "coming_soon": true,
@@ -7652,7 +7668,19 @@
     "publishers": [
       "G.Saltzpyre"
     ],
-    "package_groups": [],
+    "packages": [
+      1749408
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Idle Trash",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7675,9 +7703,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 15
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "30 Sep, 2026"
+      "coming_soon": false,
+      "date": "1 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -8053,6 +8084,57 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5044450",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5044450/f99f2ceb64b88693377e2a8e7d6117fa7e3da454/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5045960": {
+    "type": "game",
+    "name": "B.A.O. - In Transit",
+    "steam_appid": 5045960,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A dystopian delivery game for solo players and co-op crews. Navigate a sprawling cyberpunk district, haul packages, and earn Aurum for your next card pack. Master your movement, protect the merchandise, and don't waste company time. You are a B.A.O. Get to work.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045960/86c0328f729d8873c15022fd4afe2c9a9a737797/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045960/caf8e888eb8d60bf93be375228f5c11c51328173/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045960/caf8e888eb8d60bf93be375228f5c11c51328173/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Figured Out Game Studio"
+    ],
+    "publishers": [
+      "Figured Out Game Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      38,
+      62
+    ],
+    "genres": [
+      1,
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "figuredoutgamestudio@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5045960",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5045960",
     "content_descriptors": {
       "ids": [],
       "notes": null

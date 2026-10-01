@@ -650,7 +650,10 @@
     "steam_appid": 5248600,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Brew trouble with a clever twist. Rotate squares of tiles to send bizarre ingredients tumbling into a witch\u2019s cauldron. Outsmart tricky blocks, discover surprising interactions, and untangle devious puzzles in pursuit of the perfect potion.",
+    "dlc": [
+      5286390
+    ],
+    "short_description": "Solve puzzles by rotating the environment to drop ingredients in your cauldron. Discover blocks and ingredients with special twists across six different worlds. Collect the ingredients to help the witch create the ultimate potion!",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248600/3f1e06daa87326ea1f0b263e99b0c3d4f96e9434/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248600/01aa03b4ba89e5c5af2f032857c0a8851414bdbf/capsule_231x87.jpg",
@@ -661,6 +664,12 @@
     ],
     "publishers": [
       "Will Winn Games"
+    ],
+    "demos": [
+      {
+        "appid": 5286390,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -970,7 +979,19 @@
     "publishers": [
       "yuki329"
     ],
-    "package_groups": [],
+    "packages": [
+      1814770
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy SushiClicker",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -985,7 +1006,7 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "30 Sep, 2026"
     },
     "support_info": {
@@ -1214,7 +1235,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2026"
+      "date": "Q4 2026"
     },
     "support_info": {
       "url": "",
@@ -2523,7 +2544,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "To be announced"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -2709,7 +2730,7 @@
     "steam_appid": 5249440,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A visual novel with pet-raising and rhythm minigames, where your pets transform into humans and form an idol group. Help them face the challenges ahead to fulfill their dreams. But be careful with the decisions you make; things can quickly spiral out of control.",
+    "short_description": "A cozy pet-raising visual novel with rhythm based idol shows. You run an animal shelter where the animals suddenly turn into humans and eventually form an idol group. They carry emotional issues, but through the story, you can know them and help them overcome their issues so they reach their dreams.",
     "supported_languages": "English<strong>*</strong>, Spanish - Spain<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Portuguese - Brazil<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5249440/813ca627c1542e3d879ed6185151456e02f46b73/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5249440/fe22a403c9b35e7b4d56a216d84bfdb21b6a236c/capsule_231x87.jpg",
@@ -2740,7 +2761,9 @@
       79
     ],
     "genres": [
-      23
+      4,
+      23,
+      28
     ],
     "release_date": {
       "coming_soon": true,
@@ -2844,12 +2867,16 @@
       38,
       44,
       49,
-      62
+      62,
+      68,
+      69,
+      76,
+      78
     ],
     "genres": [
-      1,
-      23,
-      28
+      2,
+      4,
+      23
     ],
     "release_date": {
       "coming_soon": true,
@@ -3671,7 +3698,7 @@
     "steam_appid": 5247170,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Headbutt, dodge or throw punches in a felt-style action roguelite. Combine heavy strikes, bouncing wool balls, lightning and eye lasers. Set out to rescue Mum, journey through the farm and town, and discover curious encounters along the way.",
+    "short_description": "Headbutt, dodge or throw punches in a felt-style action roguelite. Combine heavy strikes, bouncing wool balls, lightning and eye lasers. Play as a little sheep from New Zealand. Set out to rescue Mum, journey through the farm and town, and discover curious encounters along the way.",
     "supported_languages": "English, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5247170/9167b77b72c4a428706ad7bc1f722dc21a432b77/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5247170/1cb1443f9d1d6e20566ae78e0262f6374380138c/capsule_231x87.jpg",
@@ -4379,6 +4406,307 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5247800",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5247800",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5248280": {
+    "type": "dlc",
+    "name": "Unrailed 2: Back on Track \u2013 On-Board Bistro",
+    "steam_appid": 5248280,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Order up! The On-Board Bistro Item Pack brings two new characters and eight wearables to feast on.",
+    "fullgame": {
+      "appid": "2211170",
+      "name": "Unrailed 2: Back on Track"
+    },
+    "supported_languages": "English, French, German, Japanese, Portuguese - Brazil, Simplified Chinese, Traditional Chinese, Spanish - Spain, Korean, Polish, Russian, Spanish - Latin America, Italian, Czech, Turkish, Ukrainian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248280/a487535647b04527a123c837e4d6da43d394064c/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248280/fe9291423db797ca4d56fea10fbc8e15c0c1d443/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248280/fe9291423db797ca4d56fea10fbc8e15c0c1d443/capsule_184x69.jpg",
+    "website": "https://unrailed-game.com/",
+    "developers": [
+      "Indoor Astronaut"
+    ],
+    "publishers": [
+      "Indoor Astronaut",
+      "Kepler Ghost"
+    ],
+    "packages": [
+      1815169
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Unrailed 2: Back on Track \u2013 On-Board Bistro",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      21,
+      22,
+      23,
+      24,
+      27,
+      28,
+      29,
+      36,
+      37,
+      38,
+      39,
+      44,
+      49,
+      55,
+      56,
+      57,
+      58,
+      60,
+      62
+    ],
+    "genres": [
+      1,
+      2,
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "1 Oct, 2026"
+    },
+    "support_info": {
+      "url": "https://indoorastronaut.ch/",
+      "email": "contact@indoorastronaut.ch"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5248280",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5248280",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5248290": {
+    "type": "game",
+    "name": "Roomy",
+    "steam_appid": 5248290,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "Roomy is a customizable 3D avatar room sandbox for creating scenes, posing characters, decorating spaces, taking virtual photos, and exploring interactive environments. Customize rooms, avatars, cameras, weather, lighting, furniture, animations, and more, with support for mods and custom content.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Portuguese - Portugal, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248290/46ccada366bd4f758cf379514fcc02ba22fd13d0/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248290/d486e31513511a46e77bc4d177a18479bc43f641/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248290/d486e31513511a46e77bc4d177a18479bc43f641/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Hamelot Games"
+    ],
+    "publishers": [
+      "Hamelot Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      17,
+      23,
+      30,
+      62,
+      64,
+      67,
+      68,
+      69,
+      74,
+      79,
+      80
+    ],
+    "genres": [
+      4,
+      23,
+      28,
+      37,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "hamelotgames@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5248290",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5248290",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5248370": {
+    "type": "game",
+    "name": "Buildmaxxing",
+    "steam_appid": 5248370,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Build together on floating islands in this 1-4 player co-op building game. Each player has a unique role. Memorize blueprints, communicate with your team, and build from memory before time runs out!",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248370/15cf0d0dc1fd68116ca1507619d11f692b0a10ed/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248370/2cc45e2941d60ea21f0db497ea379255531f078d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248370/2cc45e2941d60ea21f0db497ea379255531f078d/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Zephfa"
+    ],
+    "publishers": [
+      "Zephfa"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      38,
+      62
+    ],
+    "genres": [
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "sixcessgames@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5248370",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248370/3a444e84b3a0aec116748c218e69b9058f97f57e/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5248530": {
+    "type": "game",
+    "name": "Neant Survivors",
+    "steam_appid": 5248530,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A survivors-like roguelite set in a shattered world. Fight through hordes of twisted creatures and monstrous bosses, unlock new characters, evolve powerful weapons, and grow stronger with every run as you uncover what shattered the world, and whether it can still be restored.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Indonesian, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Malay, Polish, Portuguese - Portugal, Romanian, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248530/3d02ee4aeedf39c26842690089fe57168a290994/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248530/5b05f6405c9f8f5ce81a8ecd0944c379a09a3972/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248530/5b05f6405c9f8f5ce81a8ecd0944c379a09a3972/capsule_184x69.jpg",
+    "website": "https://pocketratstudio.com/",
+    "developers": [
+      "Pocket Rat Studio"
+    ],
+    "publishers": [
+      "Pocket Rat Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      2,
+      15,
+      23,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      4,
+      23,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "October 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support@pocketratstudio.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5248530",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5248530",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5249770": {
+    "type": "game",
+    "name": "Wraithmind: Escape the THK58",
+    "steam_appid": 5249770,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Sara Himura came aboard the THK58 for a quiet trip to a distant colony. It won't be quiet. A sci-fi visual novel with third-person combat, about a ship with secrets and a woman who turns out to have a few of her own.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5249770/568de889547cf2fac1a4dec544615afa12e03d29/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5249770/d35aee5b850654aca29403745c4eaec6ed549a91/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5249770/d35aee5b850654aca29403745c4eaec6ed549a91/capsule_184x69.jpg",
+    "website": "http://wraithmind.com",
+    "developers": [
+      "OxenTiger"
+    ],
+    "publishers": [
+      "TEKO"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      18,
+      62,
+      68,
+      76,
+      79
+    ],
+    "genres": [
+      1,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "teko.ca",
+      "email": "tekogamesinfo@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5249770",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5249770/a0b9c42ed9ce646e9f1285a0f1776ab728bfc6c3/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

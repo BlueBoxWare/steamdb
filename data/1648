@@ -1067,7 +1067,6 @@
       69,
       70,
       74,
-      75,
       76,
       78,
       79,
@@ -1455,16 +1454,19 @@
   },
   "4944000": {
     "type": "game",
-    "name": "Just in Case",
+    "name": "Once Upon a Crime",
     "steam_appid": 4944000,
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4992160
+    ],
     "short_description": "A 2\u20134 player co-op horror game about doing a very bad job with your friends. Drop into somewhere you shouldn't be, haul out anything incriminating, and clock out before the quota (or the dark) catches up with you.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4944000/5fda3f78c371c36bedd28ffef414d16fc5498f8e/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4944000/30840d44a2327d7f06a74218608360d20fd7c772/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4944000/30840d44a2327d7f06a74218608360d20fd7c772/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4944000/040014c448c2fa6221b95c239872cf79b8931755/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4944000/f02bb41cce792bf8639f9939865f893fcc7eefb7/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4944000/f02bb41cce792bf8639f9939865f893fcc7eefb7/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Romantissimo"
@@ -1912,7 +1914,7 @@
       4948270
     ],
     "short_description": "Every spell is unfinished. The consequences are not. Fill the blanks in your cards with words and turn the same sentence into traps, area attacks, or reckless combos. A roguelite deckbuilder for 1 to 4 players.",
-    "supported_languages": "English<strong>*</strong>, German<br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, German<strong>*</strong>, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4945980/9fde42222869756731303d4b4a1b132cb3cca29d/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4945980/b1294dbd12027a4ab9f185e2e18c45d39b457622/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4945980/b1294dbd12027a4ab9f185e2e18c45d39b457622/capsule_184x69.jpg",
@@ -5839,7 +5841,19 @@
     "publishers": [
       "KMG Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1716026
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy So Close",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5860,8 +5874,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "October 2026"
+      "coming_soon": false,
+      "date": "1 Oct, 2026"
     },
     "support_info": {
       "url": "https://playsoclose.com/",
@@ -6397,11 +6411,8 @@
       "linux": false
     },
     "categories": [
-      1,
       2,
       28,
-      36,
-      49,
       62
     ],
     "genres": [
@@ -6721,6 +6732,7 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
+      4980900,
       4946810
     ],
     "short_description": "Build a forest kingdom, bend the river through your strongest tiles, and stack broken combinations in this roguelike strategy autobattler. Adapt to the seasons, then watch your army crush waves of lumber-hungry orcs.",
@@ -6734,6 +6746,12 @@
     ],
     "publishers": [
       "Chaos Theory Games"
+    ],
+    "demos": [
+      {
+        "appid": 4980900,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -6845,7 +6863,7 @@
     "steam_appid": 4944870,
     "required_age": 0,
     "is_free": false,
-    "short_description": "**Fuse Beads Simulator 3D** is a realistic 3D fuse bead simulator. Pour, arrange, iron, and create your own pixel art. No timers, no scores\u2014just relaxing ASMR sounds and pure creativity. Pick your colors, grab your tweezers, and enjoy the quiet art of fuse beads.",
+    "short_description": "A simple and tense fuse bead challenge game.",
     "supported_languages": "English, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4944870/69a26baebfb6b5689ba2310ae1221af633f64fc6/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4944870/5927c2e6c6b47d7c7ca2a70bd82a2f24e2a1135d/capsule_231x87.jpg",
@@ -6871,6 +6889,7 @@
     ],
     "genres": [
       4,
+      9,
       23,
       28
     ],

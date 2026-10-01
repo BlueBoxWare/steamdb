@@ -553,6 +553,7 @@
     "steam_appid": 4839520,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Step into the paws of a bold lab rat on a desperate escape to freedom. Leave your scars and past behind using your wits: manipulate the environment, use makeshift tools, and sniff out the right path to the exit in this chaotic stealth, puzzle, and platforming adventure.",
     "supported_languages": "English, French, Spanish - Spain, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4839520/4c5701e1a94d669f125fefd6d65779e8bd8018b5/header.jpg",
@@ -573,7 +574,12 @@
     },
     "categories": [
       2,
-      18,
+      22,
+      28,
+      55,
+      56,
+      57,
+      58,
       62,
       66,
       68
@@ -1585,7 +1591,7 @@
       28
     ],
     "achievements": {
-      "total": 15
+      "total": 17
     },
     "release_date": {
       "coming_soon": false,
@@ -1612,11 +1618,11 @@
     "dlc": [
       4860190
     ],
-    "short_description": "A 1\u20134 player co-op horror-comedy. Complete rituals, use ridiculous gear, and panic with your friends. Earn points to fuel the Goblet of Glory and gain superpowers\u2014or steal your friends\u2019 points. Teamwork gets the job done. How good a teammate are you, really?",
+    "short_description": "A 1\u20134 player co-op horror-comedy about amateur ghost hunters with terrible ideas. Complete rituals, unleash ridiculous gear, and mess with your friends. Gain superpowers, take flight, and fight Satan himself. Teamwork gets the job done. Taking all the glory is tempting.",
     "supported_languages": "English, Simplified Chinese, French, German, Spanish - Spain, Korean, Portuguese - Portugal, Russian",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4840700/9fc00e13c8652e6e54377806e5c6e28656ae34c4/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4840700/16cfadd3e9af46c4a7b881a13b02744ffce43325/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4840700/16cfadd3e9af46c4a7b881a13b02744ffce43325/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4840700/c09b11ef97747f2b3408bd55a891d13c3216949e/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4840700/b1d9100045d81bc1ec63033e6cc404074e7fb9ae/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4840700/b1d9100045d81bc1ec63033e6cc404074e7fb9ae/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "FireDev"
@@ -3122,6 +3128,8 @@
     },
     "categories": [
       2,
+      22,
+      23,
       28,
       55,
       62,
@@ -4540,7 +4548,19 @@
     "publishers": [
       "IronPan"
     ],
-    "package_groups": [],
+    "packages": [
+      1681345
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy LeadFall",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4557,7 +4577,7 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "1 Oct, 2026"
     },
     "support_info": {
@@ -5242,9 +5262,9 @@
     ],
     "short_description": "A dangerous bomb game up to 12 players where you'll have to type words fast to save yourself from exploding. Use power-up cards to control the game, only the last player standing wins.",
     "supported_languages": "English, French, Spanish - Spain, Portuguese - Brazil, Portuguese - Portugal, German, Italian, Japanese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4840650/113100fdea512ebd681bc957cc4f3112bb76faee/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4840650/cd82a3eb7cb65b1cac589246179d869efb422842/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4840650/cd82a3eb7cb65b1cac589246179d869efb422842/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4840650/1b4aa3b13a67cc5372322ee7bcd2169c03590003/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4840650/93e8ee2941698ffdbf10e9d58ac4b2474137dda0/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4840650/93e8ee2941698ffdbf10e9d58ac4b2474137dda0/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Dani Bedmar",
@@ -5577,8 +5597,8 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
-      5061190,
-      5306770
+      5306770,
+      5061190
     ],
     "short_description": "Incremental Mazing Tower Defense. No lives, just make more gold. No fixed mob path, create the best maze ever.",
     "supported_languages": "English, Spanish - Spain, Czech, Ukrainian, French",
@@ -5591,6 +5611,12 @@
     ],
     "publishers": [
       "Petr \"Glubo\" Sykora"
+    ],
+    "demos": [
+      {
+        "appid": 5306770,
+        "description": ""
+      }
     ],
     "packages": [
       1681435
@@ -5612,6 +5638,7 @@
     },
     "categories": [
       2,
+      22,
       23,
       62
     ],
@@ -5620,7 +5647,7 @@
       23
     ],
     "achievements": {
-      "total": 17
+      "total": 29
     },
     "release_date": {
       "coming_soon": false,
@@ -6557,10 +6584,10 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4840920/479966147c04ec484b5f53f650a3b85dc591f26a/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "taptroise"
+      "tab"
     ],
     "publishers": [
-      "taptroise"
+      "tab"
     ],
     "package_groups": [],
     "platforms": {
@@ -7379,12 +7406,15 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      5309550
+    ],
     "short_description": "Descend into the depths of the ocean and explore an underwater world alongside a mysterious octopus. Together, you will discover marine creatures and uncover the mysteries that await at the bottom of the sea\u2026",
     "supported_languages": "English, Spanish - Spain, Spanish - Latin America",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4841820/c2dda882bc1ddcb732e7dc1112e463e0bcb0f7da/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4841820/d3156fa8a019a7c32911f592045e105f57f3d89f/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4841820/d3156fa8a019a7c32911f592045e105f57f3d89f/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://www.kickstarter.com/projects/fangandfinstudio/echoes-below-game",
     "developers": [
       "Fang and Fin Studio"
     ],
@@ -7394,7 +7424,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
