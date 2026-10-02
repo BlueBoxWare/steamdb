@@ -170,7 +170,7 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5289970/04dfecdaeb2293e0d36a71f5153d86a572955626/capsule_184x69.jpg",
     "website": "https://www.talesfrometernity.com",
     "developers": [
-      "J.M Jonsson"
+      "Jace Meridian"
     ],
     "publishers": [
       "J.M Jonsson"
@@ -1785,6 +1785,7 @@
     "steam_appid": 5290590,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Turn falling ingredients into a dinner rush. Match four, set up cascades, and serve hungry customers across six space restaurants. Work through 120 campaign orders, unlock a crew of chefs, or see how long you can keep the kitchen running in Endless.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5290590/561ab2890b8d728686559b0157c8a097e5926baa/header.jpg",
@@ -1805,8 +1806,9 @@
     },
     "categories": [
       2,
-      18,
       22,
+      28,
+      57,
       62
     ],
     "genres": [
@@ -1884,13 +1886,12 @@
     "steam_appid": 5289420,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Wars of Empire is a 2D isometric real-time strategy game. A village grows into an empire across four ages, holds its ground behind walls and siege engines, and faces rival empires that research, trade and raid on their own account.",
+    "short_description": "Wars of Empire is a 2D isometric RTS built around economy, expansion, large-scale warfare and a world that keeps changing around you.",
     "supported_languages": "English, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5289420/5023b183bc64a023cc90fd70c16b8b5d658b64f9/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5289420/a00419293f25573539f8a8e65fa2a4f615463694/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5289420/a00419293f25573539f8a8e65fa2a4f615463694/capsule_184x69.jpg",
     "website": "https://warsofempire.com",
-    "ext_user_account_notice": "Wars of Empire account (Google sign-in) (Supports Linking to Steam Account)",
     "developers": [
       "A.G\u00f6khan SATMAN"
     ],
@@ -3282,7 +3283,19 @@
     "publishers": [
       "100 Cozy Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1829406
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Emojix - Artbook",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3291,7 +3304,8 @@
     "categories": [
       2,
       18,
-      21
+      21,
+      62
     ],
     "genres": [
       4,
@@ -3300,7 +3314,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "1 Oct, 2026"
     },
     "support_info": {
@@ -3309,6 +3323,129 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5291720",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5291720",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5290600": {
+    "type": "game",
+    "name": "Fresh Market Simulator",
+    "steam_appid": 5290600,
+    "required_age": 0,
+    "is_free": false,
+    "dlc": [
+      5294770
+    ],
+    "short_description": "Build your own neighborhood supermarket. Arrange shelves, order deliveries, stock products by hand and serve customers at the checkout. Manage prices, daily bills and customer satisfaction as you unlock new products and expand your shop and stockroom.",
+    "supported_languages": "German, English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5290600/946ccc81377a5cb3c3ee78d0d0ede515289b909e/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5290600/39de745da22bca2648cace114917af1d05256d1f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5290600/39de745da22bca2648cace114917af1d05256d1f/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "GFZ Games"
+    ],
+    "publishers": [
+      "GFZ Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      62,
+      68,
+      69,
+      74
+    ],
+    "genres": [
+      23,
+      28,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q4 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "gfzgames.business@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5290600",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5290600",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5291570": {
+    "type": "game",
+    "name": "Patadas",
+    "steam_appid": 5291570,
+    "required_age": 0,
+    "is_free": true,
+    "controller_support": "full",
+    "short_description": "Quesito &amp; Turr\u00f3n are two ducks with puzzles to solve. Coordinate, push things around, and find your way to the end of each level in this small free game for two. Play on the same screen or remotely with Steam Remote Play Together.",
+    "supported_languages": "English, Spanish - Spain",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5291570/b49be37039e2380d790d604cc8cf58a630de4df9/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5291570/ec7e3f5407980addee9fa959fae7c6f05920d5b7/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5291570/ec7e3f5407980addee9fa959fae7c6f05920d5b7/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Cataxis",
+      "Adorozza ",
+      "LosthinK"
+    ],
+    "publishers": [
+      "Skull Queens Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      24,
+      28,
+      38,
+      39,
+      44,
+      55,
+      56,
+      57,
+      58,
+      62,
+      68,
+      69,
+      74,
+      75,
+      80
+    ],
+    "genres": [
+      2,
+      23,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "February 2027"
+    },
+    "support_info": {
+      "url": "skullqueens.games",
+      "email": "skullqueensgames@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5291570",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5291570",
     "content_descriptors": {
       "ids": [],
       "notes": null

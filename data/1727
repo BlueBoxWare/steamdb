@@ -189,6 +189,9 @@
     "steam_appid": 5182240,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5330080
+    ],
     "short_description": "Psychological indie-horror, simulation. In the 1980s, a small Balkan border town hides dangerous secrets. When Agent Bogomir is assigned to the checkpoint, he becomes an unwilling witness to the town\u2019s darkest mysteries - and must uncover the monster behind the evil living within it.",
     "supported_languages": "English, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5182240/875b7e3bab8365f79fa8d62aaccf5c50a852105a/header.jpg",
@@ -1048,7 +1051,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Break dirt, drop treasure, and blow up whatever gets in the way. Too Deep To Stop is a physics-based incremental mining clicker where each haul pays for stronger hits, stranger tools, and a bigger mess on the next run.",
-    "supported_languages": "English",
+    "supported_languages": "English, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5181530/6ea40e7f0237c29ff26f6634c6895f6ec144d8d5/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5181530/57116fb204346cb90184d48ff314ec1cda3733b0/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5181530/57116fb204346cb90184d48ff314ec1cda3733b0/capsule_184x69.jpg",
@@ -1062,11 +1065,13 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
       2,
+      22,
+      23,
       62
     ],
     "genres": [
@@ -1075,7 +1080,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "Q4 2026"
     },
     "support_info": {
       "url": "",
@@ -1697,7 +1702,7 @@
       5207220,
       5207230
     ],
-    "short_description": "Design a structure, choose your materials, and put it through earthquakes, heavy loads, and brutal impacts. Protect the objective, find the weak points, and rebuild after every spectacular collapse. The only question is: Will It Stand?",
+    "short_description": "Disaster strikes! With a limited budget, build structures, mechanisms, and defenses to protect your beaver from earthquakes, floods, mudslides, meteors, and enemy attacks. Brace, absorb, divert, defend\u2014there is no single answer. If it is still standing when the disaster is over, it worked.",
     "supported_languages": "English, Simplified Chinese, French, German, Japanese, Traditional Chinese, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183890/02b0fa4e3d7de69d88eb153bc505ea9fec9c708f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183890/591bbaf71fa7f5c419cd1757a2292ace62005e04/capsule_231x87.jpg",
@@ -2288,15 +2293,21 @@
     ],
     "short_description": "Create your own bakery on your own or with up to 3 of your friends. Unlock new recepies, kitchen furniture, Decoration and more. Keep your bakery running as long as you can, the more reputation your bakery gains the more popular it becomes, will you be able to handle the demand?\u00a0",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5182490/5046345ba15bd527608dbe5f738c33ff36130e53/header.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5182490/6345ff858ef6524cfad404f77131d0cba561d670/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5182490/1a5bb782a34c722a9b539c981d9c3cd8eb7224a7/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5182490/1a5bb782a34c722a9b539c981d9c3cd8eb7224a7/capsule_184x69.jpg",
-    "website": "https://cookiecow.co.uk",
+    "website": "https://cookiecow.co.uk/press-kit",
     "developers": [
       "CookieCowGames"
     ],
     "publishers": [
       "CookieCowGames"
+    ],
+    "demos": [
+      {
+        "appid": 5183260,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2322,7 +2333,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2027"
+      "date": "Q1 2027"
     },
     "support_info": {
       "url": "",
@@ -4209,7 +4220,7 @@
     "dlc": [
       5225620
     ],
-    "short_description": "Rebelote: Belote &amp; Coinche. The great French-speaking card game classic, finally playable online. Form your team, bid, coinche, and try to bring down the opposing side in this turn-based strategy game. Alone against the AI, or with friends.",
+    "short_description": "Rebelote: Belote &amp; Coinche. The great French-speaking card game classic, finally playable online. Form your team, bid, coinche, and try to bring down the opposing side. Alone against the AI, or with friends: one copy is enough for 4 players thanks to the free Friend Pass.",
     "supported_languages": "French, English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183310/30f010e3d0251a2e80265cdf73d3f3d6c809c001/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183310/37febbc4e3158b99af498cd9fe87fda62c285c04/capsule_231x87.jpg",
@@ -4221,7 +4232,25 @@
     "publishers": [
       "Raziel Corp INC"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5225620,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1793886
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Rebelote : Belote & Coinche",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4244,7 +4273,7 @@
       4
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "1 Oct, 2026"
     },
     "support_info": {
@@ -5470,7 +5499,7 @@
     "steam_appid": 5181050,
     "required_age": 0,
     "is_free": false,
-    "short_description": "In Head Miner, your miner keeps working while you build up your power and income. Expand your mining area, collect valuable resources, unlock stronger equipment, and invest your earnings into upgrades that make everything faster, bigger, and more rewarding.",
+    "short_description": "Start with a simple mining setup and turn it into a powerful resource empire. Automate your work, discover valuable materials, upgrade your equipment, and make smart investments to keep your operation growing.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Portuguese - Brazil, Bulgarian, Danish, Indonesian, Dutch, Japanese, Korean, Spanish - Latin America, Polish, Hungarian, Norwegian, Portuguese - Portugal, Romanian, Russian, Turkish, Ukrainian, Vietnamese, Greek, Czech, Swedish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5181050/13ffea7f52ec19c144179a5855b05591dd97d40e/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5181050/18170cb4f5dc069d2874ce0e39825ef4db4b392d/capsule_231x87.jpg",
@@ -6044,8 +6073,8 @@
     "short_description": "Lead a growing pack of animals through alien hordes in a survivors-like with auto-battler strategy. Recruit beasts, merge them to evolve their skills, and combine powerful synergies. Build your deck, face towering bosses, and turn a small pack into a stampede.",
     "supported_languages": "English, French, Spanish - Spain, Simplified Chinese, Vietnamese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183810/7b24a7fb18694bb05d079fce33bcdaf7ba751c86/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183810/7b6c92f067af2cf9b04745c8f9af02ac7eb7a90d/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183810/7b6c92f067af2cf9b04745c8f9af02ac7eb7a90d/capsule_184x69.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183810/e062c2de18f4517d96187067b3ba41b1ce8d0c7f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183810/e062c2de18f4517d96187067b3ba41b1ce8d0c7f/capsule_184x69.jpg",
     "website": "https://melonsaur.com/",
     "developers": [
       "Melonsaur"
@@ -6079,6 +6108,65 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5183810",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5183810",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5183030": {
+    "type": "game",
+    "name": "Forge & Forget",
+    "steam_appid": 5183030,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "dlc": [
+      5215040
+    ],
+    "short_description": "A banished blacksmith. A talking raven. A fight to reclaim honor. Deform voxel metal on the anvil, quench blades, paint runes, and manually drive nails. Manage resources, pay for your forge's upkeep, and wash away past sins alongside your only companion - a talking raven.",
+    "supported_languages": "English<strong>*</strong>, Polish<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183030/c7dc96e3d3508a5425f05e13766697157f0116cf/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183030/e0b4c454034dbf56d020179e2d9faf80d9e513f4/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183030/e0b4c454034dbf56d020179e2d9faf80d9e513f4/capsule_184x69.jpg",
+    "website": "https://mrgedmistakes.com",
+    "developers": [
+      "Mrged Mistakes"
+    ],
+    "publishers": [
+      "Mrged Mistakes"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      13,
+      28,
+      62,
+      66,
+      68,
+      69,
+      70,
+      74,
+      79
+    ],
+    "genres": [
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "mrgedmistakes.com",
+      "email": "kontakt@mrgedmistakes.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5183030",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183030/c79d1e9ef40ff2bb8eec6f6c11415470492fc0b2/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
