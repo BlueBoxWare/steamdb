@@ -211,6 +211,7 @@
       2,
       22,
       28,
+      30,
       55,
       56,
       57,
@@ -662,7 +663,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Spooky Sex Party is an adult social-deduction game set over one night at a Halloween house party. Twelve women arrive dressed as monsters, but one of them isn't wearing a costume. Work out which before disaster strikes... and you miss your chance to score with a monster-girl!",
-    "supported_languages": "English",
+    "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Traditional Chinese, Ukrainian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5213550/35306527c56675c443cc40ee2a48dcad80fa0713/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5213550/5fe60d2c344605b7c3ac9185149a66837c183370/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5213550/5fe60d2c344605b7c3ac9185149a66837c183370/capsule_184x69.jpg",
@@ -673,11 +674,17 @@
     "publishers": [
       "NPolish"
     ],
+    "demos": [
+      {
+        "appid": 5219840,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
@@ -2489,7 +2496,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "You are the new receptionist at Safe Haven, a hotel caught in the middle of a growing revolution. Keep your guests happy, obey your ruthless boss, and choose your side in a war that was never yours.",
+    "short_description": "Safe Haven is a hotel caught in the middle of a war, and you are its receptionist. Accept guests, assign them rooms, uncover their secrets, and keep them safe.",
     "supported_languages": "English, German, Russian, Spanish - Latin America, Turkish, Azerbaijani, French, Italian, Spanish - Spain, Polish, Portuguese - Portugal",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5213330/fe5484113261cd5380030bf4dd550885b5bb8842/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5213330/99a38d4a8cd60a03092a56145e998b67fe85e2dd/capsule_231x87.jpg",
@@ -2730,7 +2737,19 @@
     "publishers": [
       "liuliu"
     ],
-    "package_groups": [],
+    "packages": [
+      1803742
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Unmoored Isle",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2749,8 +2768,8 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "3 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -4367,6 +4386,57 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "5212710": {
+    "type": "game",
+    "name": "Tragedy for Two",
+    "steam_appid": 5212710,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Experience a 2-player asymmetric co-op horror game where you and a partner investigate the strange behavior of a theater's performers. Separated into different sections of the theater, communicate with your partner to complete your assignments and survive attacks from the supernatural performers.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212710/b65f0c864672e15a1a8f7143e8213502b96b8205/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212710/be76ee4b093419f13469ba7aca2abdcd5e92167e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212710/be76ee4b093419f13469ba7aca2abdcd5e92167e/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "HOODP"
+    ],
+    "publishers": [
+      "HOODP"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      9,
+      38,
+      62
+    ],
+    "genres": [
+      1,
+      2
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "baconcrafthelp@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5212710",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212710/f10e65cff7c0280f4d0ba8cf944f44b82796258d/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "Depictions of violence"
     }
   }
 }

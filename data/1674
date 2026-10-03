@@ -299,9 +299,9 @@
     "name": "SUMMIT",
     "steam_appid": 5023050,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
     "controller_support": "full",
-    "short_description": "DISASTERS is a chaotic multiplayer survival game where you must outlast devastating natural disasters in fully destructible environments. Work together or sabotage your friends with items and proximity voice chat to survive the ultimate game of physics.",
+    "short_description": "A free-to-play, low-poly, open-world survival shooter where you\u2019ll battle other players, explore massive monuments, and fight to stay alive. Build and fortify your base to defend against enemy raids, gather resources, and conquer a harsh, competitive world. Survival means doing whatever it takes.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5023050/78fb59459eaf63f883085ccd63a966f269d2680f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5023050/a6a736102aef1cda7cb9b7c721b86250b1ef8079/capsule_231x87.jpg",
@@ -338,7 +338,9 @@
       4,
       23,
       25,
-      28
+      29,
+      37,
+      70
     ],
     "release_date": {
       "coming_soon": true,
@@ -361,6 +363,9 @@
     "steam_appid": 5023080,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5376660
+    ],
     "short_description": "Every piece is living on borrowed time. Mortal Chess is a single-player chess variant where your pieces has a visible life countdown. Expired pieces leave behind coins you can collect to buy new pieces during the game for a whole new spin on the classic formula",
     "supported_languages": "English, French, German, Spanish - Spain, Danish, Finnish, Simplified Chinese, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Spanish - Latin America, Swedish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5023080/a6c4e3685ed95a01f382894ddb77cc02300f50bb/header.jpg",
@@ -383,10 +388,8 @@
       1,
       2,
       24,
-      36,
       37,
       44,
-      47,
       49,
       62
     ],
@@ -1728,6 +1731,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      5029700
+    ],
     "short_description": "Hold speed through an endless night city. Climb a 100-car field in Midnight Run, slip past traffic, shake the cops, and cash every near miss into style. Then take it to Solo, private Crew rooms, or Online matchmaking. An arcade night-driving racer built for one more run.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5023550/d178274d91a785bb4e9cd9a4632cd96ef03683f8/header.jpg",
@@ -1790,6 +1796,7 @@
     "steam_appid": 5023770,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Let's Tidy Up! : Treasure is a cozy organizing simulator about tidying up a Dwarf treasure room after a particularly lucrative year. Complete full shelves to unlock skills and abilities.\u00a0Sort, stack and shelve 13,196 unique items as you slowly unravel the secrets beneath...",
     "supported_languages": "English, Japanese, Simplified Chinese, Traditional Chinese, French, Italian, German, Spanish - Spain, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5023770/aea9e512443dcf241f8e70a5a9e0448c9839f106/header.jpg",
@@ -1803,7 +1810,19 @@
     "publishers": [
       "Tidy Up Team"
     ],
-    "package_groups": [],
+    "packages": [
+      1742188
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Let's Tidy Up! : Treasure",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1812,13 +1831,17 @@
     "categories": [
       2,
       22,
+      28,
       62
     ],
     "genres": [
       28
     ],
+    "achievements": {
+      "total": 11
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "2 Oct, 2026"
     },
     "support_info": {
@@ -4711,7 +4734,7 @@
       5022510,
       5230260
     ],
-    "short_description": "Overwhelm your enemies with lasers, beams, rockets, and artillery in this high-octane co-op roguelike. Discover powerful weapons, abilities, upgrades, and synergies as you transform your Ark into a ridiculously devastating machine of destruction. Free humanity from the clutches of the machine god!",
+    "short_description": "Become a ridiculously devastating machine of destruction and overwhelm your enemies in this high-octane co-op horde survival shooter. Discover powerful weapons, abilities, upgrades, and synergies as you free humanity from the clutches of the machine god! Part bullet hell, part roguelike, all action.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022140/54dc00383008a0c22676754f60fd8b841b5ed78e/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022140/941419581e6b80e0a06b4074093351e427008bb2/capsule_231x87.jpg",
@@ -5249,7 +5272,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "October 2026"
+      "date": "15 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -5261,7 +5284,7 @@
       "ids": [
         5
       ],
-      "notes": "LIMP MODE is set in a zombie apocalypse. The player fights infected humans with melee weapons and firearms. Combat shows blood and leaves bodies on the ground; there is no dismemberment, gore or torture. Scavenging abandoned vehicles, containers and buildings is a core mechanic, and some NPCs act as criminals. The player character swears out loud during combat and repairs, and the in-game radio plays songs with explicit lyrics."
+      "notes": "LIMP MODE is set in a zombie apocalypse. The player fights infected humans with melee weapons and firearms. Combat shows blood and leaves bodies on the ground; there is no dismemberment, gore or torture. Scavenging abandoned vehicles, containers and buildings is a core mechanic, and some NPCs act as criminals. The player character swears out loud during combat and repairs, and the in-game radio plays songs with explicit lyrics. Pedestrians in towns can be knocked down by vehicles; they fall over and get back up, they cannot be killed or injured permanently."
     }
   },
   "5022160": {
@@ -5331,8 +5354,8 @@
     "short_description": "Channel your inner shrimp in this totally normal idle-clicker aquarium simulation...",
     "supported_languages": "English, Japanese, French, Italian, German, Spanish - Spain, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Traditional Chinese, Turkish, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022050/4207e47ebceac248dc03acf8e00baf6f3da0a4c9/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022050/88daa598a4fcc25804ff5e7255abc84546e9d91d/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022050/88daa598a4fcc25804ff5e7255abc84546e9d91d/capsule_184x69.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022050/35fe9d66457996c45eae857daa8f7b4137202305/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5022050/35fe9d66457996c45eae857daa8f7b4137202305/capsule_184x69.jpg",
     "website": "https://indoorshrimpfarmingsimulator.tumblr.com",
     "developers": [
       "Animalsoft"

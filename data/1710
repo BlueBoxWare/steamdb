@@ -2402,7 +2402,7 @@
       "email": "dongchascript@gmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5130980",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5130980/71b15abef3be73801e1a37839e72f13854e44a8b/page_bg_raw.jpg",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5130980",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -2990,7 +2990,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2026"
+      "date": "October 2026"
     },
     "support_info": {
       "url": "",
@@ -5163,6 +5163,9 @@
     "steam_appid": 5130040,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5140790
+    ],
     "short_description": "This game is focused on turn based tactical combats. The complexity of the game comes from having to carefully manage your various formations in order to defeat your enemies. Carefully plan your actions to win the battle.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5130040/10b12cefc16d7382445821198e0977c9f44974d8/header.jpg",
@@ -5174,6 +5177,12 @@
     ],
     "publishers": [
       "Son Tactics"
+    ],
+    "demos": [
+      {
+        "appid": 5140790,
+        "description": ""
+      }
     ],
     "packages": [
       1776802
@@ -6515,7 +6524,19 @@
     "publishers": [
       "GTO Team"
     ],
-    "package_groups": [],
+    "packages": [
+      1776925
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Get To Orbit",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6540,8 +6561,11 @@
       4,
       28
     ],
+    "achievements": {
+      "total": 19
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "2 Oct, 2026"
     },
     "support_info": {

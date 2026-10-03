@@ -241,6 +241,9 @@
     "steam_appid": 4876110,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5329180
+    ],
     "short_description": "Bring your own floor in a chaotic co-op platformer for 1\u20134 players. Carry, throw and place floor panels, spring over gaps, dodge factory machinery and a claw-armed robot, and pull your friends out of trouble before the clock runs out.",
     "supported_languages": "English, French, Italian, German, Arabic",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4876110/7d2ba4a26141cb8c95686d3829a1585b53e29a31/header.jpg",
@@ -252,6 +255,12 @@
     ],
     "publishers": [
       "71 Studios for Games Development"
+    ],
+    "demos": [
+      {
+        "appid": 5329180,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -1563,7 +1572,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Three Kingdoms: March is a tactical strategy simulation where you command troops with drag-based orders and build your realm through officers, policies, and research. Outmaneuver enemies in real-time battles, strike their flanks and rear, and prepare your path to unification.",
-    "supported_languages": "English, Japanese, Korean, Simplified Chinese, Traditional Chinese, Vietnamese, Indonesian, Thai",
+    "supported_languages": "English, Japanese, Korean, Simplified Chinese, Traditional Chinese, Vietnamese, Indonesian, Thai, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4876620/c0bf5fe0c737f23ecb60eaee808091a4283ed5db/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4876620/8c6b651765c0d7f9ce1e4e8766c8c895d590bc98/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4876620/8c6b651765c0d7f9ce1e4e8766c8c895d590bc98/capsule_184x69.jpg",
@@ -1582,6 +1591,8 @@
     },
     "categories": [
       2,
+      22,
+      23,
       62
     ],
     "genres": [
@@ -5078,7 +5089,19 @@
     "publishers": [
       "MPlant Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1692973
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy In These Hallowed Halls",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5086,14 +5109,18 @@
     },
     "categories": [
       2,
+      22,
       62
     ],
     "genres": [
       25
     ],
+    "achievements": {
+      "total": 9
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "2 Oct, 2026"
     },
     "support_info": {
       "url": "https://mplantgames.com/",
@@ -5105,7 +5132,7 @@
       "ids": [
         5
       ],
-      "notes": "Mature, psychological horror, dark story. Brief scene of suicide in the story. No violence nor killing. "
+      "notes": "Mature, psychological horror, dark story. No violence nor killing. "
     }
   },
   "4876220": {
