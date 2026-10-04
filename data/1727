@@ -932,6 +932,7 @@
     "steam_appid": 5183520,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Wish Impossible is a 1\u20134 player online co-op physics game where tiny gingerbread cookies sneak into sleeping homes to grant Christmas wishes \u2014 without waking anyone up. Move oversized objects, use ridiculous tools, and survive the chaos your friends create.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183520/61ce9a0ca23878cdf00e22411fd833d55a88fe06/header.jpg",
@@ -954,8 +955,14 @@
       1,
       2,
       9,
-      18,
+      22,
+      23,
+      28,
       38,
+      55,
+      56,
+      57,
+      58,
       62,
       67,
       68,
@@ -1566,7 +1573,7 @@
       5216940
     ],
     "short_description": "A battle pet that lives on your desktop. Your glims walk your taskbar, live in a 3D house you decorate and earn gold on their own. When you call, they hold off an invasion on your screen or dive a 20-floor dungeon. Free, light, and it works offline.",
-    "supported_languages": "English, Spanish - Spain, Portuguese - Brazil",
+    "supported_languages": "English, Spanish - Spain, Portuguese - Brazil, French, German, Simplified Chinese, Japanese, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183740/11c88b51fc1a38ef807732fe173f12ccadf7dd1d/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183740/0caef152efe7d2f16d47d057ef45c23c04ab4998/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183740/0caef152efe7d2f16d47d057ef45c23c04ab4998/capsule_184x69.jpg",
@@ -3332,6 +3339,9 @@
     "steam_appid": 5183960,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5345860
+    ],
     "short_description": "Catch falling gems to the beat, draft skills mid-run, and chain combos until your stepper's power ignites. A rhythm game with 20 songs, 20 characters, 30 stackable skills and 7 run-defining Ultimates \u2014 plus a VS mode where your combo becomes your opponent's problem.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183960/91467803b15be7cf2f85a783699b1145b7c7614c/header.jpg",
@@ -3343,6 +3353,12 @@
     ],
     "publishers": [
       "Birdie Games"
+    ],
+    "demos": [
+      {
+        "appid": 5345860,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -5101,7 +5117,19 @@
     "publishers": [
       "BEN'S GAMES"
     ],
-    "package_groups": [],
+    "packages": [
+      1793576
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy BEYOND XII",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5117,8 +5145,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "8 Oct, 2026"
+      "coming_soon": false,
+      "date": "4 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -6280,6 +6308,109 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5182980",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5182980/9abc5904b093da2289cc437082fd338562fea881/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5182480": {
+    "type": "game",
+    "name": "Blood Scrawl",
+    "steam_appid": 5182480,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Blood Scrawl is an action roguelite featuring a unique directional combat system. Explore the depths of an endless gothic library fighting the keepers driven mad by the corrupting scrawl. Discover artifact and pages from ancient tomes to customize your build and dominate your foes.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5182480/78e6b6674c21ce080f58e1f13e98e2dc0283e91c/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5182480/42d15f8e56f70c54e703f5236a200b45e543f4cc/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5182480/42d15f8e56f70c54e703f5236a200b45e543f4cc/capsule_184x69.jpg",
+    "website": "https://soulwaregames.com/",
+    "developers": [
+      "Soulware"
+    ],
+    "publishers": [
+      "Soulware"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      28,
+      62
+    ],
+    "genres": [
+      1,
+      3,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "soulwaregames@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5182480",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5182480/ed3dbde3ee3e241213fc7898b5b51fc7e8dbd373/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This game contain combat sequences that result in death and containing blood and gore."
+    }
+  },
+  "5183110": {
+    "type": "game",
+    "name": "My Captain, O' Captain",
+    "steam_appid": 5183110,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "My Captain, O' Captain is a second person perspective Sci-Fi visual novel where you play as the captain of a malfunctioning ship. With the help of a cryptic computer and an increasingly panicked crew, you must fix the ship or decide which of the crew gets to go home.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183110/80223221c987d7faf0c718d626860e18223c18db/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183110/5640164edb26b0c99558b213f486189cb72294e2/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183110/5640164edb26b0c99558b213f486189cb72294e2/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Skelly Tonne Studio"
+    ],
+    "publishers": [
+      "Metropolitan Game Studios"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      3,
+      4,
+      23,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "skellytonnestudio@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5183110",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5183110",
     "content_descriptors": {
       "ids": [],
       "notes": null

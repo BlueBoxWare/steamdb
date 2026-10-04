@@ -1492,6 +1492,7 @@
     "steam_appid": 5064340,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "DinoBones: Tidy Up the Museum! is a cozy skeleton restoration sim. Identify, collect, and piece together around 2,000 scattered dinosaur bones. Feel chaos turn into order, and with every skeleton you rebuild, the museum reveals another secret.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Turkish, Russian, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064340/0dd27279063d7b37f3e143571c3848bea4502e9b/header.jpg",
@@ -1504,7 +1505,19 @@
     "publishers": [
       "Indie Souls Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1755347
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy DinoBones: Tidy Up the Museum",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -1512,6 +1525,13 @@
     },
     "categories": [
       2,
+      22,
+      23,
+      28,
+      55,
+      56,
+      57,
+      58,
       62,
       64,
       68,
@@ -1525,9 +1545,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 29
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "25 Sep, 2026"
     },
     "support_info": {
       "url": "",

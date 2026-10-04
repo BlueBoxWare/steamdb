@@ -352,11 +352,14 @@
     "steam_appid": 5079520,
     "required_age": 0,
     "is_free": true,
-    "short_description": "A free 1v1 creature card battler in your browser or on your desktop. Every contestant is a real North American animal, entered under its true natural history. Play cards, roll dice, hold the center. There is no skip button, because the animations are the interface.",
+    "dlc": [
+      5114480
+    ],
+    "short_description": "A free 1v1 creature card battler. Every contestant is a real North American animal, entered under its true natural history. Play a card, make your swing, and watch the die TV decide it while the booth calls every roll. A match runs three to six minutes.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5079520/cb91d354768e9bf4f82961fddbff01cdee443af2/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5079520/17329c172ef76160aee617115d6b949b3db419af/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5079520/17329c172ef76160aee617115d6b949b3db419af/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5079520/4619d895a75d00c31c9d87ba71bf847068a0b96f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5079520/ac1bdfde57101ca87c4f5dc91edae28b57f19de0/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5079520/ac1bdfde57101ca87c4f5dc91edae28b57f19de0/capsule_184x69.jpg",
     "website": "https://cupqualifier.app/",
     "developers": [
       "Tkayy"
@@ -2172,7 +2175,10 @@
     "steam_appid": 5080030,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Stand watch as the defensive AI in a SOC at 2 a.m. Pull one anomalous line from a flooding log, prove it with a grep pipeline, name it in ATT&amp;CK terms, then cut the attack without losing uptime. A dozen-plus real attacks, detections you write yourself, twenty-plus nights, more endings than one.",
+    "dlc": [
+      5307920
+    ],
+    "short_description": "Stand the 1 a.m. watch as a SOC defensive AI. The intruder is already inside; you see only its traces. Tell attack from routine, pull threads across hosts and keys, win a human sign-off, excise it in one strike. Real ATT&amp;CK techniques, detections you write, twenty-plus nights, more than one ending.",
     "supported_languages": "English, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5080030/fbf8d84cf86d3431b787906c2004756554afccb5/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5080030/70cf581c2c6220c03276a1051bc6a90f4e4705db/capsule_231x87.jpg",
@@ -4773,6 +4779,10 @@
     "steam_appid": 5081010,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5081090,
+      5081100
+    ],
     "short_description": "A first-person horror game set during the night shift at a pet clinic. Monitor the wards as the animals begin to change, uncover the clinic\u2019s buried past, and find a way to put its restless spirits to rest.",
     "supported_languages": "English, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5081010/3d4b14843531c7fac2e9aeeb29d057e19ef4f6f5/header.jpg",
@@ -5826,8 +5836,11 @@
     "steam_appid": 5080400,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5325390
+    ],
     "short_description": "Build your own stock car racing empire. Develop race cars, expand your headquarters, hire the right crew, secure sponsors, and make crucial race-day decisions. Rise from a small garage to a championship-winning motorsport dynasty.",
-    "supported_languages": "English",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Czech, Hungarian, Japanese, Korean, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Thai, Turkish, Ukrainian, Vietnamese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5080400/24c78c193618cc4d6b152abf7af2e012843b5f0f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5080400/3eeab6dd0a3aff395471f7d9de7e723739e46bb6/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5080400/3eeab6dd0a3aff395471f7d9de7e723739e46bb6/capsule_184x69.jpg",
@@ -5838,7 +5851,25 @@
     "publishers": [
       "Tycoon Managers"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5325390,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1760565
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Stock Car Tycoon",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5846,6 +5877,7 @@
     },
     "categories": [
       2,
+      29,
       62
     ],
     "genres": [
@@ -5853,12 +5885,12 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "25 Sep, 2026"
     },
     "support_info": {
       "url": "",
-      "email": "Support@tycoonmanagers.com"
+      "email": "contact@tycoonmanagers.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5080400",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5080400/3549b874dd44d547b72e2e96afeee5d3e80c9bd0/page_bg_raw.jpg",
