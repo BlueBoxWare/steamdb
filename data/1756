@@ -5,6 +5,9 @@
     "steam_appid": 5268040,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5343590
+    ],
     "short_description": "Lead one of four kingdoms in a real-time war for a continent. Seize land that feeds your armies, raise outposts and citadels, unleash griffins, minotaurs, golems or dragons, and crush your rivals in massive battles where the losing side never retreats.",
     "supported_languages": "English<strong>*</strong>, French, German, Spanish - Latin America, Portuguese - Brazil, Russian, Simplified Chinese, Japanese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5268040/d9af8b22be242cd96ead25eb0f0b4e0d3f7a6059/header.jpg",
@@ -16,6 +19,12 @@
     ],
     "publishers": [
       "Hexagon Games"
+    ],
+    "demos": [
+      {
+        "appid": 5343590,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -311,6 +320,7 @@
       2,
       22,
       23,
+      52,
       62
     ],
     "genres": [
@@ -728,7 +738,19 @@
     "publishers": [
       "Morass"
     ],
-    "package_groups": [],
+    "packages": [
+      1821905
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Bressnath",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -743,9 +765,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 100
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "4 Oct, 2026"
     },
     "support_info": {
       "url": "",
