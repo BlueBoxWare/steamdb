@@ -2090,8 +2090,12 @@
     "steam_appid": 5017760,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
+    "dlc": [
+      5325940
+    ],
     "short_description": "Learn Electronics Through Play! Build circuits, use LEDs, sensors, motors, and microcontrollers to solve engaging challenges in Maker Circuit. Test, make mistakes, improve your designs, and discover real-world electronics concepts through hands-on learning. Build. Experiment. Become a Maker.",
-    "supported_languages": "English, Portuguese - Brazil<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English, Portuguese - Brazil<strong>*</strong>, French, Italian, German, Spanish - Spain, Simplified Chinese, Korean, Japanese, Portuguese - Portugal, Russian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017760/ca41ecebc38256173cdbf730e468c860756f8a13/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017760/3a63c5518f972a0b9991d3b3103cf9e448ff98a6/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017760/3a63c5518f972a0b9991d3b3103cf9e448ff98a6/capsule_184x69.jpg",
@@ -2110,6 +2114,8 @@
     },
     "categories": [
       2,
+      28,
+      55,
       62,
       68
     ],
@@ -4021,7 +4027,19 @@
     "publishers": [
       "WhyDuck Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1739956
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Idle Pixel Maids",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -4039,9 +4057,12 @@
     "genres": [
       23
     ],
+    "achievements": {
+      "total": 30
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "8 Oct, 2026"
+      "coming_soon": false,
+      "date": "6 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -5622,17 +5643,26 @@
     "steam_appid": 5018790,
     "required_age": 0,
     "is_free": false,
-    "short_description": "No guns. No swords. Just one line. Enemies touching the trail you draw get shredded \u2014 and the instant your line closes, everything trapped inside blows up at once. Survive 10 minutes, slay the boss, build your charm deck, and head back out \u2014 a survivors-like where YOU are the weapon.",
+    "dlc": [
+      5247650
+    ],
+    "short_description": "No guns. No swords. No aiming. Your weapon is the path you walk. Enemies touching your trail get shredded \u2014 and the instant it closes into a loop, everything inside blows up at once. Survive 15 minutes, slay the boss, grow your charm deck \u2014 a survivors-like where walking IS attacking.",
     "supported_languages": "English, French, German, Spanish - Spain, Ukrainian, Japanese, Traditional Chinese, Portuguese - Brazil, Korean, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5018790/096281dd5aa13d5eabb074e3e2c090843659116b/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5018790/d52ba7b881cf2fd504519c3b9849c47a6cd3e725/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5018790/d52ba7b881cf2fd504519c3b9849c47a6cd3e725/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5018790/1e4101d667a1a367bbf8a6aded6a3757e502f1aa/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5018790/fdbec9a67ff5ad6b6538401b7c36fabeea37be5c/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5018790/fdbec9a67ff5ad6b6538401b7c36fabeea37be5c/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "BottleTasteStudio"
     ],
     "publishers": [
       "BottleTasteStudio"
+    ],
+    "demos": [
+      {
+        "appid": 5247650,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -5933,7 +5963,19 @@
     "publishers": [
       "Loaded Goat Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1740493
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Artifact Extract",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5949,11 +5991,12 @@
     ],
     "genres": [
       1,
+      23,
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "October 2026"
+      "coming_soon": false,
+      "date": "6 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -6239,6 +6282,64 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "5016460": {
+    "type": "game",
+    "name": "Breed the Queen",
+    "steam_appid": 5016460,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Manage a thriving Demon Den, breed ever stronger monsters, craft powerful mutations, and corrupt Elves to unlock the greatest prize of all\u2014the Elven Queen!",
+    "supported_languages": "English, Japanese, Simplified Chinese, Spanish - Latin America, Traditional Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5016460/63b757c3a5ed35f8f07f0e1f8725e9694c3393d5/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5016460/78c121976b5dd4e3652a5c200c63b1a770e00c6f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5016460/78c121976b5dd4e3652a5c200c63b1a770e00c6f/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      " PixelBee"
+    ],
+    "publishers": [
+      " PixelBee"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      28,
+      55,
+      62
+    ],
+    "genres": [
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "pixelbeegame@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5016460",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5016460/c1b2bc3b9a842ab693fdbebc0cd806397ed191b4/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "notes": "Breed the Queen contains the following content:\r\n- Erotic poses, torn clothing, chains and devices\r\n- Sex scenes & BDSM\r\n- Sex scenes with fantasy creatures, such as Orcs and Werekin, Goblins\r\n- All characters in Breed the Queen are 18+\r\n"
     }
   }
 }
