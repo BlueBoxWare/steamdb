@@ -672,6 +672,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      5354330
+    ],
     "short_description": "A chaotic multiplayer deckbuilding PvP with GOBLINS. Grab items, throw them at your friends, and craft a goblin so broken your friends will hate you.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4797200/a03e40ed806e096eb86d09c9521d6bccd1785955/header.jpg",
@@ -1124,7 +1127,19 @@
     "publishers": [
       "PlaySys"
     ],
-    "package_groups": [],
+    "packages": [
+      1668006
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy I'm Having A Bad Day",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1148,9 +1163,12 @@
       1,
       4
     ],
+    "achievements": {
+      "total": 45
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "October 2026"
+      "coming_soon": false,
+      "date": "8 Oct, 2026"
     },
     "support_info": {
       "url": "https://www.havingabadday.com",
@@ -2369,6 +2387,12 @@
     ],
     "publishers": [
       "Treestyle Studios"
+    ],
+    "demos": [
+      {
+        "appid": 5364970,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4121,7 +4145,8 @@
       74,
       75,
       76,
-      77
+      77,
+      80
     ],
     "genres": [
       3
@@ -4676,7 +4701,7 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4797110/8ca467d94bab6f5f4aec5c1fee72969ef16ce7b1/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4797110/a2fdb64e76c64cbdb02911981f0ed99e804ef756/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4797110/a2fdb64e76c64cbdb02911981f0ed99e804ef756/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://lyrathorn.carrd.co/",
     "developers": [
       "lyrathorn"
     ],

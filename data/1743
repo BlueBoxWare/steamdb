@@ -378,6 +378,12 @@
     "publishers": [
       "SludgePup Games"
     ],
+    "demos": [
+      {
+        "appid": 5272690,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -718,7 +724,7 @@
     "steam_appid": 5230090,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A first-person digging simulator. Land with an empty bag and something to dig with, cut into the rock, and haul up whatever you find. Sell it, buy better, go deeper \u2014 past bad air, heat and locked doors. Solo, or six players on one payroll.",
+    "short_description": "Dig beneath an apocalyptic world, haul valuable loot back to the surface, and push deeper into a buried facility. Upgrade your gear, craft and sell what you find, survive anomalies and contaminated zones, and uncover what was left below. Play solo or with friends!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230090/aecf30b18ed4fd0e882884e76bb7dd695bc7c755/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230090/ad0c1c93b1bd83911e66357fb8f8bedc81b7d2c4/capsule_231x87.jpg",
@@ -744,7 +750,11 @@
       22,
       38,
       62,
+      65,
+      67,
       68,
+      69,
+      70,
       74,
       79,
       80
@@ -1557,11 +1567,11 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Build and destroy property empires on a colourful 3D board. Buy, upgrade and collect rent, complete three sets, and outplay rivals \u2014 then survive Weather Mode, where blizzards, earthquakes, asteroids and tsunamis can reshape the match.",
+    "short_description": "Build an empire. Watch a tsunami take it. Board Dynasty brings property rivalry, hidden bombs, High Stakes and time travel to a colourful 3D board. Play 18 modes plus Custom, solo against AI or with up to four local players.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230230/cbbb45b55401615845adeb915ee23437efe53d0c/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230230/e88f4805e30b6cfa25944e8b1265fbbffae7ce8c/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230230/e88f4805e30b6cfa25944e8b1265fbbffae7ce8c/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230230/c5bba8223e5f3f283962bc6f246c81d8c11543db/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230230/61cb3576a2857ba2312849c82f8e7f68dff023da/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230230/61cb3576a2857ba2312849c82f8e7f68dff023da/capsule_184x69.jpg",
     "website": "https://basegamesireland.vercel.app",
     "developers": [
       "BaseGamesIreland"
@@ -2210,7 +2220,7 @@
     "steam_appid": 5230310,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Survival horror in a quarantined company town. You wake alone at the edge of Ashbrook, where the dead get back up from anything you do to them \u2014 unless what is left of them burns. Ration the fuel. Do not leave a corpse whole. And when the noise gets closer, do not go toward it.",
+    "short_description": "Survival horror in a quarantined company town, for one to four players. You wake alone at the edge of Ashbrook, where the dead get back up from anything you do to them \u2014 unless what is left of them burns. Ration the fuel. Do not leave a corpse whole. When the noise gets closer, do not go toward it.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230310/27bc3ae61dae556f2d8969913c894cb99e96ff2e/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230310/718393e136bb91dc91bd6868d688daad9a9ec306/capsule_231x87.jpg",
@@ -2229,7 +2239,10 @@
       "linux": false
     },
     "categories": [
+      1,
       2,
+      9,
+      38,
       62,
       68,
       69,
@@ -2256,7 +2269,7 @@
         2,
         5
       ],
-      "notes": "I designed this game to assault your psyche on various levels. It is disturbing, bloody, violent. I put a lot of thought into the sound and ambience. There are disturbing visuals. I had to step away repeatedly while making the game. I kept getting nauseous. Jump scares, psychological horror. Buildup, tension. You may get sick. You may pass out. "
+      "notes": "Cradle of Ash is a horror game containing frequent, graphic violence against human and human-like figures: dismemberment, burning bodies, blood, and gore. It deals with pregnancy, infant death, and medical abuse, and includes depictions of corpses and of children in danger. Sustained psychological horror, loud sudden sounds, and flashing light and fire effects throughout."
     }
   },
   "5230400": {
@@ -2484,6 +2497,12 @@
     ],
     "publishers": [
       "Mr. Chicken"
+    ],
+    "demos": [
+      {
+        "appid": 5317270,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3008,7 +3027,19 @@
     "publishers": [
       "DoplayStudio"
     ],
-    "package_groups": [],
+    "packages": [
+      1809690
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy QuadRaid",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3036,9 +3067,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 60
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "8 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -3072,6 +3106,12 @@
     "publishers": [
       "Isleroth Games"
     ],
+    "demos": [
+      {
+        "appid": 5229310,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -3095,7 +3135,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q1 2027"
+      "date": "January 2027"
     },
     "support_info": {
       "url": "",
@@ -4353,7 +4393,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "15 Oct, 2026"
     },
     "support_info": {
       "url": "https://dreamware.games/contact",
@@ -4964,6 +5004,128 @@
         5
       ],
       "notes": "This work contains scenes of blood and gore."
+    }
+  },
+  "5231140": {
+    "type": "game",
+    "name": "Everybody MAHJONG!",
+    "steam_appid": 5231140,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Learn, customize, and play 8 traditional Mahjong rulesets, including Japanese Riichi to Hong Kong and Taiwanese. Features interactive tutorials for beginners, house-rule customization, and solo play or online multiplayer. This is Everybody MAHJONG!",
+    "supported_languages": "English, Japanese, Simplified Chinese, Traditional Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5231140/1c94da2885bac9a94a36a582735a03119be52e57/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5231140/d0ded45a139242556d814cfc634395b983d163c7/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5231140/d0ded45a139242556d814cfc634395b983d163c7/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Oteresk"
+    ],
+    "publishers": [
+      "Oteresk"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      1,
+      2,
+      22,
+      23,
+      28,
+      36,
+      49,
+      55,
+      56,
+      57,
+      58,
+      62,
+      64,
+      66,
+      67,
+      68,
+      74,
+      76,
+      77,
+      78
+    ],
+    "genres": [
+      2,
+      4
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "otereskgaming@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5231140",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5231140/d2fcefe3f03686632bdaff1548e68f069574fc5a/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5231500": {
+    "type": "game",
+    "name": "Axiom of Stars",
+    "steam_appid": 5231500,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Resurrect a fallen sky, one constellation at a time. Axiom of Stars is a calm, luminous logic puzzle game: 2048 puzzles across multiple constellations, each a new way to think, and new mechanics to figure out.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5231500/2988edccf5e3474dd8647f34c0f966d3669e1966/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5231500/3f4132cb588aebf247b6197a44506e35cc15d7cf/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5231500/3f4132cb588aebf247b6197a44506e35cc15d7cf/capsule_184x69.jpg",
+    "website": "https://chillingmoose.com/AxiomOfStars",
+    "developers": [
+      "Chilling Moose Games"
+    ],
+    "publishers": [
+      "Chilling Moose Games",
+      "This Is Neat"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      62,
+      68,
+      74,
+      75,
+      77,
+      79,
+      80
+    ],
+    "genres": [
+      2,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "27 Nov, 2026"
+    },
+    "support_info": {
+      "url": "https://chillingmoose.com/AxiomOfStars",
+      "email": "contact@chillingmoose.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5231500",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5231500/0dc2cd1e147e5ba09dad6060fcd4dd9747da7f1a/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }
