@@ -1327,6 +1327,9 @@
     "steam_appid": 4528860,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5263060
+    ],
     "short_description": "Ball\u2019s mod is a 2D physics sandbox game with no missions, no goals. We just give you the tools \u2014 everything else is up to you! Custom weapons, custom maps, custom rules\u2026",
     "supported_languages": "English, Japanese, Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4528860/7e043717b18a2b7779113860516897527c817e69/header.jpg",
@@ -1338,6 +1341,12 @@
     ],
     "publishers": [
       "N.C Bana"
+    ],
+    "demos": [
+      {
+        "appid": 5263060,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -8049,7 +8058,19 @@
     "publishers": [
       "Dreamers Workshop"
     ],
-    "package_groups": [],
+    "packages": [
+      1579747
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Aquilon: Lust Guild",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8067,8 +8088,11 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 30
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Oct, 2026"
     },
     "support_info": {

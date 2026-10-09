@@ -818,7 +818,7 @@
     "dlc": [
       5359440
     ],
-    "short_description": "A cozy sorting game. A room is buried under thousands of pairs of socks, you, and 64 empty cabinets line the walls. Match every pair by colour, pattern and price, hang it on the right rod, and watch the shelves fill up one satisfying row at a time.",
+    "short_description": "Sort Them Socks is a cozy organizing simulator where you sort over 3,000 unique socks onto the correct shelves. Enjoy the satisfying process of turning a messy socks store into a perfectly organized collection at your own pace.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5315560/52b136f322b910560a83e7a8bc7759c5696cac0d/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5315560/2ae7873561695f8158763333ea63d0dc94492a87/capsule_231x87.jpg",
@@ -843,6 +843,7 @@
       "linux": false
     },
     "categories": [
+      1,
       2,
       9,
       22,
@@ -2879,11 +2880,9 @@
     "steam_appid": 5314720,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5314740
-    ],
+    "controller_support": "full",
     "short_description": "Build circuits and match waveforms across 101 electronics puzzles. Draw wires, light LEDs, and watch signals change on the oscilloscope. Learn how components work, then experiment with your own circuits in Sandbox.",
-    "supported_languages": "English",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Finnish, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Turkish, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5314720/6db649f9b2cdcd573c2071af3c2d1e03453ed867/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5314720/a90635a159b5792c2323faa8b85f8ba69e128207/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5314720/a90635a159b5792c2323faa8b85f8ba69e128207/capsule_184x69.jpg",
@@ -2895,13 +2894,19 @@
       "Chilling Moose Games",
       "This Is Neat"
     ],
-    "demos": [
+    "packages": [
+      1836833
+    ],
+    "package_groups": [
       {
-        "appid": 5314740,
-        "description": ""
+        "name": "default",
+        "title": "Buy 101 Circuits",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -2910,6 +2915,8 @@
     "categories": [
       2,
       22,
+      23,
+      28,
       62
     ],
     "genres": [
@@ -2918,9 +2925,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 32
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "30 Oct, 2026"
+      "coming_soon": false,
+      "date": "9 Oct, 2026"
     },
     "support_info": {
       "url": "https://chillingmoose.com/",
@@ -2995,9 +3005,9 @@
     "is_free": false,
     "short_description": "A dice roguelike in the bog. The witch demands eight tolls, each steeper than the last \u2014 you pay in rolls: points times mult. Between tolls you forge special faces onto your dice and gather talismans.",
     "supported_languages": "English, German, Spanish - Spain, Portuguese - Brazil, Simplified Chinese, Russian, Spanish - Latin America",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5314250/495782267ef1a284c13df44ec60e78a19a2b2d3e/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5314250/20fef622e6ff340c8a3c79d345f2553ef8ed9ffb/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5314250/20fef622e6ff340c8a3c79d345f2553ef8ed9ffb/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5314250/c0895794383733175a99c1fe928a39ed815ef18a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5314250/a705c1e8b2cc493907aab34414d1265f4f14793a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5314250/a705c1e8b2cc493907aab34414d1265f4f14793a/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Smartstift"
@@ -4058,6 +4068,53 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5314100",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5314100/1371b5b96a81e661496d11f6b8c196a9933744ef/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5315490": {
+    "type": "game",
+    "name": "Abduct & Destroy",
+    "steam_appid": 5315490,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Pilot a UFO in a chaotic VR arcade game. Abduct humans, blast buildings apart, and take on ridiculous missions with your ship\u2019s destruction and abduction cannons. Earth is having a very bad day.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5315490/3c590d6ae2278f7bd9e38cc03663896a3bd429c4/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5315490/32f0661b1a76dc7df8787f966787e7abcb87bd7e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5315490/32f0661b1a76dc7df8787f966787e7abcb87bd7e/capsule_184x69.jpg",
+    "website": "https://www.studiosoup.tv/projects/Abduct",
+    "developers": [
+      "Studio Soup"
+    ],
+    "publishers": [
+      "Studio Soup"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      1,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q1 2027"
+    },
+    "support_info": {
+      "url": "https://studiosoup.tv/projects/Abduct",
+      "email": "inquiries@studiosoup.tv"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5315490",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5315490/50cd4fad2b1ec99ef12ff18513ecd01b6259ed10/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

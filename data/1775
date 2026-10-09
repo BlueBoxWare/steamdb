@@ -862,6 +862,8 @@
     },
     "categories": [
       2,
+      22,
+      23,
       62
     ],
     "genres": [
@@ -947,8 +949,8 @@
     "name": "Guild Master",
     "steam_appid": 5326250,
     "required_age": 0,
-    "is_free": true,
-    "short_description": "A free old-school RPG where you run the whole guild solo or with friends. Gather, craft, farm, fight, loot and explore with a growing crew. Switch heroes while the others keep working, turn shared supplies into better gear, and prepare your adventurers to face a deadly fire-breathing dragon.",
+    "is_free": false,
+    "short_description": "An old-school RPG where you run the whole guild solo or with friends. Gather, craft, farm, fight, loot and explore with a growing crew. Switch heroes while the others keep working, turn shared supplies into better gear, and prepare your adventurers to face a deadly fire-breathing dragon.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5326250/636b509283ea16710df3070799ac17e0fbf456d5/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5326250/076faba991e9840ffa1db22ee6c95378d7300282/capsule_231x87.jpg",
@@ -983,8 +985,7 @@
       4,
       23,
       25,
-      28,
-      37
+      28
     ],
     "release_date": {
       "coming_soon": true,
@@ -1451,7 +1452,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Fronts of Steel is a pausable real-time operational wargame on WWII's Eastern Front. Draw battle plans on a staff map and command divisions to break enemy lines, cut supply routes and close encirclements. Exploit terrain, keep troops supplied and choose when to advance or withdraw.",
-    "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English, Simplified Chinese, French, Italian, German, Spanish - Spain, Russian, Traditional Chinese, Portuguese - Brazil, Portuguese - Portugal, Spanish - Latin America",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5327480/a31989f41ac08901c65208d5c6d5ac7a8c8a13ca/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5327480/32980392daf9a587ee8b87fbca90e20f5072885e/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5327480/32980392daf9a587ee8b87fbca90e20f5072885e/capsule_184x69.jpg",
@@ -1469,11 +1470,16 @@
       "linux": false
     },
     "categories": [
+      1,
       2,
+      9,
+      15,
       17,
       22,
       23,
+      25,
       30,
+      49,
       62,
       68,
       74,
@@ -2026,9 +2032,6 @@
     "steam_appid": 5327590,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5385870
-    ],
     "short_description": "Peak: Climb Together is a physics-based, laughter-filled climbing adventure to play with your friends. As you journey toward the sky, every jump takes you one step closer to the top. But be careful! Falling is only the beginning. Climb your way from the trash all the way to the reward at the peak.",
     "supported_languages": "English, French, Italian, German, Simplified Chinese, Portuguese - Brazil, Traditional Chinese, Japanese, Korean, Spanish - Latin America, Russian, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5327590/26c7617b28e29c6a1074c2b4fd5496140cc40664/header.jpg",
@@ -2040,6 +2043,12 @@
     ],
     "publishers": [
       "Neon Studio"
+    ],
+    "demos": [
+      {
+        "appid": 5385870,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2799,8 +2808,7 @@
       82
     ],
     "genres": [
-      28,
-      70
+      28
     ],
     "release_date": {
       "coming_soon": true,
@@ -3883,6 +3891,56 @@
     "content_descriptors": {
       "ids": [],
       "notes": "Heir of Death is a dark fantasy action game set in Hell. It contains frequent fantasy violence, including sword combat, killing humanoid and skeletal enemies, boss fights, and depictions of corpses and human remains. Some environments contain disturbing imagery such as scattered skulls and bones, skeletons mounted on stakes, and weapons made from human bones. \r\n\r\nThe game also includes a scene involving post-mortem violence in which a defeated character is stabbed in the heart.   \r\n\r\nThe game contains strong language and recurring themes of death, damnation, Hell, sin, and loss of humanity."
+    }
+  },
+  "5326480": {
+    "type": "game",
+    "name": "Shattersong",
+    "steam_appid": 5326480,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A story-driven tactical RPG in the spirit of the 16-bit classics. Raise a found-family army of 60 heroes, recover the lost Words that sang the world into being, and stand against the Hollow Cantor \u2014 a grieving priest unsaying the world one note at a time.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5326480/1c4ccbd18d8e6f85aa755db166791409dfea73e7/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5326480/89746d7186ff2b86866c6902935e2f943d6d0ff7/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5326480/89746d7186ff2b86866c6902935e2f943d6d0ff7/capsule_184x69.jpg",
+    "website": "https://shattersong.com/",
+    "developers": [
+      "Matt Lionheart"
+    ],
+    "publishers": [
+      "Matt Lionheart"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      49,
+      62
+    ],
+    "genres": [
+      2,
+      3,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "March 2027"
+    },
+    "support_info": {
+      "url": "https://shattersong.com",
+      "email": "support@shattersong.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5326480",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5326480/5e434d9205dcfead4882d6be4a3080af3872058c/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }

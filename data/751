@@ -12359,6 +12359,11 @@
     "steam_appid": 2254990,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5345310,
+      5345320,
+      5346770
+    ],
     "short_description": "Permafrost is a story-driven survival sandbox set in a frozen, post-apocalyptic world. Discover a vast lore-rich open world, alone or in co-op with up to 4 players. Explore, scavenge, craft, and build a network of shelters to outlast the cold.",
     "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Japanese, Korean, Polish, Simplified Chinese, Russian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg",
@@ -12371,7 +12376,19 @@
     "publishers": [
       "Toplitz Productions"
     ],
-    "package_groups": [],
+    "packages": [
+      809014
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Permafrost",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12381,8 +12398,11 @@
       1,
       2,
       9,
+      15,
       18,
       22,
+      23,
+      29,
       38,
       62
     ],
@@ -12393,8 +12413,11 @@
       28,
       70
     ],
+    "achievements": {
+      "total": 42
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Oct, 2026"
     },
     "support_info": {

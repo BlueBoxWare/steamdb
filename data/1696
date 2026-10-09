@@ -273,7 +273,7 @@
     "steam_appid": 5090060,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Command your ship and fleet in a galaxy that truly lives: 150 sectors where six factions mine, haul, trade, build and wage war whether you're there or not. Trade it, rob it, defend it \u2014 or forge your own fleet and carve out your place in it.",
+    "short_description": "Command your ship and fleet in a galaxy that truly lives: 150 sectors where six factions mine, haul, trade, build and wage war whether you're there or not. Trade it, rob it, defend it \u2014 or forge your own fleet and carve out your place in it. Play solo or in online co-op.",
     "supported_languages": "English, German, Spanish - Spain, Japanese, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Thai, Sorani, French, Italian, Arabic, Korean, Polish, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5090060/f2390ac9864a76e25957a8b190bf9e0206d3dd76/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5090060/69bc80304f53fb5d47c02d8e8e13a9564f8f59ec/capsule_231x87.jpg",
@@ -304,9 +304,12 @@
       "linux": false
     },
     "categories": [
+      1,
       2,
+      9,
       22,
       23,
+      38,
       62,
       74,
       78
@@ -319,7 +322,7 @@
       70
     ],
     "achievements": {
-      "total": 42
+      "total": 56
     },
     "release_date": {
       "coming_soon": false,
@@ -991,9 +994,9 @@
     ],
     "short_description": "Bullet heaven auto-shooter with ONLINE AND COUCH CO-OP for 1-4 players. Fight hordes of energy-feeding aliens, recover eight Protocol Cores, and choose powerful upgrades. Leave the reactor undefended, then fight your way back before the ship runs out of power.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Turkish<strong>*</strong>, Spanish - Latin America<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5090620/7b456dc32a5626dbcda280df1091ddaa3b982eb8/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5090620/89383efe97d0d3c8e661e8b8c9b50a7093a09664/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5090620/89383efe97d0d3c8e661e8b8c9b50a7093a09664/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5090620/150a33bf0f12fde53894a3e06a317acdfc4f9a9f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5090620/3fb4f663f884344c6445dbb5ece60eb7bf33cd86/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5090620/3fb4f663f884344c6445dbb5ece60eb7bf33cd86/capsule_184x69.jpg",
     "website": "https://deadship.pogu.live",
     "developers": [
       "Pogu Live Studios"
@@ -1597,6 +1600,9 @@
     "steam_appid": 5090040,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5109120
+    ],
     "short_description": "Space Catnips is an incremental game where you harvest catnips from alien planets and showcase them in your bar to attract a wide variety of space cats!",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5090040/29a5a2c8f0a095f588d2bc6eb91d383e437d45a4/header.jpg",
@@ -1608,6 +1614,12 @@
     ],
     "publishers": [
       "F(r)ictions Ludiques"
+    ],
+    "demos": [
+      {
+        "appid": 5109120,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2454,7 +2466,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "October 2026"
+      "date": "28 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -4613,7 +4625,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "To be announced"
+      "date": "Q1 2027"
     },
     "support_info": {
       "url": "",
@@ -6077,6 +6089,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      5362430
+    ],
     "short_description": "Lane Rider: Highway Runner is not a simulator. It is a fast, accessible and addictive arcade driving experience built around exploration and the thrill of squeezing through traffic at high speed. Lane Rider is fun on any screen, but VR puts you right in the middle of the action.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Polish<strong>*</strong>, Portuguese - Brazil, Indonesian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5088650/de1b2a6740591045cf6a7caa834e5da6ea3a6409/header.jpg",
@@ -6090,11 +6105,29 @@
     "publishers": [
       "Home Net Games"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5362430,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1763164
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Lane Rider: Highway Runner",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
@@ -6113,8 +6146,8 @@
       9
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "2026"
+      "coming_soon": false,
+      "date": "8 Oct, 2026"
     },
     "support_info": {
       "url": "https://www.homenetgames.com/support/",
