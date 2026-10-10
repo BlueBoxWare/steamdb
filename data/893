@@ -2844,6 +2844,10 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      5113460,
+      5113440
+    ],
     "short_description": "In the cute cardboard world, something went horribly wrong... Use the magical pencil, a good old shotgun, and various other weapons as well as the strength of your mighty boots, to uncover the dark truth and find out WHY WOULD CARDBOARD... BLEED?",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Polish, Russian, Simplified Chinese, Portuguese - Brazil, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680280/0b30058f0a9d5ad4ed698367b19bad97001faa02/header.jpg",
@@ -2856,7 +2860,19 @@
     "publishers": [
       "HypeTrain Digital"
     ],
-    "package_groups": [],
+    "packages": [
+      964200
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy PAPERHEAD",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2877,8 +2893,11 @@
       1,
       23
     ],
+    "achievements": {
+      "total": 25
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Oct, 2026"
     },
     "support_info": {

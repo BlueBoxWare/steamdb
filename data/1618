@@ -5631,9 +5631,9 @@
     ],
     "short_description": "The free demo for Shadows of Beginnings. Play as the Warrior or the Mage, rescue the people who can help rebuild Novum, then take one of two routes through the Verdant Rot Swamp to reach the Thorn Matriarch. The further you push, the harder the hive pushes back.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4855310/737b0da8cf69a71b1e50ab1aefb47bcc3973e5b4/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4855310/9391ddd8859bde6c821920b2f055bb8d0235cb30/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4855310/9391ddd8859bde6c821920b2f055bb8d0235cb30/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4855310/5a8d77d68d7fe1dc7edaa37d798733dbe8ba9ec4/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4855310/f388520aa73ea9f4f75e7444a80dfb8a5ee02d72/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4855310/f388520aa73ea9f4f75e7444a80dfb8a5ee02d72/capsule_184x69.jpg",
     "website": "https://cryptidforgestudios.com/",
     "developers": [
       "Squatch Works",
@@ -7806,6 +7806,9 @@
     "steam_appid": 4856540,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5233040
+    ],
     "short_description": "Create Android, PC, and web games without programming. Clicker Game Maker helps beginners and experienced creators build, customize, export, and monetize games in just a few clicks.",
     "supported_languages": "English, French, German, Spanish - Spain, Arabic, Traditional Chinese, Korean, Portuguese - Brazil, Russian, Turkish, Ukrainian, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4856540/4ec889baded503f6270a23cf4f525c9d34d3bc98/header.jpg",
@@ -7818,7 +7821,25 @@
     "publishers": [
       "Datrix Studio"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5233040,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1686797
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Clicker Game Maker",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7826,15 +7847,16 @@
     },
     "categories": [
       74,
-      79
+      79,
+      80
     ],
     "genres": [
       57,
       60
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "2026"
+      "coming_soon": false,
+      "date": "9 Oct, 2026"
     },
     "support_info": {
       "url": "",
