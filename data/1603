@@ -1416,7 +1416,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "To be announced"
     },
     "support_info": {
       "url": "",
@@ -1549,6 +1549,7 @@
     "steam_appid": 4811390,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "An auto-battler roguelike gacha. Recruit your party, min-max their builds, and stack class synergies, as you drag eight recruits deeper each run. Watch them fall, roll for powerful heroes, upgrade the skill tree, and march a stronger party into the fight for Beardlandia!",
     "supported_languages": "English, German, Simplified Chinese, Japanese, Russian, French, Italian, Spanish - Spain, Czech, Korean, Polish, Portuguese - Brazil, Traditional Chinese, Turkish, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4811390/273f3b80aa64080c3a5de46823e6118d6627f716/header.jpg",
@@ -1575,6 +1576,11 @@
     },
     "categories": [
       2,
+      28,
+      55,
+      56,
+      57,
+      58,
       62,
       67,
       68,
@@ -2698,8 +2704,7 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
-      5012930,
-      5013060
+      5012930
     ],
     "short_description": "Lead a nation through decades of political and economic challenges. Manage budgets, taxes, interest rates, crises, and public opinion in a deep grand-strategy simulation where every decision shapes your country's future.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Simplified Chinese, Polish, Russian",
@@ -2712,6 +2717,12 @@
     ],
     "publishers": [
       "WoN"
+    ],
+    "demos": [
+      {
+        "appid": 5012930,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3818,7 +3829,7 @@
       5019810,
       5317020
     ],
-    "short_description": "Whispering Green is a cozy first-person magical horticulture adventure. Explore enchanted woods, discover rare plants, and use your Arcane Gun to uncover secrets. Cultivate magical flora, brew powerful remedies, and grow your apothecary into a thriving business.",
+    "short_description": "Whispering Green is a cozy first-person magical horticulture. Explore enchanted woods, discover rare plants, and use your Arcane Gun to uncover secrets. Cultivate magical flora, brew powerful remedies, and grow your apothecary into a thriving business.",
     "supported_languages": "English, Indonesian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4811840/96ff61a565ed1a5120c49affe6a989c028286793/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4811840/364b4f7604e4da71031307e4f19b7eaf1adeb078/capsule_231x87.jpg",
@@ -4940,7 +4951,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "December 2026"
+      "date": "3 Dec, 2026"
     },
     "support_info": {
       "url": "",
@@ -6197,6 +6208,12 @@
     "publishers": [
       "Phoenix Hunt"
     ],
+    "demos": [
+      {
+        "appid": 5344950,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -6819,7 +6836,19 @@
     "publishers": [
       "Nacon"
     ],
-    "package_groups": [],
+    "packages": [
+      1671523
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Ravenswatch - Kintaro",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6843,7 +6872,7 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "12 Oct, 2026"
     },
     "support_info": {
@@ -6933,7 +6962,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -6961,6 +6990,53 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4810200",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4810200",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "4811880": {
+    "type": "game",
+    "name": "Alter-Egoism of Apocalypse",
+    "steam_appid": 4811880,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Infiltrate the Agent training program in Hinomoto to discover who murdered your mother and avenge her death!",
+    "supported_languages": "English, Japanese, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4811880/c73730ba547691f79af75de9678f82b54e4ca5f4/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4811880/e192cd303c83b5faa45f85861a51d24b9d55234d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4811880/e192cd303c83b5faa45f85861a51d24b9d55234d/capsule_184x69.jpg",
+    "website": "https://www.kaguragames.com/",
+    "developers": [
+      "ONEONE1"
+    ],
+    "publishers": [
+      "Kagura Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      3,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "info@kaguragames.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4811880",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4811880",
     "content_descriptors": {
       "ids": [],
       "notes": null

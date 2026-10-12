@@ -2442,7 +2442,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "Fling yourself up to the top in this \u201cGetting Over It\u201d-like 3D platformer! Stick your pole to walls, bend it and fling yourself with great speed! One mistake means falling all the way down. Can you reach the summit in under 2 hours and EARN that refund?!",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Simplified Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5070190/b5e8f8763af32eeb31fa561cca20a234f0e469a0/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5070190/2aa8ad72c4f997af15986065ad12486b716619d6/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5070190/2aa8ad72c4f997af15986065ad12486b716619d6/capsule_184x69.jpg",
@@ -2466,12 +2466,16 @@
       15,
       22,
       23,
+      25,
       28,
       55,
       56,
       57,
       58,
-      62
+      62,
+      68,
+      69,
+      74
     ],
     "genres": [
       1,
@@ -2479,7 +2483,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "12 Oct, 2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -3530,7 +3534,7 @@
       5070230
     ],
     "short_description": "Build and run your own video game store in this first-person retail management simulator. Order new titles, unpack deliveries, stock shelves, set prices, serve customers at the register, and reinvest your profits to customize and expand your growing business.",
-    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Russian<strong>*</strong>, Turkish<strong>*</strong>, Czech<strong>*</strong>, Japanese<strong>*</strong>, Polish<strong>*</strong>, Dutch<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Korean<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Spanish - Latin America<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Russian, Turkish, Czech, Japanese, Polish, Dutch, Portuguese - Brazil, Korean, Portuguese - Portugal, Spanish - Latin America",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5070200/5f7fbd47ce478898c57ab327acf3d6458140aa9a/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5070200/eb7e54b7d77fd88c645eb71f3ed04f30644c0fb9/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5070200/eb7e54b7d77fd88c645eb71f3ed04f30644c0fb9/capsule_184x69.jpg",
@@ -3601,7 +3605,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -6896,7 +6900,7 @@
   },
   "5071730": {
     "type": "game",
-    "name": "\u9955\u992e\u9b54\u5bb4",
+    "name": "Feast",
     "steam_appid": 5071730,
     "required_age": 0,
     "is_free": false,
@@ -6912,7 +6916,19 @@
     "publishers": [
       "Ryanhurt"
     ],
-    "package_groups": [],
+    "packages": [
+      1757777
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Feast",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6926,8 +6942,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "October 2026"
+      "coming_soon": false,
+      "date": "11 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -7311,6 +7327,62 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5070300",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5070300",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5071620": {
+    "type": "game",
+    "name": "Pack Ripper",
+    "steam_appid": 5071620,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Pack Ripper is a hands-on trading card incremental game. Rip open packs, fill your binder, and level up your packs for better pulls. Will you sell the hit or keep it?",
+    "supported_languages": "English, French, German, Spanish - Spain, Japanese, Portuguese - Brazil, Russian, Simplified Chinese, Polish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5071620/4347617f492e45c6bcf16ad55b10dba02def983a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5071620/c4f384e4af976d6f90c5c4351e814ad7495af597/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5071620/c4f384e4af976d6f90c5c4351e814ad7495af597/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "BigBonk Studio"
+    ],
+    "publishers": [
+      "BigBonk Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      2,
+      15,
+      22,
+      23,
+      62,
+      68,
+      74,
+      76,
+      79,
+      80
+    ],
+    "genres": [
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "bigbonkstudio@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5071620",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5071620",
     "content_descriptors": {
       "ids": [],
       "notes": null
