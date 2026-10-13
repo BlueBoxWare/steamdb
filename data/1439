@@ -1757,7 +1757,7 @@
     "name": "JAYWALK: An Endless Arcade Hopper Game",
     "steam_appid": 4319430,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "controller_support": "full",
     "short_description": "Hop, dodge, and race to the top in this endless runner inspired by Frogger! Collect coins, unlock new characters, and compete with friends in fast-paced multiplayer chaos.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
@@ -1771,7 +1771,19 @@
     "publishers": [
       "Player 9"
     ],
-    "package_groups": [],
+    "packages": [
+      1854898
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy JAYWALK: An Endless Arcade Hopper Game",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1799,8 +1811,7 @@
     ],
     "genres": [
       1,
-      23,
-      37
+      23
     ],
     "achievements": {
       "total": 36
@@ -4990,6 +5001,8 @@
     },
     "categories": [
       2,
+      22,
+      23,
       62,
       68,
       74,

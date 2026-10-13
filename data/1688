@@ -2951,7 +2951,7 @@
     "steam_appid": 5064290,
     "required_age": 0,
     "is_free": false,
-    "short_description": "No More Pain is a first-person psychological horror adventure driven by atmospheric exploration. Tidy up misplaced objects and search for clues within immersive environments, piece together the truth hidden in leftover notes, and experience a deeply oppressive psychological journey.",
+    "short_description": "No More Pain is a first-person psychological horror adventure game. Stepping into the shoes of different characters, you will examine personal belongings, gather photos, and inspect clues within mysterious environments to unravel the truth buried beneath past memories.",
     "supported_languages": "English, German, Spanish - Spain, Russian, Japanese, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064290/4f78f466f67a18ea523c4eb39b25d680d729bf4e/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064290/df840a8b4197019c2dcdd858c7d6f3e69f1c2332/capsule_231x87.jpg",
@@ -2963,7 +2963,19 @@
     "publishers": [
       "CubiX"
     ],
-    "package_groups": [],
+    "packages": [
+      1755332
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy No More Pain",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2981,9 +2993,12 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 8
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "October 2026"
+      "coming_soon": false,
+      "date": "12 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -3740,6 +3755,9 @@
     "steam_appid": 5064300,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5313280
+    ],
     "short_description": "We want to create a &quot;warm-hearted rogue&quot; \u2014 not just endless cycles of death and stat grinding, but meaningful stories behind every return. The martial world is not just about fighting and killing; it's also about human relationships and the complexities of life.",
     "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong>, Japanese<strong>*</strong>, Traditional Chinese<strong>*</strong>, Korean<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064300/f205f84ec329cffb2f8464cc374550ff81a78d43/header.jpg",
@@ -3751,6 +3769,12 @@
     ],
     "publishers": [
       "Crazy Rabbit"
+    ],
+    "demos": [
+      {
+        "appid": 5313280,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3773,7 +3797,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "21 Oct, 2026"
+      "date": "Q4 2026"
     },
     "support_info": {
       "url": "",
@@ -4581,17 +4605,26 @@
     "steam_appid": 5066010,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Here Comes the Horde is an auto-battler incremental game where your loyal soldiers fight against hordes of undead enemies led by a formidable necromancer. Earn coins, improve your army, unlock new units, grow stronger, and fill the screen with your troops.",
-    "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/9df805c3e04ae51a64293816271251bd3742cb08/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/23f9ea647d86c17219f3792d9aa663013654b41d/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/23f9ea647d86c17219f3792d9aa663013654b41d/capsule_184x69.jpg",
-    "website": null,
+    "dlc": [
+      5322720
+    ],
+    "short_description": "Here Comes the Horde is an auto-battler incremental game where you send huge armies to defend your castle against hordes of undead enemies led by a formidable necromancer. Survive their attacks, unlock new units, grow stronger, and fill the screen with your troops.",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/660ba25cbec114093ff8245eeafc64e779518a05/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/49c9faf9c018367efbd29c1c8f19435d5802dc3a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/49c9faf9c018367efbd29c1c8f19435d5802dc3a/capsule_184x69.jpg",
+    "website": "https://polishedgames.com/games/here-comes-the-horde/",
     "developers": [
-      "Not Polished Yet"
+      "Polished Games"
     ],
     "publishers": [
-      "Not Polished Yet"
+      "Polished Games"
+    ],
+    "demos": [
+      {
+        "appid": 5322720,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4601,6 +4634,8 @@
     },
     "categories": [
       2,
+      22,
+      23,
       62
     ],
     "genres": [
@@ -4617,7 +4652,7 @@
       "email": "support@polishedgames.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5066010",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5066010",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/bc3b08aad47eec1d3ead0672fa815635db762d58/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5293,7 +5328,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "3 Nov, 2026"
+      "date": "1 Dec, 2026"
     },
     "support_info": {
       "url": "https://mahlogames.netlify.app",
@@ -6647,17 +6682,26 @@
     "steam_appid": 5066170,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5066180
+    ],
     "short_description": "As an Octochef, master your typing skills to manage and serve dishes in a conveyor belt restaurant. Type to cook, type to upgrade, type to automate in Typopus, an incremental cooking game. Satisfy customers, unlock new meals and optimize your restaurant.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066170/4deba23cb3e2e79d2c9fac3f59b41f7afc23039a/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066170/112df57b8bb7a1aa23e28805b7a3c6f43af58b25/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066170/112df57b8bb7a1aa23e28805b7a3c6f43af58b25/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066170/36c986bec4db6327ad7bd3dfd8bb3f60cafd5cfa/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066170/a5b71f577f9dd5b520d1665400c9aefdee7b1046/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066170/a5b71f577f9dd5b520d1665400c9aefdee7b1046/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Atakan Sezer"
     ],
     "publishers": [
       "Next in Game"
+    ],
+    "demos": [
+      {
+        "appid": 5066180,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {

@@ -2855,7 +2855,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "28 Oct, 2026"
+      "date": "9 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -4462,7 +4462,7 @@
       5293980
     ],
     "short_description": "When the deadline looms, humans ascend. &quot;Never do today what you can put off until tomorrow.&quot; A VTuber living by that creed plunges into scheduling hell \u2014 back against the wall. Relive a streamer's chaotic week with clever resource management in this roguelite sim!",
-    "supported_languages": "Japanese",
+    "supported_languages": "Japanese, English, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5009670/ca41d8f805007b937dc26b305846592ea08139f1/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5009670/37d0d382fefd55b094d3293c4b0167e11c06b6cf/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5009670/37d0d382fefd55b094d3293c4b0167e11c06b6cf/capsule_184x69.jpg",
@@ -4509,7 +4509,7 @@
     },
     "support_info": {
       "url": "",
-      "email": "pastelarc_official@gmail.com"
+      "email": "pastelarc.official@gmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5009670",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5009670",
@@ -5363,8 +5363,7 @@
     "steam_appid": 5009280,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
-    "short_description": "A dark-fantasy party roguelite with tactical Active Time Battle combat. Lead four heroes into the Abyss beneath a Lovecraftian fishing island, watch most enemy attacks charge, and interrupt the killing blow. Draft skills instead of grinding levels. Lose all four and the run ends.",
+    "short_description": "A dark-fantasy party roguelite with turn-based tactical combat on a shared timeline. Lead four heroes into the Abyss alone or in two-player local co-op, watch most enemy attacks charge, and interrupt the killing blow. Draft skills instead of grinding levels. Lose all four and the run ends.",
     "supported_languages": "Portuguese - Brazil, English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5009280/1f8c26cb6e9d1160727f6c6e8759b07a519b6864/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5009280/e144c59d93e47890b3829143261f884c111e1835/capsule_231x87.jpg",
@@ -5383,8 +5382,12 @@
       "linux": false
     },
     "categories": [
+      1,
       2,
-      28,
+      9,
+      18,
+      24,
+      39,
       62
     ],
     "genres": [
@@ -6444,17 +6447,27 @@
     "steam_appid": 5009390,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Your first day at Bob Company starts on the warehouse floor. Check orders, find the right items, and get each shipment packed and ready to go. Upgrade the warehouse, automate the heavy lifting, and work your way up from Intern to Director. With no fail states or penalties, work at your own pace.",
+    "controller_support": "full",
+    "dlc": [
+      5009410
+    ],
+    "short_description": "Welcome to Bob Company! Fill orders, haul goods, and make work easier with automation. Rise from Intern to Director in a relaxing first-person warehouse sim. Each promotion opens new areas of the company and reveals more of the stories behind it.",
     "supported_languages": "English, Korean, French, German, Spanish - Spain, Russian, Spanish - Latin America, Japanese, Simplified Chinese, Traditional Chinese, Portuguese - Brazil, Polish, Portuguese - Portugal",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5009390/0ab145dc45d1c7ed1a444e09cef1899ca65cefd9/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5009390/14531f1e5cb85f830c11c2b8c1c7d3b9621529b5/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5009390/14531f1e5cb85f830c11c2b8c1c7d3b9621529b5/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5009390/7d7c1a52f31eed8cfdaf4ea524ba8c70738b3454/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5009390/92722a0b3b84f4331827edea8cddad0bdbc9dc9e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5009390/92722a0b3b84f4331827edea8cddad0bdbc9dc9e/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "WINDUP"
     ],
     "publishers": [
       "WINDUP"
+    ],
+    "demos": [
+      {
+        "appid": 5009410,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -6464,6 +6477,7 @@
     },
     "categories": [
       2,
+      28,
       62
     ],
     "genres": [
@@ -7444,7 +7458,19 @@
     "publishers": [
       "Yog Interactive"
     ],
-    "package_groups": [],
+    "packages": [
+      1737003
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy ProdRoads",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7456,8 +7482,8 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "October 2026"
+      "coming_soon": false,
+      "date": "13 Oct, 2026"
     },
     "support_info": {
       "url": "https://prodroads.com/contact/",
@@ -7680,7 +7706,7 @@
     "name": "Voidtrain - Big Catch",
     "steam_appid": 5007040,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
     "short_description": "Catch fish aboard your train, upgrade your gear, and earn Scales with every catch to spend on fishing upgrades and train decor.",
     "fullgame": {
       "appid": "1159690",
@@ -7697,7 +7723,20 @@
     "publishers": [
       "HypeTrain Digital"
     ],
-    "package_groups": [],
+    "packages": [
+      1855506,
+      1736670
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Voidtrain - Big Catch",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7724,8 +7763,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "October 2026"
+      "coming_soon": false,
+      "date": "12 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -8205,6 +8244,7 @@
       1,
       2,
       9,
+      22,
       38,
       62,
       64,
@@ -8868,8 +8908,8 @@
     "steam_appid": 5009950,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Play solo. Plan as a team. Build a Three Kingdoms deck and join an AI ally in 2v2 battles. Share the field, set up counterplays and adapt to changing weather. Collect foil and alternate-art cards, unlock bond stories, and bring new combinations into your next match.",
-    "supported_languages": "Simplified Chinese<strong>*</strong>, English<strong>*</strong>, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "short_description": "Play solo. Plan as a team. Build a Three Kingdoms deck and fight alongside an AI ally, sharing the field and Strategy Points. Set up counterplays, adapt to changing seasons, and turn the tide with legendary generals. Choose from ten leaders, collect cards, and uncover their stories.",
+    "supported_languages": "Simplified Chinese<strong>*</strong>, English<strong>*</strong>, Traditional Chinese<strong>*</strong>, French, Italian, German, Spanish - Spain, Russian, Turkish, Japanese, Polish, Portuguese - Brazil, Korean<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5009950/2d081829759c024b4037b391049330dcf79e67d5/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5009950/2b48e0d6dd216c976b9a1dce1ad391d4cb3373a6/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5009950/2b48e0d6dd216c976b9a1dce1ad391d4cb3373a6/capsule_184x69.jpg",
@@ -8895,7 +8935,6 @@
       68,
       74,
       78,
-      80,
       82
     ],
     "genres": [
