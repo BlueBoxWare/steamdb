@@ -195,7 +195,7 @@
     "steam_appid": 5190350,
     "required_age": 0,
     "is_free": false,
-    "short_description": "21 championships across 7 disciplines, all running at once: karting, rally, touring cars, stock cars, endurance, open wheel and GP. Start with one kart. Sign drivers, design every part, build your own factory and sell road cars to fund it. 172 rival teams develop all season too.",
+    "short_description": "Start with a kart at small garage, build an empire!. 172 teams, 21 championships across 7 disciplines, all running at once: karting, rally, touring cars, stock cars, endurance, open wheel and GP. Sign drivers, design every part, build your own factory and sell road cars to fund your team.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5190350/7f574696c42d3a54670d67c3e7c230bc42ad0951/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5190350/de924d4baa8e65a54373cbefba52bf6f9011b878/capsule_231x87.jpg",
@@ -555,9 +555,9 @@
     "controller_support": "full",
     "short_description": "You're a basketball. Roll, charge-jump and dash up a tower of floating junk, squash your friends on the way, and try to sink a shot at the top. Up to 8 players with voice chat.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191330/03ca46a4fb32a15fa5f3c09324cb5932b507e2b3/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191330/9d4148223520794a5ac0a00a1500d58cccc0e794/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191330/9d4148223520794a5ac0a00a1500d58cccc0e794/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191330/a2bdd386af1a5c50abad77a715dfb038041038f9/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191330/47c49401934cc6bcb85cfb86a17da247edfcec7f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191330/47c49401934cc6bcb85cfb86a17da247edfcec7f/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Triarch Interactive"
@@ -575,10 +575,8 @@
       1,
       2,
       9,
-      22,
       28,
       38,
-      59,
       62,
       69,
       74,
@@ -1366,7 +1364,19 @@
     "publishers": [
       "BonTess Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1796140
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Leg It: Don't Stop",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1383,8 +1393,11 @@
       1,
       23
     ],
+    "achievements": {
+      "total": 16
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "13 Oct, 2026"
     },
     "support_info": {
@@ -3082,17 +3095,26 @@
     "steam_appid": 5191860,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5200230
+    ],
     "short_description": "Facelet is a roguelike deckbuilder played on a scrambled puzzle cube. Twist layers to line up colors, cash them in, and build a deck that scores a cube nobody would ever finish. Spend your winnings on Algorithms, Mods, stickers and Tools, then take the bigger cube into the next Depth.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191860/2f5ddc8f50e0441426406806796450216ffc49cf/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191860/d37f1c46a8d8defe0c528ba173961065e24126b2/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191860/d37f1c46a8d8defe0c528ba173961065e24126b2/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191860/e48821d680141f593cb5f37a8ace4a0b228d3fd0/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191860/c57d87768689e1bab640e1c29fd71b2755a3eb3b/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191860/c57d87768689e1bab640e1c29fd71b2755a3eb3b/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Dead Relic Games"
     ],
     "publishers": [
       "Dead Relic Games"
+    ],
+    "demos": [
+      {
+        "appid": 5200230,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3127,7 +3149,7 @@
       "email": "support@deadrelicgames.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5191860",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191860/37cb4fa8b18f9b7cbf4f94c179a3f0e00f195d65/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191860/97c08a7b19a1e16a5239af1852b7da4192420d2a/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -5359,6 +5381,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      5398590
+    ],
     "short_description": "Growing Knight is an incremental game of timing and positioning where you fight monsters, upgrade your skills and go for another run until you become unstoppable. Learn skills, spells and hire retinue to fight with you.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5190290/2934f72f224b267ce90a41e411cecefbf710447a/header.jpg",
@@ -5370,6 +5395,12 @@
     ],
     "publishers": [
       "Ennoble Studios"
+    ],
+    "demos": [
+      {
+        "appid": 5398590,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -5396,7 +5427,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q4 2026"
+      "date": "December 2026"
     },
     "support_info": {
       "url": "",
@@ -5404,6 +5435,56 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5190290",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5190290/14d9b8aa50e004637ac30d9f49d8a588292c7d5e/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5191260": {
+    "type": "game",
+    "name": "Isle of Cards",
+    "steam_appid": 5191260,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Isle of Cards is a strategy deckbuilder where you build up your island by playing cards. Draw cards and place tiles to level up your island before time runs out. Create unique decks by unlocking new cards and completing challenges.",
+    "supported_languages": "English, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191260/f2b544d0034459d66bdf384f66d46a9b8e9f41f0/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191260/e2d3dc810247333d6093b1a1f1379a9284b11608/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191260/e2d3dc810247333d6093b1a1f1379a9284b11608/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Hamster_steve"
+    ],
+    "publishers": [
+      "Hamster_steve"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      62
+    ],
+    "genres": [
+      2,
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "December 2026"
+    },
+    "support_info": {
+      "url": "https://steamcommunity.com/app/5191260",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5191260",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5191260",
     "content_descriptors": {
       "ids": [],
       "notes": null

@@ -615,7 +615,7 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       1,
@@ -6827,7 +6827,19 @@
     "publishers": [
       "IronWill"
     ],
-    "package_groups": [],
+    "packages": [
+      1294302
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Miner Crysis",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6847,8 +6859,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "13 Oct, 2026"
     },
     "support_info": {

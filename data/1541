@@ -2492,6 +2492,7 @@
     "steam_appid": 4624140,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "After trying to start a new life, you find yourself trapped in H.H. Holmes' Murder Castle. Your mission is to escape his prison of death. Each room presents you with a new challenge and reveals something about the story behind H.H. Holmes. Can you escape the architect of death?",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Simplified Chinese, Japanese, Polish, Portuguese - Portugal, Russian, Czech, Turkish, Spanish - Latin America",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4624140/a85a40bda3ac329cd189dd4382290128d5c90a67/header.jpg",
@@ -2510,7 +2511,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1610758
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Murder Castle",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2520,6 +2533,7 @@
       2,
       22,
       23,
+      28,
       62,
       67,
       68,
@@ -2533,8 +2547,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 7
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "13 Oct, 2026"
     },
     "support_info": {
@@ -3044,7 +3061,8 @@
     "controller_support": "full",
     "dlc": [
       4659760,
-      4659580
+      4659580,
+      4659750
     ],
     "short_description": "A short 20 minute experience. Inspired by true events. A First Officer on a night flight is paired with a new Captain for the journey. What begins as a normal flight slowly turns unsettling as the situation slowly turns intense.",
     "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Japanese, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese<br><strong>*</strong>languages with full audio support",
@@ -6418,7 +6436,7 @@
       23
     ],
     "achievements": {
-      "total": 13
+      "total": 15
     },
     "release_date": {
       "coming_soon": false,
@@ -6429,7 +6447,7 @@
       "email": "adrian.aksan@gmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4625630",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4625630",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4625630/4b43ed5c6b61e34362a145778234c45db3d88fd2/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -7063,9 +7081,9 @@
     "is_free": false,
     "short_description": "A 1920s Prohibition-era action RPG where you capture creatures to take on the mob! Set in 1926 Kansas City, The Creature Mafia mixes a realistic world with cartoonish creature combat. Your creatures\u2019 lives are in your hands - can you prevail against the full might of the mob?",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4624810/7febbbcc1e166ebf8fab1b44b2af6974acddc760/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4624810/3856751d23f555f7585d3a13005f3b9172a2bee9/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4624810/3856751d23f555f7585d3a13005f3b9172a2bee9/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4624810/caea5720d2441c28a05456e009c894db5df37f4a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4624810/db5f8319a79d961abb0937ff34d5387ca5b6aedd/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4624810/db5f8319a79d961abb0937ff34d5387ca5b6aedd/capsule_184x69.jpg",
     "website": "https://www.thecreaturemafia.com",
     "developers": [
       "Westport Games"

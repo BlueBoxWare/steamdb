@@ -1636,9 +1636,9 @@
     "is_free": false,
     "short_description": "You wake up in an abandoned place, with no memory, trapped in a location that defies logic. As you explore, violent hallucinations stalk you, and a mysterious figure whispers unsettling words. What is real? Only you can uncover the truth before it\u2019s too late.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Korean, Spanish - Latin America, Japanese, Portuguese - Brazil, Russian",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3342040/header.jpg?t=1731631748",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3342040/a4123340202cd7bd6bb0a517caf9bd4a29d7247e/capsule_231x87.jpg?t=1731631748",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3342040/a4123340202cd7bd6bb0a517caf9bd4a29d7247e/capsule_184x69.jpg?t=1731631748",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3342040/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3342040/a4123340202cd7bd6bb0a517caf9bd4a29d7247e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3342040/a4123340202cd7bd6bb0a517caf9bd4a29d7247e/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "K\u016bden Studios"
@@ -1669,32 +1669,14 @@
       "url": "",
       "email": "diegomendozadev@gmail.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3342040?t=1731631748",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3342040?t=1731631748",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3342040",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3342040",
     "content_descriptors": {
       "ids": [
         2,
         5
       ],
       "notes": "The game contains explicit violence, blood, and bodily mutilation. There are graphic scenes of violent hallucinations, mutilated body parts, and disturbing psychological situations. It includes sensitive themes such as mental disorders and emotional distress."
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "16",
-        "required_age": "16",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Viol\u00eancia Extrema\nMedo"
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "18",
-        "required_age": "18",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": "Drastische Gewalt"
-      }
     }
   },
   "3343170": {
@@ -12355,7 +12337,19 @@
     "publishers": [
       "Darius Bode"
     ],
-    "package_groups": [],
+    "packages": [
+      1183663
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy My Recycling Center 2",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12375,8 +12369,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 20
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "14 Oct, 2026"
     },
     "support_info": {

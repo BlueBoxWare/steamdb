@@ -3114,6 +3114,9 @@
     "steam_appid": 5069580,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5320330
+    ],
     "short_description": "Spray-paint sneakers layer by layer, finish fast orders, and turn a scrappy bootleg studio into a rare-drop machine. Unlock wild grails, upgrade your gear, fill your collection wall, and chase the perfect pair in this juicy incremental game.",
     "supported_languages": "English, Russian, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Simplified Chinese, Traditional Chinese, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5069580/935321e5a8f59e2c6cb86ba467cf283ecc42288b/header.jpg",
@@ -3125,6 +3128,12 @@
     ],
     "publishers": [
       "EllipseHead"
+    ],
+    "demos": [
+      {
+        "appid": 5320330,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -5670,9 +5679,9 @@
     "is_free": false,
     "short_description": "DEATHMATE is a chess-themed roguelike deckbuilder. Build an army of pieces, stack a deck full of moves, and battle your way across the map towards the Grim Reaper.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5068190/83c55857834764f1ebd17ad465983dadae30ef3d/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5068190/4aff762f46470035f3e3a8a997f9c8af17ae8f9d/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5068190/4aff762f46470035f3e3a8a997f9c8af17ae8f9d/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5068190/6eb7be0870bbe3ee4593f807f6a684340e1b0ab8/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5068190/3938dfd8600ea5bcb7fda657f42ce5aad2ed421b/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5068190/3938dfd8600ea5bcb7fda657f42ce5aad2ed421b/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "halftoasted"
@@ -5948,7 +5957,19 @@
     "publishers": [
       "Double Fine Action Labs"
     ],
-    "package_groups": [],
+    "packages": [
+      1756358
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Thank You Bus Driver",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5971,8 +5992,11 @@
     "genres": [
       23
     ],
+    "achievements": {
+      "total": 15
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "14 Oct, 2026"
     },
     "support_info": {
