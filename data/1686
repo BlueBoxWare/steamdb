@@ -827,9 +827,6 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "dlc": [
-      5102410
-    ],
     "short_description": "Become the ultimate Super Frog Ninja in this retro-inspired pixel platformer packed with challenging trials, hidden secrets, and lightning-fast gameplay.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5059930/5856e214edd0da814cd69c3b82a6b056d107dc26/header.jpg",
@@ -842,7 +839,19 @@
     "publishers": [
       "David Harrington"
     ],
-    "package_groups": [],
+    "packages": [
+      1753911
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Super Frog Ninja",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -850,6 +859,7 @@
     },
     "categories": [
       2,
+      17,
       22,
       23,
       28,
@@ -866,9 +876,12 @@
     "genres": [
       23
     ],
+    "achievements": {
+      "total": 25
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "2026"
+      "coming_soon": false,
+      "date": "14 Oct, 2026"
     },
     "support_info": {
       "url": "https://www.davidharrington.co.uk/",
@@ -1135,6 +1148,12 @@
     ],
     "publishers": [
       " furiousDevPhoenix"
+    ],
+    "demos": [
+      {
+        "appid": 5215510,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4508,7 +4527,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "You have money. You have a home. You have a family. And you're dying. You have very little time left. Make impossible choices and decide what you're willing to sacrifice for one more week of life.",
-    "supported_languages": "English, Spanish - Spain, Spanish - Latin America, Japanese, Galician, Simplified Chinese, Polish, Turkish, German",
+    "supported_languages": "English, Spanish - Spain, Spanish - Latin America, Japanese, Galician, Simplified Chinese, Polish, Turkish, German, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058740/c6c47a6830432e32cea8e0fd177fd5a63d32ed7e/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058740/893d91a55211b0825f54c4993647db0d748bd663/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058740/893d91a55211b0825f54c4993647db0d748bd663/capsule_184x69.jpg",
@@ -4684,7 +4703,7 @@
     "is_free": true,
     "controller_support": "full",
     "short_description": "BOUNCE against your friends in this frantic 4 player physics party game! Choose your Bobot and PUSH your way to victory in different chaotic game modes. Dominate the toybox and RULE THE WORLD! Or the couch ;)",
-    "supported_languages": "English<strong>*</strong>, Spanish - Spain<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058490/a3cf7656b14ac0f9ac68847b75165a3fdb22dfdc/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058490/3795ae9c7bc8d96a0b9e18da80d7d2ded0f63d62/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058490/3795ae9c7bc8d96a0b9e18da80d7d2ded0f63d62/capsule_184x69.jpg",
@@ -4729,7 +4748,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q4 2026"
+      "date": "Q1 2027"
     },
     "support_info": {
       "url": "",
@@ -7402,7 +7421,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "Suika-style sweet merging with a roguelite twist. Fill the jar, chain merges and pick from 35 utensils that bend the rules. Then put your skills to the test in 15 challenges: gusts that blow your sweets away, ice that makes everything slide, moon gravity\u2026",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Korean, Japanese, Portuguese - Brazil, Catalan<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Korean, Japanese, Portuguese - Brazil, Catalan<strong>*</strong>, Russian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5059450/9a40aaf2d52ba354f9e9ea7d54793f5941b6402f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5059450/b49caf798f725bd1e9e5e589b5c9a67997244b0a/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5059450/b49caf798f725bd1e9e5e589b5c9a67997244b0a/capsule_184x69.jpg",
@@ -7510,7 +7529,7 @@
     "steam_appid": 5060050,
     "required_age": 0,
     "is_free": true,
-    "short_description": "Read game speech as subtitles and translate text. Onmal 0.3.0 is a free Early Access app being prepared for Windows and Mac. Offline Korean \u2194 English is the default, with team/story modes and adjustable subtitles. Experimental text languages use optional model packs or your own API.",
+    "short_description": "Onmal 0.3.1 brings translated game captions and typed-text translation to Windows and Mac. Free Early Access is planned, with offline Korean\u2013English translation, team/story modes and adjustable captions. Extra text languages use optional packs or personal APIs and remain experimental.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Greek, Dutch, Norwegian, Danish, Russian, Romanian, Malay, Vietnamese, Bulgarian, Swedish, Spanish - Latin America, Arabic, Ukrainian, Indonesian, Japanese, Simplified Chinese, Traditional Chinese, Czech, Thai, Turkish, Portuguese - Brazil, Portuguese - Portugal, Polish, Finnish, Korean, Hungarian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5060050/1dc8aa9916e3fe9124f59d205ba961e9beb4de78/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5060050/743a2a11b1b0648458c93e41a879af1b48de77ee/capsule_231x87.jpg",
@@ -7525,7 +7544,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -7542,7 +7561,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "26 Oct, 2026"
     },
     "support_info": {
       "url": "https://kdypoho.github.io/onmal-site/",
@@ -7550,6 +7569,63 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5060050",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5060050",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5058160": {
+    "type": "game",
+    "name": "Wretched",
+    "steam_appid": 5058160,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Wretched is a turn-based tactical game focused on strategic positioning, skill combinations and devastating attacks. Play as an ancient being of immense power. Move into range, kick enemies away and slip behind others. Chain your skills and make every turn count.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Portuguese - Brazil, Simplified Chinese, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058160/2331e575089410c6f472c03ca0c46baf34f926a2/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058160/3b1c69a77b93205ccb8fe42108084fec151db51f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058160/3b1c69a77b93205ccb8fe42108084fec151db51f/capsule_184x69.jpg",
+    "website": "https://www.spellcraft.biz/",
+    "developers": [
+      "Spellcraft Publishing"
+    ],
+    "publishers": [
+      "Spellcraft Publishing"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      15,
+      22,
+      23,
+      28,
+      62,
+      68,
+      74,
+      80
+    ],
+    "genres": [
+      2,
+      3,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "5 Nov, 2026"
+    },
+    "support_info": {
+      "url": "https://www.spellcraft.biz/",
+      "email": "publishing@spellcraft.biz"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5058160",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058160/fc3077496e4a6911816124409afc0885257bbe2f/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

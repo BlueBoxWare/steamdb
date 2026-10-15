@@ -55,7 +55,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Run a late-night burger kiosk in a fogbound harbour town. Cook orders, question customers, and piece together unsettling clues in a short horror mystery where familiar faces hide dark secrets and each night brings another disappearance.",
+    "short_description": "A short horror cooking game. Run your dead uncle's burger cart on a foggy harbour pier in the 1970s. Cook for the locals, spot the drowned before they reach your window, and find out who really killed your uncle.",
     "supported_languages": "English, Arabic",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5394070/031d1b9d55c2b67b46a868bb9545fc2fe4c35b15/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5394070/df50d76e9d139638bef8592c37b69e596af7bf25/capsule_231x87.jpg",
@@ -70,8 +70,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
-      "linux": true
+      "mac": false,
+      "linux": false
     },
     "categories": [
       2,
@@ -81,12 +81,10 @@
       57,
       58,
       62,
-      66,
-      67,
       68,
       69,
       74,
-      80
+      79
     ],
     "genres": [
       23,
@@ -107,7 +105,7 @@
       "ids": [
         5
       ],
-      "notes": "Contains infrequent scenes of stylized killing and dismemberment without blood. Players drag corpses. Also includes smoking and an unsettling atmosphere."
+      "notes": "Contains violence and blood. People who drowned are killed by armed men and dragged away, and the player cleans up the blood. A man threatens the player with a knife. Themes of murder."
     }
   },
   "5394080": {
@@ -994,6 +992,12 @@
     "publishers": [
       "TRUGOY"
     ],
+    "demos": [
+      {
+        "appid": 5396970,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -1005,6 +1009,8 @@
       62
     ],
     "genres": [
+      3,
+      4,
       23,
       25
     ],
@@ -1697,7 +1703,19 @@
     "developers": [
       "Berkay Karag\u00f6z"
     ],
-    "package_groups": [],
+    "packages": [
+      1862767
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy REVERSA - Cosmetics Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1721,8 +1739,8 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "15 Oct, 2026"
+      "coming_soon": false,
+      "date": "14 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -2100,10 +2118,7 @@
     "steam_appid": 5395930,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5396990
-    ],
-    "short_description": "Ever wonder how your GPU draws a triangle? Build one. Wire comparators, adders and multipliers into graphics hardware, press Run, and watch your circuit draw the picture pixel by pixel, from a first triangle to a spinning 3D cube.",
+    "short_description": "Ever wonder how a GPU draws a triangle? In Hello Triangle, you build one yourself. Wire comparators, adders, and multipliers into graphics hardware, press Run, and watch your circuit draw the screen pixel by pixel\u2014from a single triangle up to a rotating 3D cube.",
     "supported_languages": "English, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5395930/31a3a43ebfec5c372faecc3ef7ef256ff3544d86/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5395930/bc051a6cca9ae272477fdf3ab31343364ba7ac85/capsule_231x87.jpg",
@@ -2114,6 +2129,12 @@
     ],
     "publishers": [
       "Iced Latte Studio"
+    ],
+    "demos": [
+      {
+        "appid": 5396990,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2220,7 +2241,6 @@
     "categories": [
       1,
       2,
-      22,
       36,
       49,
       62,
@@ -2342,6 +2362,630 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5396710",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396710/c4fffc3423b00a748c2c518ac2ec4a0f81ef6c50/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5394660": {
+    "type": "dlc",
+    "name": "REVERSA - Immortal Pack",
+    "steam_appid": 5394660,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "&gt; A second chance, every run. Immortal lets you revive once per game \u2014 keep your score, your combo, and your momentum. One more flip might be your best one.",
+    "fullgame": {
+      "appid": "4275160",
+      "name": "REVERSA"
+    },
+    "supported_languages": "English, Turkish, French, German, Spanish - Spain, Simplified Chinese, Japanese, Portuguese - Portugal, Russian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5394660/a264e80e0d10ce01be94d013f0da880e19b89033/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5394660/34de119ce83d3668c1bc3848302fabaf3af67257/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5394660/34de119ce83d3668c1bc3848302fabaf3af67257/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Berkay Karag\u00f6z"
+    ],
+    "packages": [
+      1862764
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy REVERSA - Immortal Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      25,
+      62,
+      68,
+      74,
+      75,
+      76,
+      79,
+      80
+    ],
+    "genres": [
+      4,
+      28,
+      37
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "14 Oct, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "berkaykaragzz@outlook.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5394660",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5394660",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5395300": {
+    "type": "game",
+    "name": "EatBigger",
+    "steam_appid": 5395300,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "*EatBigger*is a physics-based game of devouring and evolution that supports 1 to 4 players controlling penguins. Embark on an adventure across randomly generated floating islands, consume everything you can interact with, customize your penguin's unique look, and become the ultimate glutton!",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Simplified Chinese, Portuguese - Brazil, Spanish - Latin America, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5395300/d6caf945d2f43d707355d9a7fed3ef7004e00616/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5395300/14d29446017dc11cb87adb84aef1b3900713cd73/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5395300/14d29446017dc11cb87adb84aef1b3900713cd73/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "LiminalEdge"
+    ],
+    "publishers": [
+      "LiminalEdge"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      22,
+      23,
+      28,
+      36,
+      38,
+      49,
+      62
+    ],
+    "genres": [
+      4
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "3171159640@qq.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5395300",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5395300",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5395650": {
+    "type": "game",
+    "name": "Bone Meal",
+    "steam_appid": 5395650,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Feed waves of enemies in this deck-building cooking roguelite. Every card is an ingredient. Look for poker hands and combine them to compound their effects, creating dish cards. Survive the gauntlet to unlock souls and upgrade your ingredients and kitchen permanently between runs.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5395650/f08335e2ffb0cf6230f783bc4ea201813352a948/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5395650/11a7fac06d6186d323e454ca0e00214ad8aff140/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5395650/11a7fac06d6186d323e454ca0e00214ad8aff140/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Sipu Games"
+    ],
+    "publishers": [
+      "Sipu Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      23,
+      28,
+      55,
+      56,
+      57,
+      58,
+      62,
+      74,
+      75,
+      76,
+      77,
+      79,
+      80
+    ],
+    "genres": [
+      2
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "October 2026"
+    },
+    "support_info": {
+      "url": "sipu.games",
+      "email": "contact@sipu.games"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5395650",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5395650/4bbc5e4455c7ee8b46d52b9b7805290f2ffa6cee/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5396180": {
+    "type": "game",
+    "name": "Star Trader",
+    "steam_appid": 5396180,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Buy low across a living star sector, decode hidden recipes, and build an empire of ships and space stations. A deterministic offline trading sim with pirates, guild wars, and a summit to reach \u2014 no API key, no internet required.",
+    "supported_languages": "English, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396180/2d1f80976c4232545a98f2d1e560c7e74680ff87/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396180/f4d77b825400870c6ca866fc94b991a72f062749/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396180/f4d77b825400870c6ca866fc94b991a72f062749/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "\u529f\u8fbe\u5de5\u4f5c\u5ba4"
+    ],
+    "publishers": [
+      "\u529f\u8fbe\u5de5\u4f5c\u5ba4"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      62,
+      74,
+      76,
+      78,
+      79,
+      80
+    ],
+    "genres": [
+      2,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q4 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "ygndbfdy@163.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5396180",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5396180",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5396300": {
+    "type": "game",
+    "name": "Protocol Z",
+    "steam_appid": 5396300,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A living zombie sandbox. Watch a whole town go about its day then unleash the outbreak. Play as anyone in first person, swim, fight and drive, spawn zombies, vehicles and buildings anywhere, and call down tsunamis and tornadoes while police and soldiers fight to hold the line in a city that can fall",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396300/da2b32c2465cedf04779b142b994473be90d811f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396300/7f110a50684533da5eac50fc11dfd086c31f36bb/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396300/7f110a50684533da5eac50fc11dfd086c31f36bb/capsule_184x69.jpg",
+    "website": "https://gorillagamesstudio.com/",
+    "developers": [
+      "CASH",
+      "Aria"
+    ],
+    "publishers": [
+      "GorillaGamesStudio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      38,
+      48,
+      62
+    ],
+    "genres": [
+      28,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "30 Oct, 2026"
+    },
+    "support_info": {
+      "url": "https://gorillagamesstudio.com/",
+      "email": "gorillagamesstudio@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5396300",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5396300",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "Combat violence: Players can attack people and zombies with fists, firearms, explosives, flamethrowers and vehicles. Hits produce blood effects, and bodies ragdoll and can be thrown by explosions and car impacts.\r\n- Zombie violence: Zombies bite, claw, kill and eat people, and the dead may rise again as zombies. This includes people attacked in their homes and beds.\r\n- Violence against civilians: The town is fully simulated, and its residents include adults and children. Players can choose to harm any resident, and residents of all ages can be attacked and killed by zombies. Harming innocents raises a wanted level and the police respond.\r\n- Disasters and death: Natural disasters (tsunamis, tornadoes, floods and others) can destroy buildings and kill residents. Characters can also drown.\r\n- Themes: Societal collapse, martial law and curfews, armed police and military responses, and a prison populated by inmates."
+    }
+  },
+  "5396320": {
+    "type": "game",
+    "name": "Smoothie Chaos",
+    "steam_appid": 5396320,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A co-op slime restaurant game for 1 to 6 players. Raise slimes in your garden, feed them strange things to see what they evolve into, then blend them into smoothies for a dining room full of hungry humans and robots.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396320/5932d20ae01ea029abca7f72c38a682ae0bbf3ff/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396320/ac1b53cb0d90721e562065325b56308ba963642c/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396320/ac1b53cb0d90721e562065325b56308ba963642c/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Studio Chancla"
+    ],
+    "publishers": [
+      "Studio Chancla"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      18,
+      38,
+      62,
+      69,
+      70,
+      74,
+      80
+    ],
+    "genres": [
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "March 2027"
+    },
+    "support_info": {
+      "url": "",
+      "email": "studiochancla@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5396320",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5396320",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5396330": {
+    "type": "game",
+    "name": "P.A.L.S: Lost at Sea",
+    "steam_appid": 5396330,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "A chaotic co-op raft survival game. After one wild night at sea, you and your friends wake up lost on a tiny raft. Fish up loot, smack flopping fish, build walls and cannons, and battle a hungry shark, storms and ridiculous bosses on the long way home.",
+    "supported_languages": "English, French, German, Japanese, Simplified Chinese, Spanish - Latin America, Vietnamese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396330/5b7ebfb4ebc632f91077ce320b3c742aed0147dd/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396330/dbdc3aea034443458535e99d2dc08627cf760b21/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396330/dbdc3aea034443458535e99d2dc08627cf760b21/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Chuongcc"
+    ],
+    "publishers": [
+      "Chuongcc"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      28,
+      38,
+      62,
+      68
+    ],
+    "genres": [
+      1,
+      23,
+      25,
+      28,
+      29
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "huylam58999@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5396330",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5396330",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5396670": {
+    "type": "game",
+    "name": "Bird Hockey League",
+    "steam_appid": 5396670,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Ducks, penguins and their feathered friends take their ancient rivalry to the ice. Dangle past defenders, throw wing-breaking hits and snipe your way to the top of the pecking order.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396670/8166cdfab79382b3451f57df9a92afa28c78e427/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396670/6aa13c71663f4d755f2c0df07f1a4eccf1c3e56a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396670/6aa13c71663f4d755f2c0df07f1a4eccf1c3e56a/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "JohnnyPicklesPartners"
+    ],
+    "publishers": [
+      "JohnnyPicklesPartners"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      24,
+      28,
+      36,
+      37,
+      38,
+      39,
+      44,
+      47,
+      48,
+      49,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      62,
+      67,
+      68,
+      74,
+      75,
+      77,
+      78
+    ],
+    "genres": [
+      18
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "johnnypicklespartners@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5396670",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5396670",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5396740": {
+    "type": "game",
+    "name": "Void Junker",
+    "steam_appid": 5396740,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "These asteroids yearn to be mined... Course through more than 30 stages, make choices, blast enemies and most of all, mine ore and bring it home.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396740/361997468efc3c1a5332e1ca83f12faeda94d2b1/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396740/c6cce8046a834ba736832cb9607900d164e8fdaf/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396740/c6cce8046a834ba736832cb9607900d164e8fdaf/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Highly Integrated Gay Hijinks"
+    ],
+    "publishers": [
+      "Highly Integrated Gay Hijinks"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      1
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://hijinks.uno",
+      "email": "support@hijinks.uno"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5396740",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396740/324ebcc8606a55dbb3c9421ec818ae2feb5b8bfb/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5396850": {
+    "type": "game",
+    "name": "Kingsreach",
+    "steam_appid": 5396850,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Build a living 3D medieval kingdom. Villagers work, eat, trade and sleep through four seasons while goblin raids test your walls. Generate walled cities, play a free sandbox, or command one of four empires in Conquest.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396850/4e1200d15c93ef2a8625c1adbc2d82f4b2ed9e3f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396850/b9b0eb9fb7356a7e73c1a7da5484dda162f3e6e8/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396850/b9b0eb9fb7356a7e73c1a7da5484dda162f3e6e8/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "EDOBGames"
+    ],
+    "publishers": [
+      "EDOBGames"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      67,
+      68,
+      74,
+      78,
+      79,
+      80
+    ],
+    "genres": [
+      2,
+      23,
+      28,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q2 2027"
+    },
+    "support_info": {
+      "url": "",
+      "email": "edobgames@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5396850",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396850/c075856a539ee9b7bc5e51a270acdf5d95e12c85/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5396920": {
+    "type": "game",
+    "name": "Magic Merchant Simulator",
+    "steam_appid": 5396920,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "From your garden to your customers' hands, every creation starts with you. Grow ingredients, brew potions, craft wands and stock your shelves in a cozy first-person shop simulator where magic is part of the daily routine.",
+    "supported_languages": "English, German, Simplified Chinese, Japanese, Turkish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396920/cab158706c7dd9f2de35d4617697673c3b5d0671/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396920/fd1d9a47926d33a60c0c9500860737b5d40adba4/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396920/fd1d9a47926d33a60c0c9500860737b5d40adba4/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "OZN Games"
+    ],
+    "publishers": [
+      "OZN Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://ozngamestudio.com/",
+      "email": "melih.oznalbant92@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5396920",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396920/a6d58619f8ab27c72c17c9dfde58f4f81a72b53a/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

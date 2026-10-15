@@ -1262,8 +1262,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -1323,10 +1323,12 @@
       18,
       21,
       38,
+      62,
       66,
       68,
       69,
-      74
+      74,
+      82
     ],
     "genres": [
       1,
@@ -2284,6 +2286,9 @@
     "steam_appid": 4682150,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5395550
+    ],
     "short_description": "Build whatever you want for your marbles! Crazy races, chaotic machines, chain reactions, battles, or anything else!",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Indonesian, Japanese, Korean, Portuguese - Portugal, Russian, Simplified Chinese, Thai, Turkish, Vietnamese, Hindi, Persian, Swahili",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4682150/ecb1b4d714d45ca20fd2c108c0558893cccc2b07/header.jpg",
@@ -9505,7 +9510,19 @@
     "publishers": [
       "Dovetail Games - TSW"
     ],
-    "package_groups": [],
+    "packages": [
+      1629240
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Train Sim World\u00ae 7: Freightliner BR Class 70 Add-On",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -9521,7 +9538,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "15 Oct, 2026"
     },
     "support_info": {

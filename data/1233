@@ -5558,7 +5558,7 @@
     "steam_appid": 3701310,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Swanfield Survival is a Post-Apocalyptic Zombie Survival game, with PvE and PvP Elements with Online Co-Op &amp; Multiplayer. You can connect via Dedicated Servers, or host a session with up to 5 friends. Climbing, Swimming, Looting, Crafting, Building, Fishing, Farming are all available from start!",
+    "short_description": "Swanfield Survival is a Post-Apocalyptic Zombie Survival game, with PvE and PvP Elements offering Co-Op &amp; Multiplayer. Connect with up to 50 players via Dedicated Servers, play solo or with Steam friends Climbing, Swimming, Looting, Crafting, Building, Fishing, Farming are all available from start!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3701310/2992f056625e49b7fbecd4a1d5d5cf19345b3f0d/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3701310/437dad71f6a90363ebe9d38e776df6d42a8cdf8f/capsule_231x87.jpg",
@@ -10109,7 +10109,6 @@
       28,
       57,
       58,
-      59,
       62,
       68,
       74
@@ -11266,7 +11265,8 @@
     "required_age": 0,
     "is_free": true,
     "dlc": [
-      4366310
+      4366310,
+      5302280
     ],
     "short_description": "Scope, a free-to-play tactical Battle Royale where 100 players fight for survival in strategic, slow-paced gunfights. Master different weapons, outplay your opponents, and uncover the mysteries hidden beneath the island through it's evolving lore.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
@@ -11317,10 +11317,8 @@
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3700410",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3700410/d70fa915431dea86d84a6f50373a03694b197675/page_bg_raw.jpg",
     "content_descriptors": {
-      "ids": [
-        5
-      ],
-      "notes": "There is no gore, but when a player is damaged by a weapon a small blood splatter will happen, indicating that you were damaged. "
+      "ids": [],
+      "notes": null
     }
   },
   "3699120": {
@@ -15822,7 +15820,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1303231
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Ferry Good Day",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -15846,8 +15856,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 21
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "14 Oct, 2026"
     },
     "support_info": {
