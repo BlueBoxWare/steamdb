@@ -1,5 +1,25 @@
 #!/usr/bin/env python3
 
+# Copyright (c) 2026 BlueBoxWare
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
 from __future__ import annotations
 
 import argparse
@@ -8,12 +28,13 @@ import os
 import re
 import sys
 import time
-from collections import defaultdict
-from urllib.error import HTTPError
 import urllib.request
+from collections import defaultdict
+from collections.abc import Callable
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Callable
+from typing import Any
+from urllib.error import HTTPError
 from urllib.parse import ParseResult, urlparse
 
 STATE_FILE_NAME = "state"
@@ -170,6 +191,17 @@ def create_gfn_list() -> None:
         f.write("\n".join(sorted(result, key=int)))
 
 
+def load_successfully_fetched() -> set[int]:
+    result = set()
+    for filename in os.listdir(args.datadir):
+        if filename.isdigit():
+            with open(p(filename)) as f:
+                js = json.load(f)
+                for appid in js:
+                    result.add(int(appid))
+    return result
+
+
 def create_lists():
     if not args.lists:
         return
@@ -240,6 +272,9 @@ parser.add_argument(
     "--lists", help="create lists after fetching (default: false)", action="store_true"
 )
 parser.add_argument(
+    "--retry", help="Retry errors, do not do regular updates", action="store_true"
+)
+parser.add_argument(
     "--sleep",
     help="number of seconds to sleep between fetches (default: 3)",
     type=int,
@@ -300,7 +335,6 @@ try:
 except FileNotFoundError:
     pass
 
-
 # Get apps
 progress("Fetching app ids.", end="")
 if args.api:
@@ -333,29 +367,38 @@ else:
                 apps[item["appid"]] = item["last_modified"]
 progress(" Done.")
 
-for appid in apps:
-    if appid in state:
-        if state[appid] < apps[appid]:
-            outdated_apps.add(appid)
-    else:
-        new_apps.add(appid)
+if args.retry:
+    # Retry errors
+    successes: set[int] = load_successfully_fetched()
+    for appid in apps:
+        if appid not in successes:
+            queue.append(appid)
+    progress(f"Items to retry: {len(queue)}")
+else:
+    for appid in apps:
+        if appid in state:
+            if state[appid] < apps[appid]:
+                outdated_apps.add(appid)
+        else:
+            new_apps.add(appid)
 
-# Removed apps
-for appid in state:
-    if appid not in apps:
-        removed_apps = removed_apps + 1
+    # Removed apps
+    for appid in state:
+        if appid not in apps:
+            removed_apps = removed_apps + 1
 
-# Stats
-progress(f"New apps: {len(new_apps)}")
-progress(f"Outdated apps: {len(outdated_apps)}")
-progress(f"Removed apps: {removed_apps}")
+    # Stats
+    progress(f"New apps: {len(new_apps)}")
+    progress(f"Outdated apps: {len(outdated_apps)}")
+    progress(f"Removed apps: {removed_apps}")
 
-# Queue
-queue = sorted(new_apps)
-if not args.new:
-    queue = queue + sorted(
-        outdated_apps, key=lambda appid: apps[appid] - state[appid], reverse=True
-    )
+    # Queue
+    queue = sorted(new_apps)
+
+    if not args.new:
+        queue = queue + sorted(
+            outdated_apps, key=lambda appid: apps[appid] - state[appid], reverse=True
+        )
 
 nr_of_outdated_items = len(queue)
 
@@ -364,9 +407,7 @@ if args.max:
 
 progress(f"Queue size: {len(queue)}")
 if len(queue) < nr_of_outdated_items:
-    progress(
-        f"Outdated and new items left after this run: {nr_of_outdated_items - len(queue)}\n"
-    )
+    progress(f"Items left after this run: {nr_of_outdated_items - len(queue)}\n")
 else:
     progress("")
 
@@ -418,7 +459,7 @@ for index, appid in enumerate(queue):
     try:
         data = json_obj[str(appid)]["data"]
     except KeyError:
-        progress(f"E: {appid}", end="")
+        progress(f"{index}: E: {appid}", end="")
         state[appid] = timestamp
         error_count = error_count + 1
         sleep(args.sleep)
@@ -449,7 +490,7 @@ for index, appid in enumerate(queue):
         last_fetch = ", last fetch: " + time2str(state[appid])
 
     progress(
-        f"{index}: {prefix}: {appid}: {data['name']} (last change: {last_change}{last_fetch}) ",
+        f"{index}: {prefix}: {appid}: {data['name']} (last change: {last_change}{last_fetch})",
         end="",
     )
 
