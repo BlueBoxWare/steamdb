@@ -297,7 +297,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q4 2026"
+      "date": "16 Dec, 2026"
     },
     "support_info": {
       "url": "https://torpedopenguin.com",
@@ -1371,6 +1371,7 @@
       "linux": false
     },
     "categories": [
+      2,
       62
     ],
     "genres": [
@@ -1506,7 +1507,7 @@
     "is_free": false,
     "short_description": "Produce, pile up, and merge slimes until your container can barely hold them. Withstand the enemy\u2019s advance, then open the gate and flood the battlefield with everything you\u2019ve built. Grow bigger between runs in this physics-based incremental roguelite.",
     "supported_languages": "English, Japanese, Korean",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171910/30151148867415c8a83ee9b3d501d1af62ce2348/header.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171910/8e5b4e85335d6579eec6469c0ba42d36c98c6ff9/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171910/c862b06e24ccde7c0501bebe9dbe2e11d4aeed61/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171910/c862b06e24ccde7c0501bebe9dbe2e11d4aeed61/capsule_184x69.jpg",
     "website": null,
@@ -3477,7 +3478,7 @@
     "steam_appid": 5169380,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A party-based tactical RPG where survival depends on synergy, not raw power. Command a party of four adventurers in grid-based battles with real-time dodge and parry timing, set in a 2D/3D anime world torn apart by fragile alliances and rising guild warfare.",
+    "short_description": "Lead four adventurers in an anime tactical RPG with grid-based battles and timed dodges and parries. Build bonds to unlock combined abilities, adapt your party to rival factions, and command the Scarlet Eyes Guild in a world on the brink of war.",
     "supported_languages": "English, Spanish - Latin America",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169380/bae9bfd911edec7ab0add4dbb6198adb04283af5/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169380/dbd7a92969ce51cb61170bbca8c50f3bb7eab8a9/capsule_231x87.jpg",
@@ -4509,6 +4510,7 @@
     "steam_appid": 5170150,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "A retro pixel-art soccer game with old-school arcade action on the pitch and a deep management sim underneath - play or simulate every match, build a squad, and take a club from the lower divisions to the title over a full multi-season career.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5170150/f245e8630069ef8e93123abda8932ea0cd9c0908/header.jpg",
@@ -4541,6 +4543,11 @@
     },
     "categories": [
       2,
+      28,
+      55,
+      56,
+      57,
+      58,
       62
     ],
     "genres": [
@@ -5236,6 +5243,9 @@
     "steam_appid": 5169860,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5334560
+    ],
     "short_description": "Turn-based strategy game that drops up to six different creatures onto a single, sprawling world map \u2014 74 territories across six continents. Every creature has a trick up its sleeve. Learning to use yours \u2014 and watching out for the other\u2019s \u2014 is half the fun.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169860/020724f8e2aaef3d0a1594a4dda655a80f41ed55/header.jpg",
@@ -5248,7 +5258,25 @@
     "publishers": [
       "Alan T Moore"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5334560,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1789550
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Doctor Moore's World of Creatures",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5259,6 +5287,7 @@
       24,
       37,
       44,
+      49,
       62,
       74,
       77,
@@ -5268,8 +5297,8 @@
       2
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "15 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -6369,6 +6398,55 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5169850",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169850/640c590c56d98e5fb71cd7759c2e0738bc215f2e/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5169530": {
+    "type": "game",
+    "name": "Muster & Magic",
+    "steam_appid": 5169530,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Recruit from more than 15 unit types, choose your Champion, and defend Coroaforte in a tactical defense game with roguelite progression. Combine units, plan your formation, and cast spells to stop the hordes. Between runs, unlock allies and chart your path through a branching skill tree.",
+    "supported_languages": "English, French, German, Spanish - Spain, Simplified Chinese, Traditional Chinese, Korean, Spanish - Latin America, Japanese, Polish, Portuguese - Brazil, Russian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169530/6c03e18937ccb33e2c9200ce38149f3b2aa1682b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169530/22ec026514721243bdc8d0e67779efda1268a06b/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169530/22ec026514721243bdc8d0e67779efda1268a06b/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Wuxia dev"
+    ],
+    "publishers": [
+      "Wuxia dev"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      62
+    ],
+    "genres": [
+      2,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "5 Nov, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "asuma312@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5169530",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5169530",
     "content_descriptors": {
       "ids": [],
       "notes": null
