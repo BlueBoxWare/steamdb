@@ -3740,6 +3740,9 @@
     "steam_appid": 4846880,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4885540
+    ],
     "short_description": "Wake up, Pilot! The war has just begun, and the enemy rules the skies. It's time to take the fight to them! Choose from 32 aircraft from the World War I era and soar above famous battlefields. Do you have what it takes to turn the tide of war?",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4846880/67778b755d8873bb27102397f2021f3973fe195c/header.jpg",
@@ -3751,6 +3754,12 @@
     ],
     "publishers": [
       "ALGG Studio"
+    ],
+    "demos": [
+      {
+        "appid": 4885540,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3764,7 +3773,8 @@
       68,
       69,
       74,
-      78
+      78,
+      80
     ],
     "genres": [
       1,
@@ -3773,7 +3783,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q4 2026"
+      "date": "December 2026"
     },
     "support_info": {
       "url": "",
@@ -8995,7 +9005,19 @@
     "publishers": [
       "Jarxdev"
     ],
-    "package_groups": [],
+    "packages": [
+      1683579
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy House Music Incremental",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -9019,8 +9041,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 28
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "16 Oct, 2026"
     },
     "support_info": {

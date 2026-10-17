@@ -314,9 +314,9 @@
     "is_free": false,
     "short_description": "Hexed Hand is a dark roguelite card game that twists 21 into a score-chasing deckbuilder. Build synergies with Talismans, Card Mods, Special Offers and Contracts, survive timed Boss Tables, and chase a higher score every run.",
     "supported_languages": "English, Turkish, Spanish - Spain, Simplified Chinese, Portuguese - Brazil, Russian, Traditional Chinese, Portuguese - Portugal",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271750/7a1bc26cdb5be450683b43cf5d7d70e191b61122/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271750/f03ac98926f7289ae754bc310c9598c130093592/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271750/f03ac98926f7289ae754bc310c9598c130093592/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271750/d19c08d5babaa1e5b11c366d4d8ddad4b39c413c/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271750/a0f8a5bb199d26094e1ecc807784016b9956b9bd/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271750/a0f8a5bb199d26094e1ecc807784016b9956b9bd/capsule_184x69.jpg",
     "website": "https://gameevo.com.tr/wiki/hexed-hand/",
     "developers": [
       "Green Wall Studios"
@@ -523,8 +523,8 @@
     "dlc": [
       5272250
     ],
-    "short_description": "A chess game where you lead a customizable fantasy army through 1,500 levels of curated puzzles. Face checkpoint commanders in full matches, recruit new races, and customize your hero and army. Key chess concepts encountered are logged in a Sage Ledger for education and future reference.",
-    "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Turkish",
+    "short_description": "A chess game where you lead a customizable fantasy army through 1,500 levels of curated puzzles and real chess matches. Face checkpoint commanders, recruit new races, and customize your hero and army. Key chess concepts encountered are logged in a Sage Ledger for education and future reference.",
+    "supported_languages": "English, French, German, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271310/dae5159abeac8749334a112ee1df7c6498656693/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271310/20412c0385cc140a17bff01c95c4cde5c120183e/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271310/20412c0385cc140a17bff01c95c4cde5c120183e/capsule_184x69.jpg",
@@ -774,7 +774,7 @@
     "dlc": [
       5277930
     ],
-    "short_description": "Nine weapons, 73 populated planets and a clock. Read each world's cities, coasts and fault lines, pick the right tool, and hit the kill target before time runs out. Every crater, fissure and flood stays. Spend the dead on nine upgrade trees.",
+    "short_description": "Fly a warship around a living planet and take it apart. Steer nukes into capitals, drop its moon on it, crack its crust, flood its coasts. Every crater stays, and the planet fires back. 72 worlds, a roguelite Rampage mode, and a Forge that turns any picture into a planet.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Portugal, Russian, Simplified Chinese, Traditional Chinese, Turkish, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271150/383f2530259eb90c357af36812230f31df0d648d/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271150/bc11fb14234f3778c0ae704c7a813462d8d49fea/capsule_231x87.jpg",
@@ -1314,8 +1314,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
-      "linux": true
+      "mac": false,
+      "linux": false
     },
     "categories": [
       2,
@@ -1328,7 +1328,6 @@
       56,
       57,
       58,
-      59,
       62,
       68,
       69,
@@ -4366,7 +4365,19 @@
     "developers": [
       "Max van Leeuwen"
     ],
-    "package_groups": [],
+    "packages": [
+      1823071
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Sparkle Mouse - Template Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -4381,8 +4392,8 @@
       59
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "16 Oct, 2026"
+      "coming_soon": false,
+      "date": "17 Oct, 2026"
     },
     "support_info": {
       "url": "https://www.sparklemou.se",
@@ -4430,8 +4441,8 @@
       59
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "16 Oct, 2026"
+      "coming_soon": false,
+      "date": "17 Oct, 2026"
     },
     "support_info": {
       "url": "https://www.sparklemou.se",
@@ -5477,6 +5488,120 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5271470",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271470/5e9db564f0050e1b9aad52ee77e7328fa78af09b/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5271770": {
+    "type": "game",
+    "name": "Paper Racer",
+    "steam_appid": 5271770,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Paper Racer is the racing game on squared paper, the one from your school exercise book. Move by move you set your line across the sheet and carry speed into the corners \u2014 brake too late and you land in the gravel. Draw your own tracks and race the computer or friends, locally or online.",
+    "supported_languages": "English, German",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271770/bfafb9c0dfdac5f04baa10b3c57ba21005d2db58/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271770/3dff737435f1d40ec4a866d69a9093220fa61372/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271770/3dff737435f1d40ec4a866d69a9093220fa61372/capsule_184x69.jpg",
+    "website": "https://yetiapps.de/",
+    "developers": [
+      "Daniel Ladebeck"
+    ],
+    "publishers": [
+      "Yeti Apps"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      17,
+      23,
+      24,
+      27,
+      36,
+      37,
+      44,
+      47,
+      49,
+      62,
+      67,
+      68,
+      74,
+      78,
+      79,
+      80
+    ],
+    "genres": [
+      2,
+      4,
+      9,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "yetiappsdev@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5271770",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5271770",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5272080": {
+    "type": "game",
+    "name": "Gender Reveal: Battle Royale",
+    "steam_appid": 5272080,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A simulation game to announce the gender of your baby. Choose icons, enter names, and select gender to make the announcement interactive with everyone involved. Event will be memorable and build in excitement as the icons get removed until there is one side remaining.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5272080/55647f7b06b3346299a6cc699150b8aed2dd3c9b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5272080/a0006ddf88246e791aa70fecd14ff977856a305c/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5272080/a0006ddf88246e791aa70fecd14ff977856a305c/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Nicreations"
+    ],
+    "publishers": [
+      "Nicreations"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      74,
+      80
+    ],
+    "genres": [
+      4,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "January 2027"
+    },
+    "support_info": {
+      "url": "",
+      "email": "nicreations2026@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5272080",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5272080",
     "content_descriptors": {
       "ids": [],
       "notes": null

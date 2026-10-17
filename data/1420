@@ -611,9 +611,6 @@
     "steam_appid": 4260380,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5014130
-    ],
     "short_description": "DishDash is a single-player time management restaurant game where you prepare meals, serve customers, and manage limited resources under constant time pressure, turning kitchen chaos into smooth rhythm through speed, focus, and smart decision-making.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4260380/fb85d3015649e4388c9e9ae7eadbf38a4fe3e2bf/header.jpg",
@@ -626,7 +623,19 @@
     "publishers": [
       "Quantum Box"
     ],
-    "package_groups": [],
+    "packages": [
+      1490991
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy DishDash",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -648,8 +657,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "16 Oct, 2026"
     },
     "support_info": {
       "url": "",

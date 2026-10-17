@@ -75,7 +75,7 @@
     "dlc": [
       5066300
     ],
-    "short_description": "Grow exponentially stronger as you survive hordes of monsters across 9 different worlds. Gather resources, level up, build your skill tree, and parkour your way out of chaos!",
+    "short_description": "Your weapons fire on their own. Your job is to keep moving. Wall-run, dash and bunny-hop through hordes of monsters across 10 worlds, and turn 46 weapons and 111 items into an unstoppable build. Play solo or in online co-op for up to 4 players.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Czech, Dutch, Japanese, Korean, Polish, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America, Traditional Chinese, Turkish, Ukrainian, Hungarian, Indonesian, Portuguese - Brazil",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064170/fd2ef71b9537f3fff25f47e9ec5ea92ae290b7b8/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064170/5d49f6f99f7be18bd8bf3194b8e79e46476db103/capsule_231x87.jpg",
@@ -3459,10 +3459,10 @@
     ],
     "short_description": "Dive into Deep Trouble with a crew of up to 6 and your mostly trusty submarine, slipping past massive leviathans into the mysterious depths. Pilot, swim, and salvage together to reach the bottom before your oxygen runs out, a friend blows you up, or you become a tasty treat.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066980/bf4707d5702ce8ca86a7b6f92962096c2604e227/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066980/e739f90a3003f99b5e65082101d6af3736f503da/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066980/e739f90a3003f99b5e65082101d6af3736f503da/capsule_184x69.jpg",
-    "website": null,
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066980/25abc1bf94b3a4440f31fba8a5b7ae324dadddd4/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066980/f1574662463060c6124b13ec04006cd813355c60/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066980/f1574662463060c6124b13ec04006cd813355c60/capsule_184x69.jpg",
+    "website": "https://deeptroublegame.com/",
     "developers": [
       "Mini Kaiju Games"
     ],
@@ -4402,7 +4402,7 @@
       "BC Gamez"
     ],
     "publishers": [
-      "BC Gamez"
+      "Quantum Wave Entertainment"
     ],
     "demos": [
       {
@@ -6495,6 +6495,7 @@
     "steam_appid": 5066530,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "A bullet-heaven roguelike where you are a cat, blasting through swarms of enemies. Level up, pick perks of different rarity and elemental affinity, grab new weapons, and take down tough bosses along the way.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America, Thai, Traditional Chinese, Turkish, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066530/91522a0ddc4abb09d2931a912401200c51739da9/header.jpg",
@@ -6507,7 +6508,19 @@
     "publishers": [
       "Company Named"
     ],
-    "package_groups": [],
+    "packages": [
+      1756086
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Nekomancer",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6517,6 +6530,8 @@
       2,
       22,
       23,
+      28,
+      61,
       62,
       74,
       75,
@@ -6527,8 +6542,11 @@
       3,
       23
     ],
+    "achievements": {
+      "total": 100
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "16 Oct, 2026"
     },
     "support_info": {
