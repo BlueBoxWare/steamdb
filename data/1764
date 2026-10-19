@@ -907,10 +907,10 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5294200/5171b3c5a45bff56655bfedf390cfdcdb485cf58/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "hututu"
+      "HTT"
     ],
     "publishers": [
-      "hututu"
+      "HTT"
     ],
     "package_groups": [],
     "platforms": {
@@ -1179,7 +1179,9 @@
     "steam_appid": 5292010,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
+    "dlc": [
+      5339250
+    ],
     "short_description": "A multiplayer horror game for 1 to 6 players set in a dark Victorian era. As a ghost, you must terrify the others and prevent them from escaping alive; as a survivor, explore, solve puzzles, survive, and find a way to escape.",
     "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Simplified Chinese, Spanish - Latin America, Japanese, Portuguese - Brazil<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5292010/454dea32af4ffabf6b687714a10663eace9d5bfb/header.jpg",
@@ -1192,6 +1194,12 @@
     "publishers": [
       "Invention Games"
     ],
+    "demos": [
+      {
+        "appid": 5339250,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -1201,14 +1209,9 @@
     "categories": [
       1,
       9,
-      28,
       36,
       38,
       49,
-      55,
-      56,
-      57,
-      58,
       62,
       68,
       69,
@@ -1242,6 +1245,9 @@
     "steam_appid": 5292120,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5329570
+    ],
     "short_description": "Command 30+ historical armies across 3,000 years of warfare, from Persian spearmen to Abrams tanks, in real-time pixel-art battles where every soldier fights and flees on his own. Then deploy the anomalies: trolls, zombies, wizards, flying saucers and more!",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5292120/50724fb6ae2ed6d54caba5759711546263a47664/header.jpg",
@@ -1253,6 +1259,12 @@
     ],
     "publishers": [
       "Unhistorical Warfare"
+    ],
+    "demos": [
+      {
+        "appid": 5329570,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2377,7 +2389,19 @@
     "publishers": [
       "QuickTurtle Co., Ltd."
     ],
-    "package_groups": [],
+    "packages": [
+      1829889
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy ROGRID",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2404,8 +2428,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 30
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "19 Oct, 2026"
     },
     "support_info": {
@@ -4249,7 +4276,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": true,
+      "mac": false,
       "linux": true
     },
     "categories": [
@@ -4502,9 +4529,9 @@
     "is_free": false,
     "short_description": "Claw Machine \u00d7 Roguelike. Magical creatures turned stolen souls into dolls and opened a mysterious shop for fun. Grab cute dolls, build your doll pool, install components, choose upgrades, and stack effects to deal huge damage. Defeat Bosses and unlock new characters and stories.",
     "supported_languages": "English, Simplified Chinese<strong>*</strong>, French, German, Russian, Japanese, Traditional Chinese<strong>*</strong>, Portuguese - Brazil, Spanish - Latin America, Korean<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5292900/e1702a77ff2aac90d642ac0df6ab85bbb2a8ec8e/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5292900/1512835cd5fbb57e4d665259c2fb2cdd30c3aa51/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5292900/1512835cd5fbb57e4d665259c2fb2cdd30c3aa51/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5292900/bdca84c6f573d99e8c953ea9c6464163026f3aa9/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5292900/068d6991cfaad24b63ed8aac07c68e1d71ef1f50/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5292900/068d6991cfaad24b63ed8aac07c68e1d71ef1f50/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "PAN JIA YU"
@@ -5525,6 +5552,160 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5292960",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5292960",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5292890": {
+    "type": "game",
+    "name": "CORD:EX MAGIAS",
+    "steam_appid": 5292890,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "A deckbuilding roguelite where your hand is the puzzle. Weave your cards into Cores and unleash combo attacks. Explore a 2.5D world and meet every telegraphed strike head-on until it BREAKs. When hearts resonate, strike as one with up to five companions and face the truth at the end of five tales.",
+    "supported_languages": "English, Japanese, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5292890/2ce6fa1a610395bc501f78b70cea50c35b3b4484/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5292890/c76d13d1703dfeba7ffadd85c625c1d78a512d79/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5292890/c76d13d1703dfeba7ffadd85c625c1d78a512d79/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "ROMANTiSTAR"
+    ],
+    "publishers": [
+      "ROMANTiSTAR"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      28,
+      62
+    ],
+    "genres": [
+      2,
+      3,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q1 2027"
+    },
+    "support_info": {
+      "url": "https://discord.gg/JerVEADfDX",
+      "email": "admin@romantistar.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5292890",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5292890/5f96a774a7a84ad7a5c2309b4f54171b31d59461/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5294610": {
+    "type": "game",
+    "name": "Beyond Repair",
+    "steam_appid": 5294610,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Run a cozy repair shop in a post-apocalyptic world. Disassemble, clean, and restore old gadgets, trade with survivors, and bring forgotten technology back to life. Some things you repair can even be played.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5294610/63e61c5102c96461bc231a3989d5e682fc3e6ec1/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5294610/b3277bca8679dfde0a4658af30d7ccd43a23e1d1/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5294610/b3277bca8679dfde0a4658af30d7ccd43a23e1d1/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Ridvan_Laz"
+    ],
+    "publishers": [
+      "PlayWay S.A."
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      69,
+      74,
+      79,
+      80
+    ],
+    "genres": [
+      23,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "lazredgame@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5294610",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5294610",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5294220": {
+    "type": "game",
+    "name": "Spin Ball 3D Puzzle",
+    "steam_appid": 5294220,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Move blocks and build paths to guide each colorful ball to its matching flag in 400 handcrafted 3D logic puzzles. Relax, think and solve increasingly challenging levels.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Traditional Chinese, Korean, Danish, Greek, Dutch, Indonesian, Japanese, Portuguese - Brazil, Portuguese - Portugal, Russian, Swedish, Thai, Turkish, Ukrainian, Vietnamese, Arabic",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5294220/be5e4cbf80732d4e15b07b225c5590bef6bab7d6/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5294220/33099dfff4a463c52927e5d2d679c69221b58b2e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5294220/33099dfff4a463c52927e5d2d679c69221b58b2e/capsule_184x69.jpg",
+    "website": "https://spinball3dpuzzle.com/",
+    "developers": [
+      "Frasinapp Games"
+    ],
+    "publishers": [
+      "Frasinapp Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      67,
+      68,
+      74,
+      76,
+      79,
+      80
+    ],
+    "genres": [
+      4
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://www.flowwaterfountain.com/",
+      "email": "flowwaterf@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5294220",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5294220",
     "content_descriptors": {
       "ids": [],
       "notes": null

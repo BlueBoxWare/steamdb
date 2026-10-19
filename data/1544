@@ -220,15 +220,20 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       1,
       2,
+      17,
+      22,
       23,
       25,
       28,
+      30,
+      36,
+      49,
       60,
       62
     ],
@@ -3891,7 +3896,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "Gridhammer is a tactical plate battler where two players draft from one shared pool of 45 plates. Place plates on a grid, capture by matching higher corner values, and chain cascading flips. Every plate you draft is one your opponent loses.",
-    "supported_languages": "English",
+    "supported_languages": "English, French, German, Korean, Simplified Chinese, Spanish - Latin America",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4633320/db66f902ab529f9025ae4a063d8a6001da4662d9/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4633320/c7793dc8af89a9bffa0a50634a631d77c9c7aef3/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4633320/c7793dc8af89a9bffa0a50634a631d77c9c7aef3/capsule_184x69.jpg",
@@ -3926,6 +3931,7 @@
       15,
       22,
       25,
+      27,
       28,
       36,
       49,
@@ -8416,7 +8422,19 @@
     "publishers": [
       "12JulGames"
     ],
-    "package_groups": [],
+    "packages": [
+      1613604
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Pareidolia",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8443,9 +8461,12 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 3
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "19 Oct, 2026"
     },
     "support_info": {
       "url": "",
