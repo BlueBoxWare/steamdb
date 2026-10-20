@@ -11604,12 +11604,12 @@
   },
   "4004470": {
     "type": "dlc",
-    "name": "RENNSPORT Deluxe Edition",
+    "name": "RENNSPORT Upgrade To Deluxe Edition",
     "steam_appid": 4004470,
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "RENNSPORT is the future of racing simulation. Experience unparalleled authenticity, intense competition in online or solo play, and feel the thrill of the world\u2019s most desirable racing vehicles on highly detailed tracks. Together with our community, we\u2019re building the ultimate racing experience.",
+    "short_description": "RENNSPORT is a dedicated racing platform built for competitive enthusiasts and anyone aspiring to become one. Master realistic physics across PC and consoles, compete with full crossplay, and find your challenge from rookie to elite.",
     "fullgame": {
       "appid": "2077750",
       "name": "RENNSPORT"
@@ -11626,7 +11626,19 @@
     "publishers": [
       "Competition Company"
     ],
-    "package_groups": [],
+    "packages": [
+      1520169
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RENNSPORT Upgrade To Deluxe Edition",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -11879,7 +11891,7 @@
     "dlc": [
       4860150
     ],
-    "short_description": "Once Home is an atmospheric horror visual novel laced with dread, veiled in haunting beauty. Explore the Hemm residence at your own pace, observing, inspecting, and uncovering traces of what transpired before your arrival\u2014when sickness hollowed the family from within and something tore its way free.",
+    "short_description": "Sickness hollowed the Hemm family from within, and something alien tore its way free. Once Home is an atmospheric horror. Explore the Hemm residence at your own pace, uncovering traces of what transpired before your arrival. Occult rituals, parasites, body horror.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004230/cf6a2e5d2ff47b3563acc9058fccf6c4ed6aad4c/header_alt_assets_0.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004230/05ad1022e27719907a4d465637c6d3d762059fda/capsule_231x87_alt_assets_0.jpg",
@@ -12912,7 +12924,6 @@
     "genres": [
       1,
       18,
-      25,
       29
     ],
     "release_date": {
