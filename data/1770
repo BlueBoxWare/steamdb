@@ -482,7 +482,6 @@
     "steam_appid": 5311410,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "dlc": [
       5403810
     ],
@@ -506,10 +505,10 @@
     },
     "categories": [
       1,
+      18,
       22,
       23,
       24,
-      28,
       37,
       49,
       62,
@@ -3320,7 +3319,19 @@
     "publishers": [
       "Playway"
     ],
-    "package_groups": [],
+    "packages": [
+      1835810
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Into The Flames - Retro Truck Pack 3",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3343,7 +3354,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "20 Oct, 2026"
     },
     "support_info": {
@@ -3709,9 +3720,6 @@
     "steam_appid": 5311470,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5348910
-    ],
     "short_description": "PopWork is a lightweight roguelite about popping bubbles on an endlessly regenerating bubble wrap. A tribute to the classic Ten Drops: chain-detonate with cross-shockwaves, earn coins, buy items, grab snacks, learn tips, adapt to random events and stage effects, and spend every bubble wisely.",
     "supported_languages": "English, Japanese, Simplified Chinese, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5311470/a75227a21327838a6570925967323cd3b3ff3cf4/header.jpg",
@@ -3723,6 +3731,12 @@
     ],
     "publishers": [
       "Popwork"
+    ],
+    "demos": [
+      {
+        "appid": 5430730,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -3799,6 +3813,133 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5310440",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5310440",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5310050": {
+    "type": "game",
+    "name": "Hide and Luig",
+    "steam_appid": 5310050,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Hide and Luig is a surreal, humorous point-and-click adventure about tracking down a bizarre little guy in the most impossible places. Interact with strange worlds, solve clever puzzles, and drag Luig out from his cozy hiding spots! Play solo or bring a friend.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5310050/9d5d30b2140c87d7dcad168941a35f585ff1db84/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5310050/4a90e52c5b89126c7d5f829e601caf9bc997d4bc/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5310050/4a90e52c5b89126c7d5f829e601caf9bc997d4bc/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "dialobic"
+    ],
+    "publishers": [
+      "Animo Games Studio, LLC"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      62
+    ],
+    "genres": [
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "info@animogames.org"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5310050",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5310050/9cc5c66b501d7bff7d4231d08e5254fd8ecbabf9/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5310220": {
+    "type": "dlc",
+    "name": "Fantasy Grounds - Dungeon Crawl Classics #91: Journey to the Center of Aereth",
+    "steam_appid": 5310220,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Embark on a perilous journey to the world beneath, where magic reigns and ancient secrets await. Explore vast caverns, navigate treacherous paths, and uncover the truth about the mystical realm of Aereth.",
+    "fullgame": {
+      "appid": "1196310",
+      "name": "Fantasy Grounds VTT"
+    },
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5310220/43eaee1d8e9f4fcbda4f4cabafbb311fab15b57c/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5310220/6904c46423f01e719c3e5cbb836bcb5cf49f5286/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5310220/6904c46423f01e719c3e5cbb836bcb5cf49f5286/capsule_184x69.jpg",
+    "website": "https://www.fantasygrounds.com",
+    "developers": [
+      "SmiteWorks USA, LLC"
+    ],
+    "publishers": [
+      "Smiteworks USA, LLC"
+    ],
+    "packages": [
+      1835359
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Fantasy Grounds - Dungeon Crawl Classics #91: Journey to the Center of Aereth",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      21,
+      24,
+      27,
+      36,
+      37,
+      38,
+      39,
+      47,
+      48,
+      49,
+      62
+    ],
+    "genres": [
+      2,
+      3,
+      23,
+      37
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "21 Oct, 2026"
+    },
+    "support_info": {
+      "url": "https://support.fantasygrounds.com/",
+      "email": "support@fantasygrounds.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5310220",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5310220",
     "content_descriptors": {
       "ids": [],
       "notes": null

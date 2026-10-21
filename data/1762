@@ -125,18 +125,27 @@
     "name": "Ludo Mosaic",
     "steam_appid": 5286350,
     "required_age": 0,
-    "is_free": true,
-    "short_description": "Ludo with verifiable dice and 22 richly detailed 3D boards. Start with your own seed, recalculate rolls and compare their fingerprints with the game record. Rotate and zoom freely across multiple modes. Online multiplayer is planned for release.",
+    "is_free": false,
+    "dlc": [
+      5320910
+    ],
+    "short_description": "Ludo with verifiable dice and 14 richly detailed 3D boards. Start with your own seed, recalculate rolls and compare their fingerprints with the game record. Rotate and zoom freely. Play online, invite friends and explore multiple modes.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Ukrainian, Russian, Indonesian, Turkish, Japanese, Polish, Thai, Simplified Chinese, Traditional Chinese, Portuguese - Brazil, Vietnamese, Arabic, Korean, Urdu, Hindi",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5286350/156a031e38be86c5a7337be74c580577abd6fc18/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5286350/26c47d473702422ac83c35276e3466a04ab9ed68/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5286350/26c47d473702422ac83c35276e3466a04ab9ed68/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Dylan Lee"
+      "Maple Ridge Haven"
     ],
     "publishers": [
-      "Dylan Lee"
+      "Maple Ridge Haven"
+    ],
+    "demos": [
+      {
+        "appid": 5320910,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -149,7 +158,10 @@
       2,
       9,
       24,
+      35,
+      36,
       37,
+      38,
       39,
       49,
       62
@@ -157,8 +169,7 @@
     "genres": [
       2,
       4,
-      23,
-      37
+      23
     ],
     "release_date": {
       "coming_soon": true,
@@ -277,7 +288,8 @@
     "genres": [
       2,
       23,
-      28
+      28,
+      70
     ],
     "release_date": {
       "coming_soon": true,
@@ -2406,7 +2418,6 @@
     "steam_appid": 5287300,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "\u300aQuiz Bang! \u300bis a first-person party shooter for 2\u20136 players. On this not-so-safe TV show, answer questions or beat minigames to earn ammo. Take on another challenge, or turn around and shoot your friends? A friendly reminder: watch your back while answering.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Russian<strong>*</strong>, Japanese<strong>*</strong>, Polish<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Korean<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5287300/07f26082e8e73e3eae48352792c569ed2d7bf8a6/header.jpg",
@@ -2431,11 +2442,9 @@
       9,
       22,
       23,
-      28,
       36,
       38,
       49,
-      59,
       62,
       68,
       69,
@@ -2527,7 +2536,19 @@
     "publishers": [
       "Mena Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1828233
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Frag Party",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2549,8 +2570,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "November 2026"
+      "coming_soon": false,
+      "date": "20 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -6004,6 +6025,55 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5287120",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5287120/0c363236b5c131d597cfb65e9c8cb9f3fbc94d96/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5286360": {
+    "type": "game",
+    "name": "Alida",
+    "steam_appid": 5286360,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Alida is a point and click interactive graphical adventure game. The story centres around four young men in the band Alida that attained phenomenal success with their first CD release. Loads of money coupled with wild imagination resulted in construction of &quot;Alida&quot; - the theme park.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5286360/f90ac68fe515ca55b5f86b58e599bbc87958c501/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5286360/288446b7eefb4e58263569ef77ff7c159f0f880d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5286360/288446b7eefb4e58263569ef77ff7c159f0f880d/capsule_184x69.jpg",
+    "website": "http://www.alidagame.com",
+    "developers": [
+      "Cos Russo"
+    ],
+    "publishers": [
+      "Cos Russo"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      3,
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support@alidagame.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5286360",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5286360/cdb777bc5bdc6dfa3c0c867b11b07f4fac661405/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
