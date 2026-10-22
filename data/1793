@@ -145,7 +145,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "5 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -188,11 +188,12 @@
     ],
     "genres": [
       23,
-      28
+      28,
+      70
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "November 2026"
+      "date": "October 2026"
     },
     "support_info": {
       "url": "",
@@ -1504,10 +1505,17 @@
       "linux": false
     },
     "categories": [
+      1,
       2,
+      9,
       22,
       23,
+      24,
       28,
+      37,
+      39,
+      44,
+      49,
       55,
       62,
       64,
@@ -1659,7 +1667,19 @@
     "publishers": [
       "Facish"
     ],
-    "package_groups": [],
+    "packages": [
+      1858622
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Elevator Button Simulator",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -1675,9 +1695,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 16
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "21 Oct, 2026"
+      "coming_soon": false,
+      "date": "22 Oct, 2026"
     },
     "support_info": {
       "url": "https://x.com/Facish_hum",
@@ -1929,7 +1952,10 @@
       38,
       49,
       62,
-      63
+      63,
+      69,
+      75,
+      76
     ],
     "genres": [
       1,
@@ -2907,6 +2933,9 @@
     "steam_appid": 5381010,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5384670
+    ],
     "short_description": "Two to four friends control ONE character, but each of you owns only part of the controls and sees the course through a different camera. Walk, look, jump and dash together across floating toy courses, dodge hammers and a chaser, and when you fall, LAST INPUT shows exactly who pressed what.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381010/052156384b175689bb24dad6c24b99b82d13ae72/header.jpg",
@@ -2918,6 +2947,12 @@
     ],
     "publishers": [
       "MEYURO"
+    ],
+    "demos": [
+      {
+        "appid": 5384670,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2938,7 +2973,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "October 2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "https://github.com/Chang-Jin-Lee/Kiminoseidayo/issues",
@@ -3380,7 +3415,7 @@
     "steam_appid": 5380130,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Make yourself at home on the Maine coast. Explore an old captain's house, read by the window, fish the rocky shore, and paint from the porch. Choose the season, weather, and time of day. One house, its grounds, and a quiet stretch of coast to return to at your own pace.",
+    "short_description": "Make yourself at home on the Maine coast. Explore an old captain's house, read by the window, fish from the dock, and look for sea glass along the tide line. Choose the season, weather, and time of day, or watch a storm come in off the Atlantic. A quiet place to return to at your own pace.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380130/6a2db557ae693105047a6d719e1d97a7d6dc1015/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380130/467fe12441bcd80110aae96489329a8b98f1ba92/capsule_231x87.jpg",
@@ -3417,12 +3452,8 @@
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5380130",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5380130",
     "content_descriptors": {
-      "ids": [
-        1,
-        2,
-        5
-      ],
-      "notes": "The retreat's optional library contains 266 full, unabridged public-domain classics. Some books describe violence, suicide, sexual abuse (including abuse of minors), sex, alcohol and drug use, gambling and other mature themes, and contain historical language readers may find offensive. These subjects appear in the books' text. Coastal exploration and the quiet activities contain no combat or visual sexual content."
+      "ids": [],
+      "notes": null
     }
   },
   "5380250": {
@@ -6032,6 +6063,326 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "5379580": {
+    "type": "game",
+    "name": "Hermetica",
+    "steam_appid": 5379580,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "You run an airlock. Check every robot: the supplier's letter against what's really in the box. Sign it off \u2014 and you drive it yourself. Miss a fault and it shows up mid-fight. At hand-over, they'll ask what you signed and why.",
+    "supported_languages": "English, Russian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379580/6f7f3d7e84137b799ab1c3c53630da0cc3176b40/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379580/095da34cb96833452858216c3a9144d32536716a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379580/095da34cb96833452858216c3a9144d32536716a/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Aleksandr Dragun"
+    ],
+    "publishers": [
+      "Aleksandr Dragun"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      1,
+      2,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "2027"
+    },
+    "support_info": {
+      "url": "",
+      "email": "adragun@icloud.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5379580",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5379580",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5379860": {
+    "type": "game",
+    "name": "Maze Echo",
+    "steam_appid": 5379860,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "Someone here knows what you've forgotten. Explore a sanatorium and its mirror world, piece together lost memories, and decide whom to trust in this psychological horror visual novel. Your state of mind shapes some of the choices ahead.",
+    "supported_languages": "English, Simplified Chinese, Japanese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379860/47db793ff4cd224f3903a3f39c059212c9388a10/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379860/0090cbf4921b739bd32fe93c94f762d1c1048909/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379860/0090cbf4921b739bd32fe93c94f762d1c1048909/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Summerseek Studio"
+    ],
+    "publishers": [
+      "Summerseek Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      62
+    ],
+    "genres": [
+      23,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "November 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "2085469297@qq.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5379860",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379860/97f841b148076e3e8001c60843d6800ccbf6a70b/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "This game contains psychological horror, sudden scares, blood imagery, and disturbing depictions of characters and environments, including distorted appearances, imagery of being watched, and scenes that blur reality and hallucination. The story explores altered memories, uncertainty about identity, and psychological distress.\n\nSome scenes feature flashing effects, visual distortion, and unsettling text effects. These elements may cause fear or discomfort. Please consider your sensitivity to this content before playing."
+    }
+  },
+  "5380830": {
+    "type": "game",
+    "name": "Remnants of the forsaken Past : Blobbilly the Slime",
+    "steam_appid": 5380830,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Fight as Blobbilly to protect your kind from adventurers whose mission is to wipe out monsters. Adventurers are supposed to be heroes who save the day. But are they really? Join Blobbilly on his journey to uncover the truth behind these so-called heroes.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380830/917d1446433f7cadc22979af2c43297332f3ca7b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380830/43c77460b7c29b0e6f11bc5aa58a6363a3edf339/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380830/43c77460b7c29b0e6f11bc5aa58a6363a3edf339/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Untypical Hedgehog Studios"
+    ],
+    "publishers": [
+      "Untypical Hedgehog Studios"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      28,
+      55,
+      56,
+      57,
+      58,
+      62,
+      68,
+      69
+    ],
+    "genres": [
+      1,
+      3,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "To be announced"
+    },
+    "support_info": {
+      "url": "",
+      "email": "untypicalhedgehogstud.support@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5380830",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5380830",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5381320": {
+    "type": "game",
+    "name": "nuoxing",
+    "steam_appid": 5381320,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "An AI catgirl who lives on your desktop \u2014 she chats with you, remembers everything you tell her, and blushes when you pat her head. Tsundere, sharp-tongued, and unable to let you go.",
+    "supported_languages": "English, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381320/fe187dd3e0adcc0a58ecc5674545c3c46a0a6e73/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381320/afeb9cf67c8590297a24cdab9d705eacc0d51e7d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381320/afeb9cf67c8590297a24cdab9d705eacc0d51e7d/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "wangnianjie"
+    ],
+    "publishers": [
+      "wangnianjie"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "genres": [
+      4,
+      57
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q4 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "2125341548@qq.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5381320",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381320/d34bb70874dcfac08460f6d4cb7dbe8755dc4a40/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5381650": {
+    "type": "game",
+    "name": "Floating Realm: LoFi",
+    "steam_appid": 5381650,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Build your own peaceful little world! Floating Realm: LoFi wraps your floating sanctuary in gentle LoFi melodies, letting you freely craft your aerial scenes. Adorable pets stay by your side, with quick notes, to-do lists and Pomodoro focus timer. Settle into quiet, solo immersion for deep focus.",
+    "supported_languages": "English, Japanese, Simplified Chinese, Traditional Chinese, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381650/5b52c98158e045c92e08fb2815f0ef54e3352de0/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381650/959ce40a6d1b57c4bfd4d69365a8e27d991cc961/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381650/959ce40a6d1b57c4bfd4d69365a8e27d991cc961/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Project YonJoy"
+    ],
+    "publishers": [
+      "Project YonJoy"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      15,
+      22,
+      23,
+      62,
+      68,
+      74,
+      76,
+      79,
+      80
+    ],
+    "genres": [
+      4
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "October 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "ksgt00895536@163.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5381650",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5381650",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5379330": {
+    "type": "game",
+    "name": "Hazzard Hearth",
+    "steam_appid": 5379330,
+    "required_age": 0,
+    "is_free": false,
+    "dlc": [
+      5466500
+    ],
+    "short_description": "Survive the known (hunt, craft, fish, treat illness, mend bones, ration supplies, wolves, bears) and unknown (volatile weather, mutated beasts), stranded on a mountain. Solve the mystery and try to re-establish communications for rescue. Free roam or follow the story. Play single player or co-op.",
+    "supported_languages": "English, Spanish - Spain, Spanish - Latin America",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379330/8c33a129186fb5f31e21611f010a6df0a0b6e245/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379330/9b71e446b81269bd706e654778e7f6a55e85a440/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379330/9b71e446b81269bd706e654778e7f6a55e85a440/capsule_184x69.jpg",
+    "website": "https://GodWindsStudios.com/games/hazzard-hearth/",
+    "developers": [
+      "GodWinds Studios"
+    ],
+    "publishers": [
+      "GodWinds Studios"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      22,
+      23,
+      38,
+      48,
+      62,
+      67,
+      68,
+      69,
+      74,
+      78,
+      79
+    ],
+    "genres": [
+      23,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "5 Nov, 2026"
+    },
+    "support_info": {
+      "url": "https://GodWindsStudios.com/contact/",
+      "email": "support@GodWindsStudios.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5379330",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379330/69d3293066e9fdf05305ab5801acfd82db060230/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "Hunting and skinning animals with firearms, bow and knife. Shooting zombies in a DLC. Optionally shooting hazmat NPCs in co-op. Pet can die in hardcore mode. Blood can be turned off. There's no gore."
     }
   }
 }

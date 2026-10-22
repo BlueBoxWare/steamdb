@@ -764,7 +764,6 @@
     "steam_appid": 5339070,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "Leap to new heights in Frogs Jump Together! Play solo or team up in online co-op where you control agile frogs navigating tricky obstacles. Jump on your friends' backs to reach secret shortcuts, master your leaps, and climb your way to the very top!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339070/c04745bb51992510c1795af0041431d2bf4cc7f1/header.jpg",
@@ -788,7 +787,6 @@
       2,
       9,
       25,
-      28,
       36,
       38,
       49,
@@ -806,7 +804,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "18 Oct, 2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "https://discord.gg/3UUmVybnr",
@@ -1328,6 +1326,12 @@
     "publishers": [
       "Wasteland Drifters"
     ],
+    "demos": [
+      {
+        "appid": 5373310,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -1550,7 +1554,19 @@
     "publishers": [
       "Stardust Factory Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1844907
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Terra Machina",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1573,8 +1589,11 @@
       23,
       70
     ],
+    "achievements": {
+      "total": 37
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "22 Oct, 2026"
     },
     "support_info": {
@@ -1763,7 +1782,7 @@
   },
   "5339950": {
     "type": "game",
-    "name": "GENA GORIN",
+    "name": "GENNADIYYY",
     "steam_appid": 5339950,
     "required_age": 0,
     "is_free": false,
@@ -1923,9 +1942,9 @@
     ],
     "short_description": "Tiny Paradise is a cozy desktop companion. Earn shells as you work, write or chat, then add homes, plants and new friends. Each keystroke sets your world in motion. Enjoy nine scenes, day and night in local time, and a journal of small moments. Take your time; there's no hurry.",
     "supported_languages": "English, German, Japanese, Simplified Chinese, Traditional Chinese, French, Russian, Portuguese - Brazil, Korean, Spanish - Spain",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339960/9cebe184b99b1f59ac1686bca317c50b1d242e2e/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339960/c3e65488695f90c95577ade02fd4ad800564b3a0/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339960/c3e65488695f90c95577ade02fd4ad800564b3a0/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339960/61f10cb1268c8132bde14169ed0c1ced2eddf9cd/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339960/efa97f0780fbf3b2f6bb308aea098dc70736a33f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339960/efa97f0780fbf3b2f6bb308aea098dc70736a33f/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Aries Echo Studio"
@@ -3164,6 +3183,7 @@
       1,
       9,
       20,
+      35,
       36,
       38,
       49,
@@ -4084,12 +4104,15 @@
     "steam_appid": 5339620,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5378910
+    ],
     "short_description": "Two nations, each certain it is the hero, fight over a beautiful world running out of supply. Blow the bridges, burn the forests, bring the buildings down. Villagers hide in cellars or take up arms, and a downed aircraft falls on what lies beneath it. Real-time strategy for up to eight leaders.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339620/56490a18461870c15365813b94fabdb07c61543f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339620/4924a5a2dccd68598d20a7996c97428e58221f3d/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339620/4924a5a2dccd68598d20a7996c97428e58221f3d/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://www.therealzstudios.com/games/defy",
     "developers": [
       "The Real Z Studios"
     ],
@@ -5551,6 +5574,56 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5337710",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5337710",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5339730": {
+    "type": "game",
+    "name": "Dokkan!BugBattle",
+    "steam_appid": 5339730,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Enter a 2D battle where unique insects like rhinoceros beetles and stag beetles clash! Land powerful attacks, dodge with quick steps, and unleash special skills across three waves to defeat a mighty boss. Collect bugs through the gacha, raise the difficulty, and beat your Survival Mode record.",
+    "supported_languages": "English, Japanese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339730/6851422934dc135b42edfc67eae959a4ff5772ed/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339730/e147329fbc12b936ab08ec5f57176d2118aaf81e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339730/e147329fbc12b936ab08ec5f57176d2118aaf81e/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "nyannyangames"
+    ],
+    "publishers": [
+      "nyannyangames"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62,
+      74,
+      78
+    ],
+    "genres": [
+      1,
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "November 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "nnekomon@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5339730",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5339730",
     "content_descriptors": {
       "ids": [],
       "notes": null
