@@ -1369,7 +1369,8 @@
     "steam_appid": 5371940,
     "required_age": 0,
     "is_free": true,
-    "short_description": "The 1994 robot fighting classic, rebuilt in Unreal Engine 5 as a free fan remake. 21 robots, 15 arenas, a Tournament career with a mech lab, the Arcade ladder, Training, and local or online versus with Steam friends, all on the original combat via OpenOMF.",
+    "controller_support": "full",
+    "short_description": "A free 1v1 robot fighting game: the 1994 classic One Must Fall 2097, rebuilt in HD. 21 giant robots, 15 arenas, a Tournament career with a mech lab, Arcade, Training, and versus on one PC or online with Steam friends. Fight with supers and EX moves, or switch to the original rules.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371940/b9ce86f56aad2e65637fe1bca81e8f7bfc2c96fe/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371940/bdb8fcb675951bdaf58b6a905e641bf234e67f1a/capsule_231x87.jpg",
@@ -1384,15 +1385,16 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
       1,
       2,
-      18,
+      22,
       23,
       24,
+      28,
       37,
       44,
       49,
@@ -1404,9 +1406,12 @@
       23,
       37
     ],
+    "achievements": {
+      "total": 29
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "22 Oct, 2026"
     },
     "support_info": {
       "url": "https://games.linecrush.com/support",
@@ -1962,7 +1967,7 @@
     "is_free": true,
     "short_description": "Echoes of Calir is a turn-based 1v1 mix of chess, a TCG and a board game on an 8\u00d78 board. Build a deck of five units and five terrain cards, place them before battle, and outmaneuver your opponent through movement, abilities, and captures. Chess rules with the strategic depth of a TCG.",
     "supported_languages": "English, German",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371290/2c35428433b03631bd06e423251474bed94c325d/header.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371290/af9e8c521c33c93b4e22d54165e70374860a950f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371290/5ffad04ca54580976d1cd1803dd5c7b6fb9521e3/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371290/5ffad04ca54580976d1cd1803dd5c7b6fb9521e3/capsule_184x69.jpg",
     "website": "https://www.reddit.com/r/EchoesOfCalir",
@@ -2963,7 +2968,7 @@
     "steam_appid": 5372520,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A local music studio. Describe a song, generate it with the AI model you bring, then arrange, mix, and export the session on your machine.",
+    "short_description": "A music production studio with AI-assisted composition. Describe a song, generate music and sound effects locally on your PC with Stable Audio 3, then arrange, mix and export in a full multitrack workspace.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372520/166fba680dc8e2e6cc369054e9aab47fc65240c8/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372520/18c453b4032fa23e91e4920098ac122130c3a89f/capsule_231x87.jpg",
@@ -3308,10 +3313,9 @@
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5372390",
     "content_descriptors": {
       "ids": [
-        1,
         5
       ],
-      "notes": "Contains crude anatomical humour, clothed crotch-scratching, suggestive character outfits and adult romantic themes. All depicted characters are adults. There is no nudity or explicit sexual activity."
+      "notes": "Contains crude humour, clothed crotch-scratching,  adult romantic themes. All depicted characters are adults. There is no nudity or explicit sexual activity."
     }
   },
   "5372400": {
@@ -3393,12 +3397,12 @@
     "steam_appid": 5372410,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A superhero injection goes badly wrong. Fight viruses and microplastics in a ridiculous first-person dream with 10 wave arenas, six household weapons and four boss types. Dash, cool your Hover Minigun and scratch your way out of the lab.",
+    "short_description": "A superhero injection goes badly wrong. Fight viruses and microplastics in a ridiculous first-person dream with 13 wave stages, six household weapons and four boss types. Dash, cool your Hover Minigun and scratch your way out of the lab.",
     "fullgame": {
       "appid": "4951590",
       "name": "Ball Scratch Simulator"
     },
-    "supported_languages": "English",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Thai, Traditional Chinese, Turkish, Ukrainian, Catalan",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372410/2276437c91bef532fab4e6174a4f4d325e2e0ac8/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372410/917c63c4f9fc6c41308c8c5506f9888b3b242a81/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372410/917c63c4f9fc6c41308c8c5506f9888b3b242a81/capsule_184x69.jpg",
@@ -3409,7 +3413,19 @@
     "publishers": [
       "10ft Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1855602
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Ball Scratch Simulator - Scratch & Slay",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3426,11 +3442,11 @@
       78
     ],
     "genres": [
-      28
+      1
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "23 Oct, 2026"
     },
     "support_info": {
       "url": "www.tenftgames.dev",
@@ -3440,10 +3456,9 @@
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5372410",
     "content_descriptors": {
       "ids": [
-        1,
         5
       ],
-      "notes": "Contains crude and suggestive body humour, clothed crotch-scratching and stylized cartoon combat against fictional creatures, without realistic blood or gore. The story includes a fictional superhero injection and medical imagery. All depicted characters are adults. There is no nudity or explicit sexual activity."
+      "notes": "Contains crude and suggestive body humour, clothed crotch-scratching and stylized cartoon combat against fictional creatures, without blood or gore. The story includes a fictional superhero injection and medical imagery. There is no nudity or explicit sexual activity."
     }
   },
   "5372420": {
@@ -3457,7 +3472,7 @@
       "appid": "4951590",
       "name": "Ball Scratch Simulator"
     },
-    "supported_languages": "English",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Thai, Traditional Chinese, Turkish, Ukrainian, Catalan",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372420/3b12ac7db945af4b52d1467f316cb9934d5f04a7/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372420/a45f0ca067700f09c3d9cf877db56821fed14820/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372420/a45f0ca067700f09c3d9cf877db56821fed14820/capsule_184x69.jpg",
@@ -3468,7 +3483,19 @@
     "publishers": [
       "10ft Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1855605
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Ball Scratch Simulator - Scratch & Climb",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3477,16 +3504,17 @@
     "categories": [
       2,
       21,
+      22,
       52,
       62,
       74
     ],
     "genres": [
-      28
+      25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "23 Oct, 2026"
     },
     "support_info": {
       "url": "www.tenftgames.dev",
@@ -3496,7 +3524,6 @@
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5372420",
     "content_descriptors": {
       "ids": [
-        1,
         5
       ],
       "notes": "Contains crude and suggestive body humour, clothed crotch-scratching, exaggerated grunts and suggestively styled adult companion characters. Platforming includes spikes, falls and quick respawns without realistic blood or gore. All depicted characters are adults. There is no nudity or explicit sexual activity."
@@ -4812,6 +4839,111 @@
         5
       ],
       "notes": "Hey snowflake! This visual novel discusses and/or depicts misogyny, homophobia, transphobia, racism, bigotry, strong language, slurs, explicit sex between male characters, lots of infidelity, childhood trauma, religious trauma, child abuse, bullying, cyberbullying, mental illness, alcohol, jokes about suicide, manipulation, toxic relationships, violence, and lots and lots of right-wing politics! Continuing on means you have acknowledged all this and are willing to read it anyway! Otherwise, go back to your hugbox, liberal!"
+    }
+  },
+  "5370810": {
+    "type": "game",
+    "name": "The King Must Grow",
+    "steam_appid": 5370810,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "A physics-based active incremental about a not entirely humble jester with one very important job: Feed cute, entirely innocent slimes to the ever-hungry Slime King. Throw them by hand, then see if you can build systems that do it for you. Just never, ever question the King.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5370810/ba4ed6d9468408583f97501f3bf01b5c32fdf316/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5370810/4b19c9c1532ddaa53c45c479d444e1b62bcb20bd/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5370810/4b19c9c1532ddaa53c45c479d444e1b62bcb20bd/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Bag Of Ducks Studio"
+    ],
+    "publishers": [
+      "Bag Of Ducks Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      23,
+      28,
+      62
+    ],
+    "genres": [
+      4,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "March 2027"
+    },
+    "support_info": {
+      "url": "",
+      "email": "contact@bagofducks.studio"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5370810",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5370810/7bfb99d54af2c1850011cbcca1b88c4aa4c96cbc/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5371220": {
+    "type": "game",
+    "name": "Aequorea Victoria: The Museum",
+    "steam_appid": 5371220,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "A first-person journey through a world made of art. Wander a gallery of paintings, music and film, step into surreal rooms of fear, climb a tower where every floor is a different story, and leave your dreams for strangers to find.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371220/39507953abf628e7160af9755bf4fff0e9bc1823/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371220/2e5589703a8af0a906dd25279d100511b564f18c/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371220/2e5589703a8af0a906dd25279d100511b564f18c/capsule_184x69.jpg",
+    "website": "https://aequoreavictoria.com",
+    "developers": [
+      "Aequorea Victoria"
+    ],
+    "publishers": [
+      "Aequorea Victoria"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      38,
+      62
+    ],
+    "genres": [
+      4,
+      23,
+      25,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "28 Oct, 2027"
+    },
+    "support_info": {
+      "url": "https://aequoreavictoria.com/terms-and-conditions",
+      "email": "support@aequoreavictoria.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5371220",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5371220",
+    "content_descriptors": {
+      "ids": [
+        1,
+        5
+      ],
+      "notes": "Aequorea explores difficult emotional themes through art and interactive spaces, including depression, fear, illness and loneliness. Some rooms are dark and intentionally unsettling, but there is no gore and no realistic violence.\r\n\r\nThe gallery displays classic paintings, some of which contain artistic nudity, as found in any art museum.\r\n\r\nIn one interactive story, players can remove creatures from a small simulated ecosystem. This is stylized and non-graphic.\r\n\r\nAequorea includes user-generated content (artwork, comments, written dreams) and online text chat with other players. Shared artist rooms are reviewed before they are published."
     }
   }
 }

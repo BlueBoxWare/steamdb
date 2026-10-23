@@ -488,6 +488,7 @@
     "steam_appid": 4912110,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "dlc": [
       4948480
     ],
@@ -517,6 +518,9 @@
     },
     "categories": [
       2,
+      22,
+      23,
+      28,
       62,
       68,
       69,
@@ -524,6 +528,7 @@
       80
     ],
     "genres": [
+      1,
       4,
       23,
       28
@@ -2251,7 +2256,7 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": true
     },
     "categories": [
@@ -9467,7 +9472,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Take the wheel at the pinnacle of modern endurance racing. The Hypercar Expansion Pack brings four premier factory prototypes to RENNSPORT: the Aston Martin Valkyrie LMH, Lamborghini SC63 LMDh, Toyota GR010 Hybrid, and Genesis GMR-001, alongside a full class physics and Balance of Performance rework",
+    "short_description": "Take the wheel at the pinnacle of modern endurance racing. The Hypercar Expansion Pack brings four premier factory prototypes to RENNSPORT: the Aston Martin Valkyrie AMR-LMH, Lamborghini SC63, Toyota TR010 Hybrid, and Genesis GMR-001, alongside a full class physics and Balance of Performance rework.",
     "fullgame": {
       "appid": "2077750",
       "name": "RENNSPORT"
@@ -9484,7 +9489,19 @@
     "publishers": [
       "Competition Company"
     ],
-    "package_groups": [],
+    "packages": [
+      1705379
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RENNSPORT: Hypercar Expansion Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -9517,8 +9534,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "23 Oct, 2026"
     },
     "support_info": {
       "url": "www.rennsport.gg",
