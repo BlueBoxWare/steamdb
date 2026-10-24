@@ -1527,7 +1527,7 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5252790/4280c911237dcd4516e9b5ce45a267ba00275b83/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5252790/692a435e50e1a5e59b49e98b56437170d7e9df9c/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5252790/692a435e50e1a5e59b49e98b56437170d7e9df9c/capsule_184x69.jpg",
-    "website": "https://www.inazuma7.co.jp/",
+    "website": "https://www.inazuma7.co.jp/guardian/index_en.html",
     "developers": [
       "Takahiro Yonemura"
     ],
@@ -2342,7 +2342,19 @@
     "publishers": [
       "humbledbag"
     ],
-    "package_groups": [],
+    "packages": [
+      1816086
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Want a Bomb?",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2367,8 +2379,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 29
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "23 Oct, 2026"
     },
     "support_info": {
@@ -4090,6 +4105,9 @@
     "steam_appid": 5251960,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5260360
+    ],
     "short_description": "An asymmetric online hide-and-seek party game. The hunter is completely blind \u2014 sound is the only light in his world. Hide, stay still, never make a noise. Play with friends over the internet or hunt bots alone. 2\u201320 players.",
     "supported_languages": "English, French, German, Arabic, Simplified Chinese, Japanese, Russian, Turkish, Spanish - Spain, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5251960/272c83ea394cfd7f172e5637361cac67aee6bb11/header.jpg",
@@ -4101,6 +4119,12 @@
     ],
     "publishers": [
       "sanzyman"
+    ],
+    "demos": [
+      {
+        "appid": 5260360,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
