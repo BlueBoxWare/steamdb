@@ -652,6 +652,9 @@
     "steam_appid": 5331090,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5336920
+    ],
     "short_description": "A cozy idle farm that lives in a small window on your screen. Duck workers harvest, haul and sell your crops while you work or play. Grow the farm, open the Duck Pond, earn Heirloom Seeds and dress your ducks in hats and bows.",
     "supported_languages": "English, Simplified Chinese, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5331090/3f106f72c3074c94684922861193a98e14b4ae74/header.jpg",
@@ -663,6 +666,12 @@
     ],
     "publishers": [
       "Wo1fDev"
+    ],
+    "demos": [
+      {
+        "appid": 5336920,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -686,7 +695,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "January 2027"
     },
     "support_info": {
       "url": "",
@@ -1395,8 +1404,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -1494,7 +1503,7 @@
     "dlc": [
       5331210
     ],
-    "short_description": "Grab a loaf of bread and fight back! The Duckening is a chaotic bullet-heaven where a duck battles endless waves of monsters, unlocks a growing arsenal of weapons, and faces down unique bosses every 20 waves.",
+    "short_description": "Bread, ducks, and pure chaos! Jump into The Duckening \u2013 a fast-paced bullet-heaven roguelike. Wield 50+ weapons, build crazy synergies with cards, upgrade unique ducks, fight bosses every 10 waves, and play built-in minigames!",
     "supported_languages": "English, Polish, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5331190/d54c62008dcb89d6d986c4529684a206cd7f21cc/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5331190/40cec0dd0da92bdae98c3b8521e2ff21aecb7875/capsule_231x87.jpg",
@@ -4032,7 +4041,19 @@
     "publishers": [
       "Unwilling Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1842723
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Escape From Necromaze",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4049,8 +4070,8 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "29 Oct, 2026"
+      "coming_soon": false,
+      "date": "24 Oct, 2026"
     },
     "support_info": {
       "url": "https://www.facebook.com/profile.php?id=61575520196968",

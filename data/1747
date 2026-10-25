@@ -200,6 +200,12 @@
     "publishers": [
       "Float Dev"
     ],
+    "demos": [
+      {
+        "appid": 5459560,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -751,13 +757,14 @@
     "name": "Doug's Playground",
     "steam_appid": 5243750,
     "required_age": 0,
-    "is_free": false,
-    "short_description": "Wash up on a unassuming island, meet a blob of mercury named Doug, and fish. Offer your best catches to the King who took Doug's playground long ago, and slowly bring both the island and the playground back to life. A gentle fishing game with an odd streak that's sure to surprise you along the way.",
+    "is_free": true,
+    "controller_support": "full",
+    "short_description": "Catch fish, ace the minigames to grade your haul, and turn it into playground parts. Stack them on the ship, send them off, and do it again. Draft charms, hire a crew, and when you sink, spend your prestige tokens and sail once more.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243750/68f453b9c8b4739535da534de7bf8bdee67f27f1/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243750/72e765daabd5aedb10369ad2ecbe34f52a9ed5c1/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243750/72e765daabd5aedb10369ad2ecbe34f52a9ed5c1/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://dougsplayground.net",
     "developers": [
       "Mercury Media"
     ],
@@ -772,21 +779,27 @@
     },
     "categories": [
       2,
+      22,
+      23,
+      28,
+      55,
+      56,
+      57,
+      58,
       62
     ],
     "genres": [
       4,
       23,
-      25,
-      28
+      37
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "December 2026"
     },
     "support_info": {
-      "url": "",
-      "email": "r1l3ycl4rk@gmail.com"
+      "url": "https://mercurymedia.dev",
+      "email": "hello@mercurymedia.dev"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5243750",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243750/248536920ab7e2952adbd1e90a4e112d9b8221a6/page_bg_raw.jpg",
@@ -794,7 +807,7 @@
       "ids": [
         5
       ],
-      "notes": "Access to \"Beer\" via. Jarvis' general store. Allowing the player to become drunk, and pass out, and skip the day cycle before having any access to the Pocket Dimension.\r\n\r\nUsage of the word \"hell\" from multiple NPCs, but no crude language otherwise."
+      "notes": null
     }
   },
   "5242020": {
@@ -2585,7 +2598,19 @@
     "publishers": [
       "Plotline Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1813280
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Scottside - Supporter Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2613,8 +2638,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "24 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -2831,17 +2856,26 @@
     "steam_appid": 5243310,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5266950
+    ],
     "short_description": "Get cubes, buy upgrades, push stages. More cubes, more numbers.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243310/17cfd456cfef85fecae965d060b150f89e70cada/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243310/dedc9c689775a4f80d6fe1c17a2d39cb3ca21471/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243310/dedc9c689775a4f80d6fe1c17a2d39cb3ca21471/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243310/75aab43897ad846824cd25c88909926e0e162ffd/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243310/8bfdfd296d305ce18b14bd978396827af2de1455/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243310/8bfdfd296d305ce18b14bd978396827af2de1455/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "IWantSumCrusha"
     ],
     "publishers": [
       "IWantSumCrusha"
+    ],
+    "demos": [
+      {
+        "appid": 5266950,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4026,7 +4060,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "Unravel the mysteries of Tears of Fire! Explore the devastated Kingdom of Eden, face corrupted creatures, and uncover the secrets of a war-torn past in a hand-drawn 2D metroidvania adventure.",
-    "supported_languages": "English, Spanish - Spain, Portuguese - Brazil",
+    "supported_languages": "English, Spanish - Spain, Portuguese - Brazil, Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243350/430397c792fff7e83ab812d6c183c719016dddc7/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243350/db9626ae7858415dee3edb2fa5e370c7b12de0a0/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243350/db9626ae7858415dee3edb2fa5e370c7b12de0a0/capsule_184x69.jpg",
@@ -4615,6 +4649,122 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "5242280": {
+    "type": "dlc",
+    "name": "Tutor's Gentle Trap-DLC She became my stepmother",
+    "steam_appid": 5242280,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Late at night, Elena drove back and witnessed an inappropriate scene between her sister and Lawrence. Then the two sisters had a wild night with Lawrence. The next day, Elena removed the foreign object, and finally, Daphne died after seeing the video.",
+    "fullgame": {
+      "appid": "4858420",
+      "name": "Tutor's Gentle Trap"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5242280/60b7d6758d3baa9fc02c7c18e27e18e041e46048/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5242280/ec6f49948a2d67b5347d2c4adcfed77ca58cede1/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5242280/ec6f49948a2d67b5347d2c4adcfed77ca58cede1/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "OKE.X.FAN"
+    ],
+    "packages": [
+      1813205
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Tutor's Gentle Trap-DLC She became my stepmother",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      62
+    ],
+    "genres": [
+      3
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "25 Oct, 2026"
+    },
+    "support_info": {
+      "url": "https://oke.xnewd-b.com/",
+      "email": "XOKE@ataic.net"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5242280",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5242280",
+    "content_descriptors": {
+      "ids": [
+        1,
+        4,
+        5
+      ],
+      "notes": "This game contains adult content, including elements such as sexual innuendo, descriptions of desire, and emotional entanglements. It is not suitable for minors. The game content is themed around adult emotions and desires, presenting complex character relationships and moral dilemmas."
+    }
+  },
+  "5242450": {
+    "type": "dlc",
+    "name": "Tutor's Gentle Trap-DLC The Deadly Tenderness of Stepmother and Aunt",
+    "steam_appid": 5242450,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Early in the morning, Daphne suddenly died of sudden cardiac death. After the funeral, Thomas discovered his father's incestuous relationship with Elena and Alys. Three years later, he witnessed his father's grand wedding to Elena.",
+    "fullgame": {
+      "appid": "4858420",
+      "name": "Tutor's Gentle Trap"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5242450/1d25399ad00ca6a79cd28f8544c715ae994dcb92/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5242450/5b1637448122e9bbffdb966c54d721b0ec5913dd/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5242450/5b1637448122e9bbffdb966c54d721b0ec5913dd/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "OKE.X.FAN"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      62
+    ],
+    "genres": [
+      3
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://oke.xnewd-b.com/",
+      "email": "XOKE@ataic.net"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5242450",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5242450",
+    "content_descriptors": {
+      "ids": [
+        1,
+        4,
+        5
+      ],
+      "notes": "The game contains adult - oriented ambiguous, emotional, and desire - related plots, involving complex emotional entanglements and inappropriate behavior scenes between characters, but does not contain explicit pornographic descriptions. It is recommended for adult players."
     }
   }
 }
