@@ -323,7 +323,7 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
@@ -3484,7 +3484,7 @@
       5115110
     ],
     "short_description": "Command mythical legions to victory in a fantasy auto-battler where every placement matters. Draft your troops, unlock magical upgrades, set your formations, and let the battle begin. Pure strategy, no clickfest. Prove your brilliance in 1v1 and 2v2 matches, or survive the escalating Co-op Horde.",
-    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese<br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German<strong>*</strong>, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Swedish, Thai, Traditional Chinese<strong>*</strong>, Turkish, Ukrainian, Vietnamese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4987230/833a1d7f3a40629d6c8edd334ad871425ccd644b/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4987230/f11717c997b2d0e05d02d43537a5b1082173ee29/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4987230/f11717c997b2d0e05d02d43537a5b1082173ee29/capsule_184x69.jpg",
@@ -7552,7 +7552,19 @@
     "publishers": [
       "Null Offset"
     ],
-    "package_groups": [],
+    "packages": [
+      1730356
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy TRAPPIST-1",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7574,8 +7586,11 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 4
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "26 Oct, 2026"
     },
     "support_info": {

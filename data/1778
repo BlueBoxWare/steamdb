@@ -555,11 +555,11 @@
     "steam_appid": 5335480,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Your master vanished the night the lamps went out. Now his gladiator dojo is yours. Raise rat fighters and write their tactics command by command. Arm them with spoons and bottle caps. Climb a ladder of over 2000 living fighters.",
+    "short_description": "Raise gladiator rats from a spoon and a bottle cap into legends in tin can armour. Write the plans they fight by, win the deadly Colosseum, then take your strongest through the door beneath it. Not all of them will make it back home ...",
     "supported_languages": "English<strong>*</strong>, German<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335480/a0f63c8b843004c5398793867d043af8a02d96d4/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335480/3148e4b60cab7374e52f6d31fa757930e487d37c/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335480/3148e4b60cab7374e52f6d31fa757930e487d37c/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335480/3db8f02f4141411eeb4b91e24ed26528c43627f3/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335480/9af529808c8fa68b1dec6f6ac6ade13c636cc868/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335480/9af529808c8fa68b1dec6f6ac6ade13c636cc868/capsule_184x69.jpg",
     "website": "https://akandogames.com/en/games/ratiator",
     "developers": [
       "Akando Games"
@@ -602,10 +602,13 @@
       "email": "akandogames@gmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5335480",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335480/e6a5331d9089af61af1eee4cb486d4105468b6ad/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335480/e4173af95a4bff8890243eb43db773b145d6d907/page_bg_raw.jpg",
     "content_descriptors": {
-      "ids": [],
-      "notes": null
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "Ratiator looks cute, but it has dark themes. Rats fight in lethal arena matches and hunts. Combat shows small amounts of blood, and a rat that dies stays dead. Its friends grieve, and you decide how it is buried. The story deals with the loss of characters you care about, grief, animals that hunt and kill rats, a ruler who sells young rats into experiments, and a chemical poison that gives strength before it brings sickness, malformation and death. Later in the game you can choose to give that poison to your own fighters. There are occasional references to alcohol. There is no sexual content and no nudity."
     }
   },
   "5335500": {
@@ -616,9 +619,9 @@
     "is_free": false,
     "short_description": "Dat\u00e7a, 1987. Run a seaside left-luggage counter: compare claim tickets, items and the ledger, catch the lies and decide who walks away with what. By night, chase Elif, who vanished seven years ago, through crayon-drawn dreams that regain their colour as you draw near.",
     "supported_languages": "Turkish, English, Spanish - Spain, Arabic",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335500/c553bd6c32f20ab503a280bbb1405d998cd1ca7f/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335500/d1af0e066b7f76bfa076abf36bde453e96f629f0/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335500/d1af0e066b7f76bfa076abf36bde453e96f629f0/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335500/230924b822a5d92bc107a04fed2e40623fac3bb7/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335500/fce8dfbac8b7b4e3892c2f74ee98b51d86acb58e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335500/fce8dfbac8b7b4e3892c2f74ee98b51d86acb58e/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Tamgax Gaming"
@@ -1027,6 +1030,9 @@
     "steam_appid": 5336100,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5438230
+    ],
     "short_description": "The priestess fires Fireballs at ore veins, causing ores to appear. Mine them as they appear! Use your ores to upgrade your abilities and increase your mining efficiency!",
     "supported_languages": "English, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336100/448ce8a295a24bc54d3c7f04793d7d25f05cd0f8/header.jpg",
@@ -1039,7 +1045,19 @@
     "publishers": [
       "POCOYA"
     ],
-    "package_groups": [],
+    "packages": [
+      1843852
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Mining Fire Ball",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1058,8 +1076,11 @@
       4,
       28
     ],
+    "achievements": {
+      "total": 38
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "26 Oct, 2026"
     },
     "support_info": {
@@ -3455,9 +3476,9 @@
     "is_free": false,
     "short_description": "Blackjack Roguelike. 3 lives, 60 levels, 12 bosses.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336240/24d4ec1c8307611db93e9678f0d2f1a4edb4ebc4/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336240/31af7004ba3b73ce7aa354a5ea9baf2e65c93522/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336240/31af7004ba3b73ce7aa354a5ea9baf2e65c93522/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336240/dc487e7f584b8cad4fd5600ccfffb24bfa71c7d3/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336240/9a686db3c31abc8962d7b3d22ec226aa4bcedf9a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336240/9a686db3c31abc8962d7b3d22ec226aa4bcedf9a/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "InbredJesus"
@@ -3490,7 +3511,7 @@
       "email": "designphobos@gmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5336240",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336240/94ca8d7014559b0c0bbbc0656a0e47d369d3c56b/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336240/10017f7954636e7e2553e822ea141c6780680ef8/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -3682,6 +3703,7 @@
       2,
       28,
       36,
+      47,
       49,
       62
     ],
@@ -4049,7 +4071,19 @@
     "publishers": [
       "Noxam"
     ],
-    "package_groups": [],
+    "packages": [
+      1843754
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Joker's Knock",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4069,8 +4103,8 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "October 2026"
+      "coming_soon": false,
+      "date": "25 Oct, 2026"
     },
     "support_info": {
       "url": "https://jokersknock.com",
@@ -4477,9 +4511,9 @@
     ],
     "short_description": "Compete for immunity, build alliances, and navigate desire in an uncensored adult reality-show strategy game. Sixteen castaways share one island, but staying wanted is how you stay in. At council, the relationships you built can decide whether you survive the night.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336580/88ac0c60a15cff2704b98c0e78644402ba705bf7/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336580/44a2e653718c818e5b096d95caf5c6ebfb163220/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336580/44a2e653718c818e5b096d95caf5c6ebfb163220/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336580/577e73dc2404adc4e310f79b4746edf87d9dcdd9/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336580/e26175f0200e90c55c91148640fd892818741b37/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336580/e26175f0200e90c55c91148640fd892818741b37/capsule_184x69.jpg",
     "website": "https://fleshforgestudio.com/",
     "developers": [
       "fleshforgestudio"
@@ -5431,6 +5465,54 @@
         5
       ],
       "notes": "Halloween 2026 is a horror game full of scary monsters, frightening and disturbing images, jump scares and some blood. Monsters disguised as trick-or-treaters can attack and kill the player ch\r\naracter. The death itself happens off-screen (the screen cuts to black). A visitor at the door is grabbed and dragged away by a creature. In one sequence the player, shrunk to the size of a pu\r\nmpkin seed, fights off living pumpkins and seeds with a carving knife, and pulp and red juice splatter across the screen. In another, the player is turned into a cat and chased and bitten by a\r\n dog. Some visitors are children in Halloween costumes; no children are harmed. There is no sexual content, no drug or alcohol use and no self-harm."
+    }
+  },
+  "5336050": {
+    "type": "game",
+    "name": "Paper Cleanup: Do Not Read",
+    "steam_appid": 5336050,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Your job is simple: destroy every sheet of paper in the office. Vacuum, shred, upgrade your equipment, but whatever you do - DO NOT READ the documents.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336050/832616ba6beecc3ccf562285208b85b44ea34a80/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336050/4e620f4f9cd664b1404b0643c9f81aa97d864138/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336050/4e620f4f9cd664b1404b0643c9f81aa97d864138/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Lazy Fingers"
+    ],
+    "publishers": [
+      "Lazy Fingers"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "pollkywollky@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5336050",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5336050",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }
