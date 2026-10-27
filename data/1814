@@ -536,8 +536,8 @@
     "steam_appid": 5443800,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Command the frontline in T.S.K Commander, a tactical real-time strategy game with infantry, tanks, helicopters and ships. Capture sectors, secure production facilities and combine land, air and naval forces into a fighting force.",
-    "supported_languages": "English<strong>*</strong>, German<strong>*</strong>, Turkish<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "short_description": "Command the frontline in T.S.K Commander, a tactical real-time strategy game. Capture sectors with your infantry, turn their factories to your side and lead tanks, mechs, helicopters, drones and warships \u2013 in a 30-mission campaign, in skirmish or over LAN.",
+    "supported_languages": "English<strong>*</strong>, German<strong>*</strong>, Turkish<strong>*</strong>, Spanish - Spain<strong>*</strong>, Simplified Chinese<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443800/c3d767501acff17ea7beb2090d2df68921547c50/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443800/086d112ae63b965baa3be7075ecd10446e328126/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443800/086d112ae63b965baa3be7075ecd10446e328126/capsule_184x69.jpg",
@@ -902,7 +902,10 @@
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5443430",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443430/399c2ad491c8ba4af181cf5bf2c4aac028522ae6/page_bg_raw.jpg",
     "content_descriptors": {
-      "ids": [],
+      "ids": [
+        2,
+        5
+      ],
       "notes": "Constant real-time combat with medieval weapons against the risen dead, skeletons and a few animals. Blows show arcs of blood and red flashes, and old blood and bodies lie on the dungeon floors. The story deals with death, grief and self-sacrifice: people from the town go down to die, among them a sixteen-year-old boy, whose death is told, not shown. Pixel art; violence is shown plainly and never lingered on."
     }
   },
@@ -1369,7 +1372,16 @@
       56,
       57,
       58,
-      62
+      62,
+      64,
+      68,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
     ],
     "genres": [
       3
@@ -1965,7 +1977,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "To be announced"
+      "date": "Q1 2027"
     },
     "support_info": {
       "url": "https://headboneinteractive.com",
@@ -2198,6 +2210,12 @@
     ],
     "publishers": [
       "Abyssal Bloom"
+    ],
+    "demos": [
+      {
+        "appid": 5465340,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2847,7 +2865,7 @@
     "steam_appid": 5444250,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Get bloody handy with your friends in this online co-op comedy-horror. Pass the parcel to the exit gate to escape a haunted purgatory, but don\u2019t hold on too long: items will poison, zap or explode you, and every monster comes for you!",
+    "short_description": "Get BLOODY HANDY with friends in this comedy-horror co-op for up to 6 players. Search for a list of objects, but each one is dangerous to hold for too long. Pass the parcel along to the exit before they poison, zap or explode you. Don't drop any items, as monsters are also on the hunt!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5444250/3b05ff1bcf088eb1b8dc96ba45b4bd7923d42929/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5444250/79cbb11fc0e730d532a83472803e78fb635ee587/capsule_231x87.jpg",
@@ -3457,6 +3475,325 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5444950",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5444950",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5442480": {
+    "type": "dlc",
+    "name": "Fantasy Grounds - Treasury of the Pharoahs (PFRPG)",
+    "steam_appid": 5442480,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Explore ancient Egypt's mysteries with over 30 magical items, from deadly weapons to protective gear. Uncover long-lost ruins, defy mummy guardians, and claim the treasures of pharaohs. Perfect for tomb robbers and adventurers seeking riches and legendary power.",
+    "fullgame": {
+      "appid": "1196310",
+      "name": "Fantasy Grounds VTT"
+    },
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5442480/23b2f97748af4b3fc587f9495ffb9cf31f17d0e2/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5442480/4066987294912aa8a29d8e2ebcc8cd79160452d4/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5442480/4066987294912aa8a29d8e2ebcc8cd79160452d4/capsule_184x69.jpg",
+    "website": "https://www.fantasygrounds.com",
+    "developers": [
+      "SmiteWorks USA, LLC"
+    ],
+    "publishers": [
+      "Smiteworks USA, LLC"
+    ],
+    "packages": [
+      1878287
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Fantasy Grounds - Treasury of the Pharoahs (PFRPG)",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      21,
+      24,
+      27,
+      36,
+      37,
+      38,
+      39,
+      47,
+      48,
+      49,
+      62
+    ],
+    "genres": [
+      2,
+      3,
+      23,
+      37
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "27 Oct, 2026"
+    },
+    "support_info": {
+      "url": "https://support.fantasygrounds.com/",
+      "email": "support@fantasygrounds.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5442480",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5442480",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5443100": {
+    "type": "game",
+    "name": "Redline County",
+    "steam_appid": 5443100,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Redline County is a driving sim built on its own soft-body physics. Every tyre, spring and bushing is simulated, so a clipped kerb can bend a tie rod. Start in the Volta Hatch on the test track; the county, the career and more cars arrive in updates.",
+    "supported_languages": "English, Turkish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443100/53de25a2f7342a26d9fc2518911a739751d69a93/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443100/d5da952c9fef5783544186677d44524ee91a6f78/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443100/d5da952c9fef5783544186677d44524ee91a6f78/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "IBRAHIM ARSLAN"
+    ],
+    "publishers": [
+      "BEOWOLF GAMES PRODUCTION"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      18,
+      62
+    ],
+    "genres": [
+      9,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "https://www.beowolfgames.com/",
+      "email": "ibrahim.arslan@beowolfgames.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5443100",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443100/2df6355377afe53b782bf5a660fd01ef2c69159f/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5443320": {
+    "type": "game",
+    "name": "Earl's Court",
+    "steam_appid": 5443320,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Your car broke down on County Road 17. The old man in the farmhouse would like to play a game first. Western trivia, just a quick one. Answer well and you get your phone call. Answer badly and Earl decides.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443320/b784dd6c9385850ef00dc95c89c3f77f53675cc9/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443320/03446d6c17236ba269760488318afa6b2c145418/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443320/03446d6c17236ba269760488318afa6b2c145418/capsule_184x69.jpg",
+    "website": "https://ehverse.com/earls-court/",
+    "developers": [
+      "Echelon Create LLC"
+    ],
+    "publishers": [
+      "Echelon Create"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      28,
+      62
+    ],
+    "genres": [
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "13 Nov, 2026"
+    },
+    "support_info": {
+      "url": "https://echeloncreate.com",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5443320",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443320/090bb7559bddf911ba780e816733d4ba21430b37/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "A psychological horror story told through a trivia game. The player is held at a remote farmhouse by an old man and must win to leave. A gallows is seen from a distance if the player loses; the threat of death is implied, never shown. A person goes missing."
+    }
+  },
+  "5443380": {
+    "type": "game",
+    "name": "Farm Island",
+    "steam_appid": 5443380,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Turn a tiny patch of land into a living island farm. Grow 20 crops, give residents a home, and let them help with harvesting and watering. Make flour, bread and preserves, fulfil deliveries, and shape your island through four changing seasons.",
+    "supported_languages": "English, German, Simplified Chinese, Portuguese - Portugal, Russian, Japanese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443380/1045c71b6c41bd0f7bf49ab075aa92a6da941c03/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443380/66d45f01c4bb39c561bd9b998defe53201fe2483/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443380/66d45f01c4bb39c561bd9b998defe53201fe2483/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "wunkus"
+    ],
+    "publishers": [
+      "wunkus"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      22,
+      23,
+      62,
+      68,
+      69,
+      74,
+      79,
+      80
+    ],
+    "genres": [
+      2,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q1 2027"
+    },
+    "support_info": {
+      "url": "https://wunkus.online/",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5443380",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5443380",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5444520": {
+    "type": "game",
+    "name": "Lutrin",
+    "steam_appid": 5444520,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Lutrin is a workshop for writing gamebooks: each passage on an open double page, a map of every choice, dice, inventory and character sheet, then the finished book as a website, a single file or a Windows application.",
+    "supported_languages": "English, French",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5444520/f6362c20d10a15d2875c45c67643c9cc43d14c82/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5444520/df10f6babbf85b3034c82c28d9d8ea0cce8bc6fa/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5444520/df10f6babbf85b3034c82c28d9d8ea0cce8bc6fa/capsule_184x69.jpg",
+    "website": "https://lutrin.unidus-consulting.com",
+    "developers": [
+      "Unidus Studio"
+    ],
+    "publishers": [
+      "Unidus Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "genres": [
+      60
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "10 Nov, 2026"
+    },
+    "support_info": {
+      "url": "https://lutrin.unidus-consulting.com",
+      "email": "lutrin@unidus-consulting.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5444520",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5444520",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5444560": {
+    "type": "game",
+    "name": "\u30da\u30f3\u30ae\u30f3\u305f\u3061\u306f\u6c17\u3065\u304b\u306a\u3044",
+    "steam_appid": 5444560,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Reshape the Penguin Nation from the shadows. If they notice, you lose.",
+    "supported_languages": "Japanese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5444560/3979e6108d96aee855b1344e470007e955ef54bf/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5444560/98a7159bfddecb174a5db9067c7a994b096b5649/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5444560/98a7159bfddecb174a5db9067c7a994b096b5649/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "aomaru works"
+    ],
+    "publishers": [
+      "aomaru works"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      2,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "monyomonyo0117@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5444560",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5444560/c56e611269b0b4f4fb9952e5e04c09707cc58fcd/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

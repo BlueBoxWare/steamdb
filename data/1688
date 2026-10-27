@@ -1750,6 +1750,9 @@
     "steam_appid": 5066540,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5096280
+    ],
     "short_description": "Law Firm Simulator is a business management sandbox where you build and run your own legal empire. Hire lawyers, take on clients, manage complex cases, expand your offices, and grow a small practice into the city\u2019s most prestigious law firm.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066540/e49a78de51ba22507c93cb53fe464813a126f9e2/header.jpg",
@@ -1761,6 +1764,12 @@
     ],
     "publishers": [
       "dizzy"
+    ],
+    "demos": [
+      {
+        "appid": 5096280,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -1778,7 +1787,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q4 2026"
+      "date": "9 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -3856,7 +3865,10 @@
     "name": "Lord of the Tiles",
     "steam_appid": 5064870,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
+    "dlc": [
+      5312940
+    ],
     "short_description": "Gradually uncover the world, discover new cities, connect them with roads, and turn a humble settlement into a prosperous kingdom. Develop your economy, unlock new mechanics, and explore the map at your own pace \u2014 with no combat and no unnecessary stress.",
     "supported_languages": "English, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064870/3f0ab69a7162bb2a538b194913c601ad0fe459cc/header.jpg",
@@ -3869,7 +3881,25 @@
     "publishers": [
       "Funzen Foundation"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5312940,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1755523
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Lord of the Tiles",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -3889,12 +3919,14 @@
       2,
       4,
       23,
-      28,
-      37
+      28
     ],
+    "achievements": {
+      "total": 15
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2026"
+      "coming_soon": false,
+      "date": "26 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -6191,7 +6223,8 @@
     ],
     "genres": [
       1,
-      23
+      23,
+      70
     ],
     "release_date": {
       "coming_soon": true,

@@ -7809,9 +7809,6 @@
     "steam_appid": 4356780,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5124200
-    ],
     "short_description": "Screen Stocks is an online multiplayer trading game featuring a real-time simulated market. Buy, short, and sell stocks to gain unprecedented levels of wealth. Team up with other traders or outsmart them all. It's time to make some money!",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356780/11a372aceb4c330437ed9d8813555cc285f03a34/header.jpg",
@@ -7824,16 +7821,22 @@
     "publishers": [
       "Oro Interactive"
     ],
-    "demos": [
+    "packages": [
+      1522600
+    ],
+    "package_groups": [
       {
-        "appid": 5124200,
-        "description": ""
+        "name": "default",
+        "title": "Buy Screen Stocks",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -7852,8 +7855,11 @@
       2,
       28
     ],
+    "achievements": {
+      "total": 154
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "27 Oct, 2026"
     },
     "support_info": {
