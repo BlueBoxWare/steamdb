@@ -339,6 +339,8 @@
       1,
       15,
       23,
+      36,
+      49,
       62,
       68,
       74
@@ -604,9 +606,9 @@
     ],
     "short_description": "A roguelike deckbuilder where every card is a Chinese chess move: the horse leaps, the cannon fires over a screen, the pawn crosses the river and never turns back. Every enemy strike marks its target square first. Step aside and it misses. Breach the Eight Gates. Play, or be taken.",
     "supported_languages": "English, Simplified Chinese, French, German, Spanish - Spain, Russian, Japanese, Traditional Chinese, Portuguese - Brazil, Korean",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4981020/5cbd1d36fe8edb5920c355dc2902ecc42c4c956c/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4981020/870c91fdf4992efbcab11b678398df974e9a3273/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4981020/870c91fdf4992efbcab11b678398df974e9a3273/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4981020/93aefd1fd30263d80c5cffb16ddcd74aa22297da/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4981020/25eed462e3fd4e664f423f3255d99b7104533590/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4981020/25eed462e3fd4e664f423f3255d99b7104533590/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "AgentGameLab"
@@ -648,7 +650,7 @@
       "email": "support@agentgamelab.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4981020",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4981020/c0fae1adcba18c9f7141747ce507d9861e5b6d27/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4981020/e3fb0a9eeb4f760fa6c368aa2786cd440ed5fc75/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -1151,6 +1153,9 @@
     "steam_appid": 4980810,
     "required_age": 0,
     "is_free": true,
+    "dlc": [
+      5342380
+    ],
     "short_description": "Team up as tiny caterpillars in an online co-op escape adventure for up to 8 players. Rescue fallen friends, overcome treacherous paths, and clear each stage by getting at least one teammate across the finish line. Build and share your own challenges through the Steam Workshop.",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Italian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4980810/07bebcf556f16878169cdea4d67b82828131ceb3/header.jpg",
@@ -3509,6 +3514,9 @@
     "steam_appid": 4980110,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4980740
+    ],
     "short_description": "Cyber Volleyball is a side-scrolling 2D volleyball game with realistic physics and character progression. Players serve, spike, block and dig under strict three-hit rules. It features over a dozen characters with unique AI skills, adventure mode, online multiplayer, and nine upgradeable attributes.",
     "supported_languages": "English, Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4980110/0a1735bd4871b0270a47fa0f54f4d4b35c6599d5/header.jpg",
@@ -3521,11 +3529,29 @@
     "publishers": [
       "Tieyazida"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 4980740,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1727956
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Cyber Volleyball",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": true
+      "linux": false
     },
     "categories": [
       1,
@@ -3553,8 +3579,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "27 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -4800,7 +4826,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1728728
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy SummonFall",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4816,9 +4854,12 @@
       23,
       70
     ],
+    "achievements": {
+      "total": 50
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "28 Oct, 2026"
     },
     "support_info": {
       "url": "https://discord.gg/NKrAQPDyKY",

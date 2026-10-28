@@ -268,7 +268,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Play pool and snooker against AI opponents in a single-player career. Enter events, earn your tour card and work towards the world championships. Control your shots with a mouse, use spin to position the cue ball, and practice between tournaments.",
+    "short_description": "Cue Career is a single-player pool and snooker simulator with mouse-controlled cueing, spin and positional play. Practise with drills, compete against CPU opponents and build your career through tournaments and rankings. Optional aiming guides help you learn the table.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5305320/caf4ce1c22086d5ec50035fb85f0ee1ecb7fe979/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5305320/6d723ee7ac93e26c401fcfc4391039800fc7342a/capsule_231x87.jpg",
@@ -4669,7 +4669,7 @@
     "name": "Drawmaha",
     "steam_appid": 5305760,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
     "short_description": "Private-table draw poker for short, sharp sessions. Invite friends or seat AI. Drawmaha plays out every draw; Stack Rush locks the pot after the flop and raises the pressure. Two boards, fast hands, clubs that keep your regular table intact.",
     "supported_languages": "English, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5305760/3d9b9f57351734d5ad4913f2eb651341c59d30a2/header.jpg",
@@ -4692,16 +4692,20 @@
     "categories": [
       1,
       2,
+      35,
+      36,
+      49,
       62
     ],
     "genres": [
       2,
       4,
-      23
+      23,
+      37
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q4 2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -4732,7 +4736,19 @@
     "publishers": [
       "\uc54c\uacbd\uc774"
     ],
-    "package_groups": [],
+    "packages": [
+      1834102
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy IcePath",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4747,9 +4763,12 @@
     "genres": [
       23
     ],
+    "achievements": {
+      "total": 20
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "2026"
+      "coming_soon": false,
+      "date": "27 Oct, 2026"
     },
     "support_info": {
       "url": "",

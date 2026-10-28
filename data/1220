@@ -12852,7 +12852,7 @@
     "name": "Warlocks Nexus",
     "steam_appid": 3662680,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
     "dlc": [
       4877150
     ],
@@ -12900,6 +12900,7 @@
       4,
       23,
       25,
+      37,
       70
     ],
     "release_date": {
@@ -13921,7 +13922,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1290103
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Biocybernetic Trap",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13936,9 +13949,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 11
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "27 Oct, 2026"
     },
     "support_info": {
       "url": "",
