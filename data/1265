@@ -13362,6 +13362,11 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      5435370,
+      5435380,
+      5443340
+    ],
     "short_description": "In this single-player narrative roguelite, govern a cursed island as you investigate your niece\u2019s mysterious disappearance. Interrogate, trade, upgrade, and embark upon card-based expeditions to uncover dark secrets \u2013 before the next cataclysm strikes.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796150/4704d826ca663092c2f9b71e2ca77f04a779399d/header.jpg",
@@ -13380,7 +13385,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1335266
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Curse of Resthaven",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -13399,8 +13416,11 @@
       3,
       25
     ],
+    "achievements": {
+      "total": 41
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "29 Oct, 2026"
     },
     "support_info": {
