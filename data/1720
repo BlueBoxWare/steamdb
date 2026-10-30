@@ -262,7 +262,6 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5160800/3dec380fa3c66a40ffc1d36be2ac518cf9dcda05/capsule_184x69.jpg",
     "website": "https://needlessgames.com/",
     "developers": [
-      "FindTheNeedleDev",
       "Needless Games"
     ],
     "publishers": [
@@ -4543,7 +4542,19 @@
     "publishers": [
       "Walus Game Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1787019
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy TRENCHWORMS",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4572,8 +4583,11 @@
       1,
       23
     ],
+    "achievements": {
+      "total": 20
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "30 Oct, 2026"
     },
     "support_info": {
@@ -5675,7 +5689,6 @@
     "steam_appid": 5162240,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "A chaotic multiplayer football game where you steal goalposts, cast spells with your voice, and occasionally get into a fight with Mr. Penwings (the referee).",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5162240/e41165ae89cd8abd13b11f26b13b0e84a75032c4/header.jpg",
@@ -5696,9 +5709,9 @@
     },
     "categories": [
       1,
-      9,
-      28,
-      38,
+      18,
+      36,
+      49,
       55,
       56,
       57,

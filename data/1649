@@ -455,7 +455,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "From the creators of OurLife and OurCoven, OurClicker is a brand new clicker game that puts you in charge of an up-and-coming Game Development Studio where all you do is... CLICK!",
-    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic<strong>*</strong>, Czech<strong>*</strong>, Dutch<strong>*</strong>, Greek<strong>*</strong>, Hungarian<strong>*</strong>, Indonesian<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Malay<strong>*</strong>, Norwegian<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Romanian<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Swedish<strong>*</strong>, Traditional Chinese<strong>*</strong>, Turkish<strong>*</strong>, Ukrainian<strong>*</strong>, Tamil<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic<strong>*</strong>, Dutch<strong>*</strong>, Greek<strong>*</strong>, Hungarian<strong>*</strong>, Indonesian<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Malay<strong>*</strong>, Norwegian<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Romanian<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Swedish<strong>*</strong>, Traditional Chinese<strong>*</strong>, Turkish<strong>*</strong>, Ukrainian<strong>*</strong>, Tamil<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4949030/b05e9cff6bb3107f1dba1c0ba089fa53d61efdc3/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4949030/1a6b32dc5e2a8b8953e91b11b3dae0254eff0d31/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4949030/1a6b32dc5e2a8b8953e91b11b3dae0254eff0d31/capsule_184x69.jpg",
@@ -1480,6 +1480,9 @@
     "steam_appid": 4949260,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4989490
+    ],
     "short_description": "Get ready for an adventure where you travel across lands to protect caravans. Assemble your team as the leader of the Hunters' Guild. Your party and tower compositions and your boost decisions will determine the destiny of Silk Road.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4949260/8745574ab2018350bebc4d432c71c44bded2c808/header.jpg",
@@ -1492,7 +1495,25 @@
     "publishers": [
       "Meketa"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 4989490,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1717648
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Silk Road Defenders",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1510,8 +1531,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "29 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -4533,7 +4554,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q1 2027"
+      "date": "2027"
     },
     "support_info": {
       "url": "https://pelicanogames.com.br/help",
@@ -4663,7 +4684,7 @@
       4982350
     ],
     "short_description": "A charming pixel cat lives right on your desktop: wandering across your windows, eating, sleeping, and playing. Care for your cat, dress them up, and watch their own personality and habits emerge.",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Korean, Russian, Turkish, Ukrainian, Japanese",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Korean, Russian, Turkish, Ukrainian, Japanese, Bulgarian, Hungarian, Vietnamese, Greek, Danish, Indonesian, Spanish - Latin America, Traditional Chinese, Malay, Dutch, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Thai, Finnish, Czech, Swedish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4948250/c0c105a06925b7e88767577b7f979da81ffa47fc/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4948250/29dbe2e3d6f0fa84339301dfccd3ac1bbcd6548e/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4948250/29dbe2e3d6f0fa84339301dfccd3ac1bbcd6548e/capsule_184x69.jpg",
@@ -6089,7 +6110,6 @@
       74
     ],
     "genres": [
-      1,
       23,
       25
     ],
@@ -6550,7 +6570,19 @@
     "publishers": [
       "NUMB3lab"
     ],
-    "package_groups": [],
+    "packages": [
+      1716897
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy RELOADED",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6565,9 +6597,12 @@
     "genres": [
       23
     ],
+    "achievements": {
+      "total": 20
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "29 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -8190,7 +8225,7 @@
     "required_age": 0,
     "is_free": true,
     "short_description": "Idle Minertia is an idle mining game where you dig through caves automatically. Combine mining tools and Enchants to go ever deeper. Build strategic synergies or steadily collect permanent rewards. Beyond that, 10+ kinds of content await. A relaxing idle experience, every day.",
-    "supported_languages": "English, French, Italian, German, Arabic, Indonesian, Spanish - Latin America, Portuguese - Portugal, Russian, Simplified Chinese, Traditional Chinese, Japanese, Korean",
+    "supported_languages": "English, French, Italian, German, Arabic, Indonesian, Russian, Simplified Chinese, Traditional Chinese, Japanese, Korean, Spanish - Spain, Portuguese - Brazil",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4947000/8552f2b06d331518b23ea4e61963d6b833de1968/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4947000/53c10c76de90a759650d571a3784e61d7e499108/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4947000/53c10c76de90a759650d571a3784e61d7e499108/capsule_184x69.jpg",
@@ -8208,12 +8243,9 @@
       "linux": false
     },
     "categories": [
-      1,
       2,
-      9,
       22,
       35,
-      38,
       62,
       74,
       76,
@@ -8226,7 +8258,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "October 2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -8493,6 +8525,57 @@
         5
       ],
       "notes": "This game features depictions of Hell, Purgatory and Heaven, including structures made of bones and human remains. Screams of the damned can be heard in the background. "
+    }
+  },
+  "4948100": {
+    "type": "game",
+    "name": "INFAZ",
+    "steam_appid": 4948100,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "Fight your way through tense tactical firefights. Plant or defuse the bomb, take on the opposing team, or test your aim in solo matches. Use your weapons, grenades, sound awareness, and the minimap to gain the advantage",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Russian, Turkish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4948100/ebbf4e794102577d3c8171af9df22de32589df6c/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4948100/ea0b68191b236930d30e209b09b009913fc0d2a2/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4948100/ea0b68191b236930d30e209b09b009913fc0d2a2/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "mttsus"
+    ],
+    "publishers": [
+      "mttsus"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      9,
+      36,
+      38,
+      49,
+      62
+    ],
+    "genres": [
+      1,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q1 2027"
+    },
+    "support_info": {
+      "url": "https://mttsus.dev/",
+      "email": "help@mttsus.dev"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4948100",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4948100/0c5fdbc4173e7e0bb38e0f6c3777ba54e88c0afa/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }

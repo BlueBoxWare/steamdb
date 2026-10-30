@@ -1302,7 +1302,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "A cozy co-op adventure where you play a Soul, a small glossy slime. Explore a hand-painted world with up to four friends, dash and wall-jump through sky temples, mix fruit powerups at the alchemy table, and win over the villagers who live there.",
+    "short_description": "A cozy co-op adventure: play a Soul on the island of Elyndor. Squeeze fruit into powers at the juice press, get to know twenty souls with lives of their own, and sail off with Drip to take down whatever threatens the island. Online co-op for up to five.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087380/9424cb2625a148dfb0bf0e267e4d347eb8864e66/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087380/059663b0fb2709d2ea74a98fb58aba9e374ba648/capsule_231x87.jpg",
@@ -1318,7 +1318,7 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       1,
@@ -1425,9 +1425,6 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "dlc": [
-      5220690
-    ],
     "short_description": "Calibration Sequence is a bullet hell game where you play as a nanobot undergoing its factory calibration.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085050/2fe67b68fc03905acb39db0a9cfe82eec849cf1e/header.jpg",
@@ -1439,12 +1436,6 @@
     ],
     "publishers": [
       "Lasse Malmberg"
-    ],
-    "demos": [
-      {
-        "appid": 5220690,
-        "description": ""
-      }
     ],
     "package_groups": [],
     "platforms": {
@@ -1850,8 +1841,8 @@
     "short_description": "You are a grumpy rabbit restoring a game world. Clean up trash, wipe away dirt with a rag, recycle junk into pieces of the world, and activate mechanisms. And after the boss fight, don\u2019t forget to clean up the unlucky heroes.",
     "supported_languages": "English, French, Italian, German, Arabic, Spanish - Latin America, Simplified Chinese, Polish, Russian, Thai",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087650/8dd547952c4913057664cb123d6f6dd5d1efb0de/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087650/b33662cda8e5847c5d6fea664be8e304566d0976/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087650/b33662cda8e5847c5d6fea664be8e304566d0976/capsule_184x69.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087650/dfffc86f2898d6381587fc68b75581da9aabf781/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087650/dfffc86f2898d6381587fc68b75581da9aabf781/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Semenova Alena"
@@ -4527,7 +4518,19 @@
     "publishers": [
       "MoriSoft"
     ],
-    "package_groups": [],
+    "packages": [
+      1762590
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy BACK TOGETHER",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4556,8 +4559,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 6
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "29 Oct, 2026"
     },
     "support_info": {

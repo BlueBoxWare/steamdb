@@ -3506,7 +3506,8 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
-      4900560
+      4900560,
+      5294380
     ],
     "short_description": "A Showa-era school, a radio room at night. In a building where you are not alone, you repeat broadcasts. Strange responses return. Records change, unknown logs grow. Reality begins to erode, and the story twists through your choices. Ten endings await.",
     "supported_languages": "English, French, German, Spanish - Spain, Thai, Turkish, Vietnamese, Portuguese - Brazil, Polish, Russian, Simplified Chinese, Japanese<strong>*</strong>, Korean, Indonesian, Traditional Chinese<br><strong>*</strong>languages with full audio support",
@@ -3530,7 +3531,7 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": true
+      "linux": false
     },
     "categories": [
       2,
@@ -3539,6 +3540,7 @@
       74,
       75,
       76,
+      79,
       80
     ],
     "genres": [
@@ -4855,7 +4857,7 @@
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4611710/9fec2fcaf2597898e111c338de666be7539e34a1/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4611710/9fec2fcaf2597898e111c338de666be7539e34a1/capsule_184x69.jpg",
     "website": "https://artisanideas.co.nz/DSARTS_info/",
-    "ext_user_account_notice": "Firebase Authentication ",
+    "ext_user_account_notice": "Firebase Authentication for multi-platform play (Supports Linking to Steam Account)",
     "developers": [
       "Artisan Ideas Ltd"
     ],
@@ -7312,11 +7314,10 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
-      5137720,
-      5237620
+      5137720
     ],
     "short_description": "Team up in 1\u20134 player co-op, hop on your bikes, and ride into a supernatural forest in search of BIGFOOT. Follow strange clues, survive ghostly encounters, solve co-op puzzles, and try to make it back before your crew becomes another forest legend.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Simplified Chinese<strong>*</strong>, Japanese<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong>, Turkish<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Korean<strong>*</strong>, Portuguese - Portugal<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4613790/a2b78c4dd7ab741610962c196cf6d84b53ef9031/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4613790/d61da80264f7b913e76bfa861a257d7f8b2904fa/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4613790/d61da80264f7b913e76bfa861a257d7f8b2904fa/capsule_184x69.jpg",
@@ -7327,13 +7328,19 @@
     "publishers": [
       "SolidGames"
     ],
-    "demos": [
+    "packages": [
+      1607486
+    ],
+    "package_groups": [
       {
-        "appid": 5237620,
-        "description": ""
+        "name": "default",
+        "title": "Buy Spooky Ride",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7351,8 +7358,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 29
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "29 Oct, 2026"
     },
     "support_info": {

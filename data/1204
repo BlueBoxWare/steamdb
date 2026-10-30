@@ -5683,7 +5683,7 @@
     "steam_appid": 3613550,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A chess-based strategy game with casual deckbuilding elements. Build your deck by trading cards and battling lovable, hand-drawn characters.",
+    "short_description": "An adventure game with chess-themed deckbuilding battles. Build your strategy by trading cards and battling lovable, hand-drawn characters.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3613550/72047f2962254ef385b6f19950b66a6a778d0e75/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3613550/b67ac8b28be7f20396c522d5d564906a8fa174f6/capsule_231x87.jpg",
@@ -5701,7 +5701,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1274191
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Checkmage!",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5719,8 +5731,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 19
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "29 Oct, 2026"
     },
     "support_info": {

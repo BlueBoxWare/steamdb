@@ -129,6 +129,7 @@
     "steam_appid": 5343970,
     "required_age": 0,
     "is_free": true,
+    "controller_support": "full",
     "short_description": "A roguelike pinball deckbuilder. Beat each stage's target score before you run out of balls. Between stages, buy passives and upgrades in the shop to build your deck. Choose from 10 flippers, clear 12 stages, then see how far your build can go in Endless Mode.",
     "supported_languages": "English, Korean, French, German, Japanese, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5343970/fa6ff534b0f396b4114066e744485d9cfa6a30f9/header.jpg",
@@ -136,10 +137,10 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5343970/960c4f1259ac4f443a44324316b7a63ea0483838/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "Drypoint"
+      "ChipMighty Games"
     ],
     "publishers": [
-      "Drypoint"
+      "ChipMighty Games"
     ],
     "package_groups": [],
     "platforms": {
@@ -151,6 +152,7 @@
       2,
       22,
       23,
+      28,
       62,
       68,
       74,
@@ -171,7 +173,7 @@
     },
     "support_info": {
       "url": "",
-      "email": "21qqq4@gmail.com"
+      "email": "drypoint26@gmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5343970",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5343970/f1b6fcbcf74f316772351f57b6119c01d1e707d6/page_bg_raw.jpg",
@@ -429,7 +431,7 @@
     "dlc": [
       5344190
     ],
-    "short_description": "Play online with friends and verify the dice rolls! CityRoll is a multiplayer property board game set in eight miniature 3D cities. Buy land, collect rent and play action cards. After purchase, friend rooms need no extra fee or entry chips. View and verify dice rolls and completed match records.",
+    "short_description": "Play online with friends and verify the dice rolls! CityRoll is a multiplayer property board game set in eight miniature 3D cities. Buy land, collect rent and play action cards. Claim free chips every day to join friend rooms or public matches. View and verify dice rolls and match records.",
     "supported_languages": "English, French, German, Spanish - Spain, Turkish, Polish, Simplified Chinese, Traditional Chinese, Portuguese - Brazil",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5344170/2937385f40f3df2d190fdd6370b7c1a266be34ac/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5344170/df4b5cc1ebc4e7453e1402eef10b0b6b5440d6c6/capsule_231x87.jpg",
@@ -878,7 +880,19 @@
     "publishers": [
       "teaneu"
     ],
-    "package_groups": [],
+    "packages": [
+      1846879
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy UNDER BomB",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -901,8 +915,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "October 2026"
+      "coming_soon": false,
+      "date": "29 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -1153,7 +1167,7 @@
     "dlc": [
       5345540
     ],
-    "short_description": "A quiet home for thoughtful games, illustrated books, and your own memories. Enjoy seven games, from Jigsaw and Mahjong to turn-based strategy, discover collectibles, and keep a personal journal amid music, rain, and the warmth of a fireplace.",
+    "short_description": "A cozy home with seven games, from illustrated jigsaws and Mahjong to turn-based strategy. Discover books and collectibles, decorate a personal journal, and change the weather outside. One more piece. One more page. An evening of your own. Play the free demo.",
     "supported_languages": "English, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5345370/b53d489f75a0214c04435f7bfba02bc0ce583c8f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5345370/deb1343b73b92bbbc181c9318405b780861cbbcf/capsule_231x87.jpg",
@@ -2184,7 +2198,7 @@
     "controller_support": "full",
     "short_description": "This ever-changing world is not for the faint of heart. Craft weapons and armor, master a variety of abilities, and combine them. Only by using everything at your disposal wisely will you achieve victory and uncover the secrets behind these changes.",
     "supported_languages": "English, Spanish - Spain, Simplified Chinese, Russian, Hindi, French",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5345580/83bbe1fc452bfc560a341da8ee3eb397d64f5cf7/header.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5345580/6e2f867d0a7ab780a623f68cb33ff7e2d916cc04/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5345580/9b3d77bb55c0b492b8c75b6ff1adbe847c2c03b4/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5345580/9b3d77bb55c0b492b8c75b6ff1adbe847c2c03b4/capsule_184x69.jpg",
     "website": null,
@@ -2193,6 +2207,12 @@
     ],
     "publishers": [
       "QstoFlow"
+    ],
+    "demos": [
+      {
+        "appid": 5479200,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2579,6 +2599,7 @@
     "categories": [
       2,
       22,
+      23,
       62,
       67,
       68,
@@ -4442,7 +4463,19 @@
     "publishers": [
       "Dimension Monkey"
     ],
-    "package_groups": [],
+    "packages": [
+      1846085
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Screen Monster",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4460,8 +4493,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "29 Oct, 2026"
+      "coming_soon": false,
+      "date": "30 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -4498,7 +4531,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1846352
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy blockia",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4517,8 +4562,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 30
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "30 Oct, 2026"
     },
     "support_info": {
@@ -6291,6 +6339,109 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "5344570": {
+    "type": "game",
+    "name": "Red Sol",
+    "steam_appid": 5344570,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Build and defend a colony on an alien world. Connect production lines, keep life support running and grow thriving districts. Explore 10 biomes, research advanced technology and command your defences as the search for resources brings new threats to your doorstep.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5344570/45dcbf7bc8fe09f7560dc7776403aaf16ca4b742/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5344570/6d92bc727f6db4b146f144e0a3dac59f15b17f6c/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5344570/6d92bc727f6db4b146f144e0a3dac59f15b17f6c/capsule_184x69.jpg",
+    "website": "https://forgedflow.com.au/red-sol/",
+    "developers": [
+      "Forged Flow"
+    ],
+    "publishers": [
+      "Forged Flow"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      17,
+      22,
+      30,
+      62
+    ],
+    "genres": [
+      2,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "December 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "hello@forgedflow.com.au"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5344570",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5344570",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5344790": {
+    "type": "game",
+    "name": "SUNK COST",
+    "steam_appid": 5344790,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A co-op horror game for up to 6 players about ships that went missing in the Bermuda Triangle. Board them with your friends, carry out everything worth money, and pay the people who let you in before they decide you know too much.",
+    "supported_languages": "English<strong>*</strong>, Russian<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5344790/9c1b1501020ea305a60b5d52e0b5a5ab23c1e128/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5344790/7b3f7c14af4f04c5b2f49b9ea3e9cff1c3752899/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5344790/7b3f7c14af4f04c5b2f49b9ea3e9cff1c3752899/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "SliceMindGames"
+    ],
+    "publishers": [
+      "SliceMindGames"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      38,
+      62
+    ],
+    "genres": [
+      1,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q1 2027"
+    },
+    "support_info": {
+      "url": "",
+      "email": "slicemindgames@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5344790",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5344790",
+    "content_descriptors": {
+      "ids": [
+        5
+      ],
+      "notes": "The game contains stylized violence and horror themes. Monsters hunt the players, and player characters can die in several ways: impaled on a pirate's hook with some blood, grabbed by a creature, drowned, or crushed by heavy furniture like a sliding piano. There is no gore or dismemberment. Expect jump scares, dark spaces and tense chases."
     }
   }
 }
