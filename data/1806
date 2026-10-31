@@ -103,7 +103,7 @@
     "steam_appid": 5419580,
     "required_age": 0,
     "is_free": false,
-    "short_description": "\u300a\u8f89\u70ec\uff1a\u5357\u661f\u300b\u662f\u4e00\u6b3e\u4e8c\u6b21\u51433D\u52a8\u4f5c\u7c7bARPG\u3002\u201c\u7ec8\u7109\u4e4b\u5e55\uff0c\u4ea6\u662f\u9ece\u660e\u4e4b\u6b4c\u201d\u3002\u73a9\u5bb6\u4e0e\u4e8c\u6b21\u5143\u70ec\u5929\u4f7f\u4eec\u7f14\u7ed3\u5951\u7ea6\uff0c\u5171\u540c\u6218\u6597\uff01\u4e3a\u73a9\u5bb6\u5e26\u6765\u6781\u5177\u6c89\u6d78\u611f\u7684\u5171\u6597\u4f53\u9a8c\u3002\u9762\u5bf9\u79cd\u7c7b\u7e41\u591a\u7684\u5f3a\u5927\u654c\u4eba\u2014\u2014\u4ece\u4f4e\u6d53\u5ea6\u8f89\u70ec\u4e2d\u626d\u66f2\u53d8\u5f02\u7684\u91ce\u517d\uff0c\u5230\u9ad8\u6d53\u5ea6\u8f89\u70ec\u4e0b\u8bde\u751f\u7684\u5de8\u578b\u602a\u7269\u2014\u2014\u6bcf\u4e00\u573a\u6218\u6597\u90fd\u662f\u5168\u65b0\u7684\u6311\u6218\uff0c\u9700\u8981\u4f60\u7cbe\u51c6\u64cd\u4f5c\u3001\u7075\u6d3b\u8d70\u4f4d\uff0c\u5e76\u6293\u4f4f\u654c\u4eba\u7684\u7834\u7efd\u4e00\u51fb\u5236\u80dc\uff01",
+    "short_description": "\u8fd9\u662f\u4e00\u6b3e\u4e8c\u6b21\u51433D\u52a8\u4f5c\u7c7bARPG\u3002\u201c\u7ec8\u7109\u4e4b\u5e55\uff0c\u4ea6\u662f\u9ece\u660e\u4e4b\u6b4c\u201d\u3002\u73a9\u5bb6\u4e0e\u4e8c\u6b21\u5143\u70ec\u5929\u4f7f\u4eec\u7f14\u7ed3\u5951\u7ea6\uff0c\u5171\u540c\u6218\u6597\uff01\u4e3a\u73a9\u5bb6\u5e26\u6765\u6781\u5177\u6c89\u6d78\u611f\u7684\u5171\u6597\u4f53\u9a8c\u3002\u9762\u5bf9\u79cd\u7c7b\u7e41\u591a\u7684\u5f3a\u5927\u654c\u4eba\u2014\u2014\u4ece\u4f4e\u6d53\u5ea6\u8f89\u70ec\u4e2d\u626d\u66f2\u53d8\u5f02\u7684\u91ce\u517d\uff0c\u5230\u9ad8\u6d53\u5ea6\u8f89\u70ec\u4e0b\u8bde\u751f\u7684\u5de8\u578b\u602a\u7269\u2014\u2014\u6bcf\u4e00\u573a\u6218\u6597\u90fd\u662f\u5168\u65b0\u7684\u6311\u6218\uff0c\u9700\u8981\u4f60\u7cbe\u51c6\u64cd\u4f5c\u3001\u7075\u6d3b\u8d70\u4f4d\uff0c\u5e76\u6293\u4f4f\u654c\u4eba\u7684\u7834\u7efd\u4e00\u51fb\u5236\u80dc\uff01",
     "supported_languages": "Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5419580/fba8e177ba94be17322cf912dcf630bdbd8c89bc/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5419580/93cdb499b9501f87ff5c42fded9cb0efcc79954f/capsule_231x87.jpg",
@@ -143,9 +143,10 @@
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5419580/8286c698abcdae20afff80f7c7d07c27c75eeac9/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [
+        1,
         5
       ],
-      "notes": null
+      "notes": "\u6e38\u620f\u5305\u542b\u5361\u901a\u66b4\u529b\u548c\u8f7b\u5ea6\u88f8\u9732\u7b49\u5e38\u89c1\u6210\u4eba\u5185\u5bb9\u3002"
     }
   },
   "5420150": {
@@ -1187,7 +1188,19 @@
     "publishers": [
       "Talora Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1871245
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy SO-3: Caso 044",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1206,8 +1219,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "30 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -2625,6 +2638,12 @@
     ],
     "publishers": [
       "Day 1 to 100"
+    ],
+    "demos": [
+      {
+        "appid": 5454450,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4706,6 +4725,183 @@
         5
       ],
       "notes": "Optional illustrated nudity and consensual sexual content between adult fantasy characters, plus suggestive dialogue. Stylized fantasy combat is present without realistic gore. Mature scenes can be skipped."
+    }
+  },
+  "5418160": {
+    "type": "dlc",
+    "name": "Ecstatica II - 8K pre-rendered backgrounds",
+    "steam_appid": 5418160,
+    "required_age": 0,
+    "is_free": true,
+    "controller_support": "full",
+    "short_description": "Every background in Ecstatica II, pre-rendered at 8K. The highest image quality, with almost no CPU load.",
+    "fullgame": {
+      "appid": "4834850",
+      "name": "Ecstatica II"
+    },
+    "supported_languages": "English<strong>*</strong>, French, German<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5418160/4f28cc2757ae022c117a74c23b81c803a2dcd22e/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5418160/37a870c7c73917879cf7dab2597244045b86c3b8/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5418160/37a870c7c73917879cf7dab2597244045b86c3b8/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Andrew Spencer Studios"
+    ],
+    "publishers": [
+      "SNEG"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      28,
+      62
+    ],
+    "genres": [
+      1,
+      25,
+      37
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "30 Oct, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support@sneg.io"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5418160",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5418160",
+    "content_descriptors": {
+      "ids": [
+        1,
+        2,
+        5
+      ],
+      "notes": "Ecstatica II is a game developed in 1997. According to official ratings from that time, it contains animated violence, blood, and gore. Might not be appropriate for all audiences."
+    }
+  },
+  "5418170": {
+    "type": "dlc",
+    "name": "Ecstatica II - DOSBOX version",
+    "steam_appid": 5418170,
+    "required_age": 0,
+    "is_free": true,
+    "controller_support": "full",
+    "short_description": "The original 1997 release of Ecstatica II, running in DOSBox. A second way to play, next to the enhanced re-release.",
+    "fullgame": {
+      "appid": "4834850",
+      "name": "Ecstatica II"
+    },
+    "supported_languages": "English<strong>*</strong>, French, Spanish - Spain, Polish<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5418170/aea549e420e20bb9e92fe8af7836ca7139c666e7/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5418170/247764c5455066b8c9a7f85738810eaf7b505f39/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5418170/247764c5455066b8c9a7f85738810eaf7b505f39/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Andrew Spencer Studios"
+    ],
+    "publishers": [
+      "SNEG"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      28,
+      62
+    ],
+    "genres": [
+      1,
+      25,
+      37
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "30 Oct, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "support@sneg.io"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5418170",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5418170",
+    "content_descriptors": {
+      "ids": [
+        1,
+        2,
+        5
+      ],
+      "notes": "Ecstatica II is a game developed in 1997. According to official ratings from that time, it contains animated violence, blood, and gore. Might not be appropriate for all audiences."
+    }
+  },
+  "5418190": {
+    "type": "dlc",
+    "name": "AURA 2: Lust of the Gods - The Locked Panties",
+    "steam_appid": 5418190,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "AURA 2: The Locked Panties is the long-awaited story expansion for the game you love. Travel to El Drakio, take on a quest from Ellaria, and venture into the lost lands of the Amazons. Uncover the secrets of the god of war and fulfill the erotic fantasies of new heroines!",
+    "fullgame": {
+      "appid": "3855940",
+      "name": "AURA 2: Lust of the Gods"
+    },
+    "supported_languages": "English, Russian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5418190/1a69356dc5df304ccc21489fff766a8ee21f83da/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5418190/218b7b49d86b47281755c5bbe299b831d20d234d/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5418190/218b7b49d86b47281755c5bbe299b831d20d234d/capsule_184x69.jpg",
+    "website": "https://lust.so/en/game/aura-2-lust-of-the-gods",
+    "developers": [
+      "TopHouse Studio"
+    ],
+    "publishers": [
+      "TopHouse Publishing"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      62
+    ],
+    "genres": [
+      3,
+      4,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "2027"
+    },
+    "support_info": {
+      "url": "",
+      "email": "publishing.contact@tophouse.fun"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5418190",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5418190",
+    "content_descriptors": {
+      "ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "notes": "All characters in the game are adults. The game contains adult content including nudity and NSFW content.\r\n\r\nThe game contains non-sexual violence (cartoon violence, fights), killing monsters, smoking, minor profanity.\r\n\r\nThe game features nude girls, monster girls, futa character; erotic cards and animated H-scenes. The game contains adult material and scenes of a sexual nature with various fetishes that some viewers may find offensive: handjob, blowjob, cunnilingus, vaginal, anal, non-penetrative sexual acts, creampie, sex toys, BDSM, straponing, lesbian, threesome. All sex in the game is consensual."
     }
   }
 }

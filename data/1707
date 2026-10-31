@@ -456,7 +456,7 @@
     "name": "Alienshire",
     "steam_appid": 5123580,
     "required_age": 0,
-    "is_free": false,
+    "is_free": true,
     "short_description": "Alienshire is a tactical RTS built around short, replayable scenarios. Command your units, manage limited resources, and outsmart the enemy.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5123580/96b31299c3dc594ef2bce73d6b2da6e3edea8c37/header.jpg",
@@ -481,7 +481,8 @@
     ],
     "genres": [
       2,
-      23
+      23,
+      37
     ],
     "release_date": {
       "coming_soon": true,
@@ -2700,6 +2701,9 @@
     "steam_appid": 5121170,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5153720
+    ],
     "short_description": "An idle mining game with a world of exactly 1,006,632,960 blocks. Hire a crew, upgrade, mine, kill bosses and prestige!",
     "supported_languages": "English, French, German, Japanese, Korean, Polish, Portuguese - Portugal, Russian, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5121170/9a0c4f10585934f85938ef49e22553d594e02bfd/header.jpg",
@@ -2712,7 +2716,25 @@
     "publishers": [
       "Vexos Games"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5153720,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1773745
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Mine The Core",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2736,9 +2758,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 10
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "31 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -7440,9 +7465,9 @@
       "name": "FACTORIZE: 1"
     },
     "supported_languages": "English, Japanese, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Simplified Chinese, Traditional Chinese, Korean",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5121240/c55635be506402b872740f3e4b80a2629cab1d56/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5121240/136b09dfcfe01ab1aa5072523f9e45c675014032/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5121240/136b09dfcfe01ab1aa5072523f9e45c675014032/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5121240/b84d4b4aaa96833991d0155561e8c9c0a1407281/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5121240/e33cbb6f0929e7ad62bb17e070008318e0279418/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5121240/e33cbb6f0929e7ad62bb17e070008318e0279418/capsule_184x69.jpg",
     "website": "https://www.fermat-freaks.com/",
     "developers": [
       "Fermat Freaks co., Ltd"
@@ -7450,7 +7475,19 @@
     "publishers": [
       "Fermat Freaks co., Ltd"
     ],
-    "package_groups": [],
+    "packages": [
+      1773768
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy FACTORIZE: 1 - SKIN 03 Cosmetic Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7458,14 +7495,15 @@
     },
     "categories": [
       2,
-      21
+      21,
+      62
     ],
     "genres": [
       2,
       23
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "30 Oct, 2026"
     },
     "support_info": {
@@ -7535,6 +7573,68 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5123990",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5123990/47836fc78c2f646d1e0b2ba55eeceedb4b2f08bc/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5121370": {
+    "type": "game",
+    "name": "DES: Hyperspace Racer",
+    "steam_appid": 5121370,
+    "required_age": 0,
+    "is_free": false,
+    "dlc": [
+      5121380
+    ],
+    "short_description": "A 6DOF space racing game built around pure piloting skill. Race through procedurally generated tracks, master extreme turns, beat your best times, and compete against other pilots in multiplayer.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5121370/aa6533318fc98ee64b82feb91c473972da59d9fa/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5121370/be49040c4ffc6cbe124577ad14b73a731f693a69/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5121370/be49040c4ffc6cbe124577ad14b73a731f693a69/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "KBGS"
+    ],
+    "publishers": [
+      "KBGS"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      18,
+      36,
+      49,
+      55,
+      57,
+      62,
+      68,
+      69,
+      74,
+      78
+    ],
+    "genres": [
+      1,
+      9,
+      18,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "2027"
+    },
+    "support_info": {
+      "url": "",
+      "email": "kbgsgames@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5121370",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5121370/202abdc08790bf2a77a167f25ec688f5e25ffc46/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

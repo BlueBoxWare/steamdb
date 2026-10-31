@@ -1077,6 +1077,12 @@
     "publishers": [
       "Gavin Zastrow"
     ],
+    "demos": [
+      {
+        "appid": 5431060,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -1097,7 +1103,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -1358,7 +1364,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "{INC0M!N6 TR@NSMISS!ON} Nocturne is a short adventure game about a curious creature exploring its roots in a desolate world. You will navigate 3D point-and-click and first person environments, solving puzzles along the way to help the creature unfold this story. {3ND TR@N$M!S%ION}",
+    "short_description": "A strangely familiar signal reaches a lonely satellite station. Follow it through desolate lunar worlds in a short, atmospheric puzzle adventure.",
     "supported_languages": "English<strong>*</strong>, Japanese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212720/9894edb1670155468ead218b2250da02238ed805/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212720/010e529ef43216d42ed26ec0469bee67a46c97b3/capsule_231x87.jpg",
@@ -2810,11 +2816,23 @@
     "publishers": [
       "Studio Spaceman"
     ],
-    "package_groups": [],
+    "packages": [
+      1803210
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Voyager III",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -2827,7 +2845,7 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "31 Oct, 2026"
     },
     "support_info": {

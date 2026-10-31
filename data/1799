@@ -1486,9 +1486,6 @@
     "steam_appid": 5399880,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5399890
-    ],
     "short_description": "Tidy up a chaotic Tokyo manga shop in first-person online co-op for 1\u20134 players! Grab stacks of manga and merch, find the right shelf, toss volumes into place and unlock team skills. Every volume in its place. Together.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Danish, Dutch, Finnish, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Swedish, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5399880/b9af08b384353f867dbc77702909427d0fba2662/header.jpg",
@@ -1501,12 +1498,6 @@
     "publishers": [
       "Smobu"
     ],
-    "demos": [
-      {
-        "appid": 5399890,
-        "description": ""
-      }
-    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -1518,6 +1509,8 @@
       2,
       9,
       18,
+      22,
+      25,
       38,
       55,
       57,
@@ -1530,7 +1523,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "30 Oct, 2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -1804,7 +1797,7 @@
     "platforms": {
       "windows": true,
       "mac": true,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
@@ -1845,7 +1838,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "Gopher It is a cozy first-person job sim about being the newest intern in an office full of animals. When someone calls, you go and do what they want: copies, coffee, the post, a birthday card to pass round. Play solo or with up to three friends. No timers, no game over.",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Turkish",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Turkish, Indonesian, Thai, Traditional Chinese, Ukrainian, Vietnamese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398160/f07a3ae5ced30e7f861dd6803531e56bf2e44746/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398160/de27fc455f5746a38cdbfc3009930d30fb9509a4/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398160/de27fc455f5746a38cdbfc3009930d30fb9509a4/capsule_184x69.jpg",
@@ -2222,6 +2215,12 @@
     "publishers": [
       "UNLOCK X LAB"
     ],
+    "demos": [
+      {
+        "appid": 5501130,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -2234,8 +2233,9 @@
       62
     ],
     "genres": [
-      2,
-      4
+      4,
+      23,
+      25
     ],
     "release_date": {
       "coming_soon": true,
@@ -6454,9 +6454,9 @@
       "name": "Put Your Toys Away Together!"
     },
     "supported_languages": "English, Russian, French, German, Spanish - Spain, Japanese, Portuguese - Brazil, Simplified Chinese, Spanish - Latin America, Italian, Korean, Traditional Chinese, Turkish, Ukrainian",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398660/30a59306d1209c7c0adc7fb43d75b308b36694e2/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398660/f45ac3da23c46ee24956ae5b27fe759944a54379/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398660/f45ac3da23c46ee24956ae5b27fe759944a54379/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398660/2ea4bb3129d20f9e3b2d8f1469d4b487a181f9a5/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398660/55a983bc2e551789dce01776f6d3731fb3f44c84/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398660/55a983bc2e551789dce01776f6d3731fb3f44c84/capsule_184x69.jpg",
     "website": "https://toxicstudio.games/",
     "developers": [
       " Toxic Studio"
@@ -6464,7 +6464,19 @@
     "publishers": [
       "Polden Publishing"
     ],
-    "package_groups": [],
+    "packages": [
+      1864048
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Put Your Toys Away Together - Supporter Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6477,6 +6489,7 @@
       21,
       28,
       38,
+      62,
       67,
       68,
       69,
@@ -6490,7 +6503,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "30 Oct, 2026"
     },
     "support_info": {
@@ -7022,6 +7035,161 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "5398820": {
+    "type": "game",
+    "name": "Operation Gang Bank",
+    "steam_appid": 5398820,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Your father left you a massive debt, and now you have 21 days to rob a bank! Assemble a team of seductive women, plan a daring heist, and win their hearts. An adult crime comedy packed with erotic content, mini-games, romance, and multiple endings.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398820/0fa6d22665a566bac11f6c6cda6bd090e4bf5e21/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398820/301215290c3b5a8ed2c701d349a7676d60a15f03/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398820/301215290c3b5a8ed2c701d349a7676d60a15f03/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Borgata Adult"
+    ],
+    "publishers": [
+      "Borgata Adult"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      4,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q2 2027"
+    },
+    "support_info": {
+      "url": "",
+      "email": "publishing.contact@tophouse.fun"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5398820",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5398820",
+    "content_descriptors": {
+      "ids": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "notes": "All characters in the game are adults. The game contains adult content, including nudity, explicit sexual scenes, gambling, alcohol and tobacco consumption, and some profanity.\n\nThe game features nude female characters and animated H-scenes. It contains sexually explicit material and various fetishes: including blowjob, titjob, cunnilingus, vaginal and anal intercourse, non-penetrative sexual acts, creampie.\nAnd fetishes that some viewers may find offensive or disturbing: BDSM-related activities.\n\nAll sexual activities depicted in the game are consensual and involve adults only."
+    }
+  },
+  "5398830": {
+    "type": "game",
+    "name": "Handsy Man",
+    "steam_appid": 5398830,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Got a handyman job in a house with three roommates? Now you fix leaky faucets, shoot cosplay photos, beat bosses live on stream and read fanfics about yourself. Varied minigames, three romance routes and roommates who need you around the clock.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398830/97cf2a57eff22370864bc3b234a3057ffe2e68a1/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398830/beef0051458d56972932099403a2daa6a4ed490b/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398830/beef0051458d56972932099403a2daa6a4ed490b/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Sugureta"
+    ],
+    "publishers": [
+      "Sugureta"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      4,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q2 2027"
+    },
+    "support_info": {
+      "url": "",
+      "email": "publishing.contact@tophouse.fun"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5398830",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5398830",
+    "content_descriptors": {
+      "ids": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "notes": "All characters in the game are adults. The game contains adult content including nudity and NSFW content. The game contains alcohol consumption, some profanity.\n\nThe game features nude girl and animated H-scenes. The game contains adult material and scenes of a sexual nature with various fetishes: blowjob, titjob, cunnilingus, vaginal, anal, non-penetrative sexual acts, creampie. All sex in the game is consensual."
+    }
+  },
+  "5398980": {
+    "type": "game",
+    "name": "Hitch Happens",
+    "steam_appid": 5398980,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Hitch Happens is a story-driven hitchhiking simulator where every ride turns into a new adventure. Hitch rides, meet quirky drivers, make choices, and get caught up in unpredictable situations.",
+    "supported_languages": "English, French, German, Spanish - Latin America, Simplified Chinese, Portuguese - Portugal, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398980/ee29963f449296e2060eb46019c87e1d1eed4b1c/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398980/89519841bad20f204127d304b3e32004ab620a59/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398980/89519841bad20f204127d304b3e32004ab620a59/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "PopsiHops"
+    ],
+    "publishers": [
+      "WAYONE"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      1,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q2 2027"
+    },
+    "support_info": {
+      "url": "https://discord.gg/zeFrPsg9FG",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5398980",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5398980",
+    "content_descriptors": {
+      "ids": [
+        1,
+        5
+      ],
+      "notes": "Hitch Happens contains mild, non-explicit sexual content and form-fitting outfits, no explicit nudity or sexual content.\nIt features written humor with sexual innuendo.\nCriminal acts are portrayed through robberies, high-speed driving, and murder. The game also includes alcohol and tobacco use and mild profanity."
     }
   }
 }
