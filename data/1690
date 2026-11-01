@@ -5,6 +5,9 @@
     "steam_appid": 5070070,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5124850
+    ],
     "short_description": "\u2015\u2015My curfew is 8 PM. Having a helicopter mom is annoying, but it's not a big deal.",
     "supported_languages": "English, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5070070/c224bc1a97effa7e8b076910309d6a2a3de4e1e0/header.jpg",
@@ -16,6 +19,12 @@
     ],
     "publishers": [
       "atominoko"
+    ],
+    "demos": [
+      {
+        "appid": 5124850,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -1538,6 +1547,7 @@
     "steam_appid": 5070770,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "dlc": [
       5163620
     ],
@@ -1568,6 +1578,7 @@
     "categories": [
       2,
       13,
+      28,
       62,
       64,
       68,
@@ -3823,7 +3834,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1757630
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Punch Rock",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -3846,9 +3869,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 22
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "1 Nov, 2026"
     },
     "support_info": {
       "url": "https://punchrock.lightlyhaunted.com",

@@ -3403,8 +3403,11 @@
     "is_free": false,
     "dlc": [
       4389890,
+      4389900,
       4389910,
-      4389930
+      4389920,
+      4389930,
+      4410110
     ],
     "short_description": "Progression-driven space survival. Launch sorties, survive hazards and escalating enemy waves, and gather stars, fragments, crystals, and rare world resources. Unlock new worlds, build your ship with research, utilities, and weapons, and chase quests, achievements, and cosmetics.",
     "supported_languages": "English",
@@ -3419,7 +3422,19 @@
     "publishers": [
       "Livius Hoffmann"
     ],
-    "package_groups": [],
+    "packages": [
+      1533062
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Hypernova",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3437,8 +3452,8 @@
       1
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "1 Nov, 2026"
     },
     "support_info": {
       "url": "https://docs.hypernova-game.com/",

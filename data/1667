@@ -1297,9 +1297,6 @@
     "steam_appid": 5002400,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5002410
-    ],
     "short_description": "To optimize your &quot;happiness,&quot; an AI assistant named Opti has taken over your PC. Your only ally is an obsolete assistant everyone abandoned twenty years ago. Take your permissions back, one at a time \u2014 armed with his gloriously terrible code.",
     "supported_languages": "English, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5002400/8660d3ca6dfd379c40cac246b7880fe44aed9b5c/header.jpg",
@@ -1311,12 +1308,6 @@
     ],
     "publishers": [
       "MGM LLC"
-    ],
-    "demos": [
-      {
-        "appid": 5002410,
-        "description": ""
-      }
     ],
     "packages": [
       1735155
@@ -6481,7 +6472,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Stellacore: Mining Odyssey blends twin-stick combat with deep resource mining in a fast-paced 2D space shooter. Shatter block-built enemies piece by piece, crack asteroids for precious ores, and forge your loot into powerful ship upgrades!",
-    "supported_languages": "English, Simplified Chinese",
+    "supported_languages": "English, Simplified Chinese, French, German, Spanish - Spain, Russian, Japanese, Polish, Traditional Chinese, Portuguese - Brazil, Spanish - Latin America, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5002040/6f197551aef3866ccc6dcb333d8d1afc84d5c7a4/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5002040/047a1a5e20a4765e360ca61c669ce0428e956f41/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5002040/047a1a5e20a4765e360ca61c669ce0428e956f41/capsule_184x69.jpg",
@@ -6492,7 +6483,19 @@
     "publishers": [
       "Gonga Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1735033
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Stellacore: Mining Odyssey",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6510,9 +6513,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 8
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "September 2026"
+      "coming_soon": false,
+      "date": "31 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -7266,7 +7272,6 @@
     "steam_appid": 5001910,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "A co-op puzzle game for up to 2-6 friends where every level plays by its own rules.",
     "supported_languages": "English<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5001910/ff3345f67b944f632859b58b6cfa801146f89833/header.jpg",
@@ -7288,9 +7293,9 @@
     "categories": [
       1,
       9,
+      18,
       22,
       25,
-      28,
       38,
       55,
       56,
@@ -7304,7 +7309,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "29 Oct, 2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -7893,6 +7898,62 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5001920",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5001920",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5002020": {
+    "type": "game",
+    "name": "I Wanna Be a Supernova",
+    "steam_appid": 5002020,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Devour celestial bodies, grow from red dwarf to supernova, and build your own sky. Forge worlds, choose zodiac relics, and dodge incoming threats. A chill space adventure in pixel art: Normal is relaxed and flowing, Hard is there if you want a challenge.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Bulgarian, Czech, Simplified Chinese, Traditional Chinese, Korean, Danish, Spanish - Latin America, Finnish, Greek, Dutch, Hungarian, Indonesian, Japanese, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Swedish, Thai, Turkish, Ukrainian, Vietnamese, Arabic",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5002020/5c3a453f1fd7c03a9c4422c753dcb6dbb3601da0/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5002020/46efff94dab4cc5bf48ff9112dfc2ddc55a414fc/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5002020/46efff94dab4cc5bf48ff9112dfc2ddc55a414fc/capsule_184x69.jpg",
+    "website": "https://www.lianes8studio.com",
+    "developers": [
+      "Lianes8 Studio"
+    ],
+    "publishers": [
+      "Lianes8 Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      28,
+      62,
+      64,
+      68,
+      76,
+      79,
+      80
+    ],
+    "genres": [
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "8 Mar, 2027"
+    },
+    "support_info": {
+      "url": "https://www.lianes8studio.com",
+      "email": "jlianesglr@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5002020",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5002020/fd7060353d66bcf033dc275cf6edbf57e8c3ea8c/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

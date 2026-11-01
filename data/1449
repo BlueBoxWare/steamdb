@@ -3311,7 +3311,7 @@
     "steam_appid": 4347390,
     "required_age": 0,
     "is_free": false,
-    "short_description": "HexaFootball is a turn-based football strategy game where chess-like decisions replace reflexes. Build your team, manage action points, and outthink your opponent on a hex grid. Every pass, every move, and every match is a battle of pure tactics.",
+    "short_description": "Football meets chess. Command your team on a hex-grid pitch in turn-based matches where every pass, dribble and shot is a decision. Win duels with a d20 and your players' stats, build your club from the Sunday League to the top, and challenge friends online.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Arabic, Simplified Chinese, Portuguese - Brazil, Traditional Chinese, Japanese, Korean, Portuguese - Portugal, Russian, Turkish<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4347390/357b3e65d8653ac6ea6773f538829108f8307ca9/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4347390/0f23939f275519381060c33039731809ea5f5e9a/capsule_231x87.jpg",
@@ -3704,9 +3704,9 @@
     "is_free": false,
     "short_description": "A 1~4 player co-op horror game. Your mission is to gather as much food as possible for the humans. But not all food is normal. Can you complete this mission to the very end?",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Russian, Japanese, Simplified Chinese, Traditional Chinese, Polish, Korean, Vietnamese, Turkish, Portuguese - Brazil, Portuguese - Portugal",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4347010/53c563e9526fa52037e8dd2798a7f4c456f4e101/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4347010/f41ca0101c95399eae5ccd3a73e91378ebc060cc/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4347010/f41ca0101c95399eae5ccd3a73e91378ebc060cc/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4347010/5f0fa0524b299d3f7a1da44854ace2f85fb0549a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4347010/a674df56558a72e039ac245c9869a4e98362babe/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4347010/a674df56558a72e039ac245c9869a4e98362babe/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Opus Nine"
@@ -5906,11 +5906,11 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Goo Deer is a dark first-person gas station management game set in a foggy world addicted to the strange drink Goo Deer. Craft and sell new flavors, manage inventory, hire employees, and hunt deer in the misty forest for ingredients while something dangerous stalks the fog.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4349210/c1e06d7a009d338f8ede386613360403aed8a47b/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4349210/db32d8183ac2d2770f7b5641dea2680daad3b5f0/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4349210/db32d8183ac2d2770f7b5641dea2680daad3b5f0/capsule_184x69.jpg",
+    "short_description": "Goo Deer is a dark first-person gas station management game for one to four players, set in a foggy world addicted to one strange drink. Craft and sell flavors, stock shelves, catch shoplifters, and hunt deer in the misty forest, alone or in online co-op, while something stalks the fog.",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Czech, Danish, Dutch, Finnish, Hungarian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Turkish, Ukrainian, Vietnamese<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4349210/55c19defe1cc10cd94411ddc4f59e1664a0f31f9/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4349210/249688c7be14b1164b651e28b4401501f64eba4b/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4349210/249688c7be14b1164b651e28b4401501f64eba4b/capsule_184x69.jpg",
     "website": "https://vmlstudios.net/",
     "developers": [
       "VML Studios"
@@ -5937,10 +5937,13 @@
       "linux": false
     },
     "categories": [
+      1,
       2,
+      9,
       22,
       23,
       28,
+      38,
       55,
       56,
       57,
@@ -8139,7 +8142,19 @@
     "publishers": [
       "Revik Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1519734
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Fade out",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8157,9 +8172,12 @@
       25,
       70
     ],
+    "achievements": {
+      "total": 10
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "2026"
+      "coming_soon": false,
+      "date": "31 Oct, 2026"
     },
     "support_info": {
       "url": "",
@@ -8171,7 +8189,6 @@
       "ids": [
         1,
         2,
-        4,
         5
       ],
       "notes": "The game contains mature content, mainly related to violence, horror atmosphere, and disturbing themes.\r\n\r\nNon-sexual nudity: the playable characters (damned souls) are nude, but without genitals. This nudity is used purely as a symbolic and narrative element (to represent the loss of humanity and identity), with no sexual acts or erotic content.\r\n\r\nViolence and horror: the game includes violent scenes, demonic creatures, blood, and depictions of physical/psychological suffering in a hellish setting.\r\n\r\nSensitive themes: the story features elements related to death, damnation, torture, despair, and the degradation of the human condition.\r\n\r\nThere are no scenes depicting sexual acts, sexual violence, or non-consensual sex."
