@@ -5241,6 +5241,9 @@
     "steam_appid": 4611110,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5065030
+    ],
     "short_description": "Climb through the shifting realms of your mind, confronting hazards, enemies, and risky decisions on your ascent to regain consciousness.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4611110/76588cd84db8e1de11da96509da7f978dce408a6/header.jpg",
@@ -5253,7 +5256,25 @@
     "publishers": [
       "DTGS"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5065030,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1606601
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Beyond The Abandoned",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5271,8 +5292,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 1
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "2 Nov, 2026"
     },
     "support_info": {

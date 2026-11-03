@@ -446,7 +446,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "5 Nov, 2026"
+      "date": "November 2026"
     },
     "support_info": {
       "url": "",
@@ -2016,7 +2016,7 @@
     "steam_appid": 5389120,
     "required_age": 0,
     "is_free": true,
-    "short_description": "A tiny VPet device lives on your desktop and its pixel pet hops with every key you press. Earn Bongo Points while you work, feed treats, open Bongo Boxes and hunt rare Color pets, skins and devices you can trade on Steam.",
+    "short_description": "A tiny VPet device lives on your taskbar and its pixel pet hops with every key you press. Earn Bongo Points, catch a box or a key every 30 minutes of play, open boxes on a spinning reel and collect 140 devices from 7 series, pets, straps and charms you can trade on Steam.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389120/5b5645ec01f8298b1d359719f6f2d98b827857ef/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389120/5f0edf3becddd398ca5f8b3bd2c5226a105fb02b/capsule_231x87.jpg",
@@ -2031,7 +2031,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -3347,12 +3347,13 @@
     "steam_appid": 5389390,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "A cozy, very gay idle clicker about keeping one cup of tea hot. Click it to heat it, hold to pet it, fill a whole kitchen with things that talk back, pour out the pot for tea leaves, and keep the brew going while you are away. Cozy, silly, a little cheeky.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389390/133c44b43b9a7030d7c92d90cb327d085e8dd3e4/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389390/731500c9185e8732d3a09c24bba2ec9c636ee656/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389390/731500c9185e8732d3a09c24bba2ec9c636ee656/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://vanus.hu",
     "developers": [
       "VaNuS Games"
     ],
@@ -3375,7 +3376,7 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
@@ -3383,6 +3384,11 @@
       22,
       23,
       25,
+      28,
+      55,
+      56,
+      57,
+      58,
       62,
       74,
       79,
@@ -3401,7 +3407,7 @@
       "date": "31 Oct, 2026"
     },
     "support_info": {
-      "url": "https://gitech.hu",
+      "url": "https://vanus.hu",
       "email": "vanusskyline@gmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5389390",
@@ -3421,9 +3427,9 @@
     "is_free": false,
     "short_description": "Sort scattered candles, fill the shelves, and bring order to a cozy candlelit room. Unlock upgrades through a skill tree to arrange candles faster and watch the clutter disappear in this relaxing first-person organizing game.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5390630/7615014a635e95d72b9590160c62c4cbb98926b9/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5390630/416eb6b2ddfd0424cbaccfac741d9dd75caf2347/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5390630/416eb6b2ddfd0424cbaccfac741d9dd75caf2347/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5390630/bc8f9354adbb78ab5941934820d6abcdda391419/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5390630/314beef76f8feac2ef85928e26ed0f8d52b097c6/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5390630/314beef76f8feac2ef85928e26ed0f8d52b097c6/capsule_184x69.jpg",
     "website": "https://singingiant.com/",
     "developers": [
       " Woo Game Studio"
@@ -3854,7 +3860,19 @@
     "publishers": [
       "Maksim Zolotukhin"
     ],
-    "package_groups": [],
+    "packages": [
+      1861185
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Deskrot",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3874,9 +3892,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 2
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "2 Nov, 2026"
+      "coming_soon": false,
+      "date": "3 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -4331,7 +4352,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "1 Dec, 2026"
     },
     "support_info": {
       "url": "",
@@ -4617,7 +4638,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "Q1 2027"
     },
     "support_info": {
       "url": "https://novelstudios.io/support/planetsim/",
@@ -4752,10 +4773,10 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5390240/caba733165c53b32fb31c4b39c59c3768b7d8e97/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      " Interlude Games"
+      "Interlude Software"
     ],
     "publishers": [
-      " Interlude Games"
+      "Interlude Software"
     ],
     "package_groups": [],
     "platforms": {
@@ -5066,6 +5087,115 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "5389280": {
+    "type": "game",
+    "name": "LIMINAL SKY",
+    "steam_appid": 5389280,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "A flying game through places that should not exist. Pilot three aircraft through vast liminal spaces, giant statues, a floating archipelago, endless backrooms, solo, with friends in the story, or in combat with up to 30 pilots.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Japanese, Russian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389280/39fa96a90ddd760a1e219ddc32db38f785b3969f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389280/f533c096ba657c590a0a928892f45890c4821e90/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389280/f533c096ba657c590a0a928892f45890c4821e90/capsule_184x69.jpg",
+    "website": "https://www.pelagos-lab.com/jeux/liminal-sky/",
+    "developers": [
+      "Pelagos Industrie"
+    ],
+    "publishers": [
+      "Pelagos Industrie"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      18,
+      36,
+      38,
+      47,
+      48,
+      49,
+      62
+    ],
+    "genres": [
+      1,
+      4,
+      18,
+      23,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "15 Dec, 2026"
+    },
+    "support_info": {
+      "url": "https://www.pelagos-lab.com/jeux/liminal-sky/",
+      "email": "pelagos.contact@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5389280",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389280/88a6b16ecd8688cd16b10e9b1736b66b207b2268/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5390670": {
+    "type": "game",
+    "name": "Deeper...",
+    "steam_appid": 5390670,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "&quot;Deeper...&quot; is a short game about an obsessed diver. Diving accumulates DEEP, which you can spend to enhance your next dive. Your wife will faithfully wait and assist you but how long will you keep her worrying?",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5390670/61de00a6a19c8186b2651cc264cdc09416e314ba/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5390670/e04db9457be65720c5574fead33238f0b4bada19/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5390670/e04db9457be65720c5574fead33238f0b4bada19/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Horror Shop Games"
+    ],
+    "publishers": [
+      "Horror Shop Games"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      23,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "HorrorShopGames@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5390670",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5390670/39ad0e5f2e60b5df52a3b806cf6983084b6be474/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        1,
+        5
+      ],
+      "notes": "Scary events.\r\nBreast contours."
     }
   }
 }

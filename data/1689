@@ -906,9 +906,6 @@
     "steam_appid": 5069180,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5075530
-    ],
     "short_description": "Hakurei Reimu comes to your desktop. Poke her or pick her up and she reacts just like Reimu would, and she'll keep an eye on your to-dos and alarms too. Blunt, but the type who quietly sticks by your side.",
     "supported_languages": "English, Japanese, Korean<strong>*</strong>, Simplified Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5069180/f9ed1727c00a1a21094c389bf607b5dd9f666927/header.jpg",
@@ -916,16 +913,10 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5069180/de8ccc9d7aee862ef4463c4b2b869d84709eb51d/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "\u6708\u5f71\u5de5\u623f"
+      "ZK"
     ],
     "publishers": [
-      "\u6708\u5f71\u5de5\u623f"
-    ],
-    "demos": [
-      {
-        "appid": 5075530,
-        "description": ""
-      }
+      "ZK"
     ],
     "package_groups": [],
     "platforms": {
@@ -2498,12 +2489,6 @@
     "publishers": [
       "EggRush"
     ],
-    "demos": [
-      {
-        "appid": 5135090,
-        "description": ""
-      }
-    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -3352,7 +3337,7 @@
     "dlc": [
       5121400
     ],
-    "short_description": "It's Minesweeper, but SO MUCH more. Irregular maps, geometries that change every match, and mines that move when you least expect it. Keep a cool head, create your strategy, and find out how far your logic holds up before the minefield surprises you.",
+    "short_description": "It's Minesweeper, but much more. Procedurally generated maps, unpredictable geometries, moving mines, and roguelike elements make each game unique. Think cool, adapt your strategy, and discover how far your logic can take you before the field surprises you.",
     "supported_languages": "English, French, Italian, German, Simplified Chinese, Korean, Japanese, Polish, Portuguese - Brazil, Russian, Spanish - Spain",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067830/07fd0fafe2494a85aaa423764cab63a05a4b09ca/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067830/651d2fe59e64cc56b43a6fc6dcfa3fdbf81ef177/capsule_231x87.jpg",
@@ -3370,7 +3355,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1756524
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Minefield: Rupture",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3400,8 +3397,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 34
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "2 Nov, 2026"
     },
     "support_info": {
@@ -8080,7 +8080,7 @@
     "dlc": [
       5399950
     ],
-    "short_description": "Write a beat. Press RUN. Make it yours. A free Strudel music studio with a retro terminal look, beginner lessons, a piano roll, snippet previews and mouse-shaped sound controls. Customize your workspace and export WAV or lossless FLAC. Full release coming soon.",
+    "short_description": "Write a beat. Press RUN. Make it yours. A Strudel music studio with a retro terminal look, beginner lessons, a seven-octave Piano Roll, Sound Math and bundled plugins. Customize your workspace, record your music and export WAV or lossless FLAC.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067350/1acf9d33779fbb8c13d97cb3b3e088696ae82ed2/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067350/840a8c4d3afaefaa05c3407abee0de45f8a2ffb3/capsule_231x87.jpg",
@@ -8108,7 +8108,6 @@
       32,
       36,
       49,
-      62,
       64,
       66,
       68,
@@ -8596,6 +8595,62 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "5067770": {
+    "type": "game",
+    "name": "Spur of Life",
+    "steam_appid": 5067770,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "You\u2019ve woken into a world that wants you slaughtered. No weapons. No combat. Escape the oppressive, liminal space that doesn't want you, as things that shouldn\u2019t be there hunt you from the dark.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067770/752fa5fd17909c10c02e9b30a7d5023473398063/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067770/9f02433b42e787f2ea5418ebe5fc9d6664cfa38b/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067770/9f02433b42e787f2ea5418ebe5fc9d6664cfa38b/capsule_184x69.jpg",
+    "website": "https://funandsimple.com/sol",
+    "developers": [
+      "Jadon Barnes"
+    ],
+    "publishers": [
+      "Fun & Simple"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      2,
+      28,
+      55,
+      56,
+      57,
+      58,
+      60,
+      62
+    ],
+    "genres": [
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "2027"
+    },
+    "support_info": {
+      "url": "https://funandsimple.com",
+      "email": "help@funandsimple.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5067770",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067770/dea9904b2eb9e981f414dd7cc284e6ef2c50d2bb/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "Violence is presented through grotesque body horror silhouettes and visceral audio depictions of bodily destruction during death sequences.\n\nThis game features intense psychological horror, oppressive atmospheres, and frightening creature designs intended to evoke unease and powerlessness.\n\nAdditionally, this game contains instances of extreme verbal abuse and hateful dialogue toward the protagonist; this can be toggled off in the game's settings."
     }
   }
 }

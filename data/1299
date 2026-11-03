@@ -2859,7 +2859,7 @@
     "name": "Depths Unseen",
     "steam_appid": 3897890,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "Fall into a world unseen, unheard, and unknown, desperate for a way out, you'll need to explore, fight, and survive the artificial horrors that lurk within the cold, dark depths that lay just beneath the surface. Can you survive this unforgiving world?",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3897890/dfc8a11d01736d851513ef1dca93c05eb8850994/header.jpg",
@@ -2872,7 +2872,19 @@
     "publishers": [
       "DoodleCorp"
     ],
-    "package_groups": [],
+    "packages": [
+      1914493
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Depths Unseen",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2889,7 +2901,6 @@
       1,
       23,
       25,
-      37,
       70
     ],
     "achievements": {

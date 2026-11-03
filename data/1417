@@ -2175,10 +2175,7 @@
     "steam_appid": 4252720,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5252970
-    ],
-    "short_description": "DERAIL is a horror anomaly game where instead of spotting anomalies you have to cleanse them with you camera to escape the loop.",
+    "short_description": "DERAIL is a horror anomaly game where instead of spotting anomalies you have to cleanse them with your camera to escape the loop.",
     "supported_languages": "English, Japanese, Russian, Simplified Chinese, Spanish - Latin America, German",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4252720/c215d3f255865ccfee984bdeaf7a116c422280e7/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4252720/2328afd19af9cd02d44b29fa20ea83ed968ed4bd/capsule_231x87.jpg",
@@ -2189,12 +2186,6 @@
     ],
     "publishers": [
       "A_Wild_Dev"
-    ],
-    "demos": [
-      {
-        "appid": 5252970,
-        "description": ""
-      }
     ],
     "package_groups": [],
     "platforms": {
@@ -8505,6 +8496,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      4653170
+    ],
     "short_description": "The ultimate Godzilla arena brawler is back, completely remastered. Choose your monster and battle it out with a range of brutal attacks through recreated cities and other locations. Face off against your friends and foes in local co-op or new online multiplayer.",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Japanese, Korean, Simplified Chinese, Traditional Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4251460/28023d80b51185fe3dbadadf608523942f47238c/header.jpg",
@@ -8517,7 +8511,19 @@
     "publishers": [
       "Atari"
     ],
-    "package_groups": [],
+    "packages": [
+      1488106
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Godzilla: Destroy All Monsters Melee Remastered",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8541,8 +8547,11 @@
       1,
       4
     ],
+    "achievements": {
+      "total": 39
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "3 Nov, 2026"
     },
     "support_info": {

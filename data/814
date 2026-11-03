@@ -11928,12 +11928,15 @@
     "name": "8D Creators",
     "steam_appid": 2443700,
     "required_age": 0,
-    "is_free": false,
-    "short_description": "The 8D Character Creator is the ideal tool for everyone that wants to create amazing characters for video games easy and fast. Lots of options to choose from with a growing library. Every created character does come with 39 animations (26 in 8 directions). Check out the demo before you buy - now! :)",
+    "is_free": true,
+    "dlc": [
+      5380590
+    ],
+    "short_description": "Create unique characters for your games with 8D Creators. Mix and match a wide range of customization options, experiment with different looks, and save your creations. All character creation features are free to use\u2014purchase the corresponding content pack when you're ready to export.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443700/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443700/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443700/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443700/8aa63bc974e015fff31ed290d2e05b7fa90902de/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443700/46e281d5588d93b9201662be52888bcaa1f348c1/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443700/46e281d5588d93b9201662be52888bcaa1f348c1/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "cub3",
@@ -11948,25 +11951,14 @@
         "description": ""
       }
     ],
-    "packages": [
-      879455
-    ],
-    "package_groups": [
-      {
-        "name": "default",
-        "title": "Buy 8D Creators",
-        "description": "",
-        "save_text": "",
-        "display_type": 0,
-        "is_recurring_subscription": "false"
-      }
-    ],
+    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": true,
-      "linux": false
+      "linux": true
     },
     "genres": [
+      37,
       51,
       53,
       60
@@ -14566,7 +14558,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      879412
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Diecast",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -14591,8 +14595,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 30
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "3 Nov, 2026"
     },
     "support_info": {
