@@ -1178,7 +1178,6 @@
     "steam_appid": 5423500,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "A head-to-head sky shooter. Blast chains of drifting clouds to launch attacks into your rival's sky, dodge what they send or blast it back, then summon a giant Champion. Duel friends side by side or online, or take on the Sky Tour: 45 stages, bosses and 120 stars.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5423500/322acbff578ccf8220e5408c5d6236d674473514/header.jpg",
@@ -1201,7 +1200,6 @@
       1,
       2,
       22,
-      28,
       36,
       49,
       62
@@ -1666,7 +1664,19 @@
     "publishers": [
       " First Light Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1872149
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Maze 1211",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1688,9 +1698,12 @@
     "genres": [
       28
     ],
+    "achievements": {
+      "total": 3
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2026"
+      "coming_soon": false,
+      "date": "3 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -2635,11 +2648,11 @@
     "steam_appid": 5421990,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A semi-idle auto-battler drawn from Sumerian myth: bind ancient souls and hold a strip torn from the laws of the gods. Lugal, Gula and Erra fight on their own, even while you are away. You choose the line, the relics and the moment to step in.",
+    "short_description": "A semi-idle auto-battler drawn from Sumerian myth: bind ancient souls and hold a strip torn from the laws of the gods. Heroes fight every battle on their own and gather rewards even while you are away. You choose the line and the relics; casting spells is optional.",
     "supported_languages": "English, Russian, Turkish",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5421990/f5156dedddf8726b2efb03e6fc8ba1cd7f708614/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5421990/f2a71623e898705951805b45a7817d74bd99c5ce/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5421990/f2a71623e898705951805b45a7817d74bd99c5ce/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5421990/1ccc4098251637c886cadde1997c681df723bfb3/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5421990/b74b06db998862b44810551d34dc3e58e632e209/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5421990/b74b06db998862b44810551d34dc3e58e632e209/capsule_184x69.jpg",
     "website": "https://www.dockedrealms.com",
     "developers": [
       "CA Studio"
@@ -2677,6 +2690,9 @@
       4,
       70
     ],
+    "achievements": {
+      "total": 30
+    },
     "release_date": {
       "coming_soon": false,
       "date": "1 Nov, 2026"
@@ -4224,6 +4240,12 @@
     "publishers": [
       "RedRockGS"
     ],
+    "demos": [
+      {
+        "appid": 5456850,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -4245,7 +4267,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "25 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -5340,6 +5362,66 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "5422310": {
+    "type": "game",
+    "name": "Unbury the Gamer Girl",
+    "steam_appid": 5422310,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "A short, oddball first-person cleanup game about unburying a lonely gamer girl from her own garbage. Throw out trash, upgrade your suction gun, and poke around her room while she talks, complains, and slowly lets her guard down. Crude humor, strange things to find, and someone to hang out with.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5422310/50f040829cf6f86c91bbbdf9105f3be7be64d531/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5422310/b297ff72998465ec3b80de5a3788e457eb47e3f0/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5422310/b297ff72998465ec3b80de5a3788e457eb47e3f0/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Neverkind Entertainment"
+    ],
+    "publishers": [
+      "Neverkind Entertainment"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "categories": [
+      2,
+      28,
+      59,
+      62,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      74,
+      79
+    ],
+    "genres": [
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "23 Nov, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "neverkind.support@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5422310",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5422310",
+    "content_descriptors": {
+      "ids": [
+        1,
+        5
+      ],
+      "notes": "Contains topless female nudity, sexually suggestive images, frequent strong language, crude humor, sexual jokes and references, and references to drug use. The story includes themes of social isolation, self-neglect, and mental illness. Players can discover and handle a dead squirrel. No sex acts are depicted."
     }
   }
 }
