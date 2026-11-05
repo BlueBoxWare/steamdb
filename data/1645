@@ -1065,6 +1065,9 @@
     "steam_appid": 4937990,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5373570
+    ],
     "short_description": "Weave words and cross them for massive combos! A competitive crossword puzzle where you freely place letters and &quot;unleash&quot; them to blow up your opponents. No falling blocks! Master deep tactics, play unique rules, or use custom dictionaries in &quot;Deck Spell&quot; mode in up to 4-player battles!",
     "supported_languages": "English, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4937990/035ee3d9ec412a753b847d5bf24443c0a0fb3c19/header.jpg",
@@ -1076,6 +1079,12 @@
     ],
     "publishers": [
       "Inc-Cross"
+    ],
+    "demos": [
+      {
+        "appid": 5373570,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -1297,7 +1306,7 @@
   },
   "4936460": {
     "type": "game",
-    "name": "Mossvale",
+    "name": "Mossvale: Pixel MMORPG",
     "steam_appid": 4936460,
     "required_age": 0,
     "is_free": true,
@@ -2747,8 +2756,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       1,
@@ -3687,7 +3696,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1713005
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Red Glare The Reckoning",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3710,8 +3731,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "5 Nov, 2026"
+      "coming_soon": false,
+      "date": "4 Nov, 2026"
     },
     "support_info": {
       "url": "",

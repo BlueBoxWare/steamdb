@@ -631,6 +631,7 @@
     "steam_appid": 5409320,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Return to Victorian-Era Hong Kong as Fini, an ex-priest struggling with opium addiction. Your father made the family fortune in the opium trade. Now he\u2019s dead. His letter about finding a jade ring brings you back home, with a sharp-tongued cat named Xiao and some clearly unfinished family business.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5409320/1abec27b081a8b3a979a8a735a2d1fc392b5f805/header.jpg",
@@ -651,7 +652,7 @@
     },
     "categories": [
       2,
-      18,
+      28,
       60,
       62,
       67,
@@ -665,7 +666,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "Q4 2026"
     },
     "support_info": {
       "url": "",
@@ -742,7 +743,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Two rooms that look exactly the same. Somewhere inside, 51 differences are hidden: a TV facing the wrong way, an extra plate, a color that is slightly off. You cannot leave this house until you find them all. A first-person endurance spot-the-difference game of walking, comparing and memory.",
-    "supported_languages": "English, Simplified Chinese, Traditional Chinese, Japanese",
+    "supported_languages": "English, Simplified Chinese, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5410740/370b0b1f3f5ac23d071767cfb7f8bab197f661ce/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5410740/f9d8051bccc4ec01761c771778a4e8624e9e424c/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5410740/f9d8051bccc4ec01761c771778a4e8624e9e424c/capsule_184x69.jpg",
@@ -1800,6 +1801,9 @@
     "steam_appid": 5411880,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5521410
+    ],
     "short_description": "Take your seat at a strange low-poly table where four kings wage a real-time strategy war on the board in front of you, while the room around you melts, the sky falls and a mole sells you crates from under the floor. A surreal board-game RTS full of secrets.",
     "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Portuguese - Brazil, Japanese, Korean, Polish, Russian, Simplified Chinese, Czech<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5411880/ff989ebd3a07d8cee21982e65c01196a80718fed/header.jpg",
@@ -1836,7 +1840,8 @@
     "genres": [
       2,
       4,
-      23
+      23,
+      70
     ],
     "release_date": {
       "coming_soon": true,
@@ -2126,7 +2131,19 @@
     "publishers": [
       "Morikatron"
     ],
-    "package_groups": [],
+    "packages": [
+      1868258
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Block Guy",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -2146,7 +2163,7 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "4 Nov, 2026"
     },
     "support_info": {
@@ -2776,7 +2793,7 @@
     "steam_appid": 5409040,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Turn your board volcanic with three fire looks. Blaze trails your ball with a jet of flame. Basalt flippers run from dark rock to glowing lava. Firestorm fills the Flux Storm with molten lightning and pegs that glow like coals. Equip one, two or all three. Looks never change what you win.",
+    "short_description": "Turn your board volcanic with three fire skins. Blaze trails your ball with a jet of flame. Basalt flippers run from dark rock to glowing lava. Firestorm fills the Flux Storm with molten lightning and pegs that glow like coals. Equip one, two or all three.",
     "fullgame": {
       "appid": "5372270",
       "name": "Flux Fall"
@@ -2840,7 +2857,7 @@
     "steam_appid": 5409050,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Bring the cold to the cascade with three ice looks. Flurry trails your ball with snowflakes. Glacier turns your flippers into frosted blue ice. Ice Storm fills the Flux Storm with ice-shard lightning and crystal pegs. Equip one, two or all three. Looks never change what you win.",
+    "short_description": "Bring the cold to the cascade with three ice skins. Flurry trails your ball with snowflakes. Glacier turns your flippers into frosted blue ice. Ice Storm fills the Flux Storm with ice-shard lightning and crystal pegs. Equip one, two or all three.",
     "fullgame": {
       "appid": "5372270",
       "name": "Flux Fall"
@@ -2904,7 +2921,7 @@
     "steam_appid": 5409060,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Dive into the deep with three glowing looks. Jellyfish turns your ball into a jellyfish with streaming tentacles. Lanternfish flippers shine with deep-sea lights. Biolume fills the Flux Storm with magenta lightning and jellyfish pegs. Equip one, two or all three. Looks never change what you win.",
+    "short_description": "Dive into the deep with three glowing skins. Jellyfish turns your ball into a jellyfish with streaming tentacles. Lanternfish flippers shine with deep-sea lights. Biolume fills the Flux Storm with magenta lightning and jellyfish pegs. Equip one, two or all three.",
     "fullgame": {
       "appid": "5372270",
       "name": "Flux Fall"
@@ -4379,7 +4396,19 @@
     "publishers": [
       "RODRIK LTD"
     ],
-    "package_groups": [],
+    "packages": [
+      1868226
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Holdopolis",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4400,8 +4429,11 @@
       28,
       70
     ],
+    "achievements": {
+      "total": 34
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "5 Nov, 2026"
     },
     "support_info": {
@@ -5116,7 +5148,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "13 Nov, 2026"
     },
     "support_info": {
       "url": "",

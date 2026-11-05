@@ -3442,6 +3442,7 @@
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4859080/efe92599c70bcef9e2d361a58e02b859e4feecdc/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4859080/efe92599c70bcef9e2d361a58e02b859e4feecdc/capsule_184x69.jpg",
     "website": "http://www.f4u.co.kr/",
+    "ext_user_account_notice": "Google Account or Apple Account ",
     "developers": [
       "GNISoft Co.,Ltd."
     ],
@@ -3459,6 +3460,7 @@
       9,
       20,
       27,
+      35,
       36,
       38,
       49,
@@ -3492,7 +3494,7 @@
         2,
         5
       ],
-      "notes": null
+      "notes": "This game contains content that may not be suitable for all ages, including frequent violence or gore, and simulated gambling elements (in-game exchange)."
     }
   },
   "4859570": {
@@ -5008,7 +5010,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Experience the work of a courier in a city of living rumors and legends. Pay off your debt by carrying out strange requests from mystical customers. Uncover the reason behind the appearance of a mysterious fog that smells of decay.",
-    "supported_languages": "English, Russian, Kazakh",
+    "supported_languages": "English, Russian, Kazakh, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4857130/a57a06b7612de5ef61b3b6a5ed824505a43773ca/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4857130/17e0f22cc3d604222c04a50ea1d2e9cc1f7160e8/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4857130/17e0f22cc3d604222c04a50ea1d2e9cc1f7160e8/capsule_184x69.jpg",
@@ -5025,15 +5027,28 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1686987
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Five-Star Courier and the Fog That Reeks of Death",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
       22,
+      25,
       62,
       65,
       66,
@@ -5052,9 +5067,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 10
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2026"
+      "coming_soon": false,
+      "date": "5 Nov, 2026"
     },
     "support_info": {
       "url": "",

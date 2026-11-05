@@ -477,7 +477,7 @@
     "name": "Colleccct",
     "steam_appid": 4471060,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "controller_support": "full",
     "short_description": "There is no you. There is no me. There is only collect. Colleccct is a 1-hour incremental odyssey of rhythmic destruction. Shatter abstract shapes into glowing orbs to feed a real-time upgrade stack. Evolution never pauses. Relax and let the orbs flow!",
     "supported_languages": "English",
@@ -491,7 +491,19 @@
     "publishers": [
       "middlepattern"
     ],
-    "package_groups": [],
+    "packages": [
+      1916570
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Colleccct",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -507,7 +519,6 @@
       1,
       4,
       23,
-      37,
       70
     ],
     "achievements": {
