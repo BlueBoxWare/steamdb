@@ -14037,7 +14037,7 @@
     "name": "Slime Slash VR",
     "steam_appid": 3739930,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "A first-person VR game about cutting slimes with a sword. Clear stages, unlock guns, and take down the boss.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739930/273a08fadf37ed44d10d8f13399921ff152e5d7d/header.jpg",
@@ -14050,7 +14050,19 @@
     "publishers": [
       "\ucd5c\ud604\uc6b1"
     ],
-    "package_groups": [],
+    "packages": [
+      1316426
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Slime Slash VR",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -14064,12 +14076,14 @@
     ],
     "genres": [
       1,
-      23,
-      37
+      23
     ],
+    "achievements": {
+      "total": 1
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "November 2026"
+      "coming_soon": false,
+      "date": "5 Nov, 2026"
     },
     "support_info": {
       "url": "",

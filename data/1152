@@ -10871,7 +10871,6 @@
     "steam_appid": 3456950,
     "required_age": 0,
     "is_free": true,
-    "controller_support": "full",
     "short_description": "Fast-paced multiplayer shooter with destructible arenas, wild builds, and matches that never play the same. Break the map, adapt on the fly, and outplay your opponents in short, chaotic PvP battles.",
     "supported_languages": "English, French, German, Spanish - Spain, Portuguese - Brazil, Traditional Chinese, Simplified Chinese, Korean, Russian, Turkish, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3456950/e52e0cc9c67e43afa9b6a0b98ba64fb241cda279/header.jpg",
@@ -10900,9 +10899,9 @@
       1,
       2,
       9,
+      18,
       23,
       27,
-      28,
       35,
       36,
       38,
@@ -12989,6 +12988,13 @@
     "steam_appid": 3456660,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5031920,
+      5031930,
+      5031940,
+      5031950,
+      5021070
+    ],
     "short_description": "Nothing hits like the moment the mask comes on. Plan bold jobs, pull off stylish chaos, and take down a business titan - one explosive score at a time. High stakes, big money, no mercy: PAYDAY: Aces High is the definitive VR co-op heist game for up to 4 players. Revenge has never felt so good.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3456660/4d8dca2e8d0c3850edebe5b327041c5b3cf178df/header.jpg",
@@ -13001,7 +13007,19 @@
     "publishers": [
       "Fast Travel Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1221357
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy PAYDAY: Aces High",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -13020,8 +13038,11 @@
     "genres": [
       1
     ],
+    "achievements": {
+      "total": 41
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "5 Nov, 2026"
     },
     "support_info": {
@@ -13707,6 +13728,7 @@
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3456900/a61e5c312d5831dd54096751ef0145f0f4c897ac/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3456900/a61e5c312d5831dd54096751ef0145f0f4c897ac/capsule_184x69.jpg",
     "website": "https://halfslice.studio",
+    "ext_user_account_notice": "Account creation is required on a per-server bases in the form of a username and password. ",
     "developers": [
       "Code Sword"
     ],

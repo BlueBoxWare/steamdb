@@ -5950,7 +5950,7 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       1,
@@ -8522,7 +8522,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1520115
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Pre-Warp Age",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -8546,8 +8558,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 65
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "5 Nov, 2026"
     },
     "support_info": {

@@ -574,6 +574,7 @@
     "steam_appid": 5429370,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Looks Fine on Paper is a spatial logic puzzle game. Deduce each room's shape and position from area requirements and clues. Resolve interconnected constraints involving rooms, doors, windows, and furniture. Every decision can affect the entire layout. Can you satisfy every condition at once?",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Russian, Turkish, Japanese, Polish, Simplified Chinese, Traditional Chinese, Portuguese - Brazil, Spanish - Latin America, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429370/171ea38a07c4de050c2251914ecec4f15b7dc685/header.jpg",
@@ -603,7 +604,11 @@
       15,
       22,
       23,
-      62
+      28,
+      62,
+      68,
+      74,
+      80
     ],
     "genres": [
       4,
@@ -1277,6 +1282,12 @@
     "publishers": [
       "Nue Games"
     ],
+    "demos": [
+      {
+        "appid": 5455570,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -1492,9 +1503,9 @@
     "is_free": false,
     "short_description": "Run your own potato chip factory, from peeling by hand to full automation! Make chips, build production lines, and grow your business with robot helpers. Wait\u2026 are these chips headed for space?",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Arabic, Japanese, Korean, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America, Traditional Chinese, Turkish, Ukrainian, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Malay, Norwegian, Polish, Romanian, Swedish, Thai, Vietnamese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/114b1f652135427d47d58ee1bff1f9c2ac62e0de/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/08a75277bdbff9397483ed36a916ad908a0f1067/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/08a75277bdbff9397483ed36a916ad908a0f1067/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/e41eef0a1803fdbb6e4bed20d6604c8e96b6512e/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/80f84b90b4539e29a2c3a983a4922c6539d26121/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/80f84b90b4539e29a2c3a983a4922c6539d26121/capsule_184x69.jpg",
     "website": "https://pinkbananagames.com/",
     "developers": [
       "Pink Banana"
@@ -5422,7 +5433,19 @@
     "publishers": [
       "OSUN Company"
     ],
-    "package_groups": [],
+    "packages": [
+      1873421
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy \u6587\u5b57\u63a2\u3057-JP-Not Every Letter Is a Letter",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5441,9 +5464,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 100
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "November 2026"
+      "coming_soon": false,
+      "date": "6 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -6387,6 +6413,123 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "5429000": {
+    "type": "dlc",
+    "name": "Corners Arena - Chess & Checkers",
+    "steam_appid": 5429000,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "Play chess and Russian checkers with a friend on one device. This free Corners Arena expansion adds two classic games, 3D boards, a keyboard-friendly 2D view, and classic chess-pawn and checker pieces for the original Corners arenas.",
+    "fullgame": {
+      "appid": "4989020",
+      "name": "Corners Arena"
+    },
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Polish, Portuguese - Brazil, Russian, Turkish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429000/3a82fa1bbd653fd7e6506c6765f62a350342c94e/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429000/20f8f371f46a456bb8e3bc9dfbd86030e45e18e8/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429000/20f8f371f46a456bb8e3bc9dfbd86030e45e18e8/capsule_184x69.jpg",
+    "website": "https://digitable.life/",
+    "developers": [
+      "Marat Zimnurov",
+      "Digitable"
+    ],
+    "publishers": [
+      "Digitable"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      1,
+      21,
+      24,
+      37,
+      49,
+      62,
+      67,
+      68,
+      74,
+      76,
+      78,
+      80
+    ],
+    "genres": [
+      2,
+      4,
+      23,
+      37
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "5 Nov, 2026"
+    },
+    "support_info": {
+      "url": "https://digitable.life/support",
+      "email": "support@digitable.ru"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5429000",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429000/1778d98552f5d79457f1829225d81ef0d7f7f7df/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5429600": {
+    "type": "game",
+    "name": "Sea Adventure",
+    "steam_appid": 5429600,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "You scrape barnacles in Miami. Then your uncle vanishes at sea and leaves you a superyacht, a loan due in thirty days, and a crew of gorgeous women who don't think you deserve her. Earn the ship. Earn the crew.",
+    "supported_languages": "English",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429600/dc7fba138c86847937b67ad189683e96c645303d/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429600/c2685f815e96ae28a4ef1c3a098473cef4805c13/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429600/c2685f815e96ae28a4ef1c3a098473cef4805c13/capsule_184x69.jpg",
+    "website": "https://fleshforgestudio.com/",
+    "developers": [
+      "Fleshforge Studio"
+    ],
+    "publishers": [
+      "Fleshforge Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      4,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "fleshforgestudio@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5429600",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429600/09b1e678cb525c2d712ef3f12868e3caa5ea33da/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "notes": "This game is intended for adults (18+). It contains full nudity and explicit sexual content between adult characters, including handjobs, oral sex and breast sex, shown as animated scenes the player controls.\n\nIt also includes voyeurism (peeking at characters while they shower, change or bathe), suggestive dialogue and teasing, playful power dynamics with dominant characters, and references to alcohol (the yacht has a bar).\n\nAll characters are fictional adults aged 23 or older.No real persons are depicted."
     }
   }
 }

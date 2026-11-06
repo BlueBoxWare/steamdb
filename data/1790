@@ -915,7 +915,7 @@
     "required_age": 0,
     "is_free": true,
     "short_description": "Experience the next evolution of UGC maps in Realm, an open-source tactical arcade engine. Deploy armies in high-speed, large-scale auto-battler clashes, or build the next generation of multiplayer games in our editor using intuitive sculpting tools, AI-assisted map creation, and self-hosted lobbies",
-    "supported_languages": "English, French, German, Spanish - Spain, Arabic, Japanese, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America, Hindi",
+    "supported_languages": "English, French, German, Spanish - Spain, Arabic, Japanese, Portuguese - Portugal, Russian, Simplified Chinese, Hindi, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372260/9b41a26ee1fc4666e7714b9a0e5a5f4a24029b63/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372260/3b19e72b14327de58530c43f4171b2b8530257d9/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372260/3b19e72b14327de58530c43f4171b2b8530257d9/capsule_184x69.jpg",
@@ -2125,7 +2125,7 @@
     "required_age": 0,
     "is_free": true,
     "short_description": "Echoes of Calir is a turn-based 1v1 mix of chess, a TCG and a board game on an 8\u00d78 board. Build a deck of five units and five terrain cards, place them before battle, and outmaneuver your opponent through movement, abilities, and captures. Chess rules with the strategic depth of a TCG.",
-    "supported_languages": "English, German",
+    "supported_languages": "English<strong>*</strong>, German<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371290/af9e8c521c33c93b4e22d54165e70374860a950f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371290/5ffad04ca54580976d1cd1803dd5c7b6fb9521e3/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371290/5ffad04ca54580976d1cd1803dd5c7b6fb9521e3/capsule_184x69.jpg",
@@ -2152,6 +2152,7 @@
     ],
     "genres": [
       2,
+      23,
       37
     ],
     "release_date": {
@@ -3825,7 +3826,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1855159
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Gloamfall",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3850,9 +3863,12 @@
       23,
       70
     ],
+    "achievements": {
+      "total": 48
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "5 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -5518,12 +5534,11 @@
       1,
       2,
       23,
-      28,
-      70
+      28
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "To be announced"
     },
     "support_info": {
       "url": "https://sixfoldthegame.com",
@@ -6038,7 +6053,19 @@
     "publishers": [
       "iam8bit Presents"
     ],
-    "package_groups": [],
+    "packages": [
+      1855023
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Escape Academy 2 Supporter Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6056,6 +6083,7 @@
       55,
       56,
       57,
+      62,
       74,
       80
     ],
@@ -6065,7 +6093,7 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "5 Nov, 2026"
     },
     "support_info": {
@@ -6136,7 +6164,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Find and Survive the Footage of Lost VHS Tapes that have been uncovered in this adventure. Discover new Puppets and secrets in this Horror/Point and Click Game. The Puppets are up to lots of tricks so make sure you use all the tech given to you to make sure you stay... safe.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, French, German, Dutch, Portuguese - Brazil, Spanish - Latin America<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371390/843d51d76c2d0bebb61674f8bd1e65a349e668f1/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371390/1462ba6cda3afad6103979936979267de2efa445/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371390/1462ba6cda3afad6103979936979267de2efa445/capsule_184x69.jpg",
@@ -6176,6 +6204,128 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "5371010": {
+    "type": "game",
+    "name": "Pinball Pub",
+    "steam_appid": 5371010,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Rebuild an abandoned pinball pub alone or with friends and defend it from The Infestation at night. Play pinball, serve and drink beer, boost the morale of soldiers who help defend it, and head into The Mall's Backrooms to scavenge for supplies.",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese, Afrikaans, Albanian, Amharic, Armenian, Assamese, Azerbaijani, Bangla, Basque, Belarusian, Bosnian, Catalan, Cherokee, Croatian, Dari, Estonian, Filipino, Galician, Georgian, Gujarati, Hausa, Hebrew, Hindi, Icelandic, Igbo, Irish, K'iche', Kannada, Kazakh, Khmer, Kinyarwanda, Konkani, Kyrgyz, Latvian, Lithuanian, Luxembourgish, Macedonian, Malayalam, Maltese, Maori, Marathi, Mongolian, Nepali, Odia, Persian, Punjabi (Gurmukhi), Punjabi (Shahmukhi), Quechua, Scots, Serbian, Sindhi, Sinhala, Slovak, Slovenian, Sorani, Sotho, Swahili, Tajik, Tamil, Tatar, Telugu, Tigrinya, Tswana, Turkmen, Urdu, Uyghur, Uzbek, Valencian, Welsh, Wolof, Xhosa, Yoruba, Zulu<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371010/1a00e39b7d210db0fe5f00b6ea347b5a4a3c0dc9/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371010/1749ba3f975410f3d2d4d1ddc4727a418839eadc/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371010/1749ba3f975410f3d2d4d1ddc4727a418839eadc/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "ThunderRam Studios"
+    ],
+    "publishers": [
+      "ThunderRam Studios"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      28,
+      38,
+      48,
+      55,
+      56,
+      57,
+      58,
+      60,
+      62,
+      64,
+      65,
+      67,
+      68,
+      69,
+      74,
+      79,
+      80
+    ],
+    "genres": [
+      28,
+      70
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "thunderramstudios@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5371010",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5371010",
+    "content_descriptors": {
+      "ids": [
+        1,
+        2,
+        5
+      ],
+      "notes": "This game may contain content not appropriate for all ages: Blood, Gore, Dismemberment, Strong Language, Sexual Content, Use of Alcohol, and contains online User Interactions"
+    }
+  },
+  "5372250": {
+    "type": "game",
+    "name": "Poppets & Plunder",
+    "steam_appid": 5372250,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Sail a cutaway brig through four seas of Navy gunships, witch-hunters and Company gold. Run the crew deck by deck, work the guns, and when you are outgunned, reach for the voodoo doll and push a pin into the enemy ship. A roguelite of real-time fights and costly magic.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372250/1e31b2c759fda5873abf63793a1350be3daa140c/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372250/8f475afd4b2484cae4b3c5673813a66d4714f01b/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372250/8f475afd4b2484cae4b3c5673813a66d4714f01b/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      " Vaporware Software"
+    ],
+    "publishers": [
+      " Vaporware Software"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      1,
+      2,
+      23,
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "November 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "vpwsoftware@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5372250",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372250/20863829df2f887f6cd0dffc3eb3a513bd886b81/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "The game centers on your crew fighting for survival on the high seas. Friends and enemies alike can be killed in creative, shocking ways at a moment's notice. The level of violence a player engages with is largely controllable, though, as it is possible to win using high-level spellcasting or hull damage."
     }
   }
 }

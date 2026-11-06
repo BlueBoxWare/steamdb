@@ -64,6 +64,9 @@
     "required_age": 0,
     "is_free": true,
     "controller_support": "full",
+    "dlc": [
+      4850200
+    ],
     "short_description": "A bitter RPG / Visual Novel where you travel the globe and help people! Every place you visit has its own job, and every day is a new opportunity to make friends!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800330/e43fada4706c9d493797f33e5ae35f739003eae2/header.jpg",
@@ -75,6 +78,12 @@
     ],
     "publishers": [
       "bitter"
+    ],
+    "demos": [
+      {
+        "appid": 4850200,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2874,7 +2883,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1669020
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy EraStorm: SandStorm",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -2897,8 +2918,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 25
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "6 Nov, 2026"
     },
     "support_info": {

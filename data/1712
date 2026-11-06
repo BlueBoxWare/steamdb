@@ -1138,9 +1138,6 @@
     "steam_appid": 5136450,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5306820
-    ],
     "short_description": "100K Zombies is a route-planning incremental tower defense. No fixed paths\u2014place walls and firepower freely, designing the zombies' route to their doom. Build winding mazes or layered defenses. Every map is yours to create. Ready? Obliterate the 100K zombie horde!",
     "supported_languages": "English, French, Italian, German, Russian, Japanese, Simplified Chinese, Traditional Chinese, Portuguese - Brazil, Spanish - Latin America, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5136450/9bfa22ee48c4d65e8979fcf28447e9d22384e57b/header.jpg",
@@ -1153,13 +1150,19 @@
     "publishers": [
       "\u6b63\u5e38\u6e38\u620f ZhengchangGames"
     ],
-    "demos": [
+    "packages": [
+      1778938
+    ],
+    "package_groups": [
       {
-        "appid": 5306820,
-        "description": ""
+        "name": "default",
+        "title": "Buy 100K ZOMBIES",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1183,8 +1186,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 10
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "5 Nov, 2026"
     },
     "support_info": {
@@ -2732,8 +2738,8 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
-      5137220,
-      5322070
+      5322070,
+      5137220
     ],
     "short_description": "Round-based zombie shooter for 1-4 players with roguelite upgrades. Survive the round, pick a card, go again. Every few rounds the lights go out and something comes looking for you. No Pack-a-Punch. Everything is earned by playing",
     "supported_languages": "English, Spanish - Spain, Simplified Chinese, Portuguese - Portugal, Russian, French, German, Spanish - Latin America, Japanese, Portuguese - Brazil",
@@ -2746,6 +2752,12 @@
     ],
     "publishers": [
       "Lunar Bytes Games"
+    ],
+    "demos": [
+      {
+        "appid": 5322070,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {

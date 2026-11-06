@@ -600,6 +600,7 @@
     "steam_appid": 5236190,
     "required_age": 0,
     "is_free": true,
+    "controller_support": "full",
     "short_description": "Power Showdown is a turn-based tactical superhero strategy game where positioning, powers, terrain, and team composition determine every battle.Build a squad from a growing collection of heroes and villains. Build your team. Master your powers. Win the showdown.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5236190/1024d3467e4aeeab46f84f90f6cc1beb7d628420/header.jpg",
@@ -625,15 +626,26 @@
       15,
       17,
       24,
+      28,
       35,
       36,
       37,
       44,
       49,
+      55,
+      56,
+      57,
+      58,
+      59,
       62,
+      64,
+      68,
+      74,
       75,
       76,
-      77
+      77,
+      80,
+      82
     ],
     "genres": [
       1,
@@ -645,10 +657,10 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "31 Aug, 2027"
+      "date": "30 Nov, 2026"
     },
     "support_info": {
-      "url": "",
+      "url": "https://discord.com/invite/JRAGKzU49A",
       "email": "chadstewart1989@gmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5236190",
@@ -1999,8 +2011,8 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Throw rubber ducks, pop the flock and catch the ducklings that burst out \u2014 then use them to pay your bills. A squishy pixel-art arcade roguelite about chain reactions, rising rent and one very full bathtub.",
-    "supported_languages": "English, Traditional Chinese, Spanish - Spain, Japanese, Korean",
+    "short_description": "A tiny bathtub sits on top of your taskbar with one duck in it. Its bubbles hatch more ducks, those ducks hatch more, and soon they spill over the rim and wander across your desktop. A desktop companion with 30 ducks to discover, born from the water's temperature, the night and each other.",
+    "supported_languages": "English, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5236150/b05a044dcadb4132954376bbe88e4db526a3a567/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5236150/22f362090f1b156b22839c58e93723c3680a30d3/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5236150/22f362090f1b156b22839c58e93723c3680a30d3/capsule_184x69.jpg",
@@ -2014,12 +2026,11 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
       2,
-      22,
       28,
       59,
       62,
@@ -2028,7 +2039,9 @@
       80
     ],
     "genres": [
-      4
+      4,
+      23,
+      28
     ],
     "release_date": {
       "coming_soon": true,
@@ -2665,7 +2678,11 @@
     },
     "categories": [
       2,
-      62
+      22,
+      62,
+      68,
+      74,
+      76
     ],
     "genres": [
       2,
@@ -4173,13 +4190,19 @@
     "publishers": [
       "ByteSan"
     ],
-    "demos": [
+    "packages": [
+      1810783
+    ],
+    "package_groups": [
       {
-        "appid": 5237580,
-        "description": ""
+        "name": "default",
+        "title": "Buy TURF FIGHT",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4212,9 +4235,12 @@
       1,
       23
     ],
+    "achievements": {
+      "total": 17
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "4 Nov, 2026"
+      "coming_soon": false,
+      "date": "5 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -5612,6 +5638,70 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5236140",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5236140/9a4768ed34a99202af47fc82f4562c0e2b0188cb/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5235620": {
+    "type": "game",
+    "name": "The Goodnight Potion",
+    "steam_appid": 5235620,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "The Goodnight Potion! is a pixel-art fantasy puzzle game in which you help an old mage with a troubling potion addiction. Choose which potion to drink first, combine elemental reactions, and use spells and transformations to survive until the next night.",
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5235620/c0ad3f7fe5989ef73f8aa264812b777401ff33d9/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5235620/8bf122512c1eceb0788dfcec40141cf9fc9966ed/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5235620/8bf122512c1eceb0788dfcec40141cf9fc9966ed/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Creative Lizards"
+    ],
+    "publishers": [
+      "Creative Lizards"
+    ],
+    "demos": [
+      {
+        "appid": 5484610,
+        "description": ""
+      }
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      15,
+      22,
+      23,
+      25,
+      62,
+      65,
+      67,
+      68,
+      74,
+      76,
+      78,
+      79
+    ],
+    "genres": [
+      4,
+      23
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q1 2027"
+    },
+    "support_info": {
+      "url": "",
+      "email": "creativelizards@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5235620",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5235620/2eef953c1606ccb5121e8fffbe478d354b666246/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

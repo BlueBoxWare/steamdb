@@ -3464,7 +3464,7 @@
     "steam_appid": 5066910,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Fast-paced, skill-based FPS with puzzles, platforming, secrets and deep lore.",
+    "short_description": "Fast-paced, skill-based FPS with environmental puzzles, platforming, secrets and deep lore.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066910/0033ff6ae71cc4e249e080fe468b2a781c998908/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066910/fb47c6c548bf063706ff6e82e6c1251742850dc9/capsule_231x87.jpg",
@@ -3651,9 +3651,9 @@
     ],
     "short_description": "A cozy little skatepark that lives at the bottom of your screen. Skate, BMX, ski and more while you work, visit the town next door, and watch the seasons change on your real clock. Every DLC is free, forever.",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Simplified Chinese, Italian, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese - Portugal, Romanian, Russian, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066400/2f47951475a9d6c912a3fb08c7072a5f1f8c72cc/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066400/b8528e87b378a4f8a59e16372a2b9483b355dd6c/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066400/b8528e87b378a4f8a59e16372a2b9483b355dd6c/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066400/fb845ba673080fa5a2a216c2ee7337a52de222c9/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066400/e5571c18e5dc1fd70e67aa359df3edabb69cccb2/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066400/e5571c18e5dc1fd70e67aa359df3edabb69cccb2/capsule_184x69.jpg",
     "website": "https://stripeycatgames.wilderworkspacesolutions.com/",
     "developers": [
       "Stripey Cat Games"
@@ -3699,7 +3699,7 @@
       70
     ],
     "achievements": {
-      "total": 16
+      "total": 100
     },
     "release_date": {
       "coming_soon": false,
@@ -4660,7 +4660,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "5 Nov, 2026"
+      "date": "November 2026"
     },
     "support_info": {
       "url": "",
@@ -5314,9 +5314,6 @@
     "steam_appid": 5066100,
     "required_age": 0,
     "is_free": true,
-    "dlc": [
-      5312780
-    ],
     "short_description": "Brighten your day with a super cute desktop kitty who lives in a backpack! Turn tasks into rewards and earn kitty costumes, accessories or adorable backpack decorations. Collect, trade, and care for your sweet Backpack Cat. Purrfect for at home, work, or school.",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066100/e1e5186068c6b742094ba5900ed3819fddfc7e74/header.jpg",
@@ -5328,12 +5325,6 @@
     ],
     "publishers": [
       "LTG"
-    ],
-    "demos": [
-      {
-        "appid": 5312780,
-        "description": ""
-      }
     ],
     "package_groups": [],
     "platforms": {
@@ -5655,7 +5646,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Helix Dynamics sold the world a miracle product labeled Shelf Stable. It wasn't. Horde-scale tower defense: Hold Checkpoint Voss against tens of thousands of infected hosts, research heavier hardware, and come back until nothing is left walking.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064060/2cf35c89c1f7f0f692f35c2bcc608cbc3dc18bdf/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064060/36abfe12aff477e8cf7609ce742c499699a3dd28/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064060/36abfe12aff477e8cf7609ce742c499699a3dd28/capsule_184x69.jpg",
@@ -5666,7 +5657,19 @@
     "publishers": [
       "Garrett Menasco"
     ],
-    "package_groups": [],
+    "packages": [
+      1755248
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Shelf Stable",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5676,6 +5679,7 @@
       2,
       15,
       17,
+      18,
       22,
       23,
       25,
@@ -5684,17 +5688,17 @@
       66,
       67,
       68,
-      74,
-      75,
-      76,
-      79
+      74
     ],
     "genres": [
       2
     ],
+    "achievements": {
+      "total": 39
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "6 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -6272,7 +6276,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
