@@ -412,6 +412,7 @@
       9,
       18,
       20,
+      22,
       27,
       35,
       36,
@@ -429,6 +430,9 @@
       29,
       37
     ],
+    "achievements": {
+      "total": 32
+    },
     "release_date": {
       "coming_soon": false,
       "date": "9 Oct, 2026"
@@ -1225,8 +1229,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -3628,6 +3632,11 @@
     "steam_appid": 5307510,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5461250,
+      5461260,
+      5461290
+    ],
     "short_description": "One impulse. One journey. Leap from planet to planet, chain PERFECTs and trigger Hyperdrive in this space arcade game. Push your personal best in Solo or race another pilot in online Duel Rush, then make your comet your own.",
     "supported_languages": "English, French, German, Spanish - Spain, Simplified Chinese, Korean, Indonesian, Japanese, Portuguese - Brazil, Hindi",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5307510/53b74908e6f5aa5557ec9a16afee5ce1b7cc0651/header.jpg",
@@ -3640,7 +3649,19 @@
     "publishers": [
       "FOB.Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1834483
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Gravity Chain",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3661,8 +3682,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "7 Nov, 2026"
     },
     "support_info": {
       "url": "https://fobgames.com/fr/support",
@@ -3682,6 +3703,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      5307790
+    ],
     "short_description": "A top-down stealth assassination game. Your contract comes with no photograph, only a description. Slip through a crowded estate, read the clues, and gaze at suspects to confirm your mark. Then pierce his mind and break him with six arts. Choose wrong, and the whole house wakes.",
     "supported_languages": "English, Japanese, Simplified Chinese, Traditional Chinese, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5307620/711104ec9cecfd253a98de8134dfd8153abdf53a/header.jpg",
@@ -3693,6 +3717,12 @@
     ],
     "publishers": [
       "\u55b5\u55b5\u6bdb"
+    ],
+    "demos": [
+      {
+        "appid": 5307790,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
