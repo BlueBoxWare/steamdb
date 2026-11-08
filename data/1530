@@ -2072,11 +2072,11 @@
     "steam_appid": 4590950,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A unique Reversi game set in the world of El Shaddai. Stones have HP that decreases when flipped, adding deep strategy to the classic board game. Unlock 40+ stories, characters, and special rules as you climb the ranks.",
+    "short_description": "A Reversi game set in the world of El Shaddai, where every stone has HP. Flipped stones weaken and vanish at zero. Includes two modes: Classic, where you unlock 40+ stories solo, and Online, where you battle players worldwide with unique character abilities.",
     "supported_languages": "English, French, Italian, Simplified Chinese, Traditional Chinese, Japanese, Portuguese - Brazil",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4590950/257d09a1684f3dd26fb680398ee98f25c622186c/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4590950/1e2c7446a25bc69dc28312539b69a87a0dccf18b/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4590950/1e2c7446a25bc69dc28312539b69a87a0dccf18b/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4590950/5ee393092d115423260110c54c57249373387257/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4590950/3a931ce7b64eff513a53fffe8787b1a4c4558da7/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4590950/3a931ce7b64eff513a53fffe8787b1a4c4558da7/capsule_184x69.jpg",
     "website": "http://crim.co.jp",
     "developers": [
       "crim Co., Ltd."
@@ -2084,7 +2084,19 @@
     "publishers": [
       "crim Co., Ltd."
     ],
-    "package_groups": [],
+    "packages": [
+      1600059
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy El Shaddai: Zero Nine Reversi",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -2093,9 +2105,13 @@
     "categories": [
       1,
       2,
+      9,
       23,
       24,
+      36,
       37,
+      38,
+      39,
       49,
       62,
       67,
@@ -2111,8 +2127,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "8 Nov, 2026"
     },
     "support_info": {
       "url": "",

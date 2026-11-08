@@ -2677,7 +2677,7 @@
     "steam_appid": 5421990,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A semi-idle auto-battler drawn from Sumerian myth: bind ancient souls and hold a strip torn from the laws of the gods. Heroes fight every battle on their own and gather rewards even while you are away. You choose the line and the relics; casting spells is optional.",
+    "short_description": "A idle auto-battler drawn from Sumerian myth: bind ancient souls and hold a strip torn from the laws of the gods. Heroes fight every battle on their own and gather rewards even while you are away. You choose the line and the relics; casting spells is optional.",
     "supported_languages": "English, Russian, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5421990/1ccc4098251637c886cadde1997c681df723bfb3/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5421990/b74b06db998862b44810551d34dc3e58e632e209/capsule_231x87.jpg",
@@ -4018,7 +4018,19 @@
     "publishers": [
       "Withive Limited"
     ],
-    "package_groups": [],
+    "packages": [
+      1871364
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Burrow War",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4041,8 +4053,8 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "7 Nov, 2026"
     },
     "support_info": {
       "url": "",
