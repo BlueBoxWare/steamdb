@@ -402,10 +402,10 @@
     "name": "Raise",
     "steam_appid": 1859550,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "controller_support": "full",
     "short_description": "Rise from the grave in a compact third-person soulslike. Battle undead and bosses, level up your character and master timed arena challenges. Every hit taken costs time; every parry improves your score. Refine your runs and compete on Steam leaderboards.",
-    "supported_languages": "English, Portuguese - Brazil, Spanish - Spain, Traditional Chinese, Japanese, Russian",
+    "supported_languages": "English, Portuguese - Brazil, Spanish - Spain, Traditional Chinese, Japanese, Russian, French, German",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1859550/98e1f9ff5b06622dd0207b618314ebd9b2773329/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1859550/caf132120a894503e13b7778d9449b026e43d8f6/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1859550/caf132120a894503e13b7778d9449b026e43d8f6/capsule_184x69.jpg",
@@ -416,7 +416,19 @@
     "publishers": [
       "Engrave Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      669134
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Raise",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -432,12 +444,14 @@
       62
     ],
     "genres": [
-      1,
-      37
+      1
     ],
+    "achievements": {
+      "total": 14
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "8 Nov, 2026"
     },
     "support_info": {
       "url": "",

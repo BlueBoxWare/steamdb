@@ -675,11 +675,14 @@
     "steam_appid": 5116620,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5249710
+    ],
     "short_description": "A satirical tower defense roguelite with chaotic real-time combat. Play as a dungeon boss defending your home from hordes of vicious heroes. Place deadly traps, expand your dungeon, grow stronger, and smash the invaders yourself - all to get back to your well-deserved nap!",
     "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Portugal, Russian, Simplified Chinese<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5116620/25799912ac6209b4468e6a40366f3afe43b48e83/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5116620/cd48ebc3bf5302f94fc7ffa3843e7049c5bcd265/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5116620/cd48ebc3bf5302f94fc7ffa3843e7049c5bcd265/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5116620/86a673d387fb4df7548c71ca15bbb2cf4e8a0a34/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5116620/5b9b8528bfd49bb5fe04ceafc531ed099629a400/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5116620/5b9b8528bfd49bb5fe04ceafc531ed099629a400/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "devtainer"
@@ -4137,9 +4140,6 @@
     "steam_appid": 5116650,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5193130
-    ],
     "short_description": "One person buys and installs it on the TV. Everyone else scans the QR code and their own phone or laptop becomes a bridge station, no install, no second copy. Nobody aboard sees the whole picture, so the ship only works if you talk. Crews of 1 to 9, and death is permanent.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5116650/26db59e4ea7077383ba561ed9df24d35682ef7db/header.jpg",
@@ -4151,12 +4151,6 @@
     ],
     "publishers": [
       "Machinaut Studios LLC"
-    ],
-    "demos": [
-      {
-        "appid": 5193130,
-        "description": ""
-      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4181,7 +4175,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "17 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -4746,7 +4740,7 @@
       5349090
     ],
     "short_description": "A metroidvania full of bald guys? Reach the top of the tower with pixel-perfect jumps, collecting weapons that let you unlock the map. Be careful! every mistake can send you, literally, back to the beginning. Only then will you be able to take revenge on the one who mocked you and your alopecia...",
-    "supported_languages": "Spanish - Spain<strong>*</strong>, Spanish - Latin America<strong>*</strong>, English<strong>*</strong>, Japanese<strong>*</strong>, Simplified Chinese<strong>*</strong>, Korean<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "Spanish - Spain<strong>*</strong>, English<strong>*</strong>, Japanese<strong>*</strong>, Simplified Chinese<strong>*</strong>, Korean<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5115320/95f1db4733d5aec1a384f7cbd4007bb7126d2d94/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5115320/8b62a980ac0741769098575ed50e7defd4d2d8b9/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5115320/8b62a980ac0741769098575ed50e7defd4d2d8b9/capsule_184x69.jpg",
@@ -5225,6 +5219,7 @@
     "steam_appid": 5116190,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "dlc": [
       5146790
     ],
@@ -5261,12 +5256,17 @@
       23,
       24,
       25,
+      28,
       36,
       37,
       38,
       39,
       44,
       49,
+      55,
+      56,
+      57,
+      58,
       62,
       67,
       68
@@ -6234,7 +6234,7 @@
   },
   "5115660": {
     "type": "game",
-    "name": "Left4sol",
+    "name": "Left4Sol",
     "steam_appid": 5115660,
     "required_age": 0,
     "is_free": true,
@@ -8094,7 +8094,19 @@
     "publishers": [
       "Blue Anvil Labs Limited"
     ],
-    "package_groups": [],
+    "packages": [
+      1772231
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Ward Nine",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -8115,9 +8127,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 10
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "9 Nov, 2026"
     },
     "support_info": {
       "url": "",

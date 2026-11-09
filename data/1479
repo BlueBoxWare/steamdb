@@ -9478,7 +9478,7 @@
     "name": "Crystal Cascade",
     "steam_appid": 4437110,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "A colorful match-3 puzzle adventure! Travel the world collecting gems, using mining tools, and discovering rare specimens. Swap gems, trigger cascading combos, strike gold, and outsmart bandits across 15+ hand-drawn locations from Arizona to Atlantis.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4437110/783e72beb94a3d3b250569ee7eaf747c9f0a3997/header.jpg",
@@ -9491,7 +9491,19 @@
     "publishers": [
       "Magicka.Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1549170
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Crystal Cascade",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -9499,6 +9511,7 @@
     },
     "categories": [
       2,
+      23,
       62,
       68,
       74,
@@ -9506,12 +9519,11 @@
       80
     ],
     "genres": [
-      4,
-      37
+      4
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "8 Nov, 2026"
     },
     "support_info": {
       "url": "https://magicka.games/contact",
