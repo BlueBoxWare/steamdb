@@ -4024,7 +4024,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "Your bond is your greatest weapon! Team up with a friend to battle monsters by answering quirky and thought-provoking questions about each other, while building decks and exploring an ever-changing world. Can your relationship survive the ultimate test?",
-    "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Malay, Portuguese - Brazil, Simplified Chinese, Thai, Traditional Chinese, Italian",
+    "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Malay, Portuguese - Brazil, Simplified Chinese, Thai, Traditional Chinese, Italian, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3572800/a001c9b29038788f839f8f688f0d3a0c7c259609/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3572800/17ad2f789e2261df9d9cd749f5139d0b3fa6224a/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3572800/17ad2f789e2261df9d9cd749f5139d0b3fa6224a/capsule_184x69.jpg",
@@ -8196,6 +8196,8 @@
       2,
       23,
       28,
+      55,
+      57,
       62
     ],
     "genres": [
@@ -8204,7 +8206,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -12337,9 +12339,6 @@
     "steam_appid": 3570680,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5348020
-    ],
     "short_description": "Meltdown is a nuclear reactor desk-job simulation where you, as a newly recruited operator, must control the reactor to keep the surrounding city powered up. Maintain the wires in the power grid, regulate the water tank\u2019s flow, and tune the steam ventilation to keep the reactor from overheating.",
     "supported_languages": "English, Russian, Portuguese - Brazil",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3570680/54554971195e57a5ef3e4bc298b693986ecc1525/header.jpg",
@@ -12358,7 +12357,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1259851
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Meltdown",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12375,8 +12386,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 25
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Nov, 2026"
     },
     "support_info": {

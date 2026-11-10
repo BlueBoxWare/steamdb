@@ -106,7 +106,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "A roguelike deckbuilder on two wheels. Ride four outlaws down the world's great roads, from Monument Valley to the Tokaido, the Scottish Highlands and the pyramids of Giza, and fight every car, truck and creature that wants you off the road, one card at a time.",
+    "short_description": "Welcome to the largest roguelike deckbuilder ever made. Ride four outlaws down the world's great roads, from Monument Valley to the Tokaido, the Scottish Highlands and the pyramids of Giza, and fight every car, truck and creature that wants you off the road, one card at a time.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Traditional Chinese, Turkish, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379690/aac67e316bbaab0a6b8c0096eb2fe68579ec3aa3/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379690/821e37cbf3bd2591465b3ba874b23fe4e362e9f2/capsule_231x87.jpg",
@@ -145,7 +145,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "5 Nov, 2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -558,11 +558,11 @@
     "steam_appid": 5380990,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Drill down, chain gas explosions and lightning through destructible caves, then spend every haul on a bigger, meaner rig. A pixel art incremental mining roguelite. One more upgrade. One more dive.",
+    "short_description": "A pixel art incremental mining roguelite. Drill through destructible caves, collect ore and build a stronger rig with drones, automated bores and a branching upgrade tree.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Turkish",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380990/a7c47b3e82ee751c70954b62201d73edbbeb3793/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380990/cccb44b065888bbfd3db9415564c915ccf828086/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380990/cccb44b065888bbfd3db9415564c915ccf828086/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380990/3d3514cf9a37dd91ee1c6135fec413c32b77b835/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380990/e09604983af5ec65c4a65b690707b2f3feb1d1d1/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380990/e09604983af5ec65c4a65b690707b2f3feb1d1d1/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Meltem Dogan"
@@ -599,7 +599,7 @@
       "email": "lunart.social@gmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5380990",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380990/1cd0d4b9a93e4f4cca527bd7e469f4b7bd1098b0/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380990/eaaf7ad8709835c3a8b80a65ac7af293de55e703/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -611,7 +611,7 @@
     "steam_appid": 5381250,
     "required_age": 0,
     "is_free": false,
-    "short_description": "You never go on the adventure. You only decide who does. Run the adventurers' guild your grandfather left you: find out what is out there, from dire wolves to a dragon in the old workings, write the contract, and wait at the door to count who comes back. Streaming? Name newcomers after your viewers.",
+    "short_description": "Four went out in the morning. At dusk, three came back through the door. You never go on the adventure: you decide who does. Size up the beast, choose how honestly to write the danger into the contract, and count who comes home. Streaming? Name newcomers after your viewers.",
     "supported_languages": "English, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381250/a83db1212da4e92bd67d589d8f613819f9ed146a/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381250/e56c6b4f77edc5abd109fc35e891959a1560f6ba/capsule_231x87.jpg",
@@ -1027,6 +1027,7 @@
       1,
       2,
       22,
+      23,
       28,
       36,
       49,
@@ -1192,6 +1193,12 @@
     "publishers": [
       "Tiltados Games"
     ],
+    "demos": [
+      {
+        "appid": 5482870,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -1200,6 +1207,7 @@
     },
     "categories": [
       2,
+      22,
       23,
       62,
       68,
@@ -1479,7 +1487,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1858246
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy VOXFRAG",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1499,9 +1519,12 @@
     "genres": [
       1
     ],
+    "achievements": {
+      "total": 28
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2026"
+      "coming_soon": false,
+      "date": "9 Nov, 2026"
     },
     "support_info": {
       "url": "https://gabooarts.com/",
@@ -1822,7 +1845,7 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381810/8dd7b412bc29242dd44f017ae44cc319c8f5f562/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381810/04c9acff7655a814306dc362cfd6cf675ba4fcd6/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381810/04c9acff7655a814306dc362cfd6cf675ba4fcd6/capsule_184x69.jpg",
-    "website": "https://bnjdpn.github.io/Echappee/",
+    "website": "https://bnjdpn.com/apps/echappee/",
     "developers": [
       "Benjamin Dupin"
     ],
@@ -3642,7 +3665,19 @@
     "publishers": [
       "ANT PLANET"
     ],
-    "package_groups": [],
+    "packages": [
+      1857804
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy REC:REWIND",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3662,8 +3697,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 6
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Nov, 2026"
     },
     "support_info": {
@@ -5240,6 +5278,8 @@
     },
     "categories": [
       2,
+      22,
+      23,
       62
     ],
     "genres": [
@@ -5249,7 +5289,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "November 2026"
+      "date": "24 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -6402,7 +6442,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1857902
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Double or Rubble",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6421,9 +6473,12 @@
       28,
       70
     ],
+    "achievements": {
+      "total": 46
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "9 Nov, 2026"
     },
     "support_info": {
       "url": "https://www.digikerr.com/support/",
@@ -7155,7 +7210,19 @@
     "publishers": [
       "Kavkaz Sila Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1858404
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Face Sitting Simulator",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -7169,8 +7236,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "4 Nov, 2026"
+      "coming_soon": false,
+      "date": "9 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -7968,6 +8035,53 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5380260",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5380260",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5381790": {
+    "type": "game",
+    "name": "N in One World Bridge Collection: Rubber Bridge, Chicago Bridge, Matchpoint Pairs, IMP Teams",
+    "steam_appid": 5381790,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Settle in for a few hands of bridge. Explore 20 formats with warm tables, pixel cards and three bot difficulties. Start with auction-free Mini Bridge or try matchpoints, team IMPs and local tournaments. Play solo offline, use hints or autoplay, and pick up where you left off.",
+    "supported_languages": "English, French, German, Spanish - Spain, Japanese, Simplified Chinese, Traditional Chinese, Korean",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381790/e4c68a1050b6914b2da88a667f439701c8956735/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381790/0375e8b2c1b72f17e4ef2c5efad664d93a58a053/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381790/0375e8b2c1b72f17e4ef2c5efad664d93a58a053/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "PixelForge Studio "
+    ],
+    "publishers": [
+      "PixelForge Studio "
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      2,
+      4
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Coming soon"
+    },
+    "support_info": {
+      "url": "",
+      "email": "tsz1216@sina.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5381790",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381790/37e3e9cb61cf27ae603533b2064c95398cb60065/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

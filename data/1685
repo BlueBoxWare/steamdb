@@ -1044,7 +1044,7 @@
       5356620
     ],
     "short_description": "Rulebound is a surreal horror incremental game where survival depends on split attention. Trapped in the Void, play a strange disc-merging game on an old CRT TV. Bounce and merge discs, buy upgrades, and forge 3 Golden Discs while watching for entities in the dark.",
-    "supported_languages": "English, French, Italian, German, Japanese, Polish, Portuguese - Brazil, Romanian, Simplified Chinese, Spanish - Latin America, Korean, Spanish - Spain",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Japanese, Polish, Portuguese - Brazil, Romanian, Simplified Chinese, Spanish - Latin America, Korean, Spanish - Spain<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5057050/9656d7d5d306e17791a80ebb26a85a68ecf9ede7/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5057050/a1cb29063ed6d66b2b77698ea0a9b75b0a345501/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5057050/a1cb29063ed6d66b2b77698ea0a9b75b0a345501/capsule_184x69.jpg",
@@ -1069,6 +1069,9 @@
     },
     "categories": [
       2,
+      15,
+      22,
+      23,
       62,
       68,
       69
@@ -4796,6 +4799,9 @@
     "steam_appid": 5056320,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5309330
+    ],
     "short_description": "Fantorob is a futuristic take on classic monster-taming genre. Build robots and fight against your opponents to collect components and upgrade your team in this thrilling turn-based combat RPG with brain-twisting puzzles. Join the journey to become the greatest robot master!",
     "supported_languages": "English<strong>*</strong>, Portuguese - Brazil<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5056320/65e58f6bd92ebb395ee5358e5e545f4a3c0deb41/header.jpg",
@@ -4808,7 +4814,25 @@
     "publishers": [
       "Ludens Studio"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5309330,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1752771
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Fantorob",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4816,7 +4840,6 @@
     },
     "categories": [
       2,
-      15,
       18,
       22,
       23,
@@ -4834,9 +4857,12 @@
       3,
       25
     ],
+    "achievements": {
+      "total": 61
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2026"
+      "coming_soon": false,
+      "date": "9 Nov, 2026"
     },
     "support_info": {
       "url": "https://www.ludens.studio/fantorob-support?source=steam",

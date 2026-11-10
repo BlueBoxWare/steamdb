@@ -77,8 +77,8 @@
     "short_description": "Journey through a fallen world, conquer deadly dungeons, and master high-stakes combat in a top-down 2D action RPG. Uncover secrets across a sprawling retro world built for fans of classic 8-bit adventures.",
     "supported_languages": "English, French, German, Japanese, Korean, Portuguese - Brazil, Spanish - Latin America, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034450/3b7edd60cf61bae50c6e04c2b5dc0b4ee0cb5b58/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034450/42928d7fc82fa83e0a698d29a6ddcad402fa7acb/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034450/42928d7fc82fa83e0a698d29a6ddcad402fa7acb/capsule_184x69.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034450/362f5bc27e52b97e64b33e25052908a25c021c91/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034450/362f5bc27e52b97e64b33e25052908a25c021c91/capsule_184x69.jpg",
     "website": "https://x.com/puppetborne",
     "developers": [
       "Mario Aviles"
@@ -378,6 +378,7 @@
     "steam_appid": 5034130,
     "required_age": 0,
     "is_free": true,
+    "controller_support": "full",
     "short_description": "A world reborn - A free to play action RPG which takes place in the Nexus. Elemental Biomes to explore where danger awaits.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034130/16ed9c0119e5a3f619438dbcfbfc5c2f80e209de/header.jpg",
@@ -401,6 +402,7 @@
       9,
       20,
       22,
+      28,
       36,
       38,
       49,
@@ -872,7 +874,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1746109
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Essence Harvest",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -897,9 +911,12 @@
       1,
       4
     ],
+    "achievements": {
+      "total": 33
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "November 2026"
+      "coming_soon": false,
+      "date": "9 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -3715,7 +3732,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1746361
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Kreabordis",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3735,8 +3764,11 @@
       2,
       4
     ],
+    "achievements": {
+      "total": 13
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "9 Nov, 2026"
     },
     "support_info": {
@@ -7062,7 +7094,8 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
-      5212070
+      5212070,
+      5361620
     ],
     "short_description": "\u300e\u3044\u3064\u307e\u3067\u3082\u7f8e\u30b7\u30af - Villa NEPENTHES -\u300f\u306f\u3001\u63a2\u7d22\u3059\u308b\u307b\u3069\u8001\u3044\u3066\u3044\u304f\u3001\u5b64\u5cf6\u9928\u30db\u30e9\u30fcADV\u3002\u82e5\u3055\u3092\u596a\u3046\u9928\u306e\u771f\u76f8\u3092\u66b4\u304d\u3001\u507d\u88c5\u5de5\u4f5c\u3067\u6575\u3092\u6b3a\u304d\u3001\u5d29\u308c\u3086\u304f\u5cf6\u304b\u3089\u8131\u51fa\u305b\u3088\u3002",
     "supported_languages": "Japanese",
@@ -7104,7 +7137,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2026"
+      "date": "19 Nov, 2026"
     },
     "support_info": {
       "url": "https://www.dreamshare.info/",
