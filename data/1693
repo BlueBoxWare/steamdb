@@ -1423,7 +1423,10 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Exploit unique and deep floppy fish physics and create your own shortcuts to race to the end of handcrafted levels as fast as you can. Or just flop around!",
+    "dlc": [
+      5296560
+    ],
+    "short_description": "Master the art of flopping and exploit fish physics as you speed through handcrafted environments and rank up to beat your and your friends' times. Can you claim the title of &quot;Flash the Floppy Fish&quot;?",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5081800/99b0707e32830f13ddc448f2ae86396c2592dce8/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5081800/d839c0730fe787478b8a4a539a529aaf9432d1d2/capsule_231x87.jpg",
@@ -2249,11 +2252,8 @@
     "steam_appid": 5080030,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5307920
-    ],
     "short_description": "Stand the 1 a.m. watch as a SOC defensive AI. The intruder is already inside; you see only its traces. Tell attack from routine, pull threads across hosts and keys, win a human sign-off, excise it in one strike. Real ATT&amp;CK techniques, detections you write, twenty-plus nights, more than one ending.",
-    "supported_languages": "English, Japanese",
+    "supported_languages": "English, Japanese, Russian, Simplified Chinese, Traditional Chinese, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5080030/fbf8d84cf86d3431b787906c2004756554afccb5/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5080030/70cf581c2c6220c03276a1051bc6a90f4e4705db/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5080030/70cf581c2c6220c03276a1051bc6a90f4e4705db/capsule_184x69.jpg",
@@ -2264,17 +2264,11 @@
     "publishers": [
       "sasoriken-games"
     ],
-    "demos": [
-      {
-        "appid": 5307920,
-        "description": ""
-      }
-    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       2,
@@ -2758,7 +2752,8 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
-      5225400
+      5225400,
+      5518690
     ],
     "short_description": "Just Up: 2D Platformer is a vertical platformer where the goal is to reach the top. Jump and dash across platforms as you climb higher. Discover new places, explore changing environments, leave the atmosphere behind, and find out what awaits you at the top...",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic<strong>*</strong>, Bulgarian<strong>*</strong>, Czech<strong>*</strong>, Danish<strong>*</strong>, Dutch<strong>*</strong>, Finnish<strong>*</strong>, Greek<strong>*</strong>, Hungarian<strong>*</strong>, Indonesian<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Malay<strong>*</strong>, Norwegian<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Romanian<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Swedish<strong>*</strong>, Thai<strong>*</strong>, Traditional Chinese<strong>*</strong>, Turkish<strong>*</strong>, Ukrainian<strong>*</strong>, Vietnamese<strong>*</strong>, Azerbaijani<strong>*</strong><br><strong>*</strong>languages with full audio support",
@@ -2778,7 +2773,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1760767
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Just Up: 2D Platformer",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2802,8 +2809,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 26
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "11 Nov, 2026"
     },
     "support_info": {
@@ -2946,7 +2956,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1760934
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Drill Rover",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2968,8 +2990,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 15
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "11 Nov, 2026"
     },
     "support_info": {
@@ -3258,7 +3283,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1760671
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Happy Project 12",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3277,8 +3314,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "11 Nov, 2026"
+      "coming_soon": false,
+      "date": "10 Nov, 2026"
     },
     "support_info": {
       "url": "https://x.com/yk_llm_gpt",
@@ -6192,12 +6229,12 @@
     "dlc": [
       5347780
     ],
-    "short_description": "A slow-paced, cozy sorting game, where you organize 2900+ potions in a fantasy alchemy shop. Read the book to learn about each new potion. Use narrative deduction to find the correct placement and tidy up the mess with no power-ups!",
+    "short_description": "A slow-paced, cozy sorting game, where you organize 2900+ potions in a fantasy alchemy shop. Read the book to learn about each new potion. Use narrative deduction to find the correct placement and tidy up the mess!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5079620/cb1b70a3072822bd7efd4563c8709776345395ec/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5079620/be5715b3261ad84c7eba3dce6e559412bca42836/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5079620/be5715b3261ad84c7eba3dce6e559412bca42836/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://playmunch.eu",
     "developers": [
       "Playmunch"
     ],
@@ -6210,7 +6247,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1760327
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Potions Galore",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -6218,6 +6267,9 @@
     },
     "categories": [
       2,
+      18,
+      22,
+      23,
       62
     ],
     "genres": [
@@ -6225,13 +6277,16 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 43
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "11 Nov, 2026"
     },
     "support_info": {
       "url": "",
-      "email": "social@playmunch.eu"
+      "email": "contact@playmunch.eu"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5079620",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5079620/e717b5f0c08e3965a8f7cc367f465951008f195d/page_bg_raw.jpg",
@@ -7778,9 +7833,9 @@
     "is_free": false,
     "short_description": "Turn the games you're playing into awesome guides! Capture your epic moments! With all the tools you'll ever need right at your fingertips, there's no learning curve. It offers the simplest way to help you build guides or take notes.",
     "supported_languages": "English, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5079630/6e6dc694a6af0ad261a4cf57d1a4c12c3ead11c5/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5079630/a60a82e810ef69a1e7e6d642e4bf488cf7b6db68/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5079630/a60a82e810ef69a1e7e6d642e4bf488cf7b6db68/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5079630/2e08d220809419cfefa744ec63611495c97ea9a3/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5079630/9c1b78e59a4d79de64d203648bec5a0cf536245a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5079630/9c1b78e59a4d79de64d203648bec5a0cf536245a/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Dawn Studios"
@@ -7804,7 +7859,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q4 2026"
+      "date": "18 Nov, 2026"
     },
     "support_info": {
       "url": "",

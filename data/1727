@@ -502,7 +502,7 @@
     "dlc": [
       5371480
     ],
-    "short_description": "Grow an ever-expanding fungal network in this relaxing incremental exploration game. Discover hidden resources, cultivate mushrooms that automate your production, and evolve your mycelium into a self-sustaining underground empire.",
+    "short_description": "Grow a living fungal network in a cozy exploration game. Guide your mycelium toward hidden resources, unlock new mushroom abilities, and build a thriving colony in a living forest. Active exploration meets light incremental progression.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5181520/5b6220116b49c7e7a968cc608d32e47bc8fe722f/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5181520/0261f64ac040dfdb6cdf6ad425280f352b181f27/capsule_231x87.jpg",
@@ -4586,7 +4586,7 @@
     "dlc": [
       5299230
     ],
-    "short_description": "Cut parts from sprues, paint them your way, apply decals, and assemble each kit. Pose your finished models, set them in dioramas, and display them in your room. 30+ kits from 6 original series, built at your own pace in a relaxing model-building simulation.",
+    "short_description": "Plamo is Japanese for plastic model kits. Snip parts from the runner, snap them together, and finish them with paint, panel lining, edge highlights, decals, and weathering. Build 30+ original kits, from mechs and racers to spacecraft and jets, then pose them, set up dioramas, and fill your shelves.",
     "supported_languages": "English, Japanese, Spanish - Spain, Simplified Chinese, Traditional Chinese, Korean, French, German, Portuguese - Brazil, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183970/ae670ccd1713eafb9f4d6ca71e54b51b03e92c25/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183970/12e1129903200e5aa1464a4867245d4261755398/capsule_231x87.jpg",
@@ -5763,6 +5763,7 @@
     "steam_appid": 5183140,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Rocks roll in, you crack them open, coins pile up! OREBELT is a cozy idle miner where your little mine slowly grows into a mega factory, from coal and iron to blood diamonds, jade and more.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese, Catalan, Galician, Georgian, Swahili",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5183140/49c276e7546562f18ebd533e984734cf5c5e71a2/header.jpg",
@@ -5776,7 +5777,19 @@
     "publishers": [
       "The Bridge Brothers"
     ],
-    "package_groups": [],
+    "packages": [
+      1793833
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy OREBELT",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5788,9 +5801,12 @@
       22,
       23,
       25,
+      28,
       30,
       62,
       63,
+      64,
+      66,
       68,
       74,
       76,
@@ -5800,8 +5816,11 @@
     "genres": [
       4
     ],
+    "achievements": {
+      "total": 99
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "10 Nov, 2026"
     },
     "support_info": {

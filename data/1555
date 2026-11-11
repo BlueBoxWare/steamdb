@@ -35,7 +35,9 @@
       23,
       25,
       62,
+      64,
       66,
+      67,
       68,
       74,
       76,
@@ -2039,7 +2041,7 @@
     "steam_appid": 4666520,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A painterly fishing game for people who just want to fish. Read the water, pick your lure and fight bass that fight back. No crops, no mines, no energy meter. Chill on the water. Hard on the hook.",
+    "short_description": "A 2D painterly fishing game for people who just want to fish. Read the water, pick your lure and fight bass that fight back. No crops, no mines, no energy meter. Chill on the water. Hard on the hook.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666520/66d35565fc2ea5e0c8ae778ea4051242b64cfe30/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666520/241134344348386f46e01dbea0d62d47ba1e4679/capsule_231x87.jpg",
@@ -4027,7 +4029,10 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Walk a darker Brazil and uncover the creatures its folklore keeps in the deep forest, monsters most players have never seen. A roguelite deckbuilder: summon spirits onto a four-lane ritual board, sacrifice your own to pay for what comes next, and seal each one into your grimoire.",
+    "dlc": [
+      5392970
+    ],
+    "short_description": "Walk a darker Brazil and uncover the creatures its folklore keeps in the deep forest, monsters most players have never seen. A roguelite deckbuilder: sacrifice cards from your hand to summon onto a four-lane ritual board, and seal each one into your grimoire.",
     "supported_languages": "English<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Spanish - Spain, Spanish - Latin America, Portuguese - Portugal<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666180/9bbe66a132af65791a207bd58187debd8cf6bc12/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666180/5dafd62b8ed83c14bb9199dd0b7764d2fa432378/capsule_231x87.jpg",
@@ -4038,6 +4043,12 @@
     ],
     "publishers": [
       "Wild Pepper Games"
+    ],
+    "demos": [
+      {
+        "appid": 5392970,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -4109,7 +4120,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "To be announced"
+      "date": "2027"
     },
     "support_info": {
       "url": "",
@@ -5704,7 +5715,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1624701
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Gobs & Gears",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -5732,8 +5755,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 42
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "10 Nov, 2026"
     },
     "support_info": {
