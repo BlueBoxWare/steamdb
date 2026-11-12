@@ -14103,7 +14103,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Fix stick drift and calibrate your controller on Windows. Health Score, guided Quick Fix, and Save to console - write centre and range to your pad over USB, then unplug and play on PlayStation, Xbox, or Nintendo.",
+    "short_description": "Fix stick drift and joystick drift on PS5 DualSense, DualSense Edge, PS4, Xbox and Switch controllers. Scan for a 0-100 Health Score, run guided controller calibration, tune deadzones, then Save to console so the fix lives on the pad. DriftNo also tells you when a stick is worn out.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679670/5171526ccc1605f6adfc437cd353fc253a13e5cf/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679670/6e15cd26f51b6aba69f8c8365341a87e62afee3b/capsule_231x87.jpg",
@@ -14115,7 +14115,19 @@
     "publishers": [
       "DRIFTALINE LIMITED"
     ],
-    "package_groups": [],
+    "packages": [
+      959905
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy DriftNo",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -14138,8 +14150,8 @@
       57
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "11 Nov, 2026"
+      "coming_soon": false,
+      "date": "12 Nov, 2026"
     },
     "support_info": {
       "url": "https://driftno.com/guides",

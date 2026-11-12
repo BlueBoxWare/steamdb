@@ -2583,6 +2583,9 @@
     "steam_appid": 4838590,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5030030
+    ],
     "short_description": "A story-driven psychological horror that chases the truth behind Rachel's death. As you follow scattered memories, you slowly come face to face with the reality of the tragedy. Blaming someone is easy. But answering what truly killed her is not.",
     "supported_languages": "English, Korean, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4838590/14270ba9985a16c1539c92fbd12c88d3c169cf8f/header.jpg",
@@ -2595,7 +2598,25 @@
     "publishers": [
       "Team Miji"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5030030,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1680948
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy What Killed Rachel",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2612,8 +2633,8 @@
       25
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2026"
+      "coming_soon": false,
+      "date": "11 Nov, 2026"
     },
     "support_info": {
       "url": "",

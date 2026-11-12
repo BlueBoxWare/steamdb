@@ -1780,6 +1780,9 @@
     "steam_appid": 5068750,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5068820
+    ],
     "short_description": "You don't aim freely. The reticle swings on its own, and only one bolt can be in play. Wait for the angle, fire, and turn a single ricochet into a chain of kills. A one-button score-attack shooter: Normal runs take about five to seven minutes, Endless never stops.",
     "supported_languages": "English, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5068750/3e8fda60328aa87aea8cd9807f85e2cea8be2bf4/header.jpg",
@@ -1792,7 +1795,25 @@
     "publishers": [
       "MisoSoupW"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 5068820,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1756825
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Ricochet Witch",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1812,9 +1833,12 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 19
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "November 2026"
+      "coming_soon": false,
+      "date": "11 Nov, 2026"
     },
     "support_info": {
       "url": "",

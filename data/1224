@@ -2831,7 +2831,8 @@
     "steam_appid": 3672660,
     "required_age": 0,
     "is_free": false,
-    "short_description": "\u2615 Turn a run-down house by the river into a cozy cafe of your own design. Grow and brew your coffee, paint and furnish the place, meet three neighbours with lives of their own - and keep Ostin the cat company. Early Access.",
+    "controller_support": "full",
+    "short_description": "\u2615 Turn a run-down house by the river into a cozy cafe of your own design: grow and brew your coffee, paint and furnish the place, and get to know the neighbours of a quiet town - and keep Ostin the cat company. Early Access.",
     "supported_languages": "English, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672660/2dbaa403f2b1d0d510437f8f82deb2b360b09920/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672660/9744201e5b3450e4efcd08a5bbbf242271d1c29e/capsule_231x87.jpg",
@@ -2843,7 +2844,19 @@
     "publishers": [
       "Biruk Okami"
     ],
-    "package_groups": [],
+    "packages": [
+      1293711
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Caramel Creek",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2853,6 +2866,11 @@
       2,
       22,
       23,
+      28,
+      55,
+      56,
+      57,
+      58,
       62,
       68,
       69,
@@ -2866,8 +2884,11 @@
       28,
       70
     ],
+    "achievements": {
+      "total": 39
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "11 Nov, 2026"
     },
     "support_info": {
@@ -10308,6 +10329,9 @@
     "steam_appid": 3673950,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5344750
+    ],
     "short_description": "Gun Garden is a dungeon crawler top-down shooter with roguelike elements. Explore rooms, find gear, fight enemies, and level up your stats as you progress through the various floors, attempting to find what lies at the end of the Gun Garden.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3673950/8c9faa6e1598082a7b742063409bafeb3bdde9e1/header.jpg",
@@ -10319,6 +10343,12 @@
     ],
     "publishers": [
       "NEETNectar"
+    ],
+    "demos": [
+      {
+        "appid": 5344750,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {

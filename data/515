@@ -9796,7 +9796,7 @@
     "name": "lightblue",
     "steam_appid": 1547970,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "short_description": "An ancient legend, a shattered family, an exorcist priest. Embrace the crucifix, have faith in the Lord and face the evil inside lightblue.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1547970/f589b7e44c6f213dd70556836f5dc750ddd6e866/header.jpg",
@@ -9809,7 +9809,19 @@
     "publishers": [
       "uut games"
     ],
-    "package_groups": [],
+    "packages": [
+      1927670
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy lightblue",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,

@@ -4760,9 +4760,6 @@
     "steam_appid": 4857160,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5253260
-    ],
     "short_description": "Activate every shape in abstract logic puzzles built from gems, signals, and shifting paths. Learn each gem's rule, solve the campaign, then build and share your own levels through the editor and Steam Workshop.",
     "supported_languages": "English, Simplified Chinese, Japanese, Spanish - Spain, Portuguese - Brazil, Russian, French, German, Spanish - Latin America, Korean, Polish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4857160/a2b1eeb7f5c932950053893171d71cabf5b826bd/header.jpg",
@@ -4775,13 +4772,19 @@
     "publishers": [
       "eMbAh"
     ],
-    "demos": [
+    "packages": [
+      1686996
+    ],
+    "package_groups": [
       {
-        "appid": 5253260,
-        "description": ""
+        "name": "default",
+        "title": "Buy Elsewhere",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4805,8 +4808,11 @@
       2,
       23
     ],
+    "achievements": {
+      "total": 7
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "11 Nov, 2026"
     },
     "support_info": {
@@ -5812,6 +5818,7 @@
     "categories": [
       2,
       22,
+      23,
       62
     ],
     "genres": [
@@ -6952,7 +6959,6 @@
     "steam_appid": 4858850,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "The cribbage night you remember. Two, three and four-hand play: online at tables, passed around one screen at home, or against distinct opponents who never peek at your cards. Watch them play each other while you chat, or train in The Study \u2014 your first fifteen to muggins.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4858850/0daceef91d19712c89ff2491bf0e758d11322d97/header.jpg",
@@ -6965,6 +6971,12 @@
     "publishers": [
       "Glacial Silt Studios LLC"
     ],
+    "demos": [
+      {
+        "appid": 5409510,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -6976,11 +6988,11 @@
       2,
       9,
       15,
+      18,
       22,
       23,
       24,
       25,
-      28,
       36,
       37,
       39,
@@ -8914,8 +8926,8 @@
       37
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "10 Nov, 2026"
+      "coming_soon": false,
+      "date": "12 Nov, 2026"
     },
     "support_info": {
       "url": "",
