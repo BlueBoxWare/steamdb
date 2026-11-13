@@ -60,7 +60,7 @@
     "steam_appid": 4506060,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Welcome to the night shift. You're an underground mechanic tinkering with salvaged hardware and retro-chassis. Wire up your rigs, deploy them into automated combat arenas, and sit back while the telemetry rolls in. Grind scrap, synthesize experimental parts, and perfect your machines.",
+    "short_description": "Build a combat robot from salvaged parts, send it into automated battle, and bring the loot home to build a better one.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4506060/1d2259be1110ab954ff430a6298839679aadb5eb/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4506060/d9e81220aae812c02f33a2cc1d2d7279b80d8f26/capsule_231x87.jpg",
@@ -4908,7 +4908,19 @@
     "publishers": [
       "Psychotronic"
     ],
-    "package_groups": [],
+    "packages": [
+      1572744
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Death Dealer",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4931,8 +4943,8 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "November 2026"
+      "coming_soon": false,
+      "date": "12 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -8821,6 +8833,7 @@
     "steam_appid": 4506540,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "dlc": [
       5277610
     ],
@@ -8844,8 +8857,14 @@
       "linux": false
     },
     "categories": [
+      1,
       2,
+      9,
       22,
+      28,
+      36,
+      38,
+      49,
       62
     ],
     "genres": [

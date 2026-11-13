@@ -2151,9 +2151,9 @@
     "controller_support": "full",
     "short_description": "The Racing Journey is a realistic racing videogame where you can experience the entire career of a professional racing driver. Start racing in local championships with simple rental karts, and defeat your rivals until you reach Drive 1\u2122!",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Simplified Chinese, Japanese, Portuguese - Portugal, Russian<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000080/c21f9331fc97844d2802fc916c97776eee53a600/header.jpg?t=1757343332",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000080/c13c080c48e22e12990a3ec348690764617018bb/capsule_231x87.jpg?t=1757343332",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000080/c13c080c48e22e12990a3ec348690764617018bb/capsule_184x69.jpg?t=1757343332",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000080/c21f9331fc97844d2802fc916c97776eee53a600/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000080/c13c080c48e22e12990a3ec348690764617018bb/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000080/c13c080c48e22e12990a3ec348690764617018bb/capsule_184x69.jpg",
     "website": "https://educated-violet-3ed.notion.site/The-Racing-Journey-Press-Kit-26340c0bb31c8089859be41b89754a0e",
     "developers": [
       "OverLimits Games"
@@ -2174,6 +2174,11 @@
       28,
       37,
       49,
+      55,
+      56,
+      57,
+      58,
+      60,
       62,
       66,
       67,
@@ -2195,29 +2200,11 @@
       "url": "",
       "email": "support@overlimitsgames.com"
     },
-    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4000080?t=1757343332",
-    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4000080?t=1757343332",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4000080",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4000080",
     "content_descriptors": {
       "ids": [],
       "notes": null
-    },
-    "ratings": {
-      "dejus": {
-        "rating_generated": "1",
-        "rating": "l",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      },
-      "steam_germany": {
-        "rating_generated": "1",
-        "rating": "0",
-        "required_age": "0",
-        "banned": "0",
-        "use_age_gate": "0",
-        "descriptors": ""
-      }
     }
   },
   "4000780": {
@@ -8320,7 +8307,19 @@
     "publishers": [
       "OneManOnly Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1403617
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Siren's Well 2",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8342,8 +8341,11 @@
       1,
       25
     ],
+    "achievements": {
+      "total": 56
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "13 Nov, 2026"
     },
     "support_info": {
@@ -12930,6 +12932,9 @@
     "steam_appid": 4001490,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      4866330
+    ],
     "short_description": "Wildborne Online is an immersive open-world MMORPG centered around animal-inspired gameplay, set to make a powerful entrance into the genre. Whether you're drawn to roleplaying, engaging story quests, or intense PvP battles, Wildborne offers something for every type of adventurer.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001490/5b113cc92f1aa98fbde2a5d844dff6d14d9f8cc8/header.jpg",
@@ -12958,11 +12963,14 @@
       27,
       30,
       35,
+      55,
+      57,
       62,
       67,
       68,
       69,
-      79
+      79,
+      80
     ],
     "genres": [
       3,

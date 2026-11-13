@@ -4097,9 +4097,6 @@
     "steam_appid": 4789040,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      5013230
-    ],
     "short_description": "'SPUM TD' is a 2D strategy game that combines Auto-Chess and Tower Defense. Hire units from a randomized shop and match attribute and class synergies to build a powerful formation. Fend off pouring waves of enemies and complete your ultimate deck!",
     "supported_languages": "English, Japanese, Simplified Chinese, Traditional Chinese, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4789040/11a3b138c2be8b36c1f537341e7410f6244fcdea/header.jpg",
@@ -4112,13 +4109,19 @@
     "publishers": [
       "SonRaim Studio"
     ],
-    "demos": [
+    "packages": [
+      1664793
+    ],
+    "package_groups": [
       {
-        "appid": 5013230,
-        "description": ""
+        "name": "default",
+        "title": "Buy SPUM TD",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
       }
     ],
-    "package_groups": [],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4139,8 +4142,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 15
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "12 Nov, 2026"
     },
     "support_info": {

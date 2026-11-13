@@ -1071,12 +1071,12 @@
   },
   "4601900": {
     "type": "game",
-    "name": "Debug Your Heart",
+    "name": "Debug Your Heart: Runs Only for You",
     "steam_appid": 4601900,
     "required_age": 0,
     "is_free": true,
     "short_description": "A bite-sized visual novel set in Taiwan's game industry. A love story about making games.",
-    "supported_languages": "Traditional Chinese",
+    "supported_languages": "Traditional Chinese, English, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4601900/12cbbaea6126ecfda995f08143e63d9c1bc3b8f2/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4601900/0020729515a31abbdf4fe7e3813049dc03c5d8e8/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4601900/0020729515a31abbdf4fe7e3813049dc03c5d8e8/capsule_184x69.jpg",
@@ -1118,8 +1118,10 @@
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4601900",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4601900",
     "content_descriptors": {
-      "ids": [],
-      "notes": null
+      "ids": [
+        5
+      ],
+      "notes": "The dialogue touches on the industry trend of producing adult games,\nbut there are no actual details or adult content shown."
     }
   },
   "4599620": {
@@ -5149,7 +5151,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "November 2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "",
@@ -5579,9 +5581,9 @@
     "controller_support": "full",
     "short_description": "Torizon Telecom is a text-based FPS game set in a vast world composed entirely of text. \u201cTelecom\u201d\u2014a world where everything is text. \u201cTelecom\u201d... But does any other world exist beyond \u201cTelecom\u201d...? Or is \u201cTelecom\u201d the only one that exists...?",
     "supported_languages": "English, Korean, Russian, Spanish - Latin America, Japanese, Simplified Chinese, French, German, Portuguese - Brazil, Arabic, Hebrew, Hindi, Italian, Vietnamese, Traditional Chinese, Greek, Ukrainian, Indonesian, Turkish, Tamil, Thai, Polish",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599560/fa3c7d7a933b158fadd2f7d0d3631425729b9097/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599560/8ae9d753ab0a7f5970fb068f47e46969584ca32b/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599560/8ae9d753ab0a7f5970fb068f47e46969584ca32b/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599560/6013419bc6223526fb7d39d90712e01c869c6eaa/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599560/7a0c5eeb0decf8a6c7f167dd01757b7ed01d9487/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599560/7a0c5eeb0decf8a6c7f167dd01757b7ed01d9487/capsule_184x69.jpg",
     "website": "https://madeinskago.com/TorizonTelecom/",
     "developers": [
       "SkagoGames",
@@ -5663,7 +5665,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1602916
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Grandma Left Me A Building",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -5685,8 +5699,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 60
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "13 Nov, 2026"
     },
     "support_info": {

@@ -5235,7 +5235,8 @@
     "is_free": false,
     "controller_support": "full",
     "dlc": [
-      5086540
+      5086540,
+      5549960
     ],
     "short_description": "Read the board. Read your opponents. A military board game of hidden information, bluffing and land, sea and air tactics. Play 4-player 2v2, draw identities and guess allegiances in 6-player 3v3, or face an opponent in a land duel.",
     "supported_languages": "English, French, German, Russian, Japanese, Polish, Simplified Chinese, Traditional Chinese, Spanish - Spain, Portuguese - Brazil, Portuguese - Portugal, Korean, Spanish - Latin America",
@@ -7100,7 +7101,7 @@
     "dlc": [
       5149800
     ],
-    "short_description": "Build the most game breaking party you can in this dungeon crawling roguelike auto-battler. Recruit, level up, arrange devastating card synergies, and descend into cursed dungeons alone or with a friend in online co-op",
+    "short_description": "Auto-battler Dungeoncrawler without PvP in a Dark Fantasy setting. Recruit, Match 3 to level up, build game breaking synergies with items and unlocks. Supports 2 player online CO-OP",
     "supported_languages": "English<strong>*</strong>, Simplified Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4884790/0e45981c763b2d139f4a2f61cb3fa6f7c8e38feb/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4884790/53ed4a9e6de943fc25546ab35a3a6f55e7da61b7/capsule_231x87.jpg",
@@ -8664,6 +8665,7 @@
     "steam_appid": 4885090,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Explore the first true open-world Backrooms: one infinite, procedurally generated world full of unique biomes, shared by every online player. (And the entities live here too!)",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic<strong>*</strong>, Bulgarian<strong>*</strong>, Czech<strong>*</strong>, Danish<strong>*</strong>, Dutch<strong>*</strong>, Finnish<strong>*</strong>, Greek<strong>*</strong>, Hungarian<strong>*</strong>, Indonesian<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Malay<strong>*</strong>, Norwegian<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Romanian<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Swedish<strong>*</strong>, Thai<strong>*</strong>, Traditional Chinese<strong>*</strong>, Turkish<strong>*</strong>, Ukrainian<strong>*</strong>, Vietnamese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4885090/33be6778ebf416b7a1f6eb71eaf5ac599b27225a/header.jpg",
@@ -8680,16 +8682,23 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       1,
       2,
       9,
       20,
+      22,
+      23,
+      28,
+      30,
       36,
       38,
       49,
+      57,
+      58,
+      59,
       62,
       67,
       68,
@@ -8889,7 +8898,7 @@
     "steam_appid": 4886290,
     "required_age": 0,
     "is_free": true,
-    "short_description": "An adults-only riichi mahjong game. Battle charismatic rivals in the underworld of Red Fan City, take on bosses with unique abilities, and unlock character stories and CG memories.",
+    "short_description": "Real strip mahjong is back. One rule: you play, somebody strips, and the loser ends up with nothing on. Beat the smart-mouthed beauties of Red Fan City at riichi mahjong until there is nothing left to take off, then add them to your lineup. Adults only. Free to play.",
     "supported_languages": "Simplified Chinese, Traditional Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4886290/9d8fd3792e9ec5fdd8728e1c7b282d2518a82d7d/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4886290/6fda1531c7818a91c5f46bc3de0e9a8bdc676744/capsule_231x87.jpg",
@@ -8959,7 +8968,19 @@
     "publishers": [
       "Mushroom_factory"
     ],
-    "package_groups": [],
+    "packages": [
+      1696585
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Mushroom Must Go Up!",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8978,9 +8999,12 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 6
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "8 Nov, 2026"
+      "coming_soon": false,
+      "date": "12 Nov, 2026"
     },
     "support_info": {
       "url": "",
