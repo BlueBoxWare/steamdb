@@ -150,7 +150,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "The geese are attacking you! Anywhere, any way\u2014the geese just want to kill you! Don\u2019t ask why\u2014they\u2019re just being geese!",
-    "supported_languages": "English, Simplified Chinese",
+    "supported_languages": "English, Simplified Chinese, French, German, Spanish - Spain, Russian, Japanese, Traditional Chinese, Portuguese - Brazil, Korean",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5076500/45b313e59a7d3268e9a1eb6ae4d50e6740dfbee3/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5076500/2fb1f9f5753346e2d0546003a9894e8a30091a94/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5076500/2fb1f9f5753346e2d0546003a9894e8a30091a94/capsule_184x69.jpg",
@@ -753,7 +753,7 @@
     "dlc": [
       5076930
     ],
-    "short_description": "Your favorite pixel art app got invaded. Thousands of dots crawl in from the edges of the screen toward your core. You get one pencil and eight colors. Nobody tells you what the colors do. Hold as long as you can.",
+    "short_description": "Your pixel art app got invaded. Waves of dots crawl toward your core. Paint walls with 28 colors and 1,024 living textures: fire, forest, water, lava. Hold the waves, pick upgrades, find a floppy disk. Save your drawing before the dots eat it.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Korean, Japanese, Russian, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5076460/15019206694732072e021500f43b623f0217f744/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5076460/f8dc66a4ae5d698e337819dab006fb6d71063b25/capsule_231x87.jpg",
@@ -3633,7 +3633,19 @@
     "publishers": [
       "Soft Sky Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1760095
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Wanderbound",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -3641,13 +3653,16 @@
     },
     "categories": [
       2,
-      62
+      23,
+      62,
+      68,
+      74
     ],
     "genres": [
       4
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "13 Nov, 2026"
     },
     "support_info": {
