@@ -70,7 +70,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "You're a commercial diver left under an offshore platform after an accident. The only way up is a chain of emergency refuges, and each one needs something from out in the dark. You get a bearing, six strobes and a few minutes of gas. Your supervisor, Mara, stays on the radio.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451310/c9f6fda662ce0492c121b92e031c3b6e6cc07825/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451310/5cc729fa3a120ff5f5fa8cdaeb2ecefa65f206dd/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451310/5cc729fa3a120ff5f5fa8cdaeb2ecefa65f206dd/capsule_184x69.jpg",
@@ -3986,6 +3986,10 @@
     "steam_appid": 5451060,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5451130,
+      5451140
+    ],
     "short_description": "Choose among 13 distinct fantasy kingdoms: appoint ministers, balance the treasury and maneuver on the world map, then command legions in turn-based battles with war-strategy cards and towering giants. Roguelike runs, branching stories and multiple endings.",
     "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Russian, Japanese, Simplified Chinese, Portuguese - Brazil<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451060/02e7c851195a20c858cc393eeed2c0459c317a7b/header.jpg",
@@ -3998,7 +4002,19 @@
     "publishers": [
       "\u9ed1\u5e06\u5de5\u4f5c\u5ba4"
     ],
-    "package_groups": [],
+    "packages": [
+      1881125
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Crowns & Colossi",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4014,9 +4030,12 @@
       2,
       23
     ],
+    "achievements": {
+      "total": 20
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "November 2026"
+      "coming_soon": false,
+      "date": "14 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -4733,6 +4752,8 @@
     },
     "categories": [
       2,
+      22,
+      23,
       62,
       67,
       74,
@@ -5988,6 +6009,138 @@
         5
       ],
       "notes": "This game includes cartoon violence towards animals"
+    }
+  },
+  "5451130": {
+    "type": "dlc",
+    "name": "Crowns & Colossi: Skeleton Empire",
+    "steam_appid": 5451130,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Unleash the endless legions of the dead. The Skeleton Empire DLC adds a brand-new playable faction to Crowns and Colossi: tireless bone infantry, necromancers, undead cavalry, and the scythe-wielding Grim Reaper colossus, with a new faction skill and an exclusive story campaign.",
+    "fullgame": {
+      "appid": "5451060",
+      "name": "Crowns & Colossi"
+    },
+    "supported_languages": "English, French, German, Spanish - Spain, Russian, Japanese, Simplified Chinese, Portuguese - Brazil",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451130/9cae64afb11a32de40bf12a3cf485cf3a78a6894/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451130/0381601a54dc6e9e61a43aad807c59f12a4444a7/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451130/0381601a54dc6e9e61a43aad807c59f12a4444a7/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "\u9ed1\u5e06\u5de5\u4f5c\u5ba4"
+    ],
+    "publishers": [
+      "\u9ed1\u5e06\u5de5\u4f5c\u5ba4"
+    ],
+    "packages": [
+      1881147
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Crowns & Colossi: Skeleton Empire",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      23,
+      62
+    ],
+    "genres": [
+      2,
+      23
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "14 Nov, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "zklzkl12138@163.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5451130",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5451130",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5451140": {
+    "type": "dlc",
+    "name": "Crowns & Colossi: Demon Isle",
+    "steam_appid": 5451140,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Unleash the fires of chaos. The Demon Isle DLC adds a brand-new playable faction to Crowns and Colossi: fearless red devils, flame-hurling minotaurs, armored red-dragon warriors, and the hellfire-breathing Dark Dragon colossus, with a new faction skill and an exclusive story campaign.",
+    "fullgame": {
+      "appid": "5451060",
+      "name": "Crowns & Colossi"
+    },
+    "supported_languages": "English, French, German, Spanish - Spain, Russian, Japanese, Simplified Chinese, Portuguese - Brazil",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451140/eab4fb3a4432b4d8a24099cf6664c8e4cbc2bfa4/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451140/efc220b91a35327339d3a83f6b05ba0afe602cff/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451140/efc220b91a35327339d3a83f6b05ba0afe602cff/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "\u9ed1\u5e06\u5de5\u4f5c\u5ba4"
+    ],
+    "publishers": [
+      "\u9ed1\u5e06\u5de5\u4f5c\u5ba4"
+    ],
+    "packages": [
+      1881150
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Crowns & Colossi: Demon Isle",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21,
+      22,
+      23,
+      62
+    ],
+    "genres": [
+      2,
+      23
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "14 Nov, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "zklzkl12138@163.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5451140",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5451140",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }

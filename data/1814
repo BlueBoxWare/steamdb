@@ -718,7 +718,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "18 Jan, 2027"
+      "date": "7 Jan, 2027"
     },
     "support_info": {
       "url": "",
@@ -1039,6 +1039,7 @@
     "steam_appid": 5443280,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Step into the mystical halls of The Arcane Archive! In this cozy and atmospheric 3D puzzle game, your task is to sort and organize over 100 glowing magical potions on ancient shelves. Bring order to the chaos and unwind in the ultimate relaxing wizard's library.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Traditional Chinese, Korean, Polish, Portuguese - Portugal, Ukrainian, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443280/5804deff455809dc7f1603f7bd4a7c4734f3c621/header.jpg",
@@ -1073,6 +1074,11 @@
       2,
       22,
       23,
+      28,
+      55,
+      56,
+      57,
+      58,
       62,
       74,
       79,
@@ -1644,6 +1650,7 @@
     },
     "categories": [
       2,
+      22,
       62,
       64,
       68,
@@ -1657,6 +1664,9 @@
       28,
       70
     ],
+    "achievements": {
+      "total": 32
+    },
     "release_date": {
       "coming_soon": false,
       "date": "13 Nov, 2026"
@@ -4607,7 +4617,19 @@
     "publishers": [
       "Monchii Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1878597
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Chisel Me This",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -4632,9 +4654,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 10
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "15 Nov, 2026"
+      "coming_soon": false,
+      "date": "14 Nov, 2026"
     },
     "support_info": {
       "url": "https://discord.gg/kD3K8cPNJH",
