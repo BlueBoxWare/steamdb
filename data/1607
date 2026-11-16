@@ -1628,7 +1628,7 @@
     "dlc": [
       4854570
     ],
-    "short_description": "A fast strategy card battler from Slavic myth. Commit gods, spirits and curses to locations that bend the rules, outguess your opponent, and win in minutes. Free demo in Next Fest, with a fest-only card: Guest Right.",
+    "short_description": "A fast strategy card battler from Slavic myth. Commit gods, spirits and curses to locations that bend the rules, outguess your opponent, and win in minutes. Try the free demo now.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4822040/f55e7eed220c70ac01cba22d6bc68d685e65179b/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4822040/c76e2776da81273bb8c4e30a0a6fdb01866c3744/capsule_231x87.jpg",
@@ -1649,8 +1649,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -1845,6 +1845,7 @@
     "steam_appid": 4823020,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "A cute 2D underwater puzzle adventure based on Touhou Project.",
     "supported_languages": "English, Japanese, Spanish - Spain",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4823020/2d53791223898124a1d8071c719f59cd4aa50e4e/header.jpg",
@@ -1865,6 +1866,11 @@
     },
     "categories": [
       2,
+      28,
+      55,
+      56,
+      57,
+      58,
       62
     ],
     "genres": [
@@ -2658,7 +2664,19 @@
     "publishers": [
       "BD Interactive"
     ],
-    "package_groups": [],
+    "packages": [
+      1676002
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Mage of Corruption",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2681,9 +2699,12 @@
       2,
       3
     ],
+    "achievements": {
+      "total": 100
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "16 Nov, 2026"
+      "coming_soon": false,
+      "date": "15 Nov, 2026"
     },
     "support_info": {
       "url": "",

@@ -175,7 +175,7 @@
     "is_free": false,
     "controller_support": "full",
     "short_description": "A freight elevator descends the hundreds of floors of hell. Every time it stops, the doors open and demons pile in. KILL. THEM. ALL. Pixel-art carnage, bosses that come apart, and no way back up.",
-    "supported_languages": "English<strong>*</strong>, Japanese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, Japanese<strong>*</strong>, Simplified Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5531630/c5a3de7fb40e30908f2f4941fca9f48629127580/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5531630/ffdcbb40618e812a7bf164fce4ea6a67c898207b/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5531630/ffdcbb40618e812a7bf164fce4ea6a67c898207b/capsule_184x69.jpg",
@@ -200,6 +200,8 @@
     },
     "categories": [
       2,
+      15,
+      22,
       28,
       55,
       56,
@@ -708,8 +710,13 @@
     "required_age": 0,
     "is_free": true,
     "controller_support": "full",
+    "dlc": [
+      5597900,
+      5597910,
+      5597920
+    ],
     "short_description": "Fast, physics-based online football in the spirit of Haxball. Dribble, curl shots, dash and ghost past defenders in matches up to 6v6. Start a club, climb a league pyramid of real divisions, play cups and friendlies, and chat with your country's community. Free to play.",
-    "supported_languages": "English",
+    "supported_languages": "English, Spanish - Spain, Simplified Chinese, Portuguese - Brazil, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5529340/7d4187757dbc34c260dcc9ece5eac1822cd89243/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5529340/f6cd805a02c0e46535af7445797cfeb68aebe61e/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5529340/f6cd805a02c0e46535af7445797cfeb68aebe61e/capsule_184x69.jpg",
@@ -729,6 +736,7 @@
     "categories": [
       1,
       9,
+      22,
       23,
       28,
       36,
@@ -1060,7 +1068,19 @@
     "publishers": [
       "Pablo Bocelo Bellas"
     ],
-    "package_groups": [],
+    "packages": [
+      1907423
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Camp Rivals",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -1075,8 +1095,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "16 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -1674,7 +1694,7 @@
   },
   "5529500": {
     "type": "game",
-    "name": "Prison Archive",
+    "name": "Prison Archive: Detective Files",
     "steam_appid": 5529500,
     "required_age": 0,
     "is_free": false,
@@ -4010,7 +4030,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "3 Dec, 2026"
+      "date": "30 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -4478,14 +4498,10 @@
       23,
       52,
       53,
-      64,
-      66,
       67,
-      69,
       74,
       79,
-      80,
-      82
+      80
     ],
     "genres": [
       57

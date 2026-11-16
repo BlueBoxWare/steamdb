@@ -345,6 +345,7 @@
     "steam_appid": 5404460,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "A cozy first-person tidying game. Thousands of board game boxes lie scattered across a charming two-storey shop. Gather stacks of copies, shelve every game in its category and watch the shop come back to life, one satisfying section at a time.",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, Turkish<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5404460/df99aa06b004d09f02d31cfd35c2c8734321877c/header.jpg",
@@ -379,6 +380,11 @@
       2,
       22,
       23,
+      28,
+      55,
+      56,
+      57,
+      58,
       62,
       67,
       68,
@@ -1170,8 +1176,8 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Dark fantasy idle auto battler: two worlds, 14 biomes, 420 stages and 42 bosses. A red-hooded archer holds the road against an endless horde while you hatch pets, farm boss gear, pick perks and ascend. Leave it on a second monitor or sit down and min-max.",
-    "supported_languages": "English, Simplified Chinese, Ukrainian, French, German, Spanish - Spain, Portuguese - Brazil",
+    "short_description": "Dark fantasy idle auto battler: three worlds, 21 biomes, 630 stages and 63 bosses. A red-hooded archer holds the road against an endless horde while you hatch pets, farm boss gear, pick perks and ascend. Leave it on a second monitor or sit down and min-max.",
+    "supported_languages": "English, Simplified Chinese, Ukrainian, French, German, Spanish - Spain, Portuguese - Brazil, Italian, Japanese, Korean, Polish, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5405820/1b719dd77e7ca69b6c43b873dae9dbc558bd7a3e/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5405820/1f5c814bb6baa868841a8200307f9acdd88e7af8/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5405820/1f5c814bb6baa868841a8200307f9acdd88e7af8/capsule_184x69.jpg",
@@ -1924,7 +1930,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "November 2026"
+      "date": "December 2026"
     },
     "support_info": {
       "url": "",
@@ -2132,6 +2138,12 @@
     ],
     "publishers": [
       "Khinkali Games"
+    ],
+    "demos": [
+      {
+        "appid": 5453140,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -2455,7 +2467,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Asynchronous PvP Space Armada Battler. Build your armada, invite your friends... and destroy them",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5404570/6f052ff37800bb7811968ce0d216265847eba23c/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5404570/80518d97446b9dc79c724527652aca66a43f9098/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5404570/80518d97446b9dc79c724527652aca66a43f9098/capsule_184x69.jpg",
@@ -2615,14 +2627,14 @@
     ],
     "genres": [
       1,
-      70
+      9
     ],
     "achievements": {
       "total": 60
     },
     "release_date": {
       "coming_soon": false,
-      "date": "12 Nov, 2026"
+      "date": "15 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -5216,7 +5228,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "November 2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "https://projectbabel.xyz/",
@@ -5712,7 +5724,19 @@
     "publishers": [
       "PolarBear Studio"
     ],
-    "package_groups": [],
+    "packages": [
+      1866012
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Please Don\u2019t Break My Dungeon",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -5727,9 +5751,12 @@
       2,
       23
     ],
+    "achievements": {
+      "total": 16
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "16 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -6337,9 +6364,9 @@
     "is_free": false,
     "short_description": "Jetstream Blitz is a high-speed 2D jetpack shooter built on one rule: if you fight, you fly. Chain weapon recoil, grappling hooks, and 125 km/h aerial dives across a full-voiced roguelite arcade campaign, solo arenas, and 5v5 PvP!",
     "supported_languages": "English<strong>*</strong>, Japanese, Korean, Simplified Chinese, French, Italian, German, Spanish - Spain, Arabic, Czech, Finnish, Greek, Hungarian, Indonesian, Polish, Portuguese - Brazil, Russian, Traditional Chinese, Turkish, Ukrainian<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5405230/06d7585c39dd5e2c91e6777bf080ea99b3d0cf23/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5405230/c0ec9592e5db783f37c761f0c171b9cb079f7517/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5405230/c0ec9592e5db783f37c761f0c171b9cb079f7517/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5405230/e6d18283984be7b206d469c9788bd83a9b4e9564/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5405230/ecb02c0984cbe98cf2e60e8080fe202366e036ae/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5405230/ecb02c0984cbe98cf2e60e8080fe202366e036ae/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Studio HB"
