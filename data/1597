@@ -1926,7 +1926,10 @@
     "steam_appid": 4791200,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Strata is a node-based terrain heightmap generator built for game developers. Design landscapes visually, preview in real-time 3D, and export directly to Unreal Engine, Unity, or Godot.",
+    "dlc": [
+      4865260
+    ],
+    "short_description": "A node-based terrain editor for game developers. Build landscapes from a node graph, erode them, carve rivers and roads, then walk the result at player scale before exporting to Unreal Engine 5, Unity, Godot, O3DE or Leadwerks.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4791200/3bfd76880b4447e3c6289db32016d1dfd436d0c9/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4791200/efcd5ddbe039bc9b5e45e6544a8c9cee623abcd9/capsule_231x87.jpg",
@@ -1954,14 +1957,15 @@
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
+      "linux": true
     },
     "categories": [
       64,
       74,
       76,
       77,
-      79
+      79,
+      80
     ],
     "genres": [
       23,
@@ -2140,7 +2144,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "2027"
+      "date": "January 2027"
     },
     "support_info": {
       "url": "",
@@ -3484,6 +3488,8 @@
     },
     "categories": [
       2,
+      22,
+      23,
       62,
       68,
       74,
@@ -3495,7 +3501,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q4 2026"
+      "date": "26 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -4400,7 +4406,19 @@
     "publishers": [
       "Nebulix"
     ],
-    "package_groups": [],
+    "packages": [
+      1665726
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Alethra",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4416,8 +4434,8 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "November 2026"
+      "coming_soon": false,
+      "date": "17 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -6075,6 +6093,9 @@
     "steam_appid": 4791130,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5258690
+    ],
     "short_description": "After Oasis is a casual tower defense game with an engaging combo/synergy system and a randomized map mode for nearly infinite possibilities.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4791130/065b2c10698c240bf1bbfa5510fe544b7ee0c260/header.jpg",
@@ -6088,6 +6109,12 @@
     "publishers": [
       "Ivovonundzu",
       "Mahsan Delphie"
+    ],
+    "demos": [
+      {
+        "appid": 5258690,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {

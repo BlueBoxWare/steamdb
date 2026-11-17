@@ -845,6 +845,7 @@
     "steam_appid": 5327890,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Step into the serene celestial sanctum of Tarot: Deck of Celestials. Draw from an authentic 78-card arcana imbued with cosmic lore, consult classic and custom spreads, record your journey in the persistent journal, and import custom decks to make the cosmos your own.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5327890/76420443870ef9156019bd25ec48566fe4343ebe/header.jpg",
@@ -857,7 +858,19 @@
     "publishers": [
       "Sky Blue Eye Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1841130
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Tarot: Deck of Celestials",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -865,8 +878,10 @@
     },
     "categories": [
       2,
-      18,
       23,
+      28,
+      55,
+      56,
       62,
       68,
       74,
@@ -881,7 +896,7 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "17 Nov, 2026"
     },
     "support_info": {
@@ -3623,7 +3638,7 @@
     "dlc": [
       5327030
     ],
-    "short_description": "Quality Control is 4\u20138 player party game where customizable robots compete in chaotic factory minigames, asymmetric challenges, sudden-death showdowns, and a co-op survival mode.",
+    "short_description": "Quality Control is 4\u20138 player party game where customizable robots compete in chaotic factory minigames, asymmetric challenges, and sudden-death showdowns.",
     "supported_languages": "English, Spanish - Spain, Simplified Chinese, German",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5327000/d84095643133786c60fab8d49632d466c9546470/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5327000/3d7e0a777d58366eb86485e794474f7115aa8aa8/capsule_231x87.jpg",
@@ -3644,13 +3659,18 @@
     "categories": [
       1,
       9,
-      23,
       28,
       36,
       38,
       49,
-      59,
-      62
+      55,
+      56,
+      57,
+      58,
+      62,
+      68,
+      69,
+      74
     ],
     "genres": [
       4
@@ -4677,7 +4697,7 @@
     "steam_appid": 5327050,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Craft your weapons, strengthen your warriors and send them into different regions. Collect loot, upgrade your workshop and prepare for the Bosses with the new weapons unlocked. While you attend to your own affairs, your warriors will keep fighting for you.",
+    "short_description": "An Idle cozy blacksmith that sits on your desktop. Craft &amp; customize swords, bows, axes for your companions. Collect loot, upgrade your workshop and prepare for the Bosses. While you attend to your own affairs, your companions will keep fighting for you.",
     "supported_languages": "English, French, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America, Turkish, Ukrainian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5327050/cedb227db39bf845be3fdb34893c1f8170ee6b71/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5327050/e598f9abb9846f456518e7fafefd875a0326bb24/capsule_231x87.jpg",
@@ -4748,7 +4768,19 @@
     "publishers": [
       "66games"
     ],
-    "package_groups": [],
+    "packages": [
+      1840344
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Festival Fireworks Simulator",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -4774,9 +4806,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 16
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Q4 2026"
+      "coming_soon": false,
+      "date": "17 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -9513,8 +9548,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
