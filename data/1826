@@ -340,7 +340,7 @@
     "steam_appid": 5480000,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Build, play and manage golf: design your own courses, play with friends locally or online and lead your own golf club to success \u2013 with staff, caddies, tournaments, cheering crowds, weather and seasons. Fully playable offline, online leagues are optional.",
+    "short_description": "Play it, run it, build it: tee off on lovingly crafted courses, grow a single hole into a five-star golf resort and design courses to share with the world. With weather, seasons and cheering crowds \u2013 fully playable offline.",
     "supported_languages": "English, Italian, German, Spanish - Spain, Danish, Dutch, Polish, Portuguese - Portugal, Turkish, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5480000/c1ee0d9473596974470971657a40998d0bbbc9b0/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5480000/71aaa58e08fab31d5c39d744783af711f2c71cda/capsule_231x87.jpg",
@@ -1991,7 +1991,8 @@
     "is_free": false,
     "controller_support": "full",
     "dlc": [
-      5501520
+      5501520,
+      5501610
     ],
     "short_description": "They used the Overlord as a training dummy. Bad idea... In this casual voxel incremental action-RPG, every recruit you smash leaves a stat in your bones. Grind, evolve into new undead forms and climb seven floors to the five heroes who put you there.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese, Azerbaijani",
@@ -2011,7 +2012,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1890982
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Grave Ambition",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2043,8 +2056,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 25
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "18 Nov, 2026"
     },
     "support_info": {
@@ -4686,7 +4702,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q4 2026"
+      "date": "1 Dec, 2026"
     },
     "support_info": {
       "url": "",
@@ -6077,6 +6093,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      5600250
+    ],
     "short_description": "A nostalgic incremental game where you mine whole planets down to their core. Dig, upgrade and hire workers to uncover the secrets that lie beneath...",
     "supported_languages": "English, French, German, Spanish - Spain, Dutch, Indonesian, Japanese, Korean, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese, Spanish - Latin America, Turkish",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5478190/6ade4ddde5e299c3eecdd0553a0e2ade9371bdc8/header.jpg",
@@ -6088,6 +6107,12 @@
     ],
     "publishers": [
       "BiteMe Games"
+    ],
+    "demos": [
+      {
+        "appid": 5479000,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
