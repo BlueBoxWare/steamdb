@@ -5591,6 +5591,7 @@
     "steam_appid": 4463730,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "dlc": [
       5398320,
       5398280,
@@ -5631,6 +5632,9 @@
     "categories": [
       2,
       22,
+      28,
+      55,
+      57,
       62,
       68,
       75,
@@ -5679,12 +5683,12 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4461730/8d2980cc4e3c561d18365a6992047396d119eaf8/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4461730/3f1f198380fd60e29a7ab5d02f97dd7933ca696e/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4461730/3f1f198380fd60e29a7ab5d02f97dd7933ca696e/capsule_184x69.jpg",
-    "website": null,
+    "website": "https://morph.land",
     "developers": [
-      "MORPH"
+      "MorphLand"
     ],
     "publishers": [
-      "MORPH"
+      "MorphLand"
     ],
     "demos": [
       {
@@ -7355,7 +7359,7 @@
     "steam_appid": 4461020,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Mine, craft and extend your Factory on a Train! As you find more resources and unlock increasingly complex recipes, your train grows and your production increases. Choose the right cars to face the challenges of a post-apocalyptic wasteland.",
+    "short_description": "Factory on a Train is a short and linear factory game, perfect for a Sunday evening. Mine ore, smelt bars and craft goods in its cars, sell them to the crowds along the line, and fight off drones. Will you make it past the challenges and reach the end of the line?",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4461020/fe7d57407c115499112c7f8c2b59656683e3fde2/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4461020/68fe6b570b24920f1e19972e76d3de709d2fe015/capsule_231x87.jpg",
@@ -7373,7 +7377,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1557211
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Factory on a Train",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -7398,8 +7414,11 @@
       4,
       23
     ],
+    "achievements": {
+      "total": 21
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "19 Nov, 2026"
     },
     "support_info": {
