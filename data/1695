@@ -1449,9 +1449,9 @@
     "controller_support": "full",
     "short_description": "Calibration Sequence is a bullet hell game where you play as a nanobot undergoing its factory calibration.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085050/2fe67b68fc03905acb39db0a9cfe82eec849cf1e/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085050/578447ea2d23e715f4c89ee4e3df25ad2db83312/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085050/578447ea2d23e715f4c89ee4e3df25ad2db83312/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085050/23a42c82f04e050368c0552dfa39ea3b266c1941/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085050/205c524245987178923bc281acc26849ed4d39a4/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085050/205c524245987178923bc281acc26849ed4d39a4/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Lasse Malmberg"
@@ -4810,7 +4810,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1762176
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Tiny Tycoons",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -4834,8 +4846,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 14
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "19 Nov, 2026"
     },
     "support_info": {
@@ -7043,8 +7058,8 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "19 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -8162,6 +8177,56 @@
     "content_descriptors": {
       "ids": [],
       "notes": null
+    }
+  },
+  "5086710": {
+    "type": "dlc",
+    "name": "The False Alice -Retold Tale- Digital Artbook",
+    "steam_appid": 5086710,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "The official digital art book for The False Alice -Retold Tale-. Explore character illustrations of the three Alices, event stills, background art, design materials, rough sketches, promotional artwork, and more from the game's production.",
+    "fullgame": {
+      "appid": "4013270",
+      "name": "The False Alice -Retold Tale-"
+    },
+    "supported_languages": "Japanese, English, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086710/214f741643aeba36bc787723d9a6ab56421cb20a/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086710/19e13d5859b8d68be56cdccacc33b0bd20ac6624/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086710/19e13d5859b8d68be56cdccacc33b0bd20ac6624/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "VISUAL ARTS / team Aeca"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      21
+    ],
+    "genres": [
+      25
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "26 Nov, 2026"
+    },
+    "support_info": {
+      "url": "https://visual-arts.jp/",
+      "email": "teamaeca@visual-arts.jp"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5086710",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086710/e857c51744d480fe10ed00125566103bc74f4c18/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [
+        2,
+        5
+      ],
+      "notes": "This digital art book contains some illustrations depicting blood, combat, injuries, and other violent imagery. Viewer discretion is advised."
     }
   }
 }
