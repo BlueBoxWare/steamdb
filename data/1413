@@ -5382,7 +5382,7 @@
     "steam_appid": 4241820,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A business strategy tycoon set in the 80s arcade boom, where your company exists on the map. Develop hit games, command a workforce of specialist Agents, move cabinets and cash across the city, and outmuscle rival companies on the charts or in the streets.",
+    "short_description": "An 80s arcade tycoon where cash and cabinets physically move on the map. Engineer hit games, develop Football Manager-style talent in your academy, and outmuscle rivals\u2014by mugging their bagmen, hijacking their haulers in the streets, or setting up Guard Posts to siphon their coins.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4241820/34572d23e992d10e76d3d1e180fe154d26ee47f3/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4241820/4fe15f1969cb57d5cae66eecbe386dba75291d05/capsule_231x87.jpg",
@@ -5400,7 +5400,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1484840
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Arcade Warlord",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5425,8 +5437,11 @@
       28,
       70
     ],
+    "achievements": {
+      "total": 30
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "20 Nov, 2026"
     },
     "support_info": {

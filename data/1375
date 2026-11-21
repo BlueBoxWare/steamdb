@@ -1998,7 +1998,7 @@
     "name": "Seconda",
     "steam_appid": 4127470,
     "required_age": 0,
-    "is_free": true,
+    "is_free": false,
     "dlc": [
       4389290,
       4604310
@@ -2016,7 +2016,19 @@
     "publishers": [
       "Cosimo Damiano di Noia Productions"
     ],
-    "package_groups": [],
+    "packages": [
+      1950905
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Seconda",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2034,8 +2046,7 @@
     "genres": [
       1,
       23,
-      25,
-      37
+      25
     ],
     "achievements": {
       "total": 12
