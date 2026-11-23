@@ -406,11 +406,11 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "SHRED A BILLION is a first-person incremental game about a mountain of money! Grab bills by hand, scoop them with a bucket, level up and feed a billion dollars to the shredder. Only 3,929,120,202 bills left to go!",
+    "short_description": "SHRED A BILLION is a first-person incremental game about a mountain of money! Grab bills by hand, scoop them with a bucket, level up and feed a billion dollars to the shredder. Only 999,999,999 bills left to go!",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472080/c7008fc401199cb78bfa366a33cb4c029e922e02/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472080/50621bac0aec48945606adb9028060a181f6889a/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472080/50621bac0aec48945606adb9028060a181f6889a/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472080/4584864fda356b4d391b69cc2c0ea73bc286db3d/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472080/4241e6a58cf5461b96f9ed399e661fa16391d0fa/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472080/4241e6a58cf5461b96f9ed399e661fa16391d0fa/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "ImSoTiredStudio"
@@ -917,6 +917,11 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
+      5500300,
+      5500310,
+      5500320,
+      5500330,
+      5500340,
       5500350
     ],
     "short_description": "Bring a seaside shopping street to life in this cozy shopkeeping game. Arrange bouquets, bake bread, pour latte art, style hair, cook meals, and run your own little stores. Decorate your shops, meet the neighbours, and enjoy the small joys of life in Lilloville.",
@@ -931,7 +936,19 @@
     "publishers": [
       "TorranoDev"
     ],
-    "package_groups": [],
+    "packages": [
+      1888477
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Lilloville",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -939,6 +956,11 @@
     },
     "categories": [
       2,
+      18,
+      22,
+      23,
+      55,
+      57,
       62
     ],
     "genres": [
@@ -946,9 +968,12 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 38
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "To be announced"
+      "coming_soon": false,
+      "date": "22 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -2178,7 +2203,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Build and manage your own tropical getaway in PalmiVelle 2002, an isometric hotel management game. Create hotels, pools and beach facilities, manage staff and prices, and meet your guests\u2019 needs as you grow your seaside resort.",
-    "supported_languages": "English, German, Indonesian, Turkish, French",
+    "supported_languages": "English, German, Indonesian, Turkish, French, Spanish - Spain, Portuguese - Brazil, Danish, Korean, Polish, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5474840/be2c6e1626ff54e4dd425d92ead62cf8e1d507cd/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5474840/3773f1caa5d0f96fe846befb2f2aed9b19f5a7c0/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5474840/3773f1caa5d0f96fe846befb2f2aed9b19f5a7c0/capsule_184x69.jpg",
@@ -5118,6 +5143,12 @@
     ],
     "publishers": [
       "6Folder9"
+    ],
+    "demos": [
+      {
+        "appid": 5495810,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
