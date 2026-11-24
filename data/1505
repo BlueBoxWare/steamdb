@@ -764,7 +764,10 @@
     "steam_appid": 4516890,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Eclectic Deck is a deckbuilder roguelike. Play cards to unlock combos, earn points, and win the game in a simple yet hard to master game.",
+    "dlc": [
+      4696010
+    ],
+    "short_description": "A roguelike deckbuilder game where you try to earn enough points in a certain number of turns, inspired by trading card games of the 90s.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4516890/4b845c0982f57b197d8450b6af4cdaf3b8c2dc0d/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4516890/74142677af1633987630b2397aab648961699a62/capsule_231x87.jpg",
@@ -796,7 +799,6 @@
     },
     "categories": [
       2,
-      18,
       22,
       23,
       62
@@ -3648,7 +3650,7 @@
       "ids": [
         5
       ],
-      "notes": "This game contains the following content. All of it is conveyed through dialogue, blackouts, sound effects and silhouettes; no sexual acts, nudity or blood are depicted.\n\nImplied sexual exploitation of a minor, as part of a character's past\nViolence against and abandonment (neglect) of children\nImplied self-harm\nSelf-deprecating language and contemptuous words directed at others\nDiscrimination against and exclusion of monsters (fictional beings)\nScenes where a body transforms into a monstrous form (shown through sound and silhouette)\nMuch of this content is based on real-world issues. If it may be psychologically distressing to you, please proceed at your own discretion."
+      "notes": "This game contains the following content. All of it is conveyed through dialogue, blackouts, sound effects and silhouettes; no sexual acts, nudity or blood are depicted.\n\n\u30fbImplied sexual exploitation of a minor, as part of a character's past\n\u30fbViolence against and abandonment (neglect) of children\nImplied self-harm\n\u30fbSelf-deprecating language and contemptuous words directed at others\n\u30fbDiscrimination against and exclusion of monsters (fictional beings)\n\nMuch of this content is based on real-world issues. If it may be psychologically distressing to you, please proceed at your own discretion."
     }
   },
   "4516310": {
@@ -5738,9 +5740,6 @@
     "steam_appid": 4515150,
     "required_age": 0,
     "is_free": false,
-    "dlc": [
-      4803150
-    ],
     "short_description": "Help your monkey escape back to the jungle by gunning your way through obstacles and challenges. Test your skill in a open environment and find your way home! Choose how you want to play, and unlock guns that help you traverse the world!",
     "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Turkish<strong>*</strong>, Italian<strong>*</strong>, Polish<strong>*</strong>, Ukrainian<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4515150/b8ae212275d8ff195b96e48d3ea87b15a034f6a1/header.jpg",
@@ -5752,12 +5751,6 @@
     ],
     "publishers": [
       "Mad Polygon"
-    ],
-    "demos": [
-      {
-        "appid": 4803150,
-        "description": ""
-      }
     ],
     "package_groups": [],
     "platforms": {
@@ -7091,7 +7084,19 @@
     "publishers": [
       "TriCave"
     ],
-    "package_groups": [],
+    "packages": [
+      1575651
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy HomunCat: and the Blind Mansion",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -7118,7 +7123,7 @@
       70
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "24 Nov, 2026"
     },
     "support_info": {

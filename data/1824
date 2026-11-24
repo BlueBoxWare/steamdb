@@ -864,7 +864,7 @@
     "required_age": 0,
     "is_free": true,
     "short_description": "Fire of Changbai is a 2D real-time tactics game set against the backdrop of the anti-Japanese guerrilla war in Northeast China in the 1930s. The game's story and maps are drawn from real history, narrating\u2014from the perspective of a Korean anti-Japanese leader.",
-    "supported_languages": "English, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English, Simplified Chinese<strong>*</strong>, Russian, Japanese, Korean<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5473010/6ce8fab9950dca44030cefad7db30f5823529591/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5473010/929e4485d94ba446103823390c78a1b8ecc4eaf4/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5473010/929e4485d94ba446103823390c78a1b8ecc4eaf4/capsule_184x69.jpg",
@@ -883,6 +883,7 @@
     },
     "categories": [
       2,
+      25,
       62
     ],
     "genres": [
@@ -2017,7 +2018,7 @@
     "steam_appid": 5474140,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Downhill as far as you can from a nuclear explosion an your skateboard snowboard or surf while shooting it with uzi to do tricks. Hope you are faster than the nuke. ACID DROP DOWNHILL IS THE BEST YOU EVER FEEL",
+    "short_description": "Downhill as far away as you can from a nuclear explosion on your skateboard // snowboard or surf while shooting it with uzi to do tricks. Hope you are faster than the nuke. ACID DROP DOWNHILL IS THE BEST YOU EVER FEEL",
     "supported_languages": "English<strong>*</strong>, French, Japanese, Russian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5474140/0d240cd3cbda0d2a83fa0affb717cbeaa622e8fd/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5474140/1ab0849865846732080803c2c8d4cae89c677a93/capsule_231x87.jpg",
@@ -5331,8 +5332,8 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -5475,9 +5476,9 @@
     "is_free": false,
     "short_description": "A 2D physics building game where you build your own tank from a single block and send it into battle. Put your design to the test in tons of missions and real-time 1v1 battles.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Czech, Dutch, Indonesian, Japanese, Korean, Malay, Polish, Portuguese - Portugal, Russian, Thai, Traditional Chinese, Turkish, Vietnamese, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472150/7236196af3191014aba0b1c90c8d900e848b4cd3/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472150/38a7301d4b0a5ac9c731c87b8b5e9625c6b8eb1d/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472150/38a7301d4b0a5ac9c731c87b8b5e9625c6b8eb1d/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472150/704b4ad81f2712833e26d388f33daa37280297b3/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472150/5474ac0b159aa799b7cc013ad4b39d321b540efb/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472150/5474ac0b159aa799b7cc013ad4b39d321b540efb/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Lumidia Games"
@@ -5969,7 +5970,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1888608
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Follyvale",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -5997,8 +6010,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 49
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "23 Nov, 2026"
     },
     "support_info": {

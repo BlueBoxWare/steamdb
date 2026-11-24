@@ -1006,7 +1006,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Take part in World War II battles with your tank. You can choose from several types of tanks and select a historical battle that interests you.",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Arabic, Portuguese - Brazil<strong>*</strong>, Bulgarian, Danish, Portuguese - Portugal, Finnish, Indonesian, Japanese<strong>*</strong>, Korean<strong>*</strong>, Spanish - Latin America, Hungarian, Dutch, Norwegian, Polish<strong>*</strong>, Romanian, Russian<strong>*</strong>, Traditional Chinese, Turkish<strong>*</strong>, Ukrainian, Vietnamese, Simplified Chinese<strong>*</strong>, Czech<strong>*</strong>, Greek, Swedish<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4905580/7f728ca4deba29a85bd850f29e05ad337f70fc78/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4905580/9024ec07b3e44f4aab06bf319fc8394d5bbd09f9/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4905580/9024ec07b3e44f4aab06bf319fc8394d5bbd09f9/capsule_184x69.jpg",
@@ -1027,6 +1027,9 @@
       1,
       2,
       9,
+      15,
+      22,
+      23,
       24,
       39,
       44,
@@ -2122,6 +2125,9 @@
     "steam_appid": 4906330,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5340440
+    ],
     "short_description": "Immortal Gambit is a xianxia deckbuilding roguelike. Build your deck, seek treasures, and make trade-offs between Spirit and Bane. When Spirit runs short, Refine Bane to seize power now\u2014and face the consequences later.",
     "supported_languages": "English, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4906330/950ad30a1a9d2c27fd8b234057f850c072fe4f55/header.jpg",
@@ -6780,7 +6786,7 @@
     "steam_appid": 4905420,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Be the strategist behind cute waifus in a tactical, chaotic auto battler: set your formations, pick each one's playstyle, then watch it go gloriously right! Or wrong?! Solo campaigns and challenges, online 1v1s against friends, a roguelite Arena and a ranked Ladder for the ambitious.",
+    "short_description": "Place your cute waifus, press Start Battle and watch the chaos. You don't control the fight, so every win is your plan working and every loss is a puzzle to crack. Move one waifu, change one playstyle, try again. Easy to start, hard to master.",
     "supported_languages": "English, Portuguese - Brazil",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4905420/454b700d64ddbf5dd85d9e545688d8522d555daa/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4905420/fd3ac5be1a328ae7cd19d1f14fbef60736b62042/capsule_231x87.jpg",
@@ -8389,7 +8395,7 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "NekoGPT is an immersive AI companion for your desktop and streams. Talk by voice, customize her personality, use Live2D or 3D models, and let your assistant see your screen to react, help, and stay with you while you play, work, or study.",
-    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Japanese<strong>*</strong>, Portuguese - Brazil, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Traditional Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English, Italian, Spanish - Spain, Japanese, Russian, Simplified Chinese, Spanish - Latin America, Portuguese - Brazil",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4905540/2038b8212ebee36b09ca7d39387e09710b6eceac/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4905540/ee9e146a67080478aabec32b780893664abcba0d/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4905540/ee9e146a67080478aabec32b780893664abcba0d/capsule_184x69.jpg",
@@ -8444,7 +8450,19 @@
     "publishers": [
       "Sekai Project"
     ],
-    "package_groups": [],
+    "packages": [
+      1703589
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy KARAKARA3",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -8461,8 +8479,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 8
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "23 Nov, 2026"
     },
     "support_info": {

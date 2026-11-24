@@ -789,9 +789,9 @@
     "is_free": false,
     "short_description": "A cooperative puzzle-platformer! Join a cute spider and bee on a thrilling adventure! Solve puzzles together, enjoy fun PvP minigames, and face epic boss battles!",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Polish, Simplified Chinese<strong>*</strong>, Traditional Chinese, Portuguese - Brazil, Korean<br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254400/00bdd7199f48f54e0d0fe3e254259d3ad0fb52b3/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254400/be46a9f0cde44fddf840790b686ffa0d539a6493/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254400/be46a9f0cde44fddf840790b686ffa0d539a6493/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254400/14d17504fd11d5b89442a31fb7eba6156fd89954/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254400/aa66bdc6efbdf1a54bb379d4a7c201bb905db4df/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254400/aa66bdc6efbdf1a54bb379d4a7c201bb905db4df/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "QZ Studio"
@@ -852,7 +852,7 @@
       "email": "1185019792@qq.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4254400",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254400/ce82023a79af385b131a212a6cebacd28ffda5b1/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254400/51a75c6c1ef94cc5c324f826c9711dc5f9e3ed0c/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -2681,6 +2681,7 @@
     "steam_appid": 4255520,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "Defend Santa's last presents in this pixel-art Christmas defense game! Throw snowballs, hire penguin, owl and fox helpers, master a 29-skill tree and survive endless waves, giant bosses and the dreaded Red Moon. How long can you save Christmas?",
     "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Dutch, Greek, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Ukrainian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4255520/bc021e96f5a132bbca2cdaf33b5c9adeff4b58f1/header.jpg",
@@ -2717,6 +2718,7 @@
       22,
       23,
       25,
+      28,
       62,
       68,
       76
@@ -3640,7 +3642,19 @@
     "publishers": [
       "toastycedes"
     ],
-    "package_groups": [],
+    "packages": [
+      1489650
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Late Night Duty",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -3656,8 +3670,11 @@
       23,
       25
     ],
+    "achievements": {
+      "total": 26
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "23 Nov, 2026"
     },
     "support_info": {

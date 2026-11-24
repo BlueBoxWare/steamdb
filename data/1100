@@ -8467,11 +8467,11 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3301820/af139f1cc5aa6293a88b148b7f19921a2270b0d6/capsule_184x69.jpg",
     "website": "https://pqube.co.uk/games/class-of-heroes-3-remaster/",
     "developers": [
-      "ACQUIRE Corp.",
       "Zerodiv"
     ],
     "publishers": [
-      "PQube"
+      "PQube",
+      "ACQUIRE Corp."
     ],
     "packages": [
       1169382
@@ -12357,7 +12357,19 @@
     "publishers": [
       "Divergence Games"
     ],
-    "package_groups": [],
+    "packages": [
+      1168978
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Till the End",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12379,8 +12391,11 @@
       25,
       70
     ],
+    "achievements": {
+      "total": 22
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "23 Nov, 2026"
     },
     "support_info": {

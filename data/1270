@@ -3651,7 +3651,7 @@
     "package_groups": [],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -7077,10 +7077,22 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1340504
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Sortie",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -7101,9 +7113,12 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 28
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "24 Nov, 2026"
     },
     "support_info": {
       "url": "",
