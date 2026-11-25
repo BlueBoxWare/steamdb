@@ -295,7 +295,7 @@
       5546270
     ],
     "short_description": "Build routes. Break rocks. Try to keep the robots in one piece. A comic 2D puzzle game on Mars: assign ten specialised jobs, control the flow of your crew and improvise a way home through 150 increasingly devious missions. It's Totally Under Control!",
-    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Japanese, Polish, Portuguese - Brazil, Simplified Chinese<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5544530/67beaba3cfb7a5abfbb01b2c1fae72990185b2db/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5544530/41b37fe25d3d39b33bf9ea086c62613df6e67135/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5544530/41b37fe25d3d39b33bf9ea086c62613df6e67135/capsule_184x69.jpg",
@@ -305,6 +305,12 @@
     ],
     "publishers": [
       "Sole Rebel Soul"
+    ],
+    "demos": [
+      {
+        "appid": 5584770,
+        "description": ""
+      }
     ],
     "package_groups": [],
     "platforms": {
@@ -413,7 +419,19 @@
     "publishers": [
       "Enter the Game Studios"
     ],
-    "package_groups": [],
+    "packages": [
+      1912290
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Starward Protocol",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -433,8 +451,11 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 15
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "24 Nov, 2026"
     },
     "support_info": {
@@ -2920,7 +2941,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1912629
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy My Little Shadow",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -2936,8 +2969,8 @@
       28
     ],
     "release_date": {
-      "coming_soon": true,
-      "date": "23 Nov, 2026"
+      "coming_soon": false,
+      "date": "24 Nov, 2026"
     },
     "support_info": {
       "url": "",
@@ -3843,10 +3876,10 @@
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5544590/66dbc4f845648f64993791e7caa5fc25887e692c/capsule_184x69.jpg",
     "website": null,
     "developers": [
-      "NeuroSlop Studio"
+      "Total"
     ],
     "publishers": [
-      "NeuroSlop Studio"
+      "Gamesforgames"
     ],
     "package_groups": [],
     "platforms": {
@@ -4137,8 +4170,8 @@
     "short_description": "Forge, fight and trade, together. A multiplayer idle RPG that lives on your taskbar: your hero fights, mines and fishes while you work, and every piece of gear you forge shows on them. Free to play, in a shared world where players set every price.",
     "supported_languages": "English, Spanish - Latin America, Japanese, Portuguese - Brazil, Russian, French, German, Simplified Chinese, Korean, Indonesian, Spanish - Spain",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5545970/ced83d6a29b9d8b3ef1728e67a28561dafad70b9/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5545970/f828a440b18fcf46a05616c30d82ba5ebfa5ef2c/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5545970/f828a440b18fcf46a05616c30d82ba5ebfa5ef2c/capsule_184x69.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5545970/76e363099f4c5f51d25d81e5ec678f20e27bf3b2/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5545970/76e363099f4c5f51d25d81e5ec678f20e27bf3b2/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Guildlands"
@@ -4156,6 +4189,7 @@
       1,
       9,
       20,
+      35,
       36,
       38,
       49,
@@ -4770,7 +4804,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "24 Nov, 2026"
+      "date": "November 2026"
     },
     "support_info": {
       "url": "https://www.act7ent.com",
@@ -5709,6 +5743,75 @@
         5
       ],
       "notes": "The game contains revealing outfits, light/stylistic partial nudity, and some mildly sexual texts."
+    }
+  },
+  "5545630": {
+    "type": "dlc",
+    "name": "Cambell's Oddity Box - Skyline Stack",
+    "steam_appid": 5545630,
+    "required_age": 0,
+    "is_free": true,
+    "controller_support": "full",
+    "short_description": "Operate a midnight construction crane and stack swinging apartment blocks into a rising city tower. Time each drop, keep blocks on the building, and build precise placement streaks. See how high your skyline can go.",
+    "fullgame": {
+      "appid": "4281680",
+      "name": "Cambell\u2019s Oddity Box"
+    },
+    "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5545630/3b4f3b4de1b9ab1ba6a1058c6946702752126f70/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5545630/e62a4bdb137a713eaaca3568f3d79e7d8be95c2a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5545630/e62a4bdb137a713eaaca3568f3d79e7d8be95c2a/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Cambell James Smith"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      21,
+      22,
+      24,
+      28,
+      37,
+      39,
+      44,
+      49,
+      60,
+      62
+    ],
+    "genres": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      18,
+      23,
+      25,
+      28,
+      29,
+      37
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "24 Nov, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "cambelljsmith@proton.me"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5545630",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5545630",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }

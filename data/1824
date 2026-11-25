@@ -406,6 +406,9 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      5473560
+    ],
     "short_description": "SHRED A BILLION is a first-person incremental game about a mountain of money! Grab bills by hand, scoop them with a bucket, level up and feed a billion dollars to the shredder. Only 999,999,999 bills left to go!",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472080/4584864fda356b4d391b69cc2c0ea73bc286db3d/header.jpg",
@@ -424,7 +427,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1887993
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy SHRED A BILLION",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -453,8 +468,11 @@
       23,
       28
     ],
+    "achievements": {
+      "total": 100
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "24 Nov, 2026"
     },
     "support_info": {
@@ -1761,13 +1779,18 @@
       "linux": false
     },
     "categories": [
+      1,
       2,
+      9,
+      38,
+      48,
       62
     ],
     "genres": [
       1,
       23,
-      25
+      25,
+      70
     ],
     "release_date": {
       "coming_soon": true,
@@ -2184,7 +2207,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Q4 2026"
+      "date": "Q1 2027"
     },
     "support_info": {
       "url": "",
@@ -4109,7 +4132,7 @@
     "is_free": false,
     "short_description": "Sort and trade cargo in this turn-based strategy game. Make every slot count: stack cargo by color and sell full columns to cities that need it. Donate boosters to cities to reshape supply and boost profits. Meet your targets within the turn limit, then see how far you can go in Endless Mode!",
     "supported_languages": "English, Simplified Chinese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5474340/8ceeb2a7db7e63473834464e42bbfcfe5b188614/header.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5474340/26e69c5e4315af1b0ff2360e77a9c3059b5e5262/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5474340/0452c9f3e35935ce4c8915849b90e74feefed62b/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5474340/0452c9f3e35935ce4c8915849b90e74feefed62b/capsule_184x69.jpg",
     "website": null,
@@ -6213,6 +6236,12 @@
     "publishers": [
       "HandsomeGaming"
     ],
+    "demos": [
+      {
+        "appid": 5506100,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -6525,7 +6554,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "Don Morsa has kidnapped you and put you to work digging ice to stock his bazaar. You obey\u2026 but every tunnel you dig brings you a little closer to the way out. A co-op incremental for 1\u20134 players: sell to seals, upgrade your tools, hire penguins and plan the great escape.",
+    "short_description": "A first-person co-op mining and shopkeeping incremental for 1\u20134 penguins. Dig through the glacier, free frozen treasures, organize your shelves and sell to seals. Upgrade drills and vacuums, hire penguin interns, pay Don Morsa's quota\u2026 and quietly dig your way to freedom.",
     "supported_languages": "English, French, Spanish - Spain, German, Simplified Chinese, Portuguese - Brazil, Russian",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5473610/dfc8e57570a944df8f71a3aa9521e18e055832b8/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5473610/6bd6d1e75f260095b97ea5a080e2a52165b5b111/capsule_231x87.jpg",
@@ -6706,7 +6735,7 @@
     "steam_appid": 5472870,
     "required_age": 0,
     "is_free": false,
-    "short_description": "You're a bounty hunter working off a depot's job board: fly into zones held by armed contractors, slip past or break their patrols, loot what you can carry, and hold an extraction zone until the helicopter takes you home.",
+    "short_description": "Forsakia is a single-player, top-down pixel-art extraction shooter. Gear up at your hideout, fly into hostile territory, fight and search for loot, then reach an extraction zone and bring your haul home.",
     "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472870/e9f33a047662636152474d99731e7a71c2af2836/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472870/ecfcc94e360eac969e4501c104579e3ea465225a/capsule_231x87.jpg",
@@ -6760,6 +6789,333 @@
         5
       ],
       "notes": "Guns, melee and grenades kill human enemies; pixel blood effects on hits"
+    }
+  },
+  "5472980": {
+    "type": "dlc",
+    "name": "Dark Hours: Anomalies - Supporter Pack",
+    "steam_appid": 5472980,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "This content requires the base game Dark Hours: Anomalies on Steam in order to play.",
+    "fullgame": {
+      "appid": "5259120",
+      "name": "Dark Hours: Anomalies"
+    },
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Simplified Chinese, Traditional Chinese, Korean, Danish, Spanish - Latin America, Finnish, Indonesian, Japanese, Norwegian, Dutch, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Swedish, Thai, Ukrainian, Turkish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472980/4baf776aeaf48bfa3d689814fc37f3a1e462183f/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472980/e2d2feb0c0d7ad78f8876e6d822552b7517fecd9/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472980/e2d2feb0c0d7ad78f8876e6d822552b7517fecd9/capsule_184x69.jpg",
+    "website": "https://www.darkhours-thegame.com",
+    "developers": [
+      "Piece of Cake studios"
+    ],
+    "publishers": [
+      "Piece of Cake studios"
+    ],
+    "packages": [
+      1888279
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Dark Hours: Anomalies - Supporter Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      21,
+      23,
+      27,
+      28,
+      38,
+      62,
+      67,
+      68,
+      69,
+      70,
+      74,
+      80
+    ],
+    "genres": [
+      1,
+      25
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "25 Nov, 2026"
+    },
+    "support_info": {
+      "url": "https://www.darkhours-thegame.com",
+      "email": "support@darkhours-thegame.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5472980",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5472980",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5473290": {
+    "type": "game",
+    "name": "\u767b\u795e\u957f\u9636",
+    "steam_appid": 5473290,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "An idle xianxia looter with fully automated combat. Build the ultimate character and climb the Myriad Demon Tower: 17 skills per class, 10 gear modifications, artifacts, talismans, inner arts and skill variations to mix freely. Farm gear, roll affixes, brew pills, break realms, bond with acolytes...",
+    "supported_languages": "English, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5473290/716413315deac124519d14502e388bbd8dc8e877/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5473290/0e3892f5c4876b96cd36807d6753d465f75cd237/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5473290/0e3892f5c4876b96cd36807d6753d465f75cd237/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "LUO CHEN"
+    ],
+    "publishers": [
+      "LUO CHEN"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      62,
+      68,
+      69,
+      74,
+      76,
+      79,
+      80
+    ],
+    "genres": [
+      2,
+      3,
+      4,
+      23,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "9 Dec, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "357879929@qq.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5473290",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5473290/7c90df811d717c14d22b205dca26dc9d2affd8c7/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5473560": {
+    "type": "dlc",
+    "name": "SHRED A BILLION - Supporter Pack",
+    "steam_appid": 5473560,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Support the solo developer of SHRED A BILLION! A purely cosmetic thank-you pack: six thief outfits (two of them silly), funny skins for your tools and drones, gold and neon gloves, a Gilded Vacuum, a Gold-Plated Shredder and a badge your co-op friends will see. Thank you!",
+    "fullgame": {
+      "appid": "5472080",
+      "name": "SHRED A BILLION"
+    },
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5473560/8fb5c95128f072fc9da0cfebed33f6c57aaf4334/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5473560/68907666dfcfae31516172bfc0c65ef11590fe8e/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5473560/68907666dfcfae31516172bfc0c65ef11590fe8e/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "ImSoTiredStudio"
+    ],
+    "publishers": [
+      "LightTriadGames"
+    ],
+    "packages": [
+      1888490
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy SHRED A BILLION - Supporter Pack",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      1,
+      2,
+      9,
+      21,
+      28,
+      38,
+      55,
+      57,
+      62,
+      64,
+      67,
+      68,
+      69,
+      74,
+      79,
+      80
+    ],
+    "genres": [
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": false,
+      "date": "24 Nov, 2026"
+    },
+    "support_info": {
+      "url": "https://lighttriadgames.com/#",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5473560",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5473560",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5473650": {
+    "type": "game",
+    "name": "My Sexy Photo Store Katarine",
+    "steam_appid": 5473650,
+    "required_age": 0,
+    "is_free": true,
+    "short_description": "My Sexy Photo Store: Katarine is a relaxing jigsaw puzzle game with 20 progressively challenging levels. Solve each puzzle to unlock the next chapter of Katarine's story, leading to a final exciting sequence.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5473650/662beb216e8feb2cfcf634fd5e8a05618976ccf3/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5473650/a0d3199581a848f301365c7a74d85137d23c9b6f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5473650/a0d3199581a848f301365c7a74d85137d23c9b6f/capsule_184x69.jpg",
+    "website": "https://www.hentaipanda.games/",
+    "developers": [
+      "Red Thorn Games"
+    ],
+    "publishers": [
+      "Hentai Panda"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      62,
+      67,
+      68,
+      74,
+      76,
+      79,
+      80
+    ],
+    "genres": [
+      4,
+      37
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "18 Dec, 2026"
+    },
+    "support_info": {
+      "url": "",
+      "email": "redthorngamedev@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5473650",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5473650",
+    "content_descriptors": {
+      "ids": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "notes": "The mature content is exclusively female nudity, except for the final sex scenes which include male genitalia as well. Sex is consensual, no drugs, no direct alcohol consumption in-game, but there is an image of the character holding a glass of champagne and indication via dialogues."
+    }
+  },
+  "5474870": {
+    "type": "game",
+    "name": "Twistoon",
+    "steam_appid": 5474870,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Twist balloon toons that come alive and play on your screen. They stroll along your taskbar, stretch, chase their tails and earn you balloons. Make a postcard of your toon for a friend, hide a whisper inside, and they can put it on their own desk.",
+    "supported_languages": "English, Japanese, Korean, Simplified Chinese, Traditional Chinese, Russian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5474870/28ea3d7a97a7186c37725b48e94a519c2366b3bd/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5474870/eb1128c808d1256b765a07adcd948f1531143dca/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5474870/eb1128c808d1256b765a07adcd948f1531143dca/capsule_184x69.jpg",
+    "website": "https://marspaladin.com",
+    "developers": [
+      "Mars Paladin"
+    ],
+    "publishers": [
+      "Mars Paladin"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      62,
+      68,
+      69,
+      76,
+      79
+    ],
+    "genres": [
+      4
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "14 Jan, 2027"
+    },
+    "support_info": {
+      "url": "https://marspaladin.com",
+      "email": "support@marspaladin.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5474870",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5474870",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
     }
   }
 }

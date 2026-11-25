@@ -4902,7 +4902,7 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -4974,7 +4974,7 @@
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "October 2026"
+      "date": "Coming soon"
     },
     "support_info": {
       "url": "https://oxiwyle.com/",
@@ -5699,7 +5699,10 @@
     "required_age": 0,
     "is_free": false,
     "dlc": [
-      5398870
+      5472980,
+      5398870,
+      5522620,
+      5522630
     ],
     "short_description": "Dark Hours: Anomalies is a 1-4 player co-op horror game. The Trickster has trapped your crew of thieves in an endless loop. Memorize every room and spot the anomalies to break the curse. Miss one and you start over. Can you beat it, or will you be trapped forever?",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Simplified Chinese, Traditional Chinese, Korean, Danish, Spanish - Latin America, Finnish, Indonesian, Japanese, Norwegian, Dutch, Polish, Portuguese - Brazil, Portuguese - Portugal, Russian, Swedish, Thai, Ukrainian, Turkish",
@@ -5714,7 +5717,19 @@
       "Piece of Cake studios",
       "Kepler Ghost"
     ],
-    "package_groups": [],
+    "packages": [
+      1818758
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Dark Hours: Anomalies",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5740,8 +5755,11 @@
       25,
       70
     ],
+    "achievements": {
+      "total": 2
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "25 Nov, 2026"
     },
     "support_info": {
@@ -6149,9 +6167,8 @@
     "steam_appid": 5259150,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
     "short_description": "Classic trivia meets the builds and strategic combat of a roguelike! Answer questions to attack enemies, use skills to turn the odds in your favor, and collect artifacts that change how you play. Outsmart the Troll and claim his treasure!",
-    "supported_languages": "English, Spanish - Spain, Japanese, Simplified Chinese",
+    "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5259150/908f3af0d7ecd87a07cecb1f500f83e01f661326/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5259150/d3fe6210e4701d2f89302bdaacd9e704db53ecf6/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5259150/d3fe6210e4701d2f89302bdaacd9e704db53ecf6/capsule_184x69.jpg",
@@ -6171,14 +6188,8 @@
     },
     "categories": [
       2,
-      22,
-      28,
-      55,
-      56,
-      57,
-      58,
+      23,
       62,
-      68,
       74,
       80
     ],
