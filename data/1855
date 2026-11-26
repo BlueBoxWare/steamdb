@@ -18,6 +18,12 @@
     "publishers": [
       "devOMAR"
     ],
+    "demos": [
+      {
+        "appid": 5570190,
+        "description": ""
+      }
+    ],
     "package_groups": [],
     "platforms": {
       "windows": true,
@@ -227,8 +233,7 @@
     "steam_appid": 5566670,
     "required_age": 0,
     "is_free": false,
-    "controller_support": "full",
-    "short_description": "2027 is the Year of the Sheep! Float a woolly sheep up to the New Year's dawn, count sheep to the beat, herd your flock home before midnight, and more. Nine bite-sized sheep minigames, each playable in minutes - some with a friend, versus or co-op - plus high scores and leaderboards to chase.",
+    "short_description": "2027 is the Year of the Sheep! Float a woolly sheep up to the New Year's dawn, count sheep to the beat, herd your flock home before midnight, and more. Eleven bite-sized sheep minigames, each playable in minutes - some with a friend, versus or co-op - plus high scores and leaderboards to chase.",
     "supported_languages": "English, Simplified Chinese, Japanese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5566670/e298bd8defce535aed8f9de00646804dee162ed3/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5566670/ec1625294a0dc3e4a582d33b99a0a0c77cdb02ff/capsule_231x87.jpg",
@@ -250,11 +255,11 @@
       1,
       2,
       9,
+      18,
       22,
       23,
       24,
       25,
-      28,
       39,
       44,
       62,
@@ -263,11 +268,12 @@
     "genres": [
       1,
       4,
+      18,
       23
     ],
     "release_date": {
       "coming_soon": true,
-      "date": "Coming soon"
+      "date": "21 Dec, 2026"
     },
     "support_info": {
       "url": "",
@@ -420,7 +426,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1919116
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Depthline",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -442,7 +460,7 @@
       23
     ],
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "26 Nov, 2026"
     },
     "support_info": {
@@ -654,10 +672,10 @@
     "required_age": 0,
     "is_free": false,
     "short_description": "Inherit Velvet &amp; Pine, a little coffin shop that has secretly served vampires for sixty years. Greet the night's customers, work out who casts no reflection, and build bespoke coffins by hand for the undead.",
-    "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5566200/a365047f7677ea442cd1777bf0e36e2ec9a33533/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5566200/f9e5f87c4fa12d83bb5cb3ee4e162db2873daae5/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5566200/f9e5f87c4fa12d83bb5cb3ee4e162db2873daae5/capsule_184x69.jpg",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Traditional Chinese<strong>*</strong>, Turkish<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5566200/0ecd6fcaafcbc8dc086ccd22b2abc502ba333452/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5566200/cd5d11decd57f2ae7971743dbd87c94ddeb20d22/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5566200/cd5d11decd57f2ae7971743dbd87c94ddeb20d22/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "LSTT"
@@ -674,7 +692,11 @@
     "categories": [
       2,
       23,
-      62
+      62,
+      67,
+      74,
+      76,
+      80
     ],
     "genres": [
       4,
@@ -1948,11 +1970,12 @@
     "steam_appid": 5565330,
     "required_age": 0,
     "is_free": false,
-    "short_description": "Suit up and cool the Sun in a first-person sci-fi co-op. Spray paths across molten lava, salvage asteroids, build water-powered machines, and explore a dangerous solar world alone or with friends.",
-    "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5565330/2a496567953dc8ff05a51e003e7ac1964ba3945a/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5565330/b50f09ae2cc837fc7f2eb12472e97329666e3ba8/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5565330/b50f09ae2cc837fc7f2eb12472e97329666e3ba8/capsule_184x69.jpg",
+    "controller_support": "full",
+    "short_description": "Put out the Sun with a garden hose and a robot cat. Play solo or in online co-op as you cool a path across the lava, crush asteroids for cash, and build a waterworks. At 11 PM, the locals crawl out of the lava and come for your plumbing.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5565330/82c7d456dfd0e5d0213e0ccd85130ea32734afcf/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5565330/7936acd1561a4a5dcbf7289ebd6cd4410e719047/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5565330/7936acd1561a4a5dcbf7289ebd6cd4410e719047/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Weird jobs"
@@ -1970,8 +1993,19 @@
       1,
       2,
       9,
+      22,
+      23,
+      28,
       38,
-      62
+      55,
+      56,
+      57,
+      58,
+      59,
+      62,
+      68,
+      74,
+      78
     ],
     "genres": [
       1,
@@ -1987,7 +2021,7 @@
     },
     "support_info": {
       "url": "",
-      "email": "gametest4555@gmail.com"
+      "email": "overtimedevs@gmail.com"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5565330",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5565330",
@@ -4268,6 +4302,109 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5565050",
     "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5565050/92da5b4920b8ab26af3092f409156f3e733781a7/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5565710": {
+    "type": "game",
+    "name": "Pelagia",
+    "steam_appid": 5565710,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Build a colony on the floor of a shoreless ocean while an ark of sleeping colonists waits in orbit. By day, lower your modules and keep air, power and food flowing. By night, your lights draw creatures up from the deep.",
+    "supported_languages": "English, French",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5565710/5d109e060556574c583b768733ea56d768111f2b/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5565710/1d3a85d42fbc9a0af4a7d558a2e08c60f43c349f/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5565710/1d3a85d42fbc9a0af4a7d558a2e08c60f43c349f/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Petit Vaisseau"
+    ],
+    "publishers": [
+      "Petit Vaisseau"
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      62
+    ],
+    "genres": [
+      2,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "2027"
+    },
+    "support_info": {
+      "url": "https://petitvaisseau.com",
+      "email": "contact@petitvaisseau.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5565710",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5565710/299f40b5486c82770fe51b5a96b09fe62ca18235/page_bg_raw.jpg",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5566040": {
+    "type": "dlc",
+    "name": "inZOI: Spotlight",
+    "steam_appid": 5566040,
+    "required_age": 0,
+    "is_free": false,
+    "short_description": "Your story. Your stage. Your rise to stardom. Step into the spotlight and experience the excitement of life in the entertainment industry! Train as an idol or audition as an actor. Design concerts, star in films across four genres, and live the celebrity life in Evermont, a glamorous new city.",
+    "fullgame": {
+      "appid": "2456740",
+      "name": "inZOI"
+    },
+    "supported_languages": "Korean, English, French, Italian, German, Spanish - Spain, Russian, Japanese, Simplified Chinese, Traditional Chinese, Portuguese - Brazil, Portuguese - Portugal, Polish, Dutch, Turkish",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5566040/d8d119d7f93eb92c2c84cae61baf8e5c437a3cef/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5566040/a9967659076604ad89d2479a6a2a6e4bd28c52c1/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5566040/a9967659076604ad89d2479a6a2a6e4bd28c52c1/capsule_184x69.jpg",
+    "website": "https://playinzoi.com",
+    "developers": [
+      "inZOI Studio"
+    ],
+    "publishers": [
+      "KRAFTON, Inc."
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "categories": [
+      2,
+      18,
+      21,
+      23,
+      62
+    ],
+    "genres": [
+      4,
+      25,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "2 Dec, 2026"
+    },
+    "support_info": {
+      "url": "https://support.playinzoi.com",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5566040",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5566040/2931fe0c347910067efd464fc7a6472e2012495b/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null

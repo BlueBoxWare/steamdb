@@ -1888,7 +1888,7 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
-    "short_description": "One dungeon a day, the same for everyone. Dungelo is a turn-based pixel roguelike you can finish in 15 minutes: read what each monster is about to do, answer it, and beat the floor 5 boss. Your first run counts on the daily board. Yesterday's best set today's challenge. Difficulty shifts with you.",
+    "short_description": "One dungeon a day, and everyone plays the same one. Read each monster's next move, beat the boss in a 15-minute turn-based run, and see where your one ranked run lands. Yesterday's top three leave gifts in today's dungeon, and the winner's ghost hunts anyone who lingers.",
     "supported_languages": "English",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5546220/d8fd7e913e33aaa894f2c5a823c3e76270c23d28/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5546220/005bc01db7a824b67e5dbfef6690502866790424/capsule_231x87.jpg",
@@ -1930,7 +1930,6 @@
       75,
       76,
       77,
-      78,
       79,
       80
     ],
@@ -3016,7 +3015,7 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -4231,9 +4230,9 @@
     "controller_support": "full",
     "short_description": "Duck Billiards is a bullet heaven where your attacks are determined by billiard balls and runs are lightning quick. Play as cool duck wizards and unlock lots of items and levels!",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5546350/93c157dd6a41c2be282350c6216062eb72fe9286/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5546350/1371c4710ace7c2f3ba293f8baa40fcfefccb76c/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5546350/1371c4710ace7c2f3ba293f8baa40fcfefccb76c/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5546350/0903b63b755daed5dbd6e9e1a9464d22585aaf19/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5546350/4666b8299db95ddb70adb1e63d40542004b20cdd/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5546350/4666b8299db95ddb70adb1e63d40542004b20cdd/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Goose Shroom"
@@ -4779,7 +4778,19 @@
     "publishers": [
       "Act Seven Entertainment Inc."
     ],
-    "package_groups": [],
+    "packages": [
+      1912861
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy CHASA : Twilight Reaper",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -4802,9 +4813,12 @@
       23,
       70
     ],
+    "achievements": {
+      "total": 29
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "November 2026"
+      "coming_soon": false,
+      "date": "25 Nov, 2026"
     },
     "support_info": {
       "url": "https://www.act7ent.com",
@@ -5809,6 +5823,66 @@
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5545630",
     "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5545630",
+    "content_descriptors": {
+      "ids": [],
+      "notes": null
+    }
+  },
+  "5545210": {
+    "type": "game",
+    "name": "Monsters Eat Spores",
+    "steam_appid": 5545210,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "short_description": "Your job is simple: keep cosmic monsters fed, one spore at a time. Use your cursor to grab spores from the monsters' faces and fling them into their mouths. Each monster has its own appetite and its own quirks, so it's your job to keep everyone happy and well fed.",
+    "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Turkish<br><strong>*</strong>languages with full audio support",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5545210/d4510e8eb4a896ac542af73384e1e8a99874d921/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5545210/0e3e07cc707e2e1c75fd5ffabc0a2622b3310c2a/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5545210/0e3e07cc707e2e1c75fd5ffabc0a2622b3310c2a/capsule_184x69.jpg",
+    "website": null,
+    "developers": [
+      "Pixel Crate Games"
+    ],
+    "publishers": [
+      "Pixel Crate Games"
+    ],
+    "demos": [
+      {
+        "appid": 5656230,
+        "description": ""
+      }
+    ],
+    "package_groups": [],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "categories": [
+      2,
+      22,
+      23,
+      28,
+      62,
+      68,
+      74
+    ],
+    "genres": [
+      4,
+      23,
+      28
+    ],
+    "release_date": {
+      "coming_soon": true,
+      "date": "Q1 2027"
+    },
+    "support_info": {
+      "url": "https://www.pixelcrate.games/contact",
+      "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5545210",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5545210/1175af5660c4f9b13eb15d83ccebab8dd3cdb868/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
