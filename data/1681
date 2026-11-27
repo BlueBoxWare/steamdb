@@ -7395,6 +7395,9 @@
     "steam_appid": 5044750,
     "required_age": 0,
     "is_free": false,
+    "dlc": [
+      5572990
+    ],
     "short_description": "Become a stylish Mole armed with a three-claw grappling hook and dig your way to fortune! Snatch valuable ores, earn gold, unlock powerful upgrades, expand your mining automation, and build the ultimate underground mining empire in this satisfying incremental adventure.",
     "supported_languages": "English, French, German, Japanese, Korean, Russian, Simplified Chinese",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5044750/86ed108666be2e98570a74cf1df5adb33e3b832e/header.jpg",
@@ -7413,10 +7416,22 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1749055
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Mole & Ore",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
-      "mac": false,
+      "mac": true,
       "linux": false
     },
     "categories": [
@@ -7431,8 +7446,11 @@
       25,
       28
     ],
+    "achievements": {
+      "total": 14
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "26 Nov, 2026"
     },
     "support_info": {

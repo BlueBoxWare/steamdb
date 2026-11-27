@@ -604,9 +604,9 @@
     "is_free": false,
     "short_description": "A first-person climb up a white tower. Dodge, bunny hop and slide to the top, earn Trackmania-style medals on every segment, race the ghosts of the best players\u2026 and fall. A lot.",
     "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Simplified Chinese, Traditional Chinese, Korean, Danish, Spanish - Latin America, Finnish, Greek, Hungarian, Indonesian, Japanese, Malay, Norwegian, Dutch, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Swedish, Czech, Thai, Turkish, Ukrainian, Vietnamese",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5411400/12479584106ca2d1ca699ad65242533b49e80b91/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5411400/918bbee926e5614f155f338962553854b01dabdc/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5411400/918bbee926e5614f155f338962553854b01dabdc/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5411400/e6dd5875c2b8c60ae68da8420b3cdc7da05f662e/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5411400/01994d14e38768be2f390f9b56bdf0d3f00cde40/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5411400/01994d14e38768be2f390f9b56bdf0d3f00cde40/capsule_184x69.jpg",
     "website": null,
     "developers": [
       "Two Rowers Studio"
@@ -1051,8 +1051,8 @@
     ],
     "platforms": {
       "windows": true,
-      "mac": false,
-      "linux": false
+      "mac": true,
+      "linux": true
     },
     "categories": [
       2,
@@ -2546,9 +2546,9 @@
     "is_free": false,
     "short_description": "Smash planets together in a real-time physics simulator. Watch a Mars-sized world hit the young Earth, debris spread into a disk and a new moon form, and tides stretch and spin up worlds. Millions of particles on your GPU. Record the raw simulation data and replay from any angle at any speed.",
     "supported_languages": "English",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5411970/a8ef531f2cadf3e713bf56f97de8ccf64cb4e4fc/header.jpg",
-    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5411970/0c2760a08c1db3eaa98743afabd45835e32646bb/capsule_231x87.jpg",
-    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5411970/0c2760a08c1db3eaa98743afabd45835e32646bb/capsule_184x69.jpg",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5411970/64a5145292f217279ccc1f2c0a0f94b2a9cd68e3/header.jpg",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5411970/e6f5e69d6d0a7d5345ae8bb46354b1c266be586c/capsule_231x87.jpg",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5411970/e6f5e69d6d0a7d5345ae8bb46354b1c266be586c/capsule_184x69.jpg",
     "website": "https://greenleaf.dk/in_a_box/planets/",
     "developers": [
       "Greenleaf"
@@ -2597,7 +2597,7 @@
       "email": "support@greenleaf.dk"
     },
     "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5411970",
-    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5411970/1189c371d5bb1c4f9610c9e5dcab71d10c0d1b3f/page_bg_raw.jpg",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5411970/16972be721642a66699193dc1ce7b334bcc6f8a1/page_bg_raw.jpg",
     "content_descriptors": {
       "ids": [],
       "notes": null
@@ -4762,7 +4762,6 @@
       15,
       22,
       23,
-      30,
       62,
       66,
       68,
@@ -5041,7 +5040,19 @@
     "publishers": [
       "Youarenotalone"
     ],
-    "package_groups": [],
+    "packages": [
+      1867695
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy 4th Supplementary",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -5061,8 +5072,11 @@
     "genres": [
       23
     ],
+    "achievements": {
+      "total": 3
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "26 Nov, 2026"
     },
     "support_info": {
