@@ -12737,6 +12737,10 @@
     "required_age": 0,
     "is_free": false,
     "controller_support": "full",
+    "dlc": [
+      5605330,
+      5605400
+    ],
     "short_description": "Arkheron is a fast-paced, team-based PvP game where items grant powerful abilities to master. Combine them to outplay rival teams with skill and creativity as you fight your way up the Tower. Every run challenges you to adapt, survive, and master new combinations.",
     "supported_languages": "English<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, French, German, Spanish - Spain, Polish, Portuguese - Brazil, Simplified Chinese, Spanish - Latin America, Traditional Chinese, Italian, Russian<br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/30aa0db1b4ee4eb19c72add82f8453f17053d309/header.jpg",
@@ -12749,7 +12753,26 @@
     "publishers": [
       "Bonfire Studios"
     ],
-    "package_groups": [],
+    "demos": [
+      {
+        "appid": 4251130,
+        "description": ""
+      }
+    ],
+    "packages": [
+      1180201,
+      1947121
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Arkheron",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": false,
@@ -12773,8 +12796,11 @@
       1,
       70
     ],
+    "achievements": {
+      "total": 18
+    },
     "release_date": {
-      "coming_soon": true,
+      "coming_soon": false,
       "date": "27 Nov, 2026"
     },
     "support_info": {

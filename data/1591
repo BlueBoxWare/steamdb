@@ -5164,6 +5164,7 @@
     "steam_appid": 4774800,
     "required_age": 0,
     "is_free": false,
+    "controller_support": "full",
     "short_description": "A cozy Semi-Idle MMORPG where every parsnip, sword, spell, fish, and enemy is part of your rise to legend. Farm, forage, fish, mine, cook, craft, smith &amp; more! Trade with players, join a guild, explore dangerous regions, and build your character from humble village life into a legendary adventurer.",
     "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4774800/72e4ac582dda7c31abadba4d4052e4d1512c9c32/header.jpg",
@@ -5200,10 +5201,15 @@
       20,
       22,
       27,
+      28,
       35,
       36,
       38,
       49,
+      55,
+      56,
+      57,
+      58,
       62
     ],
     "genres": [
@@ -6691,7 +6697,19 @@
         "description": ""
       }
     ],
-    "package_groups": [],
+    "packages": [
+      1659805
+    ],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Butterflies & Bloom",
+        "description": "",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false"
+      }
+    ],
     "platforms": {
       "windows": true,
       "mac": true,
@@ -6707,9 +6725,17 @@
       79,
       80
     ],
+    "genres": [
+      4,
+      23,
+      28
+    ],
+    "achievements": {
+      "total": 12
+    },
     "release_date": {
-      "coming_soon": true,
-      "date": "Coming soon"
+      "coming_soon": false,
+      "date": "27 Nov, 2026"
     },
     "support_info": {
       "url": "https://nitzan.games",
@@ -7969,8 +7995,8 @@
     "steam_appid": 4775330,
     "required_age": 0,
     "is_free": false,
-    "short_description": "A music jigsaw puzzle where the finished picture is Bach. Listen to scattered phrases, fit the voices together, and hear the composition take shape. From a single melody to interwoven fugues, put your musical ear to work.",
-    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese",
+    "short_description": "A music jigsaw puzzle where the finished picture is Bach. Listen to scattered pieces of real Bach compositions, arrange them on a timeline, and hear them play together.",
+    "supported_languages": "English, French, Italian, German, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4775330/ceefc33bef845c654b37d8a33b5634c03928ff40/header.jpg",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4775330/fc4dbf6382ce371eda9d8ac8e6a8bfeaeff5c90c/capsule_231x87.jpg",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4775330/fc4dbf6382ce371eda9d8ac8e6a8bfeaeff5c90c/capsule_184x69.jpg",
